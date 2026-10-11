@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Trigger scanner diagnostic capture and independent audit run
+# Trigger automated triage and report drafting verification
 
 on:
   workflow_dispatch:
