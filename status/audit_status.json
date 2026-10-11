@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-11T21:15:52.301628+00:00",
-  "workflow_run_id": "38175451178",
-  "workflow_sha": "984c0b0164e26eea618fdf1cdca05973a3cee613",
+  "time_utc": "2026-10-11T21:18:09.785929+00:00",
+  "workflow_run_id": "38175627848",
+  "workflow_sha": "bd22570d1ddc9e2478593a7545a9cd7195db75c2",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -49,7 +49,94 @@
       "needs_review": 13,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
-      "payout_verified_usd": 0
+      "payout_verified_usd": 0,
+      "severity_counts": {
+        "High": 6,
+        "Medium": 33,
+        "Low": 29,
+        "Informational": 593,
+        "Optimization": 3
+      },
+      "review_queue": [
+        {
+          "id": "df03bce1714d",
+          "check": "arbitrary-send-erc20",
+          "impact": "High",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "972ce92ec305",
+          "check": "uninitialized-state",
+          "impact": "High",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "be1c1609e7b5",
+          "check": "uninitialized-state",
+          "impact": "High",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "12ec614578dc",
+          "check": "divide-before-multiply",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "20f0b85eac0b",
+          "check": "divide-before-multiply",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "98fdd9e27146",
+          "check": "divide-before-multiply",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "00f846e1adf2",
+          "check": "erc20-interface",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "b241ec50cd2c",
+          "check": "incorrect-equality",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "016430194a14",
+          "check": "reentrancy-no-eth",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "1429588799f6",
+          "check": "reentrancy-no-eth",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "8e48c2a2804a",
+          "check": "reentrancy-no-eth",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "d51386d2891a",
+          "check": "reentrancy-no-eth",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "9d74cbad990c",
+          "check": "unused-return",
+          "impact": "Medium",
+          "reproduction": "specific_poc_not_run"
+        }
+      ]
     },
     "validation_results.json": {
       "present": true,
@@ -63,6 +150,15 @@
           "returncode": 0
         }
       ]
+    },
+    "eligibility_status.json": {
+      "present": true,
+      "officially_verified_targets": 0,
+      "ready_for_live_testing": 0,
+      "confirmed_eligible_reports": 0,
+      "confirmed_payouts_usd": 0,
+      "payout_status": "unknown_no_verified_payment_records",
+      "specific_pocs_executed": 0
     }
   }
 }
