@@ -15,7 +15,7 @@ for i, target in enumerate(config['repositories']):
         if repo.exists(): shutil.rmtree(repo)
         subprocess.run(['git', 'clone', '--quiet', '--no-checkout', target['url'], str(repo)], check=True, timeout=150)
         subprocess.run(['git', '-C', str(repo), 'checkout', '--quiet', target['commit']], check=True, timeout=90)
-        files = list(repo.rglob('*.sol'))
+      files = [p for p in repo.rglob('*.sol') if p.is_file()]
         entry['solidity_files'] = len(files)
         entry['status'] = 'source retrieved; heuristic review only'
         entry['review_flags'] = []
@@ -29,6 +29,6 @@ for i, target in enumerate(config['repositories']):
     except Exception as exc:
         entry['status'] = 'error'
         entry['error'] = str(exc)[:500]
-filename = out / 'audit.json'
+filename = ROOT / 'audit.json'
 filename.write_text(json.dumps(report, ensure_ascii=False, indent=2))
 print(json.dumps(report, ensure_ascii=False, indent=2))
