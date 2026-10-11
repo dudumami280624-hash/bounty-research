@@ -1,4 +1,5 @@
 name: Authorized public-source audit
+# Connection verification run after user saved HackerOne username secret
 
 on:
   workflow_dispatch:
