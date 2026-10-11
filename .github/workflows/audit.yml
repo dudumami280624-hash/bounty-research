@@ -16,6 +16,8 @@ permissions:
 jobs:
   audit:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     timeout-minutes: 15
     steps:
       - name: Checkout repository
@@ -58,6 +60,12 @@ jobs:
         if: always()
         continue-on-error: true
         run: python slither_audit.py
+
+      - name: Publish audit status to private repository
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python publish_audit_status.py
 
       - name: Save results
         if: always()
