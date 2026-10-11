@@ -50,6 +50,11 @@ jobs:
         continue-on-error: true
         run: python discover.py
 
+      - name: Install Foundry Solidity toolchain
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+
       - name: Install free Solidity static analyzer
         run: python -m pip install --disable-pip-version-check slither-analyzer==0.11.3
 
