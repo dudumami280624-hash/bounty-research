@@ -21,6 +21,12 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Test candidate discovery logic
+        run: python -m unittest -v test_discover.py
+
+      - name: Discover publicly listed bounty candidates
+        run: python discover.py
+
       - name: Run source review
         run: python audit.py
 
@@ -29,5 +35,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: review-results
-          path: audit.json
+          path: |
+            audit.json
+            candidates.json
           if-no-files-found: warn
