@@ -79,6 +79,14 @@ jobs:
             echo "No Slither findings available; drafts not generated"
           fi
 
+      - name: Run isolated offline Foundry test baseline
+        if: always()
+        continue-on-error: true
+        run: |
+          if [ -f triage_results.json ]; then
+            python validate_local.py
+          fi
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -98,6 +106,7 @@ jobs:
             slither_results.json
             triage_results.json
             report_drafts.md
+            validation_results.json
           if-no-files-found: warn
 
   hackerone_connection:
