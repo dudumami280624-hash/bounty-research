@@ -23,7 +23,8 @@ def read_report(name):
     elif name=="slither_results.json":
         out["projects"]=[{"name":x.get("name"),"status":x.get("status"),
                           "triage_flags":len(x.get("findings",[])),
-                          "error_type":x.get("error_type")}
+                          "error_type":x.get("error_type"),
+                          "error_excerpt":str(x.get("error_excerpt") or "")[-900:]}
                          for x in value.get("projects",[])][:25]
     else:
         out["error"]=str(value.get("error") or "")[:120]
