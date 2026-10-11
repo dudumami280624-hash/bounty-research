@@ -20,6 +20,8 @@ def read_report(name):
                           "solidity_files":x.get("solidity_files"),
                           "flags":len(x.get("review_flags",[]))}
                          for x in value.get("projects",[])][:25]
+    elif name=="eligibility_status.json":
+        out.update({k:value.get(k) for k in ("officially_verified_targets","ready_for_live_testing","confirmed_eligible_reports","confirmed_payouts_usd","payout_status","specific_pocs_executed")})
     elif name=="validation_results.json":
         out["leads_recorded"]=value.get("leads_recorded")
         out["specific_pocs_executed"]=value.get("specific_pocs_executed")
@@ -44,7 +46,7 @@ report={"time_utc":datetime.now(timezone.utc).isoformat(),
         "note":"Static triage flags are NOT verified vulnerabilities.",
         "reports":{name:read_report(name) for name in (
             "global_bounties.json","bugcrowd_bounties.json",
-            "candidates.json","audit.json","slither_results.json","triage_results.json","validation_results.json")}}
+            "candidates.json","audit.json","slither_results.json","triage_results.json","validation_results.json","eligibility_status.json")}}
 token=os.environ["GITHUB_TOKEN"]
 repo=os.environ["GITHUB_REPOSITORY"]
 url=f"https://api.github.com/repos/{repo}/contents/status/audit_status.json"
