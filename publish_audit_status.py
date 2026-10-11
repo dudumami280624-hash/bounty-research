@@ -21,7 +21,8 @@ def read_report(name):
                           "flags":len(x.get("review_flags",[]))}
                          for x in value.get("projects",[])][:25]
     elif name=="validation_results.json":
-        out["leads_checked"]=value.get("leads_checked")
+        out["leads_recorded"]=value.get("leads_recorded")
+        out["specific_pocs_executed"]=value.get("specific_pocs_executed")
         out["verified_vulnerabilities"]=value.get("verified_vulnerabilities")
         out["test_runs"]=[{"project":r.get("project"),"test_status":r.get("test_status"),"returncode":r.get("returncode")} for r in value.get("test_runs",[])][:25]
     elif name=="triage_results.json":
