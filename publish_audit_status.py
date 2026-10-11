@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+"""Publish bounded audit-status metadata only, not private source or secrets."""
+import base64
+import json
+import os
+from pathlib import Path
+import urllib.error
+import urllib.request
+from datetime import datetime, timezone
+
+ROOT=Path(__file__).resolve().parent
+def read_report(name):
+    try:
+        value=json.loads((ROOT/name).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {"present":False}
+    out={"present":True}
+    if name=="audit.json":
+        out["projects"]=[{"name":x.get("name"),"status":x.get("status"),
+                          "solidity_files":x.get("solidity_files"),
+                          "flags":len(x.get("review_flags",[]))}
+                         for x in value.get("projects",[])][:25]
+    elif name=="slither_results.json":
+        out["projects"]=[{"name":x.get("name"),"status":x.get("status"),
+                          "triage_flags":len(x.get("findings",[])),
+                          "error_type":x.get("error_type")}
+                         for x in value.get("projects",[])][:25]
+    else:
+        out["error"]=str(value.get("error") or "")[:120]
+        out["candidate_count"]=value.get("candidate_count",value.get("total_candidates"))
+    return out
+
+report={"time_utc":datetime.now(timezone.utc).isoformat(),
+        "workflow_run_id":os.getenv("GITHUB_RUN_ID",""),
+        "workflow_sha":os.getenv("GITHUB_SHA",""),
+        "note":"Static triage flags are NOT verified vulnerabilities.",
+        "reports":{name:read_report(name) for name in (
+            "global_bounties.json","bugcrowd_bounties.json",
+            "candidates.json","audit.json","slither_results.json")}}
+token=os.environ["GITHUB_TOKEN"]
+repo=os.environ["GITHUB_REPOSITORY"]
+url=f"https://api.github.com/repos/{repo}/contents/status/audit_status.json"
+headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
+         "X-GitHub-Api-Version":"2022-11-28","User-Agent":"BountyResearch/1.0"}
+sha=None
+try:
+    with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=12) as r:
+        sha=json.loads(r.read(50000)).get("sha")
+except urllib.error.HTTPError as err:
+    if err.code!=404: raise
+content=base64.b64encode((json.dumps(report,indent=2)+"\n").encode()).decode()
+body={"message":"Update audit status [skip ci]","content":content,"branch":"main"}
+if sha:body["sha"]=sha
+req=urllib.request.Request(url,headers=headers,data=json.dumps(body).encode(),method="PUT")
+with urllib.request.urlopen(req,timeout=20) as resp:
+    print("Audit status published:",resp.status)
