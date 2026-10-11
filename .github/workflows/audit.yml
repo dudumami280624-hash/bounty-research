@@ -66,6 +66,19 @@ jobs:
         continue-on-error: true
         run: python slither_audit.py
 
+      - name: Test evidence-gated report generation
+        if: always()
+        run: python -m unittest -v test_triage_reports.py
+
+      - name: Generate deduplicated security review and report drafts
+        if: always()
+        run: |
+          if [ -f slither_results.json ]; then
+            python triage_reports.py
+          else
+            echo "No Slither findings available; drafts not generated"
+          fi
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -83,6 +96,8 @@ jobs:
             global_bounties.json
             bugcrowd_bounties.json
             slither_results.json
+            triage_results.json
+            report_drafts.md
           if-no-files-found: warn
 
   hackerone_connection:
