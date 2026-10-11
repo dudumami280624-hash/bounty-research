@@ -1,0 +1,19 @@
+{
+  "program": "Horizen",
+  "platform": "Immunefi",
+  "checked_on": "2026-10-11",
+  "official_scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
+  "official_information_url": "https://immunefi.com/bug-bounty/horizen/information/",
+  "pinned_commit": "ab92502e9da98784dfe3bd3ef933d4e9345ff628",
+  "direct_smart_contract_source_assets": [
+    "src/ZenStaker.sol",
+    "src/RewardAccumulator.sol"
+  ],
+  "inherited_code_policy": "Underlying Staker implementation is only eligible with demonstrated concrete impact on in-scope ZenStaker",
+  "local_poc_only": true,
+  "no_public_chain_exploit_transactions": true,
+  "known_issues_check_required": true,
+  "report_requires_runnable_poc": true,
+  "payout_requires_kyc": true,
+  "maximum_bounty_usd": 10000
+}
