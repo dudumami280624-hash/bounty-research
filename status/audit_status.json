@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-11T20:57:38.372571+00:00",
-  "workflow_run_id": "38174350613",
-  "workflow_sha": "a5785a649d39279ab09b6db5d96958e54a5d3f9a",
+  "time_utc": "2026-10-11T20:59:17.796550+00:00",
+  "workflow_run_id": "38174454561",
+  "workflow_sha": "d1452235c1a02eb80290e047d6b29a704f8ab747",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -37,7 +37,8 @@
           "name": "Horizen staker (pinned public source)",
           "status": "scan_failed_no_json",
           "triage_flags": 0,
-          "error_type": null
+          "error_type": null,
+          "error_excerpt": "le \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/subprocess.py\", line 1026, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/subprocess.py\", line 1955, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: 'forge'\n"
         }
       ]
     }
