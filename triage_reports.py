@@ -32,15 +32,22 @@ def triage(data):
             lower = desc.lower()
             third_party = "lib/" in lower or "node_modules/" in lower or "test/" in lower
             ident = hashlib.sha256(repr(key).encode()).hexdigest()[:12]
+            direct = ("src/ZenStaker.sol" in desc or "src/RewardAccumulator.sol" in desc)
+            inherited = "src/Staker.sol" in desc and not direct
+            scope_relevance = ("direct_in_scope_source" if direct else
+                               "inherited_impact_must_be_proven" if inherited else
+                               "not_established")
             records.append({
                 "id": ident, "project": project.get("name"), "commit": project.get("commit"),
+                "scope_relevance":scope_relevance,
+                "known_issue_review_required":True,
                 "check": check, "impact": impact, "confidence": item.get("confidence"),
                 "description": desc[:1800], "third_party_or_test": third_party,
                 "priority": "review" if impact in ("High", "Medium") and not third_party else "deferred",
                 "reproduction": "not_run", "verified": False,
                 "bounty_scope_verified": False, "ready_to_submit": False,
             })
-    records.sort(key=lambda x: (SEVERITY.get(x["impact"], 9), x["third_party_or_test"], x["check"], x["id"]))
+    records.sort(key=lambda x: (SEVERITY.get(x["impact"], 9), x["scope_relevance"]!="direct_in_scope_source", x["third_party_or_test"], x["check"], x["id"]))
     return records
 
 def render(records):
