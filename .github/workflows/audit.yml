@@ -36,6 +36,14 @@ jobs:
         continue-on-error: true
         run: python global_bounties.py
 
+      - name: Test Bugcrowd public candidate selection
+        run: python -m unittest -v test_bugcrowd_bounties.py
+
+      - name: Extract Bugcrowd cash bounty candidates
+        if: always()
+        continue-on-error: true
+        run: python bugcrowd_bounties.py
+
       - name: Discover publicly listed bounty candidates
         continue-on-error: true
         run: python discover.py
@@ -52,6 +60,7 @@ jobs:
             audit.json
             candidates.json
             global_bounties.json
+            bugcrowd_bounties.json
           if-no-files-found: warn
 
   hackerone_connection:
