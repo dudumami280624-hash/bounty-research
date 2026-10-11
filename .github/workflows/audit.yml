@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Connection verification run after user saved HackerOne username secret
+# Trigger scanner diagnostic capture and independent audit run
 
 on:
   workflow_dispatch:
