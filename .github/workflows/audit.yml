@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Trigger automated triage and report drafting verification
+# Trigger scope-gated validation and diagnostics after verified official rule review
 
 on:
   workflow_dispatch:
