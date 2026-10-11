@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-11T21:11:39.087103+00:00",
-  "workflow_run_id": "38175164503",
-  "workflow_sha": "cb748ea69eb0912513a2bb05930337210a68ad84",
+  "time_utc": "2026-10-11T21:15:52.301628+00:00",
+  "workflow_run_id": "38175451178",
+  "workflow_sha": "984c0b0164e26eea618fdf1cdca05973a3cee613",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -50,6 +50,19 @@
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
       "payout_verified_usd": 0
+    },
+    "validation_results.json": {
+      "present": true,
+      "leads_recorded": 13,
+      "specific_pocs_executed": 0,
+      "verified_vulnerabilities": 0,
+      "test_runs": [
+        {
+          "project": "Horizen staker (pinned public source)",
+          "test_status": "passed",
+          "returncode": 0
+        }
+      ]
     }
   }
 }
