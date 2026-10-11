@@ -98,3 +98,7 @@ filename.write_text(
 )
 
 print(json.dumps(report, ensure_ascii=False, indent=2))
+
+# A successful GitHub job must mean every configured audit completed.
+if any(project["status"] == "error" for project in report["projects"]):
+    raise SystemExit(1)
