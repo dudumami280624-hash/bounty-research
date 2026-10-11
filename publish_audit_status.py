@@ -29,6 +29,8 @@ def read_report(name):
         out["test_runs"]=[{"project":r.get("project"),"test_status":r.get("test_status"),"returncode":r.get("returncode")} for r in value.get("test_runs",[])][:25]
     elif name=="triage_results.json":
         out.update({key:value.get(key) for key in ("total_alerts","unique_alerts","needs_review","verified_vulnerabilities","ready_to_submit","payout_verified_usd")})
+        out["severity_counts"]=value.get("severity_counts",{})
+        out["review_queue"]=[{"id":x.get("id"),"check":x.get("check"),"impact":x.get("impact"),"reproduction":x.get("reproduction")} for x in value.get("findings",[]) if x.get("priority")=="review"][:30]
     elif name=="slither_results.json":
         out["projects"]=[{"name":x.get("name"),"status":x.get("status"),
                           "triage_flags":len(x.get("findings",[])),
