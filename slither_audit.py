@@ -46,7 +46,7 @@ for idx, target in enumerate(CONFIG["repositories"]):
             row["error_excerpt"] = process.stderr[-1600:]
         if row["status"] != "analyzed":
             row["scanner_returncode"] = process.returncode
-            row["error_excerpt"] = process.stderr[-400:]
+            row["error_excerpt"] = process.stderr[-1500:]
     except Exception as exc:
         row["status"] = "scanner_exception"
         row["error_type"] = type(exc).__name__
