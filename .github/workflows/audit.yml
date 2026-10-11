@@ -71,7 +71,7 @@ jobs:
       - name: Validate HackerOne read-only API connection
         env:
           HACKERONE_API_TOKEN: ${{ secrets.HACKERONE_API_TOKEN }}
-          HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
+          HACKERONE_USERNAME: bountyhunterai26
         run: python hackerone_connection.py
 
       - name: Publish safe status to private repository
