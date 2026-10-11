@@ -24,6 +24,12 @@ jobs:
       - name: Test candidate discovery logic
         run: python -m unittest -v test_discover.py
 
+      - name: Test global bounty directory filtering
+        run: python -m unittest -v test_global_bounties.py
+
+      - name: Discover global cash bounty candidates
+        run: python global_bounties.py
+
       - name: Discover publicly listed bounty candidates
         run: python discover.py
 
@@ -38,4 +44,5 @@ jobs:
           path: |
             audit.json
             candidates.json
+            global_bounties.json
           if-no-files-found: warn
