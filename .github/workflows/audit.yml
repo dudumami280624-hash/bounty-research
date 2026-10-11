@@ -56,6 +56,8 @@ jobs:
 
   hackerone_connection:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     timeout-minutes: 3
     steps:
       - name: Checkout repository
@@ -71,6 +73,12 @@ jobs:
           HACKERONE_API_TOKEN: ${{ secrets.HACKERONE_API_TOKEN }}
           HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
         run: python hackerone_connection.py
+
+      - name: Publish safe status to private repository
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python publish_hackerone_status.py
 
       - name: Save connection status (no secrets or report content)
         if: always()
