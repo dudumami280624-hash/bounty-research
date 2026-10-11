@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-11T21:19:37.290328+00:00",
-  "workflow_run_id": "38175724416",
-  "workflow_sha": "131572d17653ca585773e4922f90c4b71c16538a",
+  "time_utc": "2026-10-11T21:28:59.029662+00:00",
+  "workflow_run_id": "38176380596",
+  "workflow_sha": "7e8ca9c64cf4adc201dda81a63318d5111bb265d",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
