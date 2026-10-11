@@ -48,11 +48,15 @@ for finding in triage.get("findings",[]):
     result=next((r for r in results if r["commit"]==finding["commit"]),None)
     finding["reproduction"]="specific_poc_not_run"
     finding["test_baseline"]=result["test_status"] if result else "not_run"
+    finding["poc_evidence"] = None
+    finding["impact_evidence"] = None
+    finding["verification_gate"] = "blocked_no_specific_poc"
     finding["verified"]=False
     finding["ready_to_submit"]=False
 summary={"time_utc":datetime.now(timezone.utc).isoformat(),
          "test_runs":results,
-         "leads_checked":sum(f.get("priority")=="review" for f in triage.get("findings",[])),
+         "leads_recorded":sum(f.get("priority")=="review" for f in triage.get("findings",[])),
+         "specific_pocs_executed":0,
          "verified_vulnerabilities":0,"ready_to_submit":0,
          "note":"Project baseline testing cannot validate or falsify an individual finding; exploit-specific PoC needed."}
 (ROOT/"validation_results.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False),encoding="utf-8")
