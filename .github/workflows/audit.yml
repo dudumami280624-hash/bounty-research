@@ -28,9 +28,11 @@ jobs:
         run: python -m unittest -v test_global_bounties.py
 
       - name: Discover global cash bounty candidates
+        continue-on-error: true
         run: python global_bounties.py
 
       - name: Discover publicly listed bounty candidates
+        continue-on-error: true
         run: python discover.py
 
       - name: Run source review
