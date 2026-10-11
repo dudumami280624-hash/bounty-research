@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-11T20:11:15.540123+00:00",
+  "service": "HackerOne Hacker API",
+  "mode": "READ_ONLY",
+  "connected": false,
+  "status": "missing_credentials",
+  "missing": [
+    "HACKERONE_USERNAME"
+  ],
+  "note": "Only status metadata. A successful check has connected=true and status=verified."
+}
