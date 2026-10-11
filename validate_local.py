@@ -46,7 +46,7 @@ for idx,target in enumerate(config["repositories"]):
 for finding in triage.get("findings",[]):
     if finding.get("priority")!="review": continue
     result=next((r for r in results if r["commit"]==finding["commit"]),None)
-    finding["reproduction"]="not_reproduced" if result and result["test_status"]=="passed" else "blocked_or_not_run"
+    finding["reproduction"]="specific_poc_not_run"
     finding["test_baseline"]=result["test_status"] if result else "not_run"
     finding["verified"]=False
     finding["ready_to_submit"]=False
