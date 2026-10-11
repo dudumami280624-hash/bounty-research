@@ -20,6 +20,8 @@ def read_report(name):
                           "solidity_files":x.get("solidity_files"),
                           "flags":len(x.get("review_flags",[]))}
                          for x in value.get("projects",[])][:25]
+    elif name=="triage_results.json":
+        out.update({key:value.get(key) for key in ("total_alerts","unique_alerts","needs_review","verified_vulnerabilities","ready_to_submit","payout_verified_usd")})
     elif name=="slither_results.json":
         out["projects"]=[{"name":x.get("name"),"status":x.get("status"),
                           "triage_flags":len(x.get("findings",[])),
@@ -37,7 +39,7 @@ report={"time_utc":datetime.now(timezone.utc).isoformat(),
         "note":"Static triage flags are NOT verified vulnerabilities.",
         "reports":{name:read_report(name) for name in (
             "global_bounties.json","bugcrowd_bounties.json",
-            "candidates.json","audit.json","slither_results.json")}}
+            "candidates.json","audit.json","slither_results.json","triage_results.json")}}
 token=os.environ["GITHUB_TOKEN"]
 repo=os.environ["GITHUB_REPOSITORY"]
 url=f"https://api.github.com/repos/{repo}/contents/status/audit_status.json"
