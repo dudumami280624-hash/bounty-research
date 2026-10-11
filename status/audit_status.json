@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-11T21:18:09.785929+00:00",
-  "workflow_run_id": "38175627848",
-  "workflow_sha": "bd22570d1ddc9e2478593a7545a9cd7195db75c2",
+  "time_utc": "2026-10-11T21:19:37.290328+00:00",
+  "workflow_run_id": "38175724416",
+  "workflow_sha": "131572d17653ca585773e4922f90c4b71c16538a",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -62,78 +62,91 @@
           "id": "df03bce1714d",
           "check": "arbitrary-send-erc20",
           "impact": "High",
+          "scope_relevance": "not_established",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "972ce92ec305",
           "check": "uninitialized-state",
           "impact": "High",
+          "scope_relevance": "not_established",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "be1c1609e7b5",
           "check": "uninitialized-state",
           "impact": "High",
+          "scope_relevance": "inherited_impact_must_be_proven",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "12ec614578dc",
           "check": "divide-before-multiply",
           "impact": "Medium",
-          "reproduction": "specific_poc_not_run"
-        },
-        {
-          "id": "20f0b85eac0b",
-          "check": "divide-before-multiply",
-          "impact": "Medium",
-          "reproduction": "specific_poc_not_run"
-        },
-        {
-          "id": "98fdd9e27146",
-          "check": "divide-before-multiply",
-          "impact": "Medium",
-          "reproduction": "specific_poc_not_run"
-        },
-        {
-          "id": "00f846e1adf2",
-          "check": "erc20-interface",
-          "impact": "Medium",
-          "reproduction": "specific_poc_not_run"
-        },
-        {
-          "id": "b241ec50cd2c",
-          "check": "incorrect-equality",
-          "impact": "Medium",
-          "reproduction": "specific_poc_not_run"
-        },
-        {
-          "id": "016430194a14",
-          "check": "reentrancy-no-eth",
-          "impact": "Medium",
+          "scope_relevance": "direct_in_scope_source",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "1429588799f6",
           "check": "reentrancy-no-eth",
           "impact": "Medium",
+          "scope_relevance": "direct_in_scope_source",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "8e48c2a2804a",
           "check": "reentrancy-no-eth",
           "impact": "Medium",
+          "scope_relevance": "direct_in_scope_source",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "20f0b85eac0b",
+          "check": "divide-before-multiply",
+          "impact": "Medium",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "98fdd9e27146",
+          "check": "divide-before-multiply",
+          "impact": "Medium",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "00f846e1adf2",
+          "check": "erc20-interface",
+          "impact": "Medium",
+          "scope_relevance": "not_established",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "b241ec50cd2c",
+          "check": "incorrect-equality",
+          "impact": "Medium",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "reproduction": "specific_poc_not_run"
+        },
+        {
+          "id": "016430194a14",
+          "check": "reentrancy-no-eth",
+          "impact": "Medium",
+          "scope_relevance": "not_established",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "d51386d2891a",
           "check": "reentrancy-no-eth",
           "impact": "Medium",
+          "scope_relevance": "inherited_impact_must_be_proven",
           "reproduction": "specific_poc_not_run"
         },
         {
           "id": "9d74cbad990c",
           "check": "unused-return",
           "impact": "Medium",
+          "scope_relevance": "not_established",
           "reproduction": "specific_poc_not_run"
         }
       ]
