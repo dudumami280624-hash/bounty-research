@@ -42,6 +42,8 @@ for idx, target in enumerate(CONFIG["repositories"]):
             row["status"] = "analyzed" if process.returncode in (0, 255) else "scanner_error"
         else:
             row["status"] = "scan_failed_no_json"
+            row["scanner_returncode"] = process.returncode
+            row["error_excerpt"] = process.stderr[-1600:]
         if row["status"] != "analyzed":
             row["scanner_returncode"] = process.returncode
             row["error_excerpt"] = process.stderr[-400:]
