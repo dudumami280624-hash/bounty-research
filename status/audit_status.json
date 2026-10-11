@@ -1,0 +1,45 @@
+{
+  "time_utc": "2026-10-11T20:57:38.372571+00:00",
+  "workflow_run_id": "38174350613",
+  "workflow_sha": "a5785a649d39279ab09b6db5d96958e54a5d3f9a",
+  "note": "Static triage flags are NOT verified vulnerabilities.",
+  "reports": {
+    "global_bounties.json": {
+      "present": true,
+      "error": "",
+      "candidate_count": 530
+    },
+    "bugcrowd_bounties.json": {
+      "present": true,
+      "error": "",
+      "candidate_count": 77
+    },
+    "candidates.json": {
+      "present": true,
+      "error": "",
+      "candidate_count": 423
+    },
+    "audit.json": {
+      "present": true,
+      "projects": [
+        {
+          "name": "Horizen staker (pinned public source)",
+          "status": "source retrieved; heuristic review only",
+          "solidity_files": 76,
+          "flags": 0
+        }
+      ]
+    },
+    "slither_results.json": {
+      "present": true,
+      "projects": [
+        {
+          "name": "Horizen staker (pinned public source)",
+          "status": "scan_failed_no_json",
+          "triage_flags": 0,
+          "error_type": null
+        }
+      ]
+    }
+  }
+}
