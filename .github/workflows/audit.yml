@@ -87,6 +87,14 @@ jobs:
             python validate_local.py
           fi
 
+      - name: Verify scope and payout safety gates
+        if: always()
+        run: python -m unittest -v test_eligibility_gate.py
+
+      - name: Generate bounty eligibility and payout status
+        if: always()
+        run: python eligibility_gate.py
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -107,6 +115,7 @@ jobs:
             triage_results.json
             report_drafts.md
             validation_results.json
+            eligibility_status.json
           if-no-files-found: warn
 
   hackerone_connection:
