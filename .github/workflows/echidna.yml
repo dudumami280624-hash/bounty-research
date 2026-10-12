@@ -1,5 +1,5 @@
 name: Upstream Echidna stateful security invariants
-# Reuses Trail of Bits maintained Echidna; every job publishes explicit verdict.
+# Restrict build-info to the exact fuzz harness, avoiding unrelated Foundry PP artifacts.
 
 on:
   workflow_dispatch:
@@ -31,7 +31,8 @@ jobs:
           test "$(git -C _work/0 rev-parse HEAD)" = ab92502e9da98784dfe3bd3ef933d4e9345ff628
           cp poc/RewardAccumulatorInvariant.t.sol _work/0/test/RewardAccumulatorInvariant.t.sol
           cd _work/0
-          forge build --build-info
+          forge clean
+          forge build test/RewardAccumulatorInvariant.t.sol --build-info --force
 
       - name: Run upstream Echidna property-based transaction sequences
         id: fuzz
