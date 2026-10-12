@@ -169,11 +169,11 @@ jobs:
         if: always()
         run: python acceptance.py
 
-      - name: Install Node 24 for official in-scope dApp
+      - name: Install exact upstream Node 24.16.0 for official in-scope dApp
         if: always()
         uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: '24.16.0'
 
       - name: Review exact pinned Horizen staking frontend with native tools
         if: always()
