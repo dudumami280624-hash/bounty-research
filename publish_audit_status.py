@@ -67,7 +67,14 @@ headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json",
 sha=None
 try:
     with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=12) as r:
-        sha=json.loads(r.read(50000)).get("sha")
+        existing=json.loads(r.read(300000))
+        sha=existing.get("sha")
+        prior=json.loads(base64.b64decode(existing.get("content","")).decode("utf-8"))
+        prior_run=int(prior.get("workflow_run_id") or 0)
+        current_run=int(os.getenv("GITHUB_RUN_ID") or 0)
+        if prior_run>current_run and current_run>0:
+            print("Stale audit status skipped:",current_run,"<",prior_run)
+            raise SystemExit(0)
 except urllib.error.HTTPError as err:
     if err.code!=404: raise
 content=base64.b64encode((json.dumps(report,indent=2)+"\n").encode()).decode()
