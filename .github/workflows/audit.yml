@@ -95,6 +95,14 @@ jobs:
             python run_specific_pocs.py
           fi
 
+      - name: Test per-lead evidence reconciliation
+        if: always()
+        run: python -m unittest -v test_reconcile_leads.py
+
+      - name: Reconcile all 13 security leads against actual proof
+        if: always()
+        run: python reconcile_leads.py
+
       - name: Verify scope and payout safety gates
         if: always()
         run: python -m unittest -v test_eligibility_gate.py
@@ -134,6 +142,7 @@ jobs:
             eligibility_status.json
             specific_poc_results.json
             submission_status.json
+            lead_verification.json
           if-no-files-found: warn
 
   hackerone_connection:
