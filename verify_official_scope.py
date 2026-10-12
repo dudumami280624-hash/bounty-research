@@ -4,6 +4,7 @@
 Never considers third-party directory listings authorization. Fails closed.
 """
 import json
+import html
 import re
 import urllib.error
 import urllib.request
@@ -27,8 +28,9 @@ def validate_pages(evidence, information, scope):
         return False, "in-scope source assets mismatch"
     # Match official program identity, cash reward, active submission UI,
     # listed target source commit and both contract names.
-    inf = re.sub(r"\s+", " ", information).lower()
-    sco = re.sub(r"\s+", " ", scope).lower()
+    # Strip actual HTML tags and decode entities; JSX/HTML splits visible labels.
+    inf = re.sub(r"\\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", information))).lower()
+    sco = re.sub(r"\\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", scope))).lower()
     information_ok = all(term in inf for term in (
         "horizen", "maximum bounty", "10,000", "submit a bug",
         "runnable poc required", "rewards in usdc"))
@@ -37,7 +39,12 @@ def validate_pages(evidence, information, scope):
         "submit a bug", "assets in scope"))
     return information_ok and scope_ok, (
         "official scope, cash bounty and submit page validated"
-        if information_ok and scope_ok else "required official scope/payment markers missing")
+        if information_ok and scope_ok else
+        "official markers missing: information=" + ",".join(term for term in (
+        "horizen", "maximum bounty", "10,000", "submit a bug", "runnable poc required", "rewards in usdc")
+        if term not in inf) + " scope=" + ",".join(term for term in (
+        "horizen", "zenstaker", "rewardaccumulator", "ab92502", "submit a bug", "assets in scope")
+        if term not in sco))
 
 def get(url):
     if url not in (EXPECTED_INFO, EXPECTED_SCOPE):
