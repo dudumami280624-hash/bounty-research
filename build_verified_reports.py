@@ -5,6 +5,7 @@ A report can be drafted before the user approves submitting it.
 Synthetic callback PoCs cannot satisfy the real-target evidence gate.
 """
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -38,7 +39,10 @@ def generate(triage,leads,poc,scope,root=ROOT):
     for case in candidates:
         if not isinstance(case,dict):continue
         ident=case.get("id")
-        if not isinstance(ident,str) or ident not in targets:continue
+        if not isinstance(ident,str) or not re.fullmatch(r"[a-zA-Z0-9_-]{1,64}",ident):
+            result["blocked"].append({"id":"invalid_id","reason":"unsafe_finding_identifier"})
+            continue
+        if ident not in targets:continue
         if case.get("verified") is not True:continue
         triaged=targets[ident]
         reason=None
