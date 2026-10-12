@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T07:08:44.542301+00:00",
-  "workflow_run_id": "38215897216",
-  "workflow_sha": "6912da1779348b72306e3adc43718936eac72a32",
+  "time_utc": "2026-10-12T07:28:21.285960+00:00",
+  "workflow_run_id": "38217673383",
+  "workflow_sha": "e8a6730fd70a3aa1383d63818fd40aeab86a4623",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -167,6 +167,8 @@
     "eligibility_status.json": {
       "present": true,
       "officially_verified_targets": 0,
+      "official_scope_records": 1,
+      "official_scope_record_only_not_live_eligibility": true,
       "ready_for_live_testing": 0,
       "confirmed_eligible_reports": 0,
       "confirmed_payouts_usd": 0,
@@ -200,7 +202,7 @@
     "lead_verification.json": {
       "present": true,
       "lead_count": 13,
-      "related_sandbox_test_leads": 2,
+      "related_sandbox_test_leads": 1,
       "finding_specific_pocs_executed": 0,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
@@ -237,7 +239,7 @@
           "id": "1429588799f6",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "related_sandbox_test_not_finding_specific",
+          "poc_status": "not_executed",
           "verified": false
         },
         {
