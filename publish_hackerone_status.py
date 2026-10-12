@@ -75,7 +75,7 @@ if source_reports.is_file():
     except urllib.error.HTTPError as error:
         if error.code!=404:raise
     request_body={"message":"Update read-only HackerOne report states [skip ci]",
-                  "content":base64.b64encode((json.dumps(safe_report,indent=2)+"\\n").encode()).decode(),
+                  "content":base64.b64encode((json.dumps(safe_report,indent=2)+"\n").encode()).decode(),
                   "branch":"main"}
     if current_sha:request_body["sha"]=current_sha
     req=urllib.request.Request(target_url,headers=headers,
