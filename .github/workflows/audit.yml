@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify official-scope classification and automated report readiness
+# Execute offline security proof with separate status evidence
 
 on:
   workflow_dispatch:
