@@ -8,11 +8,20 @@ def policy(global_data,bugcrowd_data,triage_data,validation_data):
     candidates=global_data.get("candidates",[])
     bc=bugcrowd_data.get("candidates",[])
     findings=triage_data.get("findings",[])
+    # Unofficial directory records cannot self-certify program permission.
+    candidates = candidates if isinstance(candidates, list) else []
+    bc = bc if isinstance(bc, list) else []
+    findings = findings if isinstance(findings, list) else []
+    ignored_claims = sum(isinstance(x, dict) and (
+        x.get("open_and_authorized_verified") is True or
+        x.get("cash_payment_verified") is True) for x in candidates)
     return {
       "checked_at_utc":datetime.now(timezone.utc).isoformat(),
       "source":"unofficial directory; not official permission",
       "candidate_count":len(candidates),"bugcrowd_candidates":len(bc),
-      "officially_verified_targets":sum(x.get("open_and_authorized_verified") is True and x.get("cash_payment_verified") is True for x in candidates),
+      "officially_verified_targets":0,
+      "candidate_verification_claims_ignored":ignored_claims,
+      "official_verification_basis":"none: independent official-source verification records not implemented",
       "official_program_scope":{"Horizen":"official scope checked; only listed assets and demonstrated in-scope impact qualify",
           "pinned_commit":"ab92502e9da98784dfe3bd3ef933d4e9345ff628",
           "direct_source_files":["src/ZenStaker.sol","src/RewardAccumulator.sol"],
@@ -27,9 +36,9 @@ def policy(global_data,bugcrowd_data,triage_data,validation_data):
                            "Immunefi":"public candidate discovery only; no account API"},
       "gates":{"official_rules_and_assets":"Horizen selected pinned source verified; every specific finding still requires impact and known-issue checks","specific_reproduction":"not_verified",
                "impact_evidence":"not_verified","eligible_for_submission":False},
-      "security_leads":sum(x.get("priority")=="review" for x in findings),
+      "security_leads":sum(isinstance(x,dict) and x.get("priority")=="review" for x in findings),
       "specific_pocs_executed":validation_data.get("specific_pocs_executed",0),
-      "note":"No live target tests, submissions, or money transfers. Never infer authorization from repository or directory."
+      "note":"Third-party directory flags cannot authorize testing. No live target tests, submissions, or money transfers."
     }
 def main():
     def read(name):
