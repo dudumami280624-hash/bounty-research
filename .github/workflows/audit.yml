@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Validate independent report generation and safety tests; full six-stage acceptance
+# Real Horizen testnet local fork verification; no broadcast to public chain
 
 on:
   workflow_dispatch:
@@ -117,6 +117,14 @@ jobs:
         if: always()
         run: python run_specific_pocs.py
 
+      - name: Test local fork runner safeguards
+        if: always()
+        run: python -m unittest -v test_run_deployment_fork.py
+
+      - name: Verify actual deployed Horizen contracts on read-only local fork
+        if: always()
+        run: python run_deployment_fork.py
+
       - name: Test per-lead evidence reconciliation
         if: always()
         run: python -m unittest -v test_reconcile_leads.py
@@ -187,6 +195,7 @@ jobs:
             lead_verification.json
             scope_review.json
             acceptance_status.json
+            deployment_fork_results.json
             official_scope_status.json
             ACCEPTANCE.md
             report_build_status.json
