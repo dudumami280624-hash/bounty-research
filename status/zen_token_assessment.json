@@ -1,0 +1,13 @@
+{
+  "project": "Horizen ZenStaker",
+  "status": "production_token_behavior_requires_bytecode_or_verified-source_confirmation",
+  "official_docs": "https://docs.horizen.io/horizen-chain/api-reference/contract-addresses/",
+  "base_zen_token": "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
+  "horizen_zen_oft": "0x57da2D504bf8b83Ef304759d9f2648522D7a9280",
+  "staker_design": "ZEN is used both as stake and reward token (pinned source ZenStaker.sol)",
+  "local_test_evidence": "four tests of synthetic callback and standard no-callback ERC20",
+  "verified_real_token_transfer_callback": false,
+  "real_world_reentrancy_verified": false,
+  "action": "Do not submit synthetic callback result; verify actual deployed reward-token implementation and in-scope deployment before claiming impact",
+  "no_live_transaction": true
+}
