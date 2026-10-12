@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Validate official scope and distinct USDC rewards markers; rerun six-stage acceptance
+# Validate independent report generation and safety tests; full six-stage acceptance
 
 on:
   workflow_dispatch:
