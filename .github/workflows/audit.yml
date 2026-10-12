@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Run property-based surplus-conservation and arithmetic fuzz tests
+# Reconcile finding-specific pinned-source arithmetic fuzz results
 
 on:
   workflow_dispatch:
