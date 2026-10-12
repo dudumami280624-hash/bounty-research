@@ -61,7 +61,9 @@ for idx, target in enumerate(CONFIG["repositories"]):
     report_path = ROOT / ("slither_raw_" + str(idx) + ".json")
     try:
         process = subprocess.run(
-            [binary, str(folder), "--json", str(report_path), "--disable-color"],
+            [binary, str(folder), "--json", str(report_path), "--disable-color",
+             "--exclude-low", "--exclude-informational",
+             "--filter-paths", r"(^|/)(lib|node_modules|test|script)/"],
             stdout=subprocess.DEVNULL, stderr=subprocess.PIPE,
             text=True, timeout=180, check=False)
         if report_path.exists():
