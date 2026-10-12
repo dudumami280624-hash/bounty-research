@@ -125,6 +125,14 @@ jobs:
         if: always()
         run: python reconcile_leads.py
 
+      - name: Test verified report generation and evidence safety
+        if: always()
+        run: python -m unittest -v test_build_verified_reports.py
+
+      - name: Generate only evidence-backed reports, never submit
+        if: always()
+        run: python build_verified_reports.py
+
       - name: Verify scope and payout safety gates
         if: always()
         run: python -m unittest -v test_eligibility_gate.py
@@ -177,6 +185,8 @@ jobs:
             acceptance_status.json
             official_scope_status.json
             ACCEPTANCE.md
+            report_build_status.json
+            reports/verified_*.md
           if-no-files-found: warn
 
   hackerone_connection:
