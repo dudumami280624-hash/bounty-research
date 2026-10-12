@@ -41,7 +41,7 @@ def read_report(name):
         out["stages"]=[{k:s.get(k) for k in ("stage","name","status","reason")} for s in value.get("stages",[])][:6]
     elif name=="lead_verification.json":
         out.update({k:value.get(k) for k in ("lead_count","related_sandbox_test_leads","finding_specific_pocs_executed","verified_vulnerabilities","ready_to_submit")})
-        out["cases"]=[{k:r.get(k) for k in ("id","check","scope_relevance","poc_status","verified")} for r in value.get("cases",[])][:20]
+        out["cases"]=[{k:r.get(k) for k in ("id","check","scope_relevance","poc_status","verified","reason")} for r in value.get("cases",[])][:20]
     elif name=="submission_status.json":
         out.update({key:value.get(key) for key in ("mode","total_alerts","review_leads","approved_for_submission","actual_submissions","payout_confirmed_usd")})
     elif name=="deployment_fork_results.json":
