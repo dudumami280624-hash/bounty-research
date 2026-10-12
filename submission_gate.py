@@ -9,9 +9,11 @@ def ready(case):
 def main():
     try:cases=json.loads((ROOT/"triage_results.json").read_text(encoding="utf-8")).get("findings",[])
     except (ValueError,OSError):cases=[]
-    result={"mode":"drafts_only","total":len(cases),"approved_for_submission":sum(ready(x) for x in cases),
+    review_cases=[x for x in cases if isinstance(x,dict) and x.get("priority")=="review"]
+    result={"mode":"drafts_only","total_alerts":len(cases),"review_leads":len(review_cases),
+            "approved_for_submission":sum(ready(x) for x in review_cases),
             "actual_submissions":0,"payout_confirmed_usd":0,
             "note":"Requires evidence and explicit submission approval; this script never sends network requests."}
     (ROOT/"submission_status.json").write_text(json.dumps(result,indent=2),encoding="utf-8")
-    print("Submission eligibility:",result["approved_for_submission"],"of",result["total"])
+    print("Submission eligibility:",result["approved_for_submission"],"of",result["review_leads"])
 if __name__=="__main__":main()
