@@ -4,7 +4,8 @@ class TestReconcile(unittest.TestCase):
  def test_conditional_poc_does_not_verify_real_bug(self):
   lead={"id":"a","priority":"review","check":"reentrancy-no-eth","scope_relevance":"direct_in_scope_source"}
   out=reconcile({"findings":[lead]},{"execution":"passed"})
-  self.assertEqual(out["conditional_evidence_leads"],1)
+  self.assertEqual(out["related_sandbox_test_leads"],1)
+  self.assertEqual(out["finding_specific_pocs_executed"],0)
   self.assertEqual(out["verified_vulnerabilities"],0)
   self.assertFalse(out["cases"][0]["ready_to_submit"])
  def test_other_cases_remain_unverified(self):
