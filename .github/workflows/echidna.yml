@@ -1,5 +1,5 @@
 name: Upstream Echidna stateful security invariants
-# Runs Trail of Bits' maintained fuzzer, not an in-house fuzzing implementation.
+# Reuses Trail of Bits maintained Echidna; every job publishes explicit verdict.
 
 on:
   workflow_dispatch:
