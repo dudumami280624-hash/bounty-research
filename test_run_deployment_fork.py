@@ -21,4 +21,28 @@ class ForkOutputTests(unittest.TestCase):
         s=(Path(__file__).resolve().parent/"run_deployment_fork.py").read_text()
         self.assertNotIn('"--broadcast"',s)
         self.assertNotIn('"eth_sendRawTransaction"',s)
+
+class SnapshotTests(unittest.TestCase):
+    def reader(self,method,params):
+        if method=="eth_chainId":return hex(2651420)
+        if method=="eth_blockNumber":return "0x64"
+        if method=="eth_getBlockByNumber":return {"number":"0x64","hash":"0x"+"ab"*32}
+        self.assertEqual(params[1],"0x64")
+        return "0x6000"
+    def test_snapshot_pins_every_code_read(self):
+        from run_deployment_fork import deployment_snapshot
+        s=deployment_snapshot(self.reader)
+        self.assertEqual(s["fork_block_number"],100)
+        self.assertEqual(len(s["deployment_code"]),3)
+        self.assertFalse(s["deployment_source_match_verified"])
+    def test_wrong_chain_and_empty_code_rejected(self):
+        from run_deployment_fork import deployment_snapshot
+        for method,bad in (("eth_chainId","0x1"),("eth_getCode","0x")):
+            with self.assertRaises(ValueError):
+                deployment_snapshot(lambda m,p: bad if m==method else self.reader(m,p))
+    def test_writes_are_rejected_before_network(self):
+        from run_deployment_fork import rpc_read
+        with self.assertRaises(ValueError):
+            rpc_read("eth_sendTransaction",[])
 if __name__=="__main__":unittest.main()
+
