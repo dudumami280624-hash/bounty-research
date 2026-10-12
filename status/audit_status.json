@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T06:59:51.622770+00:00",
-  "workflow_run_id": "38215093300",
-  "workflow_sha": "3bc0f551f1b38e5291158fc1f95d84185be49453",
+  "time_utc": "2026-10-12T07:05:24.958691+00:00",
+  "workflow_run_id": "38215613918",
+  "workflow_sha": "d7143e63d4988d612b80d0f3c6c7d7b89e425ca6",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -172,7 +172,7 @@
       "confirmed_payouts_usd": 0,
       "payout_status": "unknown_no_verified_payment_records",
       "specific_pocs_executed": 0,
-      "conditional_poc_tests_executed": 3,
+      "conditional_poc_tests_executed": 4,
       "conditional_poc_execution": "passed",
       "specific_real_world_exploits_verified": 0
     },
@@ -180,7 +180,7 @@
       "present": true,
       "execution": "passed",
       "test_suite": "RewardAccumulatorReentryTest",
-      "tests_passed": 3,
+      "tests_passed": 4,
       "tests_failed": 0,
       "conditional_simulation_only": true,
       "real_world_exploit_verified": false,
