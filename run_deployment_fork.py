@@ -21,6 +21,9 @@ SOURCE=ROOT/"poc"/"HorizenDeploymentFork.t.sol"
 TARGET=BASE/"test"/"HorizenDeploymentFork.t.sol"
 EXPECTED_COMMIT="ab92502e9da98784dfe3bd3ef933d4e9345ff628"
 RPC="https://horizen-testnet.rpc.caldera.xyz/http"
+# Public read-only endpoints for the same chain (2651420), never other networks.
+RPC_ENDPOINTS=(RPC, "https://horizen-rpc-testnet.appchain.base.org/",
+               "https://2651420.rpc.thirdweb.com/")
 TESTS=(
     "test_RealFork_OfficialContractsHaveRuntimeBytecode",
     "test_RealFork_StakeAndRewardShareActualToken",
@@ -38,11 +41,12 @@ DEPLOYMENTS = {
     "accumulator": "0x06f5555fee73EDdc385b6d76FE00DB2D96ccDaE8",
 }
 
-def rpc_read(method, params):
+def rpc_read(method, params, rpc_url=None):
     """Retry only transient failures of public, read-only JSON-RPC calls."""
     if method not in ("eth_chainId", "eth_blockNumber", "eth_getBlockByNumber", "eth_getCode"):
         raise ValueError("RPC method is not read-only allowlisted")
-    request = urllib.request.Request(RPC,
+    endpoint = rpc_url or RPC
+    request = urllib.request.Request(endpoint,
         data=json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode(),
         headers={"Content-Type":"application/json"}, method="POST")
     for attempt in range(3):
@@ -84,6 +88,21 @@ def deployment_snapshot(read=rpc_read):
     return {"fork_block_number":number,"fork_block_hash":block_hash,
             "deployment_code":codes,"deployment_source_match_verified":False}
 
+
+def select_rpc_snapshot():
+    """Choose one public RPC only after verifying chain, block and all deployed code."""
+    failures=[]
+    for endpoint in RPC_ENDPOINTS:
+        try:
+            snapshot=deployment_snapshot(
+                lambda method, params: rpc_read(method, params, rpc_url=endpoint))
+            return endpoint, snapshot
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError) as err:
+            status=err.code if isinstance(err, urllib.error.HTTPError) else None
+            failures.append({"endpoint":endpoint,"error_type":type(err).__name__,
+                             "http_status":status})
+    raise RuntimeError("No public RPC passed deployment verification: "+json.dumps(failures))
+
 def evaluate_output(returncode,output):
     checked=[s for s in TESTS if ("[PASS] "+s+"(") in output]
     good=(returncode==0 and len(checked)==len(TESTS)
@@ -114,15 +133,18 @@ def main():
                     "TOKEN","SECRET","PASSWORD","PRIVATE_KEY","API_KEY","MNEMONIC")):
                 env.pop(k,None)
         stage="deployment_snapshot"
-        record.update(deployment_snapshot())
+        selected_rpc, snapshot=select_rpc_snapshot()
+        record.update(snapshot)
+        record["rpc_url"]=selected_rpc
         stage="foundry_fork"
         cmd=["forge","test","--match-contract","HorizenDeploymentForkTest",
-             "--fork-url",RPC,"--fork-block-number",str(record["fork_block_number"]),"-vv"]
+             "--fork-url",selected_rpc,"--fork-block-number",str(record["fork_block_number"]),"-vv"]
         p=subprocess.run(cmd,cwd=BASE,env=env,stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,text=True,timeout=240,check=False)
         good,checked=evaluate_output(p.returncode,p.stdout)
         stage="fork_block_recheck"
-        block=rpc_read("eth_getBlockByNumber", [hex(record["fork_block_number"]),False])
+        block=rpc_read("eth_getBlockByNumber", [hex(record["fork_block_number"]),False],
+                       rpc_url=selected_rpc)
         if not isinstance(block,dict) or block.get("hash") != record["fork_block_hash"]:
             raise ValueError("Fork block changed during validation")
         record.update({"execution":"passed" if good else "failed",
