@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Cache unchanged pinned-source Slither and Foundry results; reuse upstream tools
+# Deduplicate unchanging source scans with GitHub cache and upstream native Slither filters
 
 on:
   workflow_dispatch:
@@ -78,7 +78,6 @@ jobs:
 
       - name: Run Slither source triage
         if: steps.audit_cache.outputs.cache-hit != 'true'
-        continue-on-error: true
         run: python slither_audit.py
 
       - name: Test evidence-gated report generation
@@ -122,7 +121,7 @@ jobs:
         if: always()
         run: python -m unittest -v test_reconcile_leads.py
 
-      - name: Reconcile all 13 security leads against actual proof
+      - name: Reconcile dynamically discovered security leads against actual proof
         if: always()
         run: python reconcile_leads.py
 
