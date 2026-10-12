@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify conditional PoC evidence and status synchronization
+# Verify secured report submission gate and output status
 
 on:
   workflow_dispatch:
