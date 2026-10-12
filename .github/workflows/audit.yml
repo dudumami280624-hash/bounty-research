@@ -209,6 +209,15 @@ jobs:
           HACKERONE_USERNAME: bountyhunterai26
         run: python hackerone_connection.py
 
+      - name: Test read-only HackerOne report tracker
+        run: python -m unittest -v test_hackerone_report_tracking.py
+
+      - name: Sync actual HackerOne report states (read-only)
+        env:
+          HACKERONE_API_TOKEN: ${{ secrets.HACKERONE_API_TOKEN }}
+          HACKERONE_USERNAME: bountyhunterai26
+        run: python hackerone_report_tracking.py
+
       - name: Publish safe status to private repository
         if: always()
         env:
@@ -220,5 +229,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: hackerone-connection-status
-          path: hackerone_connection.json
+          path: |
+            hackerone_connection.json
+            hackerone_reports.json
           if-no-files-found: warn
