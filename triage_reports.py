@@ -29,11 +29,17 @@ def triage(data):
             if key in seen:
                 continue
             seen.add(key)
-            lower = desc.lower()
-            third_party = "lib/" in lower or "node_modules/" in lower or "test/" in lower
+            locations = item.get("locations") if isinstance(item.get("locations"), list) else []
+            paths = [x["path"] for x in locations if isinstance(x, dict) and isinstance(x.get("path"), str)]
+            # Slither source mappings take precedence over prose descriptions.
+            # Only exclude a finding when ALL mapped locations are non-target dependencies/tests.
+            third_party = (all(p.startswith(("lib/", "node_modules/", "test/", "script/")) for p in paths)
+                           if paths else any(p in desc for p in ("lib/", "node_modules/", "test/")))
             ident = hashlib.sha256(repr(key).encode()).hexdigest()[:12]
-            direct = ("src/ZenStaker.sol" in desc or "src/RewardAccumulator.sol" in desc)
-            inherited = "src/Staker.sol" in desc and not direct
+            direct = (any(p in ("src/ZenStaker.sol", "src/RewardAccumulator.sol") for p in paths)
+                      if paths else ("src/ZenStaker.sol" in desc or "src/RewardAccumulator.sol" in desc))
+            inherited = (any(p in ("src/Staker.sol", "src/DelegationSurrogate.sol") for p in paths)
+                         if paths else ("src/Staker.sol" in desc or "src/DelegationSurrogate.sol" in desc)) and not direct
             scope_relevance = ("direct_in_scope_source" if direct else
                                "inherited_impact_must_be_proven" if inherited else
                                "not_established")
@@ -42,7 +48,7 @@ def triage(data):
                 "scope_relevance":scope_relevance,
                 "known_issue_review_required":True,
                 "check": check, "impact": impact, "confidence": item.get("confidence"),
-                "description": desc[:1800], "third_party_or_test": third_party,
+                "description": desc[:1800], "locations":locations[:30], "third_party_or_test": third_party,
                 "priority": "review" if impact in ("High", "Medium") and not third_party else "deferred",
                 "reproduction": "not_run", "verified": False,
                 "bounty_scope_verified": False, "ready_to_submit": False,
