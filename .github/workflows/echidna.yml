@@ -10,7 +10,7 @@ on:
       - 'poc/RewardAccumulatorInvariant.t.sol'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   echidna:
@@ -34,6 +34,7 @@ jobs:
           forge build --build-info
 
       - name: Run upstream Echidna property-based transaction sequences
+        id: fuzz
         uses: crytic/echidna-action@v2
         with:
           echidna-workdir: _work/0
@@ -45,6 +46,13 @@ jobs:
           crytic-args: --ignore-compile
           format: json
           output-file: echidna-results.json
+
+      - name: Record actual upstream fuzzing outcome
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          FUZZ_STEP_OUTCOME: ${{ steps.fuzz.outcome }}
+        run: python publish_echidna_status.py
 
       - name: Retain upstream counterexamples and campaign report
         if: always()
