@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Real tZEN principal-conservation & unauthorized withdrawal validation on local fork
+# Add independent exact-commit frontend and subgraph-scope research beyond old Solidity leads
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-24.04
     permissions:
       contents: write
-    timeout-minutes: 15
+    timeout-minutes: 23
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -169,6 +169,16 @@ jobs:
         if: always()
         run: python acceptance.py
 
+      - name: Install Node 24 for official in-scope dApp
+        if: always()
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Review exact pinned Horizen staking frontend with native tools
+        if: always()
+        run: python run_frontend_scope.py
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -196,6 +206,7 @@ jobs:
             scope_review.json
             acceptance_status.json
             deployment_fork_results.json
+            frontend_scope_results.json
             official_scope_status.json
             ACCEPTANCE.md
             report_build_status.json
