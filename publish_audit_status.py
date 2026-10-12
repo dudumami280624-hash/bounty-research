@@ -48,7 +48,8 @@ def read_report(name):
         out.update({k:value.get(k) for k in ("execution","chain_id","source_commit",
             "tests_passed","tests_expected","real_deployment_state_checked",
             "real_world_exploit_verified","any_public_chain_transaction_broadcast",
-            "returncode","error_type")})
+            "returncode","error_type","fork_block_number","fork_block_hash",
+            "deployment_code","deployment_source_match_verified")})
         out["log_excerpt"]=str(value.get("log_excerpt") or "")[-1000:]
     elif name=="specific_poc_results.json":
         out.update({key:value.get(key) for key in ("execution","test_suite","tests_passed","tests_failed","conditional_simulation_only","real_world_exploit_verified","official_reward_token_callback_verified","ready_to_submit","returncode")})
