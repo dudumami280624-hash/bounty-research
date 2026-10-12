@@ -53,6 +53,17 @@ contract RewardAccumulatorReentryTest is Test {
         token.transfer(address(accumulator), 100 ether);
         vm.warp(block.timestamp + 1 days);
     }
+    function test_StandardERC20_WithSurplus_StillSendsOnlyAccountedAmount() public {
+        // Actual callback capability is not established for production ZEN.
+        // A callback-free ERC20 cannot enter the reward sender on transfer.
+        token.configure(accumulator, address(receiver), false);
+        accumulator.sendRewardsToStaker();
+        assertEq(receiver.notifications(), 1);
+        assertEq(receiver.totalNotified(), 100 ether);
+        assertEq(token.balanceOf(address(receiver)), 100 ether);
+        assertEq(token.balanceOf(address(accumulator)), 100 ether);
+        assertEq(accumulator.accumulatedRewards(), 0);
+    }
     function test_Control_NoCallback_SendsOnlyAccountedAmount() public {
         accumulator.sendRewardsToStaker();
         assertEq(token.balanceOf(address(receiver)), 100 ether);
