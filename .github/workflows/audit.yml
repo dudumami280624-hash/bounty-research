@@ -149,6 +149,10 @@ jobs:
         if: always()
         run: python submission_gate.py
 
+      - name: Test complete six-stage isolated end-to-end integration
+        if: always()
+        run: python -m unittest -v test_business_pipeline.py
+
       - name: Test six-stage acceptance against real and fixture evidence
         if: always()
         run: python -m unittest -v test_acceptance.py
