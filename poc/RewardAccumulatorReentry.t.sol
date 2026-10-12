@@ -78,6 +78,19 @@ contract RewardAccumulatorReentryTest is Test {
         assertGt(accumulator.nextRewardTime(), block.timestamp);
         assertEq(receiver.notifications(), 1);
     }
+    function testFuzz_StandardERC20_NeverTransfersUnaccountedSurplus(uint96 donation) public {
+        // Property-based security regression using open-source forge-std:
+        // without an ERC20 callback, only accounted rewards may leave.
+        token.configure(accumulator, address(receiver), false);
+        uint256 extra = bound(uint256(donation), 0, 1_000_000 ether);
+        if (extra > 0) token.mint(address(accumulator), extra);
+        uint256 surplusBefore = token.balanceOf(address(accumulator)) - accumulator.accumulatedRewards();
+        accumulator.sendRewardsToStaker();
+        assertEq(token.balanceOf(address(receiver)), 100 ether);
+        assertEq(token.balanceOf(address(accumulator)), surplusBefore);
+        assertEq(receiver.totalNotified(), 100 ether);
+        assertEq(receiver.notifications(), 1);
+    }
     function test_Control_NoCallback_SendsOnlyAccountedAmount() public {
         accumulator.sendRewardsToStaker();
         assertEq(token.balanceOf(address(receiver)), 100 ether);
