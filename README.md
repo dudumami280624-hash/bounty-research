@@ -1,16 +1,15 @@
-# Bounty research starter
+# 赏金猎人｜Bounty Research
 
-This is a **limited, automated public-source review**, NOT a full AI research agent and NOT proof of a vulnerability.
+**正式执行计划与验收标准：** [PLAN.md](PLAN.md)（首版验收：2026-10-18；成果检查：2026-11-12）。
 
-## Deploy
-1. Create a **private** GitHub repository (e.g. `bounty-research`).
-2. Upload `audit.py`, `config.json`, and `.github/workflows/audit.yml` preserving folder paths.
-3. In GitHub, open **Actions** > **Authorized public-source audit** > **Run workflow**.
-4. When completed, open the run > **Artifacts** > `review-...` > `audit.json`.
-5. GitHub Actions' cron runs approximately hourly but may be delayed or skipped and does not mean 24/7 continuous execution.
+**当前系统：** 免费 GitHub Actions + Slither + Foundry/forge-std + 官方公开赏金候选目录；HackerOne 仅只读状态连接。定时触发每小时一次属于 GitHub 的尽力调度，不能保证 24/7 不间断执行。
 
-## Limitations
-- The example examines a publicly readable pinned repository and flags code patterns for human review; it does not test production systems.
-- Findings are **not vulnerabilities** until independently validated. No automatic bounty submission.
-- Only add repositories whose source you have permission to review, and verify bounty eligibility/scope independently.
-- To integrate an LLM, install a secure API-key secret and carefully extend this workflow; that is **not included** here.
+**真实成果口径：** 扫描警报不是漏洞；模拟 PoC 通过不是可报告的生产漏洞；草稿不是已提交报告；奖金须有官方确认。参见 [状态](status/audit_status.json) 与 [GitHub Actions](../../actions)。
+
+**直接查看：**
+- [正式执行计划（六阶段、期限、验收及防死循环规则）](PLAN.md)
+- [机器运行状态](status/audit_status.json)
+- [审计工作流](.github/workflows/audit.yml)
+- [奖励范围记录](scope_horizen.json)
+
+**硬约束：** 仅授权范围内的源码及本地隔离测试；不新增付费服务；报告实际提交需要用户对该份报告明确授权；不能保证找到漏洞或获得奖金。
