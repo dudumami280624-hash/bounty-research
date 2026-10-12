@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify finding-specific evidence gates and regression tests
+# Re-test callback reentrancy with surplus and no-surplus controls
 
 on:
   workflow_dispatch:
