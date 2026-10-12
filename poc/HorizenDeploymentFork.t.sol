@@ -64,7 +64,7 @@ contract HorizenDeploymentForkTest is Test {
         assertEq(IERC20(TOKEN).balanceOf(alice), original - amount);
 
         vm.prank(attacker);
-        vm.expectRevert(Staker.Staker__Unauthorized.selector);
+        vm.expectRevert(abi.encodeWithSelector(Staker.Staker__Unauthorized.selector, bytes32("not owner"), attacker));
         staker.withdraw(depositId, amount);
 
         vm.prank(alice);
