@@ -38,6 +38,12 @@ def read_report(name):
         out["cases"]=[{k:r.get(k) for k in ("id","check","scope_relevance","poc_status","verified")} for r in value.get("cases",[])][:20]
     elif name=="submission_status.json":
         out.update({key:value.get(key) for key in ("mode","total_alerts","review_leads","approved_for_submission","actual_submissions","payout_confirmed_usd")})
+    elif name=="deployment_fork_results.json":
+        out.update({k:value.get(k) for k in ("execution","chain_id","source_commit",
+            "tests_passed","tests_expected","real_deployment_state_checked",
+            "real_world_exploit_verified","any_public_chain_transaction_broadcast",
+            "returncode","error_type")})
+        out["log_excerpt"]=str(value.get("log_excerpt") or "")[-1000:]
     elif name=="specific_poc_results.json":
         out.update({key:value.get(key) for key in ("execution","test_suite","tests_passed","tests_failed","conditional_simulation_only","real_world_exploit_verified","official_reward_token_callback_verified","ready_to_submit","returncode")})
     elif name=="validation_results.json":
@@ -66,7 +72,7 @@ report={"time_utc":datetime.now(timezone.utc).isoformat(),
         "note":"Static triage flags are NOT verified vulnerabilities.",
         "reports":{name:read_report(name) for name in (
             "global_bounties.json","bugcrowd_bounties.json",
-            "candidates.json","audit.json","slither_results.json","triage_results.json","validation_results.json","eligibility_status.json","specific_poc_results.json","submission_status.json","lead_verification.json","acceptance_status.json","official_scope_status.json","report_build_status.json")}}
+            "candidates.json","audit.json","slither_results.json","triage_results.json","validation_results.json","eligibility_status.json","specific_poc_results.json","submission_status.json","lead_verification.json","acceptance_status.json","official_scope_status.json","report_build_status.json","deployment_fork_results.json")}}
 token=os.environ["GITHUB_TOKEN"]
 repo=os.environ["GITHUB_REPOSITORY"]
 url=f"https://api.github.com/repos/{repo}/contents/status/audit_status.json"
