@@ -4,9 +4,24 @@ import json
 from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-def policy(global_data,bugcrowd_data,triage_data,validation_data,poc_data=None,official_scope=None):
+def policy(global_data,bugcrowd_data,triage_data,validation_data,poc_data=None,official_scope=None,scope_status=None):
     official_scope=official_scope if isinstance(official_scope,dict) else {}
     poc_data = poc_data if isinstance(poc_data,dict) else {}
+    scope_status=scope_status if isinstance(scope_status,dict) else {}
+    current=datetime.now(timezone.utc)
+    try:
+        checked=datetime.fromisoformat(scope_status["verified_at_utc"].replace("Z","+00:00"))
+        age=(current-checked).total_seconds()
+        fresh=checked.tzinfo is not None and 0<=age<=86400
+    except (KeyError, ValueError, AttributeError, TypeError):
+        fresh=False
+    official_verified=(
+        fresh
+        and scope_status.get("verified_count")==1
+        and scope_status.get("status")=="verified"
+        and scope_status.get("scope_url")=="https://immunefi.com/bug-bounty/horizen/scope/"
+        and scope_status.get("pinned_commit")=="ab92502e9da98784dfe3bd3ef933d4e9345ff628"
+    )
     candidates=global_data.get("candidates",[])
     bc=bugcrowd_data.get("candidates",[])
     findings=triage_data.get("findings",[])
@@ -21,11 +36,11 @@ def policy(global_data,bugcrowd_data,triage_data,validation_data,poc_data=None,o
       "checked_at_utc":datetime.now(timezone.utc).isoformat(),
       "source":"unofficial directory; not official permission",
       "candidate_count":len(candidates),"bugcrowd_candidates":len(bc),
-      "officially_verified_targets":0,
+      "officially_verified_targets":int(official_verified),
       "official_scope_records":1 if official_scope.get("official_scope_url") and official_scope.get("pinned_commit")== "ab92502e9da98784dfe3bd3ef933d4e9345ff628" else 0,
       "official_scope_record_only_not_live_eligibility":True,
       "candidate_verification_claims_ignored":ignored_claims,
-      "official_verification_basis":"none: independent official-source verification records not implemented",
+      "official_verification_basis":"fresh strict official-page verification" if official_verified else "no fresh valid official-page check",
       "official_program_scope":{"Horizen":"official scope checked; only listed assets and demonstrated in-scope impact qualify",
           "pinned_commit":"ab92502e9da98784dfe3bd3ef933d4e9345ff628",
           "direct_source_files":["src/ZenStaker.sol","src/RewardAccumulator.sol"],
@@ -51,7 +66,7 @@ def main():
     def read(name):
         try:return json.loads((ROOT/name).read_text(encoding="utf-8"))
         except (OSError,ValueError):return {}
-    report=policy(read("global_bounties.json"),read("bugcrowd_bounties.json"),read("triage_results.json"),read("validation_results.json"),read("specific_poc_results.json"),read("scope_horizen.json"))
+    report=policy(read("global_bounties.json"),read("bugcrowd_bounties.json"),read("triage_results.json"),read("validation_results.json"),read("specific_poc_results.json"),read("scope_horizen.json"),read("official_scope_status.json"))
     (ROOT/"eligibility_status.json").write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding="utf-8")
     print("Eligibility:",report["officially_verified_targets"],"officially verified; payout:",report["payout_status"])
 if __name__=="__main__":main()
