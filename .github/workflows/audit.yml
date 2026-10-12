@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify exact-file scope triage and source-classification tests
+# Test schedule arithmetic directly with Foundry fuzzing
 
 on:
   workflow_dispatch:
