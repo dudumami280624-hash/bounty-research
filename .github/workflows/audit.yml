@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Deduplicate unchanging source scans with GitHub cache and upstream native Slither filters
+# Same-day six-stage acceptance; fail closed on security validation errors
 
 on:
   workflow_dispatch:
@@ -138,6 +138,14 @@ jobs:
         if: always()
         run: python submission_gate.py
 
+      - name: Test six-stage acceptance against real and fixture evidence
+        if: always()
+        run: python -m unittest -v test_acceptance.py
+
+      - name: Generate today's fail-closed six-stage acceptance
+        if: always()
+        run: python acceptance.py
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -163,6 +171,8 @@ jobs:
             submission_status.json
             lead_verification.json
             scope_review.json
+            acceptance_status.json
+            ACCEPTANCE.md
           if-no-files-found: warn
 
   hackerone_connection:
