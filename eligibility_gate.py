@@ -4,7 +4,8 @@ import json
 from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-def policy(global_data,bugcrowd_data,triage_data,validation_data):
+def policy(global_data,bugcrowd_data,triage_data,validation_data,poc_data=None):
+    poc_data = poc_data if isinstance(poc_data,dict) else {}
     candidates=global_data.get("candidates",[])
     bc=bugcrowd_data.get("candidates",[])
     findings=triage_data.get("findings",[])
@@ -37,14 +38,17 @@ def policy(global_data,bugcrowd_data,triage_data,validation_data):
       "gates":{"official_rules_and_assets":"Horizen selected pinned source verified; every specific finding still requires impact and known-issue checks","specific_reproduction":"not_verified",
                "impact_evidence":"not_verified","eligible_for_submission":False},
       "security_leads":sum(isinstance(x,dict) and x.get("priority")=="review" for x in findings),
-      "specific_pocs_executed":validation_data.get("specific_pocs_executed",0),
+      "conditional_poc_tests_executed":poc_data.get("tests_passed",0) if poc_data.get("execution")=="passed" else 0,
+      "conditional_poc_execution":poc_data.get("execution","not_run"),
+      "specific_real_world_exploits_verified":0,
+      "specific_pocs_executed":0,
       "note":"Third-party directory flags cannot authorize testing. No live target tests, submissions, or money transfers."
     }
 def main():
     def read(name):
         try:return json.loads((ROOT/name).read_text(encoding="utf-8"))
         except (OSError,ValueError):return {}
-    report=policy(read("global_bounties.json"),read("bugcrowd_bounties.json"),read("triage_results.json"),read("validation_results.json"))
+    report=policy(read("global_bounties.json"),read("bugcrowd_bounties.json"),read("triage_results.json"),read("validation_results.json"),read("specific_poc_results.json"))
     (ROOT/"eligibility_status.json").write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding="utf-8")
     print("Eligibility:",report["officially_verified_targets"],"officially verified; payout:",report["payout_status"])
 if __name__=="__main__":main()
