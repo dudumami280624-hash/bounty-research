@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify secured report submission gate and output status
+# Recheck report gate counts and evidence status
 
 on:
   workflow_dispatch:
