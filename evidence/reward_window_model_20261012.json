@@ -1,0 +1,11 @@
+{
+  "lead_id": "12ec614578dc",
+  "scope": "RewardAccumulator.sol",
+  "pinned_commit": "ab92502e9da98784dfe3bd3ef933d4e9345ff628",
+  "review": "divide-before-multiply",
+  "finding_status": "numerical_model_checked_not_solidity_poc",
+  "model_vectors": 250108,
+  "model_failures": 0,
+  "evidence_sha256": "c801abdf0099d4190732831a2dfabb30d9c4378a2417c71e31e07671a0075666",
+  "limitations": "Arithmetic-only Python model, no Solidity execution; no security vulnerability verified; not ready to submit"
+}
