@@ -24,6 +24,7 @@ def evaluate(reports):
     leads = reports.get("lead_verification.json") or {}
     poc = reports.get("specific_poc_results.json") or {}
     submissions = reports.get("submission_status.json") or {}
+    generated = reports.get("report_build_status.json") or {}
     projects = scan.get("projects", [])
     sources = source.get("projects", [])
     if not isinstance(projects, list): projects = []
@@ -36,9 +37,11 @@ def evaluate(reports):
                     for c in leads.get("cases", [])) and
                 poc.get("real_world_exploit_verified") is True)
     # "Report drafted" is not the same as a genuine, verified report.
-    report_ready = (verified and triage.get("ready_to_submit", 0) > 0 and
-                    submissions.get("approved_for_submission", 0) > 0)
-    submitted = (report_ready and submissions.get("actual_submissions", 0) > 0 and
+    # Report generation is NOT conditioned on the user's separate approval to submit.
+    report_ready = (verified and generated.get("verified_reports_generated", 0) > 0
+                    and bool(generated.get("reports")))
+    submitted = (report_ready and submissions.get("approved_for_submission", 0) > 0
+                 and submissions.get("actual_submissions", 0) > 0 and
                  bool(submissions.get("official_receipts")))
     tracked = (submitted and
                isinstance(discovery.get("official_report_statuses"), list) and
@@ -71,7 +74,7 @@ def evaluate(reports):
 def main():
     names=("eligibility_status.json","audit.json","slither_results.json",
            "triage_results.json","lead_verification.json",
-           "specific_poc_results.json","submission_status.json")
+           "specific_poc_results.json","submission_status.json","report_build_status.json")
     report=evaluate({n:read(n) for n in names})
     (ROOT/"acceptance_status.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     lines=["# 赏金猎人｜今天的真实验收","",f"六阶段：**{report['passed']}/6 通过**。完整验收：**{'PASS' if report['full_acceptance'] else 'FAIL'}**。","",
