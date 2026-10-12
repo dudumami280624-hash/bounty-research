@@ -1,5 +1,5 @@
 {
-  "time_utc": "2026-10-12T09:51:23.032441+00:00",
+  "time_utc": "2026-10-12T09:57:41.893274+00:00",
   "platform": "HackerOne",
   "mode": "READ_ONLY",
   "sync_status": "success",
@@ -10,4 +10,4 @@
   "payout_tracking_status": "not_verified_by_reports_endpoint",
   "reports": [],
   "payouts_verified_usd": 0
-}\n
+}
