@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T09:17:22.418689+00:00",
-  "workflow_run_id": "38228861250",
-  "workflow_sha": "7c8dacd60d2e5a82997059cd161348413c8dcb82",
+  "time_utc": "2026-10-12T09:17:38.014767+00:00",
+  "workflow_run_id": "38228745025",
+  "workflow_sha": "0fad2c6944eca8b4beda3503875030b33b009432",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -164,21 +164,21 @@
       "confirmed_payouts_usd": 0,
       "payout_status": "unknown_no_verified_payment_records",
       "specific_pocs_executed": 0,
-      "conditional_poc_tests_executed": 0,
-      "conditional_poc_execution": "failed",
+      "conditional_poc_tests_executed": 6,
+      "conditional_poc_execution": "passed",
       "specific_real_world_exploits_verified": 0
     },
     "specific_poc_results.json": {
       "present": true,
-      "execution": "failed",
+      "execution": "passed",
       "test_suite": "RewardAccumulatorReentryTest",
-      "tests_passed": 0,
+      "tests_passed": 6,
       "tests_failed": 0,
       "conditional_simulation_only": true,
       "real_world_exploit_verified": false,
       "official_reward_token_callback_verified": false,
       "ready_to_submit": false,
-      "returncode": 1
+      "returncode": 0
     },
     "submission_status.json": {
       "present": true,
@@ -192,8 +192,8 @@
     "lead_verification.json": {
       "present": true,
       "lead_count": 12,
-      "related_sandbox_test_leads": 0,
-      "finding_specific_pocs_executed": 0,
+      "related_sandbox_test_leads": 1,
+      "finding_specific_pocs_executed": 1,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
       "cases": [
@@ -215,7 +215,7 @@
           "id": "12ec614578dc",
           "check": "divide-before-multiply",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "not_executed",
+          "poc_status": "finding_specific_arithmetic_property_passed",
           "verified": false
         },
         {
@@ -229,7 +229,7 @@
           "id": "8e48c2a2804a",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "not_executed",
+          "poc_status": "related_sandbox_test_not_finding_specific",
           "verified": false
         },
         {
@@ -280,60 +280,6 @@
           "scope_relevance": "inherited_impact_must_be_proven",
           "poc_status": "not_executed",
           "verified": false
-        }
-      ]
-    },
-    "acceptance_status.json": {
-      "present": true,
-      "passed": 1,
-      "total": 6,
-      "full_acceptance": false,
-      "foundry_control_tests": {
-        "execution": "failed",
-        "passed": 0,
-        "synthetic_only": true
-      },
-      "business_outcomes": {
-        "verified_vulnerabilities": 0,
-        "actual_submissions": 0,
-        "payout_confirmed_usd": 0
-      },
-      "stages": [
-        {
-          "stage": 1,
-          "name": "\u5b98\u65b9\u5f00\u653e\u8d4f\u91d1\u76ee\u6807\u6838\u9a8c",
-          "status": "FAIL",
-          "reason": "\u7f3a\u5c11\u5b98\u65b9\u5f00\u653e\u72b6\u6001\u3001\u5956\u52b1\u4e0e\u6388\u6743\u8303\u56f4\u7684\u72ec\u7acb\u6838\u9a8c\uff1b\u5019\u9009\u6570\u91cf\u4e0d\u7b97"
-        },
-        {
-          "stage": 2,
-          "name": "\u6e90\u7801\u81ea\u52a8\u5206\u6790",
-          "status": "PASS",
-          "reason": "\u6709\u9a8c\u6536\u8bc1\u636e"
-        },
-        {
-          "stage": 3,
-          "name": "\u771f\u5b9e\u76ee\u6807\u6f0f\u6d1e\u9a8c\u8bc1",
-          "status": "FAIL",
-          "reason": "\u7f3a\u5c11\u771f\u5b9e\u76ee\u6807\u53ef\u590d\u73b0\u6f0f\u6d1e\u4e0e\u72ec\u7acb\u5f71\u54cd\u8bc1\u636e\uff1b\u6a21\u62df PoC \u4e0d\u7b97"
-        },
-        {
-          "stage": 4,
-          "name": "\u6709\u6548\u6f0f\u6d1e\u62a5\u544a\u751f\u6210",
-          "status": "FAIL",
-          "reason": "\u7f3a\u5c11\u53ef\u590d\u73b0\u771f\u5b9e\u95ee\u9898\u53ca\u5df2\u9a8c\u8bc1\u62a5\u544a\u8bc1\u636e"
-        },
-        {
-          "stage": 5,
-          "name": "\u7ecf\u6388\u6743\u63d0\u4ea4\u4e0e\u5b98\u65b9\u56de\u6267",
-          "status": "FAIL",
-          "reason": "\u7f3a\u5c11\u7528\u6237\u6388\u6743\u540e\u5b9e\u9645\u63d0\u4ea4\u53ca\u5b98\u65b9\u62a5\u544a\u56de\u6267"
-        },
-        {
-          "stage": 6,
-          "name": "\u5b9e\u9645\u62a5\u544a\u4e0e\u5956\u91d1\u8ffd\u8e2a",
-          "status": "FAIL",
-          "reason": "\u7f3a\u5c11\u5b9e\u9645\u5b98\u65b9\u62a5\u544a\u72b6\u6001\u540c\u6b65\u8bb0\u5f55\uff1bAPI \u8fde\u901a\u4e0d\u7b97"
         }
       ]
     }
