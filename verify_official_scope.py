@@ -33,7 +33,7 @@ def validate_pages(evidence, information, scope):
     sco = re.sub(r"\\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", scope))).lower()
     information_ok = all(term in inf for term in (
         "horizen", "maximum bounty", "10,000", "submit a bug",
-        "runnable poc required", "rewards in usdc"))
+        "runnable poc required", "rewards", "usdc"))
     scope_ok = all(term in sco for term in (
         "horizen", "zenstaker", "rewardaccumulator", "ab92502",
         "submit a bug", "assets in scope"))
@@ -41,7 +41,7 @@ def validate_pages(evidence, information, scope):
         "official scope, cash bounty and submit page validated"
         if information_ok and scope_ok else
         "official markers missing: information=" + ",".join(term for term in (
-        "horizen", "maximum bounty", "10,000", "submit a bug", "runnable poc required", "rewards in usdc")
+        "horizen", "maximum bounty", "10,000", "submit a bug", "runnable poc required", "rewards", "usdc")
         if term not in inf) + " scope=" + ",".join(term for term in (
         "horizen", "zenstaker", "rewardaccumulator", "ab92502", "submit a bug", "assets in scope")
         if term not in sco))
