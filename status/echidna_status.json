@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-10-12T08:53:42.442893+00:00",
+  "workflow_run_id": "38226251983",
+  "workflow_sha": "38592648fb4e97747fd4c8ca0116f3e673c58798",
+  "upstream_engine": "crytic/echidna-action@v2",
+  "upstream_step_outcome": "failure",
+  "raw_campaign_present": false,
+  "raw_campaign_success": null,
+  "properties_seen": 0,
+  "property_statuses": [],
+  "source_commit": "ab92502e9da98784dfe3bd3ef933d4e9345ff628",
+  "real_world_exploit_verified": false,
+  "ready_to_submit": false,
+  "campaign_verified_passed": false
+}
