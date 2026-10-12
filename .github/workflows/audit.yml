@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Same-day six-stage acceptance; fail closed on security validation errors
+# Fix cached-source missing solc with free compiler bootstrap, rerun six-stage acceptance
 
 on:
   workflow_dispatch:
