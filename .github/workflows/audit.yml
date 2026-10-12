@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Execute per-lead evidence reconciliation and regression tests
+# Verify finding-specific evidence gates and regression tests
 
 on:
   workflow_dispatch:
