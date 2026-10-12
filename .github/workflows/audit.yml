@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Add independent exact-commit frontend and subgraph-scope research beyond old Solidity leads
+# Re-run real fork principal-conservation test with exact expected unauthorized revert
 
 on:
   workflow_dispatch:
