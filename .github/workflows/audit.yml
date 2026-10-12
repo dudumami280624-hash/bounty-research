@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Validate actual tZEN transfer/approve callback behavior on Horizen local fork
+# Validate and reconcile actual tZEN callback behavior; close synthetic reentrancy conditions
 
 on:
   workflow_dispatch:
