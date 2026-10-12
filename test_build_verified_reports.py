@@ -42,6 +42,16 @@ class VerifiedReportBuilderTests(unittest.TestCase):
    self.assertEqual(generate(triage,leads,poc,scope,root)["verified_reports_generated"],0)
    leads["cases"][0]["evidence_path"]="evidence/missing.txt"
    self.assertEqual(generate(triage,leads,poc,scope,root)["verified_reports_generated"],0)
+ def test_report_filename_cannot_escape_reports_directory(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp); triage,leads,poc,scope=fixture(root)
+   dangerous="../escape"
+   triage["findings"][0]["id"]=dangerous
+   leads["cases"][0]["id"]=dangerous
+   result=generate(triage,leads,poc,scope,root)
+   self.assertEqual(result["verified_reports_generated"],0)
+   self.assertEqual(result["blocked"][0]["reason"],"unsafe_finding_identifier")
+   self.assertFalse((root/"escape.md").exists())
  def test_unverified_or_unmatched_source_rejected(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp);triage,leads,poc,scope=fixture(root)
