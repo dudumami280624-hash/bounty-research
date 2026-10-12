@@ -4,10 +4,10 @@ from run_deployment_fork import evaluate_output, TESTS
 class ForkOutputTests(unittest.TestCase):
     def test_all_real_fork_checks_are_required(self):
         log="\n".join("[PASS] "+x+"(gas: 123)" for x in TESTS)
-        log+="\nSuite result: ok. 5 tests passed; 0 failed;"
+        log+=f"\nSuite result: ok. {len(TESTS)} tests passed; 0 failed;"
         ok,found=evaluate_output(0,log)
         self.assertTrue(ok)
-        self.assertEqual(len(found),5)
+        self.assertEqual(len(found),len(TESTS))
 
     def test_do_not_trust_partial_or_failed_fork(self):
         log="[PASS] "+TESTS[0]+"(gas: 123)\n4 tests passed; 0 failed;"
