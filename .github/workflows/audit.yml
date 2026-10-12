@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify official bounty live scope in same-day six-stage acceptance
+# Recheck official bounty scope using normalized HTML text and strict markers
 
 on:
   workflow_dispatch:
