@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T06:52:11.533248+00:00",
-  "workflow_run_id": "38214443550",
-  "workflow_sha": "942c9130ea4c3f5665209f4529479d176021f882",
+  "time_utc": "2026-10-12T06:52:26.057685+00:00",
+  "workflow_run_id": "38214481934",
+  "workflow_sha": "b24ee724d3e3c38b3391b7a090bd7ef85c9a55a6",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -196,6 +196,106 @@
       "approved_for_submission": 0,
       "actual_submissions": 0,
       "payout_confirmed_usd": 0
+    },
+    "lead_verification.json": {
+      "present": true,
+      "lead_count": 13,
+      "conditional_evidence_leads": 2,
+      "verified_vulnerabilities": 0,
+      "ready_to_submit": 0,
+      "cases": [
+        {
+          "id": "df03bce1714d",
+          "check": "arbitrary-send-erc20",
+          "scope_relevance": "not_established",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "972ce92ec305",
+          "check": "uninitialized-state",
+          "scope_relevance": "not_established",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "be1c1609e7b5",
+          "check": "uninitialized-state",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "12ec614578dc",
+          "check": "divide-before-multiply",
+          "scope_relevance": "direct_in_scope_source",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "1429588799f6",
+          "check": "reentrancy-no-eth",
+          "scope_relevance": "direct_in_scope_source",
+          "poc_status": "conditional_synthetic_callback_reproduced",
+          "verified": false
+        },
+        {
+          "id": "8e48c2a2804a",
+          "check": "reentrancy-no-eth",
+          "scope_relevance": "direct_in_scope_source",
+          "poc_status": "conditional_synthetic_callback_reproduced",
+          "verified": false
+        },
+        {
+          "id": "20f0b85eac0b",
+          "check": "divide-before-multiply",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "98fdd9e27146",
+          "check": "divide-before-multiply",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "00f846e1adf2",
+          "check": "erc20-interface",
+          "scope_relevance": "not_established",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "b241ec50cd2c",
+          "check": "incorrect-equality",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "016430194a14",
+          "check": "reentrancy-no-eth",
+          "scope_relevance": "not_established",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "d51386d2891a",
+          "check": "reentrancy-no-eth",
+          "scope_relevance": "inherited_impact_must_be_proven",
+          "poc_status": "not_executed",
+          "verified": false
+        },
+        {
+          "id": "9d74cbad990c",
+          "check": "unused-return",
+          "scope_relevance": "not_established",
+          "poc_status": "not_executed",
+          "verified": false
+        }
+      ]
     }
   }
 }
