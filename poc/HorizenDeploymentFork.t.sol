@@ -9,6 +9,14 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 /// @notice Real deployment on a local fork. Never broadcasts public transactions.
 /// @dev Scope: Horizen Testnet chain 2651420; official SECURITY.md addresses.
+
+contract TokenCallbackProbe {
+    uint256 public fallbackCalls;
+    uint256 public receiveCalls;
+    fallback() external { fallbackCalls++; }
+    receive() external payable { receiveCalls++; }
+}
+
 contract HorizenDeploymentForkTest is Test {
     address constant TOKEN = 0xb06EC4ce262D8dbDc24Fac87479A49A7DC4cFb87;
     address constant STAKER = 0x6BF7CF29a8bcE11Aa62Cf593d165C244fA4d3E31;
@@ -80,5 +88,34 @@ contract HorizenDeploymentForkTest is Test {
         assertEq(IERC20(TOKEN).balanceOf(alice), original, "Principal conservation failed");
         assertEq(IERC20(TOKEN).balanceOf(attacker), 0, "Attacker received ZEN");
     }
+
+    function test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() public {
+        // This directly tests the production tZEN runtime on a local fork.
+        // RewardAccumulator reentry requires token transfer to synchronously call the receiver.
+        TokenCallbackProbe probe = new TokenCallbackProbe();
+        address alice = address(0xA11CE);
+        uint256 amount = 1e18;
+        deal(TOKEN, alice, amount);
+        vm.prank(alice);
+        bool ok = IERC20(TOKEN).transfer(address(probe), amount);
+        assertTrue(ok, "Actual tZEN transfer failed");
+        assertEq(probe.fallbackCalls(), 0, "Actual tZEN transfer invoked receiver fallback");
+        assertEq(probe.receiveCalls(), 0, "Actual tZEN transfer invoked receiver receive");
+        assertEq(IERC20(TOKEN).balanceOf(address(probe)), amount, "Actual tZEN transfer accounting mismatch");
+    }
+
+    function test_RealFork_ActualTokenApproveDoesNotCallbackSpender() public {
+        // ZenStaker's delegation-surrogate path calls token.approve().
+        // A token-side callback would be required for the static reentrancy alert to become concrete.
+        TokenCallbackProbe probe = new TokenCallbackProbe();
+        address alice = address(0xA11CE);
+        vm.prank(alice);
+        bool ok = IERC20(TOKEN).approve(address(probe), 1e18);
+        assertTrue(ok, "Actual tZEN approve failed");
+        assertEq(probe.fallbackCalls(), 0, "Actual tZEN approve invoked spender fallback");
+        assertEq(probe.receiveCalls(), 0, "Actual tZEN approve invoked spender receive");
+        assertEq(IERC20(TOKEN).allowance(alice, address(probe)), 1e18, "Actual tZEN allowance mismatch");
+    }
+
 
 }
