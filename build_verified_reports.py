@@ -6,6 +6,7 @@ Synthetic callback PoCs cannot satisfy the real-target evidence gate.
 """
 import json
 import re
+from duplicate_gate import duplicate_gate
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -51,6 +52,7 @@ def generate(triage,leads,poc,scope,root=ROOT):
         elif triaged.get("commit")!=COMMIT:reason="source_commit_mismatch"
         elif case.get("poc_status")!="finding_specific_poc_passed":reason="no_finding_specific_poc"
         elif any(case.get(k) is not True for k in REQUIRED):reason="missing_security_verification"
+        elif not duplicate_gate(case,triaged)[0]:reason=duplicate_gate(case,triaged)[1]
         elif not all(clean_text(case.get(k)) for k in (
                 "title","security_impact","reproduction_steps","fix_recommendation")):
             reason="missing_report_details"
