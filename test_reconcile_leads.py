@@ -22,6 +22,20 @@ class TestReconcile(unittest.TestCase):
   self.assertEqual(out["verified_vulnerabilities"],0)
   proof["named_tests_confirmed"]=False
   self.assertEqual(reconcile({"findings":[lead]},proof)["finding_specific_pocs_executed"],0)
+ def test_real_tzen_transfer_closes_reward_accumulator_callback_condition(self):
+  lead={"id":"r","priority":"review","check":"reentrancy-no-eth","scope_relevance":"direct_in_scope_source",
+        "description":"Reentrancy in RewardAccumulator.sendRewardsToStaker() (src/RewardAccumulator.sol#104-123)"}
+  fork={"execution":"passed","tests_confirmed":["test_RealFork_ActualTokenTransferDoesNotCallbackReceiver"]}
+  out=reconcile({"findings":[lead]},{"execution":"passed"},fork)
+  self.assertEqual(out["cases"][0]["poc_status"],"finding_specific_real_token_condition_excluded")
+  self.assertFalse(out["cases"][0]["verified"])
+ def test_real_tzen_approve_closes_surrogate_callback_condition(self):
+  lead={"id":"z","priority":"review","check":"reentrancy-no-eth","scope_relevance":"direct_in_scope_source",
+        "description":"Reentrancy in ZenStaker._fetchOrDeploySurrogate(address) (src/ZenStaker.sol#50-60)"}
+  fork={"execution":"passed","tests_confirmed":["test_RealFork_ActualTokenApproveDoesNotCallbackSpender"]}
+  out=reconcile({"findings":[lead]},{},fork)
+  self.assertEqual(out["cases"][0]["poc_status"],"finding_specific_real_token_condition_excluded")
+  self.assertFalse(out["cases"][0]["verified"])
  def test_other_cases_remain_unverified(self):
   out=reconcile({"findings":[{"id":"x","priority":"review","check":"divide-before-multiply","scope_relevance":"direct_in_scope_source"}]},{"execution":"passed"})
   self.assertEqual(out["cases"][0]["poc_status"],"not_executed")
