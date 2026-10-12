@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Check pinned-source provenance and all four named offline tests
+# Reconcile exact Solidity function locations against local PoC evidence
 
 on:
   workflow_dispatch:
