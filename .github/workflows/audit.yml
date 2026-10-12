@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify monotonic status publication after cached-source compiler bootstrap fix
+# Verify official bounty live scope in same-day six-stage acceptance
 
 on:
   workflow_dispatch:
@@ -49,6 +49,12 @@ jobs:
       - name: Discover publicly listed bounty candidates
         continue-on-error: true
         run: python discover.py
+
+      - name: Test official bounty scope validation
+        run: python -m unittest -v test_verify_official_scope.py
+
+      - name: Verify official bounty opening, cash and exact assets
+        run: python verify_official_scope.py
 
       - name: Restore pinned-source audit cache
         id: audit_cache
@@ -169,6 +175,7 @@ jobs:
             lead_verification.json
             scope_review.json
             acceptance_status.json
+            official_scope_status.json
             ACCEPTANCE.md
           if-no-files-found: warn
 
