@@ -16,18 +16,19 @@ def reconcile(triage,poc):
         if (case.get("check")=="reentrancy-no-eth"
             and case.get("scope_relevance")=="direct_in_scope_source"
             and poc.get("execution")=="passed"):
-            row["poc_status"]="conditional_synthetic_callback_reproduced"
-            row["reason"]="Synthetic callback ERC20 only; production ZEN callback and exploitability not established"
+            row["poc_status"]="related_sandbox_test_not_finding_specific"
+            row["reason"]="Related synthetic callback test passed, but affected source locations not matched to this alert; production ZEN exploitability unverified"
         elif case.get("scope_relevance")=="not_established":
             row["reason"]="No confirmed relation to an official in-scope asset"
         elif case.get("scope_relevance")=="inherited_impact_must_be_proven":
             row["reason"]="Inherited implementation; impact on in-scope deployment not established"
         cases.append(row)
     return {"cases":cases,"lead_count":len(cases),
-            "conditional_evidence_leads":sum(c["poc_status"]=="conditional_synthetic_callback_reproduced" for c in cases),
+            "related_sandbox_test_leads":sum(c["poc_status"]=="related_sandbox_test_not_finding_specific" for c in cases),
+            "finding_specific_pocs_executed":0,
             "verified_vulnerabilities":0,"ready_to_submit":0}
 def main():
     result=reconcile(load("triage_results.json"),load("specific_poc_results.json"))
     (ROOT/"lead_verification.json").write_text(json.dumps(result,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    print("Per-lead evidence:",result["lead_count"],"conditional:",result["conditional_evidence_leads"],"verified:",result["verified_vulnerabilities"])
+    print("Per-lead evidence:",result["lead_count"],"conditional:",result["related_sandbox_test_leads"],"verified:",result["verified_vulnerabilities"])
 if __name__=="__main__":main()
