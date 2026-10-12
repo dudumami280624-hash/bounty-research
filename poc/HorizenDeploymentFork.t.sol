@@ -4,6 +4,8 @@ pragma solidity 0.8.28;
 import {Test} from "forge-std/Test.sol";
 import {ZenStaker} from "src/ZenStaker.sol";
 import {RewardAccumulator} from "src/RewardAccumulator.sol";
+import {Staker} from "src/Staker.sol";
+import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 /// @notice Real deployment on a local fork. Never broadcasts public transactions.
 /// @dev Scope: Horizen Testnet chain 2651420; official SECURITY.md addresses.
@@ -45,4 +47,30 @@ contract HorizenDeploymentForkTest is Test {
         ));
         accumulator.sendRewardsToStaker();
     }
+    function test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() public {
+        // Fund only the local Anvil/Foundry fork state; public tZEN balances are NOT changed.
+        address alice = address(0xA11CE);
+        address attacker = address(0xBADDCAFE);
+        uint256 original = 1000e18;
+        uint256 amount = 100e18;
+        deal(TOKEN, alice, original);
+        assertEq(IERC20(TOKEN).balanceOf(alice), original, "Local fork funding failed");
+
+        vm.prank(alice);
+        IERC20(TOKEN).approve(STAKER, amount);
+
+        vm.prank(alice);
+        Staker.DepositIdentifier depositId = staker.stake(amount, alice);
+        assertEq(IERC20(TOKEN).balanceOf(alice), original - amount);
+
+        vm.prank(attacker);
+        vm.expectRevert(Staker.Staker__Unauthorized.selector);
+        staker.withdraw(depositId, amount);
+
+        vm.prank(alice);
+        staker.withdraw(depositId, amount);
+        assertEq(IERC20(TOKEN).balanceOf(alice), original, "Principal conservation failed");
+        assertEq(IERC20(TOKEN).balanceOf(attacker), 0, "Attacker received ZEN");
+    }
+
 }
