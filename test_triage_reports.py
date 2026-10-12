@@ -23,6 +23,15 @@ class TriageTests(unittest.TestCase):
         self.assertEqual(by_check["c"]["scope_relevance"],"not_established")
         self.assertTrue(by_check["a"]["known_issue_review_required"])
 
+    def test_authoritative_source_mapping_not_description_substrings(self):
+        item={"check":"reentrancy-no-eth","impact":"Medium",
+              "description":"Referenced lib/ files but direct source is src/RewardAccumulator.sol",
+              "locations":[{"path":"src/RewardAccumulator.sol"},{"path":"lib/openzeppelin/ERC20.sol"}]}
+        result=triage({"projects":[{"commit":"test","findings":[item]}]})[0]
+        self.assertEqual(result["priority"],"review")
+        self.assertEqual(result["scope_relevance"],"direct_in_scope_source")
+        self.assertFalse(result["third_party_or_test"])
+
     def test_defer_third_party_and_low_severity(self):
         rows=triage({"projects":[{"commit":"abc","findings":[
             {"check":"test","impact":"High","description":"lib/fixture.sol"},
