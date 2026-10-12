@@ -23,12 +23,14 @@ TESTS=(
     "test_RealFork_UnknownAccountCannotNotifyReward",
     "test_RealFork_RewardWindowCannotBeBypassedEarly",
     "test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw",
+    "test_RealFork_ActualTokenTransferDoesNotCallbackReceiver",
+    "test_RealFork_ActualTokenApproveDoesNotCallbackSpender",
 )
 
 def evaluate_output(returncode,output):
     checked=[s for s in TESTS if ("[PASS] "+s+"(") in output]
     good=(returncode==0 and len(checked)==len(TESTS)
-          and "5 tests passed" in output and "0 failed" in output)
+          and f"{len(TESTS)} tests passed" in output and "0 failed" in output)
     return good,checked
 
 def main():
