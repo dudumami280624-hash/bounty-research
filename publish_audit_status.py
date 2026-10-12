@@ -22,6 +22,9 @@ def read_report(name):
                          for x in value.get("projects",[])][:25]
     elif name=="eligibility_status.json":
         out.update({k:value.get(k) for k in ("officially_verified_targets","ready_for_live_testing","confirmed_eligible_reports","confirmed_payouts_usd","payout_status","specific_pocs_executed","conditional_poc_tests_executed","conditional_poc_execution","specific_real_world_exploits_verified")})
+    elif name=="lead_verification.json":
+        out.update({k:value.get(k) for k in ("lead_count","conditional_evidence_leads","verified_vulnerabilities","ready_to_submit")})
+        out["cases"]=[{k:r.get(k) for k in ("id","check","scope_relevance","poc_status","verified")} for r in value.get("cases",[])][:20]
     elif name=="submission_status.json":
         out.update({key:value.get(key) for key in ("mode","total_alerts","review_leads","approved_for_submission","actual_submissions","payout_confirmed_usd")})
     elif name=="specific_poc_results.json":
@@ -52,7 +55,7 @@ report={"time_utc":datetime.now(timezone.utc).isoformat(),
         "note":"Static triage flags are NOT verified vulnerabilities.",
         "reports":{name:read_report(name) for name in (
             "global_bounties.json","bugcrowd_bounties.json",
-            "candidates.json","audit.json","slither_results.json","triage_results.json","validation_results.json","eligibility_status.json","specific_poc_results.json","submission_status.json")}}
+            "candidates.json","audit.json","slither_results.json","triage_results.json","validation_results.json","eligibility_status.json","specific_poc_results.json","submission_status.json","lead_verification.json")}}
 token=os.environ["GITHUB_TOKEN"]
 repo=os.environ["GITHUB_REPOSITORY"]
 url=f"https://api.github.com/repos/{repo}/contents/status/audit_status.json"
