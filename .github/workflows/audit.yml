@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Re-test callback reentrancy with surplus and no-surplus controls
+# Verify four offline ERC20 callback and no-callback tests
 
 on:
   workflow_dispatch:
