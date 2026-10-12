@@ -87,6 +87,14 @@ jobs:
             python validate_local.py
           fi
 
+      - name: Execute paired local reward-accumulator reproduction
+        if: always()
+        continue-on-error: true
+        run: |
+          if [ -d _work/0 ]; then
+            python run_specific_pocs.py
+          fi
+
       - name: Verify scope and payout safety gates
         if: always()
         run: python -m unittest -v test_eligibility_gate.py
@@ -116,6 +124,7 @@ jobs:
             report_drafts.md
             validation_results.json
             eligibility_status.json
+            specific_poc_results.json
           if-no-files-found: warn
 
   hackerone_connection:
