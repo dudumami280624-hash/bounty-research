@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Reconcile exact Solidity function locations against local PoC evidence
+# Verify report evidence artifact enforcement and regression
 
 on:
   workflow_dispatch:
