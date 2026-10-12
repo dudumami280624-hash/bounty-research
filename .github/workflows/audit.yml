@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Test schedule arithmetic directly with Foundry fuzzing
+# Run property-based surplus-conservation and arithmetic fuzz tests
 
 on:
   workflow_dispatch:
