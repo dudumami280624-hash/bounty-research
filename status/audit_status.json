@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T10:33:40.354262+00:00",
-  "workflow_run_id": "38236805637",
-  "workflow_sha": "1611c4903eecc446b17e5400dcd2344398e9d465",
+  "time_utc": "2026-10-12T10:37:18.316737+00:00",
+  "workflow_run_id": "38237157117",
+  "workflow_sha": "53e65a910e856165be898becba95cfe340c39943",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -339,7 +339,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-12T10:31:03.409281+00:00",
+      "verified_at_utc": "2026-10-12T10:34:24.309538+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -366,22 +366,34 @@
       "any_public_chain_transaction_broadcast": false,
       "returncode": 0,
       "error_type": null,
-      "log_excerpt": "Compiling 102 files with Solc 0.8.28\nSolc 0.8.28 finished in 5.39s\nCompiler run successful!\n\nRan 5 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 737023)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45189)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34844)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40581)\nSuite result: ok. 5 passed; 0 failed; 0 skipped; finished in 3.09s (3.13s CPU time)\n\nRan 1 test suite in 3.38s (3.09s CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)\n"
+      "log_excerpt": "Compiling 102 files with Solc 0.8.28\nSolc 0.8.28 finished in 5.18s\nCompiler run successful!\n\nRan 5 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803583)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45189)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34844)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40581)\nSuite result: ok. 5 passed; 0 failed; 0 skipped; finished in 2.88s (2.95s CPU time)\n\nRan 1 test suite in 3.00s (2.88s CPU time): 5 tests passed, 0 failed, 0 skipped (5 total tests)\n"
     },
     "frontend_scope_results.json": {
       "present": true,
       "source_repo": "https://github.com/HorizenOfficial/staker-services.git",
       "source_commit": "a404746a693adca207c8c31f3e21fc3762fbb7b8",
       "scope": "frontend/",
-      "execution": "failed_at_install",
+      "execution": "passed",
       "source_pinned": true,
       "security_vulnerabilities_verified": 0,
       "bounty_reports_ready": 0,
       "dependency_advisory_counts": null,
       "checks": {
         "install": {
-          "ok": false,
-          "returncode": 1
+          "ok": true,
+          "returncode": 0
+        },
+        "typecheck": {
+          "ok": true,
+          "returncode": 0
+        },
+        "lint": {
+          "ok": true,
+          "returncode": 0
+        },
+        "test": {
+          "ok": true,
+          "returncode": 0
         }
       }
     }
