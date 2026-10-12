@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Recheck official bounty scope using normalized HTML text and strict markers
+# Validate official scope and distinct USDC rewards markers; rerun six-stage acceptance
 
 on:
   workflow_dispatch:
