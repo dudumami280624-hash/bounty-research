@@ -1,6 +1,6 @@
 # 赏金猎人｜Bounty Research
 
-**正式执行计划与验收标准：** [PLAN.md](PLAN.md)（首版验收：2026-10-18；成果检查：2026-11-12）。
+**正式执行计划与验收标准：** [PLAN.md](PLAN.md)（**最终验收：2026-10-12，今天**；不得延期）。
 
 **当前系统：** 免费 GitHub Actions + Slither + Foundry/forge-std + 官方公开赏金候选目录；HackerOne 仅只读状态连接。定时触发每小时一次属于 GitHub 的尽力调度，不能保证 24/7 不间断执行。
 
@@ -8,7 +8,8 @@
 
 **直接查看：**
 - [正式执行计划（六阶段、期限、验收及防死循环规则）](PLAN.md)
-- [机器运行状态](status/audit_status.json)
+- [机器运行状态（含六阶段验收）](status/audit_status.json)
+- [六阶段 PASS/FAIL 生成器](acceptance.py)
 - [审计工作流](.github/workflows/audit.yml)
 - [奖励范围记录](scope_horizen.json)
 
