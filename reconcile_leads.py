@@ -14,10 +14,14 @@ def reconcile(triage,poc):
         row.update({"verified":False,"ready_to_submit":False,"poc_status":"not_executed",
                     "reason":"No finding-specific proof of real in-scope impact"})
         if (case.get("check")=="reentrancy-no-eth"
-            and case.get("scope_relevance")=="direct_in_scope_source"
+            and "RewardAccumulator.sendRewardsToStaker()" in case.get("description","")
+            and "src/RewardAccumulator.sol" in case.get("description","")
             and poc.get("execution")=="passed"):
             row["poc_status"]="related_sandbox_test_not_finding_specific"
             row["reason"]="Related synthetic callback test passed, but affected source locations not matched to this alert; production ZEN exploitability unverified"
+        elif ("ZenStaker._fetchOrDeploySurrogate" in case.get("description","")
+              and case.get("check")=="reentrancy-no-eth"):
+            row["reason"]="Surrogate constructor path requires its own reentrancy-specific PoC; RewardAccumulator PoC unrelated"
         elif case.get("scope_relevance")=="not_established":
             row["reason"]="No confirmed relation to an official in-scope asset"
         elif case.get("scope_relevance")=="inherited_impact_must_be_proven":
