@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Re-run real fork principal-conservation test with exact expected unauthorized revert
+# Validate actual tZEN transfer/approve callback behavior on Horizen local fork
 
 on:
   workflow_dispatch:
