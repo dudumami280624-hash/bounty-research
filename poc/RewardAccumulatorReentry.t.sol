@@ -64,6 +64,20 @@ contract RewardAccumulatorReentryTest is Test {
         assertEq(token.balanceOf(address(accumulator)), 100 ether);
         assertEq(accumulator.accumulatedRewards(), 0);
     }
+    function testFuzz_DivideBeforeMultiply_PreservesSchedule(uint32 extraSeconds) public {
+        // Exact static alert: elapsedWindows = elapsed / timeWindow;
+        // lastRewardTime += elapsedWindows * timeWindow.
+        // This rounds down to the intended window grid, not an asset loss.
+        uint256 initialLast = accumulator.lastRewardTime();
+        uint256 offset = bound(uint256(extraSeconds), 0, 365 days);
+        vm.warp(initialLast + 1 days + offset);
+        accumulator.sendRewardsToStaker();
+        uint256 expected = initialLast + ((1 days + offset) / 1 days) * 1 days;
+        assertEq(accumulator.lastRewardTime(), expected);
+        assertLe(accumulator.lastRewardTime(), block.timestamp);
+        assertGt(accumulator.nextRewardTime(), block.timestamp);
+        assertEq(receiver.notifications(), 1);
+    }
     function test_Control_NoCallback_SendsOnlyAccountedAmount() public {
         accumulator.sendRewardsToStaker();
         assertEq(token.balanceOf(address(receiver)), 100 ether);
