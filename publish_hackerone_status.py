@@ -48,3 +48,37 @@ try:
 except urllib.error.HTTPError as error:
     print("Status publication failed with HTTP", error.code)
     raise SystemExit(1)
+
+# Publish only IDs, basic states and coverage from the real provider report sync.
+source_reports=ROOT/"hackerone_reports.json"
+if source_reports.is_file():
+    raw_reports=json.loads(source_reports.read_text(encoding="utf-8"))
+    permitted_states={"new","triaged","needs-more-info","needs_more_info","resolved",
+                      "informative","not-applicable","not_applicable","duplicate",
+                      "spam","closed","pending","open","unknown"}
+    safe_entries=[]
+    for item in raw_reports.get("reports",[])[:100]:
+        if (isinstance(item,dict) and
+            isinstance(item.get("report_id"),str) and item["report_id"].isdigit() and
+            item.get("state") in permitted_states):
+            safe_entries.append({"report_id":item["report_id"],"state":item["state"]})
+    safe_report={key:raw_reports.get(key) for key in (
+        "time_utc","platform","mode","sync_status","coverage","reports_seen",
+        "report_states","error_type","payout_tracking_status")}
+    safe_report["reports"]=safe_entries
+    safe_report["payouts_verified_usd"]=0
+    target_url="https://api.github.com/repos/"+repo+"/contents/status/hackerone_reports.json"
+    current_sha=None
+    try:
+        with urllib.request.urlopen(urllib.request.Request(target_url,headers=headers),timeout=15) as res:
+            current_sha=json.loads(res.read(300000)).get("sha")
+    except urllib.error.HTTPError as error:
+        if error.code!=404:raise
+    request_body={"message":"Update read-only HackerOne report states [skip ci]",
+                  "content":base64.b64encode((json.dumps(safe_report,indent=2)+"\\n").encode()).decode(),
+                  "branch":"main"}
+    if current_sha:request_body["sha"]=current_sha
+    req=urllib.request.Request(target_url,headers=headers,
+        data=json.dumps(request_body).encode(),method="PUT")
+    with urllib.request.urlopen(req,timeout=20) as res:
+        print("Published sanitized HackerOne report states:",res.status)
