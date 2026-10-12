@@ -21,7 +21,7 @@ def read_report(name):
                           "flags":len(x.get("review_flags",[]))}
                          for x in value.get("projects",[])][:25]
     elif name=="eligibility_status.json":
-        out.update({k:value.get(k) for k in ("officially_verified_targets","ready_for_live_testing","confirmed_eligible_reports","confirmed_payouts_usd","payout_status","specific_pocs_executed","conditional_poc_tests_executed","conditional_poc_execution","specific_real_world_exploits_verified")})
+        out.update({k:value.get(k) for k in ("officially_verified_targets","official_scope_records","official_scope_record_only_not_live_eligibility","ready_for_live_testing","confirmed_eligible_reports","confirmed_payouts_usd","payout_status","specific_pocs_executed","conditional_poc_tests_executed","conditional_poc_execution","specific_real_world_exploits_verified")})
     elif name=="lead_verification.json":
         out.update({k:value.get(k) for k in ("lead_count","related_sandbox_test_leads","finding_specific_pocs_executed","verified_vulnerabilities","ready_to_submit")})
         out["cases"]=[{k:r.get(k) for k in ("id","check","scope_relevance","poc_status","verified")} for r in value.get("cases",[])][:20]
