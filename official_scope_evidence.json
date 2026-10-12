@@ -1,0 +1,21 @@
+{
+  "program": "Horizen",
+  "platform": "Immunefi",
+  "observed_at_utc": "2026-10-12T09:26:00+00:00",
+  "observation_method": "Read-only review of official Immunefi information and scope pages",
+  "information_url": "https://immunefi.com/bug-bounty/horizen/information/",
+  "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
+  "active_submission_indicator": "Submit a Bug",
+  "cash_payout_currency": "USDC",
+  "max_cash_bounty_usd": 10000,
+  "poc_required": true,
+  "kyc_required": true,
+  "source_repository": "https://github.com/HorizenOfficial/staker.git",
+  "pinned_commit": "ab92502e9da98784dfe3bd3ef933d4e9345ff628",
+  "direct_source_assets": [
+    "src/ZenStaker.sol",
+    "src/RewardAccumulator.sol"
+  ],
+  "restriction": "Source-only isolated PoC; no live chain exploitation; token/OFT code itself out of scope",
+  "provenance_note": "Observed from official pages on 2026-10-12; time-limited backup when automated request is blocked. Must reverify after 24h."
+}
