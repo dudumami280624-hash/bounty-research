@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Reconcile finding-specific pinned-source arithmetic fuzz results
+# Cache unchanged pinned-source Slither and Foundry results; reuse upstream tools
 
 on:
   workflow_dispatch:
@@ -50,6 +50,20 @@ jobs:
         continue-on-error: true
         run: python discover.py
 
+      - name: Restore pinned-source audit cache
+        id: audit_cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            audit.json
+            slither_results.json
+            triage_results.json
+            report_drafts.md
+            validation_results.json
+            specific_poc_results.json
+            _work/0
+          key: horizen-pinned-ab92502-audit-v3-${{ hashFiles('config.json', 'audit.py', 'slither_audit.py', 'triage_reports.py', 'validate_local.py', 'run_specific_pocs.py', 'poc/**') }}
+
       - name: Install Foundry Solidity toolchain
         uses: foundry-rs/foundry-toolchain@v1
         with:
@@ -59,10 +73,11 @@ jobs:
         run: python -m pip install --disable-pip-version-check slither-analyzer==0.11.3
 
       - name: Run source review
+        if: steps.audit_cache.outputs.cache-hit != 'true'
         run: python audit.py
 
       - name: Run Slither source triage
-        if: always()
+        if: steps.audit_cache.outputs.cache-hit != 'true'
         continue-on-error: true
         run: python slither_audit.py
 
@@ -71,7 +86,7 @@ jobs:
         run: python -m unittest -v test_triage_reports.py
 
       - name: Generate deduplicated security review and report drafts
-        if: always()
+        if: steps.audit_cache.outputs.cache-hit != 'true'
         run: |
           if [ -f slither_results.json ]; then
             python triage_reports.py
@@ -88,7 +103,7 @@ jobs:
         run: python scope_review.py
 
       - name: Run isolated offline Foundry test baseline
-        if: always()
+        if: steps.audit_cache.outputs.cache-hit != 'true'
         continue-on-error: true
         run: |
           if [ -f triage_results.json ]; then
@@ -96,7 +111,7 @@ jobs:
           fi
 
       - name: Execute paired local reward-accumulator reproduction
-        if: always()
+        if: steps.audit_cache.outputs.cache-hit != 'true'
         continue-on-error: true
         run: |
           if [ -d _work/0 ]; then
