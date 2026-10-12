@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T08:41:28.538347+00:00",
-  "workflow_run_id": "38224825138",
-  "workflow_sha": "4c192f8b3466f4af3241fe9898db5bb81bb186b5",
+  "time_utc": "2026-10-12T08:54:06.729531+00:00",
+  "workflow_run_id": "38226220284",
+  "workflow_sha": "8e9179c2b6835a92c140c42a73311044ea123fa0",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -36,7 +36,7 @@
         {
           "name": "Horizen staker (pinned public source)",
           "status": "analyzed",
-          "triage_flags": 664,
+          "triage_flags": 12,
           "error_type": null,
           "error_excerpt": ""
         }
@@ -44,30 +44,20 @@
     },
     "triage_results.json": {
       "present": true,
-      "total_alerts": 664,
-      "unique_alerts": 664,
-      "needs_review": 13,
+      "total_alerts": 12,
+      "unique_alerts": 12,
+      "needs_review": 12,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
       "payout_verified_usd": 0,
       "severity_counts": {
-        "High": 6,
-        "Medium": 33,
-        "Low": 29,
-        "Informational": 593,
-        "Optimization": 3
+        "High": 2,
+        "Medium": 10
       },
       "review_queue": [
         {
           "id": "df03bce1714d",
           "check": "arbitrary-send-erc20",
-          "impact": "High",
-          "scope_relevance": "not_established",
-          "reproduction": "specific_poc_not_run"
-        },
-        {
-          "id": "972ce92ec305",
-          "check": "uninitialized-state",
           "impact": "High",
           "scope_relevance": "not_established",
           "reproduction": "specific_poc_not_run"
@@ -146,14 +136,14 @@
           "id": "9d74cbad990c",
           "check": "unused-return",
           "impact": "Medium",
-          "scope_relevance": "not_established",
+          "scope_relevance": "inherited_impact_must_be_proven",
           "reproduction": "specific_poc_not_run"
         }
       ]
     },
     "validation_results.json": {
       "present": true,
-      "leads_recorded": 13,
+      "leads_recorded": 12,
       "specific_pocs_executed": 0,
       "verified_vulnerabilities": 0,
       "test_runs": [
@@ -193,15 +183,15 @@
     "submission_status.json": {
       "present": true,
       "mode": "drafts_only",
-      "total_alerts": 664,
-      "review_leads": 13,
+      "total_alerts": 12,
+      "review_leads": 12,
       "approved_for_submission": 0,
       "actual_submissions": 0,
       "payout_confirmed_usd": 0
     },
     "lead_verification.json": {
       "present": true,
-      "lead_count": 13,
+      "lead_count": 12,
       "related_sandbox_test_leads": 1,
       "finding_specific_pocs_executed": 1,
       "verified_vulnerabilities": 0,
@@ -210,13 +200,6 @@
         {
           "id": "df03bce1714d",
           "check": "arbitrary-send-erc20",
-          "scope_relevance": "not_established",
-          "poc_status": "not_executed",
-          "verified": false
-        },
-        {
-          "id": "972ce92ec305",
-          "check": "uninitialized-state",
           "scope_relevance": "not_established",
           "poc_status": "not_executed",
           "verified": false
@@ -294,7 +277,7 @@
         {
           "id": "9d74cbad990c",
           "check": "unused-return",
-          "scope_relevance": "not_established",
+          "scope_relevance": "inherited_impact_must_be_proven",
           "poc_status": "not_executed",
           "verified": false
         }
