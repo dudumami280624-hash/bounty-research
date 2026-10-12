@@ -72,7 +72,8 @@ contract HorizenDeploymentForkTest is Test {
         staker.withdraw(depositId, amount);
         assertEq(IERC20(TOKEN).balanceOf(alice), ownerBalanceBefore, "Owner funds changed");
         assertEq(IERC20(TOKEN).balanceOf(attacker), attackerBalanceBefore, "Attacker gained ZEN");
-        assertEq(staker.deposits(depositId).balance, amount, "Deposit principal changed");
+        (uint96 depositPrincipal,,,,,) = staker.getDepositInfo(depositId);
+        assertEq(uint256(depositPrincipal), amount, "Deposit principal changed");
 
         vm.prank(alice);
         staker.withdraw(depositId, amount);
