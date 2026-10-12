@@ -23,7 +23,7 @@ def read_report(name):
     elif name=="eligibility_status.json":
         out.update({k:value.get(k) for k in ("officially_verified_targets","ready_for_live_testing","confirmed_eligible_reports","confirmed_payouts_usd","payout_status","specific_pocs_executed","conditional_poc_tests_executed","conditional_poc_execution","specific_real_world_exploits_verified")})
     elif name=="lead_verification.json":
-        out.update({k:value.get(k) for k in ("lead_count","conditional_evidence_leads","verified_vulnerabilities","ready_to_submit")})
+        out.update({k:value.get(k) for k in ("lead_count","related_sandbox_test_leads","finding_specific_pocs_executed","verified_vulnerabilities","ready_to_submit")})
         out["cases"]=[{k:r.get(k) for k in ("id","check","scope_relevance","poc_status","verified")} for r in value.get("cases",[])][:20]
     elif name=="submission_status.json":
         out.update({key:value.get(key) for key in ("mode","total_alerts","review_leads","approved_for_submission","actual_submissions","payout_confirmed_usd")})
