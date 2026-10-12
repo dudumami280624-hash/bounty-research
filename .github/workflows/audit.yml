@@ -103,6 +103,14 @@ jobs:
         if: always()
         run: python eligibility_gate.py
 
+      - name: Test secure submission gating
+        if: always()
+        run: python -m unittest -v test_submission_gate.py
+
+      - name: Evaluate report readiness without submitting
+        if: always()
+        run: python submission_gate.py
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -125,6 +133,7 @@ jobs:
             validation_results.json
             eligibility_status.json
             specific_poc_results.json
+            submission_status.json
           if-no-files-found: warn
 
   hackerone_connection:
