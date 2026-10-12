@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify four offline ERC20 callback and no-callback tests
+# Check pinned-source provenance and all four named offline tests
 
 on:
   workflow_dispatch:
