@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Fix cached-source missing solc with free compiler bootstrap, rerun six-stage acceptance
+# Verify monotonic status publication after cached-source compiler bootstrap fix
 
 on:
   workflow_dispatch:
