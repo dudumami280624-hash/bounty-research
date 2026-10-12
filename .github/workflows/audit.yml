@@ -109,10 +109,7 @@ jobs:
 
       - name: Execute paired local reward-accumulator reproduction
         if: always()
-        run: |
-          if [ -d _work/0 ]; then
-            python run_specific_pocs.py
-          fi
+        run: python run_specific_pocs.py
 
       - name: Test per-lead evidence reconciliation
         if: always()
