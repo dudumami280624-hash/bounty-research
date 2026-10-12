@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T06:52:26.057685+00:00",
-  "workflow_run_id": "38214481934",
-  "workflow_sha": "b24ee724d3e3c38b3391b7a090bd7ef85c9a55a6",
+  "time_utc": "2026-10-12T06:55:53.939587+00:00",
+  "workflow_run_id": "38214784106",
+  "workflow_sha": "479b52cf1458a45e76b119eddef05f3a09deaf5f",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -200,7 +200,8 @@
     "lead_verification.json": {
       "present": true,
       "lead_count": 13,
-      "conditional_evidence_leads": 2,
+      "related_sandbox_test_leads": 2,
+      "finding_specific_pocs_executed": 0,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
       "cases": [
@@ -236,14 +237,14 @@
           "id": "1429588799f6",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "conditional_synthetic_callback_reproduced",
+          "poc_status": "related_sandbox_test_not_finding_specific",
           "verified": false
         },
         {
           "id": "8e48c2a2804a",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "conditional_synthetic_callback_reproduced",
+          "poc_status": "related_sandbox_test_not_finding_specific",
           "verified": false
         },
         {
