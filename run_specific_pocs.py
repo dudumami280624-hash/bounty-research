@@ -24,8 +24,8 @@ try:
         p=subprocess.run(cmd,cwd=base,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,
                          text=True,timeout=240,check=False)
         s=p.stdout
-        out["execution"]="passed" if p.returncode==0 and "2 tests passed" in s and "0 failed" in s else "failed"
-        out["tests_passed"]=2 if out["execution"]=="passed" else 0
+        out["execution"]="passed" if p.returncode==0 and "3 tests passed" in s and "0 failed" in s else "failed"
+        out["tests_passed"]=3 if out["execution"]=="passed" else 0
         out["returncode"]=p.returncode
         out["log_excerpt"]=s[-1800:]
 except subprocess.TimeoutExpired:
