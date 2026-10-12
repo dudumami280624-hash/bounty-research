@@ -59,6 +59,18 @@ contract RewardAccumulatorReentryTest is Test {
         assertEq(token.balanceOf(address(accumulator)), 100 ether);
         assertEq(receiver.notifications(), 1);
     }
+    function test_CallbackWithoutSurplus_RevertsAtomically() public {
+        // Remove the unaccounted 100-token donation; callback reentry then
+        // cannot execute the second transfer and the whole operation reverts.
+        vm.prank(address(accumulator));
+        token.transfer(address(0xBEEF), 100 ether);
+        token.configure(accumulator, address(receiver), true);
+        vm.expectRevert();
+        accumulator.sendRewardsToStaker();
+        assertEq(receiver.notifications(), 0);
+        assertEq(token.balanceOf(address(receiver)), 0);
+        assertEq(accumulator.accumulatedRewards(), 100 ether);
+    }
     function test_ConditionalMaliciousERC20_CallbackCausesDuplicateSend() public {
         token.configure(accumulator, address(receiver), true);
         accumulator.sendRewardsToStaker();
