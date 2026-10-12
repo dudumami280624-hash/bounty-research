@@ -44,5 +44,44 @@ class SnapshotTests(unittest.TestCase):
         from run_deployment_fork import rpc_read
         with self.assertRaises(ValueError):
             rpc_read("eth_sendTransaction",[])
+
+class RpcReliabilityTests(unittest.TestCase):
+    def test_retry_503_then_succeed(self):
+        import io
+        from unittest.mock import patch
+        from urllib.error import HTTPError
+        from run_deployment_fork import RPC, rpc_read
+        transient = HTTPError(RPC, 503, "Service unavailable", None, None)
+        response = io.BytesIO(b'{"jsonrpc":"2.0","id":1,"result":"0x1"}')
+        with patch("run_deployment_fork.urllib.request.urlopen",
+                   side_effect=[transient, response]) as opener, \
+             patch("run_deployment_fork.time.sleep") as sleeper:
+            self.assertEqual(rpc_read("eth_chainId", []), "0x1")
+        self.assertEqual(opener.call_count, 2)
+        sleeper.assert_called_once()
+
+    def test_http_403_is_not_retried(self):
+        from unittest.mock import patch
+        from urllib.error import HTTPError
+        from run_deployment_fork import RPC, rpc_read
+        denied = HTTPError(RPC, 403, "Forbidden", None, None)
+        with patch("run_deployment_fork.urllib.request.urlopen",
+                   side_effect=denied) as opener:
+            with self.assertRaises(HTTPError):
+                rpc_read("eth_chainId", [])
+        self.assertEqual(opener.call_count, 1)
+
+    def test_transport_failure_stops_after_three_attempts(self):
+        from unittest.mock import patch
+        from urllib.error import URLError
+        from run_deployment_fork import rpc_read
+        with patch("run_deployment_fork.urllib.request.urlopen",
+                   side_effect=URLError("unreachable")) as opener, \
+             patch("run_deployment_fork.time.sleep") as sleeper:
+            with self.assertRaises(URLError):
+                rpc_read("eth_chainId", [])
+        self.assertEqual(opener.call_count, 3)
+        self.assertEqual(sleeper.call_count, 2)
+
 if __name__=="__main__":unittest.main()
 

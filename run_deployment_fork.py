@@ -7,6 +7,8 @@ A green result proves deployment assumptions and negative controls, NOT an explo
 import json
 import hashlib
 import urllib.request
+import urllib.error
+import time
 import os
 import pathlib
 import shutil
@@ -37,16 +39,26 @@ DEPLOYMENTS = {
 }
 
 def rpc_read(method, params):
+    """Retry only transient failures of public, read-only JSON-RPC calls."""
     if method not in ("eth_chainId", "eth_blockNumber", "eth_getBlockByNumber", "eth_getCode"):
         raise ValueError("RPC method is not read-only allowlisted")
     request = urllib.request.Request(RPC,
         data=json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode(),
         headers={"Content-Type":"application/json"}, method="POST")
-    with urllib.request.urlopen(request, timeout=20) as response:
-        value = json.loads(response.read(2_000_000))
-    if value.get("error") or "result" not in value:
-        raise ValueError("RPC read failed")
-    return value["result"]
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                value = json.loads(response.read(2_000_000))
+            if value.get("error") or "result" not in value:
+                raise ValueError("RPC read failed")
+            return value["result"]
+        except urllib.error.HTTPError as err:
+            if err.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 2:
+                raise
+        time.sleep(0.5 * (attempt + 1))
 
 def deployment_snapshot(read=rpc_read):
     if int(read("eth_chainId", []), 16) != 2651420:
@@ -86,6 +98,7 @@ def main():
         "real_deployment_state_checked":False,"real_world_exploit_verified":False,
         "any_public_chain_transaction_broadcast":False,
         "note":"Local fork validation of genuine deployment; does NOT establish a bug bounty finding"}
+    stage="preflight"
     try:
         if not BASE.is_dir() or not SOURCE.is_file() or not shutil.which("forge"):
             raise RuntimeError("source checkout / Foundry unavailable")
@@ -100,12 +113,15 @@ def main():
             if any(part in k.upper() for part in (
                     "TOKEN","SECRET","PASSWORD","PRIVATE_KEY","API_KEY","MNEMONIC")):
                 env.pop(k,None)
+        stage="deployment_snapshot"
         record.update(deployment_snapshot())
+        stage="foundry_fork"
         cmd=["forge","test","--match-contract","HorizenDeploymentForkTest",
              "--fork-url",RPC,"--fork-block-number",str(record["fork_block_number"]),"-vv"]
         p=subprocess.run(cmd,cwd=BASE,env=env,stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,text=True,timeout=240,check=False)
         good,checked=evaluate_output(p.returncode,p.stdout)
+        stage="fork_block_recheck"
         block=rpc_read("eth_getBlockByNumber", [hex(record["fork_block_number"]),False])
         if not isinstance(block,dict) or block.get("hash") != record["fork_block_hash"]:
             raise ValueError("Fork block changed during validation")
@@ -115,13 +131,20 @@ def main():
             "real_deployment_state_checked":good})
     except subprocess.TimeoutExpired:
         record["execution"]="timeout"
+        record["error_stage"]=stage
     except Exception as err:
         record["execution"]="error"
         record["error_type"]=type(err).__name__
+        record["error_stage"]=stage
+        if isinstance(err, urllib.error.HTTPError):
+            record["rpc_http_status"]=err.code
     (ROOT/"deployment_fork_results.json").write_text(
         json.dumps(record,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Real deployed Horizen local fork:",record["execution"],
-          "tests:",record["tests_passed"],"/",len(TESTS))
+          "tests:",record["tests_passed"],"/",len(TESTS),
+          "stage:",record.get("error_stage","completed"),
+          "error:",record.get("error_type","none"),
+          "rpc_http_status:",record.get("rpc_http_status","n/a"))
     if record["execution"]!="passed":
         raise SystemExit(1)
 
