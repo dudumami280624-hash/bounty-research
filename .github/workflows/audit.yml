@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Execute offline security proof with separate status evidence
+# Verify conditional PoC evidence and status synchronization
 
 on:
   workflow_dispatch:
