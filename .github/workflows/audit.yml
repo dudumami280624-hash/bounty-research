@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Verify report evidence artifact enforcement and regression
+# Verify exact-file scope triage and source-classification tests
 
 on:
   workflow_dispatch:
@@ -79,6 +79,14 @@ jobs:
             echo "No Slither findings available; drafts not generated"
           fi
 
+      - name: Verify exact-file scope triage
+        if: always()
+        run: python -m unittest -v test_scope_review.py
+
+      - name: Classify prioritized alerts by source and scope
+        if: always()
+        run: python scope_review.py
+
       - name: Run isolated offline Foundry test baseline
         if: always()
         continue-on-error: true
@@ -143,6 +151,7 @@ jobs:
             specific_poc_results.json
             submission_status.json
             lead_verification.json
+            scope_review.json
           if-no-files-found: warn
 
   hackerone_connection:
