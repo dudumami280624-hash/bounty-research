@@ -5,6 +5,8 @@ Reads only from the public Horizen testnet RPC. No private key, wallet, or --bro
 A green result proves deployment assumptions and negative controls, NOT an exploit.
 """
 import json
+import hashlib
+import urllib.request
 import os
 import pathlib
 import shutil
@@ -26,6 +28,49 @@ TESTS=(
     "test_RealFork_ActualTokenTransferDoesNotCallbackReceiver",
     "test_RealFork_ActualTokenApproveDoesNotCallbackSpender",
 )
+
+
+DEPLOYMENTS = {
+    "token": "0xb06EC4ce262D8dbDc24Fac87479A49A7DC4cFb87",
+    "staker": "0x6BF7CF29a8bcE11Aa62Cf593d165C244fA4d3E31",
+    "accumulator": "0x06f5555fee73EDdc385b6d76FE00DB2D96ccDaE8",
+}
+
+def rpc_read(method, params):
+    if method not in ("eth_chainId", "eth_blockNumber", "eth_getBlockByNumber", "eth_getCode"):
+        raise ValueError("RPC method is not read-only allowlisted")
+    request = urllib.request.Request(RPC,
+        data=json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode(),
+        headers={"Content-Type":"application/json"}, method="POST")
+    with urllib.request.urlopen(request, timeout=20) as response:
+        value = json.loads(response.read(2_000_000))
+    if value.get("error") or "result" not in value:
+        raise ValueError("RPC read failed")
+    return value["result"]
+
+def deployment_snapshot(read=rpc_read):
+    if int(read("eth_chainId", []), 16) != 2651420:
+        raise ValueError("Unexpected chain")
+    tag = read("eth_blockNumber", [])
+    number = int(tag, 16)
+    block = read("eth_getBlockByNumber", [tag, False])
+    if not isinstance(block, dict) or int(block.get("number", "0x0"),16) != number:
+        raise ValueError("Invalid block identity")
+    block_hash = block.get("hash")
+    if not isinstance(block_hash,str) or len(block_hash)!=66:
+        raise ValueError("Missing block hash")
+    codes = {}
+    for name,address in DEPLOYMENTS.items():
+        raw = read("eth_getCode", [address, tag])
+        if not isinstance(raw,str) or not raw.startswith("0x"):
+            raise ValueError("Invalid runtime bytecode")
+        code = bytes.fromhex(raw[2:])
+        if not code:
+            raise ValueError("Missing deployed runtime bytecode")
+        codes[name] = {"address":address,"bytes":len(code),
+                       "runtime_sha256":hashlib.sha256(code).hexdigest()}
+    return {"fork_block_number":number,"fork_block_hash":block_hash,
+            "deployment_code":codes,"deployment_source_match_verified":False}
 
 def evaluate_output(returncode,output):
     checked=[s for s in TESTS if ("[PASS] "+s+"(") in output]
@@ -55,11 +100,15 @@ def main():
             if any(part in k.upper() for part in (
                     "TOKEN","SECRET","PASSWORD","PRIVATE_KEY","API_KEY","MNEMONIC")):
                 env.pop(k,None)
+        record.update(deployment_snapshot())
         cmd=["forge","test","--match-contract","HorizenDeploymentForkTest",
-             "--fork-url",RPC,"-vv"]
+             "--fork-url",RPC,"--fork-block-number",str(record["fork_block_number"]),"-vv"]
         p=subprocess.run(cmd,cwd=BASE,env=env,stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,text=True,timeout=240,check=False)
         good,checked=evaluate_output(p.returncode,p.stdout)
+        block=rpc_read("eth_getBlockByNumber", [hex(record["fork_block_number"]),False])
+        if not isinstance(block,dict) or block.get("hash") != record["fork_block_hash"]:
+            raise ValueError("Fork block changed during validation")
         record.update({"execution":"passed" if good else "failed",
             "tests_passed":len(checked),"tests_confirmed":checked,
             "returncode":p.returncode,"log_excerpt":p.stdout[-4500:],
