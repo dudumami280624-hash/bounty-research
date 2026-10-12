@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run paired local Foundry reproductions against pinned public source (offline)."""
+"""Run local Foundry reproductions; allow free compiler bootstrap, never chain RPC."""
 import json,os,pathlib,shutil,subprocess
 from datetime import datetime,timezone
 ROOT=pathlib.Path(__file__).resolve().parent
@@ -9,6 +9,7 @@ target=base/"test"/"RewardAccumulatorReentry.t.sol"
 out={"time_utc":datetime.now(timezone.utc).isoformat(),"test_suite":"RewardAccumulatorReentryTest",
      "source_commit":"ab92502e9da98784dfe3bd3ef933d4e9345ff628",
      "execution":"not_run","tests_passed":0,"tests_failed":0,
+     "compiler_bootstrap":"Foundry may download pinned solc 0.8.28; no chain RPC or paid API",
      "conditional_simulation_only":True,"real_world_exploit_verified":False,
      "official_reward_token_callback_verified":False,"ready_to_submit":False}
 try:
@@ -23,7 +24,7 @@ try:
         for k in list(env):
             if any(w in k.upper() for w in ("TOKEN","SECRET","PASSWORD","PRIVATE_KEY","API_KEY","RPC_URL","MNEMONIC")):
                 env.pop(k,None)
-        cmd=["forge","test","--offline","--match-contract","RewardAccumulatorReentryTest","-vv"]
+        cmd=["forge","test","--match-contract","RewardAccumulatorReentryTest","-vv"]
         p=subprocess.run(cmd,cwd=base,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,
                          text=True,timeout=240,check=False)
         s=p.stdout
