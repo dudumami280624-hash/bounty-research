@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T10:28:28.704642+00:00",
-  "workflow_run_id": "38236287716",
-  "workflow_sha": "e84c5f797f360c98fc99a35f13fbe7a8025cd0e6",
+  "time_utc": "2026-10-12T10:32:21.052032+00:00",
+  "workflow_run_id": "38236668485",
+  "workflow_sha": "aae0ddc2864aa47cae2c4bdd553d3a2146032906",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -339,7 +339,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-12T10:26:10.821570+00:00",
+      "verified_at_utc": "2026-10-12T10:29:51.395221+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -366,7 +366,24 @@
       "any_public_chain_transaction_broadcast": false,
       "returncode": 1,
       "error_type": null,
-      "log_excerpt": "Fork_RewardWindowCannotBeBypassedEarly() (gas: 45189)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34844)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40581)\nSuite result: FAILED. 4 passed; 1 failed; 0 skipped; finished in 894.87ms (868.80ms CPU time)\n\nRan 1 test suite in 961.05ms (894.87ms CPU time): 4 tests passed, 1 failed, 0 skipped (5 total tests)\n\nFailing tests:\nEncountered 1 failing test in test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[FAIL: Error != expected error: Staker__Unauthorized(0x6e6f74206f776e65720000000000000000000000000000000000000000000000, 0x00000000000000000000000000000000BaDdcaFE) != custom error 0x581a50f0] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (block: 30211716) (gas: 717514)\n\nEncountered a total of 1 failing tests, 4 tests succeeded\n\nTip: Run `forge test --rerun` to retry only the 1 failed test\nTip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger\n"
+      "log_excerpt": "S] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45189)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34844)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40581)\nSuite result: FAILED. 4 passed; 1 failed; 0 skipped; finished in 1.11s (1.18s CPU time)\n\nRan 1 test suite in 1.23s (1.11s CPU time): 4 tests passed, 1 failed, 0 skipped (5 total tests)\n\nFailing tests:\nEncountered 1 failing test in test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[FAIL: Error != expected error: Staker__Unauthorized(0x6e6f74206f776e65720000000000000000000000000000000000000000000000, 0x00000000000000000000000000000000BaDdcaFE) != custom error 0x581a50f0] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (block: 30211946) (gas: 717514)\n\nEncountered a total of 1 failing tests, 4 tests succeeded\n\nTip: Run `forge test --rerun` to retry only the 1 failed test\nTip: Run `forge test --debug --match-test <TEST_NAME>` to inspect one failing test in the debugger\n"
+    },
+    "frontend_scope_results.json": {
+      "present": true,
+      "source_repo": "https://github.com/HorizenOfficial/staker-services.git",
+      "source_commit": "a404746a693adca207c8c31f3e21fc3762fbb7b8",
+      "scope": "frontend/",
+      "execution": "failed_at_install",
+      "source_pinned": true,
+      "security_vulnerabilities_verified": 0,
+      "bounty_reports_ready": 0,
+      "dependency_advisory_counts": null,
+      "checks": {
+        "install": {
+          "ok": false,
+          "returncode": 1
+        }
+      }
     }
   }
 }
