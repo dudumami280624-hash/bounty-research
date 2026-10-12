@@ -5,7 +5,12 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 GATES=("verified","bounty_scope_verified","known_issue_checked","impact_verified","poc_passed","explicit_submission_approved")
 def ready(case):
-    return isinstance(case,dict) and all(case.get(k) is True for k in GATES) and isinstance(case.get("evidence_path"),str) and case["evidence_path"].startswith("evidence/") and ".." not in case["evidence_path"]
+    if not isinstance(case,dict) or not all(case.get(k) is True for k in GATES):return False
+    path=case.get("evidence_path")
+    if not isinstance(path,str) or not path.startswith("evidence/") or ".." in path:return False
+    base=(ROOT/"evidence").resolve()
+    candidate=(ROOT/path).resolve()
+    return candidate.is_relative_to(base) and candidate.is_file() and candidate.stat().st_size>0
 def main():
     try:cases=json.loads((ROOT/"triage_results.json").read_text(encoding="utf-8")).get("findings",[])
     except (ValueError,OSError):cases=[]
