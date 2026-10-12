@@ -60,7 +60,6 @@ jobs:
             triage_results.json
             report_drafts.md
             validation_results.json
-            specific_poc_results.json
             _work/0
           key: horizen-pinned-ab92502-audit-v3-${{ hashFiles('config.json', 'audit.py', 'slither_audit.py', 'triage_reports.py', 'validate_local.py', 'run_specific_pocs.py', 'poc/**') }}
 
@@ -103,15 +102,13 @@ jobs:
 
       - name: Run isolated offline Foundry test baseline
         if: steps.audit_cache.outputs.cache-hit != 'true'
-        continue-on-error: true
         run: |
           if [ -f triage_results.json ]; then
             python validate_local.py
           fi
 
       - name: Execute paired local reward-accumulator reproduction
-        if: steps.audit_cache.outputs.cache-hit != 'true'
-        continue-on-error: true
+        if: always()
         run: |
           if [ -d _work/0 ]; then
             python run_specific_pocs.py
