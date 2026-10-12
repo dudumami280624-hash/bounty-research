@@ -1,5 +1,5 @@
 name: Authorized public-source audit
-# Real Horizen testnet local fork verification; no broadcast to public chain
+# Real tZEN principal-conservation & unauthorized withdrawal validation on local fork
 
 on:
   workflow_dispatch:
