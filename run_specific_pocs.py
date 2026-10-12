@@ -30,11 +30,12 @@ try:
         expected=("test_Control_NoCallback_SendsOnlyAccountedAmount",
                   "test_StandardERC20_WithSurplus_StillSendsOnlyAccountedAmount",
                   "test_ConditionalMaliciousERC20_CallbackCausesDuplicateSend",
-                  "test_CallbackWithoutSurplus_RevertsAtomically")
+                  "test_CallbackWithoutSurplus_RevertsAtomically",
+                  "testFuzz_DivideBeforeMultiply_PreservesSchedule")
         names_ok=all(name in s for name in expected)
         out["named_tests_confirmed"]=names_ok
-        out["execution"]="passed" if p.returncode==0 and names_ok and "4 tests passed" in s and "0 failed" in s else "failed"
-        out["tests_passed"]=4 if out["execution"]=="passed" else 0
+        out["execution"]="passed" if p.returncode==0 and names_ok and "5 tests passed" in s and "0 failed" in s else "failed"
+        out["tests_passed"]=5 if out["execution"]=="passed" else 0
         out["returncode"]=p.returncode
         out["log_excerpt"]=s[-1800:]
 except subprocess.TimeoutExpired:
