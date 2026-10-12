@@ -1,0 +1,55 @@
+name: Upstream Echidna stateful security invariants
+# Runs Trail of Bits' maintained fuzzer, not an in-house fuzzing implementation.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/echidna.yml'
+      - 'poc/RewardAccumulatorInvariant.t.sol'
+
+permissions:
+  contents: read
+
+jobs:
+  echidna:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install maintained Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+
+      - name: Prepare official pinned source and compile the real contract
+        run: |
+          git clone --quiet --no-checkout https://github.com/HorizenOfficial/staker.git _work/0
+          git -C _work/0 checkout --quiet ab92502e9da98784dfe3bd3ef933d4e9345ff628
+          test "$(git -C _work/0 rev-parse HEAD)" = ab92502e9da98784dfe3bd3ef933d4e9345ff628
+          cp poc/RewardAccumulatorInvariant.t.sol _work/0/test/RewardAccumulatorInvariant.t.sol
+          cd _work/0
+          forge build --build-info
+
+      - name: Run upstream Echidna property-based transaction sequences
+        uses: crytic/echidna-action@v2
+        with:
+          echidna-workdir: _work/0
+          files: .
+          contract: RewardAccumulatorInvariant
+          test-mode: property
+          test-limit: 250
+          seq-len: 15
+          crytic-args: --ignore-compile
+          format: json
+          output-file: echidna-results.json
+
+      - name: Retain upstream counterexamples and campaign report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: echidna-stateful-results
+          path: echidna-results.json
+          if-no-files-found: warn
