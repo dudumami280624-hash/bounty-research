@@ -15,6 +15,9 @@ try:
     if not base.is_dir() or not source.exists() or not shutil.which("forge"):
         out["execution"]="environment_unavailable"
     else:
+        pinned=subprocess.run(["git","rev-parse","HEAD"],cwd=base,capture_output=True,text=True,check=True).stdout.strip()
+        if pinned != out["source_commit"]:
+            raise ValueError("Source commit mismatch: refusing unpinned PoC")
         shutil.copyfile(source,target)
         env=os.environ.copy()
         for k in list(env):
@@ -24,7 +27,13 @@ try:
         p=subprocess.run(cmd,cwd=base,env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,
                          text=True,timeout=240,check=False)
         s=p.stdout
-        out["execution"]="passed" if p.returncode==0 and "4 tests passed" in s and "0 failed" in s else "failed"
+        expected=("test_Control_NoCallback_SendsOnlyAccountedAmount",
+                  "test_StandardERC20_WithSurplus_StillSendsOnlyAccountedAmount",
+                  "test_ConditionalMaliciousERC20_CallbackCausesDuplicateSend",
+                  "test_CallbackWithoutSurplus_RevertsAtomically")
+        names_ok=all(name in s for name in expected)
+        out["named_tests_confirmed"]=names_ok
+        out["execution"]="passed" if p.returncode==0 and names_ok and "4 tests passed" in s and "0 failed" in s else "failed"
         out["tests_passed"]=4 if out["execution"]=="passed" else 0
         out["returncode"]=p.returncode
         out["log_excerpt"]=s[-1800:]
