@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-12T06:30:20.056848+00:00",
-  "workflow_run_id": "38212625441",
-  "workflow_sha": "2771b1b5d2198bbfe94ca277f73420e5d2ca1c55",
+  "time_utc": "2026-10-12T06:34:03.541658+00:00",
+  "workflow_run_id": "38212968984",
+  "workflow_sha": "e0aaa237ffdb21095e6cf9210e5e75e1f2c285fe",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -187,6 +187,14 @@
       "official_reward_token_callback_verified": false,
       "ready_to_submit": false,
       "returncode": 0
+    },
+    "submission_status.json": {
+      "present": true,
+      "mode": "drafts_only",
+      "total": 664,
+      "approved_for_submission": 0,
+      "actual_submissions": 0,
+      "payout_confirmed_usd": 0
     }
   }
 }
