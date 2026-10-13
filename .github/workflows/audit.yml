@@ -133,6 +133,8 @@ jobs:
       - name: Verify actual deployed Horizen contracts on read-only local fork
         if: always()
         id: deployment_fork
+        env:
+          HORIZEN_TESTNET_RPC_URL: ${{ secrets.HORIZEN_TESTNET_RPC_URL }}
         continue-on-error: true
         run: python run_deployment_fork.py
 
