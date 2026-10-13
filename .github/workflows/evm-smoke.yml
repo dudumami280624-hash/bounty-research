@@ -1,6 +1,11 @@
 name: Solidity EVM environment smoke test
 on:
   workflow_dispatch:
+    inputs:
+      repetitions:
+        description: "Number of independent EVM replay iterations (1-10000)"
+        required: false
+        default: "100"
   push:
     paths:
       - .github/workflows/evm-smoke.yml
@@ -10,12 +15,19 @@ permissions:
 jobs:
   evm:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: foundry-rs/foundry-toolchain@v1
         with:
           version: stable
+      - name: Validate repetition count
+        env:
+          REPLAY_REPETITIONS: ${{ inputs.repetitions || '100' }}
+        run: |
+          [[ "$REPLAY_REPETITIONS" =~ ^[0-9]+$ ]] || exit 2
+          (( REPLAY_REPETITIONS >= 1 && REPLAY_REPETITIONS <= 10000 )) || exit 2
+          echo "REPLAY_REPETITIONS=$REPLAY_REPETITIONS" >> "$GITHUB_ENV"
       - name: Verify compiler and EVM runner
         run: |
           set -euxo pipefail
@@ -41,6 +53,7 @@ jobs:
           mkdir -p /tmp/historical-replay/test
           cp historical_replay/Reentrancy.t.sol /tmp/historical-replay/test/Reentrancy.t.sol
           cd /tmp/historical-replay
+          set -o pipefail
           forge test -vvv --match-contract HistoricalReentryTest 2>&1 | tee "$GITHUB_WORKSPACE/evm-replay.log"
       - name: Replay official Ethernaut challenge source
         run: |
@@ -58,15 +71,44 @@ jobs:
           solc_version = "0.6.12"
           remappings = ["openzeppelin-contracts-06/=lib/openzeppelin-contracts-06/"]
           TOML
+          set -o pipefail
           forge test -vvv --match-contract EthernautReentranceTest 2>&1 | tee "$GITHUB_WORKSPACE/ethernaut-replay.log"
+      - name: Repeated cross-source EVM verification
+        run: |
+          set -euo pipefail
+          echo "iteration,fixture,result" > replay-results.csv
+          for ((i=1; i<=REPLAY_REPETITIONS; i++)); do
+            for fixture in historical ethernaut; do
+              if [[ "$fixture" == historical ]]; then
+                project=/tmp/historical-replay
+                contract=HistoricalReentryTest
+              else
+                project=/tmp/ethernaut-replay
+                contract=EthernautReentranceTest
+              fi
+              if (cd "$project" && forge test --match-contract "$contract" --summary) >> replay-batch.log 2>&1; then
+                echo "$i,$fixture,pass" >> replay-results.csv
+              else
+                echo "$i,$fixture,fail" >> replay-results.csv
+                echo "Failure in $fixture iteration $i" | tee -a replay-batch.log
+                exit 1
+              fi
+            done
+          done
+          sha256sum /tmp/historical-replay/src/Reentrancy.sol /tmp/ethernaut-replay/src/Reentrance.sol > fixture-sha256.txt
+          echo "Completed $REPLAY_REPETITIONS iterations for each independent source"
       - name: Save environment versions
         run: |
           { forge --version; cast --version; anvil --version; } > evm-versions.txt
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: evm-versions
+          name: evm-replay-evidence
           path: |
             evm-versions.txt
             evm-replay.log
             ethernaut-replay.log
+            replay-batch.log
+            replay-results.csv
+            fixture-sha256.txt
           if-no-files-found: warn
