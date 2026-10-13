@@ -1,0 +1,34 @@
+name: AI child heartbeat
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    paths:
+      - student_heartbeat.py
+      - student_autonomous.py
+      - student_practice.py
+      - student_lab/**
+      - .github/workflows/child-heartbeat.yml
+permissions:
+  contents: read
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+      - name: Check Python modules
+        run: python -m py_compile student_heartbeat.py student_autonomous.py student_practice.py
+      - name: Run actual offline heartbeat
+        run: python student_heartbeat.py --output-dir child-evidence
+      - name: Preserve evidence even if heartbeat fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: child-heartbeat-evidence
+          path: child-evidence/
+          if-no-files-found: warn
