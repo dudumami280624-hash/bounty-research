@@ -14,9 +14,13 @@ def scoreboard(fork, submission, acceptance):
     submission=submission or {}
     acceptance=acceptance or {}
     passed=fork.get("execution")=="passed" and fork.get("tests_passed")==7
+    source_matched=fork.get("deployment_source_match_verified") is True
     return {
         "workflow_execution": "independent_ci_result",
-        "real_chain_validation": "passed" if passed else ("blocked" if fork.get("error_stage")=="deployment_snapshot" else "unverified"),
+        "real_chain_validation": ("passed" if passed and source_matched else
+                                  "behavior_observed_source_unverified" if passed else
+                                  "blocked" if fork.get("error_stage")=="deployment_snapshot" else "unverified"),
+        "deployment_source_correspondence": "verified" if source_matched else "unverified",
         "real_chain_tests_passed": 7 if passed else 0,
         "verified_vulnerability": "unverified",
         "official_bounty_payment": "unverified",
