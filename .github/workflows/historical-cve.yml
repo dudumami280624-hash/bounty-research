@@ -1,22 +1,24 @@
 name: Historical CVE knowledge backfill
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
   push:
     paths:
       - collect_historical_cves.py
       - .github/workflows/historical-cve.yml
 permissions:
-  contents: read
+  contents: write
 jobs:
   backfill:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - name: Fetch first historical window and preserve evidence
         run: |
           set -euo pipefail
-          python collect_historical_cves.py --max-windows 1 2>&1 | tee historical-cve.log
+          python collect_historical_cves.py --max-windows 2 2>&1 | tee historical-cve.log
           python - <<'PY'
           import json
           from pathlib import Path
@@ -24,10 +26,33 @@ jobs:
           assert state and all(v["count"] >= 0 for v in state.values())
           print("Validated historical windows:",len(state))
           PY
+      - name: Persist checkpoints and compressed cases across workflow runs
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import gzip
+          from pathlib import Path
+          for path in Path("historical-cve").glob("*.json"):
+              if path.name == "manifest.json":
+                  continue
+              gz = path.with_suffix(path.suffix + ".gz")
+              if not gz.exists():
+                  with path.open("rb") as source, gzip.open(gz, "wb", compresslevel=9) as target:
+                      target.write(source.read())
+              path.unlink()
+          PY
+          git config user.name "bounty-research-knowledge-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add historical-cve/
+          if ! git diff --cached --quiet; then
+            git commit -m "data: checkpoint historical CVE knowledge intake [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: historical-cve-first-window
+          name: historical-cve-checkpoint
           path: |
             historical-cve/
             historical-cve.log
