@@ -92,6 +92,34 @@ def deployment_snapshot(read=rpc_read):
             "deployment_code":codes,"deployment_source_match_verified":False}
 
 
+def diagnose_rpc_methods(endpoint):
+    """Identify the exact failing read method, without writing or sending transactions."""
+    results=[]
+    tag=None
+    for method,params in (("eth_chainId",[]),("eth_blockNumber",[])):
+        try:
+            value=rpc_read(method,params,rpc_url=endpoint)
+            results.append({"method":method,"status":"ok"})
+            if method=="eth_blockNumber": tag=value
+        except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError,ValueError) as err:
+            results.append({"method":method,"status":"failed",
+                            "http_status":getattr(err,"code",None),
+                            "error_type":type(err).__name__})
+            return results
+    if tag:
+        for method,params in [("eth_getBlockByNumber",[tag,False])]+[
+            ("eth_getCode",[address,tag]) for address in DEPLOYMENTS.values()]:
+            try:
+                rpc_read(method,params,rpc_url=endpoint)
+                results.append({"method":method,"status":"ok"})
+            except (urllib.error.HTTPError,urllib.error.URLError,TimeoutError,ValueError) as err:
+                results.append({"method":method,"status":"failed",
+                                "http_status":getattr(err,"code",None),
+                                "error_type":type(err).__name__})
+                break
+    return results
+
+
 def select_rpc_snapshot():
     """Choose one public RPC only after verifying chain, block and all deployed code."""
     failures=[]
@@ -110,7 +138,7 @@ def select_rpc_snapshot():
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError) as err:
             status=err.code if isinstance(err, urllib.error.HTTPError) else None
             failures.append({"endpoint":urllib.parse.urlsplit(endpoint).hostname,"error_type":type(err).__name__,
-                             "http_status":status})
+                             "http_status":status,"method_diagnostics":diagnose_rpc_methods(endpoint)})
     raise RuntimeError("No configured/public RPC passed deployment verification: "+json.dumps(failures))
 
 def evaluate_output(returncode,output):
