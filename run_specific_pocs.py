@@ -40,6 +40,31 @@ try:
         out["tests_passed"]=6 if out["execution"]=="passed" else 0
         out["returncode"]=p.returncode
         out["log_excerpt"]=s[-1800:]
+        # Separate in-scope, fixed-source hypothesis: user-controlled deposit ID lists.
+        summary_source=ROOT/"poc"/"ZenStakerSummaryFuzz.t.sol"
+        summary_target=base/"test"/"ZenStakerSummaryFuzz.t.sol"
+        shutil.copyfile(summary_source,summary_target)
+        summary_cmd=["forge","test","--match-contract","ZenStakerSummaryFuzzTest","--fuzz-runs","128","-vv"]
+        q=subprocess.run(summary_cmd,cwd=base,env=env,stdout=subprocess.PIPE,
+                         stderr=subprocess.STDOUT,text=True,timeout=240,check=False)
+        required=("testFuzz_OwnedIdReturnsRealReward",
+                  "testFuzz_DuplicateAndForeignIdsDoNotInflateRewards",
+                  "test_ForeignOnlyIdsYieldNoUnclaimedRewards",
+                  "test_TwoOwnedIdsSumRewards",
+                  "test_UnknownIdAndDuplicateAreIgnored")
+        summary_ok=(q.returncode==0 and all(n in q.stdout for n in required)
+                    and "5 tests passed" in q.stdout and "0 failed" in q.stdout)
+        out["zen_summary_fuzz"]={
+            "execution":"passed" if summary_ok else "failed",
+            "tests_expected":5,"tests_passed":5 if summary_ok else 0,
+            "source_commit":pinned,"source_path":"src/ZenStaker.sol",
+            "function":"getDepositorFullSummary",
+            "test_command":" ".join(summary_cmd),
+            "fuzz_runs":128,"log_excerpt":q.stdout[-3500:],
+            "real_world_exploit_verified":False,
+            "conclusion":"No reward inflation shown" if summary_ok else "Unresolved test failure"}
+        if not summary_ok:
+            out["execution"]="failed"
 except subprocess.TimeoutExpired:
     out["execution"]="timeout"
 except Exception as error:
