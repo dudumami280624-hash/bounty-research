@@ -22,7 +22,7 @@ class RpcFailoverTests(unittest.TestCase):
 
     def test_all_endpoints_failed_never_claims_validation(self):
         with patch.object(m,"deployment_snapshot",side_effect=urllib.error.HTTPError("url",403,"forbidden",None,None)):
-            with self.assertRaisesRegex(RuntimeError,"No public RPC passed deployment verification") as ctx:
+            with self.assertRaisesRegex(RuntimeError,"No configured/public RPC passed deployment verification") as ctx:
                 m.select_rpc_snapshot()
         self.assertIn('"http_status": 403',str(ctx.exception))
 
