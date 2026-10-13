@@ -16,6 +16,9 @@ on:
       - knowledge_ingest.py
       - knowledge_sources/**
       - test_knowledge_ingest.py
+      - build_knowledge_index.py
+      - knowledge_detector_bridge.py
+      - test_knowledge_detector_bridge.py
 permissions:
   contents: read
 jobs:
@@ -39,6 +42,25 @@ jobs:
           data = json.load(open("vulnerability-knowledge.json"))
           assert len(data) == 2
           assert all(x["verification"] == "unverified" for x in data.values())
+          PY
+      - name: Verify scanner-to-knowledge bridge on positive and negative evidence
+        run: |
+          set -euo pipefail
+          python -m unittest -v test_knowledge_detector_bridge
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from build_knowledge_index import bridge
+          Path("advisory-knowledge.json").write_text("{}")
+          bridge("advisory-knowledge.json","vulnerability-knowledge.json","knowledge-index.json")
+          sample={"projects":[{"name":"fixture","findings":[{"check":"reentrancy-eth","description":"External call before state update","impact":"High","locations":[{"path":"src/Fixture.sol","lines":[10]}]}]}]}
+          Path("scanner-fixture.json").write_text(json.dumps(sample))
+          PY
+          python knowledge_detector_bridge.py knowledge-index.json scanner-fixture.json knowledge-triage.json
+          python - <<'PY'
+          import json
+          r=json.load(open("knowledge-triage.json"))
+          assert r["scanner_findings"]==1 and r["correlated_findings"]>=1
           PY
       - name: Validate deduplication registry
         run: python -m unittest -v test_vulnerability_registry
