@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-13T06:11:17.484136+00:00",
-  "workflow_run_id": "38355219420",
-  "workflow_sha": "418ba685d60c969fb359922a2233ba64bce0afb8",
+  "time_utc": "2026-10-13T06:11:27.427098+00:00",
+  "workflow_run_id": "38355235407",
+  "workflow_sha": "d3ef296f048b20d36a0ad684ed804333eb0b38a5",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -351,7 +351,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-13T06:10:18.657617+00:00",
+      "verified_at_utc": "2026-10-13T06:10:30.637116+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
