@@ -138,6 +138,10 @@ jobs:
         continue-on-error: true
         run: python run_deployment_fork.py
 
+      - name: Diagnose RPC failures for unattended maintenance
+        if: always()
+        run: python rpc_maintenance.py
+
       - name: Classify RPC infrastructure failure separately from contract validation
         if: always()
         run: |
