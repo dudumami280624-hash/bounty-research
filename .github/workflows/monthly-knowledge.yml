@@ -1,6 +1,10 @@
 name: Monthly public vulnerability knowledge intake
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/monthly-knowledge.yml
+      - collect_public_advisories.py
   schedule:
     - cron: '20 3 2 * *'
 permissions:
