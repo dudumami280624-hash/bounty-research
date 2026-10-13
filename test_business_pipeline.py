@@ -35,12 +35,13 @@ class FullPipelineIntegration(unittest.TestCase):
              "conditional_simulation_only":False,"real_world_exploit_verified":True}
    official={"status":"verified","verified_count":1,"pinned_commit":COMMIT}
    output=generate(triage,verified,fake_poc,official,root)
-   self.assertEqual(output["verified_reports_generated"],1)
+   self.assertEqual(output["verified_reports_generated"],0)
+   self.assertTrue(output["blocked"])
    with patch("submission_gate.ROOT",root):
     self.assertFalse(ready(lead))
     lead["explicit_submission_approved"]=True
     self.assertTrue(ready(lead))
-   self.assertFalse(output["reports"][0]["submitted"])
+   self.assertFalse((root/"reports").exists())
    states=summarize([{"data":[{"id":"123","attributes":{"state":"triaged"}}]}])
    self.assertEqual(states["report_states"],{"triaged":1})
    self.assertEqual(states["payouts_verified_usd"],0)
