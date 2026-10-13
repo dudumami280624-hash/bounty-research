@@ -1,0 +1,89 @@
+name: Real scanner knowledge blind-lab evaluation
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/real-scanner-blind-lab.yml
+      - score_blind_lab.py
+      - knowledge_detector_bridge.py
+      - build_knowledge_index.py
+permissions:
+  contents: read
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install real Slither scanner and Solidity compiler
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install slither-analyzer solc-select
+          solc-select install 0.8.20
+          solc-select use 0.8.20
+          slither --version
+      - name: Prepare independent public positive and negative fixtures
+        run: |
+          mkdir -p /tmp/blind-lab/positive /tmp/blind-lab/negative
+          curl -fLsS --retry 3 https://raw.githubusercontent.com/crytic/not-so-smart-contracts/master/reentrancy/Reentrancy.sol -o /tmp/blind-lab/positive/Reentrancy.sol
+          cat > /tmp/blind-lab/negative/SafeVault.sol <<'SOL'
+          // SPDX-License-Identifier: MIT
+          pragma solidity ^0.8.20;
+          contract SafeVault {
+              mapping(address => uint256) public credit;
+              function deposit() external payable { credit[msg.sender] += msg.value; }
+              function withdraw() external {
+                  uint256 amount = credit[msg.sender];
+                  require(amount > 0);
+                  credit[msg.sender] = 0;
+                  (bool ok,) = msg.sender.call{value: amount}("");
+                  require(ok);
+              }
+          }
+          SOL
+          sha256sum /tmp/blind-lab/*/*.sol > fixture-hashes.txt
+      - name: Scan both fixtures with real Slither
+        run: |
+          set -euo pipefail
+          solc-select install 0.4.26
+          solc-select use 0.4.26
+          slither /tmp/blind-lab/positive/Reentrancy.sol --json positive-raw.json > positive-scanner.log 2>&1 || test -s positive-raw.json
+          solc-select use 0.8.20
+          slither /tmp/blind-lab/negative/SafeVault.sol --json negative-raw.json > negative-scanner.log 2>&1 || test -s negative-raw.json
+      - name: Parse scanner evidence and connect curated knowledge
+        run: |
+          set -euo pipefail
+          python knowledge_ingest.py knowledge_sources/seed.json vulnerability-knowledge.json
+          echo '{}' > empty-advisories.json
+          python build_knowledge_index.py empty-advisories.json vulnerability-knowledge.json knowledge-index.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          projects=[]
+          for name in ("positive","negative"):
+              raw=json.loads(Path(name+"-raw.json").read_text())
+              assert raw.get("success") is True, (name,raw.get("error"))
+              findings=[]
+              for d in raw.get("results",{}).get("detectors",[]):
+                  findings.append({"check":d.get("check"),"description":d.get("description"),"impact":d.get("impact"),"locations":[]})
+              projects.append({"name":name,"findings":findings})
+          Path("real-scanner-results.json").write_text(json.dumps({"projects":projects},indent=2))
+          Path("fixture-labels.json").write_text(json.dumps({"positive":True,"negative":False}))
+          PY
+          python knowledge_detector_bridge.py knowledge-index.json real-scanner-results.json knowledge-triage.json
+          python score_blind_lab.py knowledge-triage.json fixture-labels.json detection-metrics.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: real-scanner-blind-lab-evidence
+          path: |
+            fixture-hashes.txt
+            *-scanner.log
+            *-raw.json
+            real-scanner-results.json
+            knowledge-index.json
+            knowledge-triage.json
+            fixture-labels.json
+            detection-metrics.json
+          retention-days: 90
+          if-no-files-found: warn
