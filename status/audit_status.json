@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-13T12:57:54.595860+00:00",
-  "workflow_run_id": "38401059613",
-  "workflow_sha": "53377a035471520aad4d79de03663c587326b304",
+  "time_utc": "2026-10-13T13:01:02.406836+00:00",
+  "workflow_run_id": "38401426166",
+  "workflow_sha": "4a42577a892470b8c6c12b1b297dda5bfc540db7",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -192,7 +192,7 @@
     "lead_verification.json": {
       "present": true,
       "lead_count": 12,
-      "related_sandbox_test_leads": 1,
+      "related_sandbox_test_leads": 0,
       "finding_specific_pocs_executed": 1,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
@@ -225,17 +225,17 @@
           "id": "1429588799f6",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "not_executed",
+          "poc_status": "finding_specific_real_token_condition_excluded",
           "verified": false,
-          "reason": "Surrogate constructor path requires actual-token callback validation on the authorized local fork"
+          "reason": "Actual deployed tZEN approve on Horizen local fork did not callback spender; token-callback prerequisite for surrogate-path reentry is absent"
         },
         {
           "id": "8e48c2a2804a",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "related_sandbox_test_not_finding_specific",
+          "poc_status": "finding_specific_real_token_condition_excluded",
           "verified": false,
-          "reason": "Related synthetic callback test passed, but production tZEN callback condition has not yet been checked"
+          "reason": "Actual deployed tZEN transfer on Horizen local fork did not callback receiver; synthetic malicious-token reentry prerequisite is absent"
         },
         {
           "id": "20f0b85eac0b",
@@ -351,7 +351,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-13T12:56:45.962857+00:00",
+      "verified_at_utc": "2026-10-13T12:59:40.797226+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -368,21 +368,37 @@
     },
     "deployment_fork_results.json": {
       "present": true,
-      "execution": "error",
+      "execution": "passed",
       "chain_id": 2651420,
       "source_commit": "ab92502e9da98784dfe3bd3ef933d4e9345ff628",
-      "tests_passed": 0,
+      "tests_passed": 7,
       "tests_expected": 7,
-      "real_deployment_state_checked": false,
+      "real_deployment_state_checked": true,
       "real_world_exploit_verified": false,
       "any_public_chain_transaction_broadcast": false,
-      "returncode": null,
-      "error_type": "RuntimeError",
-      "fork_block_number": null,
-      "fork_block_hash": null,
-      "deployment_code": null,
-      "deployment_source_match_verified": null,
-      "log_excerpt": ""
+      "returncode": 0,
+      "error_type": null,
+      "fork_block_number": 30307221,
+      "fork_block_hash": "0x39e5e377448bf15f28cc3565dbb15d12686631d374a4b233f167412d3faabaf4",
+      "deployment_code": {
+        "token": {
+          "address": "0xb06EC4ce262D8dbDc24Fac87479A49A7DC4cFb87",
+          "bytes": 12539,
+          "runtime_sha256": "1bcc5f5d9be6b9c4c3884bb398e602f4bd63efab29f594dd9f8dd2197e0ba4e6"
+        },
+        "staker": {
+          "address": "0x6BF7CF29a8bcE11Aa62Cf593d165C244fA4d3E31",
+          "bytes": 16818,
+          "runtime_sha256": "fd909fc4dba2a73182449434afe2e006df9ebb39e349224e8e378523358e6b35"
+        },
+        "accumulator": {
+          "address": "0x06f5555fee73EDdc385b6d76FE00DB2D96ccDaE8",
+          "bytes": 3889,
+          "runtime_sha256": "82a63de681fb8f623276c75d46d6d758233a4faf5b8c3606849f5cde96049889"
+        }
+      },
+      "deployment_source_match_verified": false,
+      "log_excerpt": "Compiling 102 files with Solc 0.8.28\nSolc 0.8.28 finished in 5.87s\nCompiler run successful!\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 918.14ms (998.85ms CPU time)\n\nRan 1 test suite in 976.08ms (918.14ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
     },
     "frontend_scope_results.json": {
       "present": true,
