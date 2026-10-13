@@ -28,7 +28,7 @@ jobs:
           slither --version
       - name: Prepare independent public positive and negative fixtures
         run: |
-          mkdir -p /tmp/blind-lab/positive /tmp/blind-lab/negative
+          mkdir -p /tmp/blind-lab/positive /tmp/blind-lab/negative /tmp/blind-lab/ethernaut /tmp/blind-lab/ethernaut/lib/openzeppelin-contracts-06/math
           curl -fLsS --retry 3 https://raw.githubusercontent.com/crytic/not-so-smart-contracts/master/reentrancy/Reentrancy.sol -o /tmp/blind-lab/positive/Reentrancy.sol
           cat > /tmp/blind-lab/negative/SafeVault.sol <<'SOL'
           // SPDX-License-Identifier: MIT
@@ -45,7 +45,9 @@ jobs:
               }
           }
           SOL
-          sha256sum /tmp/blind-lab/*/*.sol > fixture-hashes.txt
+          curl -fLsS --retry 3 https://raw.githubusercontent.com/OpenZeppelin/ethernaut/master/contracts/src/levels/Reentrance.sol -o /tmp/blind-lab/ethernaut/Reentrance.sol
+          curl -fLsS --retry 3 https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v3.4.2/contracts/math/SafeMath.sol -o /tmp/blind-lab/ethernaut/lib/openzeppelin-contracts-06/math/SafeMath.sol
+          sha256sum /tmp/blind-lab/positive/*.sol /tmp/blind-lab/negative/*.sol /tmp/blind-lab/ethernaut/*.sol /tmp/blind-lab/ethernaut/lib/openzeppelin-contracts-06/math/*.sol > fixture-hashes.txt
       - name: Scan both fixtures with real Slither
         run: |
           set -euo pipefail
@@ -54,6 +56,12 @@ jobs:
           slither /tmp/blind-lab/positive/Reentrancy.sol --json positive-raw.json > positive-scanner.log 2>&1 || test -s positive-raw.json
           solc-select use 0.8.20
           slither /tmp/blind-lab/negative/SafeVault.sol --json negative-raw.json > negative-scanner.log 2>&1 || test -s negative-raw.json
+      - name: Scan independent Ethernaut public challenge
+        run: |
+          set -euo pipefail
+          solc-select install 0.6.12
+          solc-select use 0.6.12
+          slither /tmp/blind-lab/ethernaut/Reentrance.sol --solc-remaps "openzeppelin-contracts-06/=/tmp/blind-lab/ethernaut/lib/openzeppelin-contracts-06/" --json ethernaut-raw.json > ethernaut-scanner.log 2>&1 || test -s ethernaut-raw.json
       - name: Parse scanner evidence and connect curated knowledge
         run: |
           set -euo pipefail
@@ -64,7 +72,7 @@ jobs:
           import json
           from pathlib import Path
           projects=[]
-          for name in ("positive","negative"):
+          for name in ("positive","negative","ethernaut"):
               raw=json.loads(Path(name+"-raw.json").read_text())
               assert raw.get("success") is True, (name,raw.get("error"))
               findings=[]
@@ -72,7 +80,7 @@ jobs:
                   findings.append({"check":d.get("check"),"description":d.get("description"),"impact":d.get("impact"),"locations":[]})
               projects.append({"name":name,"findings":findings})
           Path("real-scanner-results.json").write_text(json.dumps({"projects":projects},indent=2))
-          Path("fixture-labels.json").write_text(json.dumps({"positive":True,"negative":False}))
+          Path("fixture-labels.json").write_text(json.dumps({"positive":True,"negative":False,"ethernaut":True}))
           PY
           python knowledge_detector_bridge.py knowledge-index.json real-scanner-results.json knowledge-triage.json
           python score_blind_lab.py knowledge-triage.json fixture-labels.json detection-metrics.json
