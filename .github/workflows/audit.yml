@@ -138,6 +138,12 @@ jobs:
         continue-on-error: true
         run: python run_deployment_fork.py
 
+      - name: Diagnose live RPC transport and chain identity
+        if: always()
+        env:
+          HORIZEN_TESTNET_RPC_URL: ${{ secrets.HORIZEN_TESTNET_RPC_URL }}
+        run: python rpc_transport_diagnostics.py
+
       - name: Test independent explorer evidence fallback
         if: always()
         run: python -m unittest -v test_explorer_evidence.py
@@ -268,6 +274,7 @@ jobs:
             repair_proposal.json
             research_scoreboard.json
             explorer_evidence.json
+            rpc_transport_diagnostics.json
             frontend_scope_results.json
             official_scope_status.json
             ACCEPTANCE.md
