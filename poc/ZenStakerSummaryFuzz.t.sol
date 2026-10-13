@@ -65,4 +65,42 @@ contract ZenStakerSummaryFuzzTest is ZenStakerTest {
         assertEq(power, 10e18);
         assertEq(rewards, 0, "Foreign rewards were counted");
     }
+
+    // Positive regression: separate owned deposits must each contribute once.
+    function test_TwoOwnedIdsSumRewards() public {
+        Staker.DepositIdentifier first = _stake(alice, 20e18, alice);
+        Staker.DepositIdentifier second = _stake(alice, 30e18, alice);
+        _notifyReward(100e18);
+        vm.warp(block.timestamp + 7 days);
+        Staker.DepositIdentifier[] memory ids = new Staker.DepositIdentifier[](2);
+        ids[0] = first;
+        ids[1] = second;
+        (uint256 staked, uint256 power, uint256 rewards) =
+            staker.getDepositorFullSummary(alice, ids);
+        uint256 expected = staker.unclaimedReward(first) + staker.unclaimedReward(second);
+        assertGt(expected, 0, "Positive control must accrue rewards");
+        assertEq(staked, 50e18, "Two valid deposits principal mismatch");
+        assertEq(power, 50e18, "Two valid deposits power mismatch");
+        assertEq(rewards, expected, "Valid deposits not counted exactly once");
+    }
+
+    // Negative regression: unknown identifiers and repeated IDs cannot inflate rewards.
+    function test_UnknownIdAndDuplicateAreIgnored() public {
+        Staker.DepositIdentifier first = _stake(alice, 20e18, alice);
+        _notifyReward(100e18);
+        vm.warp(block.timestamp + 7 days);
+        Staker.DepositIdentifier[] memory ids = new Staker.DepositIdentifier[](4);
+        ids[0] = Staker.DepositIdentifier.wrap(type(uint256).max);
+        ids[1] = first;
+        ids[2] = first;
+        ids[3] = Staker.DepositIdentifier.wrap(type(uint256).max);
+        (uint256 staked, uint256 power, uint256 rewards) =
+            staker.getDepositorFullSummary(alice, ids);
+        uint256 expected = staker.unclaimedReward(first);
+        assertGt(expected, 0, "Negative control must have a real reward to protect");
+        assertEq(staked, 20e18, "Unknown ID changed principal");
+        assertEq(power, 20e18, "Unknown ID changed earning power");
+        assertEq(rewards, expected, "Unknown or duplicate ID inflated rewards");
+    }
+
 }
