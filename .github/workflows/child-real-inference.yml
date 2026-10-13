@@ -13,28 +13,17 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - name: Install llama.cpp CPU binary
+      - name: Build llama.cpp CPU binary from source
         shell: bash
         run: |
           set -euo pipefail
-          python - <<'PY'
-          import json,urllib.request
-          url="https://api.github.com/repos/ggml-org/llama.cpp/releases/latest"
-          with urllib.request.urlopen(url,timeout=30) as r: release=json.load(r)
-          assets=[a for a in release["assets"] if "ubuntu" in a["name"].lower() and "x64" in a["name"].lower() and "cpu" in a["name"].lower() and a["name"].endswith(".tar.gz")]
-          if not assets:
-              assets=[a for a in release["assets"] if "ubuntu" in a["name"].lower() and "x64" in a["name"].lower() and a["name"].endswith(".tar.gz") and "cuda" not in a["name"].lower() and "vulkan" not in a["name"].lower()]
-          if not assets: raise SystemExit("No compatible llama.cpp CPU release")
-          print(assets[0]["browser_download_url"])
-          open("/tmp/llama-download-url","w").write(assets[0]["browser_download_url"])
-          PY
-          curl -fL --retry 3 --max-time 180 "$(cat /tmp/llama-download-url)" -o /tmp/llama.tar.gz
-          mkdir -p /tmp/llama
-          tar -xzf /tmp/llama.tar.gz -C /tmp/llama
-          LLAMA_CLI="$(find /tmp/llama -type f -name llama-cli | head -n 1)"
-          test -n "$LLAMA_CLI"
-          chmod +x "$LLAMA_CLI"
-          echo "LLAMA_CLI=$LLAMA_CLI" >> "$GITHUB_ENV"
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq cmake build-essential libcurl4-openssl-dev
+          git clone --depth 1 https://github.com/ggml-org/llama.cpp.git /tmp/llama-src
+          cmake -S /tmp/llama-src -B /tmp/llama-build -DCMAKE_BUILD_TYPE=Release -DGGML_NATIVE=OFF -DLLAMA_CURL=OFF
+          cmake --build /tmp/llama-build --config Release --target llama-cli -j 2
+          test -x /tmp/llama-build/bin/llama-cli
+          echo "LLAMA_CLI=/tmp/llama-build/bin/llama-cli" >> "$GITHUB_ENV"
       - name: Download free open GGUF model
         shell: bash
         run: |
