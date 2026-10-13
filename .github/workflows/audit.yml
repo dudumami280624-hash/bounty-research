@@ -217,6 +217,14 @@ jobs:
         if: always()
         run: python run_frontend_scope.py
 
+      - name: Test independent research acceptance scoreboard
+        if: always()
+        run: python -m unittest -v test_research_scoreboard.py
+
+      - name: Build evidence-separated research scoreboard
+        if: always()
+        run: python research_scoreboard.py
+
       - name: Publish audit status to private repository
         if: always()
         env:
@@ -244,6 +252,8 @@ jobs:
             scope_review.json
             acceptance_status.json
             deployment_fork_results.json
+            rpc_maintenance_diagnosis.json
+            research_scoreboard.json
             frontend_scope_results.json
             official_scope_status.json
             ACCEPTANCE.md
