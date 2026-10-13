@@ -1,0 +1,50 @@
+name: Monthly major vulnerability knowledge update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5 30 * *'
+    - cron: '30 5 28,29 2 *'
+permissions:
+  contents: read
+jobs:
+  major-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skip non-final February date
+        id: date
+        run: |
+          python - <<'PY'
+          import calendar,datetime,os
+          today=datetime.datetime.now(datetime.timezone.utc).date()
+          due=today.day==30 or (today.month==2 and today.day==calendar.monthrange(today.year,2)[1])
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f: f.write(f"due={'true' if due else 'false'}\n")
+          PY
+      - name: Build major monthly knowledge snapshot
+        if: steps.date.outputs.due == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python -m unittest -v test_knowledge_ingest test_vulnerability_registry 2>&1 | tee major-update.log
+          python collect_public_advisories.py --pages 5 --output advisory-knowledge.json --summary advisory-summary.json 2>&1 | tee -a major-update.log
+          python knowledge_ingest.py knowledge_sources/seed.json vulnerability-knowledge.json 2>&1 | tee -a major-update.log
+          python - <<'PY'
+          import json
+          a=json.load(open("advisory-knowledge.json"))
+          b=json.load(open("vulnerability-knowledge.json"))
+          assert a and b
+          print("advisories",len(a),"structured_cases",len(b))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: monthly-major-knowledge-update
+          path: |
+            major-update.log
+            advisory-knowledge.json
+            advisory-summary.json
+            vulnerability-knowledge.json
+          retention-days: 90
+          if-no-files-found: warn
