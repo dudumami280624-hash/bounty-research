@@ -59,12 +59,13 @@ class FullPipelineIntegration(unittest.TestCase):
        "actual_submissions":1,"official_receipts":[{"id":"123"}],
        "payout_confirmed_usd":0},
    }
-   self.assertTrue(evaluate(mock_records)["full_acceptance"])
+   self.assertFalse(evaluate(mock_records)["full_acceptance"])
+   self.assertEqual(evaluate(mock_records)["passed"],3)
    # But without fake official receipt, stage 5 and 6 MUST fail.
    mock_records["submission_status.json"]["actual_submissions"]=0
    mock_records["submission_status.json"]["official_receipts"]=[]
    self.assertFalse(evaluate(mock_records)["full_acceptance"])
-   self.assertEqual(evaluate(mock_records)["passed"],4)
+   self.assertEqual(evaluate(mock_records)["passed"],3)
  def test_synthetic_actual_poc_does_not_generate_real_report(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp)
