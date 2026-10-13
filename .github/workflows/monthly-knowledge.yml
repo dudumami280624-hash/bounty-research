@@ -1,0 +1,38 @@
+name: Monthly public vulnerability knowledge intake
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3 2 * *'
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch public advisories and aggregate sample counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python collect_public_advisories.py --pages 5 --output advisory-knowledge.json --summary advisory-summary.json 2>&1 | tee advisory-collection.log
+          python - <<'PY'
+          import json
+          records=json.load(open("advisory-knowledge.json"))
+          assert records, "No public advisories collected"
+          assert all(k==v["id"] and v["source_url"] for k,v in records.items())
+          summary=json.load(open("advisory-summary.json"))
+          assert summary["sample_size"] == len(records)
+          print("Verified unique records:",len(records))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-advisory-knowledge
+          path: |
+            advisory-knowledge.json
+            advisory-summary.json
+            advisory-collection.log
+          retention-days: 90
+          if-no-files-found: warn
