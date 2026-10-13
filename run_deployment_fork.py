@@ -24,7 +24,9 @@ EXPECTED_COMMIT="ab92502e9da98784dfe3bd3ef933d4e9345ff628"
 RPC="https://horizen-testnet.rpc.caldera.xyz/http"
 # Public read-only endpoints for the same chain (2651420), never other networks.
 RPC_ENDPOINTS=(RPC, "https://horizen-rpc-testnet.appchain.base.org/",
-               "https://2651420.rpc.thirdweb.com/")
+               "https://2651420.rpc.thirdweb.com/",
+               "https://explorer-testnet.horizen.io/api/eth-rpc",
+               "https://horizen-testnet.explorer.caldera.xyz/api/eth-rpc")
 TESTS=(
     "test_RealFork_OfficialContractsHaveRuntimeBytecode",
     "test_RealFork_StakeAndRewardShareActualToken",
