@@ -1,6 +1,7 @@
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 from build_verified_reports import generate, COMMIT
 
 def fixture(root):
@@ -29,6 +30,16 @@ class VerifiedReportBuilderTests(unittest.TestCase):
    self.assertEqual(result["verified_reports_generated"],0)
    self.assertFalse((root/"reports").exists())
    self.assertTrue(result["blocked"])
+ def test_reviewed_draft_still_never_submits(self):
+  # Positive-path fixture only: mock the review decision, never production evidence.
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp); triage,leads,poc,scope=fixture(root)
+   with patch("build_verified_reports.duplicate_gate", return_value=(True,"synthetic_test_only")):
+    result=generate(triage,leads,poc,scope,root)
+   self.assertEqual(result["verified_reports_generated"],1)
+   self.assertFalse(result["reports"][0]["submitted"])
+   self.assertIn("NOT SENT",(root/result["reports"][0]["path"]).read_text())
+
  def test_synthetic_poc_never_creates_report(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp); triage,leads,poc,scope=fixture(root)
