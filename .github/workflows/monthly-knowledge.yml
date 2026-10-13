@@ -5,6 +5,9 @@ on:
     paths:
       - .github/workflows/monthly-knowledge.yml
       - collect_public_advisories.py
+      - build_knowledge_index.py
+      - knowledge_ingest.py
+      - knowledge_sources/**
   schedule:
     - cron: '20 3,15 * * *'
 permissions:
@@ -30,6 +33,19 @@ jobs:
           assert summary["sample_size"] == len(records)
           print("Verified unique records:",len(records))
           PY
+      - name: Connect public knowledge to indexed research cases
+        run: |
+          set -euo pipefail
+          python knowledge_ingest.py knowledge_sources/seed.json vulnerability-knowledge.json
+          python build_knowledge_index.py advisory-knowledge.json vulnerability-knowledge.json knowledge-index.json
+          python - <<'PY'
+          import json
+          a=json.load(open("advisory-knowledge.json"))
+          k=json.load(open("knowledge-index.json"))
+          assert len(k)==len(a)+2, (len(k),len(a))
+          assert all(not v["detector_ready"] for v in k.values())
+          print("Knowledge bridge validated:",len(k),"records")
+          PY
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -37,6 +53,8 @@ jobs:
           path: |
             advisory-knowledge.json
             advisory-summary.json
+            vulnerability-knowledge.json
+            knowledge-index.json
             advisory-collection.log
           retention-days: 90
           if-no-files-found: warn
