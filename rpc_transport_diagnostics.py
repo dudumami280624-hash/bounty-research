@@ -18,7 +18,7 @@ def probe(endpoint,opener=urllib.request.urlopen):
             payload=json.loads(res.read(2048))
             chain=payload.get("result")
             return {"host":hostname,"http_status":res.status,"chain_id":chain,
-                    "usable":chain=="0x2874fc"}
+                    "usable":chain=="0x28751c"}
     except urllib.error.HTTPError as e:
         return {"host":hostname,"http_status":e.code,"usable":False,
                 "category":"access_denied" if e.code in (401,403) else "http_error"}
