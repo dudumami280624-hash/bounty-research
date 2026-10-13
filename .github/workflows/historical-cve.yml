@@ -2,7 +2,7 @@ name: Historical CVE knowledge backfill
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 4,16 * * *'
   push:
     paths:
       - collect_historical_cves.py
