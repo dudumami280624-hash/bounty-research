@@ -32,7 +32,8 @@ def load_lesson_knowledge(index_path, lesson):
 
 def run_session(seed, evidence, output, runner=subprocess.run, knowledge_index=None):
     assignment=allocate(seed)
-    knowledge = load_lesson_knowledge(knowledge_index, assignment["id"] + " " + assignment["title"])\n    evidence=dict(evidence)
+    knowledge = load_lesson_knowledge(knowledge_index, assignment["id"] + " " + assignment["title"])
+    evidence=dict(evidence)
     evidence.setdefault("lesson",assignment["id"])
     evidence.setdefault("exercise",assignment["title"])
     # The learner must supply their own explanation and reproduction/repair evidence.
