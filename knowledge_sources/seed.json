@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Ethernaut Reentrance: external call before accounting",
+    "category": "reentrancy",
+    "source_url": "https://github.com/OpenZeppelin/ethernaut/blob/master/contracts/src/levels/Reentrance.sol",
+    "source_revision": "b6e2993d871d536c88576f2d1dbfb41462f31a27",
+    "root_cause": "External call sends value before sender balance is decremented",
+    "invariant": "Withdrawal must not allow a sender to receive more value than its credited balance",
+    "detection": "Analyze external value transfers preceding balance state updates; validate with isolated reentrant receiver and compare a patched variant",
+    "remediation": "Apply checks-effects-interactions or a reentrancy guard and assert per-user balance conservation"
+  },
+  {
+    "title": "Crytic historical reentrancy fixture",
+    "category": "reentrancy",
+    "source_url": "https://github.com/crytic/not-so-smart-contracts/blob/master/reentrancy/Reentrancy.sol",
+    "source_revision": "master (unpinned; pin exact revision during collection)",
+    "root_cause": "Untrusted callback can reenter before internal accounting completes",
+    "invariant": "Withdrawals cannot drain deposits belonging to other accounts",
+    "detection": "Use call-graph and state-update ordering analysis; validate against vulnerable and fixed functions",
+    "remediation": "Update accounting before external calls and test adversarial receiver behavior"
+  }
+]
