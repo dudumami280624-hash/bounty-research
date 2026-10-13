@@ -4,6 +4,10 @@ on:
     paths:
       - test_build_verified_reports.py
       - test_business_pipeline.py
+      - test_research_upgrade.py
+      - research_prioritizer.py
+      - research_metrics.py
+      - research_triage.py
       - build_verified_reports.py
       - duplicate_gate.py
       - .github/workflows/report-gate-regression.yml
@@ -19,7 +23,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run isolated report and offline pipeline tests
-        run: python -m unittest -v test_build_verified_reports test_business_pipeline test_duplicate_gate
+        run: python -m unittest -v test_build_verified_reports test_business_pipeline test_duplicate_gate test_research_upgrade
       - name: Record acceptance commit
         if: always()
         run: echo "Acceptance SHA $GITHUB_SHA"
