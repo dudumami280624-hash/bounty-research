@@ -20,3 +20,6 @@ jobs:
           python-version: '3.11'
       - name: Run isolated report and offline pipeline tests
         run: python -m unittest -v test_build_verified_reports test_business_pipeline test_duplicate_gate
+      - name: Record acceptance commit
+        if: always()
+        run: echo "Acceptance SHA $GITHUB_SHA"
