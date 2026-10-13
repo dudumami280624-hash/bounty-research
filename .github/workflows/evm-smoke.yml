@@ -19,6 +19,8 @@ on:
       - student_session.py
       - student_practice.py
       - test_student_practice.py
+      - student_autonomous.py
+      - test_student_autonomous.py
       - test_student_session.py
       - test_student_progress.py
       - vulnerability_registry.py
@@ -43,7 +45,8 @@ jobs:
           version: stable
       - name: Verify offline student entrypoint without network
         run: |
-          python -m unittest -v test_student_lab test_student_progress test_student_session test_student_practice
+          python -m unittest -v test_student_lab test_student_progress test_student_session test_student_practice test_student_autonomous
+          python student_autonomous.py --lesson reentrancy-01 --output /tmp/student-autonomous-record.json
           python -m py_compile student_web.py student_blind.py
           python student_blind.py --seed ci-fixed-seed --output /tmp/student-blind-assignment.json
           python student_lab.py --list
