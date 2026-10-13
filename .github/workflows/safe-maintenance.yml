@@ -1,0 +1,25 @@
+name: Safe maintenance PR
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 */6 * * *"
+permissions:
+  contents: read
+jobs:
+  propose:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate deterministic repair planner
+        run: python -m unittest -v test_propose_repair.py
+      - name: Run deterministic repair planner
+        run: python propose_repair.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repair-proposal
+          path: repair_proposal.json
