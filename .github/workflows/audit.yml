@@ -138,6 +138,14 @@ jobs:
         continue-on-error: true
         run: python run_deployment_fork.py
 
+      - name: Test independent explorer evidence fallback
+        if: always()
+        run: python -m unittest -v test_explorer_evidence.py
+
+      - name: Collect official explorer REST contract evidence
+        if: always()
+        run: python explorer_evidence.py
+
       - name: Diagnose RPC failures for unattended maintenance
         if: always()
         run: python rpc_maintenance.py
@@ -259,6 +267,7 @@ jobs:
             rpc_maintenance_diagnosis.json
             repair_proposal.json
             research_scoreboard.json
+            explorer_evidence.json
             frontend_scope_results.json
             official_scope_status.json
             ACCEPTANCE.md
