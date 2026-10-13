@@ -8,6 +8,7 @@ on:
       - research_prioritizer.py
       - research_metrics.py
       - research_triage.py
+      - research_cycle.py
       - build_verified_reports.py
       - duplicate_gate.py
       - .github/workflows/report-gate-regression.yml
