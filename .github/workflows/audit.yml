@@ -126,6 +126,10 @@ jobs:
         if: always()
         run: python -m unittest -v test_run_deployment_fork.py
 
+      - name: Test RPC failover and strict chain verification
+        if: always()
+        run: python -m unittest -v test_rpc_failover.py
+
       - name: Verify actual deployed Horizen contracts on read-only local fork
         if: always()
         id: deployment_fork
