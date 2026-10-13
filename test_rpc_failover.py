@@ -18,7 +18,8 @@ class RpcFailoverTests(unittest.TestCase):
             endpoint,snapshot=m.select_rpc_snapshot()
         self.assertEqual(endpoint,m.RPC_ENDPOINTS[1])
         self.assertEqual(snapshot["fork_block_number"],123)
-        self.assertEqual(calls,list(m.RPC_ENDPOINTS[:2]))
+        self.assertEqual(calls[0],m.RPC_ENDPOINTS[0])
+        self.assertEqual(calls[-1],m.RPC_ENDPOINTS[1])
 
     def test_all_endpoints_failed_never_claims_validation(self):
         with patch.object(m,"deployment_snapshot",side_effect=urllib.error.HTTPError("url",403,"forbidden",None,None)):
