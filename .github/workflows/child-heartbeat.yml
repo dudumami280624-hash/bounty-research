@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - student_heartbeat.py
+      - student_reasoner.py
+      - test_student_reasoner.py
       - student_autonomous.py
       - student_practice.py
       - student_lab/**
@@ -23,6 +25,8 @@ jobs:
           version: stable
       - name: Check Python modules
         run: python -m py_compile student_heartbeat.py student_autonomous.py student_practice.py
+      - name: Verify local inference adapter safety
+        run: python -m unittest -v test_student_reasoner
       - name: Run actual offline heartbeat
         run: python student_heartbeat.py --output-dir child-evidence
       - name: Preserve evidence even if heartbeat fails
