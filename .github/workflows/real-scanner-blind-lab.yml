@@ -1,10 +1,14 @@
 name: Real scanner knowledge blind-lab evaluation
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '40 5,17 * * *'
   push:
     paths:
       - .github/workflows/real-scanner-blind-lab.yml
       - score_blind_lab.py
+      - knowledge_sources/**
+      - knowledge_ingest.py
       - knowledge_detector_bridge.py
       - build_knowledge_index.py
 permissions:
