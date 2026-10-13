@@ -1,0 +1,63 @@
+name: AI child real model inference
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - student_reasoner.py
+      - .github/workflows/child-real-inference.yml
+permissions:
+  contents: read
+jobs:
+  infer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install llama.cpp CPU binary
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,urllib.request
+          url="https://api.github.com/repos/ggml-org/llama.cpp/releases/latest"
+          with urllib.request.urlopen(url,timeout=30) as r: release=json.load(r)
+          assets=[a for a in release["assets"] if "ubuntu" in a["name"].lower() and "x64" in a["name"].lower() and "cpu" in a["name"].lower() and a["name"].endswith(".tar.gz")]
+          if not assets:
+              assets=[a for a in release["assets"] if "ubuntu" in a["name"].lower() and "x64" in a["name"].lower() and a["name"].endswith(".tar.gz") and "cuda" not in a["name"].lower() and "vulkan" not in a["name"].lower()]
+          if not assets: raise SystemExit("No compatible llama.cpp CPU release")
+          print(assets[0]["browser_download_url"])
+          open("/tmp/llama-download-url","w").write(assets[0]["browser_download_url"])
+          PY
+          curl -fL --retry 3 --max-time 180 "$(cat /tmp/llama-download-url)" -o /tmp/llama.tar.gz
+          mkdir -p /tmp/llama
+          tar -xzf /tmp/llama.tar.gz -C /tmp/llama
+          LLAMA_CLI="$(find /tmp/llama -type f -name llama-cli | head -n 1)"
+          test -n "$LLAMA_CLI"
+          chmod +x "$LLAMA_CLI"
+          echo "LLAMA_CLI=$LLAMA_CLI" >> "$GITHUB_ENV"
+      - name: Download free open GGUF model
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 --max-time 300 "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf" -o /tmp/child-model.gguf
+          test "$(stat -c%s /tmp/child-model.gguf)" -gt 100000000
+      - name: Run real local inference
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p child-evidence
+          python student_reasoner.py --lesson reentrancy-01 --model /tmp/child-model.gguf --output child-evidence/model-reasoning.json
+          python - <<'PY'
+          import json
+          x=json.load(open("child-evidence/model-reasoning.json"))
+          assert x["agent"]["model_inference_executed"] is True
+          assert x["agent"]["independent_completion_verified"] is False
+          print("Real model inference executed; independent solving still unverified")
+          PY
+      - name: Upload model evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: child-real-inference-evidence
+          path: child-evidence/
+          if-no-files-found: warn
