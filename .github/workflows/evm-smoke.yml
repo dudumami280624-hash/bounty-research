@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/evm-smoke.yml
+      - historical_replay/**
 permissions:
   contents: read
 jobs:
@@ -34,10 +35,20 @@ jobs:
           solc_version = "0.4.26"
           TOML
           forge build
+      - name: Run isolated vulnerable and fixed EVM regression
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/historical-replay/test
+          cp historical_replay/Reentrancy.t.sol /tmp/historical-replay/test/Reentrancy.t.sol
+          cd /tmp/historical-replay
+          forge test -vvv --match-contract HistoricalReentryTest 2>&1 | tee "$GITHUB_WORKSPACE/evm-replay.log"
       - name: Save environment versions
         run: |
           { forge --version; cast --version; anvil --version; } > evm-versions.txt
       - uses: actions/upload-artifact@v4
         with:
           name: evm-versions
-          path: evm-versions.txt
+          path: |
+            evm-versions.txt
+            evm-replay.log
+          if-no-files-found: warn
