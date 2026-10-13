@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-13T04:33:09.997490+00:00",
-  "workflow_run_id": "38346869666",
-  "workflow_sha": "e726c56d2904bf13bb34c04c14e8da40a5020e93",
+  "time_utc": "2026-10-13T04:43:23.316877+00:00",
+  "workflow_run_id": "38347726311",
+  "workflow_sha": "4366df3c728c877161d208d7a52d86428d2b272f",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -156,7 +156,7 @@
     },
     "eligibility_status.json": {
       "present": true,
-      "officially_verified_targets": 0,
+      "officially_verified_targets": 1,
       "official_scope_records": 1,
       "official_scope_record_only_not_live_eligibility": true,
       "ready_for_live_testing": 0,
@@ -297,7 +297,7 @@
     },
     "acceptance_status.json": {
       "present": true,
-      "passed": 1,
+      "passed": 2,
       "total": 6,
       "full_acceptance": false,
       "foundry_control_tests": {
@@ -314,8 +314,8 @@
         {
           "stage": 1,
           "name": "\u5b98\u65b9\u5f00\u653e\u8d4f\u91d1\u76ee\u6807\u6838\u9a8c",
-          "status": "FAIL",
-          "reason": "\u7f3a\u5c11\u5b98\u65b9\u5f00\u653e\u72b6\u6001\u3001\u5956\u52b1\u4e0e\u6388\u6743\u8303\u56f4\u7684\u72ec\u7acb\u6838\u9a8c\uff1b\u5019\u9009\u6570\u91cf\u4e0d\u7b97"
+          "status": "PASS",
+          "reason": "\u6709\u9a8c\u6536\u8bc1\u636e"
         },
         {
           "stage": 2,
@@ -351,12 +351,12 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-13T04:31:46.922674+00:00",
+      "verified_at_utc": "2026-10-13T04:42:21.607192+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
-      "verified_count": 0,
-      "status": "unverified",
-      "reason": "official page not verified: TimeoutError",
+      "verified_count": 1,
+      "status": "verified",
+      "reason": "official scope, cash bounty and submit page validated",
       "live_testing_permitted": false,
       "local_source_review_only": true
     },
