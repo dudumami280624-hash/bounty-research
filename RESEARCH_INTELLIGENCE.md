@@ -24,3 +24,21 @@ No unauthorized production testing; no automatic submission. Duplicate gate in d
 
 ## 5. Improvement loop
 Compare upstream open-source tools by source, licensing, maintenance and measurable capability. Implement one change at a time, add positive and negative regression fixtures, record Actions run ID and before/after metrics. If no new evidence for a lead after two cycles, mark blocked and switch targets. The primary business gate remains 3/6: real in-scope vulnerability verification.
+
+## 6. Five-module discovery upgrade (offline and authorized only)
+1. Target intake: record official authorization, cash eligibility, pinned source, permitted test methods, reproducibility, and missing facts. Reject out-of-scope candidates before scoring.
+2. Discovery: combine static alerts with privilege/asset flow review, state transitions, patch diff review, and root-cause hypotheses. Record each hypothesis with source lines and an explicit security invariant.
+3. Invariant fuzzing: write Foundry unit/invariant tests for asset conservation, authorization boundaries, reward accounting and state consistency. Keep synthetic tests separate from deployment evidence.
+4. False-positive triage: classify each lead as open, disproved, blocked, duplicate-public or verified; require reachability, attacker control, measurable impact, known-issue checks and review evidence before promotion. Never bypass duplicate_gate.
+5. Evidence and acceptance: store pinned commit, command, environment, logs, reproduction, impact, scope and independent review. Do not count mock tests as real findings or automatically submit reports.
+
+## 7. Operational metrics and release gates
+- Target coverage: eligible and independently scope-checked targets / all evaluated targets; count missing authorization as ineligible, not as verified.
+- Deep investigation completion: leads with documented reachability, attacker control, impact and disposition / leads opened.
+- Reproduction rate: leads with reproducible isolated anomaly / leads fully investigated.
+- Confirmed finding rate: genuine in-scope independently supported findings / fully investigated leads.
+- False-positive rate: disproved leads / fully investigated leads.
+- Public duplicate prevention: confirmed public root-cause duplicates blocked / confirmed public root-cause duplicates encountered.
+- Report acceptance: officially accepted reports / officially decided reports.
+- Verified bounty yield: confirmed USD payouts / recorded research hours.
+All metrics include observation window, provenance, numerator and denominator. A zero denominator yields unknown, not 0% or 100%. CI passing is an engineering metric only; it cannot pass business stage 3.
