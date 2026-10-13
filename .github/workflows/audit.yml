@@ -126,6 +126,10 @@ jobs:
         if: always()
         run: python -m unittest -v test_run_deployment_fork.py
 
+      - name: Verify child learning track and knowledge schedule
+        if: always()
+        run: python -m unittest -v test_learning_track.py
+
       - name: Test RPC failover and strict chain verification
         if: always()
         run: python -m unittest -v test_rpc_failover.py
