@@ -19,7 +19,8 @@ def load_lesson_knowledge(index_path, lesson):
     index = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(index, dict):
         raise ValueError("knowledge index must be an object")
-    topic = "reentrancy" if "reentr" in str(lesson).lower() else str(lesson).lower()
+    label = str(lesson).lower()
+    topic = "reentrancy" if "cei" in label or "外部调用" in label or "reentr" in label else ("access" if "auth" in label else ("arithmetic" if "arithmetic" in label else label))
     entries = []
     for key, value in sorted(index.items()):
         if not isinstance(value, dict) or value.get("source") != "curated-case":
