@@ -101,6 +101,13 @@ jobs:
           done
           sha256sum /tmp/historical-replay/src/Reentrancy.sol /tmp/ethernaut-replay/src/Reentrance.sol > fixture-sha256.txt
           echo "Completed $REPLAY_REPETITIONS iterations for each independent source"
+      - name: Integrate Damn Vulnerable DeFi challenge environment
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch v4.1.0 https://github.com/theredguild/damn-vulnerable-defi.git /tmp/dvd-challenges
+          cd /tmp/dvd-challenges
+          forge build 2>&1 | tee "$GITHUB_WORKSPACE/dvd-build.log"
+          git rev-parse HEAD > "$GITHUB_WORKSPACE/dvd-source-revision.txt"
       - name: Save environment versions
         run: |
           { forge --version; cast --version; anvil --version; } > evm-versions.txt
@@ -115,4 +122,6 @@ jobs:
             replay-batch.log
             replay-results.csv
             fixture-sha256.txt
+            dvd-build.log
+            dvd-source-revision.txt
           if-no-files-found: warn
