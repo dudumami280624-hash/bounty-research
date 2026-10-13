@@ -1,0 +1,31 @@
+name: Solidity EVM environment smoke test
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/evm-smoke.yml
+permissions:
+  contents: read
+jobs:
+  evm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: stable
+      - name: Verify compiler and EVM runner
+        run: |
+          set -euxo pipefail
+          forge --version
+          cast --version
+          anvil --version
+          forge build --help >/dev/null
+      - name: Save environment versions
+        run: |
+          { forge --version; cast --version; anvil --version; } > evm-versions.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evm-versions
+          path: evm-versions.txt
