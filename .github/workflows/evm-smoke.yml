@@ -13,6 +13,8 @@ on:
       - vulnerability_registry.py
       - test_vulnerability_registry.py
       - lab_catalog.py
+      - knowledge_ingest.py
+      - knowledge_sources/**
 permissions:
   contents: read
 jobs:
@@ -24,6 +26,17 @@ jobs:
       - uses: foundry-rs/foundry-toolchain@v1
         with:
           version: stable
+      - name: Build deduplicated vulnerability knowledge snapshot
+        run: |
+          set -euo pipefail
+          python knowledge_ingest.py knowledge_sources/seed.json vulnerability-knowledge.json | tee knowledge-ingestion.log
+          python knowledge_ingest.py knowledge_sources/seed.json vulnerability-knowledge.json | tee -a knowledge-ingestion.log
+          python - <<'PY'
+          import json
+          data = json.load(open("vulnerability-knowledge.json"))
+          assert len(data) == 2
+          assert all(x["verification"] == "unverified" for x in data.values())
+          PY
       - name: Validate deduplication registry
         run: python -m unittest -v test_vulnerability_registry
       - name: Validate repetition count
@@ -140,4 +153,6 @@ jobs:
             dvd-source-revision.txt
             lab-catalog.json
             external-lab-revisions.csv
+            vulnerability-knowledge.json
+            knowledge-ingestion.log
           if-no-files-found: warn
