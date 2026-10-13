@@ -160,6 +160,7 @@ def main():
         record["error_stage"]=stage
         if isinstance(err, urllib.error.HTTPError):
             record["rpc_http_status"]=err.code
+        record["error_detail"]=str(err)[:1600]
     (ROOT/"deployment_fork_results.json").write_text(
         json.dumps(record,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Real deployed Horizen local fork:",record["execution"],
