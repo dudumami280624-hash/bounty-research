@@ -10,6 +10,7 @@ import urllib.request
 import urllib.error
 import time
 import os
+import urllib.parse
 import pathlib
 import shutil
 import subprocess
@@ -92,16 +93,23 @@ def deployment_snapshot(read=rpc_read):
 def select_rpc_snapshot():
     """Choose one public RPC only after verifying chain, block and all deployed code."""
     failures=[]
-    for endpoint in RPC_ENDPOINTS:
+    configured=os.environ.get("HORIZEN_TESTNET_RPC_URL","").strip()
+    if configured:
+        parsed=urllib.parse.urlsplit(configured)
+        if parsed.scheme!="https" or not parsed.hostname or parsed.username or parsed.password:
+            raise ValueError("Configured RPC must be an HTTPS endpoint without URL credentials")
+    endpoints=((configured,) if configured else ()) + tuple(
+        endpoint for endpoint in RPC_ENDPOINTS if endpoint != configured)
+    for endpoint in endpoints:
         try:
             snapshot=deployment_snapshot(
                 lambda method, params: rpc_read(method, params, rpc_url=endpoint))
             return endpoint, snapshot
         except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, ValueError) as err:
             status=err.code if isinstance(err, urllib.error.HTTPError) else None
-            failures.append({"endpoint":endpoint,"error_type":type(err).__name__,
+            failures.append({"endpoint":urllib.parse.urlsplit(endpoint).hostname,"error_type":type(err).__name__,
                              "http_status":status})
-    raise RuntimeError("No public RPC passed deployment verification: "+json.dumps(failures))
+    raise RuntimeError("No configured/public RPC passed deployment verification: "+json.dumps(failures))
 
 def evaluate_output(returncode,output):
     checked=[s for s in TESTS if ("[PASS] "+s+"(") in output]
@@ -135,7 +143,7 @@ def main():
         stage="deployment_snapshot"
         selected_rpc, snapshot=select_rpc_snapshot()
         record.update(snapshot)
-        record["rpc_url"]=selected_rpc
+        record["rpc_url"]=urllib.parse.urlsplit(selected_rpc).hostname
         stage="foundry_fork"
         cmd=["forge","test","--match-contract","HorizenDeploymentForkTest",
              "--fork-url",selected_rpc,"--fork-block-number",str(record["fork_block_number"]),"-vv"]
