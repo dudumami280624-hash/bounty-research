@@ -14,6 +14,8 @@ on:
       - student_lab.py
       - test_student_lab.py
       - student_progress.py
+      - student_web.py
+      - student_blind.py
       - test_student_progress.py
       - vulnerability_registry.py
       - test_vulnerability_registry.py
@@ -38,6 +40,8 @@ jobs:
       - name: Verify offline student entrypoint without network
         run: |
           python -m unittest -v test_student_lab test_student_progress
+          python -m py_compile student_web.py student_blind.py
+          python student_blind.py --seed ci-fixed-seed --output /tmp/student-blind-assignment.json
           python student_lab.py --list
           python student_lab.py --lesson reentrancy-01
       - name: Run isolated student Solidity exploit and repair tests
