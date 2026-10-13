@@ -38,12 +38,17 @@ def run_session(seed, evidence, output, runner=subprocess.run, knowledge_index=N
     evidence.setdefault("exercise",assignment["title"])
     # The learner must supply their own explanation and reproduction/repair evidence.
     review=assess(evidence)
+    # Only execute the reentrancy lab for its matching blind assignment.
+    # Other assignments remain unverified until dedicated fixtures exist.
+    lab_contract = {"blind-cei-01": "ReentrancyLessonTest"}.get(assignment["id"])
     try:
-        proc=runner(["forge","test","--root","student_lab","--match-contract","ReentrancyLessonTest","-vv"],
+        if lab_contract is None:
+            raise ValueError("no lab fixture for assigned task")
+        proc=runner(["forge","test","--root","student_lab","--match-contract",lab_contract,"-vv"],
                     capture_output=True,text=True,timeout=180)
         test={"executed":True,"passed":proc.returncode==0,"returncode":proc.returncode,
               "log_tail":(proc.stdout+"\n"+proc.stderr)[-5000:]}
-    except (FileNotFoundError,subprocess.TimeoutExpired) as exc:
+    except (FileNotFoundError,subprocess.TimeoutExpired,ValueError) as exc:
         test={"executed":False,"passed":False,"error":type(exc).__name__}
     result={"assignment":assignment,"knowledge":knowledge,"assessment":review,"forge":test,
             "completed":bool(test["passed"] and review["verified"]),
