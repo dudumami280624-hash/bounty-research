@@ -142,6 +142,10 @@ jobs:
         if: always()
         run: python rpc_maintenance.py
 
+      - name: Generate fail-closed repair proposal automatically
+        if: always()
+        run: python propose_repair.py
+
       - name: Classify RPC infrastructure failure separately from contract validation
         if: always()
         run: |
@@ -253,6 +257,7 @@ jobs:
             acceptance_status.json
             deployment_fork_results.json
             rpc_maintenance_diagnosis.json
+            repair_proposal.json
             research_scoreboard.json
             frontend_scope_results.json
             official_scope_status.json
