@@ -12,6 +12,7 @@ on:
       - historical_replay/**
       - vulnerability_registry.py
       - test_vulnerability_registry.py
+      - lab_catalog.py
 permissions:
   contents: read
 jobs:
@@ -108,6 +109,19 @@ jobs:
           cd /tmp/dvd-challenges
           forge build 2>&1 | tee "$GITHUB_WORKSPACE/dvd-build.log"
           git rev-parse HEAD > "$GITHUB_WORKSPACE/dvd-source-revision.txt"
+      - name: Collect cross-lab public source provenance
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from lab_catalog import LABS
+          with open("lab-catalog.json","w") as f:
+              json.dump(LABS,f,indent=2)
+          PY
+          for entry in "smartbugs-curated https://github.com/smartbugs/smartbugs-curated.git" "slither-detectors https://github.com/crytic/slither.git"; do
+            read -r label url <<< "$entry"
+            git ls-remote "$url" HEAD | awk -v label="$label" '{print label "," $1}' >> external-lab-revisions.csv
+          done
       - name: Save environment versions
         run: |
           { forge --version; cast --version; anvil --version; } > evm-versions.txt
@@ -124,4 +138,6 @@ jobs:
             fixture-sha256.txt
             dvd-build.log
             dvd-source-revision.txt
+            lab-catalog.json
+            external-lab-revisions.csv
           if-no-files-found: warn
