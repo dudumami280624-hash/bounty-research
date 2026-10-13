@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 from types import SimpleNamespace
 from student_session import run_session
+from student_blind import allocate
 
 class SessionTests(unittest.TestCase):
     def test_complete_pipeline_records_but_does_not_fake_student_pass(self):
@@ -32,7 +33,8 @@ class SessionTests(unittest.TestCase):
             index.write_text(json.dumps({"curated:one":{"source":"curated-case","title":"Reentrancy lesson","category":"reentrancy","invariant":"balance conserved","verification":"unverified"},"ghsa:two":{"source":"github-reviewed-advisory","title":"Reentrancy"}}))
             def fake_forge(command,**kwargs):
                 return SimpleNamespace(returncode=0,stdout="passed",stderr="")
-            result=run_session("fixed-seed",{},Path(tmp)/"record.json",runner=fake_forge,knowledge_index=index)
+            seed=next(str(i) for i in range(100) if allocate(str(i))["id"] == "blind-cei-01")
+            result=run_session(seed,{},Path(tmp)/"record.json",runner=fake_forge,knowledge_index=index)
             self.assertEqual(result["knowledge"]["status"],"matched")
             self.assertEqual(len(result["knowledge"]["entries"]),1)
             self.assertFalse(result["completed"])
