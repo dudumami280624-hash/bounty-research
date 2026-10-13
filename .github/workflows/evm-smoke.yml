@@ -15,6 +15,7 @@ on:
       - lab_catalog.py
       - knowledge_ingest.py
       - knowledge_sources/**
+      - test_knowledge_ingest.py
 permissions:
   contents: read
 jobs:
@@ -26,6 +27,8 @@ jobs:
       - uses: foundry-rs/foundry-toolchain@v1
         with:
           version: stable
+      - name: Test knowledge learning integrity
+        run: python -m unittest -v test_knowledge_ingest
       - name: Build deduplicated vulnerability knowledge snapshot
         run: |
           set -euo pipefail
