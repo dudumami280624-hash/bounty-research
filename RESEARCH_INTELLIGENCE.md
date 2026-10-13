@@ -42,3 +42,14 @@ Compare upstream open-source tools by source, licensing, maintenance and measura
 - Report acceptance: officially accepted reports / officially decided reports.
 - Verified bounty yield: confirmed USD payouts / recorded research hours.
 All metrics include observation window, provenance, numerator and denominator. A zero denominator yields unknown, not 0% or 100%. CI passing is an engineering metric only; it cannot pass business stage 3.
+
+## 8. Upstream reference adoption (2026-10-13)
+Research references (public examples, not new bounty findings):
+- crytic/echidna: stateful property fuzzing, corpus guidance, minimization, and machine-readable JSON outcomes; https://github.com/crytic/echidna
+- foundry-rs/forge-std: handler-targeted invariant tests and assertions; https://github.com/foundry-rs/forge-std
+- crytic/slither: SlithIR-backed detectors, custom analysis and property tooling; https://github.com/crytic/slither
+- horsefacts/weth-invariant-testing: minimal handler/invariant learning fixture; https://github.com/horsefacts/weth-invariant-testing
+- secureum/DeFi-Security-Summit-Stanford: offline vulnerability regression examples; https://github.com/secureum/DeFi-Security-Summit-Stanford
+- code-423n4/2024-01-renft: public historical scope, static findings and known-issue exclusion examples; https://github.com/code-423n4/2024-01-renft
+
+Adaptation order: (1) extract negative/positive invariant fixtures from public examples, preserving attribution and license requirements; (2) measure whether handlers exercise meaningful authorized state transitions, recording revert/discard ratios; (3) add stateful fuzzing with deterministic seed and minimized counterexamples; (4) compare Slither hypotheses to reachable code and known issues; (5) replay independently on pinned authorized source. Never classify public examples as original discoveries. No external dependency is considered integrated until an executable test and CI evidence exist.
