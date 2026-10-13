@@ -1,0 +1,22 @@
+name: Offline report gate regression
+on:
+  push:
+    paths:
+      - test_build_verified_reports.py
+      - test_business_pipeline.py
+      - build_verified_reports.py
+      - duplicate_gate.py
+      - .github/workflows/report-gate-regression.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  report-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run isolated report and offline pipeline tests
+        run: python -m unittest -v test_build_verified_reports test_business_pipeline test_duplicate_gate
