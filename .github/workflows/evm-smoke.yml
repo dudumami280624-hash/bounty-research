@@ -10,6 +10,8 @@ on:
     paths:
       - .github/workflows/evm-smoke.yml
       - historical_replay/**
+      - vulnerability_registry.py
+      - test_vulnerability_registry.py
 permissions:
   contents: read
 jobs:
@@ -21,6 +23,8 @@ jobs:
       - uses: foundry-rs/foundry-toolchain@v1
         with:
           version: stable
+      - name: Validate deduplication registry
+        run: python -m unittest -v test_vulnerability_registry
       - name: Validate repetition count
         env:
           REPLAY_REPETITIONS: ${{ inputs.repetitions || '100' }}
