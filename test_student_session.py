@@ -13,11 +13,20 @@ class SessionTests(unittest.TestCase):
             def fake_forge(command,**kwargs):
                 self.assertEqual(command[:3],["forge","test","--root"])
                 return SimpleNamespace(returncode=0,stdout="2 tests passed",stderr="")
-            result=run_session("fixed-seed",{},out,runner=fake_forge)
+            result=run_session(next(str(i) for i in range(100) if allocate(str(i))["id"] == "blind-cei-01"),{},out,runner=fake_forge)
             self.assertTrue(result["forge"]["passed"])
             self.assertFalse(result["completed"])
             self.assertEqual(json.loads(out.read_text())["assessment"]["status"],"incomplete")
             self.assertIn("feedback",result)
+    def test_non_reentrancy_assignment_does_not_run_unrelated_lab(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            seed=next(str(i) for i in range(100) if allocate(str(i))["id"] == "blind-auth-02")
+            def must_not_run(*args,**kwargs):
+                self.fail("Unrelated Foundry lab must not run")
+            result=run_session(seed,{},Path(tmp)/"record.json",runner=must_not_run)
+            self.assertFalse(result["forge"]["executed"])
+            self.assertFalse(result["completed"])
+            self.assertEqual(result["forge"]["error"],"ValueError")
     def test_failed_forge_cannot_complete(self):
         with tempfile.TemporaryDirectory() as tmp:
             def fake_forge(command,**kwargs):
@@ -40,7 +49,7 @@ class SessionTests(unittest.TestCase):
             self.assertFalse(result["completed"])
     def test_missing_knowledge_cannot_fabricate_a_match(self):
         with tempfile.TemporaryDirectory() as tmp:
-            result=run_session("fixed-seed",{},Path(tmp)/"record.json",runner=lambda *a,**k: SimpleNamespace(returncode=0,stdout="",stderr=""),knowledge_index=Path(tmp)/"absent.json")
+            result=run_session(next(str(i) for i in range(100) if allocate(str(i))["id"] == "blind-cei-01"),{},Path(tmp)/"record.json",runner=lambda *a,**k: SimpleNamespace(returncode=0,stdout="",stderr=""),knowledge_index=Path(tmp)/"absent.json")
             self.assertEqual(result["knowledge"]["status"],"missing")
             self.assertFalse(result["completed"])
 if __name__=="__main__":
