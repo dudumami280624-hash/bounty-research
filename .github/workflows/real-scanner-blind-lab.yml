@@ -7,6 +7,8 @@ on:
     paths:
       - .github/workflows/real-scanner-blind-lab.yml
       - score_blind_lab.py
+      - research_capabilities.py
+      - test_research_capabilities.py
       - knowledge_sources/**
       - knowledge_ingest.py
       - knowledge_detector_bridge.py
@@ -19,6 +21,8 @@ jobs:
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
+      - name: Verify research capability evaluation rules
+        run: python -m unittest -v test_research_capabilities
       - name: Install real Slither scanner and Solidity compiler
         run: |
           python -m pip install --upgrade pip
@@ -84,6 +88,19 @@ jobs:
           PY
           python knowledge_detector_bridge.py knowledge-index.json real-scanner-results.json knowledge-triage.json
           python score_blind_lab.py knowledge-triage.json fixture-labels.json detection-metrics.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report=json.load(open("knowledge-triage.json"))
+          labels=json.load(open("fixture-labels.json"))
+          rows=[]
+          for name,expected in labels.items():
+              findings=[f for f in report["findings"] if f["project"]==name]
+              detected=any("reentrancy" in str(f.get("check","")).lower() for f in findings)
+              rows.append({"family":name,"expected":expected,"detected":detected})
+          Path("transfer-fixtures.json").write_text(json.dumps(rows))
+          PY
+          python research_capabilities.py knowledge-index.json transfer-fixtures.json capability-report.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -97,5 +114,7 @@ jobs:
             knowledge-triage.json
             fixture-labels.json
             detection-metrics.json
+            transfer-fixtures.json
+            capability-report.json
           retention-days: 90
           if-no-files-found: warn
