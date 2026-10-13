@@ -27,7 +27,12 @@ jobs:
           mkdir -p /tmp/historical-replay/src
           curl --fail --location --retry 3 --silent --show-error https://raw.githubusercontent.com/crytic/not-so-smart-contracts/master/reentrancy/Reentrancy.sol -o /tmp/historical-replay/src/Reentrancy.sol
           cd /tmp/historical-replay
-          printf '[profile.default]\\nsrc = "src"\\nout = "out"\\nsolc_version = "0.4.26"\\n' > foundry.toml
+          cat > foundry.toml <<'TOML'
+          [profile.default]
+          src = "src"
+          out = "out"
+          solc_version = "0.4.26"
+          TOML
           forge build
       - name: Save environment versions
         run: |
