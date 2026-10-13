@@ -13,6 +13,8 @@ on:
       - student_lab/**
       - student_lab.py
       - test_student_lab.py
+      - student_progress.py
+      - test_student_progress.py
       - vulnerability_registry.py
       - test_vulnerability_registry.py
       - lab_catalog.py
@@ -35,7 +37,7 @@ jobs:
           version: stable
       - name: Verify offline student entrypoint without network
         run: |
-          python -m unittest -v test_student_lab
+          python -m unittest -v test_student_lab test_student_progress
           python student_lab.py --list
           python student_lab.py --lesson reentrancy-01
       - name: Run isolated student Solidity exploit and repair tests
