@@ -42,6 +42,23 @@ jobs:
           cp historical_replay/Reentrancy.t.sol /tmp/historical-replay/test/Reentrancy.t.sol
           cd /tmp/historical-replay
           forge test -vvv --match-contract HistoricalReentryTest 2>&1 | tee "$GITHUB_WORKSPACE/evm-replay.log"
+      - name: Replay official Ethernaut challenge source
+        run: |
+          set -euxo pipefail
+          mkdir -p /tmp/ethernaut-replay/{src,test,lib/openzeppelin-contracts-06/math}
+          curl --fail --location --retry 3 --silent --show-error https://raw.githubusercontent.com/OpenZeppelin/ethernaut/master/contracts/src/levels/Reentrance.sol -o /tmp/ethernaut-replay/src/Reentrance.sol
+          curl --fail --location --retry 3 --silent --show-error https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v3.4.2/contracts/math/SafeMath.sol -o /tmp/ethernaut-replay/lib/openzeppelin-contracts-06/math/SafeMath.sol
+          cp historical_replay/EthernautReentrance.t.sol /tmp/ethernaut-replay/test/EthernautReentrance.t.sol
+          cd /tmp/ethernaut-replay
+          cat > foundry.toml <<'TOML'
+          [profile.default]
+          src = "src"
+          test = "test"
+          out = "out"
+          solc_version = "0.6.12"
+          remappings = ["openzeppelin-contracts-06/=lib/openzeppelin-contracts-06/"]
+          TOML
+          forge test -vvv --match-contract EthernautReentranceTest 2>&1 | tee "$GITHUB_WORKSPACE/ethernaut-replay.log"
       - name: Save environment versions
         run: |
           { forge --version; cast --version; anvil --version; } > evm-versions.txt
@@ -51,4 +68,5 @@ jobs:
           path: |
             evm-versions.txt
             evm-replay.log
+            ethernaut-replay.log
           if-no-files-found: warn
