@@ -138,6 +138,10 @@ jobs:
         continue-on-error: true
         run: python run_deployment_fork.py
 
+      - name: Test RPC transport failure classifications
+        if: always()
+        run: python -m unittest -v test_rpc_transport_diagnostics.py
+
       - name: Diagnose live RPC transport and chain identity
         if: always()
         env:
