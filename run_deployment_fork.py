@@ -51,7 +51,7 @@ def rpc_read(method, params, rpc_url=None):
     endpoint = rpc_url or RPC
     request = urllib.request.Request(endpoint,
         data=json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode(),
-        headers={"Content-Type":"application/json"}, method="POST")
+        headers={"Content-Type":"application/json","Accept":"application/json","User-Agent":"BountyResearchReadOnly/1.0"}, method="POST")
     for attempt in range(3):
         try:
             with urllib.request.urlopen(request, timeout=20) as response:
