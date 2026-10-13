@@ -8,6 +8,7 @@ on:
       - .github/workflows/real-scanner-blind-lab.yml
       - score_blind_lab.py
       - research_capabilities.py
+      - training_feedback.py
       - test_research_capabilities.py
       - knowledge_sources/**
       - knowledge_ingest.py
@@ -101,6 +102,7 @@ jobs:
           Path("transfer-fixtures.json").write_text(json.dumps(rows))
           PY
           python research_capabilities.py knowledge-index.json transfer-fixtures.json capability-report.json
+          python training_feedback.py detection-metrics.json capability-report.json next-lessons.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -116,5 +118,6 @@ jobs:
             detection-metrics.json
             transfer-fixtures.json
             capability-report.json
+            next-lessons.json
           retention-days: 90
           if-no-files-found: warn
