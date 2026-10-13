@@ -60,7 +60,8 @@ def main():
     p.add_argument("--seed",required=True,help="local session seed; no personal data")
     p.add_argument("--evidence",type=Path,required=True)
     p.add_argument("--output",type=Path,required=True)
-    p.add_argument("--knowledge-index",type=Path)\n    a=p.parse_args()
+    p.add_argument("--knowledge-index",type=Path)
+    a=p.parse_args()
     result=run_session(a.seed,json.loads(a.evidence.read_text(encoding="utf-8")),a.output,knowledge_index=a.knowledge_index)
     print(json.dumps({"completed":result["completed"],"forge":result["forge"]["passed"],
                       "assessment":result["assessment"]["status"],"feedback":result["feedback"]},ensure_ascii=False))
