@@ -10,6 +10,7 @@ on:
     paths:
       - .github/workflows/evm-smoke.yml
       - historical_replay/**
+      - student_lab/**
       - vulnerability_registry.py
       - test_vulnerability_registry.py
       - lab_catalog.py
@@ -30,6 +31,8 @@ jobs:
       - uses: foundry-rs/foundry-toolchain@v1
         with:
           version: stable
+      - name: Run isolated student Solidity exploit and repair tests
+        run: forge test --root student_lab --match-contract ReentrancyLessonTest -vv
       - name: Test knowledge learning integrity
         run: python -m unittest -v test_knowledge_ingest
       - name: Build deduplicated vulnerability knowledge snapshot
