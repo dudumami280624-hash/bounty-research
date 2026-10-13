@@ -21,14 +21,14 @@ def fixture(root):
     return triage,{"cases":[case]},poc,scope
 
 class VerifiedReportBuilderTests(unittest.TestCase):
- def test_builds_verified_report_without_submission_approval(self):
+ def test_unreviewed_fixture_cannot_generate_report(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp)
    triage,leads,poc,scope=fixture(root)
    result=generate(triage,leads,poc,scope,root)
-   self.assertEqual(result["verified_reports_generated"],1)
-   self.assertFalse(result["reports"][0]["submitted"])
-   self.assertIn("NOT SENT",(root/result["reports"][0]["path"]).read_text())
+   self.assertEqual(result["verified_reports_generated"],0)
+   self.assertFalse((root/"reports").exists())
+   self.assertTrue(result["blocked"])
  def test_synthetic_poc_never_creates_report(self):
   with tempfile.TemporaryDirectory() as tmp:
    root=Path(tmp); triage,leads,poc,scope=fixture(root)
