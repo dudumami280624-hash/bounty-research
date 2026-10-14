@@ -16,6 +16,20 @@ Solidity contract named FixedVault, with a balances mapping, deposit() and withd
 Use pragma solidity ^0.8.20. Protect against reentrancy using checks-effects-interactions.
 Do not include markdown, explanations, or VulnerableVault. Do not claim tests ran."""
 
+def diagnose(candidate):
+    """Deterministic compiler/security hints, not a substitute for Forge."""
+    issues = []
+    if re.search(r"function\s+deposit\s*\([^)]*\)[^{;]*\{[^}]*\breturn\s+true\s*;", candidate, re.S) and not re.search(r"function\s+deposit\s*\([^)]*\)[^{;]*\breturns\s*\(", candidate):
+        issues.append("deposit() returns true without a returns declaration")
+    m = re.search(r"function\s+withdraw\s*\([^)]*\)[^{]*\{", candidate)
+    if m:
+        body = candidate[m.end():]
+        call = body.find("msg.sender.call")
+        effect = body.find("balances[msg.sender] = 0")
+        if call >= 0 and (effect < 0 or effect > call):
+            issues.append("withdraw() sends Ether before zeroing balance: reentrancy risk")
+    return issues
+
 def extract(text):
     # Require an actual model-generated contract rather than accepting a prewritten fixture.
     match = re.search(r"contract\s+FixedVault\s*\{", text)
@@ -79,6 +93,7 @@ def run(lesson, model, output, attempts=3):
                     record["patch_extracted"] = True
                     record["candidate_sha256"] = hashlib.sha256(candidate.encode()).hexdigest()
                     record["candidate_code"] = candidate
+                    record["static_diagnostics"] = diagnose(candidate)
                     if candidate in seen_candidates:
                         record["error"] = "duplicate candidate; model failed to revise"
                         records.append(record)
@@ -93,7 +108,7 @@ def run(lesson, model, output, attempts=3):
                     record["forge_exit_code"] = forge.returncode
                     record["forge_log_tail"] = (forge.stdout + "\n" + forge.stderr)[-9000:]
                     record["forge_passed"] = forge.returncode == 0
-                    feedback = record["forge_log_tail"][-2500:]
+                    feedback = ("Static diagnostics: " + "; ".join(record["static_diagnostics"]) + "\n" + record["forge_log_tail"][-2500:])
                     if record["forge_passed"]:
                         success = True
                 records.append(record)
