@@ -90,6 +90,15 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
             init = checked_run(["git", "init", "-q"], str(workspace), 30)
             if init.returncode:
                 raise RuntimeError(init.stderr[-1200:])
+            # Prove the disposable fixture starts in a failing state, before any agent edit.
+            baseline = checked_run(["forge", "test", "--root", str(workspace),
+                                    "--match-contract", test_contract, "-vv"],
+                                   str(workspace), 180)
+            evidence["baseline_forge_exit_code"] = baseline.returncode
+            evidence["baseline_test_failing"] = baseline.returncode != 0
+            evidence["baseline_log_tail"] = (baseline.stdout + "\n" + baseline.stderr)[-3000:]
+            if not evidence["baseline_test_failing"]:
+                raise RuntimeError("Blind/training fixture must fail before model repair")
             env = dict(os.environ, OPENAI_API_BASE=local_endpoint(base_url),
                        OPENAI_API_KEY="local-no-paid-api", AIDER_ANALYTICS="false")
             feedback = ""
