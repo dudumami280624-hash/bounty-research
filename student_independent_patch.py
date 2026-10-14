@@ -87,6 +87,10 @@ def run(lesson, model, output, attempts=3):
     model = Path(model)
     if not model.is_file():
         raise FileNotFoundError(model)
+    from student_authorization import Scope, require_authorization
+    fixture_scope = Scope("local-training", str(Path.cwd() / "student_lab"), True)
+    require_authorization(fixture_scope, str(SOURCE), "read")
+    require_authorization(fixture_scope, str(TEST), "read")
     original = SOURCE.read_text(encoding="utf-8")
     vulnerable = original.split(MARKER, 1)[0]
     if "contract VulnerableVault" not in vulnerable:
