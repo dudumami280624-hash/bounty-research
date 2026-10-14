@@ -7,6 +7,9 @@ on:
       - test_student_aider_bridge.py
       - student_p0_progression.py
       - test_student_p0_progression.py
+      - student_smartbugs_import.py
+      - test_student_smartbugs_import.py
+      - knowledge_sources/smartbugs_selected.json
       - student_lab/held_out/contracts/GuardedSettings.sol
       - student_lab/held_out/test/GuardedSettingsHidden.t.sol
       - student_lab/contracts/VulnerableVault.sol
@@ -27,7 +30,12 @@ jobs:
         with:
           python-version: '3.11'
       - name: Verify agent adapter regression
-        run: python -m unittest -v test_student_aider_bridge test_student_p0_progression
+        run: python -m unittest -v test_student_aider_bridge test_student_p0_progression test_student_smartbugs_import
+      - name: Import upstream SmartBugs cases with exact Git blob validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python student_smartbugs_import.py --manifest knowledge_sources/smartbugs_selected.json --output child-evidence/p0-aider/smartbugs-training.json
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
       - name: Install official Aider CLI
@@ -87,7 +95,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python student_aider_bridge.py --model openai/local-coder --base-url http://127.0.0.1:8091/v1 --attempts 2 --output child-evidence/p0-aider/repair.json
+          python student_aider_bridge.py --model openai/local-coder --base-url http://127.0.0.1:8091/v1 --attempts 2 --knowledge-index child-evidence/p0-aider/smartbugs-training.json --output child-evidence/p0-aider/repair.json
           python - <<'PY'
           import json
           from pathlib import Path
