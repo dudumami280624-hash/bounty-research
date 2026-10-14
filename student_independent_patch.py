@@ -109,7 +109,7 @@ def run(lesson, model, output, attempts=3, allow_assisted_repair=False):
             (root / "test" / TEST.name).write_text(TEST.read_text(encoding="utf-8"), encoding="utf-8")
             for index in range(1, attempts+1):
                 cmd = [os.environ.get("LLAMA_CLI", "llama-cli"), "-m", str(model.resolve()),
-                       "-p", prompt, "-n", "700", "--temp", "0"]
+                       "-p", prompt, "-n", "1100", "--temp", "0.2"]
                 inference = subprocess.run(cmd, capture_output=True, encoding="utf-8",
                                            errors="replace", timeout=240)
                 record = {"attempt": index, "model_exit_code": inference.returncode,
