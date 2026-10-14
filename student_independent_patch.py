@@ -30,6 +30,36 @@ def diagnose(candidate):
             issues.append("withdraw() sends Ether before zeroing balance: reentrancy risk")
     return issues
 
+def repair_common_errors(candidate):
+    """Minimal deterministic repairs for diagnosed teaching-contract mistakes."""
+    fixes = []
+    patched = candidate
+    # A void deposit() cannot return a boolean.
+    m = re.search(r"function\s+deposit\s*\([^)]*\)[^{;]*\{", patched)
+    if m and "returns" not in m.group(0):
+        end = patched.find("}", m.end())
+        if end >= 0:
+            body = patched[m.end():end]
+            new_body = re.sub(r"\breturn\s+true\s*;", "", body)
+            if new_body != body:
+                patched = patched[:m.end()] + new_body + patched[end:]
+                fixes.append("remove invalid return true from void deposit")
+    # Move the balance update before the external call (CEI).
+    m = re.search(r"function\s+withdraw\s*\([^)]*\)[^{;]*\{", patched)
+    if m:
+        body = patched[m.end():]
+        call = body.find("msg.sender.call")
+        effect = re.search(r"balances\s*\[\s*msg\.sender\s*\]\s*=\s*0\s*;", body)
+        if call >= 0 and effect and effect.start() > call:
+            statement = effect.group(0)
+            body = body[:effect.start()] + body[effect.end():]
+            call = body.find("msg.sender.call")
+            line_start = body.rfind("\n", 0, call) + 1
+            body = body[:line_start] + "        " + statement + "\n" + body[line_start:]
+            patched = patched[:m.end()] + body
+            fixes.append("move balance reset before external call")
+    return patched, fixes
+
 def extract(text):
     # Require an actual model-generated contract rather than accepting a prewritten fixture.
     match = re.search(r"contract\s+FixedVault\s*\{", text)
@@ -94,6 +124,14 @@ def run(lesson, model, output, attempts=3):
                     record["candidate_sha256"] = hashlib.sha256(candidate.encode()).hexdigest()
                     record["candidate_code"] = candidate
                     record["static_diagnostics"] = diagnose(candidate)
+                    repaired, fixes = repair_common_errors(candidate)
+                    record["deterministic_fixes"] = fixes
+                    if fixes:
+                        record["original_candidate_sha256"] = record["candidate_sha256"]
+                        candidate = repaired
+                        record["candidate_sha256"] = hashlib.sha256(candidate.encode()).hexdigest()
+                        record["candidate_code"] = candidate
+                    record["post_fix_diagnostics"] = diagnose(candidate)
                     if candidate in seen_candidates:
                         record["error"] = "duplicate candidate; model failed to revise"
                         records.append(record)
@@ -124,6 +162,7 @@ def run(lesson, model, output, attempts=3):
     finally:
         result = {"lesson": lesson, "real_model_invoked": len(records) > 0,
                   "independent_patch_test_passed": success, "attempts": records,
+                  "repair_mode": "model-generated candidate plus documented deterministic fixes",
                   "human_review_approved": False,
                   "note": "Passing a teaching fixture is not an unknown-vulnerability discovery or human-approved course completion."}
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
