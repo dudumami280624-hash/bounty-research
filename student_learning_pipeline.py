@@ -22,7 +22,7 @@ def retrieve(question, knowledge_root, limit=3):
         if not path.is_file() or not path.resolve().is_relative_to(root):
             continue
         content = path.read_text(encoding="utf-8")[:20000]
-        score = sum(token in content.lower() for token in words if len(token) > 2)
+        score = sum(token in content.lower() for token in words if len(token) >= 2)
         if score:
             hits.append((score, str(path.relative_to(root)), hashlib.sha256(content.encode()).hexdigest()))
     return [{"file": name, "sha256": digest} for _, name, digest in sorted(hits, reverse=True)[:limit]]
