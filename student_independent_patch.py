@@ -32,7 +32,7 @@ def extract(text):
                 contract = text[start:i+1]
                 if len(contract) > 12000 or len(contract) < 90:
                     return None
-                return "pragma solidity ^0.8.20;\n" + contract + "\n"
+                return contract + "\n"
     return None
 
 def run(lesson, model, output, attempts=3):
