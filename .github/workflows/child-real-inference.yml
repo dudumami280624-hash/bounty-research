@@ -23,6 +23,7 @@ on:
       - test_student_learning_pipeline.py
       - test_student_learning_acceptance.py
       - test_student_strict_acceptance.py
+      - student_learning_memory.py
       - test_student_revision_loop.py
       - .github/workflows/child-real-inference.yml
 permissions:
