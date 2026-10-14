@@ -7,6 +7,7 @@ on:
       - student_curriculum.py
       - student_course_gate.py
       - student_course_runner.py
+      - student_independent_patch.py
       - test_student_course_gate.py
       - student_session.py
       - knowledge_sources/seed.json
@@ -86,10 +87,24 @@ jobs:
           assert x['course_gate']['reentrancy-01']['passed'] is False
           print('Real Foundry lab passed; independent course completion not verified')
           PY
+      - name: Attempt independent model-generated Solidity repair
+        shell: bash
+        run: |
+          set -euo pipefail
+          python student_independent_patch.py --lesson reentrancy-01 --model /tmp/child-model.gguf --output child-evidence/independent-patch.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('child-evidence/independent-patch.json').read_text())
+          print('Model patch attempts:',len(x['attempts']))
+          print('Independent teaching fixture passed:',x['independent_patch_test_passed'])
+          assert x['real_model_invoked'], 'No real model invocation'
+          assert all('raw_model_output' in a for a in x['attempts'])
+          PY
       - name: Upload model evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: child-real-inference-evidence
           path: child-evidence/
-          if-no-files-found: warn
+          if-no-files-found: error
