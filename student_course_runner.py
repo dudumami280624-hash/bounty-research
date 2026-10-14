@@ -11,7 +11,6 @@ def run(lesson,model,output,knowledge_index=None):
     courses={x["id"]:x for x in curriculum()["courses"]}
     if lesson not in courses:raise ValueError("unknown course")
     course=courses[lesson]
-    if lesson=="arithmetic-01":raise ValueError("arithmetic lesson assessment fixture is not implemented")
     output=Path(output)
     output.parent.mkdir(parents=True,exist_ok=True)
     reasoning=revise(lesson,model,output.with_suffix(".attempts.json"))
