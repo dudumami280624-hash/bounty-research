@@ -7,6 +7,12 @@ on:
     paths:
       - student_reasoner.py
       - student_curriculum.py
+      - student_lab.py
+      - student_course_runner.py
+      - student_lab/contracts/RoleSettings.sol
+      - student_lab/contracts/RewardMath.sol
+      - student_lab/test/AccessControlLesson.t.sol
+      - student_lab/test/ArithmeticLesson.t.sol
       - student_course_gate.py
       - student_course_runner.py
       - student_independent_patch.py
@@ -122,6 +128,13 @@ jobs:
           python student_revision_loop.py --lesson access-control-01 --model /tmp/child-model.gguf --output child-evidence/revision-loop.json
       - name: Install Foundry for real curriculum lab
         uses: foundry-rs/foundry-toolchain@v1
+      - name: Verify three real Solidity lesson fixtures
+        shell: bash
+        run: |
+          set -euo pipefail
+          forge test --root student_lab --match-contract ReentrancyLessonTest -vv
+          forge test --root student_lab --match-contract AccessControlLessonTest -vv
+          forge test --root student_lab --match-contract ArithmeticLessonTest -vv
       - name: Execute integrated learning course with real model and Forge
         shell: bash
         run: |
