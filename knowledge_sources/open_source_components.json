@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "objective": "Reuse upstream open-source implementations instead of rebuilding agent/test/reverse-engineering engines",
+  "constraints": [
+    "no paid APIs",
+    "authorized local training only",
+    "keep training reference separate from held-out tests",
+    "never infer successful learning from green infrastructure CI",
+    "retain upstream licenses and pinned versions before vendoring"
+  ],
+  "sources": [
+    {
+      "name": "aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "license": "Apache-2.0",
+      "purpose": "mature edit/test/fix loop and whole-file edit format",
+      "mode": "install upstream CLI; isolated local-code editing via llama.cpp OpenAI-compatible endpoint",
+      "priority": "P0",
+      "status": "integration-proposed"
+    },
+    {
+      "name": "mini-swe-agent",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "license": "MIT",
+      "purpose": "reusable agent-model-environment loop and trajectories",
+      "mode": "reference upstream and evaluate local-model-compatible runner; do not duplicate Aider orchestration",
+      "priority": "P1",
+      "status": "evaluated-not-installed"
+    },
+    {
+      "name": "REA",
+      "url": "https://github.com/morluto/rea",
+      "license": "MIT",
+      "purpose": "offline EVM bytecode interface evidence",
+      "mode": "official npm rea-agents CLI in child-real-inference workflow",
+      "priority": "P0",
+      "status": "CI-executed-2026-10-14"
+    },
+    {
+      "name": "Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "license": "Apache-2.0",
+      "purpose": "free code-specialized inference upgrade",
+      "mode": "local quantized llama.cpp CPU runner only; no paid API",
+      "priority": "P0",
+      "status": "benchmark-proposed"
+    },
+    {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "license": "MIT",
+      "purpose": "local CPU inference and OpenAI-compatible server",
+      "mode": "existing llama-cli; new local server for upstream Aider",
+      "priority": "P0",
+      "status": "llama-cli-CI-executed"
+    },
+    {
+      "name": "Foundry",
+      "url": "https://github.com/foundry-rs/foundry",
+      "license": "Apache-2.0",
+      "purpose": "actual Solidity regression and adversarial tests",
+      "mode": "existing forge CLI",
+      "priority": "P0",
+      "status": "CI-executed"
+    },
+    {
+      "name": "Slither",
+      "url": "https://github.com/crytic/slither",
+      "license": "AGPL-3.0",
+      "purpose": "static detectors and source evidence",
+      "mode": "invoke upstream standalone CLI; retain license",
+      "priority": "P0",
+      "status": "CI-executed"
+    },
+    {
+      "name": "Echidna",
+      "url": "https://github.com/crytic/echidna",
+      "license": "AGPL-3.0",
+      "purpose": "property fuzzing",
+      "mode": "official Docker toolbox CLI with dynamic-input property harness",
+      "priority": "P0",
+      "status": "CI-executed-property-quality-review"
+    },
+    {
+      "name": "SmartBugs Curated",
+      "url": "https://github.com/smartbugs/smartbugs-curated",
+      "license": "Apache-2.0",
+      "purpose": "labelled Solidity vulnerable examples for unseen assessment",
+      "mode": "provenance-controlled pinned fixtures, separate train and held-out groups",
+      "priority": "P1",
+      "status": "not-imported"
+    },
+    {
+      "name": "SmartBugs",
+      "url": "https://github.com/smartbugs/smartbugs",
+      "license": "Apache-2.0",
+      "purpose": "comparison harness and public contract datasets",
+      "mode": "read-only offline research/evaluation; avoid duplicating Foundry",
+      "priority": "P1",
+      "status": "not-imported"
+    },
+    {
+      "name": "Ethernaut",
+      "url": "https://github.com/OpenZeppelin/ethernaut",
+      "license": "AGPL-3.0",
+      "purpose": "sandbox contract vulnerability exercises",
+      "mode": "use official exercises locally; no live unauthorized systems",
+      "priority": "P1",
+      "status": "not-imported"
+    },
+    {
+      "name": "Damn Vulnerable DeFi",
+      "url": "https://github.com/theredguild/damn-vulnerable-defi",
+      "license": "MIT",
+      "purpose": "advanced locally authorized DeFi security lessons",
+      "mode": "upstream local training fixtures after P0 evidence loop",
+      "priority": "P1",
+      "status": "not-imported"
+    }
+  ]
+}
