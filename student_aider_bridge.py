@@ -143,6 +143,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                     returncode = 124
                 candidate = target.read_text(encoding="utf-8")
                 changed = candidate != vulnerable
+                evidence["real_model_invoked"] = True
                 rec = {"attempt": index, "aider_exit_code": returncode,
                        "agent_log_tail": agent_log, "edit_applied": changed,
                        "candidate_sha256": hashlib.sha256(candidate.encode()).hexdigest(),
@@ -150,7 +151,6 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                                       candidate.splitlines(True), fromfile="before", tofile="after")))[-6000:],
                        "deterministic_fixes": [], "forge_executed": False, "forge_passed": False}
                 if changed:
-                    evidence["real_model_invoked"] = True
                     if ((not blind and ("contract VulnerableVault" not in candidate or not candidate.startswith(vulnerable)))
                             or (blind and candidate.count("contract GuardedSettings") != 1)):
                         rec["invalid_edit"] = "Original vulnerable contract was altered"
