@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "upstream": "https://github.com/smartbugs/smartbugs-curated",
+  "upstream_revision": "230e649123477eff332742a59a1c7cc6dc286cab",
+  "license": "Apache-2.0",
+  "use": "local offline Solidity learning index only; never import into held-out test prompt",
+  "samples": [
+    {
+      "path": "dataset/reentrancy/etherstore.sol",
+      "blob_sha1": "32b8f2f53d05efafe320675b3cc76ede2c1ff0c0",
+      "category": "reentrancy",
+      "training_note": "External low-level value transfer occurs before decrementing balances; Solidity 0.4 syntax is legacy and must not be copied into Solidity 0.8."
+    },
+    {
+      "path": "dataset/access_control/unprotected0.sol",
+      "blob_sha1": "84b99ee3b6442013b934928b4df9eead7e4530b3",
+      "category": "access-control",
+      "training_note": "An owner-changing function is missing the onlyowner modifier; tests must reject unauthorized callers."
+    },
+    {
+      "path": "dataset/arithmetic/integer_overflow_minimal.sol",
+      "blob_sha1": "eac467d0f3685a9d10deb76b5fddb65db31a2e15",
+      "category": "arithmetic",
+      "training_note": "Legacy arithmetic underflow example predates automatic checked operations in Solidity 0.8; modern behavior must be verified separately."
+    }
+  ]
+}
