@@ -17,7 +17,7 @@ def revise(lesson, model_path, output, runner=subprocess.run, max_attempts=3):
     answers=[]
     for _ in range(max_attempts):
         cmd=[os.environ.get("LLAMA_CLI","llama-cli"),"-m",str(model_path),"-p",prompt,"-n","256","--temp","0"]
-        p=runner(cmd,capture_output=True,text=True,timeout=240)
+        p=runner(cmd,capture_output=True,text=True,encoding="utf-8",errors="replace",timeout=240)
         if p.returncode!=0 or not p.stdout.strip(): raise RuntimeError("model inference failed")
         answer=p.stdout.strip()
         answers.append(answer)
