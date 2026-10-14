@@ -8,6 +8,7 @@ from student_curriculum import curriculum
 from student_lab import LESSONS
 from student_revision_loop import revise
 from student_authorization import Scope, require_authorization
+from student_learning_memory import context as previous_failures, remember, summarize_failure
 
 def retrieve(question, knowledge_root, limit=3):
     root = Path(knowledge_root).resolve()
@@ -46,7 +47,14 @@ def run_once(model, knowledge_root, memory_path, evidence_dir, lesson=None, forg
     evidence_dir.mkdir(parents=True, exist_ok=True)
     retrieval = retrieve(LESSONS[lesson_id]["prompt"], knowledge_root)
     assessment_path = evidence_dir / (lesson_id + "-attempts.json")
-    reasoning = revise(lesson_id, model, assessment_path)
+    retrieved_text = []
+    root = Path(knowledge_root).resolve()
+    for hit in retrieval:
+        path = (root / hit["file"]).resolve()
+        if path.is_file() and path.is_relative_to(root):
+            retrieved_text.append(path.read_text(encoding="utf-8")[:1200])
+    learning_context = "\n".join(retrieved_text)[:3000] + "\n" + previous_failures(memory_path.with_suffix(".failures.json"), lesson_id)
+    reasoning = revise(lesson_id, model, assessment_path, learning_context=learning_context)
     lab = {"executed": False, "passed": False, "reason": "dedicated lab not configured"}
     if course.get("test_contract") and course.get("lab"):
         from subprocess import run
@@ -61,6 +69,10 @@ def run_once(model, knowledge_root, memory_path, evidence_dir, lesson=None, forg
               "lab": lab, "model_independent_solution_verified": False,
               "held_out_problem_passed": False, "human_review_approved": False}
     memory["sessions"].append(record)
+    if not lab["passed"] or not reasoning["improved_keyword_coverage"]:
+        missing = reasoning.get("attempts", [])
+        feedback = missing[-1].get("missing", []) if missing and isinstance(missing[-1], dict) else []
+        remember(memory_path.with_suffix(".failures.json"), summarize_failure(lesson_id, {"missing": feedback}, lab.get("log_tail", lab.get("reason", ""))))
     # The model does not graduate from a pre-existing fixed teaching contract.
     memory_path.parent.mkdir(parents=True, exist_ok=True)
     memory_path.write_text(json.dumps(memory, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
