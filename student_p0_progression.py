@@ -11,6 +11,8 @@ from pathlib import Path
 def _verified_model_forge(record, expected_lesson, minimum_tests):
     if not isinstance(record, dict) or record.get("engine") != "upstream-aider-cli":
         return False
+    if record.get("baseline_test_failing") is not True:
+        return False
     if record.get("lesson") != expected_lesson or not record.get("endpoint_loopback"):
         return False
     if not record.get("reference_excluded_from_agent_workspace") or not record.get("real_model_invoked"):
