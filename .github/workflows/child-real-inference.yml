@@ -16,6 +16,7 @@ on:
       - student_course_gate.py
       - student_course_runner.py
       - student_independent_patch.py
+      - student_lab/test/ArithmeticEchidna.sol
       - student_skill_registry.py
       - test_student_skill_registry.py
       - test_student_course_gate.py
