@@ -74,7 +74,7 @@ def run_once(model, knowledge_root, memory_path, evidence_dir, lesson=None, forg
         last = attempts[-1] if attempts and isinstance(attempts[-1], dict) else {}
         feedback = last.get("feedback", {})
         remember(memory_path.with_suffix(".failures.json"), summarize_failure(lesson_id, feedback, lab.get("log_tail", lab.get("reason", ""))))
-    # The model does not graduate from a pre-existing fixed teaching contract.
+    # Graduation is never inferred from keyword feedback or an existing fixture.\n    # Only a separate signed-off independent assessment may update verified_courses.
     memory_path.parent.mkdir(parents=True, exist_ok=True)
     memory_path.write_text(json.dumps(memory, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (evidence_dir / (lesson_id + "-session.json")).write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
