@@ -175,6 +175,31 @@ jobs:
           mkdir -p child-evidence/echidna
           docker run --rm -v "$PWD:/src" -w /src/student_lab trailofbits/eth-security-toolbox:latest             echidna test/ArithmeticEchidna.sol --contract ArithmeticEchidna --test-limit 1000 --format text             > child-evidence/echidna/arithmetic.log 2>&1
           cat child-evidence/echidna/arithmetic.log
+      - name: Inspect local EVM runtime with REA (offline)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p child-evidence/rea
+          node --version
+          npm --version
+          forge build --root student_lab
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          artifact=Path('student_lab/out/RewardMath.sol/RewardMath.json')
+          data=json.loads(artifact.read_text())
+          bytecode=data['deployedBytecode']['object']
+          if not bytecode or not bytecode.startswith('0x'):
+              raise SystemExit('Missing compiled EVM runtime bytecode')
+          Path('child-evidence/rea/rewardmath-runtime.hex').write_text(bytecode)
+          PY
+          npx --yes rea-agents@latest inspect-evm-interface child-evidence/rea/rewardmath-runtime.hex hex --json > child-evidence/rea/interface.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path('child-evidence/rea/interface.json').read_text())
+          print('REA returned JSON:',isinstance(data,dict))
+          PY
       - name: Execute integrated learning course with real model and Forge
         shell: bash
         run: |
