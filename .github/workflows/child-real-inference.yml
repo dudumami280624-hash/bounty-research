@@ -5,6 +5,7 @@ on:
     paths:
       - student_reasoner.py
       - student_revision_loop.py
+      - test_student_revision_loop.py
       - .github/workflows/child-real-inference.yml
 permissions:
   contents: read
@@ -44,6 +45,8 @@ jobs:
           assert x["agent"]["independent_completion_verified"] is False
           print("Real model inference executed; independent solving still unverified")
           PY
+      - name: Verify feedback-loop regression tests
+        run: python -m unittest -v test_student_revision_loop
       - name: Real-model feedback and revision loop
         shell: bash
         run: |
