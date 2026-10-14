@@ -96,6 +96,8 @@ def run(lesson, model, output, attempts=3, allow_assisted_repair=False):
     if "contract VulnerableVault" not in vulnerable:
         raise RuntimeError("missing vulnerable teaching fixture")
     prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable + "\nThe contract must have exactly deposit() and withdraw() and mapping balances."
+    # Teach the validated checks-effects-interactions ordering, not a copied contract.
+    prompt += "\nVerified lesson: update balances[msg.sender] to zero BEFORE any external Ether transfer. Keep deposit payable, preserve balances mapping, and require transfer success.\n"
     records = []
     seen_candidates = set()
     success = False
