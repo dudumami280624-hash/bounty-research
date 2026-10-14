@@ -2,12 +2,18 @@
 import tempfile
 import unittest
 from pathlib import Path
-from student_skill_registry import SKILLS, scan_manifest, dispatch
+from student_skill_registry import SKILLS, scan_manifest, dispatch, learning_plan
 
 class SkillRegistryTests(unittest.TestCase):
     def test_expected_skills_available(self):
         self.assertIn("solidity-repair", SKILLS)
         self.assertIn("feedback-learning", SKILLS)
+
+    def test_workbuddy_style_plan_has_no_fabricated_passes(self):
+        p = learning_plan('reentrancy-01')
+        self.assertEqual([x['stage'] for x in p['workflow']], ['knowledge', 'reason', 'repair', 'evidence', 'gate'])
+        self.assertTrue(all(not x['verified'] for x in p['workflow']))
+        self.assertFalse(p['completed'])
 
     def test_unknown_skill_is_rejected(self):
         with self.assertRaises(ValueError):
