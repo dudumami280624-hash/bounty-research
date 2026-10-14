@@ -104,6 +104,7 @@ jobs:
           print('Independent teaching fixture passed:',x['independent_patch_test_passed'])
           assert x['real_model_invoked'], 'No real model invocation'
           assert all('raw_model_output' in a for a in x['attempts'])
+          assert x['independent_patch_test_passed'], 'Model-generated repair failed the isolated Foundry test; see uploaded evidence'
           PY
       - name: Upload model evidence
         if: always()
