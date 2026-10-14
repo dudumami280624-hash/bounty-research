@@ -11,7 +11,7 @@ class CourseGateTests(unittest.TestCase):
         record={"reentrancy-01":{"assessment":{"independent_completion_verified":True}}}
         self.assertFalse(evaluate(record)["reentrancy-01"]["passed"])
     def test_verified_first_course_unlocks_next_but_not_passes(self):
-        record={"reentrancy-01":{"assessment":{"independent_completion_verified":True},
+        record={"reentrancy-01":{"assessment":{"independent_completion_verified":True,"held_out_verified":True},
           "lab":{"executed":True,"passed":True},"human_review_approved":True}}
         result=evaluate(record)
         self.assertTrue(result["reentrancy-01"]["passed"])
