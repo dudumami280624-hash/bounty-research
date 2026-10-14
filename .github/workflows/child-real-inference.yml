@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - student_reasoner.py
+      - student_revision_loop.py
       - .github/workflows/child-real-inference.yml
 permissions:
   contents: read
@@ -43,6 +44,11 @@ jobs:
           assert x["agent"]["independent_completion_verified"] is False
           print("Real model inference executed; independent solving still unverified")
           PY
+      - name: Real-model feedback and revision loop
+        shell: bash
+        run: |
+          set -euo pipefail
+          python student_revision_loop.py --lesson access-control-01 --model /tmp/child-model.gguf --output child-evidence/revision-loop.json
       - name: Upload model evidence
         if: always()
         uses: actions/upload-artifact@v4
