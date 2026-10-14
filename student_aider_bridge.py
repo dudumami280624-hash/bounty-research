@@ -97,7 +97,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 if blind:
                     prompt = (
                         "This is an unseen, authorized local Solidity assessment. "
-                        "Edit ONLY student_lab/held_out/contracts/GuardedSettings.sol. "
+                        "Edit ONLY contracts/GuardedSettings.sol. "
                         "Keep the GuardedSettings API unchanged: admin(), limit(), updateLimit(uint256), "
                         "transferAdmin(address). Ensure only the current admin can change the limit "
                         "or transfer admin ownership, reject address(0), and preserve the new admin's "
@@ -106,7 +106,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 else:
                     prompt = (
                         "This is an authorized local Solidity teaching exercise. "
-                        "Edit ONLY student_lab/contracts/VulnerableVault.sol to ADD a secure "
+                        "Edit ONLY contracts/VulnerableVault.sol to ADD a secure "
                         "contract named FixedVault next to VulnerableVault without changing "
                         "VulnerableVault. FixedVault must expose balances, payable deposit(), "
                         "and withdraw(), preserve deposits and use checks-effects-interactions "
