@@ -62,7 +62,7 @@ def repair_common_errors(candidate):
 
 def extract(text):
     # Require an actual model-generated contract rather than accepting a prewritten fixture.
-    match = re.search(r"contract\s+FixedVault\s*\{", text)
+    match = re.search(r"contract\s+FixedVault(?:\s+is\s+[A-Za-z_][A-Za-z0-9_,\s]*)?\s*\{", text)
     if not match:
         return None
     start = match.start()
