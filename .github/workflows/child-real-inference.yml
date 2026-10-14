@@ -21,6 +21,7 @@ on:
       - test_student_authorization.py
       - student_learning_pipeline.py
       - test_student_learning_pipeline.py
+      - test_student_two_session_memory.py
       - test_student_learning_acceptance.py
       - test_student_strict_acceptance.py
       - student_learning_memory.py
@@ -99,6 +100,8 @@ jobs:
           assert x["agent"]["independent_completion_verified"] is False
           print("Real model inference executed; independent solving still unverified")
           PY
+      - name: Verify two-session learning memory and retrieval regression
+        run: python -m unittest -v test_student_two_session_memory
       - name: Verify strict held-out acceptance rules
         run: python -m unittest -v test_student_strict_acceptance
       - name: Verify offline learning pipeline unit tests
