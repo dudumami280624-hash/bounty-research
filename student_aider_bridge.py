@@ -75,11 +75,12 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 "note": "Local training only; a passing known fixture is not an unseen assessment."}
     try:
         with tempfile.TemporaryDirectory(prefix="child-aider-training-") as temp:
-            workspace = Path(temp)
-            target = workspace / source
+            workspace = Path(temp) / ("student_lab/held_out" if blind else "student_lab")
+            workspace.mkdir(parents=True, exist_ok=True)
+            target = workspace / "contracts" / source.name
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(vulnerable, encoding="utf-8")
-            test = workspace / test_path
+            test = workspace / "test" / test_path.name
             test.parent.mkdir(parents=True, exist_ok=True)
             test.write_text((ROOT / test_path).read_text(encoding="utf-8"), encoding="utf-8")
             if not shutil.which("aider"):
@@ -115,7 +116,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                     prompt += "\nPrevious candidate failed the real Foundry tests. Fix using this evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
                        "--no-auto-commits", "--no-auto-lint", "--no-stream", "--no-pretty",
-                       "--message", prompt, str(source)]
+                       "--message", prompt, str(Path("contracts") / source.name)]
                 try:
                     attempt_run = checked_run(cmd, str(workspace), 480, env)
                     agent_log = (attempt_run.stdout + "\n" + attempt_run.stderr)[-6000:]
@@ -140,10 +141,12 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                         forge = checked_run(["forge", "test", "--root", str(workspace),
                                              "--match-contract", test_contract, "-vv"],
                                             str(workspace), 180)
+                        pass_count = forge.stdout.count("[PASS]")
+                        verified = forge.returncode == 0 and pass_count >= (5 if blind else 2)
                         rec.update(forge_executed=True, forge_exit_code=forge.returncode,
-                                   forge_passed=forge.returncode == 0,
+                                   forge_passed=verified, passing_tests=pass_count,
                                    forge_log_tail=(forge.stdout + "\n" + forge.stderr)[-7000:])
-                        if forge.returncode == 0:
+                        if verified:
                             evidence["independent_patch_test_passed"] = True
                             evidence["forge_passed"] = True
                             evidence["model_generated_patch"] = True
