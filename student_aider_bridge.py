@@ -35,7 +35,7 @@ def checked_run(command, cwd, timeout, env=None):
                           text=True, encoding="utf-8", errors="replace", timeout=timeout)
 
 
-def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder", max_attempts=2, lesson="reentrancy-01"):
+def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder", max_attempts=2, lesson="reentrancy-01", knowledge_index=None):
     """Try actual Aider edits; preserve attempts and independent Foundry results."""
     local_endpoint(base_url)
     if not 1 <= max_attempts <= 3:
@@ -64,6 +64,11 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
         vulnerable = full_source.split(marker, 1)[0]
         if "contract VulnerableVault" not in vulnerable:
             raise ValueError("Missing training contract")
+    study_notes = []
+    if knowledge_index and not blind:
+        corpus = json.loads(Path(knowledge_index).read_text(encoding="utf-8"))
+        study_notes = [str(x["training_note"])[:400] for x in corpus.get("samples", [])
+                       if x.get("category") == "reentrancy" and x.get("validated_by") == "pinned-git-blob"][:2]
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
     evidence = {"engine": "upstream-aider-cli", "model": model, "lesson": lesson, "unseen_fixture": blind,
@@ -121,6 +126,8 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                         "and withdraw(), preserve deposits and use checks-effects-interactions "
                         "to resist reentrancy. Do not change any tests. Do not claim tests ran."
                     )
+                if study_notes and not blind:
+                    prompt += "\\nVerified historical learning note (legacy syntax; do not copy): " + " ".join(study_notes)
                 if feedback:
                     prompt += "\nPrevious candidate failed the real Foundry tests. Fix using this evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
@@ -175,7 +182,8 @@ if __name__ == "__main__":
     parser.add_argument("--model", default="openai/local-coder")
     parser.add_argument("--attempts", type=int, default=2)
     parser.add_argument("--lesson", choices=["reentrancy-01", "held-out-access-control-01"], default="reentrancy-01")
+    parser.add_argument("--knowledge-index")
     args = parser.parse_args()
-    result = run(args.output, args.base_url, args.model, args.attempts, args.lesson)
+    result = run(args.output, args.base_url, args.model, args.attempts, args.lesson, args.knowledge_index)
     print(json.dumps({"engine": result["engine"], "attempts": len(result["attempts"]),
                       "forge_passed": result["independent_patch_test_passed"]}))
