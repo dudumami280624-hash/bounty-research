@@ -17,6 +17,18 @@ class RevisionLoopTests(unittest.TestCase):
             self.assertTrue(x["improved_keyword_coverage"])
             self.assertFalse(x["independent_completion_verified"])
             self.assertFalse(x["agent"]["unknown_vulnerability_discovered"])
+    def test_invalid_utf8_output_is_decoded_with_replacement(self):
+        with tempfile.TemporaryDirectory() as d:
+            model=Path(d)/"fixture.gguf";model.write_bytes(b"mock only")
+            observed=[]
+            def runner(*args,**kwargs):
+                observed.append(kwargs)
+                data=b"\xff\xfe"
+                return SimpleNamespace(returncode=0,stdout=data.decode(kwargs["encoding"],errors=kwargs["errors"])+"\u6743\u9650 \u6388\u6743",stderr="")
+            result=revise("access-control-01",model,Path(d)/"record.json",runner=runner,max_attempts=1)
+            self.assertEqual(observed[0]["errors"],"replace")
+            self.assertIn("\ufffd",result["attempts"][0]["answer"])
+            self.assertFalse(result["independent_completion_verified"])
     def test_no_false_success_on_model_failure(self):
         with tempfile.TemporaryDirectory() as d:
             model=Path(d)/"fixture.gguf";model.write_bytes(b"mock only")
