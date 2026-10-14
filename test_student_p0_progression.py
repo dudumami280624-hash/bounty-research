@@ -9,7 +9,7 @@ def fixture(lesson, n):
     return {
         "engine": "upstream-aider-cli", "lesson": lesson,
         "model": "openai/local-coder", "endpoint_loopback": True,
-        "reference_excluded_from_agent_workspace": True,
+        "reference_excluded_from_agent_workspace": True, "baseline_test_failing": True,
         "real_model_invoked": True, "model_generated_patch": True,
         "forge_passed": True, "unseen_fixture": lesson.startswith("held-out"),
         "authorization_verified": True, "deterministic_fixes": [],
