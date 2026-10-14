@@ -11,7 +11,7 @@ def revise(lesson, model_path, output, runner=subprocess.run, max_attempts=3):
     if lesson not in LESSONS: raise ValueError("unknown lesson")
     if not Path(model_path).is_file(): raise FileNotFoundError(model_path)
     if not 1 <= max_attempts <= 5: raise ValueError("attempt limit")
-    prompt="你是离线智能合约安全学习者。独立回答题目，解释根因和修复顺序。题目："+LESSONS[lesson]["prompt"]
+    prompt=("你是离线智能合约安全学习者。请用简体中文回答，避免英文术语替代中文核心概念。"\n            "请严格分三部分：1.漏洞根因 2.修复方式 3.如何验证。每部分写具体技术步骤。"\n            "不得声称已运行测试。题目："+LESSONS[lesson]["prompt"])
     answers=[]
     for _ in range(max_attempts):
         cmd=[os.environ.get("LLAMA_CLI","llama-cli"),"-m",str(model_path),"-p",prompt,"-n","256","--temp","0"]
