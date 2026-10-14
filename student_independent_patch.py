@@ -153,6 +153,7 @@ def run(lesson, model, output, attempts=3, allow_assisted_repair=False):
                     record["forge_log_tail"] = (forge.stdout + "\n" + forge.stderr)[-9000:]
                     record["forge_passed"] = forge.returncode == 0
                     feedback = ("Static diagnostics: " + "; ".join(record["static_diagnostics"]) + "\n" + record["forge_log_tail"][-2500:])
+                    record["feedback_supplied_to_next_attempt"] = feedback[-3000:]
                     if record["forge_passed"]:
                         success = True
                 records.append(record)
