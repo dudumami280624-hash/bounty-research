@@ -99,11 +99,12 @@ def run(lesson, model, output, attempts=3):
                 records.append(record)
                 if success:
                     break
-                prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable + (
+                prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable + "\nPrevious candidate:\n" + (candidate or "<no contract>") + (
                     "\nYour previous FixedVault attempt failed. Return a NEW corrected contract. "
                     "The deposit() function has no returns declaration, so NEVER use return true. "
                     "In withdraw(), first set balances[msg.sender] = 0, THEN call msg.sender.call{value: amount}(\"\"). "
                     "Use checks-effects-interactions, preserve the original external interface. "
+                    "Do not repeat the previous candidate. "
                     "Compiler/test feedback:\n" + feedback)
     finally:
         result = {"lesson": lesson, "real_model_invoked": len(records) > 0,
