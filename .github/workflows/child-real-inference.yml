@@ -15,6 +15,8 @@ on:
       - knowledge_sources/seed.json
       - student_revision_loop.py
       - student_learning_acceptance.py
+      - student_authorization.py
+      - test_student_authorization.py
       - test_student_learning_acceptance.py
       - test_student_revision_loop.py
       - .github/workflows/child-real-inference.yml
@@ -67,6 +69,8 @@ jobs:
           assert x["agent"]["independent_completion_verified"] is False
           print("Real model inference executed; independent solving still unverified")
           PY
+      - name: Verify authorization boundary regression tests
+        run: python -m unittest -v test_student_authorization
       - name: Verify local Skill registry and static preflight
         run: python -m unittest -v test_student_skill_registry
       - name: Verify feedback-loop regression tests
