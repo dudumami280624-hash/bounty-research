@@ -1,4 +1,4 @@
-"""Curriculum gate: only actual graded and tested evidence unlocks lessons."""
+"""Curriculum gate: require documented assessment evidence for each lesson."""
 import argparse
 import json
 from pathlib import Path
