@@ -49,6 +49,7 @@ def run(lesson, model, output, attempts=3):
         raise RuntimeError("missing vulnerable teaching fixture")
     prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable + "\nThe contract must have exactly deposit() and withdraw() and mapping balances."
     records = []
+    seen_candidates = set()
     success = False
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -73,11 +74,16 @@ def run(lesson, model, output, attempts=3):
                     break
                 candidate = extract(inference.stdout)
                 if candidate is None:
-                    feedback = "Your answer did not contain a complete FixedVault Solidity contract."
+                    feedback = "No FixedVault contract found. Return a complete contract only."
                 else:
                     record["patch_extracted"] = True
                     record["candidate_sha256"] = hashlib.sha256(candidate.encode()).hexdigest()
                     record["candidate_code"] = candidate
+                    if candidate in seen_candidates:
+                        record["error"] = "duplicate candidate; model failed to revise"
+                        records.append(record)
+                        break
+                    seen_candidates.add(candidate)
                     (root / "contracts" / SOURCE.name).write_text(vulnerable + candidate, encoding="utf-8")
                     forge = subprocess.run(["forge", "test", "--root", str(root),
                                             "--match-contract", "ReentrancyLessonTest", "-vv"],
@@ -93,9 +99,12 @@ def run(lesson, model, output, attempts=3):
                 records.append(record)
                 if success:
                     break
-                prompt = SYSTEM + "\nPrevious answer:\n" + inference.stdout[-6000:] + (
-                    "\nThe isolated Foundry test did not pass. Correct the Solidity contract. "
-                    "Return a complete FixedVault contract only. Feedback:\n" + feedback)
+                prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable + (
+                    "\nYour previous FixedVault attempt failed. Return a NEW corrected contract. "
+                    "The deposit() function has no returns declaration, so NEVER use return true. "
+                    "In withdraw(), first set balances[msg.sender] = 0, THEN call msg.sender.call{value: amount}(\"\"). "
+                    "Use checks-effects-interactions, preserve the original external interface. "
+                    "Compiler/test feedback:\n" + feedback)
     finally:
         result = {"lesson": lesson, "real_model_invoked": len(records) > 0,
                   "independent_patch_test_passed": success, "attempts": records,
