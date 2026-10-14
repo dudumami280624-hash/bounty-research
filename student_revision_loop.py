@@ -27,7 +27,7 @@ def revise(lesson, model_path, output, runner=subprocess.run, max_attempts=3, le
                 "严格分为：漏洞根因、修复方式、验证方法。不要重复之前的空泛描述。\\n"
                 "原始题目："+LESSONS[lesson]["prompt"]+"\\n"
                 "上一轮答案："+answer+"\\n"
-                "自动评估发现尚未解释的概念："+", ".join(feedback["missing"])+
+                "此前学习资料与历史经验："+learning_context[:1500]+"\\n自动评估发现尚未解释的概念："+", ".join(feedback["missing"])+
                 "。请用具体的合约权限或状态变化解释这些概念，并说明如何写失败测试。"
                 "这是学习反馈，不是正确答案；不要声称已执行任何测试。")
     record=practice(lesson,answers,output)
