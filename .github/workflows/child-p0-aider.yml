@@ -5,11 +5,16 @@ on:
     paths:
       - student_aider_bridge.py
       - test_student_aider_bridge.py
+      - student_lab/held_out/contracts/GuardedSettings.sol
+      - student_lab/held_out/test/GuardedSettingsHidden.t.sol
       - student_lab/contracts/VulnerableVault.sol
       - student_lab/test/ReentrancyLesson.t.sol
       - .github/workflows/child-p0-aider.yml
 permissions:
   contents: read
+concurrency:
+  group: child-p0-upstream-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   local-coder-repair:
     runs-on: ubuntu-latest
@@ -85,6 +90,27 @@ jobs:
               print('Attempt', attempt['attempt'], 'edited', attempt['edit_applied'], 'forge', attempt['forge_passed'])
               print('Agent log tail:', attempt['agent_log_tail'][-900:])
               print('Forge log tail:', attempt.get('forge_log_tail', '')[-900:])
+          PY
+      - name: Execute unseen access-control assessment with upstream Aider
+        shell: bash
+        run: |
+          set -euo pipefail
+          python student_aider_bridge.py --lesson held-out-access-control-01 --model openai/local-coder --base-url http://127.0.0.1:8091/v1 --attempts 2 --output child-evidence/p0-aider/held-out.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('child-evidence/p0-aider')
+          train=json.loads((p/'repair.json').read_text())
+          unseen=json.loads((p/'held-out.json').read_text())
+          result={
+              'training_model_only_forge_passed': train['independent_patch_test_passed'],
+              'separate_unseen_fixture': unseen['unseen_fixture'],
+              'unseen_model_generated_and_forge_passed': unseen['model_generated_patch'] and unseen['forge_passed'],
+              'automated_graduation': False,
+              'reason': 'Curriculum gate still requires genuine complete learning and reviewed evidence'
+          }
+          (p/'p0-verdict.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps(result))
           PY
       - name: Preserve P0 evidence even if the model fails
         if: always()
