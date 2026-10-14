@@ -15,6 +15,8 @@ def retrieve(question, knowledge_root, limit=3):
     if not root.is_dir():
         return []
     words = set(question.lower().split())
+    # Chinese prompts have no whitespace: match domain terms as substrings.
+    words.update(term for term in ("重入", "提款", "状态", "外部调用", "权限", "整数", "余额", "验证") if term in question)
     hits = []
     for path in sorted(root.rglob("*.md")):
         if not path.is_file() or not path.resolve().is_relative_to(root):
