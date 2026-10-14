@@ -47,7 +47,7 @@ def run(lesson, model, output, attempts=3):
     vulnerable = original.split(MARKER, 1)[0]
     if "contract VulnerableVault" not in vulnerable:
         raise RuntimeError("missing vulnerable teaching fixture")
-    prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable
+    prompt = SYSTEM + "\nExisting vulnerable example (DO NOT CHANGE):\n" + vulnerable + "\nThe contract must have exactly deposit() and withdraw() and mapping balances."
     records = []
     success = False
     output = Path(output)
