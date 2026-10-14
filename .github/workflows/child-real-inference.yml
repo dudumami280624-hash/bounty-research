@@ -4,6 +4,10 @@ on:
   push:
     paths:
       - student_reasoner.py
+      - student_curriculum.py
+      - student_course_gate.py
+      - student_course_runner.py
+      - test_student_course_gate.py
       - student_session.py
       - knowledge_sources/seed.json
       - student_revision_loop.py
@@ -60,11 +64,18 @@ jobs:
           PY
       - name: Verify feedback-loop regression tests
         run: python -m unittest -v test_student_revision_loop
+      - name: Verify curriculum progression tests
+        run: python -m unittest -v test_student_course_gate
       - name: Real-model feedback and revision loop
         shell: bash
         run: |
           set -euo pipefail
           python student_revision_loop.py --lesson access-control-01 --model /tmp/child-model.gguf --output child-evidence/revision-loop.json
+      - name: Execute integrated learning course with real model and Forge
+        shell: bash
+        run: |
+          set -euo pipefail
+          python student_course_runner.py --lesson reentrancy-01 --model /tmp/child-model.gguf --output child-evidence/course-session.json
       - name: Upload model evidence
         if: always()
         uses: actions/upload-artifact@v4
