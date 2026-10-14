@@ -8,6 +8,8 @@ on:
       - student_course_gate.py
       - student_course_runner.py
       - student_independent_patch.py
+      - student_skill_registry.py
+      - test_student_skill_registry.py
       - test_student_course_gate.py
       - student_session.py
       - knowledge_sources/seed.json
@@ -63,6 +65,8 @@ jobs:
           assert x["agent"]["independent_completion_verified"] is False
           print("Real model inference executed; independent solving still unverified")
           PY
+      - name: Verify local Skill registry and static preflight
+        run: python -m unittest -v test_student_skill_registry
       - name: Verify feedback-loop regression tests
         run: python -m unittest -v test_student_revision_loop
       - name: Verify curriculum progression tests
@@ -91,7 +95,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python student_independent_patch.py --lesson reentrancy-01 --model /tmp/child-model.gguf --output child-evidence/independent-patch.json
+          python student_skill_registry.py --skill solidity-repair --lesson reentrancy-01 --model /tmp/child-model.gguf --output child-evidence/independent-patch.json
           python - <<'PY'
           import json
           from pathlib import Path
