@@ -93,17 +93,24 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                        OPENAI_API_KEY="local-no-paid-api", AIDER_ANALYTICS="false")
             feedback = ""
             for index in range(1, max_attempts + 1):
-                prompt = (
-                    "This is an authorized local Solidity teaching exercise. "
-                    if not blind else
-                    "This is an unseen, authorized local Solidity assessment. "
-                ) + (
-                    "Edit ONLY student_lab/held_out/contracts/GuardedSettings.sol. "
-                    "Keep the GuardedSettings API unchanged: admin(), limit(), updateLimit(uint256), "
-                    "transferAdmin(address). Ensure only the current admin can change the limit "
-                    "or transfer admin ownership, reject address(0), and preserve the new admin's "
-                    "ability to update the limit. Do not change tests or claim tests ran."
-                    if blind else
+                if blind:
+                    prompt = (
+                        "This is an unseen, authorized local Solidity assessment. "
+                        "Edit ONLY student_lab/held_out/contracts/GuardedSettings.sol. "
+                        "Keep the GuardedSettings API unchanged: admin(), limit(), updateLimit(uint256), "
+                        "transferAdmin(address). Ensure only the current admin can change the limit "
+                        "or transfer admin ownership, reject address(0), and preserve the new admin's "
+                        "ability to update the limit. Do not change tests or claim tests ran."
+                    )
+                else:
+                    prompt = (
+                        "This is an authorized local Solidity teaching exercise. "
+                        "Edit ONLY student_lab/contracts/VulnerableVault.sol to ADD a secure "
+                        "contract named FixedVault next to VulnerableVault without changing "
+                        "VulnerableVault. FixedVault must expose balances, payable deposit(), "
+                        "and withdraw(), preserve deposits and use checks-effects-interactions "
+                        "to resist reentrancy. Do not change any tests. Do not claim tests ran."
+                    )
                 if feedback:
                     prompt += "\nPrevious candidate failed the real Foundry tests. Fix using this evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
