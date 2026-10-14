@@ -144,6 +144,10 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                     agent_log = str(exc)[-6000:]
                     returncode = 124
                 candidate = target.read_text(encoding="utf-8")
+                # Keep each retry independent: failed candidates are evidence, not a new baseline.
+                # Aider may have changed protected source despite the instruction.
+                # Restore the original challenge before the next model attempt.
+
                 changed = candidate != vulnerable
                 evidence["real_model_invoked"] = True
                 rec = {"attempt": index, "aider_exit_code": returncode,
@@ -173,6 +177,8 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 if evidence["independent_patch_test_passed"]:
                     break
                 feedback = rec.get("forge_log_tail") or rec.get("invalid_edit") or agent_log
+                if index < max_attempts:
+                    target.write_text(vulnerable, encoding="utf-8")
     finally:
         output.write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return evidence
