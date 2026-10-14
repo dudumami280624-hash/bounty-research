@@ -14,6 +14,8 @@ on:
       - student_session.py
       - knowledge_sources/seed.json
       - student_revision_loop.py
+      - student_learning_acceptance.py
+      - test_student_learning_acceptance.py
       - test_student_revision_loop.py
       - .github/workflows/child-real-inference.yml
 permissions:
@@ -105,6 +107,19 @@ jobs:
           assert x['real_model_invoked'], 'No real model invocation'
           assert all('raw_model_output' in a for a in x['attempts'])
           assert x['independent_patch_test_passed'], 'Model-generated repair failed the isolated Foundry test; see uploaded evidence'
+          PY
+      - name: Evaluate autonomous learning evidence (fail closed)
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m unittest -v test_student_learning_acceptance
+          python student_learning_acceptance.py --revision child-evidence/revision-loop.json --patch child-evidence/independent-patch.json --output child-evidence/learning-acceptance.json
+          python - <<'PY'
+          import json
+          x=json.load(open('child-evidence/learning-acceptance.json'))
+          assert x['assisted_foundry_passed'], 'Assisted repair regression'
+          print('Autonomous learning accepted:', x['autonomous_learning_accepted'])
+          print('Model-only repair:', x['model_only_foundry_passed'])
           PY
       - name: Upload model evidence
         if: always()
