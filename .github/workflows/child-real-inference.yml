@@ -234,6 +234,12 @@ jobs:
           assert x['real_model_invoked'], 'No real model invocation'
           assert all('raw_model_output' in a for a in x['attempts'])
           print('Unassisted model-only Foundry result:', x['independent_patch_test_passed'])
+          for attempt in x['attempts']:
+              print('Repair attempt:', attempt['attempt'])
+              print('Extraction:', attempt['patch_extracted'])
+              print('Forge passed:', attempt['forge_passed'])
+              print('Model error:', attempt.get('error', 'none'))
+              print('Forge diagnostic tail:', attempt.get('forge_log_tail', '')[-1000:])
           PY
       - name: Evaluate autonomous learning evidence (fail closed)
         shell: bash
