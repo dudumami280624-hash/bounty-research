@@ -64,15 +64,16 @@ def run_once(model, knowledge_root, memory_path, evidence_dir, lesson=None, forg
         runner = forge_runner or run
         result = runner(["forge", "test", "--root", "student_lab", "--match-contract", course["test_contract"], "-vv"], capture_output=True, text=True, timeout=180)
         lab = {"executed": True, "passed": result.returncode == 0, "returncode": result.returncode, "log_tail": (result.stdout + "\n" + result.stderr)[-3000:]}
-    record = {"timestamp": datetime.now(timezone.utc).isoformat(), "lesson": lesson_id, "retrieval": retrieval,
+    record = {"knowledge_context_sent": bool(retrieved_text), "prior_failure_context_sent": bool(previous_failures(memory_path.with_suffix(".failures.json"), lesson_id)), "timestamp": datetime.now(timezone.utc).isoformat(), "lesson": lesson_id, "retrieval": retrieval,
               "reasoning_attempts": len(reasoning["attempts"]), "feedback_improved": reasoning["improved_keyword_coverage"],
               "lab": lab, "model_independent_solution_verified": False,
               "held_out_problem_passed": False, "human_review_approved": False}
     memory["sessions"].append(record)
     if not lab["passed"] or not reasoning["improved_keyword_coverage"]:
-        missing = reasoning.get("attempts", [])
-        feedback = missing[-1].get("missing", []) if missing and isinstance(missing[-1], dict) else []
-        remember(memory_path.with_suffix(".failures.json"), summarize_failure(lesson_id, {"missing": feedback}, lab.get("log_tail", lab.get("reason", ""))))
+        attempts = reasoning.get("attempts", [])
+        last = attempts[-1] if attempts and isinstance(attempts[-1], dict) else {}
+        feedback = last.get("feedback", {})
+        remember(memory_path.with_suffix(".failures.json"), summarize_failure(lesson_id, feedback, lab.get("log_tail", lab.get("reason", ""))))
     # The model does not graduate from a pre-existing fixed teaching contract.
     memory_path.parent.mkdir(parents=True, exist_ok=True)
     memory_path.write_text(json.dumps(memory, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
