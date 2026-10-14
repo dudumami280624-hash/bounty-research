@@ -1,0 +1,95 @@
+name: AI child P0 upstream Aider repair
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - student_aider_bridge.py
+      - test_student_aider_bridge.py
+      - student_lab/contracts/VulnerableVault.sol
+      - student_lab/test/ReentrancyLesson.t.sol
+      - .github/workflows/child-p0-aider.yml
+permissions:
+  contents: read
+jobs:
+  local-coder-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify agent adapter regression
+        run: python -m unittest -v test_student_aider_bridge
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+      - name: Install official Aider CLI
+        run: |
+          python -m pip install 'aider-chat==0.86.2'
+          aider --version
+      - name: Build upstream llama.cpp local API server
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 https://github.com/ggml-org/llama.cpp.git /tmp/p0-llama-src
+          cmake -S /tmp/p0-llama-src -B /tmp/p0-llama-build -DCMAKE_BUILD_TYPE=Release -DGGML_NATIVE=OFF -DLLAMA_CURL=OFF
+          cmake --build /tmp/p0-llama-build --target llama-server -j 2
+          test -x /tmp/p0-llama-build/bin/llama-server
+      - name: Cache free code-specialized GGUF
+        id: coder-cache
+        uses: actions/cache@v4
+        with:
+          path: /tmp/qwen-coder-1.5b.gguf
+          key: child-qwen2.5-coder-1.5b-q4km-v1
+      - name: Download official free Qwen coder only if not cached
+        if: steps.coder-cache.outputs.cache-hit != 'true'
+        shell: bash
+        run: |
+          curl -fL --retry 3 --max-time 600 'https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF/resolve/main/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf' -o /tmp/qwen-coder-1.5b.gguf
+      - name: Verify model and launch offline local server
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(stat -c%s /tmp/qwen-coder-1.5b.gguf)" -gt 900000000
+          mkdir -p child-evidence/p0-aider
+          sha256sum /tmp/qwen-coder-1.5b.gguf | tee child-evidence/p0-aider/model.sha256
+          nohup /tmp/p0-llama-build/bin/llama-server -m /tmp/qwen-coder-1.5b.gguf -c 4096 -t 2 -np 1 --host 127.0.0.1 --port 8091 --alias local-coder --no-webui > child-evidence/p0-aider/local-server.log 2>&1 &
+          python - <<'PY'
+          import time
+          from urllib.request import urlopen
+          for _ in range(120):
+              try:
+                  with urlopen('http://127.0.0.1:8091/health', timeout=2) as response:
+                      if response.status == 200:
+                          print('Real local Qwen coder server ready')
+                          break
+              except Exception:
+                  pass
+              time.sleep(2)
+          else:
+              raise SystemExit('Local model server did not become healthy')
+          PY
+      - name: Run upstream Aider model-only repair in disposable Foundry lab
+        shell: bash
+        run: |
+          set -euo pipefail
+          python student_aider_bridge.py --model openai/local-coder --base-url http://127.0.0.1:8091/v1 --attempts 2 --output child-evidence/p0-aider/repair.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          record=json.loads(Path('child-evidence/p0-aider/repair.json').read_text())
+          print('Upstream Aider invoked:', len(record['attempts']) > 0)
+          print('Model edit observed:', record['real_model_invoked'])
+          print('Model-only Foundry passed:', record['independent_patch_test_passed'])
+          for attempt in record['attempts']:
+              print('Attempt', attempt['attempt'], 'edited', attempt['edit_applied'], 'forge', attempt['forge_passed'])
+              print('Agent log tail:', attempt['agent_log_tail'][-900:])
+              print('Forge log tail:', attempt.get('forge_log_tail', '')[-900:])
+          PY
+      - name: Preserve P0 evidence even if the model fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: child-p0-aider-real-coder-evidence
+          path: child-evidence/p0-aider/
+          if-no-files-found: warn
