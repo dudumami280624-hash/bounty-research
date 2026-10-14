@@ -129,6 +129,8 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 if study_notes and not blind:
                     prompt += "\\nVerified historical learning note (legacy syntax; do not copy): " + " ".join(study_notes)
                 prompt += "\nAider WHOLE edit format: write the existing filename contracts/" + source.name + " on its own line, followed by a triple-backtick solidity code block with the entire updated file. Do not create a different file or provide an explanation.\n"
+                if not blind:
+                    prompt += "\nIMPORTANT: FixedVault must be a STANDALONE contract. Never use `is VulnerableVault`, `override`, or `virtual`. The original functions are not virtual. Define a separate balances mapping and implement withdraw with balances[msg.sender] = 0 BEFORE the external call.\n"
                 if feedback:
                     prompt += "\nPrevious candidate failed the real Foundry tests. Fix using this evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
