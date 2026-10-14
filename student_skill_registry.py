@@ -61,9 +61,34 @@ def dispatch(name, lesson, model, output):
         return revise(lesson, model, output)
     raise ValueError("skill not implemented")
 
+def learning_plan(lesson):
+    """Convert the WorkBuddy-style skill chain into a deterministic teaching plan."""
+    from student_curriculum import curriculum
+    courses = {course["id"]: course for course in curriculum()["courses"]}
+    if lesson not in courses:
+        raise ValueError("unknown course")
+    course = courses[lesson]
+    tasks = [
+        {"stage": "knowledge", "action": "read_curated_sources",
+         "references": course["reading"], "verified": False},
+        {"stage": "reason", "action": "feedback-learning",
+         "enabled": lesson in SKILLS["feedback-learning"]["lessons"],
+         "verified": False},
+        {"stage": "repair", "action": "solidity-repair",
+         "enabled": lesson in SKILLS["solidity-repair"]["lessons"],
+         "verified": False},
+        {"stage": "evidence", "action": "foundry_test",
+         "enabled": bool(course["lab"]), "verified": False},
+        {"stage": "gate", "action": "human_review", "verified": False},
+    ]
+    return {"lesson": lesson, "source": "first-party curriculum",
+            "workflow": tasks, "completed": False,
+            "policy": "A plan is not execution evidence; do not mark any stage passed."}
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--list", action="store_true")
+    parser.add_argument("--plan", metavar="LESSON")
     parser.add_argument("--scan", type=Path)
     parser.add_argument("--skill", choices=SKILLS)
     parser.add_argument("--lesson")
@@ -72,12 +97,14 @@ def main():
     a = parser.parse_args()
     if a.list:
         result = {"skills": SKILLS, "policy": "allowlist-only; never auto-execute imported skills"}
+    elif a.plan:
+        result = learning_plan(a.plan)
     elif a.scan:
         result = scan_manifest(a.scan)
     elif a.skill and a.lesson and a.model and a.output:
         result = dispatch(a.skill, a.lesson, a.model, a.output)
     else:
-        parser.error("use --list, --scan FILE or --skill NAME --lesson ID --model PATH --output PATH")
+        parser.error("use --list, --plan LESSON, --scan FILE or --skill NAME --lesson ID --model PATH --output PATH")
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":
