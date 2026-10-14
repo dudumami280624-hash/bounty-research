@@ -132,7 +132,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 if not blind:
                     prompt += "\nIMPORTANT: FixedVault must be a STANDALONE contract. Never use `is VulnerableVault`, `override`, or `virtual`. The original functions are not virtual. Define a separate balances mapping and implement withdraw with balances[msg.sender] = 0 BEFORE the external call.\n"
                 if feedback:
-                    prompt += "\nPrevious candidate failed the real Foundry tests. Fix using this evidence:\n" + feedback[-2300:]
+                    prompt += "\nThe previous attempt failed. Its code was reset, but its error must be remembered. Avoid repeating this failure. Real compiler or Foundry evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
                        "--no-auto-commits", "--no-auto-lint", "--no-stream", "--no-pretty",
                        "--message", prompt, str(Path("contracts") / source.name)]
@@ -177,6 +177,8 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 if evidence["independent_patch_test_passed"]:
                     break
                 feedback = rec.get("forge_log_tail") or rec.get("invalid_edit") or agent_log
+                rec["failure_lesson"] = feedback[-2300:] if not rec["forge_passed"] else ""
+                evidence.setdefault("learning_history", []).append({"attempt": index, "failure_lesson": rec["failure_lesson"], "passed": rec["forge_passed"]})
                 if index < max_attempts:
                     target.write_text(vulnerable, encoding="utf-8")
     finally:
