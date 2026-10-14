@@ -69,7 +69,7 @@ def run_once(model, knowledge_root, memory_path, evidence_dir, lesson=None, forg
               "lab": lab, "model_independent_solution_verified": False,
               "held_out_problem_passed": False, "human_review_approved": False}
     memory["sessions"].append(record)
-    if not lab["passed"] or not reasoning["improved_keyword_coverage"]:
+    if not reasoning["improved_keyword_coverage"] or not lab["passed"]:
         attempts = reasoning.get("attempts", [])
         last = attempts[-1] if attempts and isinstance(attempts[-1], dict) else {}
         feedback = last.get("feedback", {})
