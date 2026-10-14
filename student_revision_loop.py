@@ -7,13 +7,13 @@ from pathlib import Path
 from student_lab import LESSONS, grade
 from student_practice import practice
 
-def revise(lesson, model_path, output, runner=subprocess.run, max_attempts=3):
+def revise(lesson, model_path, output, runner=subprocess.run, max_attempts=3, learning_context=""):
     if lesson not in LESSONS: raise ValueError("unknown lesson")
     if not Path(model_path).is_file(): raise FileNotFoundError(model_path)
     if not 1 <= max_attempts <= 5: raise ValueError("attempt limit")
     prompt=("你是离线智能合约安全学习者。请用简体中文回答，避免英文术语替代中文核心概念。"
             "请严格分三部分：1.漏洞根因 2.修复方式 3.如何验证。每部分写具体技术步骤。"
-            "不得声称已运行测试。题目："+LESSONS[lesson]["prompt"])
+            "不得声称已运行测试。题目："+LESSONS[lesson]["prompt"] + "\n历史学习反馈（仅供纠错，不代表正确答案）：" + learning_context[:2000])
     answers=[]
     for _ in range(max_attempts):
         cmd=[os.environ.get("LLAMA_CLI","llama-cli"),"-m",str(model_path),"-p",prompt,"-n","256","--temp","0"]
