@@ -79,7 +79,7 @@ def extract(text):
                 return contract + "\n"
     return None
 
-def run(lesson, model, output, attempts=3):
+def run(lesson, model, output, attempts=3, allow_assisted_repair=False):
     if lesson != "reentrancy-01":
         raise ValueError("only reentrancy-01 has a verified isolated code fixture")
     if not 1 <= attempts <= 3:
@@ -128,7 +128,7 @@ def run(lesson, model, output, attempts=3):
                     record["candidate_sha256"] = hashlib.sha256(candidate.encode()).hexdigest()
                     record["candidate_code"] = candidate
                     record["static_diagnostics"] = diagnose(candidate)
-                    repaired, fixes = repair_common_errors(candidate)
+                    repaired, fixes = repair_common_errors(candidate) if allow_assisted_repair else (candidate, [])
                     record["deterministic_fixes"] = fixes
                     if fixes:
                         record["original_candidate_sha256"] = record["candidate_sha256"]
@@ -166,7 +166,7 @@ def run(lesson, model, output, attempts=3):
     finally:
         result = {"lesson": lesson, "real_model_invoked": len(records) > 0,
                   "independent_patch_test_passed": success, "attempts": records,
-                  "repair_mode": "model-generated candidate plus documented deterministic fixes",
+                  "repair_mode": "assisted" if allow_assisted_repair else "model-only",
                   "human_review_approved": False,
                   "note": "Passing a teaching fixture is not an unknown-vulnerability discovery or human-approved course completion."}
         output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
