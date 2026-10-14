@@ -71,11 +71,21 @@ jobs:
         run: |
           set -euo pipefail
           python student_revision_loop.py --lesson access-control-01 --model /tmp/child-model.gguf --output child-evidence/revision-loop.json
+      - name: Install Foundry for real curriculum lab
+        uses: foundry-rs/foundry-toolchain@v1
       - name: Execute integrated learning course with real model and Forge
         shell: bash
         run: |
           set -euo pipefail
           python student_course_runner.py --lesson reentrancy-01 --model /tmp/child-model.gguf --output child-evidence/course-session.json
+          python - <<'PY'
+          import json
+          x=json.load(open('child-evidence/course-session.json'))
+          lab=x['evidence']['reentrancy-01']['lab']
+          assert lab['executed'] and lab['passed'], f'Foundry lab not passed: {lab}'
+          assert x['course_gate']['reentrancy-01']['passed'] is False
+          print('Real Foundry lab passed; independent course completion not verified')
+          PY
       - name: Upload model evidence
         if: always()
         uses: actions/upload-artifact@v4
