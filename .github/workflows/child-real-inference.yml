@@ -22,6 +22,7 @@ on:
       - student_learning_pipeline.py
       - test_student_learning_pipeline.py
       - test_student_learning_acceptance.py
+      - test_student_strict_acceptance.py
       - test_student_revision_loop.py
       - .github/workflows/child-real-inference.yml
 permissions:
@@ -97,6 +98,8 @@ jobs:
           assert x["agent"]["independent_completion_verified"] is False
           print("Real model inference executed; independent solving still unverified")
           PY
+      - name: Verify strict held-out acceptance rules
+        run: python -m unittest -v test_student_strict_acceptance
       - name: Verify offline learning pipeline unit tests
         run: python -m unittest -v test_student_learning_pipeline
       - name: Verify authorization boundary regression tests
@@ -146,7 +149,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python -m unittest -v test_student_learning_acceptance
+          python -m unittest -v test_student_strict_acceptance
           python student_learning_acceptance.py --revision child-evidence/revision-loop.json --patch child-evidence/independent-patch.json --output child-evidence/learning-acceptance.json
           python - <<'PY'
           import json
