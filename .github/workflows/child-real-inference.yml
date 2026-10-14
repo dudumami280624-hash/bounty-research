@@ -162,6 +162,18 @@ jobs:
           print('Slither analysis success:',data.get('success'))
           assert data.get('success') is True, 'Slither analysis failed'
           PY
+      - name: Install free Echidna property-testing engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker pull trailofbits/eth-security-toolbox:latest
+      - name: Run Echidna on isolated arithmetic property harness
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p child-evidence/echidna
+          docker run --rm -v "$PWD:/src" -w /src/student_lab trailofbits/eth-security-toolbox:latest             echidna test/ArithmeticEchidna.sol --contract ArithmeticEchidna --test-limit 1000 --format text             > child-evidence/echidna/arithmetic.log 2>&1
+          cat child-evidence/echidna/arithmetic.log
       - name: Execute integrated learning course with real model and Forge
         shell: bash
         run: |
