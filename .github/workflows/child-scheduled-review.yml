@@ -1,0 +1,31 @@
+name: Child scheduled authorized source review
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+permissions:
+  contents: read
+jobs:
+  public-source-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run allowlisted local research tests
+        run: |
+          set -euo pipefail
+          python -m unittest -v test_child_skill_registry test_student_aider_bridge test_student_p0_progression
+          python child_skill_registry.py --list
+      - name: Save dated review evidence
+        if: always()
+        run: |
+          mkdir -p child-evidence/scheduled
+          printf '{"workflow":"scheduled-authorized-source-review","scope":"local repository only","claim":"health check, not verified vulnerability discovery"}\n' > child-evidence/scheduled/review.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: child-scheduled-source-review
+          path: child-evidence/scheduled/
