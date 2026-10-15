@@ -114,6 +114,7 @@ jobs:
           set -euo pipefail
           python student_aider_bridge.py --lesson held-out-access-control-01 --model openai/local-coder --base-url http://127.0.0.1:8091/v1 --attempts 3 --output child-evidence/p0-aider/held-out.json
           python student_p0_progression.py --training child-evidence/p0-aider/repair.json --held-out child-evidence/p0-aider/held-out.json --output child-evidence/p0-aider/p0-verdict.json --memory child-evidence/p0-aider/learning-memory.json
+          python -c "import json; a=json.load(open('child-evidence/p0-aider/held-out.json')); print([(x['attempt'], x['edit_applied'], x['forge_passed'], x.get('forge_log_tail','')[-500:], x.get('invalid_edit','')[-300:]) for x in a['attempts']])"
       - name: Preserve P0 evidence even if the model fails
         if: always()
         uses: actions/upload-artifact@v4
