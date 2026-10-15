@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - .github/workflows/child-real-source-slither.yml
+      - horizen_candidate_triage.py
 permissions:
   contents: read
 jobs:
@@ -31,6 +32,8 @@ jobs:
           slither --version
       - name: Execute real source static analysis
         run: python slither_audit.py
+      - name: Classify candidates by authorized source scope
+        run: python horizen_candidate_triage.py
       - name: Preserve evidence even on failures
         if: always()
         uses: actions/upload-artifact@v4
@@ -39,5 +42,6 @@ jobs:
           path: |
             audit.json
             slither_results.json
+            horizen_candidate_triage.json
           if-no-files-found: warn
           retention-days: 30
