@@ -1,0 +1,31 @@
+name: Install Proactive Agent skill for child
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/install-proactive-agent.yml
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install upstream proactive-agent skill
+        run: |
+          set -euo pipefail
+          npx -y skills add halthelobster/proactive-agent --skill proactive-agent --agent codex --copy -y
+          test -f .agents/skills/proactive-agent/SKILL.md
+          grep -q 'name: proactive-agent' .agents/skills/proactive-agent/SKILL.md
+          npx -y skills list
+      - name: Preserve installed skill
+        uses: actions/upload-artifact@v4
+        with:
+          name: proactive-agent-skill
+          path: .agents/skills/proactive-agent/
+          if-no-files-found: error
+          retention-days: 30
