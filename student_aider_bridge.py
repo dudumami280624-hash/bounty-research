@@ -142,6 +142,12 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                               "Use checks-effects-interactions, zero the balance before the external call. "
                               "Do not inherit VulnerableVault. Do not modify tests. "
                               "Aider WHOLE format: filename contracts/FixedVault.sol then a complete Solidity code block.\n")
+                if feedback and blind and "zero admin accepted" in feedback:
+                    prompt += ("\nFoundry reports testCannotRenounceToZero failed: zero admin accepted. "
+                               "Your previous candidate still allowed ownership transfer to address(0). "
+                               "The next candidate must reject the zero address, not merely restrict the caller. "
+                               "Review transferAdmin and ensure a failed zero-address transfer preserves admin. "
+                               "Do not alter the tests.\n")
                 if feedback and not blind:
                     prompt += "\nCompiler lesson: msg.value is the ETH attached to the CURRENT call, not the stored deposit. In withdraw(), read balances[msg.sender] into amount, require amount > 0, set balances[msg.sender] = 0 before msg.sender.call{value: amount}(\"\"). Never use msg.value in withdraw().\n"
                 if feedback:
