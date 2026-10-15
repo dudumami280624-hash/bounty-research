@@ -28,6 +28,14 @@ def classify(report):
                 "verified_vulnerability": False,
                 "next_action": "Review exact source lines, known issues and construct isolated Foundry test before claiming impact"
             })
+    candidates.sort(key=lambda c: (
+        {"direct_scope_candidate": 0, "inherited_requires_impact_proof": 1, "not_proven_in_scope": 2}[c["scope_status"]],
+        {"High": 0, "Medium": 1, "Low": 2, "Informational": 3}.get(str(c["impact"]), 4),
+        c["candidate_id"],
+    ))
+    for rank, candidate in enumerate(candidates, 1):
+        candidate["review_rank"] = rank
+        candidate["poc_gate"] = "blocked_pending_source_and_impact_review"
     return {
         "analysis": "scope_triage_not_exploit_proof",
         "total_candidates": len(candidates),
@@ -39,5 +47,12 @@ def classify(report):
 if __name__ == "__main__":
     source = json.loads(Path("slither_results.json").read_text(encoding="utf-8"))
     result = classify(source)
-    Path("horizen_candidate_triage.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+    Path("horizen_candidate_triage.json").write_text(json.dumps(result, indent=2) + "\\n", encoding="utf-8")
+    prioritized = [c for c in result["candidates"] if c["scope_status"] == "direct_scope_candidate"]
+    Path("horizen_p0_queue.json").write_text(json.dumps({
+        "source": "real_slither_findings",
+        "status": "requires_manual_source_and_impact_validation",
+        "verified_poc_count": 0,
+        "direct_scope_queue": prioritized,
+    }, indent=2) + "\\n", encoding="utf-8")
     print(json.dumps({k:v for k,v in result.items() if k!="candidates"}, indent=2))
