@@ -44,5 +44,6 @@ jobs:
             slither_results.json
             horizen_candidate_triage.json
             horizen_p0_queue.json
+            horizen_public_crosscheck.json
           if-no-files-found: warn
           retention-days: 30
