@@ -17,6 +17,14 @@ jobs:
           python-version: '3.11'
       - name: Retrieve configured pinned public source
         run: python audit.py
+      - name: Install official Foundry toolchain
+        uses: foundry-rs/foundry-toolchain@v1
+      - name: Restore pinned upstream submodules and compiler
+        run: |
+          set -euo pipefail
+          git -C _work/0 submodule update --init --recursive --depth 1
+          forge --version
+          (cd _work/0 && forge build)
       - name: Install official free Slither
         run: |
           python -m pip install 'slither-analyzer==0.11.3' solc-select
