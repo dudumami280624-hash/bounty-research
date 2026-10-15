@@ -1,0 +1,30 @@
+name: Child isolated Kali tool validation
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/child-kali.yml
+permissions:
+  contents: read
+jobs:
+  kali-local-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: kalilinux/kali-rolling:latest
+    steps:
+      - name: Install free Kali tools
+        run: |
+          set -eu
+          apt-get update
+          DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends nmap python3 ca-certificates
+          nmap --version
+          python3 --version
+      - name: Validate isolated loopback service only
+        run: |
+          set -eu
+          python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/child-local-server.log 2>&1 &
+          sleep 2
+          nmap -sT -Pn -p 8765 127.0.0.1 -oN /tmp/child-kali-local-scan.txt
+          grep -E '^8765/tcp[[:space:]]+open' /tmp/child-kali-local-scan.txt
+          cat /tmp/child-kali-local-scan.txt
