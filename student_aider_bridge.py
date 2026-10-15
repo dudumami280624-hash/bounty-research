@@ -142,6 +142,9 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                               "Use checks-effects-interactions, zero the balance before the external call. "
                               "Do not inherit VulnerableVault. Do not modify tests. "
                               "Aider WHOLE format: filename contracts/FixedVault.sol then a complete Solidity code block.\n")
+                if blind:
+                    prompt += ("\nAssessment requirement: transferAdmin(address nextAdmin) must revert for address(0) even when called by the current admin. "
+                               "Retain authorization checks for both state-changing functions. Do not edit tests.\n")
                 if feedback and blind and "zero admin accepted" in feedback:
                     prompt += ("\nFoundry reports testCannotRenounceToZero failed: zero admin accepted. "
                                "Your previous candidate still allowed ownership transfer to address(0). "
