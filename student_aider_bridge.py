@@ -142,6 +142,8 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                               "Use checks-effects-interactions, zero the balance before the external call. "
                               "Do not inherit VulnerableVault. Do not modify tests. "
                               "Aider WHOLE format: filename contracts/FixedVault.sol then a complete Solidity code block.\n")
+                if feedback and not blind:
+                    prompt += "\nCompiler lesson: msg.value is the ETH attached to the CURRENT call, not the stored deposit. In withdraw(), read balances[msg.sender] into amount, require amount > 0, set balances[msg.sender] = 0 before msg.sender.call{value: amount}(\"\"). Never use msg.value in withdraw().\n"
                 if feedback:
                     prompt += "\nThe previous attempt failed. Its code was reset, but its error must be remembered. Avoid repeating this failure. Real compiler or Foundry evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
