@@ -181,7 +181,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 evidence["attempts"].append(rec)
                 if evidence["independent_patch_test_passed"]:
                     break
-                feedback = rec.get("forge_log_tail") or rec.get("invalid_edit") or agent_log
+                feedback = rec.get("invalid_edit") or rec.get("forge_log_tail") or agent_log
                 rec["failure_lesson"] = feedback[-2300:] if not rec["forge_passed"] else ""
                 evidence.setdefault("learning_history", []).append({"attempt": index, "failure_lesson": rec["failure_lesson"], "passed": rec["forge_passed"]})
                 if index < max_attempts:
