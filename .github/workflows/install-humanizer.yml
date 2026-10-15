@@ -1,0 +1,31 @@
+name: Install Humanizer skill for AI child
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/install-humanizer.yml
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install upstream MIT licensed Humanizer
+        run: |
+          set -euo pipefail
+          npx -y skills add blader/humanizer --skill humanizer --agent codex --copy -y
+          test -f .agents/skills/humanizer/SKILL.md
+          grep -qi 'name: humanizer' .agents/skills/humanizer/SKILL.md
+          npx -y skills list
+      - name: Preserve installed skill
+        uses: actions/upload-artifact@v4
+        with:
+          name: humanizer-skill
+          path: .agents/skills/humanizer/
+          if-no-files-found: error
+          retention-days: 30
