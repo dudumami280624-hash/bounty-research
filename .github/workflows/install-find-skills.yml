@@ -1,0 +1,30 @@
+name: Install official Find Skills
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/install-find-skills.yml
+permissions:
+  contents: read
+jobs:
+  install-find-skills:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Vercel Find Skills in project
+        run: |
+          set -euo pipefail
+          npx -y skills add vercel-labs/skills --skill find-skills --agent codex --copy -y
+          npx -y skills list
+          test -f .agents/skills/find-skills/SKILL.md
+          grep -q 'name: find-skills' .agents/skills/find-skills/SKILL.md
+      - name: Preserve installed skill proof
+        uses: actions/upload-artifact@v4
+        with:
+          name: find-skills-installed
+          path: .agents/skills/find-skills/SKILL.md
+          if-no-files-found: error
