@@ -1,0 +1,30 @@
+name: Install upstream Skill Creator for AI child
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/install-skill-creator.yml
+permissions:
+  contents: read
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install official skill-creator
+        run: |
+          set -euo pipefail
+          npx -y skills add anthropics/skills --skill skill-creator --agent codex --copy -y
+          test -f .agents/skills/skill-creator/SKILL.md
+          npx -y skills list
+      - name: Preserve skill for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: skill-creator
+          path: .agents/skills/skill-creator/
+          if-no-files-found: error
+          retention-days: 30
