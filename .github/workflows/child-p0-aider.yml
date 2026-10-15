@@ -44,6 +44,23 @@ jobs:
         run: |
           python child_skill_registry.py --list
           python child_skill_registry.py --skill solidity-tests --output /tmp/child-skill-evidence.json
+      - name: Install and execute upstream Slither on authorized local lab
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install 'slither-analyzer==0.11.3'
+          slither --version
+          mkdir -p child-evidence/p0-aider
+          python child_skill_registry.py --skill solidity-static --output child-evidence/p0-aider/slither-skill.json || test -s child-evidence/p0-aider/slither-skill.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('child-evidence/p0-aider/slither-skill.json')
+          data = json.loads(p.read_text())
+          assert data['executed'], 'Slither was not executed'
+          print('Slither executed:', data['executed'], 'exit:', data['exit_code'])
+          print('Analyzer output tail:', data['stdout_tail'][-1200:])
+          PY
       - name: Install official Aider CLI
         run: |
           python -m pip install 'aider-chat==0.86.2'
