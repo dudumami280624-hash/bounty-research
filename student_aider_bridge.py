@@ -159,7 +159,12 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 if changed:
                     if ((not blind and ("contract VulnerableVault" not in candidate or not candidate.startswith(vulnerable)))
                             or (blind and candidate.count("contract GuardedSettings") != 1)):
-                        rec["invalid_edit"] = "Original vulnerable contract was altered"
+                        rec["invalid_edit"] = (
+                            "Protected source was changed. Preserve the entire original file prefix "
+                            "byte-for-byte and only append the requested standalone contract. "
+                            "Do not inherit VulnerableVault: its functions are not virtual. "
+                            "Your previous rejected diff follows:\\n" + rec["diff_tail"]
+                        )
                     else:
                         forge = checked_run(["forge", "test", "--root", str(workspace),
                                              "--match-contract", test_contract, "-vv"],
