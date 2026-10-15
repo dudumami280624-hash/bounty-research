@@ -1,0 +1,35 @@
+name: Upstream Slither real bounty source triage
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/child-real-source-slither.yml
+permissions:
+  contents: read
+jobs:
+  pinned-source-slither:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Retrieve configured pinned public source
+        run: python audit.py
+      - name: Install official free Slither
+        run: |
+          python -m pip install 'slither-analyzer==0.11.3' solc-select
+          slither --version
+      - name: Execute real source static analysis
+        run: python slither_audit.py
+      - name: Preserve evidence even on failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: real-source-slither
+          path: |
+            audit.json
+            slither_results.json
+          if-no-files-found: warn
+          retention-days: 30
