@@ -47,12 +47,35 @@ def classify(report):
 if __name__ == "__main__":
     source = json.loads(Path("slither_results.json").read_text(encoding="utf-8"))
     result = classify(source)
-    Path("horizen_candidate_triage.json").write_text(json.dumps(result, indent=2) + "\\n", encoding="utf-8")
+    Path("horizen_candidate_triage.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     prioritized = [c for c in result["candidates"] if c["scope_status"] == "direct_scope_candidate"]
     Path("horizen_p0_queue.json").write_text(json.dumps({
         "source": "real_slither_findings",
         "status": "requires_manual_source_and_impact_validation",
         "verified_poc_count": 0,
         "direct_scope_queue": prioritized,
+    }, indent=2) + "\n", encoding="utf-8")
+    references = {
+        "official_known_issues": "https://immunefi.com/bug-bounty/horizen/information/",
+        "upstream_security": "https://github.com/HorizenOfficial/staker/blob/main/SECURITY.md",
+        "slither_detector_reference": "https://github.com/crytic/slither/wiki/Detector-Documentation",
+        "solodit_search": "https://solodit.cyfrin.io/",
+        "code4rena_reports": "https://code4rena.com/reports",
+    }
+    comparisons = []
+    for candidate in result["candidates"]:
+        comparisons.append({
+            "candidate_id": candidate["candidate_id"],
+            "detector": candidate["detector"],
+            "paths": candidate["paths"],
+            "reference_sources": references,
+            "comparison_status": "pending_individual_public_report_matching",
+            "known_issue_match": "unknown",
+            "duplicate_status": "unknown",
+            "poc_verified": False,
+        })
+    Path("horizen_public_crosscheck.json").write_text(json.dumps({
+        "scope": "12 real Slither findings; reference index only until individual matching",
+        "entries": comparisons,
     }, indent=2) + "\\n", encoding="utf-8")
     print(json.dumps({k:v for k,v in result.items() if k!="candidates"}, indent=2))
