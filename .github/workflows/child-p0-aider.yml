@@ -5,6 +5,7 @@ on:
     paths:
       - student_aider_bridge.py
       - child_skill_registry.py
+      - test_child_skill_registry.py
       - test_student_aider_bridge.py
       - student_p0_progression.py
       - test_student_p0_progression.py
@@ -31,7 +32,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Verify agent adapter regression
-        run: python -m unittest -v test_student_aider_bridge test_student_p0_progression test_student_smartbugs_import
+        run: python -m unittest -v test_child_skill_registry test_student_aider_bridge test_student_p0_progression test_student_smartbugs_import
       - name: Import upstream SmartBugs cases with exact Git blob validation
         shell: bash
         run: |
