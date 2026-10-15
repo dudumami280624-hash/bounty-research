@@ -87,7 +87,12 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
             target.write_text(vulnerable, encoding="utf-8")
             test = workspace / "test" / test_path.name
             test.parent.mkdir(parents=True, exist_ok=True)
-            test.write_text((ROOT / test_path).read_text(encoding="utf-8"), encoding="utf-8")
+            test_text = (ROOT / test_path).read_text(encoding="utf-8")
+            if not blind:
+                # Test imports the model-owned file; the vulnerable source remains immutable.
+                test_text = test_text.replace('import "../contracts/VulnerableVault.sol";', 'import "../contracts/VulnerableVault.sol";\nimport "../contracts/FixedVault.sol";')
+                (workspace / "contracts" / "FixedVault.sol").write_text("// Model must implement FixedVault here.\n", encoding="utf-8")
+            test.write_text(test_text, encoding="utf-8")
             if not shutil.which("aider"):
                 raise FileNotFoundError("Official upstream aider CLI not installed")
             if not shutil.which("forge"):
@@ -131,11 +136,17 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 prompt += "\nAider WHOLE edit format: write the existing filename contracts/" + source.name + " on its own line, followed by a triple-backtick solidity code block with the entire updated file. Do not create a different file or provide an explanation.\n"
                 if not blind:
                     prompt += "\nIMPORTANT: FixedVault must be a STANDALONE contract. Never use `is VulnerableVault`, `override`, or `virtual`. The original functions are not virtual. Define a separate balances mapping and implement withdraw with balances[msg.sender] = 0 BEFORE the external call.\n"
+                if not blind:
+                    prompt = ("Implement a standalone secure Solidity contract FixedVault in contracts/FixedVault.sol. "
+                              "Do not edit VulnerableVault.sol. Define balances, payable deposit(), withdraw(). "
+                              "Use checks-effects-interactions, zero the balance before the external call. "
+                              "Do not inherit VulnerableVault. Do not modify tests. "
+                              "Aider WHOLE format: filename contracts/FixedVault.sol then a complete Solidity code block.\n")
                 if feedback:
                     prompt += "\nThe previous attempt failed. Its code was reset, but its error must be remembered. Avoid repeating this failure. Real compiler or Foundry evidence:\n" + feedback[-2300:]
                 cmd = ["aider", "--model", model, "--edit-format", "whole", "--yes-always",
                        "--no-auto-commits", "--no-auto-lint", "--no-stream", "--no-pretty",
-                       "--message", prompt, str(Path("contracts") / source.name)]
+                       "--message", prompt, str(Path("contracts") / ("FixedVault.sol" if not blind else source.name))]
                 try:
                     attempt_run = checked_run(cmd, str(workspace), 480, env)
                     agent_log = (attempt_run.stdout + "\n" + attempt_run.stderr)[-6000:]
@@ -143,12 +154,13 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 except subprocess.TimeoutExpired as exc:
                     agent_log = str(exc)[-6000:]
                     returncode = 124
-                candidate = target.read_text(encoding="utf-8")
+                candidate_target = workspace / "contracts" / ("FixedVault.sol" if not blind else source.name)
+                candidate = candidate_target.read_text(encoding="utf-8")
                 # Keep each retry independent: failed candidates are evidence, not a new baseline.
                 # Aider may have changed protected source despite the instruction.
                 # Restore the original challenge before the next model attempt.
 
-                changed = candidate != vulnerable
+                changed = candidate != ("// Model must implement FixedVault here.\n" if not blind else vulnerable)
                 evidence["real_model_invoked"] = True
                 rec = {"attempt": index, "aider_exit_code": returncode,
                        "agent_log_tail": agent_log, "edit_applied": changed,
@@ -157,7 +169,7 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                                       candidate.splitlines(True), fromfile="before", tofile="after")))[-6000:],
                        "deterministic_fixes": [], "forge_executed": False, "forge_passed": False}
                 if changed:
-                    if ((not blind and ("contract VulnerableVault" not in candidate or not candidate.startswith(vulnerable)))
+                    if ((not blind and (target.read_text(encoding="utf-8") != vulnerable or "contract FixedVault" not in candidate))
                             or (blind and candidate.count("contract GuardedSettings") != 1)):
                         rec["invalid_edit"] = (
                             "Protected source was changed. Preserve the entire original file prefix "
@@ -186,6 +198,8 @@ def run(output, base_url="http://127.0.0.1:8091/v1", model="openai/local-coder",
                 evidence.setdefault("learning_history", []).append({"attempt": index, "failure_lesson": rec["failure_lesson"], "passed": rec["forge_passed"]})
                 if index < max_attempts:
                     target.write_text(vulnerable, encoding="utf-8")
+                    if not blind:
+                        candidate_target.write_text("// Model must implement FixedVault here.\n", encoding="utf-8")
     finally:
         output.write_text(json.dumps(evidence, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return evidence
