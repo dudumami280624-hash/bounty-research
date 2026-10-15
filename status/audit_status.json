@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-15T19:39:03.915106+00:00",
-  "workflow_run_id": "38795416847",
-  "workflow_sha": "1ebced17b95a6500f9744fec33e3c414c3377905",
+  "time_utc": "2026-10-15T20:45:25.383767+00:00",
+  "workflow_run_id": "38803590354",
+  "workflow_sha": "dfa89be97e6fd8cbfd446e5087a6b4adb40e8100",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -351,7 +351,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-15T19:37:44.946249+00:00",
+      "verified_at_utc": "2026-10-15T20:38:38.963325+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -378,8 +378,8 @@
       "any_public_chain_transaction_broadcast": false,
       "returncode": 0,
       "error_type": null,
-      "fork_block_number": 30503906,
-      "fork_block_hash": "0x1b92d43b19de57e0785cd5ec70ed2ddaf88a7ff1f706d712bb72080b7d1a4997",
+      "fork_block_number": 30507608,
+      "fork_block_hash": "0xbc7189f4edf74aaf66f27dd0071d68c985224c41a0accbef4dd63007812d6787",
       "deployment_code": {
         "token": {
           "address": "0xb06EC4ce262D8dbDc24Fac87479A49A7DC4cFb87",
@@ -398,36 +398,19 @@
         }
       },
       "deployment_source_match_verified": false,
-      "log_excerpt": "No files changed, compilation skipped\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 3.42s (3.89s CPU time)\n\nRan 1 test suite in 3.76s (3.42s CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
+      "log_excerpt": "No files changed, compilation skipped\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 3.11s (3.87s CPU time)\n\nRan 1 test suite in 3.25s (3.11s CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
     },
     "frontend_scope_results.json": {
       "present": true,
       "source_repo": "https://github.com/HorizenOfficial/staker-services.git",
       "source_commit": "a404746a693adca207c8c31f3e21fc3762fbb7b8",
       "scope": "frontend/",
-      "execution": "passed",
+      "execution": "timeout",
       "source_pinned": true,
       "security_vulnerabilities_verified": 0,
       "bounty_reports_ready": 0,
       "dependency_advisory_counts": null,
-      "checks": {
-        "install": {
-          "ok": true,
-          "returncode": 0
-        },
-        "typecheck": {
-          "ok": true,
-          "returncode": 0
-        },
-        "lint": {
-          "ok": true,
-          "returncode": 0
-        },
-        "test": {
-          "ok": true,
-          "returncode": 0
-        }
-      }
+      "checks": {}
     }
   }
 }
