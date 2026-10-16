@@ -19,7 +19,7 @@ jobs:
           git clone https://github.com/HorizenOfficial/staker.git /tmp/horizen-staker
           git -C /tmp/horizen-staker checkout ab92502e9da98784dfe3bd3ef933d4e9345ff628
           git -C /tmp/horizen-staker submodule update --init --recursive
-      - name: Run upstream Foundry suite
+      - name: Add independent security regression tests to pinned upstream source\n        run: cp child-labs/horizen/RewardAccumulatorSecurity.t.sol /tmp/horizen-staker/test/RewardAccumulatorSecurity.t.sol\n      - name: Run upstream Foundry suite
         run: |
           set -euo pipefail
           cd /tmp/horizen-staker
