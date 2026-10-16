@@ -53,6 +53,11 @@ jobs:
           curl -fLsS --retry 3 https://raw.githubusercontent.com/OpenZeppelin/ethernaut/master/contracts/src/levels/Reentrance.sol -o /tmp/blind-lab/ethernaut/Reentrance.sol
           curl -fLsS --retry 3 https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v3.4.2/contracts/math/SafeMath.sol -o /tmp/blind-lab/ethernaut/lib/openzeppelin-contracts-06/math/SafeMath.sol
           sha256sum /tmp/blind-lab/positive/*.sol /tmp/blind-lab/negative/*.sol /tmp/blind-lab/ethernaut/*.sol /tmp/blind-lab/ethernaut/lib/openzeppelin-contracts-06/math/*.sol > fixture-hashes.txt
+      - name: Add second independent safe fixture
+        run: |
+          mkdir -p /tmp/blind-lab/negative2
+          curl -fLsS --retry 3 https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/v4.9.6/contracts/security/ReentrancyGuard.sol -o /tmp/blind-lab/negative2/ReentrancyGuard.sol
+          sha256sum /tmp/blind-lab/negative2/ReentrancyGuard.sol >> fixture-hashes.txt
       - name: Scan both fixtures with real Slither
         run: |
           set -euo pipefail
@@ -61,6 +66,10 @@ jobs:
           slither /tmp/blind-lab/positive/Reentrancy.sol --json positive-raw.json > positive-scanner.log 2>&1 || test -s positive-raw.json
           solc-select use 0.8.20
           slither /tmp/blind-lab/negative/SafeVault.sol --json negative-raw.json > negative-scanner.log 2>&1 || test -s negative-raw.json
+      - name: Scan independent OpenZeppelin safe fixture
+        run: |
+          solc-select use 0.8.20
+          slither /tmp/blind-lab/negative2/ReentrancyGuard.sol --json negative2-raw.json > negative2-scanner.log 2>&1 || test -s negative2-raw.json
       - name: Scan independent Ethernaut public challenge
         run: |
           set -euo pipefail
@@ -77,7 +86,7 @@ jobs:
           import json
           from pathlib import Path
           projects=[]
-          for name in ("positive","negative","ethernaut"):
+          for name in ("positive","negative","negative2","ethernaut"):
               raw=json.loads(Path(name+"-raw.json").read_text())
               assert raw.get("success") is True, (name,raw.get("error"))
               findings=[]
@@ -85,7 +94,7 @@ jobs:
                   findings.append({"check":d.get("check"),"description":d.get("description"),"impact":d.get("impact"),"locations":[]})
               projects.append({"name":name,"findings":findings})
           Path("real-scanner-results.json").write_text(json.dumps({"projects":projects},indent=2))
-          Path("fixture-labels.json").write_text(json.dumps({"positive":True,"negative":False,"ethernaut":True}))
+          Path("fixture-labels.json").write_text(json.dumps({"positive":True,"negative":False,"negative2":False,"ethernaut":True}))
           PY
           python knowledge_detector_bridge.py knowledge-index.json real-scanner-results.json knowledge-triage.json
           python score_blind_lab.py knowledge-triage.json fixture-labels.json detection-metrics.json
