@@ -32,7 +32,7 @@ jobs:
           FOUNDRY_FUZZ_RUNS: '10000'
         run: |
           cd /tmp/horizen-staker
-          forge test --match-contract RewardAccumulatorSecurityTest -vv
+          forge test --match-contract RewardAccumulatorSecurityTest -vv | tee "$GITHUB_WORKSPACE/horizen-fuzz-10000.log"
       - name: Source pattern preflight
         run: python child-labs/horizen/source_invariants.py /tmp/horizen-staker/src/RewardAccumulator.sol | tee horizen-source-invariants.json
       - uses: actions/upload-artifact@v4
@@ -42,4 +42,5 @@ jobs:
           path: |
             horizen-upstream-foundry-results.txt
             horizen-source-invariants.json
+            horizen-fuzz-10000.log
           if-no-files-found: warn
