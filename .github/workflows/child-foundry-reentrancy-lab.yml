@@ -1,0 +1,26 @@
+name: Child Foundry reentrancy lab
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/child-foundry-reentrancy-lab.yml'
+      - 'child-labs/reentrancy/**'
+permissions:
+  contents: read
+jobs:
+  isolated-reentrancy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+      - name: Run vulnerable versus fixed isolated EVM tests
+        working-directory: child-labs/reentrancy
+        run: |
+          forge test -vvv | tee foundry-results.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: child-foundry-reentrancy-lab-evidence
+          path: child-labs/reentrancy/foundry-results.txt
+          if-no-files-found: warn
