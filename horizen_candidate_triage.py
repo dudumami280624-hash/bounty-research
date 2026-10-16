@@ -77,7 +77,16 @@ if __name__ == "__main__":
         detector = str(candidate["detector"] or "").lower()
         pattern = next((v for key, v in patterns.items() if key in detector), None)
         query = quote(detector.replace("-", " ") + " staking smart contract")
+        known_issue_hints = []
+        detector_text = detector.lower()
+        if "permit" in detector_text:
+            known_issue_hints.append("Review documented permit try/catch behavior")
+        if "timestamp" in detector_text:
+            known_issue_hints.append("Review accepted reward-window timing behavior")
+        if "reentrancy" in detector_text:
+            known_issue_hints.append("Compare against previously audited inherited Staker write paths")
         comparisons.append({
+            "known_issue_review_hints": known_issue_hints,
             "candidate_id": candidate["candidate_id"],
             "detector": candidate["detector"],
             "paths": candidate["paths"],
@@ -95,5 +104,5 @@ if __name__ == "__main__":
     Path("horizen_public_crosscheck.json").write_text(json.dumps({
         "scope": "All 12 Slither candidates; reusable public pattern guidance, not verified duplicates",
         "entries": comparisons,
-    }, indent=2) + "\\n", encoding="utf-8")
+    }, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k:v for k,v in result.items() if k!="candidates"}, indent=2))
