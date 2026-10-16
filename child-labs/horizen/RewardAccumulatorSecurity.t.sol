@@ -94,4 +94,18 @@ contract RewardAccumulatorSecurityTest is Test {
         assertEq(accumulator.timeWindow(), originalWindow);
     }
 
+    // Hypothesis: an attacker can reenter through the reward token callback
+    // before accumulatedRewards is reset. This is deliberately a negative test:
+    // its outcome must be evaluated against production token assumptions.
+    function testFuzz_zeroAmountCannotExtractRewards(uint96 rawAmount) public {
+        uint256 amount = bound(uint256(rawAmount), 1, 100 ether);
+        vm.prank(contributor);
+        accumulator.transferAndNotifyRewards(amount);
+        uint256 beforeBalance = token.balanceOf(address(accumulator));
+        vm.prank(address(0xBAD));
+        accumulator.transferAndNotifyRewards(0);
+        assertEq(token.balanceOf(address(accumulator)), beforeBalance);
+        assertEq(accumulator.accumulatedRewards(), amount);
+    }
+
 }
