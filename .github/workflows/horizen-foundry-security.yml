@@ -1,0 +1,37 @@
+name: Horizen pinned-source Foundry security checks
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/horizen-foundry-security.yml'
+      - 'child-labs/horizen/**'
+permissions:
+  contents: read
+jobs:
+  pinned-horizen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+      - name: Fetch pinned source
+        run: |
+          git clone https://github.com/HorizenOfficial/staker.git /tmp/horizen-staker
+          git -C /tmp/horizen-staker checkout ab92502e9da98784dfe3bd3ef933d4e9345ff628
+          git -C /tmp/horizen-staker submodule update --init --recursive
+      - name: Run upstream Foundry suite
+        run: |
+          set -euo pipefail
+          cd /tmp/horizen-staker
+          forge build
+          forge test -vv | tee "$GITHUB_WORKSPACE/horizen-upstream-foundry-results.txt"
+      - name: Source pattern preflight
+        run: python child-labs/horizen/source_invariants.py /tmp/horizen-staker/src/RewardAccumulator.sol | tee horizen-source-invariants.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: horizen-pinned-foundry-evidence
+          path: |
+            horizen-upstream-foundry-results.txt
+            horizen-source-invariants.json
+          if-no-files-found: warn
