@@ -61,4 +61,37 @@ contract RewardAccumulatorSecurityTest is Test {
         vm.expectRevert(abi.encodeWithSelector(RewardAccumulator.WaitForNextRewardTime.selector, next));
         accumulator.sendRewardsToStaker();
     }
+    // A caller must not be able to mint accounting credit without actual tokens.
+    function testFuzz_unbackedNotificationCannotCreateRewards(uint96 rawAmount) public {
+        uint256 amount = bound(uint256(rawAmount), 1, 100 ether);
+        vm.prank(contributor);
+        vm.expectRevert(RewardAccumulator.TransferNotFound.selector);
+        accumulator.notifyAlreadyTransferredRewards(amount);
+        assertEq(accumulator.accumulatedRewards(), 0);
+    }
+
+    // Previously notified tokens must not be counted a second time.
+    function testFuzz_sameTransferCannotBeNotifiedTwice(uint96 rawAmount) public {
+        uint256 amount = bound(uint256(rawAmount), 1, 100 ether);
+        vm.prank(contributor);
+        token.transfer(address(accumulator), amount);
+        vm.prank(contributor);
+        accumulator.notifyAlreadyTransferredRewards(amount);
+        vm.prank(contributor);
+        vm.expectRevert(RewardAccumulator.TransferNotFound.selector);
+        accumulator.notifyAlreadyTransferredRewards(amount);
+        assertEq(accumulator.accumulatedRewards(), amount);
+        assertEq(token.balanceOf(address(accumulator)), amount);
+    }
+
+    // Changing the schedule must reject zero and greater-than-maximum windows.
+    function test_invalidWindowUpdatesPreserveSchedule() public {
+        uint256 originalWindow = accumulator.timeWindow();
+        vm.expectRevert(RewardAccumulator.TimeWindowCannotBeZero.selector);
+        accumulator.setTimeWindow(0);
+        vm.expectRevert(RewardAccumulator.TimeWindowTooLarge.selector);
+        accumulator.setTimeWindow(91 days);
+        assertEq(accumulator.timeWindow(), originalWindow);
+    }
+
 }
