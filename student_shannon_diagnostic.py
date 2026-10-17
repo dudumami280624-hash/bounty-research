@@ -24,17 +24,17 @@ def evaluate(answer):
     }
     return checks
 
-def run(model,output,binary="llama-cli",runner=subprocess.run):
+def run(model,output,binary="llama-cli",runner=subprocess.run,case=CASE):
     if not Path(model).is_file(): raise FileNotFoundError("GGUF model not found")
-    proc=runner([binary,"-m",str(model),"-p",CASE,"-n","450","--temp","0","--no-display-prompt"],
+    proc=runner([binary,"-m",str(model),"-p",case,"-n","450","--temp","0","--no-display-prompt"],
                 capture_output=True,text=True,timeout=300)
     if proc.returncode or not proc.stdout.strip():
         raise RuntimeError("local inference failed: "+proc.stderr[-400:])
     answer=proc.stdout.strip()
     # Defend against prompt echo even if the CLI flag is ignored by a version/build.
-    if CASE in answer:
-        answer=answer.replace(CASE,"").strip()
-    if not answer or answer==CASE:
+    if case in answer:
+        answer=answer.replace(case,"").strip()
+    if not answer or answer==case:
         raise RuntimeError("model produced no independent answer")
     checks=evaluate(answer)
     passed=all(checks.values())
@@ -46,8 +46,8 @@ def run(model,output,binary="llama-cli",runner=subprocess.run):
     return payload
 
 if __name__=="__main__":
-    p=argparse.ArgumentParser();p.add_argument("--model",type=Path,required=True);p.add_argument("--output",type=Path,required=True)
-    a=p.parse_args();result=run(a.model,a.output,os.environ.get("LLAMA_CLI","llama-cli"))
+    p=argparse.ArgumentParser();p.add_argument("--model",type=Path,required=True);p.add_argument("--output",type=Path,required=True);p.add_argument("--case-file",type=Path)
+    a=p.parse_args();case=a.case_file.read_text(encoding="utf-8") if a.case_file else CASE;result=run(a.model,a.output,os.environ.get("LLAMA_CLI","llama-cli"),case=case)
     print(json.dumps({"rubric_passed":result["rubric_passed"],"rubric_checks":result["rubric_checks"],
                       "independent_completion_verified":False},ensure_ascii=False))
     if not result["rubric_passed"]: raise SystemExit(1)
