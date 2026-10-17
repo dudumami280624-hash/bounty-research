@@ -1,48 +1,76 @@
 #!/usr/bin/env python3
-"""Validate the historical CVE manifest and persisted checkpoint files."""
+"""Fail-closed manifest and persisted CVE checkpoint audit."""
 import datetime as dt
 import gzip
 import json
+import re
 from pathlib import Path
 
-root = Path("historical-cve")
-manifest = json.loads((root / "manifest.json").read_text())
-expected = dt.date(1999, 1, 1)
-target = dt.date(2026, 10, 14)
-seen = set()
+ROOT = Path("historical-cve")
+START = dt.date(1999, 1, 1)
+TARGET = dt.date(2026, 10, 14)  # exclusive
 errors = []
-records_read = 0
-for key, info in sorted(manifest.items()):
-    begin = dt.datetime.strptime(key[:8], "%Y%m%d").date()
-    end = dt.datetime.strptime(key[9:], "%Y%m%d").date()
-    if begin != expected:
-        errors.append(f"Noncontiguous window: {key}; expected {expected}")
+seen = set()
+total = 0
+expected = START
+
+def check_window(key, info):
+    global expected, total
+    match = re.fullmatch(r"(\d{8})-(\d{8})", key)
+    if not match:
+        errors.append(f"Invalid window key: {key}")
+        return
+    start, end = (dt.datetime.strptime(s, "%Y%m%d").date() for s in match.groups())
+    if start != expected:
+        errors.append(f"Gap/overlap: {key}; expected start {expected}")
+    if end <= start or end > TARGET or (end - start).days > 119:
+        errors.append(f"Invalid window boundaries: {key}")
+    if str(info.get("end_exclusive", ""))[:10] != end.isoformat():
+        errors.append(f"Manifest end mismatch: {key}")
     expected = end
-    matches = list(root.rglob(f"*{key}*.gz"))
-    if len(matches) != 1:
-        errors.append(f"Missing or ambiguous checkpoint {key}: {len(matches)} files")
-        continue
+    paths = list(ROOT.rglob(f"*{key}*.gz"))
+    if len(paths) != 1:
+        errors.append(f"Expected one persisted gzip for {key}, found {len(paths)}")
+        return
     try:
-        with gzip.open(matches[0], "rt", encoding="utf-8") as stream:
-            payload = stream.read()
+        with gzip.open(paths[0], "rt", encoding="utf-8") as fh:
+            body = fh.read()
         try:
-            data = json.loads(payload)
-            rows = data if isinstance(data, list) else data.get("vulnerabilities", data.get("records", []))
+            payload = json.loads(body)
+            rows = payload if isinstance(payload, list) else payload.get("vulnerabilities", payload.get("records"))
         except json.JSONDecodeError:
-            rows = [json.loads(line) for line in payload.splitlines() if line.strip()]
-        if len(rows) != info["count"]:
-            errors.append(f"Count mismatch for {key}: {len(rows)} vs {info['count']}")
+            rows = [json.loads(line) for line in body.splitlines() if line.strip()]
+        if not isinstance(rows, list):
+            raise ValueError("Unrecognized data format")
+        if len(rows) != info.get("count"):
+            errors.append(f"Count mismatch: {key} actual={len(rows)} manifest={info.get('count')}")
         for row in rows:
+            if not isinstance(row, dict):
+                errors.append(f"Invalid CVE record in {key}")
+                continue
             nested = row.get("cve")
             identifier = nested.get("id") if isinstance(nested, dict) else row.get("id", row.get("cveId"))
-            if not identifier or identifier in seen:
-                errors.append(f"Missing or duplicate CVE ID: {identifier}")
+            if not isinstance(identifier, str) or not re.fullmatch(r"CVE-\d{4}-\d{4,}", identifier, re.I):
+                errors.append(f"Invalid CVE ID in {key}")
+                continue
+            identifier = identifier.upper()
+            if identifier in seen:
+                errors.append(f"Duplicate CVE ID: {identifier}")
             seen.add(identifier)
-        records_read += len(rows)
+        total += len(rows)
     except Exception as exc:
         errors.append(f"Unreadable checkpoint {key}: {exc}")
-if expected != target:
-    errors.append(f"Incomplete coverage: {expected} versus {target}")
-print(json.dumps({"windows": len(manifest), "records_read": records_read, "unique_ids": len(seen), "errors": errors[:50], "error_count": len(errors)}, indent=2))
-if errors:
-    raise SystemExit(1)
+
+try:
+    manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
+    if not isinstance(manifest, dict):
+        raise ValueError("Manifest must be an object")
+    for key, info in sorted(manifest.items()):
+        check_window(key, info)
+except Exception as exc:
+    errors.append(f"Manifest error: {exc}")
+    manifest = {}
+if expected != TARGET:
+    errors.append(f"Incomplete historical coverage: {expected} vs {TARGET}")
+print(json.dumps({"windows": len(manifest), "records_read": total, "unique_ids": len(seen), "covered_until_exclusive": str(expected), "target_exclusive": str(TARGET), "error_count": len(errors), "errors": errors[:100]}, indent=2))
+raise SystemExit(bool(errors))
