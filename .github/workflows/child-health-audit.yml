@@ -1,0 +1,30 @@
+name: AI child automatic health audit
+on:
+  schedule:
+    - cron: '15 0,6,12,18 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - child_health_audit.py
+      - .github/workflows/child-health-audit.yml
+permissions:
+  actions: read
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit latest completed Shannon run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python child_health_audit.py
+      - name: Save audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: child-health-audit-${{ github.run_id }}
+          path: child-evidence/health-audit.json
+          if-no-files-found: warn
+          retention-days: 30
