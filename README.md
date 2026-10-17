@@ -1,6 +1,6 @@
 # 赏金猎人｜Bounty Research
 
-**正式执行计划与验收标准：** [PLAN.md](PLAN.md)（**最终验收：2026-10-12，今天**；不得延期）。
+**AI 孩子核心计划（免费模型升级、自主学习闭环）：** [CORE_PLAN.md](CORE_PLAN.md)\n\n**正式执行计划与验收标准：** [PLAN.md](PLAN.md)（**最终验收：2026-10-12，今天**；不得延期）。
 
 **当前系统：** 免费 GitHub Actions + Slither + Foundry/forge-std + 官方公开赏金候选目录；HackerOne 仅只读状态连接。定时触发每小时一次属于 GitHub 的尽力调度，不能保证 24/7 不间断执行。
 
