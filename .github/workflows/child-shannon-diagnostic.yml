@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - student_shannon_diagnostic.py
+      - test_student_shannon_diagnostic.py
       - .github/workflows/child-shannon-diagnostic.yml
 permissions:
   contents: read
@@ -14,7 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check Python syntax
-        run: python -m py_compile student_shannon_diagnostic.py
+        run: |
+          python -m py_compile student_shannon_diagnostic.py test_student_shannon_diagnostic.py
+          python -m unittest -v test_student_shannon_diagnostic
       - name: Build free local inference engine
         shell: bash
         run: |
