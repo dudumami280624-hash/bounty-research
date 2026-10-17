@@ -21,13 +21,14 @@ def evaluate(answer):
       "incident_b_usage_limit_identified":any(x in low for x in ("usage limit","额度限制","使用额度","配额限制","额度已达","用量限制","达到使用上限")),
       "incidents_not_conflated":any(x in answer for x in ("不能据此断言","不能推断","不能认为","两次独立","不同根因","不能认定两者相同")),
       "safe_evidence_or_diagnostic_step":any(x in answer for x in ("脱敏","日志","auth.json","最小请求","最小化测试","保存证据","保存日志")),
+      "causal_separation_explicit":any(x in answer for x in ("不能证明a","不能证明 A","不能说明a","不能说明 A","不能直接推断","不能据此认为","不能据此判断","不代表a","不代表 A","两者不能混为一谈","不能归因于a","不能归因于 A","不同运行不能")) ,
     }
     return checks
 
 def run(model,output,binary="llama-cli",runner=subprocess.run,case=CASE):
     if not Path(model).is_file(): raise FileNotFoundError("GGUF model not found")
     proc=runner([binary,"-m",str(model),"-p",case,"-n","450","--temp","0","--no-display-prompt"],
-                capture_output=True,text=True,timeout=300)
+                capture_output=True,text=True,encoding="utf-8",errors="replace",timeout=300)
     if proc.returncode or not proc.stdout.strip():
         raise RuntimeError("local inference failed: "+proc.stderr[-400:])
     answer=proc.stdout.strip()
