@@ -16,7 +16,7 @@ jobs:
       - name: Probe each configured provider independently
         run: |
           python - <<'PY'
-          import json,os,urllib.error
+          import json,os,urllib.error,urllib.request
           from free_llm_router import load_providers,route,NoFreeProviderAvailable,request_provider
           providers=load_providers("config/free-cloud-providers.json")
           outcomes=[]
@@ -36,7 +36,21 @@ jobs:
                           status=details[0].get("status") if details else None
                       except (ValueError,IndexError,TypeError):
                           pass
-                  outcomes.append({"provider":p.name,"status":"failed","http_status":status if isinstance(status,int) else None,"error_type":type(e).__name__})
+                  entry={"provider":p.name,"status":"failed","http_status":status if isinstance(status,int) else None,"error_type":type(e).__name__}
+                  if p.name=="google-gemini-free" and status==404:
+                      try:
+                          req=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models?key="+os.environ[p.api_key_env],headers={"User-Agent":"bounty-research-free-router/1"})
+                          with urllib.request.urlopen(req,timeout=20) as resp:
+                              models=json.load(resp).get("models",[])
+                          available=[m.get("name","").removeprefix("models/") for m in models if "generateContent" in m.get("supportedGenerationMethods",[])]
+                          entry["gemini_model_list_status"]="ok"
+                          entry["configured_model_available"]=p.model in available
+                          entry["available_gemini_2_5_models"]=[m for m in available if m.startswith("gemini-2.5")][:12]
+                      except urllib.error.HTTPError as err:
+                          entry["gemini_model_list_status"]=err.code
+                      except Exception as err:
+                          entry["gemini_model_list_status"]=type(err).__name__
+                  outcomes.append(entry)
           print(json.dumps({"probes":outcomes},ensure_ascii=False))
           if not any(x["status"]=="ok" for x in outcomes):
               raise SystemExit(1)
