@@ -1,0 +1,48 @@
+name: Planning and Handoff Gate
+
+on:
+  push:
+    paths:
+      - 'AGENTS.md'
+      - 'HANDOFF.md'
+      - 'task_plan.md'
+      - 'findings.md'
+      - 'progress.md'
+      - '.agents/skills/**'
+      - 'scripts/check_planning_handoff.py'
+      - '.github/workflows/planning-handoff-gate.yml'
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  validate-planning-handoff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify required files and skill instructions
+        run: python scripts/check_planning_handoff.py
+      - name: Generate machine-readable handoff snapshot
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p planning-evidence
+          python - <<'PY'
+          import json, pathlib, datetime
+          root=pathlib.Path('.')
+          files=['AGENTS.md','HANDOFF.md','task_plan.md','findings.md','progress.md','.agents/skills/planning-with-files/SKILL.md','.agents/skills/handoff/SKILL.md']
+          payload={'checked_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'files':{p:(root/p).is_file() for p in files},'note':'File presence only; not an AI skill activation or security research result'}
+          pathlib.Path('planning-evidence/snapshot.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: planning-handoff-evidence
+          path: planning-evidence/snapshot.json
