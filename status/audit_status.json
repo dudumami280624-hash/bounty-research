@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-10-18T19:33:23.834439+00:00",
-  "workflow_run_id": "39159195370",
-  "workflow_sha": "63be195e13bf9a044eb5cda71f12645e7eadabda",
+  "time_utc": "2026-10-18T19:47:11.539554+00:00",
+  "workflow_run_id": "39160209989",
+  "workflow_sha": "5f6b004c26f74c5b6f9252b0df143a2c8a48cbd7",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -351,7 +351,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-10-18T19:32:08.623793+00:00",
+      "verified_at_utc": "2026-10-18T19:45:36.188272+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -378,8 +378,8 @@
       "any_public_chain_transaction_broadcast": false,
       "returncode": 0,
       "error_type": null,
-      "fork_block_number": 30762769,
-      "fork_block_hash": "0x6a90a983f01716f8b149bcdbd3f6f59544f29f26db275ab544d3fe60110eb03a",
+      "fork_block_number": 30763585,
+      "fork_block_hash": "0x039a4b0dcf0213aa0f3fd21a1eba6c1a760381f7c95a77afee7ae826f6cb1749",
       "deployment_code": {
         "token": {
           "address": "0xb06EC4ce262D8dbDc24Fac87479A49A7DC4cFb87",
@@ -398,7 +398,7 @@
         }
       },
       "deployment_source_match_verified": false,
-      "log_excerpt": "No files changed, compilation skipped\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 2.98s (3.21s CPU time)\n\nRan 1 test suite in 3.10s (2.98s CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
+      "log_excerpt": "No files changed, compilation skipped\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 2.91s (3.10s CPU time)\n\nRan 1 test suite in 3.06s (2.91s CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
     },
     "frontend_scope_results.json": {
       "present": true,
