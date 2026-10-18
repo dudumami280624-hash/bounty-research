@@ -16,8 +16,8 @@ jobs:
       - name: Probe each configured provider independently
         run: |
           python - <<'PY'
-          import json,os
-          from free_llm_router import load_providers,route,NoFreeProviderAvailable
+          import json,os,urllib.error
+          from free_llm_router import load_providers,route,NoFreeProviderAvailable,request_provider
           providers=load_providers("config/free-cloud-providers.json")
           outcomes=[]
           for p in providers:
@@ -29,7 +29,14 @@ jobs:
                   data=result["response"]
                   outcomes.append({"provider":p.name,"status":"ok" if data.get("choices") else "empty_response","model":data.get("model"),"tokens":data.get("usage",{}).get("total_tokens")})
               except Exception as e:
-                  outcomes.append({"provider":p.name,"status":"failed","error_type":type(e).__name__})
+                  status=None
+                  if isinstance(e,NoFreeProviderAvailable):
+                      try:
+                          details=json.loads(str(e))
+                          status=details[0].get("status") if details else None
+                      except (ValueError,IndexError,TypeError):
+                          pass
+                  outcomes.append({"provider":p.name,"status":"failed","http_status":status if isinstance(status,int) else None,"error_type":type(e).__name__})
           print(json.dumps({"probes":outcomes},ensure_ascii=False))
           if not any(x["status"]=="ok" for x in outcomes):
               raise SystemExit(1)
