@@ -1,3 +1,11 @@
 {
-  "providers": []
+  "providers": [
+    {
+      "name": "freellmapi-cloud-pool",
+      "base_url": "https://placeholder.invalid/v1",
+      "model": "auto",
+      "api_key_env": "FREELLMAPI_API_KEY",
+      "free_only": true
+    }
+  ]
 }
