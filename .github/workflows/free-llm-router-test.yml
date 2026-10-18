@@ -1,0 +1,18 @@
+name: Free LLM router offline acceptance
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - free_llm_router.py
+      - test_free_llm_router.py
+      - .github/workflows/free-llm-router-test.yml
+permissions:
+  contents: read
+jobs:
+  router:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test zero-cost router and failover without network calls
+        run: python -m unittest -v test_free_llm_router
