@@ -1,1 +1,25 @@
-{"providers":[]}
+{
+  "providers": [
+    {
+      "name": "google-gemini-free",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "model": "gemini-2.5-flash",
+      "api_key_env": "GOOGLE_FREE_API_KEY",
+      "free_only": true
+    },
+    {
+      "name": "groq-free",
+      "base_url": "https://api.groq.com/openai/v1",
+      "model": "openai/gpt-oss-20b",
+      "api_key_env": "GROQ_FREE_API_KEY",
+      "free_only": true
+    },
+    {
+      "name": "openrouter-free",
+      "base_url": "https://openrouter.ai/api/v1",
+      "model": "openrouter/auto:free",
+      "api_key_env": "OPENROUTER_FREE_API_KEY",
+      "free_only": true
+    }
+  ]
+}
