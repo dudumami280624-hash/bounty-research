@@ -1,0 +1,25 @@
+name: AI child offline vulnerability lab acceptance
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - labs/offline_idor_lab.py
+      - test_offline_idor_lab.py
+      - .github/workflows/child-offline-lab.yml
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reproduce synthetic IDOR and verify repair
+        run: python test_offline_idor_lab.py
+      - name: Archive reproducible evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline-idor-lab-evidence
+          path: child-evidence/offline-idor-lab.json
+          if-no-files-found: warn
