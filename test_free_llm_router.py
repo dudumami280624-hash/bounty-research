@@ -35,4 +35,33 @@ class RouterTests(unittest.TestCase):
             path=d+"/config.json"
             with open(path,"w") as f: json.dump({"providers":[dict(name="unsafe",base_url="http://example.org/v1",model="x",api_key_env="K")]},f)
             with self.assertRaises(ValueError): load_providers(path)
+    def test_empty_response_switches_provider(self):
+        calls=[]
+        def fake(p,m):
+            calls.append(p.name)
+            if p.name=="free-a":
+                return {"choices":[]}
+            return {"choices":[{"message":{"content":"ok"}}],"usage":{"prompt_tokens":3,"completion_tokens":1}}
+        with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{"FREE_A_KEY":"test","FREE_B_KEY":"test"}):
+            result=route([{"role":"user","content":"test"}],[A,B],transport=fake,log_path=d+"/log.jsonl")
+            self.assertEqual(result["provider"],"free-b")
+            self.assertEqual(calls,["free-a","free-b"])
+            logs=[json.loads(x) for x in open(d+"/log.jsonl",encoding="utf-8")]
+            self.assertEqual(logs[0]["status"],"empty_response")
+            self.assertEqual(logs[1]["status"],"ok")
+    def test_timeout_switches_provider(self):
+        calls=[]
+        def fake(p,m):
+            calls.append(p.name)
+            if p.name=="free-a":
+                raise TimeoutError("simulated timeout")
+            return {"choices":[{"message":{"content":"ok"}}]}
+        with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{"FREE_A_KEY":"test","FREE_B_KEY":"test"}):
+            result=route([{"role":"user","content":"test"}],[A,B],transport=fake,log_path=d+"/log.jsonl")
+            self.assertEqual(result["provider"],"free-b")
+            self.assertEqual(calls,["free-a","free-b"])
+    def test_all_providers_empty_fails_closed(self):
+        with tempfile.TemporaryDirectory() as d,patch.dict(os.environ,{"FREE_A_KEY":"test","FREE_B_KEY":"test"}):
+            with self.assertRaises(NoFreeProviderAvailable):
+                route([], [A,B],transport=lambda p,m:{"choices":[]},log_path=d+"/log.jsonl")
 if __name__=="__main__":unittest.main()
