@@ -32,7 +32,7 @@ def run(model,output,binary="llama-cli",runner=subprocess.run,case=CASE):
                  "3.分别标明哪些结论有证据、哪些原因尚不能确定，避免跨事件归因；"
                  "4.最小安全验证动作与脱敏证据。只根据日志，不补造细节。")
     prompt=case+"\\n"+instruction
-    proc=runner([binary,"-m",str(model),"-p",prompt,"-n","450","--temp","0","--no-display-prompt","-no-cnv"],
+    proc=runner([binary,"-m",str(model),"-p",prompt,"-n","450","--temp","0","--no-display-prompt"],
                 capture_output=True,text=True,encoding="utf-8",errors="replace",timeout=300)
     if proc.returncode or not proc.stdout.strip():
         raise RuntimeError("local inference failed: "+proc.stderr[-400:])
