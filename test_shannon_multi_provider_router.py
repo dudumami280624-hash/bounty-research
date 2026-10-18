@@ -1,9 +1,15 @@
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from shannon_multi_provider_router import route, candidates
 
 class RoutingTests(unittest.TestCase):
+    def setUp(self):
+        self.key_patch = patch.dict('os.environ', {'SHANNON_AI_API_KEY': 'test-only-placeholder'})
+        self.key_patch.start()
+        self.addCleanup(self.key_patch.stop)
+
     def test_fallback_on_quota(self):
         config={"candidates":[{"model":"groq:first"},{"model":"openrouter:second"}]}
         seen=[]
