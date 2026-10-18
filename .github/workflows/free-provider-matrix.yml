@@ -1,0 +1,43 @@
+name: AI child three free cloud providers live probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  live-probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GOOGLE_FREE_API_KEY: ${{ secrets.GOOGLE_FREE_API_KEY }}
+      GROQ_FREE_API_KEY: ${{ secrets.GROQ_FREE_API_KEY }}
+      OPENROUTER_FREE_API_KEY: ${{ secrets.OPENROUTER_FREE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe each configured provider independently
+        run: |
+          python - <<'PY'
+          import json,os
+          from free_llm_router import load_providers,route,NoFreeProviderAvailable
+          providers=load_providers("config/free-cloud-providers.json")
+          outcomes=[]
+          for p in providers:
+              if not os.getenv(p.api_key_env):
+                  outcomes.append({"provider":p.name,"status":"missing_secret"})
+                  continue
+              try:
+                  result=route([{"role":"user","content":"Reply with exactly OK."}],[p],log_path="child-evidence/provider-matrix.jsonl")
+                  data=result["response"]
+                  outcomes.append({"provider":p.name,"status":"ok" if data.get("choices") else "empty_response","model":data.get("model"),"tokens":data.get("usage",{}).get("total_tokens")})
+              except Exception as e:
+                  outcomes.append({"provider":p.name,"status":"failed","error_type":type(e).__name__})
+          print(json.dumps({"probes":outcomes},ensure_ascii=False))
+          if not any(x["status"]=="ok" for x in outcomes):
+              raise SystemExit(1)
+          PY
+      - name: Save evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: free-provider-matrix
+          path: child-evidence/provider-matrix.jsonl
+          if-no-files-found: ignore
