@@ -1,0 +1,41 @@
+name: AI child real cloud failover acceptance
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/live-failover-acceptance.yml
+permissions:
+  contents: read
+jobs:
+  real-failover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      GOOGLE_FREE_API_KEY: ${{ secrets.GOOGLE_FREE_API_KEY }}
+      GROQ_FREE_API_KEY: ${{ secrets.GROQ_FREE_API_KEY }}
+      OPENROUTER_FREE_API_KEY: ${{ secrets.OPENROUTER_FREE_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inject first provider failure and call second provider for real
+        run: |
+          python - <<'PY'
+          import json,os,tempfile,urllib.error
+          from free_llm_router import load_providers,route,request_provider
+          providers=load_providers("config/free-cloud-providers.json")
+          if len(providers)<2 or not all(os.getenv(p.api_key_env) for p in providers[:2]):
+              raise SystemExit("BLOCKED: first and second provider keys required")
+          calls=[]
+          def transport(p,m):
+              calls.append(p.name)
+              if p.name==providers[0].name:
+                  raise urllib.error.HTTPError(p.base_url,429,"injected rate limit",{},None)
+              return request_provider(p,m)
+          with tempfile.TemporaryDirectory() as d:
+              path=d+"/evidence.jsonl"
+              result=route([{"role":"user","content":"Reply with exactly OK."}],providers[:2],transport=transport,log_path=path)
+              evidence=[json.loads(line) for line in open(path,encoding="utf-8")]
+              response=result["response"]
+              success=(calls==[providers[0].name,providers[1].name] and result["provider"]==providers[1].name and len(response.get("choices",[]))>0 and evidence[0]["status"]==429 and evidence[1]["status"]=="ok")
+              print(json.dumps({"result":"pass" if success else "fail","injected_provider":providers[0].name,"injected_status":429,"real_provider":result["provider"],"model":response.get("model"),"usage":response.get("usage",{}),"call_order":calls,"evidence":evidence},ensure_ascii=False))
+              if not success: raise SystemExit(1)
+          PY
