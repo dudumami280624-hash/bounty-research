@@ -1,0 +1,24 @@
+name: AI child FreeLLMAPI live cloud probe
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      FREELLMAPI_BASE_URL: ${{ secrets.FREELLMAPI_BASE_URL }}
+      FREELLMAPI_API_KEY: ${{ secrets.FREELLMAPI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cloud gateway readiness
+        run: |
+          python probe_freellmapi_cloud.py
+      - name: Archive redacted usage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: freellmapi-cloud-probe-evidence
+          path: child-evidence/freellmapi-live.jsonl
+          if-no-files-found: ignore
