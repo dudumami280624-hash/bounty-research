@@ -45,6 +45,7 @@ jobs:
                           available=[m.get("name","").removeprefix("models/") for m in models if "generateContent" in m.get("supportedGenerationMethods",[])]
                           entry["gemini_model_list_status"]="ok"
                           entry["configured_model_available"]=p.model in available
+                          entry["available_gemini_3_models"]=[m for m in available if m.startswith("gemini-3")][:20]
                           entry["available_gemini_2_5_models"]=[m for m in available if m.startswith("gemini-2.5")][:12]
                       except urllib.error.HTTPError as err:
                           entry["gemini_model_list_status"]=err.code
