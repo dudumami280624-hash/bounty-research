@@ -1,0 +1,45 @@
+name: AI child cloud-only free LLM acceptance
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - cloud_only_runtime.py
+      - free_llm_router.py
+      - test_cloud_only_runtime.py
+      - test_free_llm_router.py
+      - config/free-cloud-providers.json
+      - .github/workflows/cloud-only-llm.yml
+permissions:
+  contents: read
+jobs:
+  validate-cloud-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify failover, token accounting and no local fallback
+        run: python -m unittest -v test_free_llm_router test_cloud_only_runtime
+      - name: Cloud-only readiness (must fail closed until configured)
+        shell: bash
+        run: |
+          set +e
+          python cloud_only_runtime.py > cloud-readiness.json
+          code=$?
+          cat cloud-readiness.json
+          if [ "$code" -eq 2 ]; then
+            echo "No credentials configured; cloud deployment blocked as designed"
+            exit 0
+          fi
+          if [ "$code" -eq 0 ]; then
+            echo "Live cloud request completed"
+            exit 0
+          fi
+          echo "Unexpected cloud runtime exit: $code"
+          exit 1
+      - name: Preserve readiness evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloud-only-readiness
+          path: cloud-readiness.json
+          if-no-files-found: warn
