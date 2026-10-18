@@ -27,13 +27,19 @@ def evaluate(answer):
 
 def run(model,output,binary="llama-cli",runner=subprocess.run,case=CASE):
     if not Path(model).is_file(): raise FileNotFoundError("GGUF model not found")
-    proc=runner([binary,"-m",str(model),"-p",case,"-n","450","--temp","0","--no-display-prompt"],
+    instruction=("请按四段回答：1.A的观察事实与失败阶段；2.B的观察事实与失败阶段；"
+                 "3.分别标明哪些结论有证据、哪些原因尚不能确定，避免跨事件归因；"
+                 "4.最小安全验证动作与脱敏证据。只根据日志，不补造细节。")
+    prompt=case+"\\n"+instruction
+    proc=runner([binary,"-m",str(model),"-p",prompt,"-n","450","--temp","0","--no-display-prompt"],
                 capture_output=True,text=True,encoding="utf-8",errors="replace",timeout=300)
     if proc.returncode or not proc.stdout.strip():
         raise RuntimeError("local inference failed: "+proc.stderr[-400:])
     answer=proc.stdout.strip()
     # Defend against prompt echo even if the CLI flag is ignored by a version/build.
-    if case in answer:
+    if prompt in answer:
+        answer=answer.replace(prompt,"").strip()
+    elif case in answer:
         answer=answer.replace(case,"").strip()
     if not answer or answer==case:
         raise RuntimeError("model produced no independent answer")
