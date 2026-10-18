@@ -23,7 +23,8 @@ def evaluate(answer):
       "safe_evidence_or_diagnostic_step":any(x in answer for x in ("脱敏","日志","auth.json","最小请求","最小化测试","保存证据","保存日志")),
       "causal_separation_explicit":any(x in answer for x in ("不能证明a","不能证明 A","不能说明a","不能说明 A","不能直接推断","不能据此认为","不能据此判断","不代表a","不代表 A","两者不能混为一谈","不能归因于a","不能归因于 A","不同运行不能","不能据此断言","不能推断","不能认为")) ,
     }
-    # Lexical checks are screening only; false negatives require reviewing raw answers.\n    return checks
+    # Lexical checks are screening only; review raw answers for false negatives.
+    return checks
 
 def run(model,output,binary="llama-cli",runner=subprocess.run,case=CASE):
     if not Path(model).is_file(): raise FileNotFoundError("GGUF model not found")
