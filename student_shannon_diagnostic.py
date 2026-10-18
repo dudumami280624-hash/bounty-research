@@ -4,10 +4,10 @@ from pathlib import Path
 
 CASE = """请对比两次不同的 Shannon 3.4.0 失败，不能把它们混为一谈。
 A：一次扫描的 pre-recon 运行约14分钟，recon 运行约8分钟后 AGENT_EXECUTION_FAILED；
-stopReason=error，没有可用的具体 provider 错误信息。A 的确切根因目前未知。
+stopReason=error，没有可用的具体 provider 错误信息。
 B：另一次独立扫描在 runPreflightValidation 阶段约1.5秒就失败，提示 openai-codex
 凭证验证时 provider 拒绝请求。随后直接运行 Pi 最小请求，明确返回
-“The usage limit has been reached”。因此额度限制解释了 B 的预检失败，但不能据此断言 A 也是同一根因。
+“The usage limit has been reached”。
 请用中文简洁回答：A 的失败阶段与已知/未知原因；B 的失败阶段与证据支持的原因；
 各自下一步最小安全诊断；应保存哪些脱敏证据。不要只说继续重跑。
 不要调用付费 API，不要扫描任何目标。"""
