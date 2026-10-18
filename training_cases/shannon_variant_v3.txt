@@ -1,0 +1,4 @@
+案例 V3（仅供离线诊断，不连接外部目标）。有两份相互独立的自动化任务记录：
+任务甲：初始化耗时 5 分钟，进入 recon 后又运行 9 分钟，最终状态 AGENT_EXECUTION_FAILED；日志没有请求状态码，也没有底层 provider 报错。
+任务乙：启动约 3 秒即在 runPreflightValidation 退出；凭证检查提示 provider 拒绝；同一模型的最小探测请求收到 “The usage limit has been reached”。
+请用中文给出两项任务各自停止的阶段、已知证据和不能证实的根因，并给出不调用付费 API、不访问任何真实目标的最小验证动作及应保存的脱敏证据。不得补造不存在的日志。
