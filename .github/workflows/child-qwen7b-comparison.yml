@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - .github/workflows/child-qwen7b-comparison.yml
+      - training_cases/shannon_variant_v3.txt
+      - student_shannon_diagnostic.py
 permissions:
   contents: read
 jobs:
@@ -40,8 +42,10 @@ jobs:
           original=$?
           python student_shannon_diagnostic.py --model /tmp/child-7b.gguf --case-file training_cases/shannon_variant_v2.txt --output child-evidence/qwen7b-variant.json
           variant=$?
-          echo "Qwen7B original=$original variant=$variant"
-          test "$original" -eq 0 && test "$variant" -eq 0
+          python student_shannon_diagnostic.py --model /tmp/child-7b.gguf --case-file training_cases/shannon_variant_v3.txt --output child-evidence/qwen7b-variant-v3.json
+          variant3=$?
+          echo "Qwen7B original=$original variant=$variant variant3=$variant3"
+          test "$original" -eq 0 && test "$variant" -eq 0 && test "$variant3" -eq 0
       - name: Preserve answers and rubric even on failure
         if: always()
         uses: actions/upload-artifact@v4
