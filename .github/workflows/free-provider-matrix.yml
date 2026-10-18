@@ -1,6 +1,9 @@
 name: AI child three free cloud providers live probe
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/free-provider-matrix.yml
 permissions:
   contents: read
 jobs:
