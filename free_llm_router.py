@@ -33,7 +33,7 @@ def load_providers(config_path: str) -> list[Provider]:
         providers.append(p)
     return providers
 
-def request_provider(provider: Provider, messages: list[dict], *, timeout: int=45) -> dict:
+def request_provider(provider: Provider, messages: list[dict], *, timeout: int=15) -> dict:
     key=os.environ.get(provider.api_key_env,"")
     if not key:
         raise ValueError("Provider not configured: "+provider.name)
@@ -54,6 +54,10 @@ def route(messages: list[dict], providers: list[Provider], *,
             continue
         try:
             result=transport(p,messages)
+            if not result.get("choices"):
+                errors.append({"provider":p.name,"status":"empty_response"})
+                _append(log_path,{"provider":p.name,"status":"empty_response"})
+                continue
             usage=result.get("usage",{})
             record={"provider":p.name,"status":"ok","model":p.model,
                     "prompt_tokens":usage.get("prompt_tokens"),"completion_tokens":usage.get("completion_tokens")}
@@ -67,7 +71,7 @@ def route(messages: list[dict], providers: list[Provider], *,
                 continue  # credentials/permission issue: never retry this provider
             if status not in (408,429,500,502,503,504):
                 continue
-        except (TimeoutError, urllib.error.URLError) as exc:
+        except (TimeoutError, urllib.error.URLError, ConnectionError) as exc:
             errors.append({"provider":p.name,"status":type(exc).__name__})
             _append(log_path,{"provider":p.name,"status":type(exc).__name__})
     raise NoFreeProviderAvailable(json.dumps(errors))
