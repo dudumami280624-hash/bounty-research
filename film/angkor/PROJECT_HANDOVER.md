@@ -44,3 +44,7 @@
 
 ## 2026-10-20 资料审计补记
 用户批准 `film/angkor/` 为正式制作档案中心，允许整理非 LOCKED 文档。已创建 `PROJECT_MATERIAL_AUDIT_2026-10-20.md`，记录两个 ZIP、原始12集框架、三语摘编、导演整合稿与 V2.0、第一集 MP4 的实际文件状态和版本关系。两包中的原始 DOCX/PDF 字节分别一致；本次 MP4 解码失败。**仅审计文字已入 GitHub，原始 DOCX/PDF/MP4 实际字节仍未远程备份；LOCKED PNG 仍未恢复。** 未修改任何 LOCKED 资产。
+
+
+## 2026-10-20｜第二次归档进展
+第一季10个实际文件已上传到当前账号 ChatGPT Library `/Angkor_Film/Season_01/` 并通过列表确认名称和字节数（含153075712字节第一集MP4）。GitHub新增 `film/angkor/manifests/SEASON_01_ARCHIVE_STATUS_2026-10-20.md` 记录精确状态。**注意：这不等于GitHub二进制文件备份；也未完成Library回读哈希校验或MP4可播放性验证。LOCKED PNG仍未恢复。**
