@@ -274,3 +274,10 @@ GitHub 私有仓库：dudumami280624-hash/bounty-research
 
 **最后更新依据：** `status/audit_status.json` workflow run **38237157117**。  
 若仓库已有更新运行，新的 GPT 必须以最新机器状态覆盖本文件。
+
+
+## 2026-10-20｜Angkor 项目资料审计（独立于赏金项目）
+- 用户授权整理 `film/angkor/` 非 LOCKED 文档并建立正式档案中心。
+- 审计结果：`film/angkor/PROJECT_MATERIAL_AUDIT_2026-10-20.md`；两份ZIP中的原始大纲 DOCX/PDF 字节一致，三语摘编与导演整合版、V2.0为独立/派生稿。
+- 当前 MP4 文件 ffprobe 失败（moov atom not found），第一集逐帧审核待修复可解码文件。
+- 审计报告已写 GitHub；原稿/衍生 DOCX、PDF、MP4 实物未完成 GitHub 备份，原始 LOCKED PNG 仍不可访问。未修改 LOCKED 资产。
