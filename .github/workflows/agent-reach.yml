@@ -1,0 +1,52 @@
+name: Agent Reach installation and diagnostics
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/agent-reach.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: agent-reach-diagnostics
+  cancel-in-progress: true
+
+jobs:
+  agent-reach:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Install official Agent Reach CLI
+        shell: bash
+        run: |
+          python -m pip install --disable-pip-version-check --no-input 'git+https://github.com/Panniantong/Agent-Reach.git'
+
+      - name: Verify installation
+        shell: bash
+        run: |
+          command -v agent-reach
+          python -m pip show agent-reach
+          agent-reach --help
+
+      - name: Diagnose supported channels without credentials
+        shell: bash
+        run: |
+          set -o pipefail
+          agent-reach doctor 2>&1 | tee agent-reach-doctor.log
+
+      - name: Upload diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-reach-doctor
+          path: agent-reach-doctor.log
+          if-no-files-found: ignore
+          retention-days: 7
