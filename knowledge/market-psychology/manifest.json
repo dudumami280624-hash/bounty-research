@@ -1,0 +1,159 @@
+{
+  "project": "The Market Mind / 股市心理学",
+  "source_count": 19,
+  "note": "原始PDF仍以当前文件库为准；本清单记录转化状态。",
+  "sources": [
+    {
+      "filename": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+      "sha256": "745c51691c1c28d8598827f28383621816f5ee21fe16ad0c9c2a9e1867267001",
+      "pdf_bytes": 18805550,
+      "text_bytes": 466,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "15-戏说牛市合适崩盘.pdf",
+      "sha256": "1211e17bf56aca97f478cdff8eb7ed3a6b6e09b965b09b1d252a8509ae8ffc67",
+      "pdf_bytes": 15431693,
+      "text_bytes": 2266542,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "16_天涯头条_你所不知道的冰冷的经济真相_flp713.pdf",
+      "sha256": "cfaaf3616bb0c316ca3d0063158ab0c17677a03ca69daaacb12b723e0eaca8ea",
+      "pdf_bytes": 1821714,
+      "text_bytes": 191035,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "23-【经济专栏】赚未来十年的钱【已出版】.pdf",
+      "sha256": "960740f7cf249a2125183d96acd91ba20b54588613d907b3aeb077d087655648",
+      "pdf_bytes": 6047883,
+      "text_bytes": 1195647,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "23-赚未来十年的钱-王海滨.pdf",
+      "sha256": "4b45fa186d4cfbed224c19802accaae6a873c640c382b48ae3095d91ba218ca1",
+      "pdf_bytes": 24851848,
+      "text_bytes": 290,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "27_《心理大师》：我是心理医生，818最近的变态病人_沈非.pdf",
+      "sha256": "3781dfa715472d42118c7124aafb0d408924600f0c87f7f9bde6b1e1ffecf950",
+      "pdf_bytes": 2005797,
+      "text_bytes": 292116,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf",
+      "sha256": "3bc435ef8ed3fddb0710dc5cccec5163eeee65cfbcce6e9bc99044bab0657275",
+      "pdf_bytes": 1364196,
+      "text_bytes": 120889,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "38_经济专栏朴实的预言1——房价10年内都不会跌_经济分析终结者.pdf",
+      "sha256": "2c4ad73dfc01e067e7bf7af001991185bcdf6c62a65c3fda5cb328975bc55ed3",
+      "pdf_bytes": 710375,
+      "text_bytes": 61184,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "40_最后的救市_换入大城市房子的最后时刻_鹏程蛇口_.pdf",
+      "sha256": "c91efe8e7da4d786e1fed71863feb7978cb1a0f56b20672a15e0cf513dd677d1",
+      "pdf_bytes": 9783965,
+      "text_bytes": 1323247,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "41_老公坚持房价会跌，我现在一看房价就满嘴吐血。_爱死小肥羊.pdf",
+      "sha256": "3f3b5bcfc6b4e8c286c9ac49798b135959b461c74d6e6603bb012e1f7ae56f7c",
+      "pdf_bytes": 759408,
+      "text_bytes": 66112,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "54-中国会跟随美联储加息吗？.pdf",
+      "sha256": "30ed7a295936b526624f6be55846c9d4d593d601e0697814c4e39d9f8df97e51",
+      "pdf_bytes": 713294,
+      "text_bytes": 65108,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "5_北望帝都_房价长期预测专贴：十年内北京四环内的均价会达到八万.pdf",
+      "sha256": "fd05b6ff9ba39fbad18219807d8f9c54e1c9c12fcfff9e48c91d42c3962b57c9",
+      "pdf_bytes": 1062266,
+      "text_bytes": 56722,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+      "sha256": "27c7141b8ca1b7ebe6453ac5c017fd352bb193c997abcf27a7ec2a1ac941e7d0",
+      "pdf_bytes": 5662207,
+      "text_bytes": 732934,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+      "sha256": "33551c7a4046aff49428c28dd91bd640ebe647984ed08333a1fc85498c1c68bb",
+      "pdf_bytes": 38080521,
+      "text_bytes": 5667341,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf",
+      "sha256": "205833baaf1f0c73a263f0d255ec6bf1792d4211e9234c19f5674266865a98d6",
+      "pdf_bytes": 4692007,
+      "text_bytes": 550432,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+      "sha256": "82b735870041bb75df96156a4dd0c5c2b0b04dfda0cc6a3b6b4a3dbe2452e4f9",
+      "pdf_bytes": 8532628,
+      "text_bytes": 1164562,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "7_一百元人民币在泰国能做什么－感受泰国人民的生活和物价_骑白马的农民.pdf",
+      "sha256": "edb268e6ff9ceaa2d42e3d088c5fc71c5f76e038c8317246368770ace33969e4",
+      "pdf_bytes": 973276,
+      "text_bytes": 70981,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "8_【完整版】全面阐述降低房价的四项基本原则已扎口.pdf",
+      "sha256": "3bcc5dcc4fa1d95a45b4767fa0f9e465ad72ef9022948776b091ebbe20ce53c6",
+      "pdf_bytes": 644104,
+      "text_bytes": 64086,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "8_【楼主版】全面阐述降低房价的四项基本原则已扎口.pdf",
+      "sha256": "bc7834644729d36f2c59a8927b8244ef017a7f42fafe823c4f93c2ef9f890052",
+      "pdf_bytes": 252302,
+      "text_bytes": 13133,
+      "pages": null,
+      "status": "TEXT_EXTRACTED"
+    }
+  ]
+}
