@@ -1,6 +1,6 @@
 {
   "project": "The Market Mind / 股市心理学",
-  "source_count": 19,
+  "source_count": 35,
   "note": "原始PDF仍以当前文件库为准；本清单记录转化状态。",
   "sources": [
     {
@@ -153,6 +153,118 @@
       "pdf_bytes": 252302,
       "text_bytes": 13133,
       "pages": null,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "164_所有跌入中等收入陷阱的国家都源自持续性的贬值本币！.pdf",
+      "sha256": "7e6d53abee13dfca15a8b7e19326f5333689c3a771b22b1308e46e6fed34fa82",
+      "pdf_bytes": 2593414,
+      "text_bytes": 170004,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "167经济模式和社会根源随想.pdf",
+      "sha256": "112961006950b590f599610294dea04820d412e0defe5d607dc4b3eed330bf18",
+      "pdf_bytes": 4765488,
+      "text_bytes": 321904,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
+      "sha256": "911c81b5af9847b8a8eebd2ab404ed7e95af84a1b6ef96fd850e3a821f577520",
+      "pdf_bytes": 1125249,
+      "text_bytes": 55260,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "173-被抑制的通胀能捂多久(1).pdf",
+      "sha256": "4daad7b8746c70a9615f130ad0c84308bcc13269ea14bbf003c5329b369342a9",
+      "pdf_bytes": 2656857,
+      "text_bytes": 131310,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "173-被抑制的通胀能捂多久.pdf",
+      "sha256": "4daad7b8746c70a9615f130ad0c84308bcc13269ea14bbf003c5329b369342a9",
+      "pdf_bytes": 2656857,
+      "text_bytes": 131310,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+      "sha256": "b5f253db55e23aa0d1f984362ce2428e8bd36286e393e96473336f9190e8b0bf",
+      "pdf_bytes": 25559684,
+      "text_bytes": 1912798,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "184-人，应该怎么活？应该怎么赚钱？.pdf",
+      "sha256": "b89d963cca4651a97a74f8ab77d1f25ac1ac714e4046311f0ff267697fc80689",
+      "pdf_bytes": 1038411,
+      "text_bytes": 48970,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "195-2020年，经济小酒醉一醉（重发版）.pdf",
+      "sha256": "376b683570279d5138f378c950270c47bef5528936331097ec5ee27891be66b7",
+      "pdf_bytes": 7482057,
+      "text_bytes": 496068,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "196-整个全球经济的怪现象.pdf",
+      "sha256": "20c1c70810c2b82bfe612698d7d4c5bc406622e0a412a08b7d5df11efbc5a373",
+      "pdf_bytes": 1392754,
+      "text_bytes": 90234,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
+      "sha256": "ee48673ecf46e30a0cb990508cb70e23254ae4841112a903de08abec5fc829de",
+      "pdf_bytes": 1094652,
+      "text_bytes": 77714,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "201-西方社会心态变化.pdf",
+      "sha256": "f401c9608a994a6deffec9c33a3211701845c300b26dbe184876f7d0ff9fe1ae",
+      "pdf_bytes": 6671897,
+      "text_bytes": 528675,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
+      "sha256": "73ac1dcc07a5e0758226eeaae4e0b9e8bc73bbb4bcb87062c2b4ea0cb61bb427",
+      "pdf_bytes": 25179260,
+      "text_bytes": 1537928,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "208_虚拟货币的秘密，兼谈比特币的未来和各国的战略布局.pdf",
+      "sha256": "2cd7ced1a54d06b60a2541fad34e878a27c7fcd1b9e647c552c2407e4c9abca5",
+      "pdf_bytes": 5839854,
+      "text_bytes": 403741,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "kk三部曲第1部.pdf",
+      "sha256": "46990e0b28a3ca7a4ff90afb0fae4a8209dfaed4b2fa807d2ab9b8de8c27cd0d",
+      "pdf_bytes": 1117242,
+      "text_bytes": 290713,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "kk三部曲第2部.pdf",
+      "sha256": "7a0246dc27e82f0a98d91497edcc6d945f5b04bf1abcb4dfe622d0f48f52e7c9",
+      "pdf_bytes": 998920,
+      "text_bytes": 253735,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "kk三部曲第3部.pdf",
+      "sha256": "222efe57babe42725807ca847224da3e3ed433433697ae990dab558c6f89fc97",
+      "pdf_bytes": 928476,
+      "text_bytes": 238884,
       "status": "TEXT_EXTRACTED"
     }
   ]
