@@ -1,0 +1,86 @@
+{
+  "project": "缠论 / 教你炒股票资料库",
+  "source_count": 10,
+  "sources": [
+    {
+      "filename": "1-139单机缠论全景图.jpg",
+      "sha256": "6006cc39ce3da835ee37944718372bf32cab8f084f3fcf92749a6dff1ba7d457",
+      "bytes": 321908,
+      "text_file": null,
+      "text_bytes": 0,
+      "status": "FORMAT_NEEDS_SPECIAL_CONVERTER"
+    },
+    {
+      "filename": "《缠中说禅大全》神燕版.pdf",
+      "sha256": "adab527766a6fbc383b3e44fb75882516f303af1cd3268617477686458bfe38c",
+      "bytes": 94140417,
+      "text_file": "《缠中说禅大全》神燕版.pdf.txt",
+      "text_bytes": 5513704,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "一代目前辈分享（自己独立思考吧）.doc",
+      "sha256": "59039ed2791ba758e4efd3299c245a2051dff18439eef9461356762724cef36b",
+      "bytes": 4386426,
+      "text_file": "一代目前辈分享（自己独立思考吧）.doc.txt",
+      "text_bytes": 0,
+      "status": "FORMAT_NEEDS_SPECIAL_CONVERTER"
+    },
+    {
+      "filename": "教你炒股票108课学习大纲.pdf",
+      "sha256": "eff785b8d8555c07bfbefbca639bea43e0a216a63211174116c70b7867423939",
+      "bytes": 125633,
+      "text_file": "教你炒股票108课学习大纲.pdf.txt",
+      "text_bytes": 9786,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "瀛时陪你缠中说禅的知乎文章合集.pdf",
+      "sha256": "838570ae057d22cedec7401850036c9fb07df88920ce005edff8b2b4cdb21158",
+      "bytes": 49018380,
+      "text_file": "瀛时陪你缠中说禅的知乎文章合集.pdf.txt",
+      "text_bytes": 1229422,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "缠师草图研究.pdf",
+      "sha256": "52a99a1939f20fe4215424cc89f5a07047e671f06cd6e77ef2a19eb3deff292f",
+      "bytes": 707096,
+      "text_file": "缠师草图研究.pdf.txt",
+      "text_bytes": 9265,
+      "status": "TEXT_EXTRACTED"
+    },
+    {
+      "filename": "缠愽原集--全集.chm",
+      "sha256": "efa44ad56ba506bf74b72695337da0942e5b37e3b6ba8324f1a101afd0475e10",
+      "bytes": 5804463,
+      "text_file": "缠愽原集--全集.chm.txt",
+      "text_bytes": 0,
+      "status": "FORMAT_NEEDS_SPECIAL_CONVERTER"
+    },
+    {
+      "filename": "缠文日期全景图.png",
+      "sha256": "afd954d92b2d755f6fdbcd413abb6c24d7d4d790e7c3d408bb2709d00a8c5816",
+      "bytes": 1215079,
+      "text_file": null,
+      "text_bytes": 0,
+      "status": "FORMAT_NEEDS_SPECIAL_CONVERTER"
+    },
+    {
+      "filename": "缠论笔段基础讲解完善版 by 缠中狩猎.ppt",
+      "sha256": "c96f159323a7719f80529899a51265d8e89ec9615120146d5f969a62b8f4838d",
+      "bytes": 11518976,
+      "text_file": "缠论笔段基础讲解完善版 by 缠中狩猎.ppt.txt",
+      "text_bytes": 0,
+      "status": "FORMAT_NEEDS_SPECIAL_CONVERTER"
+    },
+    {
+      "filename": "阿娇回复整理2.pdf",
+      "sha256": "97bae2215642bb848fb1713cfb688c67d63d04ed06e726c148020fb54cc5e4e1",
+      "bytes": 638758,
+      "text_file": "阿娇回复整理2.pdf.txt",
+      "text_bytes": 32098,
+      "status": "TEXT_EXTRACTED"
+    }
+  ]
+}
