@@ -1,0 +1,9 @@
+{
+  "n_pairs_no_8k_pm1d": 42,
+  "mean_5d_difference": -0.015554188533616242,
+  "ci95": [
+    -0.026335897107093935,
+    -0.005709457949893719
+  ],
+  "status": "CONTROLLED_BOOTSTRAP_PRELIMINARY"
+}
