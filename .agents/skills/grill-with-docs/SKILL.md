@@ -44,3 +44,15 @@ Return:
 ## Boundaries
 
 Do not present grilling as investment advice. Do not turn a passing theory review into a stock recommendation, price target or promise of returns. Keep original drafts and record revisions.
+
+
+## Continuity lock
+
+Before any new audit or X thread:
+
+1. Read PROJECT_RULES.md and the saved X thread directory.
+2. Identify the last saved thread ID and topic.
+3. Check the new topic against the topic ledger and reject duplicates unless revision is requested.
+4. Preserve Chinese review, English text, character counts, evidence labels and verdict.
+5. Save the finished artifact before claiming PASS or completion.
+6. If the repository write or verification fails, report the failure clearly.
