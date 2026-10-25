@@ -1,0 +1,11 @@
+{
+  "n_pairs": 73,
+  "controlled_intercept_5d": -0.0075239438191677535,
+  "earnings_count_coefficient": -0.00012460157432417116,
+  "bootstrap_ci95_intercept": [
+    -0.016703891654079626,
+    0.000992829833997207
+  ],
+  "model": "pair_difference_5d_return = intercept + coefficient * pair_difference_8k_count",
+  "status": "CONTROLLED_MODEL_PRELIMINARY"
+}
