@@ -1,0 +1,48 @@
+name: Angkor yt-dlp downloader
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: 'Public video URL (YouTube/Vimeo or another yt-dlp supported site)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Install yt-dlp and ffmpeg
+        run: |
+          python -m pip install --upgrade yt-dlp
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          yt-dlp --version
+      - name: Download video and provenance metadata
+        env:
+          VIDEO_URL: ${{ inputs.video_url }}
+        run: |
+          mkdir -p angkor-download
+          case "$VIDEO_URL" in
+            https://*|http://*) ;;
+            *) echo "Only HTTP(S) URLs are accepted"; exit 1 ;;
+          esac
+          yt-dlp --no-playlist --max-downloads 1 --restrict-filenames \
+            --write-info-json --write-description --write-thumbnail \
+            --convert-thumbnails jpg \
+            --format 'bv*+ba/b' --merge-output-format mp4 \
+            --output 'angkor-download/%(title).100s__%(id)s.%(ext)s' \
+            "$VIDEO_URL"
+          printf '%s\n' "$VIDEO_URL" > angkor-download/source-url.txt
+          find angkor-download -maxdepth 1 -type f -printf '%f\n' > angkor-download/manifest.txt
+      - name: Upload files as downloadable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: angkor-yt-dlp-download
+          path: angkor-download/
+          retention-days: 7
+          if-no-files-found: error
