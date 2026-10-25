@@ -26,7 +26,13 @@ Purpose: prevent look-ahead bias, data snooping, overfitting and false technical
 
 Purpose: force explicit conflict between efficiency, behavioral error, adaptation and structural signals. Supports Chapters 1, 3, 7 and 10.
 
-## 4. Crisis mechanisms
+## 4. Causal inference
+
+- Scott Cunningham — Causal Inference: The Mixtape
+
+Purpose: formalize counterfactuals, identification assumptions, natural experiments, difference-in-differences, instrumental variables and causal limits. Supports all chapter invalidation tests.
+
+## 5. Crisis mechanisms
 
 - Charles P. Kindleberger — Manias, Panics, and Crashes
 - Carmen Reinhart and Kenneth Rogoff — This Time Is Different
