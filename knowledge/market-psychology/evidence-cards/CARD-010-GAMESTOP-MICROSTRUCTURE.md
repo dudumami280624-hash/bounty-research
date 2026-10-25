@@ -19,3 +19,10 @@ High social attention does not guarantee a sustained price move. A squeeze narra
 ## Status
 
 HISTORY candidate; requires primary-source case file before publication.
+
+## Primary sources located
+
+- SEC staff report PDF: https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf
+- SEC release describing the report: https://www.sec.gov/newsroom/press-releases/2021-212
+- SEC Chair statement: https://www.sec.gov/newsroom/speeches-statements/gensler-staff-statement-2021-10-18
+- GameStop SEC filing archive example: https://www.sec.gov/Archives/edgar/data/1326380/000132638021000032/gme-20210130.htm
