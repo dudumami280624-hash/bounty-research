@@ -34,7 +34,7 @@
 
 - 《金钱心理学》— Morgan Housel / The Psychology of Money
 - 《金融心理学》— Lars Tvede / The Psychology of Finance
-- 《非理性人》— 需确认作者和英文对应版本
+- 《非理性的人》— William Barrett / Irrational Man
 - 《非理性繁荣》— Robert Shiller / Irrational Exuberance
 - 《大癫狂》— Charles Mackay / Extraordinary Popular Delusions and the Madness of Crowds
 - 《反脆弱》— Nassim Nicholas Taleb / Antifragile
