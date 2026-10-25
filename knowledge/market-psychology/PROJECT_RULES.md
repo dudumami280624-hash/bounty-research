@@ -40,3 +40,13 @@
 ## 继续工作指令
 
 新对话开始时，先读取本文件、核心骨架、两个资料清单和写作 Skill，再继续工作。不要重新猜测项目定位，也不要把未验证内容说成已完成。
+
+
+## X continuity and preservation lock
+
+- Every The Market Mind X thread must be saved to knowledge/market-psychology/x-threads/ before it is treated as complete.
+- Before drafting a new thread, read PROJECT_RULES.md, the core skeleton, the relevant source manifests, the last progress record, and all saved X thread filenames or index.
+- Maintain a sequential thread ID and a topic ledger. Do not repeat a published or saved thread unless the user explicitly requests a revision.
+- Preserve Chinese review text, English publication text, character counts, evidence labels, grill-with-docs verdict, and commit status.
+- If a save or verification fails, say so and do not mark the thread PASS or complete.
+- At the start of each continuation, state the last saved thread and the next available thread number internally before writing.
