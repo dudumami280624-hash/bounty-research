@@ -1,0 +1,21 @@
+version: 0.1
+universe: US broad-market index series
+price_source: knowledge/market-psychology/data/us-fred/
+frequency: monthly_for_long_history
+returns: close_to_close
+costs:
+  commission_bps: 2
+  spread_bps: 5
+  slippage_bps: 5
+  financing_bps_annual: 0
+holding_periods_days: [5, 20, 60, 120]
+splits:
+  in_sample: "1929-01-01:1999-12-31"
+  validation: "2000-01-01:2009-12-31"
+  out_of_sample: "2010-01-01:2025-12-31"
+bootstrap:
+  repetitions: 10000
+  seed: 280624
+multiple_testing: report_all_tests
+lookahead: prohibited
+survivorship_bias: prohibited
