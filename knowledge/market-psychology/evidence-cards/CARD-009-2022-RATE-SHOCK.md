@@ -15,3 +15,9 @@ A rate increase does not mechanically imply every stock falls. Earnings, cash fl
 ## Status
 
 HISTORY candidate; requires FEDFUNDS, Treasury yields, CPI, earnings and index-sector data.
+
+## Primary sources located
+
+- Federal Reserve June 2022 Monetary Policy Report: https://www.federalreserve.gov/monetarypolicy/files/20220617_mprfullreport.pdf
+- Federal Reserve post-Covid policy response: https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html
+- Federal Reserve 2022 policy materials: https://www.federalreserve.gov/econres/notes/feds-notes/2022-index.htm
