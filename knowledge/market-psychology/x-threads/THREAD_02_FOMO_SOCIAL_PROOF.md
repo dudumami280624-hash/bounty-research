@@ -1,61 +1,70 @@
-# THREAD 02 — THE PRESSURE TO JOIN
+# THREAD 02 — YOU MAY BE BUYING BELONGING
 
 - Status: DRAFT
-- Topic: FOMO, social proof and buying pressure
+- Topic: FOMO, social proof and identity pressure
 - Psychology chapter: Chapter 01 — The Pressure to Join
 - Thread ID: 02
-- US case: GameStop 2021
 
-## Chinese review
+## 中文对照
 
-1. 最危险的买入理由，往往听起来不像冲动：“大家都赚了，只有我还没进去。”这不是理解市场，而是害怕被留在外面。
+### 1/10
+有时候，你想买的不是股票，而是不想被落下的感觉。
 
-2. 你打开 X、Reddit 或券商 App，看到的是别人展示出来的结果，而不是他们承担过的风险。盈利截图越多，等待越像一种错误。
+### 2/10
+你看到别人晒收益，听到朋友谈论上涨，打开手机，价格已经涨了很多。此时最难受的不是没赚到，而是觉得自己被排除在外。
 
-3. 问题悄悄变了：不是“我理解这家公司吗？”而是“我还能忍多久不进去？”
+### 3/10
+于是你开始寻找理由：这家公司很特别，这次行情不一样，现在不上车以后就没机会。
 
-4. GameStop 2021 年的狂热说明，股票可以同时变成投资、群体身份和对抗情绪。价格上涨时，参与本身开始带来归属感。
+### 4/10
+这些理由未必是假的。问题是：你是在研究它们，还是在用它们减轻自己的焦虑？
 
-5. 这不只是贪婪。社会比较、从众和稀缺感，会让一次投资机会变成一次身份测试。
+### 5/10
+GameStop 2021 说明，一只股票可以同时承载收益期待、群体归属和对机构的不满。参与交易，有时也像是在表明“我属于哪一边”。
 
-6. 当很多人重复同一个故事，故事会开始像证据。你不再检查事实，只检查自己是否站在正确的一边。
+### 6/10
+当买入变成身份表达，负面信息就不再只是信息。它会感觉像是在攻击你的选择、你的群体，甚至你的判断能力。
 
-7. 买入以后，上涨会让你觉得这是能力的证明。下跌时，心理防御可能开始寻找新的解释，保护原来的决定。
+### 7/10
+这时，继续持有可能不是因为证据变强，而是因为退出的心理代价变高了。
 
-8. 真正有用的问题不是“它会不会涨回来？”而是：“如果我今天没有持有它，我还会主动买入吗？”
+### 8/10
+问自己：如果没有人知道我买了它，我还会买入吗？如果答案改变，市场判断里可能混进了社会认可。
 
-9. 如果没人知道你买了这只股票，你还会想买吗？如果答案改变了，推动你的可能是认可、比较和不想落后的压力。
+### 9/10
+再问一个更难的问题：如果今天没有持仓，我会主动选择它，还是只想回到自己的买入价格？
 
-10. 不参与一轮上涨，不等于落后。成熟的判断不是抓住每一次行情，而是知道什么时候自己只是想加入，而不是已经理解。
+### 10/10
+你不需要参加每一轮上涨来证明自己聪明。能够承受错过，意味着你的判断不再依赖别人的掌声。
 
 ## English publication
 
 ### 1/10
-The most dangerous reason to buy often sounds reasonable: “Everyone is making money, and I’m the only one still out.” That is not market understanding. It is fear of being left outside.
+Sometimes you are not buying the stock. You are buying relief from the feeling of being left behind.
 
 ### 2/10
-You open X, Reddit, or your brokerage app. You see displayed results, not the risks behind them. The more winning screenshots you see, the more waiting feels like a mistake.
+You see gains on your feed. Friends discuss the rally. The price has already moved. The painful part is not missing the profit. It is feeling excluded.
 
 ### 3/10
-The question quietly changes. It is no longer, “Do I understand this company?” It becomes, “How much longer can I tolerate staying out?”
+So you begin collecting reasons: this company is different, this rally is different, waiting means missing your only chance.
 
 ### 4/10
-GameStop in 2021 showed how a stock can become an investment, a group identity, and an act of defiance at the same time. As price rose, participation itself began to feel like belonging.
+Those reasons may not be false. The question is whether you are researching them—or using them to reduce anxiety.
 
 ### 5/10
-This is not simply greed. Social comparison, conformity, and scarcity can turn an opportunity into an identity test.
+GameStop in 2021 showed how one stock can carry profit expectations, group belonging, and anger at institutions. Participation can become a statement: “This is my side.”
 
 ### 6/10
-When many people repeat the same story, the story begins to feel like evidence. You stop checking the facts and start checking whether you are on the right side.
+When buying becomes identity, negative information feels personal. It can feel like an attack on your choice, your group, or your ability to judge.
 
 ### 7/10
-After you buy, a rise can feel like proof of your ability. A decline can trigger psychological defense and new explanations that protect the original decision.
+Holding then may reflect a rising psychological cost of exit, not stronger evidence.
 
 ### 8/10
-The useful question is not, “Will it come back?” Ask: “If I did not own it today, would I choose to buy it now?”
+Ask yourself: If nobody knew I owned it, would I still buy it? If the answer changes, social approval may be inside the decision.
 
 ### 9/10
-Would you still want the stock if nobody knew you owned it? If the answer changes, recognition, comparison, and fear of falling behind may be driving the decision.
+Ask one harder question: If I had no position today, would I choose this stock—or would I only want it to return to my entry price?
 
 ### 10/10
-Missing a rally does not mean you are behind. Mature judgment is not catching every move. It is knowing when you want to join—and when you actually understand.
+You do not need every rally to prove you are smart. Tolerating a missed opportunity means your judgment no longer depends on applause.
