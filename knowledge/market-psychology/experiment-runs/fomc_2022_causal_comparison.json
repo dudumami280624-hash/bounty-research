@@ -1,0 +1,12 @@
+{
+  "n_events": 8,
+  "n_matches": 8,
+  "event_mean_t1": -0.011624969318208625,
+  "match_mean_t1": -0.004218170554780562,
+  "difference_t1": -0.007406798763428063,
+  "event_mean_t5": -0.002995137929508798,
+  "match_mean_t5": -0.014344119900216196,
+  "difference_t5": 0.011348981970707397,
+  "midas_control": "SPY 2022 Q4 metrics available; not aligned to all event dates",
+  "status": "PRELIMINARY_CAUSAL_COMPARISON"
+}
