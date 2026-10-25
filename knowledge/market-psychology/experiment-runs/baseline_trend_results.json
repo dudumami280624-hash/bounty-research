@@ -1,0 +1,54 @@
+{
+  "dataset": "Shiller S&P Composite monthly",
+  "cost_per_position_change": 0.0012,
+  "periods": {
+    "in_sample": {
+      "buy_hold": {
+        "n": 851,
+        "cumulative": 59.086393088553045,
+        "annualized": 0.059455267784472854,
+        "volatility": 0.16274930491871933,
+        "max_drawdown": -0.8476038338658147
+      },
+      "trend_10_50": {
+        "n": 851,
+        "cumulative": 17.7193046357746,
+        "annualized": 0.042174950840933256,
+        "volatility": 0.11356851923513393,
+        "max_drawdown": -0.5844117813918164
+      }
+    },
+    "validation": {
+      "buy_hold": {
+        "n": 119,
+        "cumulative": -0.23840888092504997,
+        "annualized": -0.027089716755060667,
+        "volatility": 0.14718167662643092,
+        "max_drawdown": -0.5082485743605731
+      },
+      "trend_10_50": {
+        "n": 119,
+        "cumulative": -0.40299509213592877,
+        "annualized": -0.05068676374374659,
+        "volatility": 0.10879881637178056,
+        "max_drawdown": -0.4202985389862238
+      }
+    },
+    "out_of_sample": {
+      "buy_hold": {
+        "n": 191,
+        "cumulative": 5.07079558349394,
+        "annualized": 0.1199771140107857,
+        "volatility": 0.11453014214656661,
+        "max_drawdown": -0.2029450050816186
+      },
+      "trend_10_50": {
+        "n": 191,
+        "cumulative": 3.110599579284191,
+        "annualized": 0.09287365910474099,
+        "volatility": 0.11029417493815631,
+        "max_drawdown": -0.21268262466905807
+      }
+    }
+  }
+}
