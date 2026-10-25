@@ -1,0 +1,63 @@
+{
+  "retrieved_at_utc": "2026-10-25T19:00:27.650792+00:00",
+  "start": "1920-01-01",
+  "end": "2025-12-31",
+  "series": {
+    "sp500": {
+      "fred_id": "SP500",
+      "file": "knowledge/market-psychology/data/us-fred/sp500_SP500.csv",
+      "sha256": "e369da7044a673f8cc7dfc78fe76a473a68abf51d0730088f88c0805eeea0310",
+      "bytes": 44969,
+      "rows": 2398,
+      "status": "DOWNLOADED"
+    },
+    "nasdaq": {
+      "fred_id": "NASDAQCOM",
+      "file": "knowledge/market-psychology/data/us-fred/nasdaq_NASDAQCOM.csv",
+      "sha256": "8abefc36f7eea2f6a1c8cfa82451e33434e61d5704aff0502fb49de46c801e44",
+      "bytes": 276902,
+      "rows": 14324,
+      "status": "DOWNLOADED"
+    },
+    "fedfunds": {
+      "fred_id": "FEDFUNDS",
+      "file": "knowledge/market-psychology/data/us-fred/fedfunds_FEDFUNDS.csv",
+      "sha256": "4c6ce5a3b54a9808f859e329d79cef12c8fe6d1e8775fbde93b294cd29510572",
+      "bytes": 13815,
+      "rows": 858,
+      "status": "DOWNLOADED"
+    },
+    "cpi": {
+      "fred_id": "CPIAUCSL",
+      "file": "knowledge/market-psychology/data/us-fred/cpi_CPIAUCSL.csv",
+      "sha256": "c82a91296c0de5cefb2bb9162551b25cac4ff5ae0eac0ffe7629ac9a704c1eb5",
+      "bytes": 17592,
+      "rows": 948,
+      "status": "DOWNLOADED"
+    },
+    "unemployment": {
+      "fred_id": "UNRATE",
+      "file": "knowledge/market-psychology/data/us-fred/unemployment_UNRATE.csv",
+      "sha256": "5cbeed75d946c3d269478eab0288afa0a2c9f54ac9878304df94bf5dd8593b82",
+      "bytes": 14076,
+      "rows": 936,
+      "status": "DOWNLOADED"
+    },
+    "mortgage_delinquency": {
+      "fred_id": "DRSFRMACBS",
+      "file": "knowledge/market-psychology/data/us-fred/mortgage_delinquency_DRSFRMACBS.csv",
+      "sha256": "be8384548e8a6b00c8bb400a4e48a94b49e6d45c978fd25b1be1532e7724e4f9",
+      "bytes": 2281,
+      "rows": 140,
+      "status": "DOWNLOADED"
+    },
+    "house_prices": {
+      "fred_id": "USSTHPI",
+      "file": "knowledge/market-psychology/data/us-fred/house_prices_USSTHPI.csv",
+      "sha256": "458268d8b330616fccc01b988b6deced5acb117738bf4952f1eab114f8af4af0",
+      "bytes": 3677,
+      "rows": 204,
+      "status": "DOWNLOADED"
+    }
+  }
+}
