@@ -64,3 +64,12 @@ Mark internal work as:
 - ANALOGY: explanatory comparison, not source fact.
 - CURRENT-CHECK: requires fresh web verification.
 - DRAFT: not user-approved for publication.
+
+
+## X length lock
+
+- Default output is a standard X post, not a long post.
+- Keep one post within 240–260 characters to stay below the ordinary 280-character limit.
+- If the idea cannot fit, split it into a numbered thread; never compress it into unreadable prose.
+- Provide Chinese review text separately; the English publication text is the text counted against the X limit.
+- Use long-form output only when the user explicitly says they have X Premium and wants a longer post.
