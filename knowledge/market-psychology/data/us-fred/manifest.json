@@ -58,6 +58,34 @@
       "bytes": 3677,
       "rows": 204,
       "status": "DOWNLOADED"
+    },
+    "dow_jones_historical": {
+      "fred_id": "M1109BUSM293NNBR",
+      "file": "knowledge/market-psychology/data/us-fred/dow_jones_M1109BUSM293NNBR.csv",
+      "sha256": "e624e37e8e19d03f1598feb071fc6e83b97b83b3eec40a146d761ca673f07aeb",
+      "bytes": 10532,
+      "status": "DOWNLOADED"
+    },
+    "industrial_production": {
+      "fred_id": "A018ADDEA338NNBR",
+      "file": "knowledge/market-psychology/data/us-fred/industrial_production_A018ADDEA338NNBR.csv",
+      "sha256": "93c6d6ea1bf11e119bcfeaeb0303624ca0b3644d7b329d231759440d059095e3",
+      "bytes": 204,
+      "status": "DOWNLOADED"
+    },
+    "bank_suspensions": {
+      "fred_id": "X14NBS",
+      "file": "knowledge/market-psychology/data/us-fred/bank_suspensions_X14NBS.csv",
+      "sha256": "335ad3347127138d63a4e220eb806e59d4ce3187589c295480c8238f1b781fde",
+      "bytes": 318,
+      "status": "DOWNLOADED"
+    },
+    "business_failures": {
+      "fred_id": "M0929BUSM155NNBR",
+      "file": "knowledge/market-psychology/data/us-fred/business_failures_M0929BUSM155NNBR.csv",
+      "sha256": "d271629ba28906eb3d767a5aef0cc795215e31a97b33fc2e6ab6d81f6b1ad011",
+      "bytes": 1061,
+      "status": "DOWNLOADED"
     }
   }
 }
