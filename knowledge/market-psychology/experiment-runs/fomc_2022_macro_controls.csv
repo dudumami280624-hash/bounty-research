@@ -1,0 +1,5 @@
+group,date,event_date,cpi,unemployment,fedfunds,earnings_control
+event,2022-11-02,2022-11-02,298.786,3.6,3.78,earnings_control_pending
+matched,2022-10-05,2022-11-02,298.007,3.6,3.08,earnings_control_pending
+event,2022-12-14,2022-12-14,298.832,3.5,4.1,earnings_control_pending
+matched,2022-11-16,2022-12-14,298.786,3.6,3.78,earnings_control_pending
