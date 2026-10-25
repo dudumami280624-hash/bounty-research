@@ -6,7 +6,7 @@ Stop-loss, loss aversion and the disposition effect.
 
 ## Status
 
-PASS — reviewed by grill-with-docs; ready for publication.
+PASS — reviewed by grill-with-docs; PUBLISHED on X.
 
 ## 中文审核稿
 
@@ -54,3 +54,11 @@ The goal is not to avoid being wrong. No serious trader can do that. The goal is
 - SOURCE: NBER research on the disposition effect.
 - ADAPTATION: stop-loss as pre-defined invalidation evidence.
 - UNVERIFIED: no claim that a stop order guarantees execution price; gaps and slippage remain possible.
+
+
+## Publication evidence
+
+- Screenshot evidence received from the user.
+- Main post: visible on X; 17 impressions at screenshot time.
+- Reply 2/5: visible on X; 9 impressions at screenshot time.
+- Remaining thread metrics: not recorded yet.
