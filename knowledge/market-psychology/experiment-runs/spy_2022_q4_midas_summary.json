@@ -1,0 +1,9 @@
+{
+  "ticker": "SPY",
+  "period": "2022-Q4",
+  "days": 63,
+  "mean_cancel_trade_ratio": 71.14636143480197,
+  "mean_hidden_rate": 0.05169071739716051,
+  "mean_odd_lot_rate": 0.23358510865064278,
+  "source": "SEC MIDAS individual security metrics"
+}
