@@ -1,0 +1,7 @@
+{
+  "n_placebo_pairs": 73,
+  "mean_5d_difference": -0.001806060405370298,
+  "median_5d_difference": -0.005284729944472155,
+  "status": "PLACEBO_ROBUSTNESS_PRELIMINARY",
+  "earnings_control": "pending"
+}
