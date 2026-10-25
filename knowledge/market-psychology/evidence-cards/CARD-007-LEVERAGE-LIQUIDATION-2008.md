@@ -19,3 +19,9 @@ Unlevered investors may survive the same price decline. A leveraged position can
 ## Status
 
 MECHANISM supported in principle; chapter claims require instrument-specific data.
+
+## Primary sources located
+
+- Federal Reserve crisis response timeline: https://www.federalreserve.gov/aboutthefed/cls-timeline/timeline/timeline_video.htm
+- Federal Reserve crisis policy actions: https://www.federalreserve.gov/monetarypolicy/bst_crisisresponse.htm
+- Federal Reserve 2008 panic account: https://www.federalreserve.gov/newsevents/speech/warsh20090406a.htm
