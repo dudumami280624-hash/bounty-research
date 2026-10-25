@@ -18,3 +18,9 @@ How do balance zones, trend breaks, panic selling, liquidity and narrative rever
 ## Status
 
 HISTORY source: NBER business-cycle chronology. Market-price and policy series must be attached before publication.
+
+## Primary sources located
+
+- NBER Business Cycle Dating: https://www.nber.org/research/business-cycle-dating
+- NBER June 2020 announcement: https://www.nber.org/news/business-cycle-dating-committee-announcement-june-8-2020
+- NBER July 2021 announcement: https://www.nber.org/news/business-cycle-dating-committee-announcement-july-19-2021
