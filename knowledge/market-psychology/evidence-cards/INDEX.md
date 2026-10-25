@@ -1,6 +1,6 @@
 # The Market Mind Evidence Cards
 
-Completed first batch:
+Completed cards:
 
 - CARD-001: Chanlun structural sequence
 - CARD-002: KK trilogy macro-social themes
@@ -12,9 +12,6 @@ Completed first batch:
 - CARD-008: 2020 crash/rebound and narrative reversal
 - CARD-009: 2022 rate shock and valuation compression
 - CARD-010: GameStop retail narrative and market microstructure
-
-## Next cards
-
 - CARD-011: 1929–1932 Great Depression
 - CARD-012: 1970s stagflation
 - CARD-013: 1987 Black Monday
@@ -22,4 +19,9 @@ Completed first batch:
 - CARD-015: KK macro claim versus US housing/credit data
 - CARD-016: Trend following versus balance-zone framework
 
-Every card must retain source status, adaptation status, counterexample and invalidation condition.
+## Status
+
+CARD-011–014: REVIEWED, chapter use pending.
+CARD-015–016: NEEDS REVISION; data and out-of-sample tests pending.
+
+Every card retains source status, adaptation status, counterexample and invalidation condition.
