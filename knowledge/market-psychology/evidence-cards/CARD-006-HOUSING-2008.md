@@ -21,3 +21,10 @@ Mortgage credit, house prices, delinquency, bank exposure, policy rates, unemplo
 ## Status
 
 HISTORY candidate; full point-in-time case file pending.
+
+## Primary sources located
+
+- Federal Reserve crisis response: https://www.federalreserve.gov/monetarypolicy/bst_crisisresponse.htm
+- Federal Reserve account of crisis policy actions: https://www.federalreserve.gov/newsevents/speech/kohn20100513a.htm
+- Federal Reserve testimony on crisis causes: https://www.federalreserve.gov/newsevents/testimony/bernanke20100902a.htm
+- NBER business-cycle data: https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions
