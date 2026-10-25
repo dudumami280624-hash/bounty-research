@@ -1,0 +1,16 @@
+{
+  "narrow_zone_breakouts": {
+    "n": 105,
+    "mean_6m": 0.027995558557685502,
+    "median_6m": 0.03295069378891413,
+    "win_rate": 0.6476190476190476
+  },
+  "all_breakouts": {
+    "n": 581,
+    "mean_6m": 0.04976405324702126,
+    "median_6m": 0.04914933837429114,
+    "win_rate": 0.7211703958691911
+  },
+  "rule": "12m width <= expanding 30th percentile and close above prior 12m high",
+  "status": "PRELIMINARY_BALANCE_ZONE_TEST"
+}
