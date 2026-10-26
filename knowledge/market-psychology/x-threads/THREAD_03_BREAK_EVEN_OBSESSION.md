@@ -1,51 +1,62 @@
-# THREAD 03 — THE NEED TO GET BACK TO EVEN
+# THREAD 03 — WHY YOU HOLD LOSERS AND SELL WINNERS
 
-- Status: DRAFT
+- Status: REVISED DRAFT
 - Thread ID: 03
 - Psychology chapter: Chapter 03 — Holding Losses, Selling Winners
-- Distinct from Thread 01: focuses on break-even obsession, not stop-loss mechanics
+- Distinct from Thread 01: focuses on break-even obsession and emotional asymmetry, not stop-loss mechanics
 
 ## English publication
 
 ### 1/10
-A losing stock can change one simple goal: you stop asking whether it is still worth owning. You only want it to return to your entry price.
+A winning stock feels safe to sell. A losing stock feels impossible to leave. The deeper difference is emotional: one gives relief, the other asks you to accept pain.
 
 ### 2/10
-Your entry price starts to feel like a promise. The market does not know where you bought, but your mind keeps waiting for that number.
+When a stock rises, the gain feels real. You want to protect it. When a stock falls, the loss feels temporary. You tell yourself it only needs more time.
 
 ### 3/10
-At break-even, you tell yourself, “I will decide then.” But that decision is already being controlled by the pain of seeing a loss.
+Your entry price can become an emotional target. You stop asking, “Is this still worth owning?” You start asking, “When will it return to my price?”
 
 ### 4/10
-A stock can become weaker while your attachment becomes stronger. New information is no longer judged on its own. It is judged by whether it helps you get back to even.
+The market does not know your entry price. But your mind does. That number can quietly control how you read every new piece of information.
 
 ### 5/10
-This is why a small loss can last for months. Waiting feels harmless because selling would make the loss real.
+A small loss can last for months because selling would make it final. Waiting feels easier. The position stays open, so the decision still feels reversible.
 
 ### 6/10
-Meanwhile, a winning stock often feels easier to sell. A gain feels safe. A loss feels unfinished.
+A small gain creates the opposite pressure. You sell quickly because the profit feels fragile. Relief arrives before the opportunity is finished.
 
 ### 7/10
-The question is not, “Can this stock return to my price?” Almost any stock can move somewhere. Ask: “Would I choose it today at this price?”
+A stock can become weaker while your attachment becomes stronger. New information is judged by one question: can it help me get back to even?
 
 ### 8/10
-If you would not buy it today, holding it only because you already own it is not a fresh decision. It is yesterday’s decision still controlling today.
+Ask yourself: If I had no position today, would I buy this stock at its current price? If not, yesterday’s decision may still be controlling today.
 
 ### 9/10
 Your entry price matters to your memory. It does not matter to the market. Price does not owe you a return to zero.
 
 ### 10/10
-Freedom begins when you stop asking the market to repair your past decision. You can review what changed, accept the information, and make a new decision from today.
+A clearer decision begins when you stop protecting the past. Look at the stock as it is today. Then decide from today’s information, not yesterday’s hope.
 
 ## 中文对照
 
-1. 一只亏损的股票，可能会改变你的目标：你不再问它是否值得继续持有，只想让它回到买入价。
-2. 买入价开始像一个承诺。市场不知道你在哪里买入，但你的心理一直等着那个数字。
-3. 你告诉自己：“等回本再决定。”但这时，决定已经被亏损带来的痛苦控制了。
-4. 股票可能越来越弱，但你的依恋越来越强。你不再独立判断新信息，只看它能不能帮助你回本。
-5. 所以小亏损可能持续几个月。等待看起来没有代价，因为卖出会让亏损变成现实。
-6. 相比之下，盈利的股票更容易卖掉。盈利让人感觉安全，亏损让人觉得事情还没有结束。
-7. 问题不是“它能不能回到我的价格？”而是：“如果今天是这个价格，我还会买吗？”
-8. 如果今天你不会买它，只因为已经持有而继续等待，那不是新的决定，而是昨天的决定继续控制今天。
+1. 盈利的股票让人觉得可以卖出，亏损的股票却很难离开。更深层的区别是情绪：一个带来轻松，一个要求你接受痛苦。
+2. 股票上涨时，盈利感觉是真实的，所以你想保护它。股票下跌时，亏损感觉像暂时的，于是你告诉自己，它只是需要更多时间。
+3. 买入价可能变成一个情绪目标。你不再问“它现在还值得持有吗？”而是问“它什么时候能回到我的买入价？”
+4. 市场不知道你的买入价，但你的心理知道。这个数字会悄悄控制你对每一条新信息的判断。
+5. 小亏损可能持续几个月，因为卖出会让它变成事实。等待看起来更容易，因为仓位还在，决定好像仍然可以改变。
+6. 小盈利会带来相反的压力。你很快卖出，因为盈利感觉很脆弱。你先得到轻松，却可能还没等机会结束。
+7. 股票可能越来越弱，但你的依恋越来越强。你判断新信息时，只关心它能不能帮助你回本。
+8. 问自己：如果今天没有持仓，按照现在的价格，我还会买吗？如果不会，可能是昨天的决定仍在控制今天。
 9. 买入价只对你的记忆重要，对市场不重要。价格没有义务回到你的成本。
-10. 当你不再要求市场修复过去的决定，心理自由才会开始。你可以重新审视变化，接受信息，从今天重新决定。
+10. 当你不再保护过去的决定，判断才会变清楚。看清今天的股票，然后根据今天的信息决定，而不是根据昨天的希望决定。
+
+## Grill notes
+
+- Chapter match: PASS
+- Holding losers: PASS
+- Selling winners early: PASS
+- Distinct from Thread 01: PASS
+- Plain English: PASS
+- Non-accusatory language: PASS
+- Strategy or stock advice: ABSENT
+- Status: REVISED DRAFT
