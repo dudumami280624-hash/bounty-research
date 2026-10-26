@@ -1,62 +1,70 @@
-# THREAD 03 — WHY YOU HOLD LOSERS AND SELL WINNERS
+# THREAD 03 — WHY LOSSES FEEL UNFINISHED
 
-- Status: REVISED DRAFT
+- Status: REWRITTEN DRAFT
 - Thread ID: 03
 - Psychology chapter: Chapter 03 — Holding Losses, Selling Winners
-- Distinct from Thread 01: focuses on break-even obsession and emotional asymmetry, not stop-loss mechanics
+- Distinct from Thread 01: no stop-loss instruction; focuses on emotional asymmetry
 
 ## English publication
 
 ### 1/10
-A winning stock feels safe to sell. A losing stock feels impossible to leave. The deeper difference is emotional: one gives relief, the other asks you to accept pain.
+A profit feels like something you can lose. A loss feels like something you can fix. That difference can change how you treat the same stock.
 
 ### 2/10
-When a stock rises, the gain feels real. You want to protect it. When a stock falls, the loss feels temporary. You tell yourself it only needs more time.
+When a stock rises, selling feels like safety. You lock in the gain and remove the uncertainty.
 
 ### 3/10
-Your entry price can become an emotional target. You stop asking, “Is this still worth owning?” You start asking, “When will it return to my price?”
+When a stock falls, selling feels like defeat. So you wait for the price to come back and make the pain disappear.
 
 ### 4/10
-The market does not know your entry price. But your mind does. That number can quietly control how you read every new piece of information.
+Your entry price becomes the number you keep watching. The market does not know that number, but your emotions do.
 
 ### 5/10
-A small loss can last for months because selling would make it final. Waiting feels easier. The position stays open, so the decision still feels reversible.
+A losing position can stay open for months because waiting feels less painful than accepting what the price is telling you.
 
 ### 6/10
-A small gain creates the opposite pressure. You sell quickly because the profit feels fragile. Relief arrives before the opportunity is finished.
+A winning position can be sold too early for the opposite reason. The gain feels fragile, so relief becomes more important than the next opportunity.
 
 ### 7/10
-A stock can become weaker while your attachment becomes stronger. New information is judged by one question: can it help me get back to even?
+This is why people sometimes hold what they no longer want and sell what they still believe in.
 
 ### 8/10
-Ask yourself: If I had no position today, would I buy this stock at its current price? If not, yesterday’s decision may still be controlling today.
+Ask yourself: If I owned nothing today, would I buy this stock at its current price?
 
 ### 9/10
-Your entry price matters to your memory. It does not matter to the market. Price does not owe you a return to zero.
+If the answer is no, ask why you are still holding it. If the answer is yes, ask whether you are holding it for evidence—or only for hope.
 
 ### 10/10
-A clearer decision begins when you stop protecting the past. Look at the stock as it is today. Then decide from today’s information, not yesterday’s hope.
+The market cannot make your old decision feel right. A clearer decision starts when you judge the stock you own today, not the story you told yourself yesterday.
 
 ## 中文对照
 
-1. 盈利的股票让人觉得可以卖出，亏损的股票却很难离开。更深层的区别是情绪：一个带来轻松，一个要求你接受痛苦。
-2. 股票上涨时，盈利感觉是真实的，所以你想保护它。股票下跌时，亏损感觉像暂时的，于是你告诉自己，它只是需要更多时间。
-3. 买入价可能变成一个情绪目标。你不再问“它现在还值得持有吗？”而是问“它什么时候能回到我的买入价？”
-4. 市场不知道你的买入价，但你的心理知道。这个数字会悄悄控制你对每一条新信息的判断。
-5. 小亏损可能持续几个月，因为卖出会让它变成事实。等待看起来更容易，因为仓位还在，决定好像仍然可以改变。
-6. 小盈利会带来相反的压力。你很快卖出，因为盈利感觉很脆弱。你先得到轻松，却可能还没等机会结束。
-7. 股票可能越来越弱，但你的依恋越来越强。你判断新信息时，只关心它能不能帮助你回本。
-8. 问自己：如果今天没有持仓，按照现在的价格，我还会买吗？如果不会，可能是昨天的决定仍在控制今天。
-9. 买入价只对你的记忆重要，对市场不重要。价格没有义务回到你的成本。
-10. 当你不再保护过去的决定，判断才会变清楚。看清今天的股票，然后根据今天的信息决定，而不是根据昨天的希望决定。
+### 1/10
+盈利像是随时会失去的东西，亏损却像是可以修复的东西。这个差别，会改变你对待同一只股票的方式。
 
-## Grill notes
+### 2/10
+股票上涨时，卖出让人感觉安全。锁定盈利，也暂时结束了不确定性。
 
-- Chapter match: PASS
-- Holding losers: PASS
-- Selling winners early: PASS
-- Distinct from Thread 01: PASS
-- Plain English: PASS
-- Non-accusatory language: PASS
-- Strategy or stock advice: ABSENT
-- Status: REVISED DRAFT
+### 3/10
+股票下跌时，卖出让人感觉像失败。所以你等待价格回来，让痛苦消失。
+
+### 4/10
+买入价变成你不断盯着的数字。市场不知道它，但你的情绪知道。
+
+### 5/10
+亏损仓位可能持有几个月，因为等待比接受价格正在告诉你的事情更容易。
+
+### 6/10
+盈利仓位可能因为相反的原因被过早卖出。盈利感觉很脆弱，所以轻松感变得比下一个机会更重要。
+
+### 7/10
+这就是为什么人有时会继续持有已经不想要的东西，却卖掉仍然相信的东西。
+
+### 8/10
+问自己：如果今天我没有任何持仓，按照现在的价格，我还会买这只股票吗？
+
+### 9/10
+如果不会，问问自己为什么还持有。如果会，再问自己：你是因为证据持有，还是只是因为希望？
+
+### 10/10
+市场不会替你证明过去的决定是对的。更清楚的判断，始于你看今天持有的股票，而不是昨天告诉自己的故事。
