@@ -1,0 +1,5 @@
+name: "retention_and_disclosure_tracker"
+title: "Retention and Disclosure Tracker"
+description: "Record only owned platform numbers after posting, judge retention with hypotheses not hard thresholds, and pass separate AI disclosure and music licence checks per platform."
+category: "Work and knowledge"
+include_in_prompt: false
