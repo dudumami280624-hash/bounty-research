@@ -1,0 +1,5 @@
+name: "skill_learning_loop"
+title: "Skill Learning Loop"
+description: "Learn one method at a time with its evidence grade and limit, test it on one validation point, and never turn one success into a general rule."
+category: "Work and knowledge"
+include_in_prompt: false
