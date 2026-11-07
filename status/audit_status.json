@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-11-07T03:55:14.317537+00:00",
-  "workflow_run_id": "42336040601",
-  "workflow_sha": "bc0c9e91515a0ea7bdf67aa94c8fd2ef830c3d02",
+  "time_utc": "2026-11-07T04:57:21.858626+00:00",
+  "workflow_run_id": "42340545974",
+  "workflow_sha": "ea944d7646a9e93efbf8bd853a6701073d647f61",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -351,7 +351,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-11-07T03:54:05.905080+00:00",
+      "verified_at_utc": "2026-11-07T04:56:03.645322+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -398,7 +398,7 @@
         }
       },
       "deployment_source_match_verified": false,
-      "log_excerpt": "Compiling 26 files with Solc 0.8.28\nSolc 0.8.28 finished in 3.61s\nCompiler run successful!\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 2.26ms (4.46ms CPU time)\n\nRan 1 test suite in 12.39ms (2.26ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
+      "log_excerpt": "Compiling 26 files with Solc 0.8.28\nSolc 0.8.28 finished in 4.48s\nCompiler run successful!\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 3.03ms (5.07ms CPU time)\n\nRan 1 test suite in 15.28ms (3.03ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
     },
     "frontend_scope_results.json": {
       "present": true,
