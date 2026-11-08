@@ -1,7 +1,7 @@
 {
-  "time_utc": "2026-11-08T08:07:43.256372+00:00",
-  "workflow_run_id": "42461507676",
-  "workflow_sha": "83302348fc16a5fae2fc5a39ec52f6683df5cf60",
+  "time_utc": "2026-11-08T08:59:01.587207+00:00",
+  "workflow_run_id": "42464999676",
+  "workflow_sha": "1ef1cfca955e148f3d10af99c5e017120f217efc",
   "note": "Static triage flags are NOT verified vulnerabilities.",
   "reports": {
     "global_bounties.json": {
@@ -164,21 +164,21 @@
       "confirmed_payouts_usd": 0,
       "payout_status": "unknown_no_verified_payment_records",
       "specific_pocs_executed": 0,
-      "conditional_poc_tests_executed": 6,
-      "conditional_poc_execution": "passed",
+      "conditional_poc_tests_executed": 0,
+      "conditional_poc_execution": "environment_unavailable",
       "specific_real_world_exploits_verified": 0
     },
     "specific_poc_results.json": {
       "present": true,
-      "execution": "passed",
+      "execution": "environment_unavailable",
       "test_suite": "RewardAccumulatorReentryTest",
-      "tests_passed": 6,
+      "tests_passed": 0,
       "tests_failed": 0,
       "conditional_simulation_only": true,
       "real_world_exploit_verified": false,
       "official_reward_token_callback_verified": false,
       "ready_to_submit": false,
-      "returncode": 0
+      "returncode": null
     },
     "submission_status.json": {
       "present": true,
@@ -193,7 +193,7 @@
       "present": true,
       "lead_count": 12,
       "related_sandbox_test_leads": 0,
-      "finding_specific_pocs_executed": 1,
+      "finding_specific_pocs_executed": 0,
       "verified_vulnerabilities": 0,
       "ready_to_submit": 0,
       "cases": [
@@ -217,25 +217,25 @@
           "id": "12ec614578dc",
           "check": "divide-before-multiply",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "finding_specific_arithmetic_property_passed",
+          "poc_status": "not_executed",
           "verified": false,
-          "reason": "Foundry fuzz confirmed time-window grid in pinned source; no exploitable deviation demonstrated"
+          "reason": "No finding-specific proof of real in-scope impact"
         },
         {
           "id": "1429588799f6",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "finding_specific_real_token_condition_excluded",
+          "poc_status": "not_executed",
           "verified": false,
-          "reason": "Actual deployed tZEN approve on Horizen local fork did not callback spender; token-callback prerequisite for surrogate-path reentry is absent"
+          "reason": "Surrogate constructor path requires actual-token callback validation on the authorized local fork"
         },
         {
           "id": "8e48c2a2804a",
           "check": "reentrancy-no-eth",
           "scope_relevance": "direct_in_scope_source",
-          "poc_status": "finding_specific_real_token_condition_excluded",
+          "poc_status": "not_executed",
           "verified": false,
-          "reason": "Actual deployed tZEN transfer on Horizen local fork did not callback receiver; synthetic malicious-token reentry prerequisite is absent"
+          "reason": "No finding-specific proof of real in-scope impact"
         },
         {
           "id": "20f0b85eac0b",
@@ -301,8 +301,8 @@
       "total": 6,
       "full_acceptance": false,
       "foundry_control_tests": {
-        "execution": "passed",
-        "passed": 6,
+        "execution": "environment_unavailable",
+        "passed": 0,
         "synthetic_only": true
       },
       "business_outcomes": {
@@ -351,7 +351,7 @@
     },
     "official_scope_status.json": {
       "present": true,
-      "verified_at_utc": "2026-11-08T08:06:42.865909+00:00",
+      "verified_at_utc": "2026-11-08T08:56:06.781716+00:00",
       "program": "Horizen",
       "scope_url": "https://immunefi.com/bug-bounty/horizen/scope/",
       "verified_count": 1,
@@ -368,37 +368,21 @@
     },
     "deployment_fork_results.json": {
       "present": true,
-      "execution": "passed",
+      "execution": "error",
       "chain_id": 2651420,
       "source_commit": "ab92502e9da98784dfe3bd3ef933d4e9345ff628",
-      "tests_passed": 7,
+      "tests_passed": 0,
       "tests_expected": 7,
-      "real_deployment_state_checked": true,
+      "real_deployment_state_checked": false,
       "real_world_exploit_verified": false,
       "any_public_chain_transaction_broadcast": false,
-      "returncode": 0,
-      "error_type": null,
-      "fork_block_number": 32463365,
-      "fork_block_hash": "0x5908c2d37daeec34105a75da3cf4661cf5e0cfb80b8cd5f00c2042af775f6d8a",
-      "deployment_code": {
-        "token": {
-          "address": "0xb06EC4ce262D8dbDc24Fac87479A49A7DC4cFb87",
-          "bytes": 12539,
-          "runtime_sha256": "1bcc5f5d9be6b9c4c3884bb398e602f4bd63efab29f594dd9f8dd2197e0ba4e6"
-        },
-        "staker": {
-          "address": "0x6BF7CF29a8bcE11Aa62Cf593d165C244fA4d3E31",
-          "bytes": 16818,
-          "runtime_sha256": "fd909fc4dba2a73182449434afe2e006df9ebb39e349224e8e378523358e6b35"
-        },
-        "accumulator": {
-          "address": "0x06f5555fee73EDdc385b6d76FE00DB2D96ccDaE8",
-          "bytes": 3889,
-          "runtime_sha256": "82a63de681fb8f623276c75d46d6d758233a4faf5b8c3606849f5cde96049889"
-        }
-      },
-      "deployment_source_match_verified": false,
-      "log_excerpt": "Compiling 26 files with Solc 0.8.28\nSolc 0.8.28 finished in 2.89s\nCompiler run successful!\n\nRan 7 tests for test/HorizenDeploymentFork.t.sol:HorizenDeploymentForkTest\n[PASS] test_RealFork_ActualTokenApproveDoesNotCallbackSpender() (gas: 225612)\n[PASS] test_RealFork_ActualTokenPrincipalCannotBeStolenViaWithdraw() (gas: 803606)\n[PASS] test_RealFork_ActualTokenTransferDoesNotCallbackReceiver() (gas: 439403)\n[PASS] test_RealFork_OfficialContractsHaveRuntimeBytecode() (gas: 13800)\n[PASS] test_RealFork_RewardWindowCannotBeBypassedEarly() (gas: 45212)\n[PASS] test_RealFork_StakeAndRewardShareActualToken() (gas: 34822)\n[PASS] test_RealFork_UnknownAccountCannotNotifyReward() (gas: 40604)\nSuite result: ok. 7 passed; 0 failed; 0 skipped; finished in 1.65ms (3.54ms CPU time)\n\nRan 1 test suite in 10.29ms (1.65ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)\n"
+      "returncode": null,
+      "error_type": "RuntimeError",
+      "fork_block_number": null,
+      "fork_block_hash": null,
+      "deployment_code": null,
+      "deployment_source_match_verified": null,
+      "log_excerpt": ""
     },
     "frontend_scope_results.json": {
       "present": true,
