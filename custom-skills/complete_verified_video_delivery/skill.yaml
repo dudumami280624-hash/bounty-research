@@ -1,0 +1,25 @@
+name: complete_verified_video_delivery
+title: Complete verified video delivery
+description: Deliver a finished video outside historic temple episodes once, after you have fixed every known defect and checked the whole cut in one pass, so the user never becomes the quality checker across many versions.
+category: Creation
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:d371b2d6-1257-44c3-a14f-f8f59931c4dd
+  - message:assistant-msg-7847f1b3-12d7-4d40-a964-cff076843caa
+  - message:fc873ca3-3afb-4eec-9aa2-e7b30403ad06
+  - message:assistant-msg-46d5aa66-a549-48c7-8960-0def5d27e11a
+  - message:ba5d818b-9885-458c-abbe-27c5b6ccec41
+  - message:assistant-msg-78201ecd-9b63-4bad-3733-6b26b7c44e95
+  - message:assistant-msg-ecff9980-734a-a6f9-1718-5b684cbb0f7f
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: No non-Angkor video in the window reaches the user with a shot passed from one frame, a frozen shot delivered as moving, an action element cropped out of frame, or a stock clip used for a place it was not filmed in, and no version is delivered while a known defect remains unfixed.
+    window_days: 30
+  needs_review: false
+  rationale: 'The Cambodia montage v9 to v16 on 2026-11-15 repeated the fix-one-deliver-one pattern through failure modes the existing complete_verified_video_delivery text (revision 87a0bc5e78c02b101d151080e170ba639cc47da11b4ed32fc2e46d5c0019239e, published 2026-11-14) does not operationalise. The v9 check sampled only 1 frame and missed S06 tourist platform, dissolve and burned-in Yeak Loam Lake subtitle. Six shots were static and passed on still beauty, and a slow Ken Burns push did not save the frozen 360p S09, replaced in v15 with a genuinely moving Nature2you clip. S03 and S04 were cropped so the rake head stayed out of frame, and S13 used Devprayag, India stock as Cambodia. The skill says check every frame in one pass and check against a real photograph, but gives no per-shot sampling minimum, no cross-frame motion comparison, no crop action check and no stock source location check. This update adds exactly those five concrete checks in one new section, preserving all existing instructions. Rejected: deterministic repeated-handoff-suppression candidates give counts only and concern scheduling cadence, not skill content; the 34 tool failures carry no failure detail or transcripts; the EP17 count mismatch is already covered by the Angkor skill judge-only-from-full-backend rule with no new generation in window; the 2026-11-15 quota jargon friction is already covered by the standing simplest-conclusion-first preference in MEMORY.md and was a compliance slip, not a doc gap; no new price-tier evidence touches price_tier_claim_checks; learned skills number 3, so no consolidation is due.'
+  review_after: 2026-12-15T19:56:56.949638+00:00
+  reviewed_at: 2026-11-15T19:56:56.949638+00:00
+  run_id: sirun_827340bf0dc545e6a8ef067be2d0cb40
