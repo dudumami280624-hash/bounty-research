@@ -1,0 +1,22 @@
+name: price_tier_claim_checks
+title: Price tier claim checks
+description: Verify each price tier in a $1 versus $1000 comparison before you generate the images or video so no invented expensive version reaches delivery.
+category: Creation
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:assistant-msg-3f5873f7-e78b-4ad4-8345-70ae2f35f100
+  - message:assistant-msg-afd0e93f-3f4e-45b1-aa49-60f2e297d388
+  - message:assistant-msg-cf15c863-a603-4589-9f73-2bb3470e3a4c
+  - message:assistant-msg-3183bb0e-dcef-23a0-e88e-e2a28f5665a7
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: Price tier comparison sets produced in the window show no fabricated high tier reaching delivery and no set needs a post-delivery retraction for a price claim.
+    window_days: 30
+  rationale: 'On 2026-11-07 the assistant proposed 6 images in 3 pairs for a $1 vs $1000 ASMR challenge, generated and delivered all 6, and said they were ready to post, then checked afterwards and retracted 2 of the 3 high tiers: the $1000 sandalwood comb was invented (real sandalwood combs $9 to $68, hand-painted to $275, and the $9,500 most expensive comb is a different material) and the $1000 handmade washi paper was invented (top A1 sheets just over $100). The keyboard tier passed with real custom keyboards at $1,199 to $2,499, and the retraction offered verified replacements (Montblanc Meisterstück 149 at about $975 to $1,000 and a top Raphael Kolinsky brush over $1,000), which shows the check itself works but was run after delivery instead of before generation. This is the same verify-before-generate mechanism as the existing angkor_video_prompt_checks skill, but that skill covers historic temple prompts only, and the shopping skill covers product purchase search, not a pre-generation gate for creative price claims, so neither covers this. The deterministic handoff-suppression and memory recurring-failure candidates were rejected because the packet gives no instruction-level detail behind them, and no consolidation is due with only 1 learned skill active.'
+  review_after: 2026-12-07T19:40:28.909686+00:00
+  needs_review: false
+  reviewed_at: 2026-11-07T19:40:28.909686+00:00
+  run_id: sirun_53b9a91ac79c46beab824cfe211702f7

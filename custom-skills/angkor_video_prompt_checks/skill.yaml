@@ -1,0 +1,24 @@
+name: angkor_video_prompt_checks
+title: Angkor video prompt checks
+description: Write and verify AI video prompts, opening hooks and narration for historic temple episodes, and judge a published episode only from its full backend numbers, so generator defaults, miscounts, framing crops, single-source orientation errors, unverified claims and partial checks do not reach the finished cut.
+category: Creation
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:assistant-msg-b5152898
+  - message:assistant-msg-10fb596a
+  - ab13d4c8
+  - dba81ffe
+  - message:9522ec64
+  - message:f338402d
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: No episode in the window reaches the user with a hook verdict drawn from a partial metric, a delivery based on a partial frame check, or a found defect dismissed as minor, and no earlier hook verdict needs retraction after the full backend arrives.
+    window_days: 30
+  needs_review: false
+  rationale: 'EP14 and EP22 share one root cause that the current angkor skill does not name: a partial check treated as complete. EP14 drew a hook-won verdict from a partial like rate and retracted it when the full backend showed low average watch time, low completion and most viewers stopping in 0 to 2 seconds. EP22 claimed a full check from only 7 frames, dismissed inscription pseudo-text as minor, and only passed after all 13 frames were checked in one pass in v6. The existing skill covers start, middle and final frame checks, but it has no gate against a partial-metric verdict, a split frame check, or dismissing a found defect, so adding that complete-check gate addresses both failures without a duplicate skill.'
+  review_after: 2026-12-11T19:37:02.724365+00:00
+  reviewed_at: 2026-11-11T19:37:02.724365+00:00
+  run_id: sirun_6f04983bfd064ad7a9aeff4b243221ff
