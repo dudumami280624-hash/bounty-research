@@ -24,4 +24,11 @@ if __name__=="__main__":
     result=score(sys.argv[1],sys.argv[2])
     Path(sys.argv[3]).write_text(json.dumps(result,indent=2)+"\n")
     print(json.dumps(result))
-    if result["tp"]<1 or result["fp"]>0:raise SystemExit(1)
+    # Insufficient independent positive/negative fixture families cannot pass acceptance.
+    result["independent_transfer_eligible"] = (
+        len(json.loads(Path(sys.argv[2]).read_text())) >= 4
+        and result["tp"] >= 2 and result["tn"] >= 2
+        and result["fp"] == 0 and result["fn"] == 0
+    )
+    Path(sys.argv[3]).write_text(json.dumps(result,indent=2)+"\n")
+    if not result["independent_transfer_eligible"]: raise SystemExit(1)
