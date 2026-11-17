@@ -1,0 +1,22 @@
+name: Shannon provider preflight
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - shannon_provider_preflight.py
+      - test_shannon_provider_preflight.py
+      - .github/workflows/shannon-provider-preflight.yml
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m unittest -v test_shannon_provider_preflight
+      - name: Confirm exhausted Codex is rejected
+        run: |
+          if SHANNON_USE_PI_AUTH=1 SHANNON_AI_MODEL=openai-codex:gpt-6.1-sol python shannon_provider_preflight.py; then
+            echo "ERROR: exhausted quota dependency was accepted"
+            exit 1
+          fi
