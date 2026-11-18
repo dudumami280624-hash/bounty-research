@@ -1,3 +1,7 @@
+# 统一融合入口
+
+**现在统一调用 [trading-education 股票技术＋市场心理＋历史研究知识体系](UNIFIED-KNOWLEDGE.md)。** 该入口同时连接原有98份技术教学资料与 `knowledge/market-psychology/` 股市心理学来源分库；原文件不移动、不删除。融合检索已经建立，未完成的逐页、逐图事实审核仍明确标注。
+
 # trading-education · 股票技术教学统一入口
 
 ## 最新保存状态（2026-11-18）
