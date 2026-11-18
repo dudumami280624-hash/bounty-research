@@ -60,3 +60,9 @@ How do we turn imperfect market information into decisions that can be examined,
 - User approves material change to locked editorial rules, source modifications and release; do not mutate main.
 
 Last updated: 2026-11-18.
+
+
+## Follow-up source discovery (2026-11-18)
+- Library original **《第二周（第一节课）10.8.docx》** returned a directly read excerpt: uses historical stock 1651 MRCB, MA20, and the closing price relative to the daily high-low range (source describes upper-half closes and candlestick shadows). **Search excerpts only**, not a full-page/figure review; these concepts are candidates for later lessons 03/05/06, not direct proof of trading efficacy. Preserve historical context.
+- Another conversation artifact, **the-market-mind-course-map-v0.1.md**, was retrieved with an existing **30-lesson draft** and an audit of several original-document date/name mismatches. It is a prior planning artifact, **not a formally approved syllabus**. This 20-lesson candidate schedule is a more compact alternative, **not a replacement** of that 30-lesson plan or any LOCKED curriculum. Before locking one, compare prerequisite coverage, original-source coverage and workload; do not report that a final lesson count is settled.
+- Lesson 02 currently needs external primary financial-market terminology sources because existing technical lectures presume readers already know charts. Candidate research tasks: defining OHLC, price adjustment, and closing-auction versus last traded price for the relevant venue.
