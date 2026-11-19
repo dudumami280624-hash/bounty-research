@@ -20,7 +20,7 @@
 | 理解“投资”.pdf | 33 | beginner investing; image-only |
 | 美股策略方向.pdf | 30 | US market outlook; image-only historical 2026 |
 | 上升K线形态.pdf | 33 | candlestick patterns; image-only |
-| 投资组合.pdf | 26 | portfolio; image-only; HIGH RISK 2022–2026 return target claims |
+| 投资组合.pdf | 26 | Excluded from course materials; source PDF not uploaded |
 | 稀土资讯.pdf | 22 | sector market commentary; image-only |
 | 一阳穿三线.pdf | 13 | price crossing moving averages; image-only |
 | 移动平均线.pdf | 36 | moving averages; image-only |
@@ -35,14 +35,14 @@
 
 ## Quarantine / evidence boundaries
 - **Institutional actor/intent assertions** from the institution-trading PDFs are not verified. Examples: multiple accounts accumulating undetected, specific maximum order-size percentage, and self-trading/wash trading presented as common tactics. Do not attribute specific price patterns to real institutional activity without admissible documentation; distinguish lawful execution from potentially prohibited manipulation.
-- **Portfolio slide** includes claims of annual high return targets (visually e.g. 2022–2026 targets of 210%, 260%, 180%, 320%, 400%). Neither historic attainment nor forecasts nor sponsor authenticity are verified. **QUARANTINE — NEVER copy as a recommendation, earnings guarantee, or advertising**.
+- Promotional-return material is excluded from the curriculum. Do not reproduce unverified performance marketing claims.
 - Brand names/logos/attributions on slides (Harding Loevner, Crestfield Capital, named instructors) are **source artwork, not verified firm authorization, employment or official research origin**. Do not present them as authentic institutional endorsements.
 - Slide charts and prices (many dated 2026) are historical snapshots; avoid reusing as current market advice and verify original exchange, security and historical dates.
 - Signals such as “一阳穿三线”, MACD, moving average crossover or 'support' may be studied as *definitions/hypotheses*, not predictive certainties or validated returns.
 
 ## Curriculum mapping (candidate, not new lesson lock)
 - Lesson 02 price chart definitions: related image-only source 上升K线形态 / 黄金趋势, but actual OHLC definitions must be externally sourced; no basis to claim pages reviewed in full.
-- Following: K-line pattern → chart timeframe → moving averages (5 PDFs) → support and resistance → price/volume and indicator limitations → risk, order execution and slippage (2 PDFs) → portfolio exposures → research literacy and psychological narratives.
+- Following: K-line pattern → chart timeframe → moving averages (5 PDFs) → support and resistance → price/volume and indicator limitations → risk, order execution and slippage (2 PDFs) → general risk education → research literacy and psychological narratives.
 - Institutional behavior PDFs form a critical-thinking **claim audit** case only, not instructional trading 'secrets'.
 - Compare against the previous 98 files before reporting a new unique-document count; do not count uploaded PDFs as new distinct originals automatically.
 
