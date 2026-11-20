@@ -5,7 +5,7 @@ Produces page-image evidence and OCR; does NOT claim semantic chart understandin
 import hashlib, json, shutil, subprocess, tempfile, os
 from pathlib import Path
 
-def inspect_pdf(pdf_path, output):
+def inspect_pdf(pdf_path, output, start_page=0):
     import fitz
     doc=fitz.open(pdf_path);out=Path(output);out.mkdir(parents=True,exist_ok=True)
     langs=subprocess.run(['tesseract','--list-langs'],capture_output=True,text=True).stdout if shutil.which('tesseract') else ''
@@ -16,7 +16,8 @@ def inspect_pdf(pdf_path, output):
     # Record incomplete coverage explicitly; this is not a full chart audit.
     max_pages=max(1,int(os.environ.get('TMM_VISUAL_MAX_PAGES','12')))
     total_pages=len(doc)
-    for index in range(min(total_pages,max_pages)):
+    start_page=max(0,int(start_page))
+    for index in range(start_page,min(total_pages,start_page+max_pages)):
         page=doc[index]
         pix=page.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False)
         png=pix.tobytes('png')
@@ -26,7 +27,8 @@ def inspect_pdf(pdf_path, output):
                 'status':'visual_features_extracted_unverified',
                 'document_total_pages':total_pages,
                 'visual_sample_limit':max_pages,
-                'visual_coverage_complete':total_pages<=max_pages}
+                'visual_coverage_complete':start_page+max_pages>=total_pages,
+                'visual_window_start':start_page}
         embedded_text=page.get_text('text').strip()
         record['embedded_text_characters']=len(embedded_text)
         if embedded_text:
