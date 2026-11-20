@@ -3,7 +3,7 @@
 Outputs only non-copyrighted processing metadata to the public repository.
 Never marks image review, factual validation, or teaching integration as complete.
 """
-import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil, time
+import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil, time, signal
 from datetime import datetime, timezone
 from pathlib import Path
 from extract_source import ooxml, pdf
@@ -121,17 +121,32 @@ def main():
              and (files.get(e['sha'],{}).get('attempts',0)<MAX_ATTEMPTS
                   or (files.get(e['sha'],{}).get('extraction_status')=='needs_conversion' and converter_available))
              and (converter_available or Path(e['name']).suffix.lower() not in ('.doc','.ppt'))]
+    # Track deferred legacy documents without treating them as failed attempts.
+    for e in entries:
+        if not converter_available and Path(e['name']).suffix.lower() in ('.doc','.ppt') and e['sha'] not in files:
+            files[e['sha']]={'source_name':e['name'],'category':e['category'],
+                'extraction_status':'needs_conversion','attempts':0,
+                'reason':'LibreOffice unavailable on runner'}
     processed=[]
     started=time.monotonic()
     budget_seconds=max(60,int(os.environ.get('TMM_TIME_BUDGET_SECONDS','1050')))
+    per_source_timeout=max(30,min(180,int(os.environ.get('TMM_PER_SOURCE_TIMEOUT_SECONDS','120'))))
+    def source_timeout(_signum, _frame):
+        raise TimeoutError(f'Source processing exceeded {per_source_timeout}s; retry next batch')
+    previous_handler=signal.signal(signal.SIGALRM,source_timeout)
     for entry in pending[:BATCH_SIZE]:
         if time.monotonic()-started>=budget_seconds:
             print('Batch time budget reached; remaining files will resume next run',flush=True)
             break
         sha=entry['sha'];previous=files.get(sha,{})
         attempts=previous.get('attempts',0)+1
-        try: status=extract(entry,download_blob(sha))
-        except Exception as exc: status={'extraction_status':'failed','error':str(exc)[:500]}
+        try:
+            signal.alarm(per_source_timeout)
+            status=extract(entry,download_blob(sha))
+        except Exception as exc:
+            status={'extraction_status':'failed','error':str(exc)[:500]}
+        finally:
+            signal.alarm(0)
         status.update({'source_name':entry['name'],'category':entry['category'],
                        'attempts':attempts,'last_attempt_utc':datetime.now(timezone.utc).isoformat(),
                        'visual_review_complete':False,'fact_checked':False,
@@ -143,6 +158,7 @@ def main():
         checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         checkpoint.replace(STATE)
         processed.append({'source_name':entry['name'],'source_sha':sha,'status':status['extraction_status']})
+    signal.signal(signal.SIGALRM,previous_handler)
     status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'no_eligible_files'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
