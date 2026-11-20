@@ -45,7 +45,11 @@ jobs:
           fi
       - name: Check free legacy Office converter
         run: |
-          if command -v libreoffice >/dev/null 2>&1; then libreoffice --version; else echo 'LibreOffice unavailable; legacy files will be flagged'; fi
+          if ! command -v libreoffice >/dev/null 2>&1; then
+            timeout 210s sudo apt-get update -qq
+            timeout 240s sudo apt-get install -y -qq libreoffice-writer libreoffice-impress
+          fi
+          libreoffice --version
       - name: Install PDF text and image parser
         run: python -m pip install --disable-pip-version-check pymupdf
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
@@ -58,6 +62,7 @@ jobs:
         timeout-minutes: 105
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TMM_BATCH_SIZE: '4'
         run: python knowledge/trading-education/tools/run_extraction_batch.py
       - name: Refresh cross-source research catalog
         if: always()
