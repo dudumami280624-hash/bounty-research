@@ -83,7 +83,7 @@ def extract(entry, blob):
         evidence.write_text(json.dumps({'source_sha':entry['sha'],'source_name':entry['name'],
           'topics':candidates(blocks),'chart_verified':False,'fact_checked':False,
           'lesson_integrated':False},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    return {'extraction_status':'extracted' if blocks else 'needs_visual_review',
+    return {'extraction_status':('partial_ocr_failure' if details.get('ocr_failed_pages') else ('extracted' if blocks else 'needs_visual_review')),
             'source_sha256':hashlib.sha256(blob).hexdigest(),
             'text_blocks':len(blocks),'images_found':len(images),'topic_candidates':len(candidates(blocks)),'details':details,'visual_ai':vision_result}
 
@@ -111,7 +111,7 @@ def main():
     STATE.parent.mkdir(parents=True,exist_ok=True)
     STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     counts={s:sum(v.get('extraction_status')==s for v in files.values())
-            for s in ('extracted','needs_visual_review','needs_conversion','failed')}
+            for s in ('extracted','partial_ocr_failure','needs_visual_review','needs_conversion','failed')}
     exhausted=sum(v.get('extraction_status')=='failed' and v.get('attempts',0)>=MAX_ATTEMPTS
                   for v in files.values())
     reviewed=sum(bool(v.get('visual_review_complete')) for v in files.values())
@@ -121,12 +121,13 @@ def main():
        +f'- 本轮：{entry["name"] if entry else "无可处理文件"}\n'
        +f'- 本轮状态：{status["extraction_status"]}\n'
        +f'- 已提取文字：{counts["extracted"]}/178\n'
+       +f'- OCR不完整待重试：{counts["partial_ocr_failure"]}\n'
        +f'- 需视觉复核：{counts["needs_visual_review"]}\n'
        +f'- 需旧格式转换：{counts["needs_conversion"]}\n'
        +f'- 失败待重试：{counts["failed"]-exhausted}；重试耗尽：{exhausted}\n'
        +f'- 完成图表视觉核验：{reviewed}；完成事实核验：{checked}；完成课程融合：{integrated}\n\n'
        +'**提取文字不代表理解或核验。** 原件和提取全文不提交到公开仓库。\n',encoding='utf-8')
     print(json.dumps({'file':entry,'result':status,'counts':counts},ensure_ascii=False))
-    if status['extraction_status']=='failed':sys.exit(1)
+    if status['extraction_status'] in ('failed','partial_ocr_failure'):sys.exit(1)
 
 if __name__=='__main__': main()
