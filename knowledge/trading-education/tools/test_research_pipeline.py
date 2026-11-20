@@ -42,6 +42,19 @@ def main():
             rp.call_model=lambda messages,model='gpt-4.1',max_tokens=3000: json.dumps({'page':1,'charts':[{'type':'candlestick'}],'uncertain_details':[]})
             free=inspect_pdf(pdf,root/'free-vision')
             assert len(free)==1 and free[0]['status']=='visual_features_extracted_unverified'
+            assert free[0]['visual_coverage_complete'] is True
+            # Real PyMuPDF rendering on a two-page fixture; no model verification implied.
+            import os
+            multi=root/'multi.pdf';d=fitz.open();d.new_page();d.new_page();d.save(multi);d.close()
+            old_limit=os.environ.get('TMM_VISUAL_MAX_PAGES')
+            os.environ['TMM_VISUAL_MAX_PAGES']='1'
+            try:
+                sample=inspect_pdf(multi,root/'bounded-visual')
+                assert len(sample)==1 and sample[0]['document_total_pages']==2
+                assert sample[0]['visual_coverage_complete'] is False
+            finally:
+                if old_limit is None: os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
+                else: os.environ['TMM_VISUAL_MAX_PAGES']=old_limit
             images=vision_pdf(pdf,root/'vision')
             assert len(images)==1 and images[0]['human_review_complete'] is False
             assert (root/'vision/page-0001.json').exists()
