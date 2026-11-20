@@ -3,7 +3,7 @@
 import json, tempfile
 from pathlib import Path
 import research_pipeline as rp
-from research_pipeline import build_knowledge, draft_lesson, vision_pdf, research_claim
+from research_pipeline import build_knowledge, draft_lesson, draft_all, vision_pdf, research_claim
 from free_visual import inspect_pdf
 from free_research import make_packet, draft
 
@@ -25,6 +25,10 @@ def main():
         draft_lesson('candlestick',catalog,lesson)
         assert lesson.exists() and 'Candlestick' in lesson.read_text()
         assert 'source' in lesson.read_text().lower()
+        manifest=draft_all(catalog,root/'outlines')
+        assert len(manifest['generated_outlines'])==2
+        assert not manifest['blocked_topics']
+        assert (root/'outlines/manifest.json').exists()
         # Exercise actual page rendering, model message construction and persistence without API spend.
         try:
             import fitz
