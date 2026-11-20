@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '54 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/the-market-mind-extraction.yml'
 
 permissions:
   contents: write
