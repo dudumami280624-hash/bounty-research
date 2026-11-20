@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from extract_source import ooxml, pdf
 from evidence_candidates import candidates
-from research_pipeline import vision_pdf
+from free_visual import inspect_pdf
 
 ROOT=Path(__file__).resolve().parents[1]
 INDEX=ROOT/'integration/source-inventory-178-2026-11-20.md'
@@ -57,14 +57,14 @@ def extract(entry, blob):
         (work/'extracted_text.md').write_text('\n\n'.join(
             f"### {b['location']}\n{b['text']}" for b in blocks),encoding='utf-8')
         (work/'image_inventory.json').write_text(json.dumps(images,ensure_ascii=False,indent=2),encoding='utf-8')
-        vision_result={'status':'not_run_no_api_key','pages_analyzed':0}
-        if ext=='.pdf' and os.environ.get('OPENAI_API_KEY'):
+        vision_result={'status':'not_applicable','pages_analyzed':0}
+        if ext=='.pdf':
             try:
-                observations=vision_pdf(source,work/'visual-review'/entry['sha'])
-                vision_result={'status':'ai_observation_pending_human_review',
+                observations=inspect_pdf(source,work/'visual-review'/entry['sha'])
+                vision_result={'status':'free_visual_features_unverified',
                   'pages_analyzed':len(observations)}
             except Exception as exc:
-                vision_result={'status':'vision_failed','pages_analyzed':0,
+                vision_result={'status':'free_visual_failed','pages_analyzed':0,
                   'error':str(exc)[:300]}
         evidence=ROOT/'integration/evidence-index'/ (entry['sha']+'.json')
         evidence.parent.mkdir(parents=True,exist_ok=True)
