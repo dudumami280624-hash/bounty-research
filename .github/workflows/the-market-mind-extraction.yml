@@ -20,7 +20,7 @@ concurrency:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
@@ -43,13 +43,14 @@ jobs:
           else
             timeout 210s sudo apt-get update -qq && timeout 60s sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-chi-sim || echo 'OCR unavailable: scanned pages will remain flagged for review'
           fi
-      - name: Check free legacy Office converter
+      - name: Check free legacy Office converter without blocking the queue
+        timeout-minutes: 1
         run: |
-          if ! command -v libreoffice >/dev/null 2>&1; then
-            timeout 210s sudo apt-get update -qq
-            timeout 240s sudo apt-get install -y -qq libreoffice-writer libreoffice-impress
+          if command -v libreoffice >/dev/null 2>&1; then
+            libreoffice --version
+          else
+            echo 'LibreOffice unavailable; legacy formats are deferred, not allowed to block the batch'
           fi
-          libreoffice --version
       - name: Install PDF text and image parser
         run: python -m pip install --disable-pip-version-check pymupdf
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
@@ -59,7 +60,7 @@ jobs:
       - name: Build cross-source research catalog
         run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
       - name: Extract next indexed source
-        timeout-minutes: 105
+        timeout-minutes: 25
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TMM_BATCH_SIZE: '4'
