@@ -1,0 +1,52 @@
+{
+  "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+  "source_name": "技术指标策略体系：MACD（上）.pptx",
+  "topics": {
+    "candlestick": [
+      {
+        "location": "slide-4:shape-5",
+        "excerpt_sha256": "5d970118ef9c48983a162d5bdbbdaf0ccab870c22b56245a9e3570f2fa1a44d5",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "slide-4:shape-5",
+        "excerpt_sha256": "5d970118ef9c48983a162d5bdbbdaf0ccab870c22b56245a9e3570f2fa1a44d5",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-5:shape-5",
+        "excerpt_sha256": "c8fb31fdc4f95808cc7e6127ab59f2657d8af87fb19d00b6f8e1dc06e440501a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-6",
+        "excerpt_sha256": "85765b7f2f7cda5a784c7f75419758973ec3f0b7f3e1d12d7c9a3295215b4f94",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "slide-5:shape-6",
+        "excerpt_sha256": "85765b7f2f7cda5a784c7f75419758973ec3f0b7f3e1d12d7c9a3295215b4f94",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "331a50bdc61eec545f69a07a026f4eb85379644df8f0bfa4c1845c2689cacf73",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "slide-5:shape-6",
+        "excerpt_sha256": "85765b7f2f7cda5a784c7f75419758973ec3f0b7f3e1d12d7c9a3295215b4f94",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

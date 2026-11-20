@@ -14,6 +14,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-31:shape-26, slide-31:shape-27): review the original example and explain its context.
 
+- 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-5:shape-5, slide-5:shape-6): review the original example and explain its context.
+
 - MA均线系统三角形态选股法.docx (source 48dab88c33e0, word/document.xml:paragraph-1, word/document.xml:paragraph-3, word/document.xml:paragraph-6, word/document.xml:paragraph-7, word/document.xml:paragraph-11): review the original example and explain its context.
 
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-75, word/document.xml:paragraph-81): review the original example and explain its context.
@@ -26,11 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术指标策略体系：KDJ.pptx (source 738af4cf1d1d, slide-6:shape-19): review the original example and explain its context.
 
-- 技术指标策略体系：KDJ 英文版.pptx (source 9c0fd8e54bf2, slide-6:shape-21): review the original example and explain its context.
+- 技术指标策略体系：MACD（下）.pptx (source 76127d469fe2, slide-5:shape-5, slide-7:shape-5, slide-8:shape-5, slide-9:shape-5, slide-10:shape-5): review the original example and explain its context.
 
-- MA均线系统实战法则.docx (source beaec7ac9cb1, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-4, word/document.xml:paragraph-5): review the original example and explain its context.
-
-- 技术指标策略体系：MA 英文版 (3).pptx (source cfe509743f32, slide-4:shape-5, slide-5:shape-6, slide-6:shape-4, slide-6:shape-5, slide-7:shape-4): review the original example and explain its context.
+- 技术指标策略体系：MACD（下）.docx (source 8b1ff0822ab5, word/document.xml:paragraph-15, word/document.xml:paragraph-21, word/document.xml:paragraph-24, word/document.xml:paragraph-27, word/document.xml:paragraph-30): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

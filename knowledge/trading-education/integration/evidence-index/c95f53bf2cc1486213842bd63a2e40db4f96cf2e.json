@@ -1,0 +1,39 @@
+{
+  "source_sha": "c95f53bf2cc1486213842bd63a2e40db4f96cf2e",
+  "source_name": "指数、个股，在下跌时如何选股.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-18",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-16",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -14,6 +14,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-4:shape-4, slide-4:shape-5, slide-5:shape-21, slide-15:shape-33, slide-17:shape-30): review the original example and explain its context.
 
+- 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
+
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-5, word/document.xml:paragraph-6): review the original example and explain its context.
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-20, word/document.xml:paragraph-29): review the original example and explain its context.
@@ -28,9 +30,7 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术指标策略体系：KDJ.pptx (source 738af4cf1d1d, slide-6:shape-18, slide-8:shape-5): review the original example and explain its context.
 
-- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-20, word/document.xml:paragraph-23): review the original example and explain its context.
-
-- K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-4:shape-5, slide-5:shape-5, slide-7:shape-5, slide-10:shape-5, slide-11:shape-5): review the original example and explain its context.
+- 技术指标策略体系：MACD（下）.pptx (source 76127d469fe2, slide-8:shape-5, slide-9:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

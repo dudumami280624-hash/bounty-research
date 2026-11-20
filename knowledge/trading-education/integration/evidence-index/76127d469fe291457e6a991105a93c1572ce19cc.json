@@ -1,0 +1,113 @@
+{
+  "source_sha": "76127d469fe291457e6a991105a93c1572ce19cc",
+  "source_name": "技术指标策略体系：MACD（下）.pptx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "slide-5:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 52,
+      "evidence_locations": [
+        {
+          "location": "slide-5:shape-5",
+          "term_mentions": 10
+        },
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 13
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-10:shape-5",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-12:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-15:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-16:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-17:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-18:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-19:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

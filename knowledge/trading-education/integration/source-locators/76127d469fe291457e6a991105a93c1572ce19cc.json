@@ -1,0 +1,110 @@
+{
+  "source_sha": "76127d469fe291457e6a991105a93c1572ce19cc",
+  "source_name": "技术指标策略体系：MACD（下）.pptx",
+  "topics": {
+    "trend": [
+      {
+        "location": "slide-5:shape-5",
+        "excerpt_sha256": "ee0553050c0c4286e504683adf7573d1538b948490ae4ddcaee99f5903cfbe86",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-5",
+        "excerpt_sha256": "0771e76b49f47b6f6f19af1d4477403f8fb0076d1d32087b3d913186825daae5",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "e71f86d04020a899dd517b87cce6883501ae27d0535b3e78ad9a799c3c2c1c8a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "bd4d3f7c267a43500199e3ddc653b17c909e63172e430ef797d5615cc36ab8d2",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-5:shape-5",
+        "excerpt_sha256": "ee0553050c0c4286e504683adf7573d1538b948490ae4ddcaee99f5903cfbe86",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-5",
+        "excerpt_sha256": "0771e76b49f47b6f6f19af1d4477403f8fb0076d1d32087b3d913186825daae5",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "e71f86d04020a899dd517b87cce6883501ae27d0535b3e78ad9a799c3c2c1c8a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "bd4d3f7c267a43500199e3ddc653b17c909e63172e430ef797d5615cc36ab8d2",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-5",
+        "excerpt_sha256": "0b8b89a6bb961f70f71681efebeac17226fb64f66418afd611dbc67c421ded23",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-11:shape-5",
+        "excerpt_sha256": "d8889828bc670b2b37d4a74fcf281f385c2b5a75326b82d06a86429f8aa37c2d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-12:shape-5",
+        "excerpt_sha256": "f21efe7ca6f95a4c4dea00c1e813659878a1d69ffa830d3efa0de8d07fa76c8b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-15:shape-5",
+        "excerpt_sha256": "50336c1607fc5d31a3bf7b3b7d59526cb79ce37e34cf34bec8657a5044b931f2",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-5",
+        "excerpt_sha256": "20c306488edf67b7c36220b1cce81c9309ac537f6bb3d322e9f6eff792f37463",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-17:shape-5",
+        "excerpt_sha256": "0e1982aabbb0ebbe925beb2ff02311c483cb80fcd97279cb8af867b37c90bdec",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-18:shape-5",
+        "excerpt_sha256": "0014f2fc4a2f99dadacb7417c8c641b93f7fc4633380024641a56762abf519f5",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-19:shape-5",
+        "excerpt_sha256": "666466d7e307faee74bb4f178e7285a3f4d9e9ce999fa3451d37d6e5be3b2c26",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "e71f86d04020a899dd517b87cce6883501ae27d0535b3e78ad9a799c3c2c1c8a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "bd4d3f7c267a43500199e3ddc653b17c909e63172e430ef797d5615cc36ab8d2",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "bd4d3f7c267a43500199e3ddc653b17c909e63172e430ef797d5615cc36ab8d2",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

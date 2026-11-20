@@ -1,0 +1,47 @@
+{
+  "source_sha": "84b026fb5a62a49b6205b3a36c1ac4ecdafeeab7",
+  "source_name": "波浪理论八浪精髓.docx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-36",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-37",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-27",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-28",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

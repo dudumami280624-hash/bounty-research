@@ -1,0 +1,31 @@
+{
+  "source_sha": "c95f53bf2cc1486213842bd63a2e40db4f96cf2e",
+  "source_name": "指数、个股，在下跌时如何选股.docx",
+  "topics": {
+    "volume": [
+      {
+        "location": "word/document.xml:paragraph-8",
+        "excerpt_sha256": "e91f71566308a003a6e5dd0941d11415962d1424489890d3afc3dc3e07df4e42",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-16",
+        "excerpt_sha256": "94df53984a56792684401e492d473b61a559064a31f59df3cf43d6cccd33f607",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "word/document.xml:paragraph-9",
+        "excerpt_sha256": "bce62102c4fe462a4d59a8b9ab972d2aacba02f8ff4f940f66112e9d5814a623",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-18",
+        "excerpt_sha256": "54edf9a456b48b782f638f90eee0c613d8adf2b6179e1be84deaad622da4ef6e",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

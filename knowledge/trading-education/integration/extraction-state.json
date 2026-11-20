@@ -1136,11 +1136,29 @@
       "integrated_into_lesson": false
     },
     "5ec3309434a333bc407c05aa0cbee785bbf6a792": {
+      "extraction_status": "extracted",
+      "source_sha256": "3196acb3aeb9d9a3e970da49df78ec149675d5e9efdb49ac34a4ea0cfdacdad2",
+      "text_blocks": 8,
+      "images_found": 0,
+      "topic_candidates": 0,
+      "private_research_topics": 0,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
       "source_name": "投机理论《金融炼金术》.doc",
       "category": "05-投资与基本面研究（30份）",
-      "extraction_status": "needs_conversion",
-      "attempts": 0,
-      "reason": "LibreOffice unavailable on runner"
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:02.715090+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     },
     "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690": {
       "source_name": "第八节RSI.doc",
@@ -1755,6 +1773,222 @@
       "category": "02-趋势均线形态（47份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-20T20:52:07.475823+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "3f45c70001355c99f59c2f721c4a6568a14a301e": {
+      "extraction_status": "extracted",
+      "source_sha256": "d4dd32d9da688bf23c93537259967daaca39a5bf8a14c9c12f94d1ce2c1b9fbd",
+      "text_blocks": 67,
+      "images_found": 13,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MACD（上）.pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:00.443043+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c": {
+      "extraction_status": "extracted",
+      "source_sha256": "82c062fc159dfe565945565a6847680a5dc70a1a835d074cf31f509525ee40e7",
+      "text_blocks": 42,
+      "images_found": 0,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MACD（下）.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:00.715224+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "76127d469fe291457e6a991105a93c1572ce19cc": {
+      "extraction_status": "extracted",
+      "source_sha256": "aa5c7d5dc52db4ca12af5c5010047cf14093278a0be4f605e142c30f664abc36",
+      "text_blocks": 57,
+      "images_found": 16,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MACD（下）.pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:01.878659+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "c95f53bf2cc1486213842bd63a2e40db4f96cf2e": {
+      "extraction_status": "extracted",
+      "source_sha256": "86d2719eaa747df94f8a103fec6ceeadbc219c48418cddac01c7c7663632a5e9",
+      "text_blocks": 16,
+      "images_found": 7,
+      "topic_candidates": 2,
+      "private_research_topics": 2,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "指数、个股，在下跌时如何选股.docx",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:03.166806+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "ddc65ac7dd24fd9bbece6ad6f6eb3ca4b72f56aa": {
+      "extraction_status": "extracted",
+      "source_sha256": "42f5d7161fceaec5088b8bea96faa6be33b2d3e4b7804afbd7aff690eb47df83",
+      "text_blocks": 72,
+      "images_found": 7,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "散户和机构.docx",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:03.676071+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "08da786ee575e47af86f8f143a28bbc990a51333": {
+      "extraction_status": "extracted",
+      "source_sha256": "818faa7b2520b935bbf129cb6d53b519c0a7cd69e4ab90310ba7697c4faf9ae2",
+      "text_blocks": 40,
+      "images_found": 4,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "未来10年好股票的新特点.docx",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:04.032758+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "84b026fb5a62a49b6205b3a36c1ac4ecdafeeab7": {
+      "extraction_status": "extracted",
+      "source_sha256": "838079d0f9cb020c41762607fd9751fcb731289133e33a6243cbf8353cdf1879",
+      "text_blocks": 20,
+      "images_found": 13,
+      "topic_candidates": 2,
+      "private_research_topics": 2,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "波浪理论八浪精髓.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T21:57:04.547025+00:00",
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false

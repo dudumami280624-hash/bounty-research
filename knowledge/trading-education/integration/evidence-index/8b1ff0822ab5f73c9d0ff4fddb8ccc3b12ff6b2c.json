@@ -1,0 +1,133 @@
+{
+  "source_sha": "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c",
+  "source_name": "技术指标策略体系：MACD（下）.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-27",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-30",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-21",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-24",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-27",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-30",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-30",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 64,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 10
+        },
+        {
+          "location": "word/document.xml:paragraph-21",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-24",
+          "term_mentions": 8
+        },
+        {
+          "location": "word/document.xml:paragraph-27",
+          "term_mentions": 13
+        },
+        {
+          "location": "word/document.xml:paragraph-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-33",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-40",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-43",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-51",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-54",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-59",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-62",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

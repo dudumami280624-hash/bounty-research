@@ -1,0 +1,41 @@
+{
+  "source_sha": "84b026fb5a62a49b6205b3a36c1ac4ecdafeeab7",
+  "source_name": "波浪理论八浪精髓.docx",
+  "topics": {
+    "volume": [
+      {
+        "location": "word/document.xml:paragraph-10",
+        "excerpt_sha256": "9d57d56d27f5dcb8fdd801e3d682c522663b2b57271b90dbab35a41f6eb9fb49",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "e5e344bc3221aad030775113d297a169004dd9fb02ad44a7565ed7714f4fb4f5",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-27",
+        "excerpt_sha256": "4be9abcd9cd3ae7f470a6f1140f2fa1ae11bfeb009f82311d1a8627e3f08415a",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-28",
+        "excerpt_sha256": "e73cc489c260d0dceb70698ac15dc1c25bd1fd09e12aa59f8be018e401a94bcd",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-36",
+        "excerpt_sha256": "56970aa1b8edbe74432c3165c09c82fe1ceaaf0dc39ef756660384f11f869e08",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "2fae4fead5704c1c657362ab7357acec75131d848050ad433f537fbe1ec4d1a2",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

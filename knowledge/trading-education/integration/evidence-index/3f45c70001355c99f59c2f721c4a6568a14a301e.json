@@ -1,0 +1,72 @@
+{
+  "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+  "source_name": "技术指标策略体系：MACD（上）.pptx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "slide-5:shape-6",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-5:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-5:shape-6",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-5:shape-6",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

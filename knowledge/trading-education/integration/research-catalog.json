@@ -81,6 +81,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+          "source_name": "技术指标策略体系：MACD（上）.pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -602,6 +613,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "76127d469fe291457e6a991105a93c1572ce19cc",
+          "source_name": "技术指标策略体系：MACD（下）.pptx",
+          "locations": [
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -761,6 +787,21 @@
             {
               "location": "page-16",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c",
+          "source_name": "技术指标策略体系：MACD（下）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-27",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-30",
+              "term_mentions": 4
             }
           ],
           "status": "candidate_unverified"
@@ -1014,6 +1055,21 @@
             },
             {
               "location": "slide-18:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c95f53bf2cc1486213842bd63a2e40db4f96cf2e",
+          "source_name": "指数、个股，在下跌时如何选股.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-18",
               "term_mentions": 1
             }
           ],
@@ -1343,6 +1399,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+          "source_name": "技术指标策略体系：MACD（上）.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -1586,6 +1653,17 @@
             },
             {
               "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ddc65ac7dd24fd9bbece6ad6f6eb3ca4b72f56aa",
+          "source_name": "散户和机构.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-69",
               "term_mentions": 1
             }
           ],
@@ -2325,6 +2403,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+          "source_name": "技术指标策略体系：MACD（上）.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
           "source_name": "MA均线系统三角形态选股法.docx",
           "locations": [
@@ -2514,6 +2607,128 @@
             {
               "location": "slide-6:shape-19",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "76127d469fe291457e6a991105a93c1572ce19cc",
+          "source_name": "技术指标策略体系：MACD（下）.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 10
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 13
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-12:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-15:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-17:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-18:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c",
+          "source_name": "技术指标策略体系：MACD（下）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-15",
+              "term_mentions": 10
+            },
+            {
+              "location": "word/document.xml:paragraph-21",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-24",
+              "term_mentions": 8
+            },
+            {
+              "location": "word/document.xml:paragraph-27",
+              "term_mentions": 13
+            },
+            {
+              "location": "word/document.xml:paragraph-30",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-33",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-40",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-43",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-51",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-54",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-59",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-62",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -3145,6 +3360,17 @@
     },
     "risk": {
       "sources": [
+        {
+          "source_sha": "08da786ee575e47af86f8f143a28bbc990a51333",
+          "source_name": "未来10年好股票的新特点.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-49",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
           "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
@@ -3925,6 +4151,41 @@
             {
               "location": "page-25",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ddc65ac7dd24fd9bbece6ad6f6eb3ca4b72f56aa",
+          "source_name": "散户和机构.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-85",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-93",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-94",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-112",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-115",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -4846,6 +5107,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "ddc65ac7dd24fd9bbece6ad6f6eb3ca4b72f56aa",
+          "source_name": "散户和机构.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-63",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-69",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "e89233a6da9bf095ab00177862d5f415caf6bf44",
           "source_name": "164_所有跌入中等收入陷阱的国家都源自持续性的贬值本币！.pdf",
           "locations": [
@@ -5445,6 +5725,21 @@
             {
               "location": "page-25",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+          "source_name": "技术指标策略体系：MACD（上）.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -6095,6 +6390,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "76127d469fe291457e6a991105a93c1572ce19cc",
+          "source_name": "技术指标策略体系：MACD（下）.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -6232,6 +6550,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "84b026fb5a62a49b6205b3a36c1ac4ecdafeeab7",
+          "source_name": "波浪理论八浪精髓.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-36",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-37",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -6250,6 +6583,37 @@
             {
               "location": "page-17",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c",
+          "source_name": "技术指标策略体系：MACD（下）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-21",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-24",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-27",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-30",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -6795,6 +7159,41 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "ddc65ac7dd24fd9bbece6ad6f6eb3ca4b72f56aa",
+          "source_name": "散户和机构.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-63",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-88",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-89",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-104",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-112",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-115",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "de0b1c023c32a16fa558ea799bc94b8955266411",
           "source_name": "量价关系判断买卖.pptx",
           "locations": [
@@ -7253,6 +7652,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
+          "source_name": "技术指标策略体系：MACD（上）.pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -7402,6 +7812,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "76127d469fe291457e6a991105a93c1572ce19cc",
+          "source_name": "技术指标策略体系：MACD（下）.pptx",
+          "locations": [
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -7434,6 +7855,29 @@
             {
               "location": "slide-25:shape-8",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "84b026fb5a62a49b6205b3a36c1ac4ecdafeeab7",
+          "source_name": "波浪理论八浪精髓.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-27",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-28",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -7502,6 +7946,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c",
+          "source_name": "技术指标策略体系：MACD（下）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-30",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -7534,6 +7989,21 @@
             {
               "location": "slide-3:shape-5",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c95f53bf2cc1486213842bd63a2e40db4f96cf2e",
+          "source_name": "指数、个股，在下跌时如何选股.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-16",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -7661,6 +8131,41 @@
             },
             {
               "location": "page-26",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ddc65ac7dd24fd9bbece6ad6f6eb3ca4b72f56aa",
+          "source_name": "散户和机构.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-40",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-52",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-63",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-69",
               "term_mentions": 2
             }
           ],

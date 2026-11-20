@@ -16,6 +16,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-5, page-6:OCR-unverified): review the original example and explain its context.
 
+- 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
+
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-7, word/document.xml:paragraph-13, word/document.xml:paragraph-19, word/document.xml:paragraph-51): review the original example and explain its context.
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-74): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5): review the original example and explain its context.
 
 - 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-56): review the original example and explain its context.
-
-- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-11, word/document.xml:paragraph-14): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
