@@ -58,7 +58,6 @@ It did not close above the previous session's close.
 
 **A green candle is not the same thing as a positive close-to-close return.**
 
-*Figure 1 — Two valid comparisons of the same fictional session. Clearly label the previous close, open, high, low and close. Show +5.00% open-to-close and −4.55% close-to-close. Do not imply an unobserved intraday path.*
 
 ## 2. A red candle on a winning day
 
@@ -113,7 +112,6 @@ But OHLC data alone do not reveal the exact order in which the high and low occu
 
 A daily candle compresses a trading period into four values. That compression is useful—but it leaves information out.
 
-*Figure 2 — Candlestick anatomy. Label O=$100, H=$107, L=$98, C=$105; body=$5, upper shadow=$2, lower shadow=$2, total range=$9. Include a note that the example is fictional.*
 
 ## 4. The same candle in a different context
 
@@ -131,7 +129,6 @@ These are questions to investigate, not conclusions guaranteed by the candle.
 
 **A candlestick is a measurement. A market interpretation is a hypothesis.**
 
-*Figure 3 — Three hypothetical price sequences ending in the same OHLC candle. Use consistent, fictional data and label each context. Do not attach predictive success rates.*
 
 ## 5. What volume adds—and what it cannot establish
 
