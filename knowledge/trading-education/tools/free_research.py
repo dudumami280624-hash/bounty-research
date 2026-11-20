@@ -21,20 +21,37 @@ def make_packet(blocks, source_sha, source_name):
       'topics':topics,'status':'private_unverified_research_packet'}
 
 def draft(packet, topic):
+    """Private, passage-based teaching worksheet; never a verified public lesson."""
     entries=packet['topics'].get(topic,[])
     if not entries: raise ValueError('No source passages for requested topic')
-    lines=['# '+topic.replace('_',' ').title()+' — Research Draft',
+    lines=['# '+topic.replace('_',' ').title()+' — Source-Based Teaching Worksheet',
       'INTERNAL UNVERIFIED DRAFT — NOT FOR PUBLICATION',
-      '## Source-backed questions (not verified claims)']
-    for item in entries[:12]:
-        lines.append('- Examine source passage at '+item['location']+
-          ' (SHA256 '+item['excerpt_sha256'][:16]+'). What does it define, what evidence supports it, and what are its limitations?')
-    lines+=['## Verification checklist',
-      '- Compare the definition against an independent primary or reputable reference.',
+      '## Learning objective',
+      'Examine how the supplied textbook describes '+topic.replace('_',' ')+
+      ', identify the conditions under which its examples apply, and distinguish observation from prediction.',
+      '## Textbook passages and teaching notes']
+    for i,item in enumerate(entries[:12],1):
+        passage=item.get('excerpt','').strip()
+        lines.extend(['### Passage '+str(i)+' — '+str(item['location']),
+          'Source excerpt (private, not for republication):',
+          '> '+passage.replace('\\n',' ').replace('\\r',' ')[:900],
+          'Evidence fingerprint: '+item['excerpt_sha256'],
+          'Teaching analysis: What does this passage explicitly define or describe? '
+          'What observable conditions, exceptions, and chart details are present? '
+          'Do not assume an outcome the passage does not establish.'])
+    lines+=['## Worked analysis exercise',
+      '1. Identify the chart context and any explicitly stated entry, confirmation, or invalidation condition.',
+      '2. Separate the source author\'s interpretation from visible market observations.',
+      '3. Explain one plausible alternative reading and what evidence would distinguish it.',
+      '4. Describe risks and uncertainty without claiming a guaranteed trading outcome.',
+      '## Cross-source synthesis',
+      'Compare definitions and examples with other source passages before consolidating a lesson.',
+      '## Verification checklist',
+      '- Compare each substantive claim against an independent primary or reputable reference.',
       '- Inspect original charts; OCR and image counts do not establish chart meaning.',
-      '- Record counterexamples and avoid profitability promises.',
-      '- Do not publish until every teaching claim has a cited and reviewed reference.']
-    return '\n\n'.join(lines)+'\n'
+      '- Record counterexamples, uncertainty, and disagreements.',
+      '- Do not publish until teaching claims and visual examples have been reviewed.']
+    return '\\n\\n'.join(lines)+'\\n'
 
 def main():
     parser=argparse.ArgumentParser()
