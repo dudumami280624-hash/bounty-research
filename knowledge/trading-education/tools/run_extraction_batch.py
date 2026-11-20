@@ -27,7 +27,11 @@ def inventory(text):
         match=re.match(r'^- `([^`]+)` .*?Git blob SHA-1 `([0-9a-f]{40})`',line)
         if match: entries.append({'name':match.group(1),'sha':match.group(2),'category':section})
     if len(entries)!=178: raise ValueError(f'Expected 178 inventory entries, found {len(entries)}')
-    entries.sort(key=lambda x:(not x['category'].startswith('01-'), not x['name'].lower().endswith('.pdf'), x['name']))
+    # Finish all 26 candlestick/price-action sources first; within each group,
+    # prioritize small editable files before expensive PDF OCR.
+    entries.sort(key=lambda x:(0 if x['category'].startswith('01-') else 1,
+                               0 if Path(x['name']).suffix.lower() in ('.docx','.pptx','.doc','.ppt') else 1,
+                               x['name']))
     return entries
 
 def download_blob(sha):
@@ -139,6 +143,7 @@ def main():
             print('Batch time budget reached; remaining files will resume next run',flush=True)
             break
         sha=entry['sha'];previous=files.get(sha,{})
+        print(f'BEGIN source={entry["name"]!r} sha={sha} attempt={previous.get("attempts",0)+1}',flush=True)
         attempts=previous.get('attempts',0)+1
         try:
             signal.alarm(per_source_timeout)
@@ -152,6 +157,7 @@ def main():
                        'visual_review_complete':False,'fact_checked':False,
                        'integrated_into_lesson':False})
         files[sha]=status
+        print(f'END source={entry["name"]!r} status={status["extraction_status"]} reason={status.get("error",status.get("reason",""))[:180]}',flush=True)
         # Persist a checkpoint after every source, before the next slow download/OCR.
         STATE.parent.mkdir(parents=True,exist_ok=True)
         checkpoint=STATE.with_suffix('.json.tmp')
