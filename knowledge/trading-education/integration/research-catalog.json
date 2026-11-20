@@ -43,6 +43,81 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
+          "source_name": "重要的 K 线形态组合.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -188,6 +263,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
+          "source_name": "重要的 K 线形态组合.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -198,6 +288,32 @@
             {
               "location": "page-21",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "hammer": {
+      "sources": [
+        {
+          "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
+          "source_name": "重要的 K 线形态组合.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -313,6 +429,21 @@
           "locations": [
             {
               "location": "page-26",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
+          "source_name": "重要的 K 线形态组合.pdf",
+          "locations": [
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
               "term_mentions": 1
             }
           ],
@@ -607,6 +738,57 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
+          "source_name": "重要的 K 线形态组合.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -685,6 +867,21 @@
             {
               "location": "page-7",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
+          "source_name": "重要的 K 线形态组合.pdf",
+          "locations": [
+            {
+              "location": "page-20",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"

@@ -351,6 +351,31 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f": {
+      "extraction_status": "extracted",
+      "source_sha256": "88384621f5d76c142c14a95b87177c424820a8455429eca62c4194a649cfe3a2",
+      "text_blocks": 25,
+      "images_found": 80,
+      "topic_candidates": 6,
+      "details": {
+        "pages": 25,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 25
+      },
+      "source_name": "重要的 K 线形态组合.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:31:58.254294+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
