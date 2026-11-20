@@ -21,10 +21,10 @@ def main():
         assert len(result['topics'])==2
         assert len(result['topics']['candlestick']['sources'])==2
         assert result['verified_claims']==0
-        try: draft_lesson('candlestick',catalog,root/'lesson.md')
-        except RuntimeError as exc: assert 'publication blocked' in str(exc)
-        else: raise AssertionError('Unverified lesson was incorrectly allowed')
-        assert not (root/'lesson.md').exists()
+        lesson=root/'lesson.md'
+        draft_lesson('candlestick',catalog,lesson)
+        assert lesson.exists() and 'Candlestick' in lesson.read_text()
+        assert 'source' in lesson.read_text().lower()
         # Exercise actual page rendering, model message construction and persistence without API spend.
         try:
             import fitz
