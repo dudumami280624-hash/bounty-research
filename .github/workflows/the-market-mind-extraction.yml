@@ -64,6 +64,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TMM_BATCH_SIZE: '8'
+          TMM_TIME_BUDGET_SECONDS: '1050'
         run: python knowledge/trading-education/tools/run_extraction_batch.py
       - name: Refresh cross-source research catalog
         if: always()
