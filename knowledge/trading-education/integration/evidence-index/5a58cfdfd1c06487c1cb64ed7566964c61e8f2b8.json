@@ -1,0 +1,286 @@
+{
+  "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+  "source_name": "K线策略体系：酒田五法.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 45,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-29",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-62",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-71",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-74",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-83",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-89",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-92",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-95",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-101",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-110",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-113",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-47",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-98",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 60,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-44",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-47",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-50",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-59",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-62",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-68",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-77",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-80",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-83",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-86",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-95",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-98",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-104",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-113",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-113",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-74",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 10,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-95",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-98",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-101",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-110",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-95",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-104",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

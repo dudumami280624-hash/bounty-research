@@ -1,0 +1,179 @@
+{
+  "source_sha": "ea9846e2fef8652db86ba70edb8433051a8ff1a3",
+  "source_name": "《简易缠论》 之K线包含，顶底分型，笔.pptx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 87,
+      "evidence_locations": [
+        {
+          "location": "slide-7:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-9",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-8:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-2",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-8:shape-3",
+          "term_mentions": 7
+        },
+        {
+          "location": "slide-9:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-10:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-10:shape-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-11:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-11:shape-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-11:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-12:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-12:shape-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-12:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-13:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-13:shape-2",
+          "term_mentions": 14
+        },
+        {
+          "location": "slide-14:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-2",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-14:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-15:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-15:shape-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-15:shape-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-15:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-17:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-18:shape-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-22:shape-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-26:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-28:shape-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-29:shape-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-29:shape-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-29:shape-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-30:shape-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-30:shape-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-31:shape-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-33:shape-2",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-18:shape-3",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

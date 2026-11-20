@@ -1,0 +1,174 @@
+{
+  "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+  "source_name": "K线策略体系：酒田五法.pptx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 23,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-5:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-10:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-14:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-19:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-21:shape-5",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-24:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-31:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-37:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-38:shape-5",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 31,
+      "evidence_locations": [
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-14:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-17:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-19:shape-5",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-21:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-28:shape-5",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-32:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-35:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-38:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-38:shape-5",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-25:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-37:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-32:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-35:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

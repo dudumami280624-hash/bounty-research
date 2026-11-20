@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "generated_outlines": [
+    {
+      "topic": "candlestick",
+      "file": "candlestick.md",
+      "source_count": 17,
+      "status": "working_outline"
+    },
+    {
+      "topic": "confirmation",
+      "file": "confirmation.md",
+      "source_count": 6,
+      "status": "working_outline"
+    },
+    {
+      "topic": "doji",
+      "file": "doji.md",
+      "source_count": 9,
+      "status": "working_outline"
+    },
+    {
+      "topic": "engulfing",
+      "file": "engulfing.md",
+      "source_count": 4,
+      "status": "working_outline"
+    },
+    {
+      "topic": "hammer",
+      "file": "hammer.md",
+      "source_count": 3,
+      "status": "working_outline"
+    },
+    {
+      "topic": "moving_average",
+      "file": "moving_average.md",
+      "source_count": 5,
+      "status": "working_outline"
+    },
+    {
+      "topic": "risk",
+      "file": "risk.md",
+      "source_count": 17,
+      "status": "working_outline"
+    },
+    {
+      "topic": "support_resistance",
+      "file": "support_resistance.md",
+      "source_count": 16,
+      "status": "working_outline"
+    },
+    {
+      "topic": "trend",
+      "file": "trend.md",
+      "source_count": 19,
+      "status": "working_outline"
+    },
+    {
+      "topic": "volume",
+      "file": "volume.md",
+      "source_count": 15,
+      "status": "working_outline"
+    }
+  ],
+  "blocked_topics": [],
+  "notice": "Working outlines are not independently verified lessons."
+}\n

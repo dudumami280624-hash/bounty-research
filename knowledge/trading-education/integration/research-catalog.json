@@ -58,6 +58,224 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-40",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-42",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-46",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-47",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-53",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-54",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-66",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-69",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-77",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-83",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-90",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-98",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-107",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-20",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-29",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-38",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-62",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-74",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-83",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-89",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-92",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-95",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-101",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-110",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-113",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5f5d08f8ad526bd5c3d00fd647d0027b7c7a7878",
           "source_name": "K线策略体系：起爆点.docx",
           "locations": [
@@ -373,6 +591,61 @@
             {
               "location": "word/document.xml:paragraph-60",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-21:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-24:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-31:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-37:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-38:shape-5",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -721,6 +994,165 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ea9846e2fef8652db86ba70edb8433051a8ff1a3",
+          "source_name": "《简易缠论》 之K线包含，顶底分型，笔.pptx",
+          "locations": [
+            {
+              "location": "slide-7:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-9",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-8:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-8:shape-2",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-8:shape-3",
+              "term_mentions": 7
+            },
+            {
+              "location": "slide-9:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-10:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-11:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-11:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-12:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-12:shape-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-12:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-13:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-2",
+              "term_mentions": 14
+            },
+            {
+              "location": "slide-14:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-2",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-14:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-15:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-15:shape-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-15:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-17:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-22:shape-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-26:shape-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-28:shape-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-29:shape-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-29:shape-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-29:shape-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-30:shape-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-30:shape-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-31:shape-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-33:shape-2",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -730,11 +1162,72 @@
     "confirmation": {
       "sources": [
         {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-96",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-105",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-112",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-113",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-38",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-95",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-104",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5f5d08f8ad526bd5c3d00fd647d0027b7c7a7878",
           "source_name": "K线策略体系：起爆点.docx",
           "locations": [
             {
               "location": "word/document.xml:paragraph-51",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-32:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-35:shape-5",
               "term_mentions": 1
             }
           ],
@@ -805,6 +1298,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-47",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-98",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
           "source_name": "六种常见看跌蜡烛图形态 .pdf",
           "locations": [
@@ -848,6 +1364,21 @@
             },
             {
               "location": "word/document.xml:paragraph-39",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
               "term_mentions": 1
             }
           ],
@@ -973,6 +1504,21 @@
     },
     "engulfing": {
       "sources": [
+        {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-67",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
           "source_name": "六种常见看跌蜡烛图形态 .pdf",
@@ -1144,6 +1690,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-81",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
           "source_name": "六种常见看跌蜡烛图形态 .pdf",
           "locations": [
@@ -1253,6 +1818,44 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-96",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-95",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-98",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-101",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-110",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5f5d08f8ad526bd5c3d00fd647d0027b7c7a7878",
           "source_name": "K线策略体系：起爆点.docx",
           "locations": [
@@ -1299,6 +1902,17 @@
           "locations": [
             {
               "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-37:shape-5",
               "term_mentions": 1
             }
           ],
@@ -1505,6 +2119,64 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-81",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-96",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-100",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-102",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-104",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-105",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-108",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-110",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-113",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-113",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5f5d08f8ad526bd5c3d00fd647d0027b7c7a7878",
           "source_name": "K线策略体系：起爆点.docx",
           "locations": [
@@ -1588,6 +2260,17 @@
             {
               "location": "word/document.xml:paragraph-36",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-38:shape-5",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -1770,6 +2453,208 @@
             },
             {
               "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-7",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-12",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-13",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-19",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-24",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-47",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-48",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-63",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-65",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-70",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-80",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-81",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-88",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-96",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-109",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-112",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-20",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-38",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-44",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-47",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-50",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-53",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-59",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-62",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-77",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-83",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-86",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-95",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-98",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-104",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-113",
               "term_mentions": 1
             }
           ],
@@ -1991,6 +2876,53 @@
             {
               "location": "word/document.xml:paragraph-48",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-17:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-21:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-28:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-32:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-35:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-38:shape-5",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -2315,6 +3247,17 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ea9846e2fef8652db86ba70edb8433051a8ff1a3",
+          "source_name": "《简易缠论》 之K线包含，顶底分型，笔.pptx",
+          "locations": [
+            {
+              "location": "slide-18:shape-3",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -2424,6 +3367,92 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+          "source_name": "K线组合形态 文档.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-19",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-58",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-75",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-81",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-86",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-88",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-93",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-96",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-101",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-104",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-109",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-112",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
+          "source_name": "K线策略体系：酒田五法.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-74",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
           "source_name": "六种常见看跌蜡烛图形态 .pdf",
           "locations": [
@@ -2459,6 +3488,17 @@
             },
             {
               "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7c1743f1133a5eba9cae67086cf1b63c8e78b628",
+          "source_name": "K线策略体系：酒田五法.pptx",
+          "locations": [
+            {
+              "location": "slide-25:shape-5",
               "term_mentions": 1
             }
           ],

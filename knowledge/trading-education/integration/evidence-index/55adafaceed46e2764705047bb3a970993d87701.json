@@ -1,0 +1,437 @@
+{
+  "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
+  "source_name": "K线组合形态 文档.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 34,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-10",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-13",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-31",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-39",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-42",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-46",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-47",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-51",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-54",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-66",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-68",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-69",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-77",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-83",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-90",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-98",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-107",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "engulfing",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-67",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 59,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-12",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-13",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-19",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-24",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-34",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-47",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-48",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-55",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-63",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-65",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-70",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-75",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-80",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-81",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-88",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-96",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-109",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-112",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 11,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-75",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-81",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-96",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-100",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-102",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-104",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-105",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-108",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-110",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-113",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 33,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-13",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-19",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-51",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-58",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-71",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-75",
+          "term_mentions": 6
+        },
+        {
+          "location": "word/document.xml:paragraph-81",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-86",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-88",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-93",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-96",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-101",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-104",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-109",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-112",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-96",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-75",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-81",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-96",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-105",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-112",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-113",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
