@@ -4,7 +4,7 @@ Requires Python 3.10+; PDF requires: pip install pymupdf.
 This is mechanical extraction, NOT visual verification or factual validation.
 Do not commit extracted third-party text into a public repository.
 """
-import argparse, hashlib, json, re, zipfile, shutil, subprocess, tempfile
+import argparse, hashlib, json, re, zipfile, shutil, subprocess, tempfile, os
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -48,6 +48,14 @@ def pdf(path):
     try: import fitz
     except ImportError: raise SystemExit('Install PDF support: pip install pymupdf')
     d=fitz.open(path); blocks=[]; images=[]; blank=[]; ocr_pages=[]; ocr_failed_pages=[]
+    # A page OCR must not exhaust the per-document 90-second watchdog.
+    ocr_timeout=max(3,min(30,int(os.environ.get('TMM_OCR_PAGE_TIMEOUT_SECONDS','12'))))
+    languages='eng'
+    if shutil.which('tesseract'):
+        try:
+            available=subprocess.run(['tesseract','--list-langs'],capture_output=True,text=True,timeout=5).stdout
+            if 'chi_sim' in available.split(): languages='eng+chi_sim'
+        except (subprocess.TimeoutExpired,OSError): pass
     for i,p in enumerate(d,1):
         s=p.get_text('text').strip()
         if s: blocks.append({'location':f'page-{i}','text':s})
@@ -58,8 +66,8 @@ def pdf(path):
                     image_path=Path(tmp)/'page.png'
                     image_path.write_bytes(p.get_pixmap(matrix=fitz.Matrix(2,2)).tobytes('png'))
                     try:
-                        run=subprocess.run(['tesseract',str(image_path),'stdout','-l','eng+chi_sim'],
-                                           capture_output=True,text=True,timeout=120)
+                        run=subprocess.run(['tesseract',str(image_path),'stdout','-l',languages],
+                                           capture_output=True,text=True,timeout=ocr_timeout)
                         if run.returncode==0 and run.stdout.strip():
                             blocks.append({'location':f'page-{i}:OCR-unverified',
                                            'text':run.stdout.strip()})
@@ -70,7 +78,7 @@ def pdf(path):
         for j,im in enumerate(p.get_images(full=True),1):
             images.append({'location':f'page-{i}:image-{j}',
                            'xref':im[0],'visually_verified':False})
-    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_failed_pages':ocr_failed_pages, 'ocr_requires_manual_review':True}
+    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_failed_pages':ocr_failed_pages, 'ocr_languages':languages, 'ocr_page_timeout_seconds':ocr_timeout, 'ocr_requires_manual_review':True}
 
 def main():
     a=argparse.ArgumentParser()
