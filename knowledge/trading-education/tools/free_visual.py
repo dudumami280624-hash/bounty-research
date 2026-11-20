@@ -11,6 +11,7 @@ def inspect_pdf(pdf_path, output):
     langs=subprocess.run(['tesseract','--list-langs'],capture_output=True,text=True).stdout if shutil.which('tesseract') else ''
     ocr_lang='eng+chi_sim' if 'chi_sim' in langs else 'eng'
     result=[]
+    ocr_timeout=max(1,min(120,int(os.environ.get('TMM_OCR_PAGE_TIMEOUT_SECONDS','12'))))
     # A bounded visual sample prevents huge PDFs from monopolizing the hourly batch.
     # Record incomplete coverage explicitly; this is not a full chart audit.
     max_pages=max(1,int(os.environ.get('TMM_VISUAL_MAX_PAGES','12')))
@@ -37,10 +38,10 @@ def inspect_pdf(pdf_path, output):
                 image=Path(td)/'page.png';image.write_bytes(png)
                 try:
                     proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
-                        capture_output=True,text=True,timeout=30)
+                        capture_output=True,text=True,timeout=ocr_timeout)
                 except subprocess.TimeoutExpired:
                     record['ocr_success']=False
-                    record['ocr_error']='OCR timed out after 30 seconds'
+                    record['ocr_error']=f'OCR timed out after {ocr_timeout} seconds'
                     proc=None
                 if proc is not None:
                     record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
@@ -53,6 +54,7 @@ def inspect_pdf(pdf_path, output):
         record['chart_semantics_verified']=False
         (out/f'page-{index+1:04}.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
         result.append(record)
+    doc.close()
     return result
 
 if __name__=='__main__':
