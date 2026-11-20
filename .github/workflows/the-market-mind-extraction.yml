@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# Verification run: prioritize an indexed PDF after the successful PPTX run.
 
 on:
   schedule:
