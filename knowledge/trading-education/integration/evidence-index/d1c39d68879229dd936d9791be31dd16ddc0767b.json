@@ -1,0 +1,20 @@
+{
+  "source_sha": "d1c39d68879229dd936d9791be31dd16ddc0767b",
+  "source_name": "华尔街传奇《股票大作手回忆录》.doc",
+  "topics": [
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-29",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -1,0 +1,153 @@
+{
+  "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
+  "source_name": "MA均线系统三角形态选股法.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-1",
+        "excerpt_sha256": "310ca20286b4ae5be78c86a82e8da32538b3b60b51e8a9ec52e1f1f7ab9e6cf6",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-17",
+        "excerpt_sha256": "947850309e34c5a8c500b87416276529801571c690ab646b737b22dd3eea647b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-22",
+        "excerpt_sha256": "d43e49721ebd8a0628e493cd9ea66543936e55788a7bbb42cb5182ac6862225a",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-23",
+        "excerpt_sha256": "576d35632540b0e6927d9abe6dca9013d95fc47b7f4ea2b58ecb31ead60485aa",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-25",
+        "excerpt_sha256": "96508aab4f1345b483cc87f3805cfadccbe50d31a48d8c99ec71e822747c8385",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-27",
+        "excerpt_sha256": "96508aab4f1345b483cc87f3805cfadccbe50d31a48d8c99ec71e822747c8385",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-28",
+        "excerpt_sha256": "ece8b52abb17331928242eef073afc05f79e293324c0fcc6ff8baf88eb8ec9d2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-29",
+        "excerpt_sha256": "ece8b52abb17331928242eef073afc05f79e293324c0fcc6ff8baf88eb8ec9d2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-34",
+        "excerpt_sha256": "fef9838eb0c72d2949c1f41505872f3988690e62a8a2d4514a3935566a630364",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-35",
+        "excerpt_sha256": "fef9838eb0c72d2949c1f41505872f3988690e62a8a2d4514a3935566a630364",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "d5e07eb087c3c67520520ca3a606f887a853be2a350604b258750bc24af1da62",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-1",
+        "excerpt_sha256": "310ca20286b4ae5be78c86a82e8da32538b3b60b51e8a9ec52e1f1f7ab9e6cf6",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-3",
+        "excerpt_sha256": "cf6b699285e94201b22b5c10e9d60ada0a52468b4ffa4f5da2b6ed1dc9f6f363",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "4791b688aeeda39710537cfefc596c635c2428b44af9217633da5ee05c898c00",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-7",
+        "excerpt_sha256": "f5c539bd65376c63296c02f4cd8e7411beb77a7d76b7528f59d8524ceada6c12",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "c742aee4e1dd8f8c84e839a3c150ecda0e4660c95031e16e103f0c41258d48eb",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-15",
+        "excerpt_sha256": "0f4bd863c8c6a3577ad89ecd53216d7dd0ff6cd34c4066887db141338e89d804",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-17",
+        "excerpt_sha256": "947850309e34c5a8c500b87416276529801571c690ab646b737b22dd3eea647b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-20",
+        "excerpt_sha256": "f2e9e7f26b0f47dcf720c6b0b8eaff8886c5e1e1147c621f2d56a6e0167ff20d",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-23",
+        "excerpt_sha256": "576d35632540b0e6927d9abe6dca9013d95fc47b7f4ea2b58ecb31ead60485aa",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-24",
+        "excerpt_sha256": "6aa5f0787fd586a55ceecabd3f0b579071a446646fe8b9ea050f461ba169e89b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-26",
+        "excerpt_sha256": "6aa5f0787fd586a55ceecabd3f0b579071a446646fe8b9ea050f461ba169e89b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-30",
+        "excerpt_sha256": "6d6c66f6294bcb9c34d53c5bb284125c01f878fa9375ab9fc900c664b4b88353",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-31",
+        "excerpt_sha256": "6d6c66f6294bcb9c34d53c5bb284125c01f878fa9375ab9fc900c664b4b88353",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-34",
+        "excerpt_sha256": "fef9838eb0c72d2949c1f41505872f3988690e62a8a2d4514a3935566a630364",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-35",
+        "excerpt_sha256": "fef9838eb0c72d2949c1f41505872f3988690e62a8a2d4514a3935566a630364",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "d5e07eb087c3c67520520ca3a606f887a853be2a350604b258750bc24af1da62",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "word/document.xml:paragraph-23",
+        "excerpt_sha256": "576d35632540b0e6927d9abe6dca9013d95fc47b7f4ea2b58ecb31ead60485aa",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

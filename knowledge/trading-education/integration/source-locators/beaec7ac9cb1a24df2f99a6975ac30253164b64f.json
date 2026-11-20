@@ -1,0 +1,167 @@
+{
+  "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
+  "source_name": "MA均线系统实战法则.docx",
+  "topics": {
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-1",
+        "excerpt_sha256": "0fd20facabc96df3354845b685f81e6103c5f5670f5890e85bb0ed9b505ee3f7",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-2",
+        "excerpt_sha256": "f95e76b2a803ca1507c3eb5eb7ecbd5e2999d6bcd81098700403d39cad395eb7",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-3",
+        "excerpt_sha256": "66bb5021ff110b74f69d2a60a38d913779c0f6c8ae2f79291b566944cc0e43dc",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-4",
+        "excerpt_sha256": "15911a048f7b99944bd9425e20d01a01e606e830ebe66a74c69e3c4326ea0e05",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-5",
+        "excerpt_sha256": "0477bab6c49b37fd39315e27b57292e9d1d6e7eea2d6a0395880e8b9ee95b895",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "1126adc74fe98f55b73a9d04af82b9d06dcdb58368efd9650df886236a7c841f",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "ce210888eb50e5510909ece3d3480f96db0737ef3c189e767602e39b14a0e8d6",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "5f4a357b2bb4668ae289a47c6b3c198a90852a1a531365e30f6b77f5a4fdceed",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-17",
+        "excerpt_sha256": "a55b0ac23545b0854a7ace42fefab05610fcb29c88f5b676c2e9a26dc6dc3379",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-18",
+        "excerpt_sha256": "0f9ee30de73b35a6176ed52a42194990fa0a622d43f7f4ca6d79616e19392589",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-19",
+        "excerpt_sha256": "3c876c99559196b0b29288bd46d32fc85dd107dd94496a805b7a6f21c63ae3d0",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-20",
+        "excerpt_sha256": "e141c1a8feab213a5b94a5eed6feccf584138c273eec1f5b5d7b69051782ecdb",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-3",
+        "excerpt_sha256": "66bb5021ff110b74f69d2a60a38d913779c0f6c8ae2f79291b566944cc0e43dc",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-4",
+        "excerpt_sha256": "15911a048f7b99944bd9425e20d01a01e606e830ebe66a74c69e3c4326ea0e05",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-5",
+        "excerpt_sha256": "0477bab6c49b37fd39315e27b57292e9d1d6e7eea2d6a0395880e8b9ee95b895",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "1126adc74fe98f55b73a9d04af82b9d06dcdb58368efd9650df886236a7c841f",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-7",
+        "excerpt_sha256": "e62084bbb41b2cc3286b6676dc4fae62c0669612c944a36621397dc3822852d4",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-9",
+        "excerpt_sha256": "98018f20fe5fd4c833052f4524fb84cf3b374e9bb3b1655df644c7f84635643b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "62cf1a397a5d36edff0c78621ae9a836e3084142b8a2aacefacb4c42ce13f98b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "5f4a357b2bb4668ae289a47c6b3c198a90852a1a531365e30f6b77f5a4fdceed",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-15",
+        "excerpt_sha256": "91c2fbedd1d975e242c13ee6ed6bdab26b4d0a115e6aaa5e7444d0bee426fd78",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-4",
+        "excerpt_sha256": "15911a048f7b99944bd9425e20d01a01e606e830ebe66a74c69e3c4326ea0e05",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-15",
+        "excerpt_sha256": "91c2fbedd1d975e242c13ee6ed6bdab26b4d0a115e6aaa5e7444d0bee426fd78",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-19",
+        "excerpt_sha256": "3c876c99559196b0b29288bd46d32fc85dd107dd94496a805b7a6f21c63ae3d0",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "1126adc74fe98f55b73a9d04af82b9d06dcdb58368efd9650df886236a7c841f",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-9",
+        "excerpt_sha256": "98018f20fe5fd4c833052f4524fb84cf3b374e9bb3b1655df644c7f84635643b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "62cf1a397a5d36edff0c78621ae9a836e3084142b8a2aacefacb4c42ce13f98b",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "word/document.xml:paragraph-18",
+        "excerpt_sha256": "0f9ee30de73b35a6176ed52a42194990fa0a622d43f7f4ca6d79616e19392589",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-19",
+        "excerpt_sha256": "3c876c99559196b0b29288bd46d32fc85dd107dd94496a805b7a6f21c63ae3d0",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-20",
+        "excerpt_sha256": "e141c1a8feab213a5b94a5eed6feccf584138c273eec1f5b5d7b69051782ecdb",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

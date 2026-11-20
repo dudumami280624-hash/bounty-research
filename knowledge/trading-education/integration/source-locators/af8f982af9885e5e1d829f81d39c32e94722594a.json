@@ -1,0 +1,38 @@
+{
+  "source_sha": "af8f982af9885e5e1d829f81d39c32e94722594a",
+  "source_name": "反转形态之双重顶（M字型态）.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-3",
+        "excerpt_sha256": "319319c11eccc89e46b53a60e34fd613a32c0aede8bfa477ef71973c8f1a0f7f",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "6c12233f7c9617c5d448fc6b3f0d472b30215bc7d020dbf3b8b77e03d12c73bf",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "6c12233f7c9617c5d448fc6b3f0d472b30215bc7d020dbf3b8b77e03d12c73bf",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-8",
+        "excerpt_sha256": "f6f8dca5effb0913a708cb819a99f41db7555f4265f96cc7193b0989f6acb71b",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "word/document.xml:paragraph-13",
+        "excerpt_sha256": "bcdb5d419065bfcd9feb275270407b775ac6969bca8fcbc2d322d3811383f3f5",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

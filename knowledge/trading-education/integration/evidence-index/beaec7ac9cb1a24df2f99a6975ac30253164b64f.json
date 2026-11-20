@@ -1,0 +1,164 @@
+{
+  "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
+  "source_name": "MA均线系统实战法则.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-18",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-19",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 28,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-4",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-5",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-4",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-19",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 37,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 14
+        },
+        {
+          "location": "word/document.xml:paragraph-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-4",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-12",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-18",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-19",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 5
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

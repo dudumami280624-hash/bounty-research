@@ -1,0 +1,142 @@
+{
+  "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
+  "source_name": "MA均线系统三角形态选股法.docx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 21,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-22",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 8
+        },
+        {
+          "location": "word/document.xml:paragraph-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-27",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-28",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-29",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-34",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-37",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 36,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 10
+        },
+        {
+          "location": "word/document.xml:paragraph-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-31",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-34",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-37",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

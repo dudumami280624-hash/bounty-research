@@ -1,0 +1,306 @@
+{
+  "source_sha": "2c0ff6f3ea76b28f2c1b4681c6ab1f3bafbcdf71",
+  "source_name": "华尔街：金字塔交易（1.2.3.4.5）.docx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 56,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-4",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-28",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-37",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-39",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-42",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-47",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-48",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-52",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-55",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-59",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-60",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-61",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-63",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-64",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-65",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-66",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-72",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-73",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-74",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-88",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-89",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-92",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-94",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-118",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-119",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 47,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-31",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-37",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-43",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-48",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-54",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-57",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-61",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-66",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-71",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-72",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-73",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-74",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-78",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-94",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-96",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-98",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-102",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-106",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-109",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-114",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-48",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

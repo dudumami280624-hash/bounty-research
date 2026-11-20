@@ -1,0 +1,31 @@
+{
+  "source_sha": "aaee24e62e47ed22a627a3e940276873634bff17",
+  "source_name": "价值投资理论《证券分析》.doc",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-9",
+        "excerpt_sha256": "9fdd3528508a0dd524793d08d270dda82b26d5191c1ca8aa2a9752c4d9727a9b",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "859b5107f163d51b3687e89bc854bf77d39e9271f17f114ced2db83f31e8a0db",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-36",
+        "excerpt_sha256": "0ab999b37a18eca3445cd5336b6cb80c6a7328d8e0d908f6144d0d2519e7f111",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "344d1eadc3a2332e583a692278e24c9893454caf8fda07ee69695fdbd1d99c25",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

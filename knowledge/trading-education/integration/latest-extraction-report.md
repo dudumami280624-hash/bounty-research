@@ -1,19 +1,19 @@
 # The Market Mind — 178份原件自动处理进度
 
 - 本轮批量处理：8份
-- 缺口.docx：extracted
-- 量价关系判断买卖.pptx：extracted
-- 100_房地产投资依然无忧，逆向思维让你找到真实.pdf：extracted
-- 11-经济大周期_踩准节拍再投资（高清）--海宁.pdf：failed
-- 139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf：extracted
-- 143_寻找朝阳行业，为下一个五年、十年做储备.pdf：extracted
-- 164_所有跌入中等收入陷阱的国家都源自持续性的贬值本币！.pdf：extracted
-- 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf：extracted
+- MA均线系统三角形态选股法.docx：extracted
+- MA均线系统实战法则.docx：extracted
+- 《极简缠论》截止到中枢战法.ppt：needs_visual_review
+- 价值投资理论《证券分析》.doc：extracted
+- 华尔街传奇《股票大作手回忆录》.doc：extracted
+- 华尔街：金字塔交易（1.2.3.4.5）.docx：extracted
+- 反转形态之三重顶与三重底.docx：extracted
+- 反转形态之双重顶（M字型态）.docx：extracted
 - 本轮状态：extracted
-- 已提取文字：31/178
+- 已提取文字：38/178
 - OCR不完整待重试：0
-- 需视觉复核：0
-- 需旧格式转换：6
+- 需视觉复核：1
+- 需旧格式转换：3
 - 失败待重试：1；重试耗尽：0
 - 完成图表视觉核验：0；完成事实核验：0；完成课程融合：0
 

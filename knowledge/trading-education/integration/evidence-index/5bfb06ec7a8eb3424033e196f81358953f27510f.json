@@ -1,0 +1,76 @@
+{
+  "source_sha": "5bfb06ec7a8eb3424033e196f81358953f27510f",
+  "source_name": "反转形态之三重顶与三重底.docx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-21",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-25",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-36",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-45",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-43",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

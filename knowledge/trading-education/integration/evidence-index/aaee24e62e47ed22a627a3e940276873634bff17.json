@@ -1,0 +1,39 @@
+{
+  "source_sha": "aaee24e62e47ed22a627a3e940276873634bff17",
+  "source_name": "价值投资理论《证券分析》.doc",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-12",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-36",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-37",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

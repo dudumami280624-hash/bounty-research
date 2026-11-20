@@ -8,9 +8,13 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-48): review the original example and explain its context.
+
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-96, word/document.xml:paragraph-105, word/document.xml:paragraph-112, word/document.xml:paragraph-113): review the original example and explain its context.
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-35, word/document.xml:paragraph-38, word/document.xml:paragraph-95, word/document.xml:paragraph-104): review the original example and explain its context.
+
+- 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-9): review the original example and explain its context.
 
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-51): review the original example and explain its context.
 

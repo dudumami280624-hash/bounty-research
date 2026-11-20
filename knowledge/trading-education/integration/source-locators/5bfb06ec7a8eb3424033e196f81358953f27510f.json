@@ -1,0 +1,57 @@
+{
+  "source_sha": "5bfb06ec7a8eb3424033e196f81358953f27510f",
+  "source_name": "反转形态之三重顶与三重底.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-2",
+        "excerpt_sha256": "5f829915a0478e104e1d510ce64721857a1e80c070cd9a12ed84758c2a3fd545",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-21",
+        "excerpt_sha256": "3b0da32a24a6d8c46738cbe9a980d7cb0063b00b8d84a39da929ccce1a7cc602",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-25",
+        "excerpt_sha256": "2178d0a952bd7221d124856d58ec24dd18972b2a3612f99dac9b131410c54ccb",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "word/document.xml:paragraph-9",
+        "excerpt_sha256": "4332b085c8bf13bb9241e9dad48e07619880dcd7618e7f15662d68a1bb14a1c4",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "word/document.xml:paragraph-30",
+        "excerpt_sha256": "2187bc8776bb7bd2b25a7304bf7549e2b2696136b78c9ed629bc6a8831b1b179",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-45",
+        "excerpt_sha256": "48b486572702ca894f4377d00fd35a99a106248c6337d6d8e227a2eeff3979d7",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-36",
+        "excerpt_sha256": "fdf10b383133ee820a0248e33bf39ae1134d83a15688cc4c4c81119a5b097586",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-43",
+        "excerpt_sha256": "cd59697f7349a53b55ec190c7585214aa07a1ec97272ea127f60542524ff0346",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

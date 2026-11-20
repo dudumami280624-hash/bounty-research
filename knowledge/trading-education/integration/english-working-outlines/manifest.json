@@ -4,13 +4,13 @@
     {
       "topic": "candlestick",
       "file": "candlestick.md",
-      "source_count": 18,
+      "source_count": 19,
       "status": "working_outline"
     },
     {
       "topic": "confirmation",
       "file": "confirmation.md",
-      "source_count": 10,
+      "source_count": 12,
       "status": "working_outline"
     },
     {
@@ -34,31 +34,31 @@
     {
       "topic": "moving_average",
       "file": "moving_average.md",
-      "source_count": 7,
+      "source_count": 10,
       "status": "working_outline"
     },
     {
       "topic": "risk",
       "file": "risk.md",
-      "source_count": 21,
+      "source_count": 25,
       "status": "working_outline"
     },
     {
       "topic": "support_resistance",
       "file": "support_resistance.md",
-      "source_count": 21,
+      "source_count": 25,
       "status": "working_outline"
     },
     {
       "topic": "trend",
       "file": "trend.md",
-      "source_count": 26,
+      "source_count": 32,
       "status": "working_outline"
     },
     {
       "topic": "volume",
       "file": "volume.md",
-      "source_count": 20,
+      "source_count": 22,
       "status": "working_outline"
     }
   ],

@@ -968,25 +968,147 @@
       "integrated_into_lesson": false
     },
     "ab80ea463ab1988c3d7ca01e823bdf99b7374659": {
+      "extraction_status": "needs_visual_review",
+      "source_sha256": "16cf61b5584e375bcb6c170f60e493e7099fb78f62bbcc40c424627458543390",
+      "text_blocks": 0,
+      "images_found": 68,
+      "topic_candidates": 0,
+      "private_research_topics": 0,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml",
+          "ppt/slides/slide23.xml",
+          "ppt/slides/slide24.xml",
+          "ppt/slides/slide25.xml",
+          "ppt/slides/slide26.xml",
+          "ppt/slides/slide27.xml",
+          "ppt/slides/slide28.xml",
+          "ppt/slides/slide29.xml",
+          "ppt/slides/slide30.xml",
+          "ppt/slides/slide31.xml",
+          "ppt/slides/slide32.xml",
+          "ppt/slides/slide33.xml",
+          "ppt/slides/slide34.xml",
+          "ppt/slides/slide35.xml",
+          "ppt/slides/slide36.xml",
+          "ppt/slides/slide37.xml",
+          "ppt/slides/slide38.xml",
+          "ppt/slides/slide39.xml",
+          "ppt/slides/slide40.xml",
+          "ppt/slides/slide41.xml",
+          "ppt/slides/slide42.xml",
+          "ppt/slides/slide43.xml",
+          "ppt/slides/slide44.xml",
+          "ppt/slides/slide45.xml",
+          "ppt/slides/slide46.xml",
+          "ppt/slides/slide47.xml",
+          "ppt/slides/slide48.xml",
+          "ppt/slides/slide49.xml",
+          "ppt/slides/slide50.xml",
+          "ppt/slides/slide51.xml",
+          "ppt/slides/slide52.xml",
+          "ppt/slides/slide53.xml",
+          "ppt/slides/slide54.xml",
+          "ppt/slides/slide55.xml",
+          "ppt/slides/slide56.xml",
+          "ppt/slides/slide57.xml",
+          "ppt/slides/slide58.xml",
+          "ppt/slides/slide59.xml",
+          "ppt/slides/slide60.xml",
+          "ppt/slides/slide61.xml",
+          "ppt/slides/slide62.xml",
+          "ppt/slides/slide63.xml",
+          "ppt/slides/slide64.xml",
+          "ppt/slides/slide65.xml",
+          "ppt/slides/slide66.xml",
+          "ppt/slides/slide67.xml",
+          "ppt/slides/slide68.xml",
+          "ppt/slides/slide69.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
       "source_name": "《极简缠论》截止到中枢战法.ppt",
       "category": "02-趋势均线形态（47份）",
-      "extraction_status": "needs_conversion",
-      "attempts": 0,
-      "reason": "LibreOffice unavailable on runner"
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:54.801123+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     },
     "aaee24e62e47ed22a627a3e940276873634bff17": {
+      "extraction_status": "extracted",
+      "source_sha256": "6d216fc68398e1ec6ac5d237dcfe13433ef6696707ff05e01f8b8a8bd82225d4",
+      "text_blocks": 30,
+      "images_found": 0,
+      "topic_candidates": 2,
+      "private_research_topics": 2,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
       "source_name": "价值投资理论《证券分析》.doc",
       "category": "05-投资与基本面研究（30份）",
-      "extraction_status": "needs_conversion",
-      "attempts": 0,
-      "reason": "LibreOffice unavailable on runner"
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:55.701030+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     },
     "d1c39d68879229dd936d9791be31dd16ddc0767b": {
+      "extraction_status": "extracted",
+      "source_sha256": "01011839ea38abafb87f3d430a39bf5778afab275f3b2bd449c8c1f7c5c9c6bd",
+      "text_blocks": 18,
+      "images_found": 0,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
       "source_name": "华尔街传奇《股票大作手回忆录》.doc",
       "category": "04-交易心理与风险（18份）",
-      "extraction_status": "needs_conversion",
-      "attempts": 0,
-      "reason": "LibreOffice unavailable on runner"
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:56.428683+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     },
     "615359fb27454108dfc7c567a1116f264b13a92e": {
       "source_name": "技术分析《道氏理论》.doc",
@@ -1223,6 +1345,131 @@
       "category": "06-宏观经济与市场周期（16份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-20T19:07:48.214402+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "48dab88c33e0e0564718f5b6075364f5f3f51a3c": {
+      "extraction_status": "extracted",
+      "source_sha256": "b981f147f6273132cf55eb98d01139266b368dde7853c3d0fb55ea0ae697dfc5",
+      "text_blocks": 22,
+      "images_found": 8,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "MA均线系统三角形态选股法.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:49.904082+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "beaec7ac9cb1a24df2f99a6975ac30253164b64f": {
+      "extraction_status": "extracted",
+      "source_sha256": "87e349fc7470ea362587d8b94395c9c0d4dab7cc5cd5569fe45a99472772c85b",
+      "text_blocks": 16,
+      "images_found": 4,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "MA均线系统实战法则.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:50.325043+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "2c0ff6f3ea76b28f2c1b4681c6ab1f3bafbcdf71": {
+      "extraction_status": "extracted",
+      "source_sha256": "81555394dbd66a5e9d1770d430b0f4e087589b76047b0b9314abc446924e8d5e",
+      "text_blocks": 129,
+      "images_found": 20,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "华尔街：金字塔交易（1.2.3.4.5）.docx",
+      "category": "08-待归类（11份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:57.544163+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "5bfb06ec7a8eb3424033e196f81358953f27510f": {
+      "extraction_status": "extracted",
+      "source_sha256": "bc7b0c0ac663ceb0a3c2f60a59e63422fae00355ba1885039fbd2ccc69b10fd3",
+      "text_blocks": 30,
+      "images_found": 5,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "反转形态之三重顶与三重底.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:58.055493+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "af8f982af9885e5e1d829f81d39c32e94722594a": {
+      "extraction_status": "extracted",
+      "source_sha256": "ee994cf9047888446b348615b7c5befa4af558508ee1d78cc41510eb8c00e541",
+      "text_blocks": 5,
+      "images_found": 3,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "反转形态之双重顶（M字型态）.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:52:58.461542+00:00",
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false

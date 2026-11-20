@@ -16,9 +16,13 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-3, page-19): review the original example and explain its context.
 
+- 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-4, word/document.xml:paragraph-5, word/document.xml:paragraph-6): review the original example and explain its context.
+
 - 股价涨跌的真正原因.pdf (source 2c475db0e753, page-11:OCR-unverified): review the original example and explain its context.
 
 - 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-9, page-14, page-21, page-22, page-23): review the original example and explain its context.
+
+- MA均线系统三角形态选股法.docx (source 48dab88c33e0, word/document.xml:paragraph-23): review the original example and explain its context.
 
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-96): review the original example and explain its context.
 
@@ -27,10 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-45, word/document.xml:paragraph-79, word/document.xml:paragraph-87): review the original example and explain its context.
 
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-26): review the original example and explain its context.
-
-- K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5): review the original example and explain its context.
-
-- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-11): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

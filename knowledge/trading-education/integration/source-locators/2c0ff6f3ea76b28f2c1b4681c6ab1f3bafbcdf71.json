@@ -1,0 +1,358 @@
+{
+  "source_sha": "2c0ff6f3ea76b28f2c1b4681c6ab1f3bafbcdf71",
+  "source_name": "华尔街：金字塔交易（1.2.3.4.5）.docx",
+  "topics": {
+    "risk": [
+      {
+        "location": "word/document.xml:paragraph-2",
+        "excerpt_sha256": "60de7818b9c0d856765a4f82c808a41eb10a32c50b43eb931aedc0a4328fe67c",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-3",
+        "excerpt_sha256": "6f68b9640a29489c1a79ed8e7aa4f2ae3bce56936b9ef710d8f2864d1bc19df4",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-4",
+        "excerpt_sha256": "789d14778b8a885b7f0a30913dc40454ff4758dfab015374fe003ba9aa7b348e",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-5",
+        "excerpt_sha256": "046e402ed7a87c3b18cbf6ca8a294fdac9da1ed0bfc95218ca85c53a0c46a395",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "48dacc26197b4555ba59c2dd2ecf230a10197da49217916b1cbaa93d1a557dca",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-7",
+        "excerpt_sha256": "4e932e8d218b868f3bce1b24c5554b4c93c0cb7b88e90f5276555ebfc02949da",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-15",
+        "excerpt_sha256": "3240b63e6a5137ec343654fd2f12ac49d053b6833d79d9006f21883985e3dad6",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-16",
+        "excerpt_sha256": "7a1bb20d996e608eefe4d1c4162c024c0c7e33e4445201ac27ec888f141655e2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-20",
+        "excerpt_sha256": "1868c28e0d776071eb1d1b1f488493db28a67874d7e716666f699081ffe8c17d",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-23",
+        "excerpt_sha256": "9060087109aba346c16b1d6b2dacaca60d2a03c95714d806390b8fbaa932c095",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-25",
+        "excerpt_sha256": "6361e570b696468d3059cb9e2c59278e19b6d39e3542fb8c22d2f9c00064012f",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-31",
+        "excerpt_sha256": "f4a877d7788a948f95aea1534020d2ebb0047cf6bade19b58518811778992da0",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-35",
+        "excerpt_sha256": "d7df82c0b9747a2cf0058daa3b44eacd3c3701826b51070ca7b80475a194cafe",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "c5fa85a893403316e81b41a2caecfbc43a6bcaad19d245e256d22193ee57861a",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-38",
+        "excerpt_sha256": "4464a7b4538859fd1e05504221338b68065fc15668858cd9ff9621a74cb9a0ab",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-40",
+        "excerpt_sha256": "30856c2b6ac7480c24e266c7f340286ab8bf8d55d7d400be7cd5bf8be3791b87",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-43",
+        "excerpt_sha256": "61d12f698c9559ef0ccf3d706fc9f72f1a9846d2a19bb4681dc898ab02ba95cb",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-48",
+        "excerpt_sha256": "e78729c7f6bd5b38b5eb91e634e8019590b5938ede092c60bd99c3baf7f64e61",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-53",
+        "excerpt_sha256": "adb128cc786a60c1c622b0caeb39fdea36af7b3367d794fb104f80473b704e6d",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-54",
+        "excerpt_sha256": "443faf0dae55d623c6bbb784a03ed24eeb2466997167a1ec00258e7d2e20267b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-56",
+        "excerpt_sha256": "aaa97445155d42999ce593a55be361f3184af39336044ca3f60d4c7d3969a00e",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-57",
+        "excerpt_sha256": "5905057ad67a782afc9eae19db02ff97d4e42dcfa3eaea1e24b07d5bfec7a5b9",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-61",
+        "excerpt_sha256": "7f498867a682f2bb7251c26994167399f3a98ba0b7b312b4f74b4c90fd7462a7",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-66",
+        "excerpt_sha256": "960bd9160ab7baf839b573bbb4b228b923980ef687b080e0a14be7b8e004aadf",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-71",
+        "excerpt_sha256": "e821c9618f1616ec428abf749bba9f602f05319cb415a32b22de02a3a1aa8377",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-72",
+        "excerpt_sha256": "798798e8edae70f661cb4edb4e4764827708d3613b897344076c0b5bf0b330d9",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-73",
+        "excerpt_sha256": "9d3c82df1bce597f16a89e9619de0b54f957251567226de8166d4afb1fe98209",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-74",
+        "excerpt_sha256": "3ccfe49d8ab76d5a526a941a3409f91e873497c3037d1667d309e18b1aaabba3",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-78",
+        "excerpt_sha256": "542d02fcfbfe95b4fdd909cd977532e0df2d30ef60512fa0f63eb631ebe190b3",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-94",
+        "excerpt_sha256": "345b0475174d09498e2d7ab5119431222e9ad39db07fcc80c52da53f14677e79",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-96",
+        "excerpt_sha256": "c85626fab735dccc0fb07888e24a213c06f61b7b6552d5f3e2206d2332a401fd",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-98",
+        "excerpt_sha256": "51a7d85320606e26decd8747f202ae473b94e6752df11646ea510f14f7bfd147",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-102",
+        "excerpt_sha256": "1bd014b63c88a1c6fc55c0cbc76eefb71944e070f01228b4732c9a465f1aef4c",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-106",
+        "excerpt_sha256": "5f2ff134fd7b1c5bf4cacea959d36d646b69308df905392c186c95131d659ce6",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-109",
+        "excerpt_sha256": "5d7c961fe9d595a9a3985c4b50272c36fadea60edf472d19375a9485588a9e19",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-114",
+        "excerpt_sha256": "565bc4b66ca62b8fe04beb8988e0561656b3a1f7526a47be9a0643e540572691",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-4",
+        "excerpt_sha256": "789d14778b8a885b7f0a30913dc40454ff4758dfab015374fe003ba9aa7b348e",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-6",
+        "excerpt_sha256": "48dacc26197b4555ba59c2dd2ecf230a10197da49217916b1cbaa93d1a557dca",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-10",
+        "excerpt_sha256": "feac9909a810f2baf308a56c658cc33e59f7d6adc4334253d33ff3d3b7c0058d",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "866c068f566cac2f862bf1cb7f5775ae92296131160d52eb7c3c5cda46ac0b2e",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-16",
+        "excerpt_sha256": "7a1bb20d996e608eefe4d1c4162c024c0c7e33e4445201ac27ec888f141655e2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-17",
+        "excerpt_sha256": "dbce4c3dd37ebe292bc306bd0963537a78deac2901caf7af9074857dc05cc5d9",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-28",
+        "excerpt_sha256": "a515f074b98862d97ba7028a31471a45d0ca59343390b6f967472d532f4b9856",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "c5fa85a893403316e81b41a2caecfbc43a6bcaad19d245e256d22193ee57861a",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-39",
+        "excerpt_sha256": "5a0090f4cd99418b61c013cabee69cb95f533dd0a8d76d2f99b42c1e763b0658",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-42",
+        "excerpt_sha256": "313565fddcf223ef7a680f8b66a8cdd7e862007113cb0f33854957c510d7c782",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-47",
+        "excerpt_sha256": "aebcd419be7c3eca08a2d944b0be828f7d8a6696efd97ed365085d5e69c67c2e",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-48",
+        "excerpt_sha256": "e78729c7f6bd5b38b5eb91e634e8019590b5938ede092c60bd99c3baf7f64e61",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-52",
+        "excerpt_sha256": "9a542f382a327bb79dbcfff9fbcb77fad53d9b913efb0eaea37223e6f1b1dd14",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-53",
+        "excerpt_sha256": "adb128cc786a60c1c622b0caeb39fdea36af7b3367d794fb104f80473b704e6d",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-55",
+        "excerpt_sha256": "0aa84aba771ce45cd9419c40dc56362cd081860af129aeab0a5fa5e19abe1090",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-56",
+        "excerpt_sha256": "aaa97445155d42999ce593a55be361f3184af39336044ca3f60d4c7d3969a00e",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-59",
+        "excerpt_sha256": "d6c04a8247412a51e937c6b6866c5543d8ba98aeedea70fa935b421bc71cfa1c",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-60",
+        "excerpt_sha256": "6cc093c7d9c6e5a0defc528fddaaabae6158d3a0494bd27468e75d4a30161022",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-61",
+        "excerpt_sha256": "7f498867a682f2bb7251c26994167399f3a98ba0b7b312b4f74b4c90fd7462a7",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-63",
+        "excerpt_sha256": "a515f074b98862d97ba7028a31471a45d0ca59343390b6f967472d532f4b9856",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-64",
+        "excerpt_sha256": "1037201541686b9e0762197e1933556ff46ea4cd4070ac5b8cae5094c45f4e1a",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-65",
+        "excerpt_sha256": "14ffe72df5fa7e7d1a213e94b5d7e2e463fde5727f167e0fb9938f4f5fc90bfd",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-66",
+        "excerpt_sha256": "960bd9160ab7baf839b573bbb4b228b923980ef687b080e0a14be7b8e004aadf",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-72",
+        "excerpt_sha256": "798798e8edae70f661cb4edb4e4764827708d3613b897344076c0b5bf0b330d9",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-73",
+        "excerpt_sha256": "9d3c82df1bce597f16a89e9619de0b54f957251567226de8166d4afb1fe98209",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-74",
+        "excerpt_sha256": "3ccfe49d8ab76d5a526a941a3409f91e873497c3037d1667d309e18b1aaabba3",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-88",
+        "excerpt_sha256": "cf478c3a14150626c37015291690153023e5e18c94b5e94ed6bf623ed16f2c01",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-89",
+        "excerpt_sha256": "3fd595434e178a4c1fecb6d6134135746308cc6903c70ca07f9c7d880da306f5",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-92",
+        "excerpt_sha256": "a978afa7bd658a76c08c572712137ccd345b81a1d85b36ade41cc3a38cfb3fd9",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-94",
+        "excerpt_sha256": "345b0475174d09498e2d7ab5119431222e9ad39db07fcc80c52da53f14677e79",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-118",
+        "excerpt_sha256": "81df31244abe07220d3af804be94b65326850fa6b8fe54c38eed8d4519560afe",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-119",
+        "excerpt_sha256": "d03b6a8f96815f3f90309bc48cfd58877584a2c581299e5a9311f11d370e5f3c",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "word/document.xml:paragraph-48",
+        "excerpt_sha256": "e78729c7f6bd5b38b5eb91e634e8019590b5938ede092c60bd99c3baf7f64e61",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

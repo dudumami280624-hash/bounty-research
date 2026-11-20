@@ -1,0 +1,50 @@
+{
+  "source_sha": "af8f982af9885e5e1d829f81d39c32e94722594a",
+  "source_name": "反转形态之双重顶（M字型态）.docx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-13",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

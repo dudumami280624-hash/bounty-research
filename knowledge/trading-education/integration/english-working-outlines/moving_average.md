@@ -12,9 +12,15 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-31:shape-26, slide-31:shape-27): review the original example and explain its context.
 
+- MA均线系统三角形态选股法.docx (source 48dab88c33e0, word/document.xml:paragraph-1, word/document.xml:paragraph-3, word/document.xml:paragraph-6, word/document.xml:paragraph-7, word/document.xml:paragraph-11): review the original example and explain its context.
+
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-75, word/document.xml:paragraph-81): review the original example and explain its context.
 
+- 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-43): review the original example and explain its context.
+
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-8): review the original example and explain its context.
+
+- MA均线系统实战法则.docx (source beaec7ac9cb1, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-4, word/document.xml:paragraph-5): review the original example and explain its context.
 
 - 成交量与 K 线形态的力量.pdf (source db98c9518038, page-22, page-24, page-26): review the original example and explain its context.
 
