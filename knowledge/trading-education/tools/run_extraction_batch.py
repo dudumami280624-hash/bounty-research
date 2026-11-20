@@ -66,7 +66,7 @@ def extract(entry, blob):
             source=converted;ext=target_ext
         blocks,images,details=(pdf(source) if ext=='.pdf' else ooxml(source,ext[1:]))
         # Temporary private working files only; do not publish or upload artifacts.
-        work=Path(os.environ.get('RUNNER_TEMP',temp))/'tmm-private-extraction'
+        work=Path(os.environ.get('RUNNER_TEMP',temp))/'tmm-private-extraction'/entry['sha']
         work.mkdir(parents=True,exist_ok=True)
         (work/'extracted_text.md').write_text('\n\n'.join(
             f"### {b['location']}\n{b['text']}" for b in blocks),encoding='utf-8')
@@ -82,10 +82,14 @@ def extract(entry, blob):
             try:
                 observations=inspect_pdf(source,work/'visual-review'/entry['sha'])
                 vision_result={'status':'free_visual_features_unverified',
-                  'pages_analyzed':len(observations)}
+                  'pages_analyzed':len(observations),
+                  'chart_candidate_pages':sum(bool(x.get('chart_candidate')) for x in observations),
+                  'ocr_failed_pages':sum(not x.get('ocr_success',False) for x in observations)}
             except Exception as exc:
                 vision_result={'status':'free_visual_failed','pages_analyzed':0,
                   'error':str(exc)[:300]}
+        if vision_result.get('ocr_failed_pages',0):
+            details['ocr_failed_pages']=vision_result['ocr_failed_pages']
         evidence=ROOT/'integration/evidence-index'/ (entry['sha']+'.json')
         evidence.parent.mkdir(parents=True,exist_ok=True)
         evidence.write_text(json.dumps({'source_sha':entry['sha'],'source_name':entry['name'],
