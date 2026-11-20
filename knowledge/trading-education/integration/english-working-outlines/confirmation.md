@@ -30,7 +30,7 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 量价关系的基本形态.pdf (source 88e7b83e7b42, page-9, page-13): review the original example and explain its context.
 
-- 139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf (source d47f4419325e, page-163, page-608, page-649, page-717, page-767): review the original example and explain its context.
+- 葛兰威尔均线八大法则（卖1）.pptx (source b1c891a38487, slide-4:shape-30): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

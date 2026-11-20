@@ -1,0 +1,97 @@
+{
+  "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
+  "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+  "topics": [
+    {
+      "concept": "doji",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-6:shape-1",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 14,
+      "evidence_locations": [
+        {
+          "location": "slide-2:shape-502",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-3:shape-66",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-4:shape-22",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-6:shape-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-9:shape-502",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 25,
+      "evidence_locations": [
+        {
+          "location": "slide-2:shape-502",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-3:shape-21",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-3:shape-66",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-5:shape-6",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-6:shape-1",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-7:shape-6",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-9:shape-502",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-9:shape-503",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-30",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

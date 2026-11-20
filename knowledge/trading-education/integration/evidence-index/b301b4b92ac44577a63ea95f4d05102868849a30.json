@@ -1,0 +1,206 @@
+{
+  "source_sha": "b301b4b92ac44577a63ea95f4d05102868849a30",
+  "source_name": "经典干货--斐波那契回撤线与扩展线.pptx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 28,
+      "evidence_locations": [
+        {
+          "location": "slide-2:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-4:shape-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-4:shape-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-5:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-6:shape-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-7:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-3",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-9:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-10:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 10
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 37,
+      "evidence_locations": [
+        {
+          "location": "slide-2:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-3:shape-1",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-3:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-3:shape-7",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-4:shape-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-4:shape-16",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-5:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-3",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-9:shape-1",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-10:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-12:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-13:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-5",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 18,
+      "evidence_locations": [
+        {
+          "location": "slide-1:shape-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-2:shape-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-3:shape-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-4:shape-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-5:shape-3",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-6:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-10:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-12:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-13:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

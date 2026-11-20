@@ -4,6 +4,17 @@
     "candlestick": {
       "sources": [
         {
+          "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
+          "source_name": "第10节RSI.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-20",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "26cfdc67c551a2d74592686f34934082a77451c5",
           "source_name": "K线策略体系：起爆点.pptx",
           "locations": [
@@ -569,6 +580,21 @@
             },
             {
               "location": "slide-18:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
+          "source_name": "第九节RSI.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-29",
               "term_mentions": 1
             }
           ],
@@ -1550,6 +1576,28 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "b1c891a38487862a1858c3dcbddf17dec1cd8dc2",
+          "source_name": "葛兰威尔均线八大法则（卖1）.pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-30",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
+          "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-30",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d47f4419325ee4fc52c9419adcc2ed86283367a1",
           "source_name": "139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf",
           "locations": [
@@ -2150,6 +2198,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
+          "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-1",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ee0b5930e6e38f56e3404096ff0b33fdf36ed100",
           "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
           "locations": [
@@ -2530,6 +2589,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
+          "source_name": "第九节RSI.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
           "source_name": "技术指标策略体系：MA.docx",
           "locations": [
@@ -2745,6 +2819,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "b1c891a38487862a1858c3dcbddf17dec1cd8dc2",
+          "source_name": "葛兰威尔均线八大法则（卖1）.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-502",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-3:shape-21",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-3:shape-66",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-6:shape-1",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-7:shape-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-9:shape-502",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-9:shape-503",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
           "source_name": "MA均线系统实战法则.docx",
           "locations": [
@@ -2795,6 +2908,45 @@
             {
               "location": "word/document.xml:paragraph-20",
               "term_mentions": 5
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
+          "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-502",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-3:shape-21",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-3:shape-66",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-6:shape-1",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-7:shape-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-9:shape-502",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-9:shape-503",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -3352,6 +3504,17 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fd137bca6df4422394760cee46c5733e62662764",
+          "source_name": "筑底行情如何选股.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -3760,6 +3923,169 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "73b66f7cfef0881bb8ff5f78f46029ab89031205",
+          "source_name": "第2部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-115",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-116",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-172",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-221",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-229",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-238",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-251",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-258",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-259",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-262",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-385",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-404",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-471",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-473",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-576",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-618",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-669",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-674",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-855",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-881",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-882",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1004",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1055",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1057",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1091",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1092",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1098",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1099",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1102",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1165",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1197",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1306",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1329",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1330",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1337",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1384",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1404",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1409",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1422",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -3824,6 +4150,61 @@
           "locations": [
             {
               "location": "word/document.xml:paragraph-34",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "b301b4b92ac44577a63ea95f4d05102868849a30",
+          "source_name": "经典干货--斐波那契回撤线与扩展线.pptx",
+          "locations": [
+            {
+              "location": "slide-1:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-2:shape-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-3:shape-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-4:shape-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-3",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-6:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-12:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
               "term_mentions": 1
             }
           ],
@@ -4191,6 +4572,109 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "e52818fc8b1efd429060a61eb72d2a27a1d444ca",
+          "source_name": "第3部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-88",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-228",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-387",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-473",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-534",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-535",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-538",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-618",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-652",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-653",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-705",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-743",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-955",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-958",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1010",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1025",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1029",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1038",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1122",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1206",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1234",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1235",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1265",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1494",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ee0b5930e6e38f56e3404096ff0b33fdf36ed100",
           "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
           "locations": [
@@ -4455,6 +4939,17 @@
     },
     "support_resistance": {
       "sources": [
+        {
+          "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
+          "source_name": "第10节RSI.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-12",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
           "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
@@ -4787,6 +5282,41 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "73b66f7cfef0881bb8ff5f78f46029ab89031205",
+          "source_name": "第2部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-172",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-410",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-509",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-878",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1040",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1193",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1405",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -4875,6 +5405,97 @@
             {
               "location": "word/document.xml:paragraph-8",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "b301b4b92ac44577a63ea95f4d05102868849a30",
+          "source_name": "经典干货--斐波那契回撤线与扩展线.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-3:shape-1",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-3:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-3:shape-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-4:shape-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-4:shape-16",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-5:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-8:shape-3",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-9:shape-1",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-12:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -5121,6 +5742,49 @@
             {
               "location": "word/document.xml:paragraph-69",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "e52818fc8b1efd429060a61eb72d2a27a1d444ca",
+          "source_name": "第3部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-462",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-611",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-648",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-660",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1003",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1009",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1100",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1258",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1499",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -5401,6 +6065,17 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fd137bca6df4422394760cee46c5733e62662764",
+          "source_name": "筑底行情如何选股.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -5409,6 +6084,17 @@
     },
     "trend": {
       "sources": [
+        {
+          "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
+          "source_name": "第10节RSI.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-9",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
           "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
@@ -6328,6 +7014,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
+          "source_name": "第九节RSI.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
           "source_name": "技术指标策略体系：MA.docx",
           "locations": [
@@ -6385,6 +7090,45 @@
             {
               "location": "slide-19:shape-5",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "73b66f7cfef0881bb8ff5f78f46029ab89031205",
+          "source_name": "第2部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-478",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-676",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-971",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1053",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1081",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1111",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1207",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1401",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -6802,6 +7546,80 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "b1c891a38487862a1858c3dcbddf17dec1cd8dc2",
+          "source_name": "葛兰威尔均线八大法则（卖1）.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-502",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-3:shape-66",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-4:shape-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-502",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "b301b4b92ac44577a63ea95f4d05102868849a30",
+          "source_name": "经典干货--斐波那契回撤线与扩展线.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-4:shape-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-4:shape-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-6:shape-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-7:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-8:shape-3",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-9:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 10
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
           "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
           "locations": [
@@ -6878,6 +7696,33 @@
             },
             {
               "location": "word/document.xml:paragraph-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
+          "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-502",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-3:shape-66",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-4:shape-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-9:shape-502",
               "term_mentions": 1
             }
           ],
@@ -7225,6 +8070,53 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "e52818fc8b1efd429060a61eb72d2a27a1d444ca",
+          "source_name": "第3部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-292",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-471",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-708",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-713",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-940",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-952",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1133",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1224",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1227",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1499",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "e89233a6da9bf095ab00177862d5f415caf6bf44",
           "source_name": "164_所有跌入中等收入陷阱的国家都源自持续性的贬值本币！.pdf",
           "locations": [
@@ -7543,6 +8435,17 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fd137bca6df4422394760cee46c5733e62662764",
+          "source_name": "筑底行情如何选股.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -7806,6 +8709,29 @@
           "locations": [
             {
               "location": "word/document.xml:paragraph-56",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "73b66f7cfef0881bb8ff5f78f46029ab89031205",
+          "source_name": "第2部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-873",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-874",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1188",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1189",
               "term_mentions": 1
             }
           ],
@@ -8233,6 +9159,45 @@
             },
             {
               "location": "slide-14:shape-1",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "e52818fc8b1efd429060a61eb72d2a27a1d444ca",
+          "source_name": "第3部.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-291",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-915",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-943",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-952",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-988",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1003",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-1005",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-1313",
               "term_mentions": 1
             }
           ],

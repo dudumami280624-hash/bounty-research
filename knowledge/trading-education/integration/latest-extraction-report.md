@@ -1,16 +1,16 @@
 # The Market Mind — 178份原件自动处理进度
 
 - 本轮批量处理：8份
-- 技术指标策略体系：MACD（上）.pptx：extracted
-- 技术指标策略体系：MACD（下）.docx：extracted
-- 技术指标策略体系：MACD（下）.pptx：extracted
-- 投机理论《金融炼金术》.doc：extracted
-- 指数、个股，在下跌时如何选股.docx：extracted
-- 散户和机构.docx：extracted
-- 未来10年好股票的新特点.docx：extracted
-- 波浪理论八浪精髓.docx：extracted
+- 第10节RSI.docx：extracted
+- 第2部.docx：extracted
+- 第3部.docx：extracted
+- 第九节RSI.docx：extracted
+- 筑底行情如何选股.docx：extracted
+- 经典干货--斐波那契回撤线与扩展线.pptx：extracted
+- 葛兰威尔均线八大法则（买1）.pptx：extracted
+- 葛兰威尔均线八大法则（卖1）.pptx：extracted
 - 本轮状态：extracted
-- 已提取文字：54/178
+- 已提取文字：62/178
 - OCR不完整待重试：0
 - 需视觉复核：1
 - 需旧格式转换：1

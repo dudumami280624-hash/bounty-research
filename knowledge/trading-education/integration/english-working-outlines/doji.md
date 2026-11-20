@@ -26,6 +26,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 1.初学者成为高手的秘籍：十字星.pptx (source b915344b9813, slide-5:shape-4, slide-5:shape-5, slide-6:shape-4, slide-6:shape-5, slide-7:shape-4): review the original example and explain its context.
 
+- 葛兰威尔均线八大法则（买1）.pptx (source c43ef4a49b43, slide-6:shape-1): review the original example and explain its context.
+
 - 100_房地产投资依然无忧，逆向思维让你找到真实.pdf (source ee0b5930e6e3, page-4108): review the original example and explain its context.
 
 ## Practical interpretation

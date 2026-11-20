@@ -1,0 +1,28 @@
+{
+  "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
+  "source_name": "第10节RSI.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-9",
+        "excerpt_sha256": "2a840cc487a26b12f205c2ebf28509b292eb62922e223024bb74d43f72c9a2a2",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "dbcada36d09d38fcd295dc813be930f56a0111b08fd92b77393a1898da6420f6",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "word/document.xml:paragraph-20",
+        "excerpt_sha256": "80db3a249047a763839ba36b56f157da254d1c666fa53050d651d7e52a616418",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

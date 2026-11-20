@@ -1992,6 +1992,237 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "18ac71456414816f9070abf851cad423dc9f0a8c": {
+      "extraction_status": "extracted",
+      "source_sha256": "ca693f372576b4170e4f9d2232fc34ab4f2127cb801d39153cb9311d32d5ddff",
+      "text_blocks": 14,
+      "images_found": 6,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "第10节RSI.docx",
+      "category": "03-技术指标（8份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:51.037497+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "73b66f7cfef0881bb8ff5f78f46029ab89031205": {
+      "extraction_status": "extracted",
+      "source_sha256": "3617c551c7b421803364ae6b0bc9243dbe30180e1c4db42793f87b6b31f3272c",
+      "text_blocks": 1425,
+      "images_found": 0,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml",
+          "word/footer1.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "第2部.docx",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:51.463618+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "e52818fc8b1efd429060a61eb72d2a27a1d444ca": {
+      "extraction_status": "extracted",
+      "source_sha256": "164b5b448c83c2497e6282e9429616b543ec1505ad2be3e0b1b1ddb761236c28",
+      "text_blocks": 1577,
+      "images_found": 0,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml",
+          "word/footer1.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "第3部.docx",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:51.909806+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "7037c578702660333c360059073299d5dfc4cc4e": {
+      "extraction_status": "extracted",
+      "source_sha256": "f0788b7b82cb0d9dacdb81b3ce2460b7e7ad9afe910227742a157563738b20f3",
+      "text_blocks": 14,
+      "images_found": 6,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "第九节RSI.docx",
+      "category": "03-技术指标（8份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:52.306630+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "fd137bca6df4422394760cee46c5733e62662764": {
+      "extraction_status": "extracted",
+      "source_sha256": "8f9e34837b34e44b4dfbf05331cdfd88529e5e17412924ddcda14cf1046a3fc4",
+      "text_blocks": 11,
+      "images_found": 1,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "筑底行情如何选股.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:52.584295+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "b301b4b92ac44577a63ea95f4d05102868849a30": {
+      "extraction_status": "extracted",
+      "source_sha256": "2973fddf7a28e1e645023dcc9a78c64ddac07ccd99414eae5710203410372412",
+      "text_blocks": 42,
+      "images_found": 11,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "经典干货--斐波那契回撤线与扩展线.pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:52.884973+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "c43ef4a49b4387da77f9387c1f42729d40d1ca59": {
+      "extraction_status": "extracted",
+      "source_sha256": "7469331e668cbe66b389d04f598e2fa81383cff163e8f97d88a5c88e3585925d",
+      "text_blocks": 19,
+      "images_found": 7,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:53.330170+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "b1c891a38487862a1858c3dcbddf17dec1cd8dc2": {
+      "extraction_status": "extracted",
+      "source_sha256": "44ba4d5c74f21f766fea3886e6b53cdc93b22c9e9f802050a7c4f8bb5cb8fdd7",
+      "text_blocks": 19,
+      "images_found": 7,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "葛兰威尔均线八大法则（卖1）.pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T22:58:53.769808+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }

@@ -1,0 +1,233 @@
+{
+  "source_sha": "b301b4b92ac44577a63ea95f4d05102868849a30",
+  "source_name": "经典干货--斐波那契回撤线与扩展线.pptx",
+  "topics": {
+    "risk": [
+      {
+        "location": "slide-1:shape-3",
+        "excerpt_sha256": "d741f96b431d387131c2f0220d04c81d51d08b87dca69f8002b244cdb067cfc3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-2:shape-3",
+        "excerpt_sha256": "8b2740bfe35c8c93416dfa52bb33a244e97af9656e580f649d8aa9451b6e85df",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-7",
+        "excerpt_sha256": "6ed854ba109be272e43ac357945c2717b8b66847607e8068f84e5c20d52ec96c",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-16",
+        "excerpt_sha256": "5551df63eaf3de7bc8773592c21ab19f32c87f7641482945fcbfc45941a00486",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-3",
+        "excerpt_sha256": "4bfc7ff0864fecd0de11eaa4073b7e18eb4ba483ad2f2c55813c7294201aed79",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-3",
+        "excerpt_sha256": "8780f3884d7c3da629aea47fa70ac82d6db825ad03e2c8a82ad4c60394c5085f",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-7",
+        "excerpt_sha256": "28d17c6c80c9ad4a45abe4a06f4d43266a64ef6e9b4b3e95a89433dbfeec6bfe",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-8",
+        "excerpt_sha256": "e18b929329287de4d50d3382f38f2a99ab3e2a5f0cdd3b0c4713e8f5acfd4d94",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-3",
+        "excerpt_sha256": "547279bc3c5022629fc2ba5eeadb9b57eb86b8fed74986e6824e9a3eb8fdce2a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-12:shape-5",
+        "excerpt_sha256": "9f7fbc72216543767e29a02ddc997e8313774f33e3622121a986c84fb8dddc18",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-13:shape-5",
+        "excerpt_sha256": "0db0db0de65f2ad67bdb227d270999884e4cd9f27f98a29a43b9ba6345259961",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-14:shape-5",
+        "excerpt_sha256": "25f430a11c64845de0f38bed7239bd75019e5952a0f230b86ac7fbdb99e01e14",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "slide-2:shape-3",
+        "excerpt_sha256": "8b2740bfe35c8c93416dfa52bb33a244e97af9656e580f649d8aa9451b6e85df",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-17",
+        "excerpt_sha256": "2cebb2ab7164b4a68d4e126d65702bfcbff3539afe5c54cb0ab85cc48e9bd7ef",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-18",
+        "excerpt_sha256": "c4b84652ea8443d63d2468af00c1050f4393eb5053d61c707d866248a3246f01",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-3",
+        "excerpt_sha256": "4bfc7ff0864fecd0de11eaa4073b7e18eb4ba483ad2f2c55813c7294201aed79",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-3",
+        "excerpt_sha256": "8780f3884d7c3da629aea47fa70ac82d6db825ad03e2c8a82ad4c60394c5085f",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-8",
+        "excerpt_sha256": "8579a8b6ba235081dd7f361c016a0a1941087830a0e1416f2c50540e69e17db6",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-3",
+        "excerpt_sha256": "0fefa7cdc519d4de0f910df4d155ca36a9ac4cf99dc851173cde26f9eb8b4bd5",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-8",
+        "excerpt_sha256": "e18b929329287de4d50d3382f38f2a99ab3e2a5f0cdd3b0c4713e8f5acfd4d94",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-9",
+        "excerpt_sha256": "a250cae58c0129ffe514610ddbd015909ab9b1d0d70b5b9d387f192edec2017a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-3",
+        "excerpt_sha256": "547279bc3c5022629fc2ba5eeadb9b57eb86b8fed74986e6824e9a3eb8fdce2a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-11:shape-5",
+        "excerpt_sha256": "a2a34799165c24c3d4f2b30c564d3dc84d3a26fdd49426bc83116a01dedb316d",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "slide-2:shape-3",
+        "excerpt_sha256": "8b2740bfe35c8c93416dfa52bb33a244e97af9656e580f649d8aa9451b6e85df",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-1",
+        "excerpt_sha256": "43aaadf8a84a68af45e34442570c5308365ff7f5d9feae558d13c19fe95962e7",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-5",
+        "excerpt_sha256": "b3fcbbc3e215888815de879d87b4e2a84baf26248320531569d6fd5a5ced4b95",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-7",
+        "excerpt_sha256": "6ed854ba109be272e43ac357945c2717b8b66847607e8068f84e5c20d52ec96c",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-15",
+        "excerpt_sha256": "b3fcbbc3e215888815de879d87b4e2a84baf26248320531569d6fd5a5ced4b95",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-16",
+        "excerpt_sha256": "5551df63eaf3de7bc8773592c21ab19f32c87f7641482945fcbfc45941a00486",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-3",
+        "excerpt_sha256": "4bfc7ff0864fecd0de11eaa4073b7e18eb4ba483ad2f2c55813c7294201aed79",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-2",
+        "excerpt_sha256": "5f43671005e6759a76ba020d7bbf3841e7d66b9674a34ac38ff90af48f351ef2",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-5",
+        "excerpt_sha256": "b3fcbbc3e215888815de879d87b4e2a84baf26248320531569d6fd5a5ced4b95",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-7",
+        "excerpt_sha256": "28d17c6c80c9ad4a45abe4a06f4d43266a64ef6e9b4b3e95a89433dbfeec6bfe",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-8",
+        "excerpt_sha256": "8579a8b6ba235081dd7f361c016a0a1941087830a0e1416f2c50540e69e17db6",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-3",
+        "excerpt_sha256": "0fefa7cdc519d4de0f910df4d155ca36a9ac4cf99dc851173cde26f9eb8b4bd5",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-1",
+        "excerpt_sha256": "43aaadf8a84a68af45e34442570c5308365ff7f5d9feae558d13c19fe95962e7",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "b3fcbbc3e215888815de879d87b4e2a84baf26248320531569d6fd5a5ced4b95",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-8",
+        "excerpt_sha256": "e18b929329287de4d50d3382f38f2a99ab3e2a5f0cdd3b0c4713e8f5acfd4d94",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-9",
+        "excerpt_sha256": "a250cae58c0129ffe514610ddbd015909ab9b1d0d70b5b9d387f192edec2017a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-3",
+        "excerpt_sha256": "547279bc3c5022629fc2ba5eeadb9b57eb86b8fed74986e6824e9a3eb8fdce2a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-11:shape-5",
+        "excerpt_sha256": "a2a34799165c24c3d4f2b30c564d3dc84d3a26fdd49426bc83116a01dedb316d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-12:shape-5",
+        "excerpt_sha256": "9f7fbc72216543767e29a02ddc997e8313774f33e3622121a986c84fb8dddc18",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-13:shape-5",
+        "excerpt_sha256": "0db0db0de65f2ad67bdb227d270999884e4cd9f27f98a29a43b9ba6345259961",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-14:shape-5",
+        "excerpt_sha256": "25f430a11c64845de0f38bed7239bd75019e5952a0f230b86ac7fbdb99e01e14",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -1,0 +1,58 @@
+{
+  "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
+  "source_name": "第九节RSI.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-29",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

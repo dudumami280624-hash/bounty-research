@@ -1,0 +1,28 @@
+{
+  "source_sha": "fd137bca6df4422394760cee46c5733e62662764",
+  "source_name": "筑底行情如何选股.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-8",
+        "excerpt_sha256": "011fed84ee679e920b9a169acc4aab640f8e33d15f123831f9ac44576bd9c247",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-8",
+        "excerpt_sha256": "011fed84ee679e920b9a169acc4aab640f8e33d15f123831f9ac44576bd9c247",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-10",
+        "excerpt_sha256": "1cad51253ea671acd5a7c71685e9fe3fb7b05f7bef2a0fa7a40cd65dc697e213",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

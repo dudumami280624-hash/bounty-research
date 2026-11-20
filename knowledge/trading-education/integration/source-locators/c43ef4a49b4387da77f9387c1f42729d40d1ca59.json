@@ -1,0 +1,90 @@
+{
+  "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
+  "source_name": "葛兰威尔均线八大法则（买1）.pptx",
+  "topics": {
+    "trend": [
+      {
+        "location": "slide-2:shape-502",
+        "excerpt_sha256": "034c6bc12ac2a6710610e599804346193c96d750859c845302d851eeec10d99d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-66",
+        "excerpt_sha256": "7e9ad455c021fa3ecc80dfabae48834f349db230000f8247113873464b16563a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-22",
+        "excerpt_sha256": "4468d18aa5d3c199874b14f756f44c124d76a0faec3c5672e2ebcd3104d4d35a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-1",
+        "excerpt_sha256": "3a735c977666cfc109c94c08204c9225b0d89121b52db8e2b1cb5d3df8cbeb89",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-502",
+        "excerpt_sha256": "2d0240609077a4349cbc431899fbc9aaacc1d1992862550edf6290a8af524db7",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-2:shape-502",
+        "excerpt_sha256": "034c6bc12ac2a6710610e599804346193c96d750859c845302d851eeec10d99d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-21",
+        "excerpt_sha256": "c132e53f50634cc3fbdbcd5132acd9775d90cf0565a11da1d6e9365bd6432d8d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-66",
+        "excerpt_sha256": "7e9ad455c021fa3ecc80dfabae48834f349db230000f8247113873464b16563a",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-6",
+        "excerpt_sha256": "bf553040df66105b8ad49c8850abcaca8f9d98c3ce2aa77c041dbead4ba971ea",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-1",
+        "excerpt_sha256": "3a735c977666cfc109c94c08204c9225b0d89121b52db8e2b1cb5d3df8cbeb89",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-6",
+        "excerpt_sha256": "bf553040df66105b8ad49c8850abcaca8f9d98c3ce2aa77c041dbead4ba971ea",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-502",
+        "excerpt_sha256": "2d0240609077a4349cbc431899fbc9aaacc1d1992862550edf6290a8af524db7",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-503",
+        "excerpt_sha256": "4d8a4c886fa7e2c7a233bd2659798b6e51e27c4955a69b676048e5c6a22e32a3",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "slide-4:shape-30",
+        "excerpt_sha256": "11c71ed823d145643aae09ed68f20d5c81edeec6ee68ed40a619149c1a04900e",
+        "status": "unverified"
+      }
+    ],
+    "doji": [
+      {
+        "location": "slide-6:shape-1",
+        "excerpt_sha256": "3a735c977666cfc109c94c08204c9225b0d89121b52db8e2b1cb5d3df8cbeb89",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

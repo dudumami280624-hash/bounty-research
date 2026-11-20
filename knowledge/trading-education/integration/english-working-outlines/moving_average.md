@@ -24,13 +24,13 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-8): review the original example and explain its context.
 
+- 第九节RSI.docx (source 7037c5787026, word/document.xml:paragraph-23, word/document.xml:paragraph-26): review the original example and explain its context.
+
 - 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-17, word/document.xml:paragraph-20, word/document.xml:paragraph-23): review the original example and explain its context.
 
 - 技术指标策略体系：KDJ.pptx (source 738af4cf1d1d, slide-6:shape-19): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（下）.pptx (source 76127d469fe2, slide-5:shape-5, slide-7:shape-5, slide-8:shape-5, slide-9:shape-5, slide-10:shape-5): review the original example and explain its context.
-
-- 技术指标策略体系：MACD（下）.docx (source 8b1ff0822ab5, word/document.xml:paragraph-15, word/document.xml:paragraph-21, word/document.xml:paragraph-24, word/document.xml:paragraph-27, word/document.xml:paragraph-30): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

@@ -1,0 +1,48 @@
+{
+  "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
+  "source_name": "第九节RSI.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-7",
+        "excerpt_sha256": "fc715cc1def4bfcd2729f5160f1fa8bbbb29fd434447e54f512ef32020e9a8e5",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-10",
+        "excerpt_sha256": "8541033dd73ca9f9c28cea295109165772d921918d5d5365dab19f74bb7d54d7",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-26",
+        "excerpt_sha256": "904cf4fc31cda848b60f67eafd966ea8d9f891d7442746096f6a45fe396b103b",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "word/document.xml:paragraph-23",
+        "excerpt_sha256": "a10c36e3a19a4081b327e1346a00de3ab6025e9b9e8697358f576818ccfd0720",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-29",
+        "excerpt_sha256": "4991c2d1fbb5790ff1f8acd864cb5b9f8aff3982f8ea134367ea73b9412fbc2b",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-23",
+        "excerpt_sha256": "a10c36e3a19a4081b327e1346a00de3ab6025e9b9e8697358f576818ccfd0720",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-26",
+        "excerpt_sha256": "904cf4fc31cda848b60f67eafd966ea8d9f891d7442746096f6a45fe396b103b",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

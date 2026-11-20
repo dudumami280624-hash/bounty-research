@@ -1,0 +1,42 @@
+{
+  "source_sha": "fd137bca6df4422394760cee46c5733e62662764",
+  "source_name": "筑底行情如何选股.docx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-10",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

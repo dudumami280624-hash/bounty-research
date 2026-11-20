@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-20): review the original example and explain its context.
+
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-4:shape-4, slide-4:shape-5, slide-5:shape-12, slide-15:shape-5, slide-17:shape-30): review the original example and explain its context.
 
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12, word/document.xml:paragraph-18, word/document.xml:paragraph-31, word/document.xml:paragraph-34): review the original example and explain its context.
@@ -26,11 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-4, slide-2:shape-5, slide-3:shape-4, slide-5:shape-4, slide-5:shape-5): review the original example and explain its context.
 
+- 第九节RSI.docx (source 7037c5787026, word/document.xml:paragraph-23, word/document.xml:paragraph-29): review the original example and explain its context.
+
 - 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-14, word/document.xml:paragraph-38, word/document.xml:paragraph-41, word/document.xml:paragraph-56): review the original example and explain its context.
-
-- 技术指标策略体系：KDJ.pptx (source 738af4cf1d1d, slide-6:shape-18, slide-8:shape-5): review the original example and explain its context.
-
-- 技术指标策略体系：MACD（下）.pptx (source 76127d469fe2, slide-8:shape-5, slide-9:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

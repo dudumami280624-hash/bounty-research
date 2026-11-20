@@ -1,0 +1,42 @@
+{
+  "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
+  "source_name": "第10节RSI.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-9",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-12",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

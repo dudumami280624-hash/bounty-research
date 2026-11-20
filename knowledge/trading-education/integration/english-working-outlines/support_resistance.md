@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-12): review the original example and explain its context.
+
 - 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf (source 1debe93faf76, page-54): review the original example and explain its context.
 
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-17:shape-30, slide-18:shape-5): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-36): review the original example and explain its context.
 
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-13, word/document.xml:paragraph-15, word/document.xml:paragraph-22, word/document.xml:paragraph-45, word/document.xml:paragraph-79): review the original example and explain its context.
-
-- 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-27, word/document.xml:paragraph-37, word/document.xml:paragraph-39, word/document.xml:paragraph-41): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
