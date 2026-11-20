@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add knowledge/trading-education/integration/extraction-state.json knowledge/trading-education/integration/latest-extraction-report.md knowledge/trading-education/integration/visual-and-knowledge-review-queue.md
+          git add knowledge/trading-education/integration/extraction-state.json knowledge/trading-education/integration/latest-extraction-report.md knowledge/trading-education/integration/visual-and-knowledge-review-queue.md knowledge/trading-education/integration/evidence-index/
           if ! git diff --cached --quiet; then
             git commit -m "chore: record source extraction progress"
             git pull --rebase origin memory/the-market-mind-daily
