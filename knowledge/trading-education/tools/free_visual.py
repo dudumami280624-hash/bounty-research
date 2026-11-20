@@ -18,14 +18,26 @@ def inspect_pdf(pdf_path, output):
                 'image_objects':len(page.get_images(full=True)),
                 'vector_drawings':len(page.get_drawings()),
                 'status':'visual_features_extracted_unverified'}
-        if shutil.which('tesseract'):
+        embedded_text=page.get_text('text').strip()
+        record['embedded_text_characters']=len(embedded_text)
+        if embedded_text:
+            record['ocr_success']=True
+            record['ocr_skipped_reason']='embedded_text_available'
+            record['ocr_text_characters']=len(embedded_text)
+        elif shutil.which('tesseract'):
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
-                proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
-                    capture_output=True,text=True,timeout=120)
-                record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
-                record['ocr_success']=proc.returncode==0
-                record['ocr_error']=proc.stderr[-200:] if proc.returncode else ''
+                try:
+                    proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
+                        capture_output=True,text=True,timeout=30)
+                except subprocess.TimeoutExpired:
+                    record['ocr_success']=False
+                    record['ocr_error']='OCR timed out after 30 seconds'
+                    proc=None
+                if proc is not None:
+                    record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
+                    record['ocr_success']=proc.returncode==0
+                    record['ocr_error']=proc.stderr[-200:] if proc.returncode else ''
         else:
             record['ocr_success']=False
             record['ocr_error']='Tesseract unavailable'
