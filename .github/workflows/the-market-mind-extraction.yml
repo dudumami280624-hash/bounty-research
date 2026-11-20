@@ -47,11 +47,18 @@ jobs:
         run: python -m pip install --disable-pip-version-check pymupdf
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
         run: python knowledge/trading-education/tools/smoke_test.py
+      - name: Test research integration and lesson publication gate
+        run: python knowledge/trading-education/tools/test_research_pipeline.py
+      - name: Build cross-source research catalog
+        run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
       - name: Extract next indexed source
         timeout-minutes: 105
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python knowledge/trading-education/tools/run_extraction_batch.py
+      - name: Refresh cross-source research catalog
+        if: always()
+        run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
       - name: Generate chart and knowledge review queue
         if: always()
         run: python knowledge/trading-education/tools/review_queue.py
