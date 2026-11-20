@@ -58,6 +58,53 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "23f7e96c787cbfebfc4ab27dcb8b25d9bbc059f1": {
+      "extraction_status": "extracted",
+      "source_sha256": "78fcbdb75f12b3eb15daa65837b4d36b7e49546036b23d20b3b4a6ab1ebd16f2",
+      "text_blocks": 13,
+      "images_found": 13,
+      "details": {
+        "pages": 13,
+        "pages_without_extractable_text": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "ocr_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "ocr_requires_manual_review": true
+      },
+      "source_name": "一阳穿三线.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:10:38.331035+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
