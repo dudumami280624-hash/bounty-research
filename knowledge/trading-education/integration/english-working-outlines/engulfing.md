@@ -16,6 +16,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 成交量与 K 线形态的力量.pdf (source db98c9518038, page-19, page-21): review the original example and explain its context.
 
+- 100_房地产投资依然无忧，逆向思维让你找到真实.pdf (source ee0b5930e6e3, page-58, page-701, page-940, page-1423, page-2217): review the original example and explain its context.
+
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
 

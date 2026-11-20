@@ -1,0 +1,145 @@
+{
+  "source_sha": "de0b1c023c32a16fa558ea799bc94b8955266411",
+  "source_name": "量价关系判断买卖.pptx",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 31,
+      "evidence_locations": [
+        {
+          "location": "slide-2:shape-3",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-5:shape-2",
+          "term_mentions": 7
+        },
+        {
+          "location": "slide-6:shape-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-7:shape-2",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-8:shape-2",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-9:shape-2",
+          "term_mentions": 6
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 70,
+      "evidence_locations": [
+        {
+          "location": "slide-3:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-4:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-5:shape-2",
+          "term_mentions": 21
+        },
+        {
+          "location": "slide-6:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-6:shape-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-7:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-2",
+          "term_mentions": 11
+        },
+        {
+          "location": "slide-8:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-2",
+          "term_mentions": 11
+        },
+        {
+          "location": "slide-9:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-2",
+          "term_mentions": 11
+        },
+        {
+          "location": "slide-10:shape-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-11:shape-1",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-12:shape-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-1",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "slide-2:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-3:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-5:shape-2",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 12,
+      "evidence_locations": [
+        {
+          "location": "slide-7:shape-2",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-8:shape-2",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-9:shape-2",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

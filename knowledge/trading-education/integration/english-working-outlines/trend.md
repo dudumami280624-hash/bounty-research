@@ -22,6 +22,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-15, word/document.xml:paragraph-17, word/document.xml:paragraph-21, word/document.xml:paragraph-26, word/document.xml:paragraph-27): review the original example and explain its context.
 
+- 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-12, word/document.xml:paragraph-16, word/document.xml:paragraph-28, word/document.xml:paragraph-36): review the original example and explain its context.
+
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-9, page-11, page-16, page-18, page-20): review the original example and explain its context.
 
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5, slide-4:shape-6, slide-10:shape-5, slide-11:shape-5, slide-12:shape-3): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-17, word/document.xml:paragraph-36, word/document.xml:paragraph-39): review the original example and explain its context.
 
 - K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-7:shape-5, slide-11:shape-5, slide-14:shape-5, slide-17:shape-5, slide-19:shape-5): review the original example and explain its context.
-
-- K线策略体系：酒田五法 (2).pptx (source 81d7b1ddda32, slide-5:shape-5, slide-7:shape-5, slide-11:shape-5, slide-14:shape-5, slide-17:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

@@ -20,6 +20,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-74): review the original example and explain its context.
 
+- 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-44): review the original example and explain its context.
+
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-6, page-7): review the original example and explain its context.
 
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-25:shape-5): review the original example and explain its context.
 
 - K线策略体系：酒田五法 (2).pptx (source 81d7b1ddda32, slide-25:shape-8): review the original example and explain its context.
-
-- 量价关系的基本形态.pdf (source 88e7b83e7b42, page-2, page-3, page-4, page-5, page-6): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
