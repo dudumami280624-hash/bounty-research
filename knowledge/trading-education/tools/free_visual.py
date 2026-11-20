@@ -23,7 +23,12 @@ def inspect_pdf(pdf_path, output):
                     capture_output=True,text=True,timeout=120)
                 record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
                 record['ocr_success']=proc.returncode==0
-        else: record['ocr_success']=False
+                record['ocr_error']=proc.stderr[-200:] if proc.returncode else ''
+        else:
+            record['ocr_success']=False
+            record['ocr_error']='Tesseract unavailable'
+        record['chart_candidate']=bool(record['vector_drawings']>=12 or record['image_objects']>0)
+        record['chart_semantics_verified']=False
         (out/f'page-{index+1:04}.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
         result.append(record)
     return result
