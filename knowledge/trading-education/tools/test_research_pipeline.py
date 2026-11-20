@@ -14,6 +14,9 @@ def main():
             (ev/(sha+'.json')).write_text(json.dumps({'source_sha':sha,'source_name':sha+'.pdf',
                 'topics':[{'concept':x,'evidence_locations':[{'location':'page-1','term_mentions':1}]} for x in topics]}))
         packet=make_packet([{'location':'page-3','text':'A doji 十字星 has an open and close near each other.'}],'a'*40,'fixture.pdf')
+        # Source passage locators must remain non-copyrighted and reproducible.
+        assert all('excerpt_sha256' in row and 'location' in row
+                   for rows in packet['topics'].values() for row in rows)
         assert 'doji' in packet['topics'] and packet['topics']['doji'][0]['location']=='page-3'
         preview=draft(packet,'doji')
         assert 'NOT FOR PUBLICATION' in preview and 'page-3' in preview
