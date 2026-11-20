@@ -271,6 +271,27 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "db98c9518038cb23730e86c7502a3b64d271a8bb": {
+      "extraction_status": "extracted",
+      "source_sha256": "8f1332c15a4479b55fb9d5ed7ed31348d837abe4db20fff0d24b35c7ab5c5375",
+      "text_blocks": 27,
+      "images_found": 69,
+      "topic_candidates": 8,
+      "details": {
+        "pages": 27,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "source_name": "成交量与 K 线形态的力量.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:23:14.031766+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
