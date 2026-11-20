@@ -292,6 +292,65 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "2c475db0e7533e2ed312454f810c2de37c61d838": {
+      "extraction_status": "extracted",
+      "source_sha256": "ff2fab196d09581036f24760f379e1a949c48c8f88c718dcc0ec355a22afbcb3",
+      "text_blocks": 16,
+      "images_found": 16,
+      "topic_candidates": 3,
+      "details": {
+        "pages": 16,
+        "pages_without_extractable_text": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "ocr_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "not_run_no_api_key",
+        "pages_analyzed": 0
+      },
+      "source_name": "股价涨跌的真正原因.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:30:45.543783+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }

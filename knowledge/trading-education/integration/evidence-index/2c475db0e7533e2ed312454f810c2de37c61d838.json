@@ -1,0 +1,42 @@
+{
+  "source_sha": "2c475db0e7533e2ed312454f810c2de37c61d838",
+  "source_name": "股价涨跌的真正原因.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-6:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-12:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-11:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

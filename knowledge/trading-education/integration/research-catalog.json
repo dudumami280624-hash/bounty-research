@@ -262,6 +262,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "2c475db0e7533e2ed312454f810c2de37c61d838",
+          "source_name": "股价涨跌的真正原因.pdf",
+          "locations": [
+            {
+              "location": "page-11:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
           "source_name": "多头与空头旗形、三角形形态②.pdf",
           "locations": [
@@ -355,6 +366,17 @@
             },
             {
               "location": "page-17",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "2c475db0e7533e2ed312454f810c2de37c61d838",
+          "source_name": "股价涨跌的真正原因.pdf",
+          "locations": [
+            {
+              "location": "page-12:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -494,6 +516,17 @@
             },
             {
               "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "2c475db0e7533e2ed312454f810c2de37c61d838",
+          "source_name": "股价涨跌的真正原因.pdf",
+          "locations": [
+            {
+              "location": "page-6:OCR-unverified",
               "term_mentions": 1
             }
           ],
