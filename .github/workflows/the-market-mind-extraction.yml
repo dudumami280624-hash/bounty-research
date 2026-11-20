@@ -15,12 +15,12 @@ permissions:
 
 concurrency:
   group: tmm-hourly-extraction
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with:
@@ -48,7 +48,7 @@ jobs:
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
         run: python knowledge/trading-education/tools/smoke_test.py
       - name: Extract next indexed source
-        timeout-minutes: 7
+        timeout-minutes: 105
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python knowledge/trading-education/tools/run_extraction_batch.py
