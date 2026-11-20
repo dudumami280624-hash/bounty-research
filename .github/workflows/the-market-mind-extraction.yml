@@ -47,7 +47,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check pymupdf
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
         run: python knowledge/trading-education/tools/smoke_test.py
-      - name: Test research integration and lesson publication gate
+      - name: Test visual analysis, independent research transport and lesson gate
         run: python knowledge/trading-education/tools/test_research_pipeline.py
       - name: Build cross-source research catalog
         run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
