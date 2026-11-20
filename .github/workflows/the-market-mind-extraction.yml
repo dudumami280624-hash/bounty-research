@@ -1,5 +1,5 @@
 name: The Market Mind - hourly source extraction
-# Verify isolated private evidence packets, chart candidates and OCR retry diagnostics.
+# Verify English draft generation without independent-verification blocking.
 
 on:
   schedule:
