@@ -5,6 +5,7 @@ from pathlib import Path
 import research_pipeline as rp
 from research_pipeline import build_knowledge, draft_lesson, vision_pdf, research_claim
 from free_visual import inspect_pdf
+from free_research import make_packet, draft
 
 def main():
     with tempfile.TemporaryDirectory() as tmp:
@@ -12,6 +13,10 @@ def main():
         for sha,topics in [('a'*40,['candlestick','trend']),('b'*40,['candlestick'])]:
             (ev/(sha+'.json')).write_text(json.dumps({'source_sha':sha,'source_name':sha+'.pdf',
                 'topics':[{'concept':x,'evidence_locations':[{'location':'page-1','term_mentions':1}]} for x in topics]}))
+        packet=make_packet([{'location':'page-3','text':'A doji 十字星 has an open and close near each other.'}],'a'*40,'fixture.pdf')
+        assert 'doji' in packet['topics'] and packet['topics']['doji'][0]['location']=='page-3'
+        preview=draft(packet,'doji')
+        assert 'NOT FOR PUBLICATION' in preview and 'page-3' in preview
         catalog=root/'catalog.json'; result=build_knowledge(ev,catalog)
         assert len(result['topics'])==2
         assert len(result['topics']['candlestick']['sources'])==2
