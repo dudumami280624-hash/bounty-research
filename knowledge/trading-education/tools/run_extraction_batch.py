@@ -3,7 +3,7 @@
 Outputs only non-copyrighted processing metadata to the public repository.
 Never marks image review, factual validation, or teaching integration as complete.
 """
-import base64, hashlib, json, os, re, sys, tempfile, urllib.request
+import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil
 from datetime import datetime, timezone
 from pathlib import Path
 from extract_source import ooxml, pdf
@@ -45,11 +45,23 @@ def download_blob(sha):
 
 def extract(entry, blob):
     ext=Path(entry['name']).suffix.lower()
-    if ext not in ('.pdf','.docx','.pptx'):
-        return {'extraction_status':'needs_conversion','reason':f'Legacy or unsupported extension {ext}'}
+    if ext not in ('.pdf','.docx','.pptx','.doc','.ppt'):
+        return {'extraction_status':'needs_conversion','reason':f'Unsupported extension {ext}'}
     with tempfile.TemporaryDirectory() as temp:
         source=Path(temp)/('source'+ext)
         source.write_bytes(blob)
+        if ext in ('.doc','.ppt'):
+            if not shutil.which('libreoffice'):
+                return {'extraction_status':'needs_conversion','reason':'LibreOffice not installed'}
+            target_ext='.docx' if ext=='.doc' else '.pptx'
+            converted=Path(temp)/('source'+target_ext)
+            profile=Path(temp)/'lo-profile'
+            proc=subprocess.run(['libreoffice','-env:UserInstallation=file://'+str(profile),
+              '--headless','--convert-to',target_ext[1:],'--outdir',temp,str(source)],
+              capture_output=True,text=True,timeout=180)
+            if proc.returncode!=0 or not converted.exists():
+                raise RuntimeError('LibreOffice conversion failed: '+proc.stderr[-200:])
+            source=converted;ext=target_ext
         blocks,images,details=(pdf(source) if ext=='.pdf' else ooxml(source,ext[1:]))
         # Temporary private working files only; do not publish or upload artifacts.
         work=Path(os.environ.get('RUNNER_TEMP',temp))/'tmm-private-extraction'
