@@ -8,6 +8,8 @@ from pathlib import Path
 def inspect_pdf(pdf_path, output):
     import fitz
     doc=fitz.open(pdf_path);out=Path(output);out.mkdir(parents=True,exist_ok=True)
+    langs=subprocess.run(['tesseract','--list-langs'],capture_output=True,text=True).stdout if shutil.which('tesseract') else ''
+    ocr_lang='eng+chi_sim' if 'chi_sim' in langs else 'eng'
     result=[]
     for index,page in enumerate(doc):
         pix=page.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False)
@@ -19,7 +21,7 @@ def inspect_pdf(pdf_path, output):
         if shutil.which('tesseract'):
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
-                proc=subprocess.run(['tesseract',str(image),'stdout','-l','eng+chi_sim'],
+                proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
                     capture_output=True,text=True,timeout=120)
                 record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
                 record['ocr_success']=proc.returncode==0
