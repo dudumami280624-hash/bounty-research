@@ -23,7 +23,7 @@ def inventory(text):
         match=re.match(r'^- `([^`]+)` .*?Git blob SHA-1 `([0-9a-f]{40})`',line)
         if match: entries.append({'name':match.group(1),'sha':match.group(2),'category':section})
     if len(entries)!=178: raise ValueError(f'Expected 178 inventory entries, found {len(entries)}')
-    entries.sort(key=lambda x:(not x['category'].startswith('01-'),x['name']))
+    entries.sort(key=lambda x:(not x['category'].startswith('01-'), not x['name'].lower().endswith('.pdf'), x['name']))
     return entries
 
 def download_blob(sha):
