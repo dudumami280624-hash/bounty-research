@@ -55,6 +55,29 @@ def main():
             finally:
                 if old_limit is None: os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
                 else: os.environ['TMM_VISUAL_MAX_PAGES']=old_limit
+            # Confirm configured OCR deadline reaches the actual subprocess call.
+            import free_visual as fv
+            old_run=fv.subprocess.run
+            old_which=fv.shutil.which
+            old_timeout=os.environ.get('TMM_OCR_PAGE_TIMEOUT_SECONDS')
+            try:
+                os.environ['TMM_OCR_PAGE_TIMEOUT_SECONDS']='3'
+                fv.shutil.which=lambda cmd: '/usr/bin/tesseract' if cmd=='tesseract' else old_which(cmd)
+                calls=[]
+                def fake_run(args,**kwargs):
+                    if '--list-langs' in args:
+                        return type('R',(),{'stdout':'eng','returncode':0,'stderr':''})()
+                    calls.append(kwargs.get('timeout'))
+                    raise fv.subprocess.TimeoutExpired(args,kwargs.get('timeout'))
+                fv.subprocess.run=fake_run
+                timed=inspect_pdf(multi,root/'ocr-timeout')
+                assert calls==[3,3] and all(not row['ocr_success'] for row in timed)
+                assert all('3 seconds' in row['ocr_error'] for row in timed)
+            finally:
+                fv.subprocess.run=old_run
+                fv.shutil.which=old_which
+                if old_timeout is None: os.environ.pop('TMM_OCR_PAGE_TIMEOUT_SECONDS',None)
+                else: os.environ['TMM_OCR_PAGE_TIMEOUT_SECONDS']=old_timeout
             images=vision_pdf(pdf,root/'vision')
             assert len(images)==1 and images[0]['human_review_complete'] is False
             assert (root/'vision/page-0001.json').exists()
