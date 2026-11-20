@@ -3,7 +3,7 @@
 Outputs only non-copyrighted processing metadata to the public repository.
 Never marks image review, factual validation, or teaching integration as complete.
 """
-import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil
+import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil, time
 from datetime import datetime, timezone
 from pathlib import Path
 from extract_source import ooxml, pdf
@@ -112,7 +112,12 @@ def main():
                   or (files.get(e['sha'],{}).get('extraction_status')=='needs_conversion' and converter_available))
              and (converter_available or Path(e['name']).suffix.lower() not in ('.doc','.ppt'))]
     processed=[]
+    started=time.monotonic()
+    budget_seconds=max(60,int(os.environ.get('TMM_TIME_BUDGET_SECONDS','1050')))
     for entry in pending[:BATCH_SIZE]:
+        if time.monotonic()-started>=budget_seconds:
+            print('Batch time budget reached; remaining files will resume next run',flush=True)
+            break
         sha=entry['sha'];previous=files.get(sha,{})
         attempts=previous.get('attempts',0)+1
         try: status=extract(entry,download_blob(sha))
@@ -122,9 +127,13 @@ def main():
                        'visual_review_complete':False,'fact_checked':False,
                        'integrated_into_lesson':False})
         files[sha]=status
-        processed.append({'source_name':entry['name'],'status':status['extraction_status']})
-    entry=pending[0] if pending else None
-    status=files[entry['sha']] if entry else {'extraction_status':'no_eligible_files'}
+        # Persist a checkpoint after every source, before the next slow download/OCR.
+        STATE.parent.mkdir(parents=True,exist_ok=True)
+        checkpoint=STATE.with_suffix('.json.tmp')
+        checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+        checkpoint.replace(STATE)
+        processed.append({'source_name':entry['name'],'source_sha':sha,'status':status['extraction_status']})
+    status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'no_eligible_files'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
     STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
