@@ -51,6 +51,17 @@ def main():
             signal.signal(signal.SIGALRM,previous)
             STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         completed+=1
+    pdf_audits=[v['visual_page_audit'] for v in files.values() if 'visual_page_audit' in v]
+    covered=sum(a.get('coverage_complete',False) for a in pdf_audits)
+    blocked=sum(a.get('attempts',0)>=3 for a in pdf_audits)
+    (ROOT/'integration/visual-page-coverage-progress.md').write_text(
+        '# PDF page-level visual coverage (not semantic verification)\n\n'
+        +f'- PDF files with tracked visual audit: {len(pdf_audits)}\n'
+        +f'- Page coverage complete: {covered}\n'
+        +f'- Windows attempted this run: {completed}\n'
+        +f'- Repeated failures needing manual review: {blocked}\n'
+        +'- Chart semantics independently verified: 0 (not performed by this scanner)\n'
+        +'- Source page hashes and positions only; no copyrighted pages or OCR excerpts.\n',encoding='utf-8')
     print(json.dumps({'windows_attempted':completed,'page_coverage_only':True}))
 
 if __name__=='__main__': main()
