@@ -37,6 +37,27 @@ def vision_pdf(path, output, pages=None):
         results.append(record)
     return results
 
+def research_claim(claim, source_sha, source_location, output, model='gpt-4.1'):
+    """Independent web-supported research, explicitly pending human approval."""
+    key=os.environ.get('OPENAI_API_KEY')
+    if not key: raise RuntimeError('OPENAI_API_KEY is required for independent research')
+    request_text=('Investigate this trading-education claim against independent primary or '
+      'reputable references. Separate accepted definitions from empirical performance claims. '
+      'Identify counterexamples, uncertainty and verifiable source URLs. Do not assume a '
+      'textbook statement is correct. Return a concise report with citations. Claim: '+claim)
+    body=json.dumps({'model':model,'tools':[{'type':'web_search_preview'}],
+      'input':request_text}).encode()
+    req=urllib.request.Request('https://api.openai.com/v1/responses',data=body,
+      headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
+    with urllib.request.urlopen(req,timeout=180) as response: result=json.load(response)
+    record={'claim':claim,'source_sha':source_sha,'source_location':source_location,
+      'independent_research_response':result.get('output',[]),
+      'status':'research_complete_human_review_pending',
+      'verified':False,'reviewer_approved':False}
+    dest=Path(output);dest.parent.mkdir(parents=True,exist_ok=True)
+    dest.write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\\n')
+    return record
+
 def build_knowledge(evidence_dir, output):
     evidence_dir=Path(evidence_dir);by_topic={}
     for p in sorted(evidence_dir.glob('*.json')):
@@ -75,9 +96,13 @@ def main():
     p=argparse.ArgumentParser();sub=p.add_subparsers(dest='cmd',required=True)
     v=sub.add_parser('vision');v.add_argument('pdf');v.add_argument('--out',required=True);v.add_argument('--pages',type=int,nargs='*')
     k=sub.add_parser('catalog');k.add_argument('evidence_dir');k.add_argument('--out',required=True)
+    q=sub.add_parser('fact-check');q.add_argument('claim');q.add_argument('--sha',required=True);q.add_argument('--location',required=True);q.add_argument('--out',required=True)
     d=sub.add_parser('lesson');d.add_argument('topic');d.add_argument('catalog');d.add_argument('--out',required=True)
     a=p.parse_args()
     if a.cmd=='vision':print(json.dumps({'pages_analyzed':len(vision_pdf(a.pdf,a.out,([x-1 for x in a.pages] if a.pages else None)))}))
+    elif a.cmd=='fact-check':
+        r=research_claim(a.claim,a.sha,a.location,a.out)
+        print(json.dumps({'status':r['status'],'verified':r['verified']}))
     elif a.cmd=='catalog':
         r=build_knowledge(a.evidence_dir,a.out)
         print(json.dumps({'topics':len(r['topics']),'verified_claims':r['verified_claims']}))
