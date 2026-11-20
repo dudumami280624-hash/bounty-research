@@ -26,6 +26,7 @@ jobs:
         with:
           ref: memory/the-market-mind-daily
           persist-credentials: true
+          fetch-depth: 0
           sparse-checkout: |
             knowledge/trading-education/tools
             knowledge/trading-education/integration
@@ -34,7 +35,14 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install OCR for image-only PDF pages
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-chi-sim
+        timeout-minutes: 4
+        run: |
+          if command -v tesseract >/dev/null 2>&1; then
+            echo 'Tesseract already available; checking languages'
+            tesseract --list-langs
+          else
+            timeout 210s sudo apt-get update -qq && timeout 60s sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-chi-sim || echo 'OCR unavailable: scanned pages will remain flagged for review'
+          fi
       - name: Install PDF text and image parser
         run: python -m pip install --disable-pip-version-check pymupdf
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
@@ -51,9 +59,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add knowledge/trading-education/integration/extraction-state.json knowledge/trading-education/integration/latest-extraction-report.md knowledge/trading-education/integration/visual-and-knowledge-review-queue.md knowledge/trading-education/integration/evidence-index/
+          git add -A knowledge/trading-education/integration/
           if ! git diff --cached --quiet; then
             git commit -m "chore: record source extraction progress"
-            git pull --rebase origin memory/the-market-mind-daily
-            git push origin HEAD:memory/the-market-mind-daily
+            for attempt in 1 2 3; do
+              git fetch origin memory/the-market-mind-daily
+              if git rebase origin/memory/the-market-mind-daily && git push origin HEAD:memory/the-market-mind-daily; then
+                exit 0
+              fi
+              git rebase --abort || true
+              sleep $((attempt * 3))
+            done
+            echo 'Failed to push progress after 3 attempts' >&2
+            exit 1
           fi
