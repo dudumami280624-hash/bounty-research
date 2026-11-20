@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "files": {
+    "bdf1243dfb349f0a881541a6b7c06a2e44aade5f": {
+      "extraction_status": "extracted",
+      "source_sha256": "7d822f8e7a3a15085a2eefd59d683dd10ed08ad036e012c96a3845e3044d0914",
+      "text_blocks": 71,
+      "images_found": 18,
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml",
+          "ppt/slides/slide23.xml",
+          "ppt/slides/slide24.xml"
+        ]
+      },
+      "source_name": "1.初学者成为高手的秘籍：十字星 (2).pptx",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:08:06.777163+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    }
+  }
+}
