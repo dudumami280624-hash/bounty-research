@@ -214,6 +214,36 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "2b68639ab5516e4b44d9c1086e32adfd7059ef4d": {
+      "extraction_status": "extracted",
+      "source_sha256": "b77a111f1b65aeb8881227c99e5590b0b0e06becb225f808133b36ee18852896",
+      "text_blocks": 18,
+      "images_found": 50,
+      "topic_candidates": 4,
+      "details": {
+        "pages": 20,
+        "pages_without_extractable_text": [
+          9,
+          11,
+          16
+        ],
+        "ocr_pages": [
+          11
+        ],
+        "ocr_failed_pages": [
+          9,
+          16
+        ],
+        "ocr_requires_manual_review": true
+      },
+      "source_name": "多头与空头旗形、三角形形态 ①.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:19:21.611645+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
