@@ -30,6 +30,8 @@ jobs:
           python-version: '3.11'
       - name: Install PDF text and image parser
         run: python -m pip install --disable-pip-version-check pymupdf
+      - name: Verify parser on synthetic DOCX PPTX PDF fixtures
+        run: python knowledge/trading-education/tools/smoke_test.py
       - name: Extract next indexed source
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
