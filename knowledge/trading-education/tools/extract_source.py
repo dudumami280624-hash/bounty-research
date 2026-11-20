@@ -53,12 +53,12 @@ def pdf(path):
         if s: blocks.append({'location':f'page-{i}','text':s})
         else:
             blank.append(i)
-            if shutil.which('tesseract') and len(ocr_pages)<30:
+            if shutil.which('tesseract') and len(ocr_pages)<3:
                 with tempfile.TemporaryDirectory() as tmp:
                     image_path=Path(tmp)/'page.png'
                     image_path.write_bytes(p.get_pixmap(matrix=fitz.Matrix(2,2)).tobytes('png'))
                     run=subprocess.run(['tesseract',str(image_path),'stdout','-l','eng+chi_sim'],
-                                       capture_output=True,text=True,timeout=90)
+                                       capture_output=True,text=True,timeout=15)
                     if run.returncode==0 and run.stdout.strip():
                         blocks.append({'location':f'page-{i}:OCR-unverified',
                                        'text':run.stdout.strip()})
@@ -66,7 +66,7 @@ def pdf(path):
         for j,im in enumerate(p.get_images(full=True),1):
             images.append({'location':f'page-{i}:image-{j}',
                            'xref':im[0],'visually_verified':False})
-    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_requires_manual_review':True}
+    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_limit_pages':3, 'ocr_requires_manual_review':True}
 
 def main():
     a=argparse.ArgumentParser()
