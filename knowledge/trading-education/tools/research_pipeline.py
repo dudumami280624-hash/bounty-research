@@ -114,11 +114,29 @@ def draft_lesson(topic, catalog, out, research_dir=None):
     dest.write_text('\n'.join(lines),encoding='utf-8')
     return dest
 
+def draft_all(catalog, output_dir):
+    """Keep drafting moving as evidence arrives, without a verification deadlock."""
+    data=json.loads(Path(catalog).read_text(encoding='utf-8'))
+    out=Path(output_dir);out.mkdir(parents=True,exist_ok=True)
+    manifest={'schema_version':1,'generated_outlines':[],'blocked_topics':[],
+      'notice':'Working outlines are not independently verified lessons.'}
+    for topic,item in sorted(data.get('topics',{}).items()):
+        if not item.get('sources'):
+            manifest['blocked_topics'].append({'topic':topic,'reason':'no_source_locations'})
+            continue
+        path=out/(topic+'.md')
+        draft_lesson(topic,catalog,path)
+        manifest['generated_outlines'].append({'topic':topic,'file':path.name,
+          'source_count':len(item['sources']),'status':'working_outline'})
+    (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+    return manifest
+
 def main():
     p=argparse.ArgumentParser();sub=p.add_subparsers(dest='cmd',required=True)
     v=sub.add_parser('vision');v.add_argument('pdf');v.add_argument('--out',required=True);v.add_argument('--pages',type=int,nargs='*')
     k=sub.add_parser('catalog');k.add_argument('evidence_dir');k.add_argument('--out',required=True)
     q=sub.add_parser('fact-check');q.add_argument('claim');q.add_argument('--sha',required=True);q.add_argument('--location',required=True);q.add_argument('--out',required=True)
+    batch=sub.add_parser('draft-all');batch.add_argument('catalog');batch.add_argument('--out',required=True)
     d=sub.add_parser('lesson');d.add_argument('topic');d.add_argument('catalog');d.add_argument('--out',required=True)
     a=p.parse_args()
     if a.cmd=='vision':print(json.dumps({'pages_analyzed':len(vision_pdf(a.pdf,a.out,([x-1 for x in a.pages] if a.pages else None)))}))
@@ -128,5 +146,9 @@ def main():
     elif a.cmd=='catalog':
         r=build_knowledge(a.evidence_dir,a.out)
         print(json.dumps({'topics':len(r['topics']),'verified_claims':r['verified_claims']}))
+    elif a.cmd=='draft-all':
+        m=draft_all(a.catalog,a.out)
+        print(json.dumps({'generated_outlines':len(m['generated_outlines']),
+          'blocked_topics':len(m['blocked_topics'])}))
     else:print(draft_lesson(a.topic,a.catalog,a.out))
 if __name__=='__main__':main()
