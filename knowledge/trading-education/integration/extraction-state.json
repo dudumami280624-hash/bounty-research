@@ -41,6 +41,23 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "517140bfbc5e315705f84dc1cdee55faed8b0a21": {
+      "extraction_status": "extracted",
+      "source_sha256": "a9836542b3970d7f1ff0126eb5fe6964cad4ad904a3babfa63bdb1e4a4d96e7e",
+      "text_blocks": 23,
+      "images_found": 40,
+      "details": {
+        "pages": 23,
+        "pages_without_extractable_text": []
+      },
+      "source_name": "《K线组合的16种形态》.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:08:51.790486+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
