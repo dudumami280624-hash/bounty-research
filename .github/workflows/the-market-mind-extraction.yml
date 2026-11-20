@@ -41,12 +41,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python knowledge/trading-education/tools/run_extraction_batch.py
+      - name: Generate chart and knowledge review queue
+        if: always()
+        run: python knowledge/trading-education/tools/review_queue.py
       - name: Commit metadata-only progress
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add knowledge/trading-education/integration/extraction-state.json knowledge/trading-education/integration/latest-extraction-report.md
+          git add knowledge/trading-education/integration/extraction-state.json knowledge/trading-education/integration/latest-extraction-report.md knowledge/trading-education/integration/visual-and-knowledge-review-queue.md
           if ! git diff --cached --quiet; then
             git commit -m "chore: record source extraction progress"
             git push origin HEAD:memory/the-market-mind-daily
