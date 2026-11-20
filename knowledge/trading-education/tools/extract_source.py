@@ -4,7 +4,7 @@ Requires Python 3.10+; PDF requires: pip install pymupdf.
 This is mechanical extraction, NOT visual verification or factual validation.
 Do not commit extracted third-party text into a public repository.
 """
-import argparse, hashlib, json, re, zipfile
+import argparse, hashlib, json, re, zipfile, shutil, subprocess, tempfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -47,15 +47,26 @@ def ooxml(path, fmt):
 def pdf(path):
     try: import fitz
     except ImportError: raise SystemExit('Install PDF support: pip install pymupdf')
-    d=fitz.open(path); blocks=[]; images=[]; blank=[]
+    d=fitz.open(path); blocks=[]; images=[]; blank=[]; ocr_pages=[]
     for i,p in enumerate(d,1):
         s=p.get_text('text').strip()
         if s: blocks.append({'location':f'page-{i}','text':s})
-        else: blank.append(i)
+        else:
+            blank.append(i)
+            if shutil.which('tesseract') and len(ocr_pages)<30:
+                with tempfile.TemporaryDirectory() as tmp:
+                    image_path=Path(tmp)/'page.png'
+                    image_path.write_bytes(p.get_pixmap(matrix=fitz.Matrix(2,2)).tobytes('png'))
+                    run=subprocess.run(['tesseract',str(image_path),'stdout','-l','eng+chi_sim'],
+                                       capture_output=True,text=True,timeout=90)
+                    if run.returncode==0 and run.stdout.strip():
+                        blocks.append({'location':f'page-{i}:OCR-unverified',
+                                       'text':run.stdout.strip()})
+                        ocr_pages.append(i)
         for j,im in enumerate(p.get_images(full=True),1):
             images.append({'location':f'page-{i}:image-{j}',
                            'xref':im[0],'visually_verified':False})
-    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank}
+    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_requires_manual_review':True}
 
 def main():
     a=argparse.ArgumentParser()
