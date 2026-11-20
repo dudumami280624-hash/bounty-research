@@ -1,0 +1,247 @@
+{
+  "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+  "source_name": "技术指标策略体系：MA(1).pptx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-22:shape-4",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 16,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-6:shape-5",
+          "term_mentions": 6
+        },
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-20:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-22:shape-4",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-22:shape-4",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-22:shape-4",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 84,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 8
+        },
+        {
+          "location": "slide-5:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-6:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-6:shape-5",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-7:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-7:shape-5",
+          "term_mentions": 8
+        },
+        {
+          "location": "slide-8:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 14
+        },
+        {
+          "location": "slide-9:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-9:shape-5",
+          "term_mentions": 5
+        },
+        {
+          "location": "slide-10:shape-4",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-10:shape-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-11:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-12:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-12:shape-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "slide-13:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-13:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-14:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-15:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-15:shape-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-15:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-15:shape-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-16:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-16:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-16:shape-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-16:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-17:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-18:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-18:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-18:shape-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-18:shape-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-20:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-20:shape-4",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-22:shape-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-22:shape-4",
+          "term_mentions": 6
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

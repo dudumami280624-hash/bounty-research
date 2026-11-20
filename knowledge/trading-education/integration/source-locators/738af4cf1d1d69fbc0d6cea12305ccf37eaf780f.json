@@ -1,0 +1,67 @@
+{
+  "source_sha": "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f",
+  "source_name": "技术指标策略体系：KDJ.pptx",
+  "topics": {
+    "risk": [
+      {
+        "location": "slide-5:shape-14",
+        "excerpt_sha256": "e78427dde8d6134711fb08059710436d5d6af4539cdb680e56c3fa5ac0d5b756",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "slide-6:shape-18",
+        "excerpt_sha256": "691a32e423023bfa75e5bb28bae42866520da045b743350ab0c66a4642336e2c",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "9443f0cce1697e64248306bd4c64f65b124802c7ee5c9de047ae5b925377c618",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-6:shape-19",
+        "excerpt_sha256": "91a40ba1c68f92f6942af74b4219c454a90b1a27545978ebb9dfeb2574d8f091",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "slide-6:shape-20",
+        "excerpt_sha256": "c352470db467d1c0431d7e06c7269679546dce4120d847eddf757b63da67576e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-5",
+        "excerpt_sha256": "48dd68472d477c0fa701e6cad585b3a9da803d571249f2f51498fc22aabf5640",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "96dafb243b9fb6d94fb45e7cbd30b3c2152e543170e81190f428fb3b6dbaadd3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-5",
+        "excerpt_sha256": "fa502dbefe50f08a2225f42bc6437fa84bf96915d35d1709c3f3273761240965",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-19:shape-5",
+        "excerpt_sha256": "894a3f2784d9c41cb8841eac1de5e7a813e599b885ecfbd8ca2060d2cc80e32c",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "slide-16:shape-5",
+        "excerpt_sha256": "fa502dbefe50f08a2225f42bc6437fa84bf96915d35d1709c3f3273761240965",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

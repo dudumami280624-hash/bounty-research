@@ -12,6 +12,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-17:shape-30, slide-18:shape-5): review the original example and explain its context.
 
+- 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-39): review the original example and explain its context.
+
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-10, page-12, page-17): review the original example and explain its context.
 
 - 股价涨跌的真正原因.pdf (source 2c475db0e753, page-12:OCR-unverified): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-13, word/document.xml:paragraph-15, word/document.xml:paragraph-22, word/document.xml:paragraph-45, word/document.xml:paragraph-79): review the original example and explain its context.
 
 - 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-27, word/document.xml:paragraph-37, word/document.xml:paragraph-39, word/document.xml:paragraph-41): review the original example and explain its context.
-
-- 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-5, page-6, page-8): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

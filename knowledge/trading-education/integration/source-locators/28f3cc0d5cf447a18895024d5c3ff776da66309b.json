@@ -1,0 +1,109 @@
+{
+  "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+  "source_name": "技术指标策略体系：KDJ.docx",
+  "topics": {
+    "risk": [
+      {
+        "location": "word/document.xml:paragraph-10",
+        "excerpt_sha256": "98e668510aed3a6270a88349598fb449939c101e080897a92e050e2414404402",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "c6d91928c2d4bc716a2212ed35d12f8a16570d823b91b8d948015445c765d664",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-18",
+        "excerpt_sha256": "240a03a40f14b47c1ff430a43e5f3316d3c5b899996f771e60d89397c1ad9766",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-31",
+        "excerpt_sha256": "3e8a2355c492cc67e03d39d18de04c6db9fefff703e2bbec34c734550a36deb2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-34",
+        "excerpt_sha256": "2df89c7d05babfea76061ec874004a8d9d5f5f4a2fffe59246d82e9fdcb45fa2",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "c6d91928c2d4bc716a2212ed35d12f8a16570d823b91b8d948015445c765d664",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-15",
+        "excerpt_sha256": "b7665e8b8e3052e1d22f560ce5c3b568a31b2c564613b4a50f2b05db2df063ef",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-21",
+        "excerpt_sha256": "b2887c137f0988ba0bfcb237e1c42a2de2d96a8981280840adec4f310b5e4042",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-31",
+        "excerpt_sha256": "3e8a2355c492cc67e03d39d18de04c6db9fefff703e2bbec34c734550a36deb2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-34",
+        "excerpt_sha256": "2df89c7d05babfea76061ec874004a8d9d5f5f4a2fffe59246d82e9fdcb45fa2",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-39",
+        "excerpt_sha256": "8fa583dad1f187827814055ee4a4b3f0dae646f151883a0646f825dd9a1912df",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-42",
+        "excerpt_sha256": "9d779fd9ad1743515dda8acd44f9a43fb9f5467f4eed098e803bc10fb374172a",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-45",
+        "excerpt_sha256": "3ebe0280fc8d343b1e8632840a747221f64d145af1da2b31255294787a840f02",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-48",
+        "excerpt_sha256": "6052dd416409b3cf18a31ae123311ebf1ae870684d1672a6f7afa96b34f0adb8",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "c6d91928c2d4bc716a2212ed35d12f8a16570d823b91b8d948015445c765d664",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "word/document.xml:paragraph-18",
+        "excerpt_sha256": "240a03a40f14b47c1ff430a43e5f3316d3c5b899996f771e60d89397c1ad9766",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-28",
+        "excerpt_sha256": "945866dbc300cb8099478b85759981e11038dff16903a5e5d38d35d9b61a2d2b",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-39",
+        "excerpt_sha256": "8fa583dad1f187827814055ee4a4b3f0dae646f151883a0646f825dd9a1912df",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

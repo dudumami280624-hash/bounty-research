@@ -1,0 +1,264 @@
+{
+  "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+  "source_name": "技术指标策略体系：MA(1).pptx",
+  "topics": {
+    "trend": [
+      {
+        "location": "slide-4:shape-5",
+        "excerpt_sha256": "3def768234a8f411d3d59b020b9f0698e702bd2a6feb112583f49c5c0a5675d3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-5",
+        "excerpt_sha256": "e105cffa26d9384712d622f34114635f177cd25b6564bff82c1931722d8b8643",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-5",
+        "excerpt_sha256": "2b113eb44b43fd872832b896e0ec4aed07778cfe395c9d02c4b4f1c6080c8c50",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "e84c7beac3a4662f666f34265bc81686cc1710b495c0a8172e43a6d55ce73479",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "65a830d3de82d555ad75f0fd0b934163c7ddaa326c391aaf4e42bce071f422a2",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-20:shape-4",
+        "excerpt_sha256": "e60fd36f59428fc53fb712b106d3f1ae4b9e9f706c54ccb6d27e165a5dc68d66",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-22:shape-4",
+        "excerpt_sha256": "fb70f5a0684520e2c0e39e12957b96beae1e1c896a20641be73b8c43192cca8c",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "slide-4:shape-5",
+        "excerpt_sha256": "3def768234a8f411d3d59b020b9f0698e702bd2a6feb112583f49c5c0a5675d3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-22:shape-4",
+        "excerpt_sha256": "fb70f5a0684520e2c0e39e12957b96beae1e1c896a20641be73b8c43192cca8c",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-4:shape-5",
+        "excerpt_sha256": "3def768234a8f411d3d59b020b9f0698e702bd2a6feb112583f49c5c0a5675d3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-4",
+        "excerpt_sha256": "da215fc61d8013d97dfda861736ca54b73ab0e54c67ace8ced31805fa93c5350",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-4",
+        "excerpt_sha256": "9fc76a310bbb7c3cc9c93fd85d36248a9c1ae4f53a672c2dabfe2713ad8830f3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-5",
+        "excerpt_sha256": "e105cffa26d9384712d622f34114635f177cd25b6564bff82c1931722d8b8643",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-4",
+        "excerpt_sha256": "9fc76a310bbb7c3cc9c93fd85d36248a9c1ae4f53a672c2dabfe2713ad8830f3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-5",
+        "excerpt_sha256": "2b113eb44b43fd872832b896e0ec4aed07778cfe395c9d02c4b4f1c6080c8c50",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-4",
+        "excerpt_sha256": "e06df0f6813f90a9eed3bcca7c1da159a2f88183441a7c04db3360ee572b3ecb",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "e84c7beac3a4662f666f34265bc81686cc1710b495c0a8172e43a6d55ce73479",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-4",
+        "excerpt_sha256": "d02f65d33307708a78c5bd62ad0642c42071972ddd5535b125362847aa8dadc1",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "65a830d3de82d555ad75f0fd0b934163c7ddaa326c391aaf4e42bce071f422a2",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-4",
+        "excerpt_sha256": "6a98b03c035f9f5dfcc4faf090c5644361ac96a7fe7354e780658a20421dbb63",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-6",
+        "excerpt_sha256": "810b768b5710ff6243af0ce554dfe4990d9adf51d1bf7ba050aafe4b8b90e2f1",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-11:shape-4",
+        "excerpt_sha256": "ad9ca1190759dd63e8534cb2b765504ddddf2077623213967502cbe66acb629b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-11:shape-5",
+        "excerpt_sha256": "166ee21d85e71cfa9ccf27754c4984f256f62d75af98d288b8d06219b7c54b6e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-12:shape-4",
+        "excerpt_sha256": "ad9ca1190759dd63e8534cb2b765504ddddf2077623213967502cbe66acb629b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-12:shape-5",
+        "excerpt_sha256": "7d4c1ab3010a4990d2225883397b010d6383362a62848d72e256430039981496",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-13:shape-4",
+        "excerpt_sha256": "ad9ca1190759dd63e8534cb2b765504ddddf2077623213967502cbe66acb629b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-13:shape-5",
+        "excerpt_sha256": "9718e0dd9da4c86983f790563c9851e9b5caf141ee55c7546b4267ff018c0057",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-14:shape-4",
+        "excerpt_sha256": "ad9ca1190759dd63e8534cb2b765504ddddf2077623213967502cbe66acb629b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-14:shape-5",
+        "excerpt_sha256": "c6476519fb86d56b6e6f2d4897ab066794440575e5dc74c234efc3cd7457a564",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-15:shape-4",
+        "excerpt_sha256": "eb9b6dea209a7295fd655d280b89e6e7031873489e936a1fa2ed79497b6aca08",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-15:shape-6",
+        "excerpt_sha256": "26dce4c1d9b73670036263e695430777050c584843979970db320282dbc1759c",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-15:shape-8",
+        "excerpt_sha256": "00ea833d0d43fd958a271d592fda6df05a66cae5f8bfdd39a08dde005f587f51",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-15:shape-11",
+        "excerpt_sha256": "53ee92ca3ff425a9c1e0d607a0f59eec145dfccfeeef471a068fc9b0380b94c8",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-3",
+        "excerpt_sha256": "eb9b6dea209a7295fd655d280b89e6e7031873489e936a1fa2ed79497b6aca08",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-4",
+        "excerpt_sha256": "72de098d26fa361ba4accd2a983b99fceb0f8a8e1037dff03261e77478aab29b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-6",
+        "excerpt_sha256": "f79e6237cd56d4e6112cab7428d80f6c8a8d17aef402936f3335bfa5c8630e3b",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-8",
+        "excerpt_sha256": "8f85d747db5a16058351be396f3917f80f7ee9501513d9ad8eb6087c8617a02d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-17:shape-4",
+        "excerpt_sha256": "eb9b6dea209a7295fd655d280b89e6e7031873489e936a1fa2ed79497b6aca08",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-18:shape-3",
+        "excerpt_sha256": "eb9b6dea209a7295fd655d280b89e6e7031873489e936a1fa2ed79497b6aca08",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-18:shape-4",
+        "excerpt_sha256": "6087f7b004e79d09928a3ca511e8fdb36ae2fecc3bcaf0ced381b8bb41cfd88f",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-18:shape-6",
+        "excerpt_sha256": "5fdbbbae0a80cb89db0cb9bcafa97178c0e612f51b417e145c2b87322a86d436",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-18:shape-8",
+        "excerpt_sha256": "c240e3b279cc2d382bfb920d1741ce98df9da83da92eeac042087d10921a6356",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-20:shape-3",
+        "excerpt_sha256": "eb9b6dea209a7295fd655d280b89e6e7031873489e936a1fa2ed79497b6aca08",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-20:shape-4",
+        "excerpt_sha256": "e60fd36f59428fc53fb712b106d3f1ae4b9e9f706c54ccb6d27e165a5dc68d66",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-22:shape-3",
+        "excerpt_sha256": "d6ea204d0bc7b3dde0a989ca676a938e219776341187bcb99cbc11b88cdf3c42",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-22:shape-4",
+        "excerpt_sha256": "fb70f5a0684520e2c0e39e12957b96beae1e1c896a20641be73b8c43192cca8c",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "e84c7beac3a4662f666f34265bc81686cc1710b495c0a8172e43a6d55ce73479",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "slide-22:shape-4",
+        "excerpt_sha256": "fb70f5a0684520e2c0e39e12957b96beae1e1c896a20641be73b8c43192cca8c",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "slide-22:shape-4",
+        "excerpt_sha256": "fb70f5a0684520e2c0e39e12957b96beae1e1c896a20641be73b8c43192cca8c",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

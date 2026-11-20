@@ -10,6 +10,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-31:shape-5, slide-31:shape-10): review the original example and explain its context.
 
+- 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12): review the original example and explain its context.
+
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-31:shape-26, slide-31:shape-27): review the original example and explain its context.
 
 - MA均线系统三角形态选股法.docx (source 48dab88c33e0, word/document.xml:paragraph-1, word/document.xml:paragraph-3, word/document.xml:paragraph-6, word/document.xml:paragraph-7, word/document.xml:paragraph-11): review the original example and explain its context.
@@ -20,13 +22,15 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-8): review the original example and explain its context.
 
+- 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-17, word/document.xml:paragraph-20, word/document.xml:paragraph-23): review the original example and explain its context.
+
+- 技术指标策略体系：KDJ.pptx (source 738af4cf1d1d, slide-6:shape-19): review the original example and explain its context.
+
+- 技术指标策略体系：KDJ 英文版.pptx (source 9c0fd8e54bf2, slide-6:shape-21): review the original example and explain its context.
+
 - MA均线系统实战法则.docx (source beaec7ac9cb1, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-4, word/document.xml:paragraph-5): review the original example and explain its context.
 
-- 成交量与 K 线形态的力量.pdf (source db98c9518038, page-22, page-24, page-26): review the original example and explain its context.
-
-- 量价关系判断买卖.pptx (source de0b1c023c32, slide-2:shape-3, slide-3:shape-3, slide-5:shape-2): review the original example and explain its context.
-
-- 100_房地产投资依然无忧，逆向思维让你找到真实.pdf (source ee0b5930e6e3, page-332, page-1395, page-1858, page-1931, page-3122): review the original example and explain its context.
+- 技术指标策略体系：MA 英文版 (3).pptx (source cfe509743f32, slide-4:shape-5, slide-5:shape-6, slide-6:shape-4, slide-6:shape-5, slide-7:shape-4): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

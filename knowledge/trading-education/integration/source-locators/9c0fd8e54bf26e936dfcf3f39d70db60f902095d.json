@@ -1,0 +1,70 @@
+{
+  "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
+  "source_name": "技术指标策略体系：KDJ 英文版.pptx",
+  "topics": {
+    "trend": [
+      {
+        "location": "slide-5:shape-20",
+        "excerpt_sha256": "112a061b01814f34396fdab3f24036d5605920a02053220ced1ede4d589d11e3",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-22",
+        "excerpt_sha256": "1906a98437cd0d9998ff9dfec8af1c90de9427988a972b38df17f0d377c73243",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-4",
+        "excerpt_sha256": "bb6f64ca2c3df523d497a4189ce8809124439e3761a6567ad68d2a5208cb4347",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-5",
+        "excerpt_sha256": "39a50d71af03f24f61afadc37cb6b3bf9be195c9fd8a063c20b1448f266261d6",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-15:shape-5",
+        "excerpt_sha256": "abd271105e40c1d97696d878430fa9ca62ef660933718f675ae1c8ceb361af94",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-16:shape-5",
+        "excerpt_sha256": "7b21a4b964e7637b809619f80b2bb4f36627d68adb1ec2b0683e78659aaa9671",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-19:shape-5",
+        "excerpt_sha256": "db40ec4c80ec21ff9f28b3811e5574a514931dc618c8d260a2465f0df71a5e88",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "slide-6:shape-20",
+        "excerpt_sha256": "69c722abcb6bd51502fd519bcb1356de1fbc069d403f471d90e9d63e92d79275",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-5",
+        "excerpt_sha256": "c2d5f676820046b386be08cc724cb6f624254a0d487736e5a197ac3cd6e8cbde",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-6:shape-21",
+        "excerpt_sha256": "8edb32e39e047fe12a7743f1ca5d75b6dec04e84ff587a2ca1f6627fc9cf0781",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "slide-16:shape-5",
+        "excerpt_sha256": "7b21a4b964e7637b809619f80b2bb4f36627d68adb1ec2b0683e78659aaa9671",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

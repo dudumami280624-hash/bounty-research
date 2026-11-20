@@ -1,0 +1,92 @@
+{
+  "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+  "source_name": "技术指标策略体系：MACD（上）.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 13,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-44",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

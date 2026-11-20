@@ -1,0 +1,158 @@
+{
+  "source_sha": "615359fb27454108dfc7c567a1116f264b13a92e",
+  "source_name": "技术分析《道氏理论》.doc",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 49,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-12",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-31",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-34",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-48",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-50",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-51",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-52",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-55",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-57",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-59",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-61",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-63",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-68",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-72",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-84",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-91",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-93",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-103",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-105",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-106",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-108",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-109",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-99",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-82",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-84",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-86",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-89",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-97",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-109",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

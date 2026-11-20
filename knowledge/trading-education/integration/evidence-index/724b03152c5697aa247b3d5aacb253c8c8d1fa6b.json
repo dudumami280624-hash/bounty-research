@@ -1,0 +1,183 @@
+{
+  "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+  "source_name": "技术指标策略体系：MA.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 19,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 6
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 94,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 8
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 20
+        },
+        {
+          "location": "word/document.xml:paragraph-26",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-29",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 9
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-38",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-41",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-44",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-47",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-50",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-53",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-56",
+          "term_mentions": 7
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

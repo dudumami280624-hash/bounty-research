@@ -1,0 +1,77 @@
+{
+  "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+  "source_name": "技术指标策略体系：MACD（上）.docx",
+  "topics": {
+    "candlestick": [
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "bf2b1a77796f55632cc233c703edab92cdc2e63ad14c43263f8552142de39873",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "bf2b1a77796f55632cc233c703edab92cdc2e63ad14c43263f8552142de39873",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "92115c4609cd2b3efabe5eadae2a529f7481f38aac2274b2896f1ad1f6443eed",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-26",
+        "excerpt_sha256": "75f3762054838d9979aa6365a319b3684c629f4a6ccab0c49da94ca7868a0f4c",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-32",
+        "excerpt_sha256": "0f99244ecb544c50ad2c55575f3b81f1e95211f9c235f9258883eccb55bc35cf",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-38",
+        "excerpt_sha256": "7cb4fa731b889252806853dac6dd2e515a0ee4f450077cd918b1fded4018c7e5",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-44",
+        "excerpt_sha256": "dbb5e39781a0d6fea5a37ef8566c14d625e4e26f9117398ccbceda9778771def",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-53",
+        "excerpt_sha256": "891da1c851fc0a2befa43c520771d249190526a00e17edbc7d1398fcfe6cab75",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "bf2b1a77796f55632cc233c703edab92cdc2e63ad14c43263f8552142de39873",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "word/document.xml:paragraph-11",
+        "excerpt_sha256": "bf2b1a77796f55632cc233c703edab92cdc2e63ad14c43263f8552142de39873",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "92115c4609cd2b3efabe5eadae2a529f7481f38aac2274b2896f1ad1f6443eed",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "word/document.xml:paragraph-14",
+        "excerpt_sha256": "92115c4609cd2b3efabe5eadae2a529f7481f38aac2274b2896f1ad1f6443eed",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -31,6 +31,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+          "source_name": "技术指标策略体系：KDJ.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-12",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-18",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "343d56ef34776f13ee0c2424904f75f323942daa",
           "source_name": "K线策略体系：起爆点 (2).pptx",
           "locations": [
@@ -541,6 +564,44 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+          "source_name": "技术指标策略体系：MA.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-38",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f",
+          "source_name": "技术指标策略体系：KDJ.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-18",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -780,6 +841,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
+          "source_name": "技术指标策略体系：KDJ 英文版.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-20",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
           "source_name": "1K线策略体系：十字星.docx",
           "locations": [
@@ -939,6 +1015,28 @@
             {
               "location": "slide-18:shape-5",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
+          "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+          "locations": [
+            {
+              "location": "slide-22:shape-3",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+          "source_name": "技术指标策略体系：MACD（上）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 4
             }
           ],
           "status": "candidate_unverified"
@@ -1199,6 +1297,17 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+          "source_name": "技术指标策略体系：MA(1).pptx",
+          "locations": [
+            {
+              "location": "slide-22:shape-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -1207,6 +1316,21 @@
     },
     "confirmation": {
       "sources": [
+        {
+          "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+          "source_name": "技术指标策略体系：KDJ.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-28",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "2c0ff6f3ea76b28f2c1b4681c6ab1f3bafbcdf71",
           "source_name": "华尔街：金字塔交易（1.2.3.4.5）.docx",
@@ -1292,6 +1416,37 @@
           "locations": [
             {
               "location": "word/document.xml:paragraph-28",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "615359fb27454108dfc7c567a1116f264b13a92e",
+          "source_name": "技术分析《道氏理论》.doc",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-82",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-84",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-86",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-89",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-97",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-109",
               "term_mentions": 1
             }
           ],
@@ -1394,6 +1549,17 @@
             {
               "location": "page-3061",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+          "source_name": "技术指标策略体系：MACD（上）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -2133,6 +2299,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+          "source_name": "技术指标策略体系：KDJ.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-12",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "343d56ef34776f13ee0c2424904f75f323942daa",
           "source_name": "K线策略体系：起爆点 (2).pptx",
           "locations": [
@@ -2260,6 +2437,99 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+          "source_name": "技术指标策略体系：MA.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 8
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-17",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-20",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 20
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-29",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-38",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-41",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-44",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-47",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-53",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 7
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f",
+          "source_name": "技术指标策略体系：KDJ.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-19",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
+          "source_name": "技术指标策略体系：KDJ 英文版.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-21",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
           "source_name": "MA均线系统实战法则.docx",
           "locations": [
@@ -2310,6 +2580,176 @@
             {
               "location": "word/document.xml:paragraph-20",
               "term_mentions": 5
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
+          "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 8
+            },
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-7:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-8:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 14
+            },
+            {
+              "location": "slide-9:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-11:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-12:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-12:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-13:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-17:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-22:shape-3",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-22:shape-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+          "source_name": "技术指标策略体系：MACD（上）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -2542,6 +2982,161 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+          "source_name": "技术指标策略体系：MA(1).pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 8
+            },
+            {
+              "location": "slide-5:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-7:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 8
+            },
+            {
+              "location": "slide-8:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 14
+            },
+            {
+              "location": "slide-9:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-10:shape-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-10:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-12:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-12:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-13:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-17:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-22:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-22:shape-4",
+              "term_mentions": 6
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -2594,6 +3189,17 @@
           "locations": [
             {
               "location": "slide-18:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+          "source_name": "技术指标策略体系：KDJ.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-10",
               "term_mentions": 1
             }
           ],
@@ -2902,6 +3508,32 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+          "source_name": "技术指标策略体系：MA.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f",
+          "source_name": "技术指标策略体系：KDJ.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-14",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -2996,6 +3628,17 @@
           "locations": [
             {
               "location": "slide-3:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
+          "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+          "locations": [
+            {
+              "location": "slide-8:shape-5",
               "term_mentions": 1
             }
           ],
@@ -3532,6 +4175,17 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+          "source_name": "技术指标策略体系：MA(1).pptx",
+          "locations": [
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -3562,6 +4216,17 @@
             {
               "location": "slide-18:shape-5",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+          "source_name": "技术指标策略体系：KDJ.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-39",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -3805,6 +4470,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "615359fb27454108dfc7c567a1116f264b13a92e",
+          "source_name": "技术分析《道氏理论》.doc",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-99",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -3815,6 +4491,36 @@
             {
               "location": "slide-10:shape-5",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+          "source_name": "技术指标策略体系：MA.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f",
+          "source_name": "技术指标策略体系：KDJ.pptx",
+          "locations": [
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -3876,6 +4582,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
+          "source_name": "技术指标策略体系：KDJ 英文版.pptx",
+          "locations": [
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "aaee24e62e47ed22a627a3e940276873634bff17",
           "source_name": "价值投资理论《证券分析》.doc",
           "locations": [
@@ -3927,6 +4644,17 @@
             {
               "location": "slide-11:shape-15",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
+          "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+          "locations": [
+            {
+              "location": "slide-22:shape-3",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -4378,6 +5106,21 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+          "source_name": "技术指标策略体系：MA(1).pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-22:shape-4",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -4428,6 +5171,49 @@
             {
               "location": "page-56",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
+          "source_name": "技术指标策略体系：KDJ.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-15",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-21",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-42",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-45",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-48",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -5097,6 +5883,113 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "615359fb27454108dfc7c567a1116f264b13a92e",
+          "source_name": "技术分析《道氏理论》.doc",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-48",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-51",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-52",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-57",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-59",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-61",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-63",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-68",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-72",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-84",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-91",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-93",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-103",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-105",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-106",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-108",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-109",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -5135,6 +6028,68 @@
             {
               "location": "slide-14:shape-5",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+          "source_name": "技术指标策略体系：MA.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-17",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-20",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-53",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f",
+          "source_name": "技术指标策略体系：KDJ.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -5346,6 +6301,41 @@
             {
               "location": "page-24",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
+          "source_name": "技术指标策略体系：KDJ 英文版.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-15:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -5593,6 +6583,49 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
+          "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-15:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-22:shape-3",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d47f4419325ee4fc52c9419adcc2ed86283367a1",
           "source_name": "139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf",
           "locations": [
@@ -5690,6 +6723,41 @@
             },
             {
               "location": "page-2959",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+          "source_name": "技术指标策略体系：MACD（上）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-26",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-38",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-44",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-53",
               "term_mentions": 1
             }
           ],
@@ -6041,6 +7109,41 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+          "source_name": "技术指标策略体系：MA(1).pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-8:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-9:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-20:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-22:shape-4",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -6288,6 +7391,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
+          "source_name": "技术指标策略体系：MA.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-56",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -6425,6 +7539,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
+          "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+          "locations": [
+            {
+              "location": "slide-22:shape-3",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d47f4419325ee4fc52c9419adcc2ed86283367a1",
           "source_name": "139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf",
           "locations": [
@@ -6463,6 +7588,17 @@
             {
               "location": "page-2738",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d9e570efa89926fd6e4996725e5d282e6083a7cb",
+          "source_name": "技术指标策略体系：MACD（上）.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -6854,6 +7990,17 @@
             },
             {
               "location": "page-2103",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
+          "source_name": "技术指标策略体系：MA(1).pptx",
+          "locations": [
+            {
+              "location": "slide-22:shape-4",
               "term_mentions": 1
             }
           ],

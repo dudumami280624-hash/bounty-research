@@ -12,6 +12,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 143_寻找朝阳行业，为下一个五年、十年做储备.pdf (source 2477d8b3dc0f, page-39, page-44, page-47, page-48, page-56): review the original example and explain its context.
 
+- 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12, word/document.xml:paragraph-15, word/document.xml:paragraph-21, word/document.xml:paragraph-31, word/document.xml:paragraph-34): review the original example and explain its context.
+
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-2, page-5, page-10, page-18): review the original example and explain its context.
 
 - 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-4, word/document.xml:paragraph-6, word/document.xml:paragraph-10, word/document.xml:paragraph-14, word/document.xml:paragraph-16): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-20, word/document.xml:paragraph-23, word/document.xml:paragraph-26, word/document.xml:paragraph-32, word/document.xml:paragraph-35): review the original example and explain its context.
 
 - 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-2, word/document.xml:paragraph-21, word/document.xml:paragraph-25): review the original example and explain its context.
-
-- K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-15, word/document.xml:paragraph-17, word/document.xml:paragraph-21, word/document.xml:paragraph-26, word/document.xml:paragraph-27): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

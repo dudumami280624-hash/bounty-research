@@ -28,9 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5): review the original example and explain its context.
 
-- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-11, word/document.xml:paragraph-14): review the original example and explain its context.
+- 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-56): review the original example and explain its context.
 
-- K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-25:shape-5): review the original example and explain its context.
+- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-11, word/document.xml:paragraph-14): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

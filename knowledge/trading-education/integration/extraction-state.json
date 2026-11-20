@@ -1111,11 +1111,29 @@
       "integrated_into_lesson": false
     },
     "615359fb27454108dfc7c567a1116f264b13a92e": {
+      "extraction_status": "extracted",
+      "source_sha256": "998e761e71ca3f53f52f309719fad0f922a1d8c90847e6c7b1fdcb22e6620660",
+      "text_blocks": 50,
+      "images_found": 0,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
       "source_name": "技术分析《道氏理论》.doc",
       "category": "02-趋势均线形态（47份）",
-      "extraction_status": "needs_conversion",
-      "attempts": 0,
-      "reason": "LibreOffice unavailable on runner"
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:02.163021+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     },
     "5ec3309434a333bc407c05aa0cbee785bbf6a792": {
       "source_name": "投机理论《金融炼金术》.doc",
@@ -1470,6 +1488,273 @@
       "category": "02-趋势均线形态（47份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-20T19:52:58.461542+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "9c0fd8e54bf26e936dfcf3f39d70db60f902095d": {
+      "extraction_status": "extracted",
+      "source_sha256": "d8c3b06295aa94cfa175b654bb011b6aa30370caa73c8c84a6a103ec5bdd5763",
+      "text_blocks": 73,
+      "images_found": 15,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：KDJ 英文版.pptx",
+      "category": "03-技术指标（8份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:03.205783+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "28f3cc0d5cf447a18895024d5c3ff776da66309b": {
+      "extraction_status": "extracted",
+      "source_sha256": "cfe668a2d111d0d4c1d460835b188bb36a33bea8218149ea3118935c70e81322",
+      "text_blocks": 33,
+      "images_found": 0,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：KDJ.docx",
+      "category": "03-技术指标（8份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:03.600651+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "738af4cf1d1d69fbc0d6cea12305ccf37eaf780f": {
+      "extraction_status": "extracted",
+      "source_sha256": "67c63cdb57fea685c8a18c8c6a3286086130cb6f23194186bb5e8d7348b72896",
+      "text_blocks": 73,
+      "images_found": 15,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：KDJ.pptx",
+      "category": "03-技术指标（8份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:04.586358+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "cfe509743f325c8831b681494461732a4b1710c1": {
+      "extraction_status": "extracted",
+      "source_sha256": "8fcc63c5e4cd32ae005c88a341b024a8064be8fe8092270ea4ee1a7e52900b39",
+      "text_blocks": 86,
+      "images_found": 11,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml",
+          "ppt/slides/slide23.xml",
+          "ppt/slides/slide24.xml",
+          "ppt/slides/slide25.xml",
+          "ppt/slides/slide26.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:05.712576+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "fbe77980689439fd0a5a3aed4f8ff910b30724da": {
+      "extraction_status": "extracted",
+      "source_sha256": "74bb2342d1e3a4b4b81ef8f4f960ed30a9448ac6f8c1bf4dbc316bdf1c19643f",
+      "text_blocks": 86,
+      "images_found": 11,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml",
+          "ppt/slides/slide15.xml",
+          "ppt/slides/slide16.xml",
+          "ppt/slides/slide17.xml",
+          "ppt/slides/slide18.xml",
+          "ppt/slides/slide19.xml",
+          "ppt/slides/slide20.xml",
+          "ppt/slides/slide21.xml",
+          "ppt/slides/slide22.xml",
+          "ppt/slides/slide23.xml",
+          "ppt/slides/slide24.xml",
+          "ppt/slides/slide25.xml",
+          "ppt/slides/slide26.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MA(1).pptx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:06.757196+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "724b03152c5697aa247b3d5aacb253c8c8d1fa6b": {
+      "extraction_status": "extracted",
+      "source_sha256": "b5093e7e2e7a59d0d66c2d2767812eb921d2d5ec0c4f8036eb39a5a07bafa3cb",
+      "text_blocks": 35,
+      "images_found": 0,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MA.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:07.140084+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "d9e570efa89926fd6e4996725e5d282e6083a7cb": {
+      "extraction_status": "extracted",
+      "source_sha256": "db237ca83c4a27ef3c9cd26600b6c641c2a1cea916264d5de38a980276135e0c",
+      "text_blocks": 33,
+      "images_found": 0,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "技术指标策略体系：MACD（上）.docx",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T20:52:07.475823+00:00",
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
