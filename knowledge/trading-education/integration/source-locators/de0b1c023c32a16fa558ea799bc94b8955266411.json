@@ -1,0 +1,150 @@
+{
+  "source_sha": "de0b1c023c32a16fa558ea799bc94b8955266411",
+  "source_name": "量价关系判断买卖.pptx",
+  "topics": {
+    "trend": [
+      {
+        "location": "slide-2:shape-3",
+        "excerpt_sha256": "79e7f92f8bf948d02f12eb180bdb3a98a390e0f82640e19848acb8e59b72144e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-2",
+        "excerpt_sha256": "a46e85fbc053700f46778142bf47b9985cdbcce038e5e736b2e58722c6ae0484",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-2",
+        "excerpt_sha256": "ed0f180ed4a93e7c3a47a654bb9ebb2b70512fa118707cc810c0553ac1624172",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "slide-2:shape-3",
+        "excerpt_sha256": "79e7f92f8bf948d02f12eb180bdb3a98a390e0f82640e19848acb8e59b72144e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-3:shape-3",
+        "excerpt_sha256": "6e98acf655bbb4869632e563c9cbf3a14927e73b0b290dccc90811179658ea51",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-2",
+        "excerpt_sha256": "a46e85fbc053700f46778142bf47b9985cdbcce038e5e736b2e58722c6ae0484",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "slide-3:shape-3",
+        "excerpt_sha256": "6e98acf655bbb4869632e563c9cbf3a14927e73b0b290dccc90811179658ea51",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-4:shape-1",
+        "excerpt_sha256": "de645f8c8cfbc87f925d3eacfa47fad1336b987c46c5b5b203e5adfd13495171",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-5:shape-2",
+        "excerpt_sha256": "a46e85fbc053700f46778142bf47b9985cdbcce038e5e736b2e58722c6ae0484",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-1",
+        "excerpt_sha256": "3027ce1b604bfabf822ddaac58e172167fee123338f54374b89858a81f60f25e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-6:shape-2",
+        "excerpt_sha256": "ed0f180ed4a93e7c3a47a654bb9ebb2b70512fa118707cc810c0553ac1624172",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-1",
+        "excerpt_sha256": "c484898aa5ab76e630282398b518744e50730622ce4b3f88196c167a230e04ce",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-7:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-1",
+        "excerpt_sha256": "c484898aa5ab76e630282398b518744e50730622ce4b3f88196c167a230e04ce",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-1",
+        "excerpt_sha256": "c484898aa5ab76e630282398b518744e50730622ce4b3f88196c167a230e04ce",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-10:shape-1",
+        "excerpt_sha256": "4f3cadc02ba4e33c5835cc3d7d3a9c0e415aac0ae74627fa02adb22353b682fa",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-11:shape-1",
+        "excerpt_sha256": "cb440938a72811c2c60598b448819a4b9e540b54783486a648b84824cf31a6b6",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-12:shape-1",
+        "excerpt_sha256": "2df12f11e2d579804d3230eb51fd9a64d5df9f872ccdc5a32efdc6b0232f057d",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-14:shape-1",
+        "excerpt_sha256": "250d8acb58928b742635b765924de8b997dd667dc05d3a8b15c0735dbb8d306f",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "slide-7:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-8:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      },
+      {
+        "location": "slide-9:shape-2",
+        "excerpt_sha256": "50b7e121145fd7a11edda0b8ed4a40478c64810ecdd8b1099d7ebb287324670e",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

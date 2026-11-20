@@ -20,6 +20,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 量价关系的基本形态.pdf (source 88e7b83e7b42, page-9, page-13): review the original example and explain its context.
 
+- 139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf (source d47f4419325e, page-163, page-608, page-649, page-717, page-767): review the original example and explain its context.
+
 - 成交量与 K 线形态的力量.pdf (source db98c9518038, page-12, page-17, page-18, page-21, page-25): review the original example and explain its context.
 
 - 量价关系判断买卖.pptx (source de0b1c023c32, slide-7:shape-2, slide-8:shape-2, slide-9:shape-2): review the original example and explain its context.

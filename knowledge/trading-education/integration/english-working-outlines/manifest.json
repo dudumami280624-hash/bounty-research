@@ -10,7 +10,7 @@
     {
       "topic": "confirmation",
       "file": "confirmation.md",
-      "source_count": 9,
+      "source_count": 10,
       "status": "working_outline"
     },
     {
@@ -40,25 +40,25 @@
     {
       "topic": "risk",
       "file": "risk.md",
-      "source_count": 18,
+      "source_count": 21,
       "status": "working_outline"
     },
     {
       "topic": "support_resistance",
       "file": "support_resistance.md",
-      "source_count": 18,
+      "source_count": 21,
       "status": "working_outline"
     },
     {
       "topic": "trend",
       "file": "trend.md",
-      "source_count": 22,
+      "source_count": 26,
       "status": "working_outline"
     },
     {
       "topic": "volume",
       "file": "volume.md",
-      "source_count": 18,
+      "source_count": 20,
       "status": "working_outline"
     }
   ],

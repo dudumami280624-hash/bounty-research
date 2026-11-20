@@ -1,0 +1,51 @@
+{
+  "source_sha": "2477d8b3dc0f5f5a9406b47e36a0045c75bc18da",
+  "source_name": "143_寻找朝阳行业，为下一个五年、十年做储备.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-39",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-44",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-47",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-48",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-56",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-29",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

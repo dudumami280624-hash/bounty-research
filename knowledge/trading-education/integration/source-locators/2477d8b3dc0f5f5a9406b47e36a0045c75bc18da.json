@@ -1,0 +1,46 @@
+{
+  "source_sha": "2477d8b3dc0f5f5a9406b47e36a0045c75bc18da",
+  "source_name": "143_寻找朝阳行业，为下一个五年、十年做储备.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-26",
+        "excerpt_sha256": "bfd61ca8e343328eaad6661d92d4a0dddc1fe202f6322387acd441ca624ffd00",
+        "status": "unverified"
+      },
+      {
+        "location": "page-29",
+        "excerpt_sha256": "f60414bd1891ef25a5d26e50c9aee1855825c8193e03ecd61ec470ac022103ca",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-39",
+        "excerpt_sha256": "3a82d1abff1756d5d97f0e75db0b983d8458c09decb31d1ba0612145e74ad5f6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-44",
+        "excerpt_sha256": "20c490e1518aeef650a41ddb0e2fddb31329ae4f1da41c1eab3d78fa809a00c2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-47",
+        "excerpt_sha256": "117ab25960a234541fc22d168ab070eae9691a9ea24e84e8c170a95bb540a628",
+        "status": "unverified"
+      },
+      {
+        "location": "page-48",
+        "excerpt_sha256": "0f9a423809071b3d29590bc44f50b7cf6e57d52e00c40e9f60231e6cb30dd8fa",
+        "status": "unverified"
+      },
+      {
+        "location": "page-56",
+        "excerpt_sha256": "281d7ba74788de3d04a5104ce1992d95e9395b30047941a11615ae6614af451f",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

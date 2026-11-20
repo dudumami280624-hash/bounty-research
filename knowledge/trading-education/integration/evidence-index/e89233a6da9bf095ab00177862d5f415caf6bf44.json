@@ -1,0 +1,66 @@
+{
+  "source_sha": "e89233a6da9bf095ab00177862d5f415caf6bf44",
+  "source_name": "164_所有跌入中等收入陷阱的国家都源自持续性的贬值本币！.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-63",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-111",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-115",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-116",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-34",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-77",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

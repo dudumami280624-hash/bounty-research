@@ -8,6 +8,10 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf (source 1debe93faf76, page-6, page-28, page-54): review the original example and explain its context.
+
+- 143_寻找朝阳行业，为下一个五年、十年做储备.pdf (source 2477d8b3dc0f, page-39, page-44, page-47, page-48, page-56): review the original example and explain its context.
+
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-2, page-5, page-10, page-18): review the original example and explain its context.
 
 - 股价涨跌的真正原因.pdf (source 2c475db0e753, page-6:OCR-unverified): review the original example and explain its context.
@@ -27,10 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-9, page-11, page-16, page-18, page-20): review the original example and explain its context.
 
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5, slide-4:shape-6, slide-10:shape-5, slide-11:shape-5, slide-12:shape-3): review the original example and explain its context.
-
-- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-17, word/document.xml:paragraph-36, word/document.xml:paragraph-39): review the original example and explain its context.
-
-- K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-7:shape-5, slide-11:shape-5, slide-14:shape-5, slide-17:shape-5, slide-19:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

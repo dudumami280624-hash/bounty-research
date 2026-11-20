@@ -1,0 +1,62 @@
+{
+  "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
+  "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-28",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-54",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-54",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

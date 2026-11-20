@@ -1,0 +1,53 @@
+{
+  "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
+  "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "f90ef1f11f22ee6df1bb0fa2b7beba01279238df5b0b5f2e0b473d187af2ba73",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "9928d100968747c66d951985d0e2a5e5a790f3da57525e429b29f875e45cc21b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "918f76f4e5222aededc557e85475a2d5c5260d6af54d4404d3844f36ffc64556",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "e3c29cad0030fa90042edbd0fecf673a3f8b3d23bb1418e5b1aa9fe137e8deee",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "b31ae1b9ca9f23ad5b7f3118c8e6084f46f4c592a2f479bedb0763b6f8775335",
+        "status": "unverified"
+      },
+      {
+        "location": "page-28",
+        "excerpt_sha256": "4e47b893cdb8b5520df17c886326186900d118a37e79f0dbd3a696fb95f1a209",
+        "status": "unverified"
+      },
+      {
+        "location": "page-54",
+        "excerpt_sha256": "43d72b68ecf2858246f80338fa772e4273c244439b79bb0840a83685d50e7888",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-54",
+        "excerpt_sha256": "43d72b68ecf2858246f80338fa772e4273c244439b79bb0840a83685d50e7888",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf (source 1debe93faf76, page-54): review the original example and explain its context.
+
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-17:shape-30, slide-18:shape-5): review the original example and explain its context.
 
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-10, page-12, page-17): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-5, page-6, page-8): review the original example and explain its context.
 
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5, slide-10:shape-5): review the original example and explain its context.
-
-- K线策略体系：右侧突破.docx (source 79bc42d731ba, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-36): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

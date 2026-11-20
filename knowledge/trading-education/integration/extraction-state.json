@@ -966,6 +966,266 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "ab80ea463ab1988c3d7ca01e823bdf99b7374659": {
+      "source_name": "《极简缠论》截止到中枢战法.ppt",
+      "category": "02-趋势均线形态（47份）",
+      "extraction_status": "needs_conversion",
+      "attempts": 0,
+      "reason": "LibreOffice unavailable on runner"
+    },
+    "aaee24e62e47ed22a627a3e940276873634bff17": {
+      "source_name": "价值投资理论《证券分析》.doc",
+      "category": "05-投资与基本面研究（30份）",
+      "extraction_status": "needs_conversion",
+      "attempts": 0,
+      "reason": "LibreOffice unavailable on runner"
+    },
+    "d1c39d68879229dd936d9791be31dd16ddc0767b": {
+      "source_name": "华尔街传奇《股票大作手回忆录》.doc",
+      "category": "04-交易心理与风险（18份）",
+      "extraction_status": "needs_conversion",
+      "attempts": 0,
+      "reason": "LibreOffice unavailable on runner"
+    },
+    "615359fb27454108dfc7c567a1116f264b13a92e": {
+      "source_name": "技术分析《道氏理论》.doc",
+      "category": "02-趋势均线形态（47份）",
+      "extraction_status": "needs_conversion",
+      "attempts": 0,
+      "reason": "LibreOffice unavailable on runner"
+    },
+    "5ec3309434a333bc407c05aa0cbee785bbf6a792": {
+      "source_name": "投机理论《金融炼金术》.doc",
+      "category": "05-投资与基本面研究（30份）",
+      "extraction_status": "needs_conversion",
+      "attempts": 0,
+      "reason": "LibreOffice unavailable on runner"
+    },
+    "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690": {
+      "source_name": "第八节RSI.doc",
+      "category": "03-技术指标（8份）",
+      "extraction_status": "needs_conversion",
+      "attempts": 0,
+      "reason": "LibreOffice unavailable on runner"
+    },
+    "60b26a19512c452e70aa83497e87bdd0ebdc89cc": {
+      "extraction_status": "extracted",
+      "source_sha256": "202975efb0054251ca1dc6d8ed2862282189d821f2dc4c4252ef047c876c0f56",
+      "text_blocks": 33,
+      "images_found": 8,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "word/document.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "缺口.docx",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:03:27.503124+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "de0b1c023c32a16fa558ea799bc94b8955266411": {
+      "extraction_status": "extracted",
+      "source_sha256": "1f1defea8dceff569eaf8d8a8093ffdb8c397968d103b24683a81399fbc3f71e",
+      "text_blocks": 19,
+      "images_found": 15,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "xml_parts_read": [
+          "ppt/slides/slide1.xml",
+          "ppt/slides/slide2.xml",
+          "ppt/slides/slide3.xml",
+          "ppt/slides/slide4.xml",
+          "ppt/slides/slide5.xml",
+          "ppt/slides/slide6.xml",
+          "ppt/slides/slide7.xml",
+          "ppt/slides/slide8.xml",
+          "ppt/slides/slide9.xml",
+          "ppt/slides/slide10.xml",
+          "ppt/slides/slide11.xml",
+          "ppt/slides/slide12.xml",
+          "ppt/slides/slide13.xml",
+          "ppt/slides/slide14.xml"
+        ]
+      },
+      "visual_ai": {
+        "status": "not_applicable",
+        "pages_analyzed": 0
+      },
+      "source_name": "量价关系判断买卖.pptx",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:03:29.031422+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "ee0b5930e6e38f56e3404096ff0b33fdf36ed100": {
+      "extraction_status": "extracted",
+      "source_sha256": "de18c7d11a2bb7e640d8bbfa96d21132b59a6d3f1963d89f7939c5c2763712dd",
+      "text_blocks": 5628,
+      "images_found": 0,
+      "topic_candidates": 9,
+      "private_research_topics": 9,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 5628,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_failed",
+        "pages_analyzed": 0,
+        "error": "Source processing exceeded 90s; retry next batch"
+      },
+      "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:04:59.465185+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "c4d5856c1c05451a639bb6da84c78dd5d87e71f5": {
+      "extraction_status": "failed",
+      "error": "Source processing exceeded 90s; retry next batch",
+      "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:06:29.480483+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "d47f4419325ee4fc52c9419adcc2ed86283367a1": {
+      "extraction_status": "extracted",
+      "source_sha256": "f3cdff5534752fcbbdf6f5224be3a35467655cd9f7d6fa8f3611b584fde56a3d",
+      "text_blocks": 3063,
+      "images_found": 1,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 3063,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 3063,
+        "chart_candidate_pages": 1,
+        "ocr_failed_pages": 0
+      },
+      "source_name": "139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf",
+      "category": "08-待归类（11份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:07:41.519764+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "2477d8b3dc0f5f5a9406b47e36a0045c75bc18da": {
+      "extraction_status": "extracted",
+      "source_sha256": "7af97753270527a0d8cbfaa11c81954b6bd914fd89432d4d09f061d376e33aaf",
+      "text_blocks": 69,
+      "images_found": 0,
+      "topic_candidates": 2,
+      "private_research_topics": 2,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 69,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 69,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "source_name": "143_寻找朝阳行业，为下一个五年、十年做储备.pdf",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:07:43.303134+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "e89233a6da9bf095ab00177862d5f415caf6bf44": {
+      "extraction_status": "extracted",
+      "source_sha256": "7e6d53abee13dfca15a8b7e19326f5333689c3a771b22b1308e46e6fed34fa82",
+      "text_blocks": 150,
+      "images_found": 0,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 150,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 150,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "source_name": "164_所有跌入中等收入陷阱的国家都源自持续性的贬值本币！.pdf",
+      "category": "06-宏观经济与市场周期（16份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:07:46.837172+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "1debe93faf7685d10e8e08752910ad7bbfbf5308": {
+      "extraction_status": "extracted",
+      "source_sha256": "911c81b5af9847b8a8eebd2ab404ed7e95af84a1b6ef96fd850e3a821f577520",
+      "text_blocks": 57,
+      "images_found": 0,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 57,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 57,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
+      "category": "06-宏观经济与市场周期（16份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T19:07:48.214402+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }

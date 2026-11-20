@@ -1,0 +1,65 @@
+{
+  "source_sha": "60b26a19512c452e70aa83497e87bdd0ebdc89cc",
+  "source_name": "缺口.docx",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-12",
+        "excerpt_sha256": "72017a98d9bb43e8e637ade62215a1d753f54c5a52a8618f072196aa2f483f6c",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-16",
+        "excerpt_sha256": "56862d4589752ac6492e33da10fa9e0e8775b6caa53c945452daa1beecbc3d99",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-28",
+        "excerpt_sha256": "20388b2a6f2b7d7588126538187a3868bb5e2e66c7d6dd1c271e1c4e199c11d9",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-36",
+        "excerpt_sha256": "8ef0516726a58ffcd6b81a9e8d058e37b8b9555734b78da8d0299a537eebe399",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-27",
+        "excerpt_sha256": "1827c8261fdd636f4b2180e948363902ab164829d847654fe953f92b95a9a771",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-37",
+        "excerpt_sha256": "7f1e0b2ab9a70b303a299d23a497d28343075a36b5b07e223a84f9b97bf8f677",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-39",
+        "excerpt_sha256": "26f93debf3ff6c6f6a7eeea315c8ce18d79472ec142c96dd1d9399ee49a0537b",
+        "status": "unverified"
+      },
+      {
+        "location": "word/document.xml:paragraph-41",
+        "excerpt_sha256": "124035bc3cdf213751ea49c88a76c80edf031d6bc6fc51183f241cb017b6ef54",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "word/document.xml:paragraph-28",
+        "excerpt_sha256": "20388b2a6f2b7d7588126538187a3868bb5e2e66c7d6dd1c271e1c4e199c11d9",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "word/document.xml:paragraph-44",
+        "excerpt_sha256": "956a6a6a3b39852d16d2f8f2c9b222b95554603588c5832c71f711a2007e38da",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
