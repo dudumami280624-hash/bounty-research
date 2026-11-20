@@ -22,7 +22,7 @@ concurrency:
 jobs:
   extract:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 24
     steps:
       - uses: actions/checkout@v4
         with:
@@ -76,6 +76,15 @@ jobs:
           TMM_VISUAL_MAX_PAGES: '12'
           TMM_OCR_PAGE_TIMEOUT_SECONDS: '12'
         run: python knowledge/trading-education/tools/run_extraction_batch.py
+      - name: Resume PDF visual page coverage (not semantic verification)
+        if: always()
+        timeout-minutes: 3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TMM_VISUAL_MAX_PAGES: '12'
+          TMM_OCR_PAGE_TIMEOUT_SECONDS: '12'
+          TMM_VISUAL_AUDIT_BUDGET_SECONDS: '145'
+        run: python knowledge/trading-education/tools/resume_visual_pages.py
       - name: Refresh cross-source research catalog
         if: always()
         run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
