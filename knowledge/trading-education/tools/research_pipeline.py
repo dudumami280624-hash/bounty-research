@@ -89,10 +89,10 @@ def draft_lesson(topic, catalog, out, research_dir=None):
     if not sources: raise ValueError('No source-linked evidence for topic')
     lines=['# '+topic.replace('_',' ').title(),
       '',
-      'Educational draft based on indexed textbook material.',
+      'WORKING OUTLINE — source locations indexed; textbook passages and chart meanings not yet reviewed.',
       '',
       '## What this topic covers',
-      'This lesson explores '+topic.replace('_',' ')+' in technical analysis.',
+      'This lesson will explore '+topic.replace('_',' ')+' in technical analysis after source review.',
       'It distinguishes descriptions of price behavior from claims about future performance.',
       '',
       '## Source reading and examples']
@@ -102,7 +102,7 @@ def draft_lesson(topic, catalog, out, research_dir=None):
         lines.extend(['', '- '+str(src.get('source_name','Unknown source'))+
           ' (source '+str(src.get('source_sha',''))[:12]+', '+loc+'): review the original example and explain its context.'])
     lines.extend(['', '## Practical interpretation',
-      'Identify the market context, the observed pattern, possible alternative interpretations, and the conditions that would invalidate an interpretation.',
+      'To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.',
       '',
       '## Risk and limitations',
       'A chart pattern alone cannot guarantee future price direction or trading returns. Consider liquidity, volatility, position sizing, and the possibility of false signals.',
