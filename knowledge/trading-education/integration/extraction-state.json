@@ -189,6 +189,31 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "60f46ee50a2765e6d8152617da2b1f2c1c57007d": {
+      "extraction_status": "extracted",
+      "source_sha256": "cd2975ae9338e6074fc76d075e6bb60264f2016f031b00101b69324109e86f2b",
+      "text_blocks": 27,
+      "images_found": 27,
+      "topic_candidates": 8,
+      "details": {
+        "pages": 27,
+        "pages_without_extractable_text": [
+          3
+        ],
+        "ocr_pages": [
+          3
+        ],
+        "ocr_limit_pages": 3,
+        "ocr_requires_manual_review": true
+      },
+      "source_name": "六种常见看跌蜡烛图形态 .pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:15:09.874463+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
