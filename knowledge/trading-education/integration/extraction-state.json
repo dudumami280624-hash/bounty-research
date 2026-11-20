@@ -376,6 +376,35 @@
       "visual_review_complete": false,
       "fact_checked": false,
       "integrated_into_lesson": false
+    },
+    "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b": {
+      "extraction_status": "extracted",
+      "source_sha256": "4e2fe6bb1e9e4144f7f02debb3d89811e8dd5c029b72f5d30bd3e34949cebed6",
+      "text_blocks": 17,
+      "images_found": 23,
+      "topic_candidates": 6,
+      "details": {
+        "pages": 17,
+        "pages_without_extractable_text": [
+          14
+        ],
+        "ocr_pages": [
+          14
+        ],
+        "ocr_failed_pages": [],
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 17
+      },
+      "source_name": "量价关系的基本形态.pdf",
+      "category": "01-蜡烛图与价格行为（26份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-20T18:32:34.655039+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
     }
   }
 }
