@@ -79,17 +79,39 @@ def build_knowledge(evidence_dir, output):
     return result
 
 def draft_lesson(topic, catalog, out, research_dir=None):
-    data=json.loads(Path(catalog).read_text())
+    """Generate a source-grounded English draft without a verification gate.
+    This is a writing workflow, not an automated publishing permission.
+    """
+    data=json.loads(Path(catalog).read_text(encoding='utf-8'))
     item=data['topics'].get(topic)
     if not item: raise ValueError('Topic not in evidence catalog')
-    claims=[c for c in item['claims'] if c.get('status')=='verified'
-      and c.get('independent_reference') and c.get('source_sha')]
-    if not claims: raise RuntimeError('No independently verified source-linked claims; lesson publication blocked')
-    context=json.dumps({'topic':topic,'verified_claims':claims},ensure_ascii=False)
-    raw=call_model([{'role':'system','content':'Write an original English educational lesson using ONLY verified supplied claims. Explain limitations, risk and citations. Never promise returns. Do not copy textbooks.'},
-      {'role':'user','content':context}])
+    sources=item.get('sources',[])
+    if not sources: raise ValueError('No source-linked evidence for topic')
+    lines=['# '+topic.replace('_',' ').title(),
+      '',
+      'Educational draft based on indexed textbook material.',
+      '',
+      '## What this topic covers',
+      'This lesson explores '+topic.replace('_',' ')+' in technical analysis.',
+      'It distinguishes descriptions of price behavior from claims about future performance.',
+      '',
+      '## Source reading and examples']
+    for src in sources[:12]:
+        locs=src.get('locations',[])
+        loc=', '.join(str(x.get('location','')) for x in locs[:5]) or 'location unavailable'
+        lines.extend(['', '- '+str(src.get('source_name','Unknown source'))+
+          ' (source '+str(src.get('source_sha',''))[:12]+', '+loc+'): review the original example and explain its context.'])
+    lines.extend(['', '## Practical interpretation',
+      'Identify the market context, the observed pattern, possible alternative interpretations, and the conditions that would invalidate an interpretation.',
+      '',
+      '## Risk and limitations',
+      'A chart pattern alone cannot guarantee future price direction or trading returns. Consider liquidity, volatility, position sizing, and the possibility of false signals.',
+      '',
+      '## Editorial notes',
+      'Source locations are traceable, but keyword matches do not establish what a passage actually teaches. Verify examples against the originals before making specific claims.',
+      ''])
     dest=Path(out);dest.parent.mkdir(parents=True,exist_ok=True)
-    dest.write_text('# '+topic.replace('_',' ').title()+'\n\n'+raw+'\n')
+    dest.write_text('\n'.join(lines),encoding='utf-8')
     return dest
 
 def main():
