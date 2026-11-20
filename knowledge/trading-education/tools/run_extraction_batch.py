@@ -17,6 +17,7 @@ REPORT=ROOT/'integration/latest-extraction-report.md'
 REPO=os.environ.get('GITHUB_REPOSITORY','dudumami280624-hash/bounty-research')
 TOKEN=os.environ.get('GITHUB_TOKEN','')
 MAX_ATTEMPTS=3
+BATCH_SIZE=max(1,min(8,int(os.environ.get('TMM_BATCH_SIZE','4'))))
 
 def inventory(text):
     section=''; entries=[]
@@ -95,8 +96,9 @@ def main():
     terminal={'extracted','needs_visual_review','needs_conversion'}
     pending=[e for e in entries if files.get(e['sha'],{}).get('extraction_status') not in terminal
              and files.get(e['sha'],{}).get('attempts',0)<MAX_ATTEMPTS]
-    if pending:
-        entry=pending[0];sha=entry['sha'];previous=files.get(sha,{})
+    processed=[]
+    for entry in pending[:BATCH_SIZE]:
+        sha=entry['sha'];previous=files.get(sha,{})
         attempts=previous.get('attempts',0)+1
         try: status=extract(entry,download_blob(sha))
         except Exception as exc: status={'extraction_status':'failed','error':str(exc)[:500]}
@@ -105,8 +107,9 @@ def main():
                        'visual_review_complete':False,'fact_checked':False,
                        'integrated_into_lesson':False})
         files[sha]=status
-    else:
-        entry=None;status={'extraction_status':'no_eligible_files'}
+        processed.append({'source_name':entry['name'],'status':status['extraction_status']})
+    entry=pending[0] if pending else None
+    status=files[entry['sha']] if entry else {'extraction_status':'no_eligible_files'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
     STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -118,7 +121,8 @@ def main():
     checked=sum(bool(v.get('fact_checked')) for v in files.values())
     integrated=sum(bool(v.get('integrated_into_lesson')) for v in files.values())
     REPORT.write_text('# The Market Mind — 178份原件自动处理进度\n\n'
-       +f'- 本轮：{entry["name"] if entry else "无可处理文件"}\n'
+       +f'- 本轮批量处理：{len(processed)}份\n'
+       +''.join(f'- {x["source_name"]}：{x["status"]}\\n' for x in processed)
        +f'- 本轮状态：{status["extraction_status"]}\n'
        +f'- 已提取文字：{counts["extracted"]}/178\n'
        +f'- OCR不完整待重试：{counts["partial_ocr_failure"]}\n'
@@ -127,7 +131,7 @@ def main():
        +f'- 失败待重试：{counts["failed"]-exhausted}；重试耗尽：{exhausted}\n'
        +f'- 完成图表视觉核验：{reviewed}；完成事实核验：{checked}；完成课程融合：{integrated}\n\n'
        +'**提取文字不代表理解或核验。** 原件和提取全文不提交到公开仓库。\n',encoding='utf-8')
-    print(json.dumps({'file':entry,'result':status,'counts':counts},ensure_ascii=False))
-    if status['extraction_status'] in ('failed','partial_ocr_failure'):sys.exit(1)
+    print(json.dumps({'processed':processed,'counts':counts},ensure_ascii=False))
+    if any(x['status'] in ('failed','partial_ocr_failure') for x in processed):sys.exit(1)
 
 if __name__=='__main__': main()
