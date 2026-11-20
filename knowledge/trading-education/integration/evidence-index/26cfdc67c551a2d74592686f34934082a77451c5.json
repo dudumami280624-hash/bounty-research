@@ -1,0 +1,119 @@
+{
+  "source_sha": "26cfdc67c551a2d74592686f34934082a77451c5",
+  "source_name": "K线策略体系：起爆点.pptx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-5:shape-12",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-15:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-17:shape-30",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "slide-10:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-10:shape-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "slide-17:shape-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-18:shape-5",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "slide-4:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-8:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-10:shape-5",
+          "term_mentions": 2
+        },
+        {
+          "location": "slide-11:shape-5",
+          "term_mentions": 3
+        },
+        {
+          "location": "slide-17:shape-30",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "slide-18:shape-5",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "slide-31:shape-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "slide-31:shape-10",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
