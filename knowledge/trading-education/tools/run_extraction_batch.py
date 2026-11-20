@@ -18,7 +18,7 @@ REPORT=ROOT/'integration/latest-extraction-report.md'
 REPO=os.environ.get('GITHUB_REPOSITORY','dudumami280624-hash/bounty-research')
 TOKEN=os.environ.get('GITHUB_TOKEN','')
 MAX_ATTEMPTS=3
-BATCH_SIZE=max(1,min(8,int(os.environ.get('TMM_BATCH_SIZE','4'))))
+BATCH_SIZE=max(1,min(12,int(os.environ.get('TMM_BATCH_SIZE','4'))))
 
 def inventory(text):
     section=''; entries=[]
@@ -105,9 +105,12 @@ def main():
     entries=inventory(INDEX.read_text(encoding='utf-8'))
     state=json.loads(STATE.read_text(encoding='utf-8')) if STATE.exists() else {'schema_version':2,'files':{}}
     files=state.setdefault('files',{})
-    terminal={'extracted','needs_visual_review','needs_conversion'}
+    terminal={'extracted','needs_visual_review'}
+    converter_available=bool(shutil.which('libreoffice'))
     pending=[e for e in entries if files.get(e['sha'],{}).get('extraction_status') not in terminal
-             and files.get(e['sha'],{}).get('attempts',0)<MAX_ATTEMPTS]
+             and (files.get(e['sha'],{}).get('attempts',0)<MAX_ATTEMPTS
+                  or (files.get(e['sha'],{}).get('extraction_status')=='needs_conversion' and converter_available))
+             and (converter_available or Path(e['name']).suffix.lower() not in ('.doc','.ppt'))]
     processed=[]
     for entry in pending[:BATCH_SIZE]:
         sha=entry['sha'];previous=files.get(sha,{})
@@ -144,6 +147,6 @@ def main():
        +f'- 完成图表视觉核验：{reviewed}；完成事实核验：{checked}；完成课程融合：{integrated}\n\n'
        +'**提取文字不代表理解或核验。** 原件和提取全文不提交到公开仓库。\n',encoding='utf-8')
     print(json.dumps({'processed':processed,'counts':counts},ensure_ascii=False))
-    if any(x['status'] in ('failed','partial_ocr_failure') for x in processed):sys.exit(1)
+    # Record individual failures and continue; a single bad source must not block progress.
 
 if __name__=='__main__': main()
