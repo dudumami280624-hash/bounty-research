@@ -97,6 +97,8 @@ def extract(entry, blob):
                 observations=inspect_pdf(source,work/'visual-review'/entry['sha'])
                 vision_result={'status':'free_visual_features_unverified',
                   'pages_analyzed':len(observations),
+                  'document_total_pages':observations[0]['document_total_pages'] if observations else 0,
+                  'visual_coverage_complete':all(x['visual_coverage_complete'] for x in observations) if observations else False,
                   'chart_candidate_pages':sum(bool(x.get('chart_candidate')) for x in observations),
                   'ocr_failed_pages':sum(not x.get('ocr_success',False) for x in observations)}
             except Exception as exc:
@@ -112,7 +114,8 @@ def extract(entry, blob):
     return {'extraction_status':('partial_ocr_failure' if details.get('ocr_failed_pages') else ('extracted' if blocks else 'needs_visual_review')),
             'source_sha256':hashlib.sha256(blob).hexdigest(),
             'text_blocks':len(blocks),'images_found':len(images),'topic_candidates':len(candidates(blocks)),'private_research_topics':len(packet['topics']),
-            'research_draft_status':'internal_unverified_only','details':details,'visual_ai':vision_result}
+            'research_draft_status':'internal_unverified_only','details':details,'visual_ai':vision_result,
+            'visual_review_complete':False}
 
 def main():
     if not TOKEN: raise RuntimeError('GITHUB_TOKEN is missing')
