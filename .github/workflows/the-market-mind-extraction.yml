@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: tmm-hourly-extraction
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   extract:
@@ -48,6 +48,7 @@ jobs:
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
         run: python knowledge/trading-education/tools/smoke_test.py
       - name: Extract next indexed source
+        timeout-minutes: 7
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python knowledge/trading-education/tools/run_extraction_batch.py
