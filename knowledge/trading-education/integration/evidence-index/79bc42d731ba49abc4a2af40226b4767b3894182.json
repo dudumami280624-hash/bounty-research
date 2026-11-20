@@ -1,0 +1,167 @@
+{
+  "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+  "source_name": "K线策略体系：右侧突破.docx",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 29,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-20",
+          "term_mentions": 7
+        },
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-29",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 6
+        },
+        {
+          "location": "word/document.xml:paragraph-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-42",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-51",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-57",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-60",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-39",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 23,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-17",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-36",
+          "term_mentions": 4
+        },
+        {
+          "location": "word/document.xml:paragraph-39",
+          "term_mentions": 3
+        },
+        {
+          "location": "word/document.xml:paragraph-42",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-45",
+          "term_mentions": 5
+        },
+        {
+          "location": "word/document.xml:paragraph-48",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 2
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-36",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-14",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

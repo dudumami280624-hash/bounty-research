@@ -1,8 +1,12 @@
 # The Market Mind — 178份原件自动处理进度
 
-- 本轮：1.初学者成为高手的秘籍：十字星.pptx
+- 本轮批量处理：4份
+- 1K线策略体系：十字星.docx：extracted
+- K线策略体系：右侧突破 (2).pptx：extracted
+- K线策略体系：右侧突破.docx：extracted
+- K线策略体系：右侧突破.pptx：extracted
 - 本轮状态：extracted
-- 已提取文字：12/178
+- 已提取文字：16/178
 - OCR不完整待重试：0
 - 需视觉复核：0
 - 需旧格式转换：0

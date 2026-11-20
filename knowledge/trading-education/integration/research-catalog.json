@@ -43,6 +43,132 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
+          "source_name": "K线策略体系：右侧突破.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-2:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-3:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-6:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-9:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-12:shape-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-17:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+          "source_name": "K线策略体系：右侧突破.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-20",
+              "term_mentions": 7
+            },
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-29",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-42",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-57",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-60",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -129,6 +255,65 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
+          "source_name": "1K线策略体系：十字星.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-16",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-19",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-25",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-28",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-37",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-40",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-46",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-55",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-58",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
           "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
           "locations": [
@@ -167,6 +352,49 @@
             {
               "location": "slide-20:shape-5",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
+          "source_name": "K线策略体系：右侧突破 (2).pptx",
+          "locations": [
+            {
+              "location": "slide-3:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-3:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-4:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-11:shape-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-12:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-5",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -310,6 +538,91 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
+          "source_name": "K线策略体系：右侧突破.pptx",
+          "locations": [
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+          "source_name": "K线策略体系：右侧突破.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-39",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
+          "source_name": "1K线策略体系：十字星.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-13",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-16",
+              "term_mentions": 14
+            },
+            {
+              "location": "word/document.xml:paragraph-19",
+              "term_mentions": 9
+            },
+            {
+              "location": "word/document.xml:paragraph-22",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-25",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-28",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-40",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-46",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-58",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
           "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
           "locations": [
@@ -434,6 +747,37 @@
             {
               "location": "page-11",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
+          "source_name": "1K线策略体系：十字星.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-28",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-37",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-58",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -586,6 +930,28 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
+          "source_name": "K线策略体系：右侧突破.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+          "source_name": "K线策略体系：右侧突破.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -606,6 +972,28 @@
             },
             {
               "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
+          "source_name": "1K线策略体系：十字星.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-34",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
+          "source_name": "K线策略体系：右侧突破 (2).pptx",
+          "locations": [
+            {
+              "location": "slide-3:shape-5",
               "term_mentions": 1
             }
           ],
@@ -742,6 +1130,40 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
+          "source_name": "K线策略体系：右侧突破.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+          "source_name": "K线策略体系：右侧突破.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-36",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -751,6 +1173,17 @@
             },
             {
               "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
+          "source_name": "K线策略体系：右侧突破 (2).pptx",
+          "locations": [
+            {
+              "location": "slide-11:shape-15",
               "term_mentions": 1
             }
           ],
@@ -915,6 +1348,88 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
+          "source_name": "K线策略体系：右侧突破.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-4:shape-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "slide-11:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-12:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-14:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+          "source_name": "K线策略体系：右侧突破.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-17",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-36",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-39",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-42",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-45",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-48",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -989,6 +1504,69 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
+          "source_name": "1K线策略体系：十字星.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-13",
+              "term_mentions": 5
+            },
+            {
+              "location": "word/document.xml:paragraph-19",
+              "term_mentions": 6
+            },
+            {
+              "location": "word/document.xml:paragraph-22",
+              "term_mentions": 4
+            },
+            {
+              "location": "word/document.xml:paragraph-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-28",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-31",
+              "term_mentions": 3
+            },
+            {
+              "location": "word/document.xml:paragraph-37",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-40",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-43",
+              "term_mentions": 2
+            },
+            {
+              "location": "word/document.xml:paragraph-46",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-49",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-52",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-58",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
           "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
           "locations": [
@@ -1022,6 +1600,69 @@
             },
             {
               "location": "slide-20:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
+          "source_name": "K线策略体系：右侧突破 (2).pptx",
+          "locations": [
+            {
+              "location": "slide-3:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-5:shape-6",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-11:shape-15",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-12:shape-12",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-13:shape-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-15:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-15:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-18:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-19:shape-4",
               "term_mentions": 1
             }
           ],
@@ -1111,6 +1752,32 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
+          "source_name": "K线策略体系：右侧突破.pptx",
+          "locations": [
+            {
+              "location": "slide-2:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
+          "source_name": "K线策略体系：右侧突破.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-14",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -1183,6 +1850,17 @@
             },
             {
               "location": "page-22",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
+          "source_name": "K线策略体系：右侧突破 (2).pptx",
+          "locations": [
+            {
+              "location": "slide-3:shape-5",
               "term_mentions": 1
             }
           ],
