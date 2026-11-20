@@ -34,14 +34,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python knowledge/trading-education/tools/run_extraction_batch.py
-      - name: Store extracted content for restricted review
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: tmm-extraction-${{ github.run_id }}
-          path: ${{ runner.temp }}/tmm-private-extraction/
-          if-no-files-found: ignore
-          retention-days: 7
       - name: Commit metadata-only progress
         if: always()
         run: |
