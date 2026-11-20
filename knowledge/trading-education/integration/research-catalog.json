@@ -129,6 +129,49 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
+          "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
+          "locations": [
+            {
+              "location": "slide-4:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-20:shape-5",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -265,6 +308,57 @@
             }
           ],
           "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
+          "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-6:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-6:shape-5",
+              "term_mentions": 9
+            },
+            {
+              "location": "slide-7:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 3
+            },
+            {
+              "location": "slide-10:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
         }
       ],
       "claims": [],
@@ -340,6 +434,37 @@
             {
               "location": "page-11",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
+          "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
+          "locations": [
+            {
+              "location": "slide-10:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "slide-20:shape-5",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -858,6 +983,45 @@
             },
             {
               "location": "page-24",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "b915344b9813523b47c1967f81aab4bf603a43b8",
+          "source_name": "1.初学者成为高手的秘籍：十字星.pptx",
+          "locations": [
+            {
+              "location": "slide-5:shape-5",
+              "term_mentions": 5
+            },
+            {
+              "location": "slide-7:shape-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "slide-10:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-13:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-14:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-16:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-19:shape-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "slide-20:shape-5",
               "term_mentions": 1
             }
           ],
