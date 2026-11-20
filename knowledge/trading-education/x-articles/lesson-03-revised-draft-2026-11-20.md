@@ -40,21 +40,15 @@ Under the common convention in which a candle is green when its close is above i
 
 The open-to-close change is:
 
-\[
-(105-100)/100=+5.00\%
-\]
+(105 − 100) ÷ 100 = **+5.00%**
 
 But compared with the previous close:
 
-\[
-(105-110)/110\approx-4.55\%
-\]
+(105 − 110) ÷ 110 ≈ **−4.55%**
 
 Both calculations are correct. They answer different questions.
 
 Northstar opened $10 below the previous close, about 9.09% lower. It then **closed 5% above its opening price**, but still finished below the previous session's close.
-
-It did not close above the previous session's close.
 
 **A green candle is not the same thing as a positive close-to-close return.**
 
@@ -75,15 +69,11 @@ Under the same open-versus-close convention, this is a red candle: the close is 
 
 Open-to-close:
 
-\[
-(103-106)/106\approx-2.83\%
-\]
+(103 − 106) ÷ 106 ≈ **−2.83%**
 
 Close-to-close:
 
-\[
-(103-100)/100=+3.00\%
-\]
+(103 − 100) ÷ 100 = **+3.00%**
 
 The candle is red, yet the stock finished 3% above the previous close.
 
