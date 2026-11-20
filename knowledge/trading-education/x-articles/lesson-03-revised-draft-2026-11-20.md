@@ -90,7 +90,7 @@ The candle is red, yet the stock finished 3% above the previous close.
 
 The opening gap explains the difference.
 
-Some charting platforms allow different candle-color rules. Always check the chart's legend or settings before interpreting color.
+Color needs one more qualification: the body conventionally compares close with open, but charting platforms may apply color to the body, outline or shadows using different rules. Some settings color a bar by comparing the close with the previous close. Check the chart's legend and settings before interpreting color. StockCharts documents both the standard open-versus-close body and an option that colors bars by the previous close.
 
 **Color is a display convention. The prices are the evidence.**
 
@@ -246,7 +246,15 @@ In Lesson 04, we'll examine how multiple candles create price structure, and why
 
 ---
 
-## Research references — pending source-level verification
+## Research references — initial source check completed (2026-11-20)
+
+The following StockCharts references were opened and checked for the specific concepts used here:
+
+- “Introduction to Candlesticks” explains OHLC construction, the body and shadows, and explicitly notes that a candlestick does not reveal the sequence of events between the open and close or whether the high occurred before the low: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks
+- “What Are Charts?” describes candlestick data requirements and notes that some chart settings color bars according to the close versus the previous close: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts
+- “CandleVolume” explains a chart type that combines price and volume; it is not used as evidence that volume identifies participant intent: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlevolume
+
+This is an initial external-source check, not a complete literature review or verification of the user's 178 course files.
 
 - StockCharts ChartSchool, “Introduction to Candlesticks”: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks
 - StockCharts ChartSchool, “What Are Charts?”: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts
@@ -263,7 +271,7 @@ In Lesson 04, we'll examine how multiple candles create price structure, and why
 - [x] Reduced repeated claims about prediction and institutional intent.
 - [x] Added a question testing evidence-based reasoning.
 - [x] Recalculated the fictional examples and candle geometry.
-- [ ] Verify every external source against the exact claims and record access date/section.
+- [x] Initial external-source check: OHLC/body/shadows, missing intraperiod sequence, and chart color configuration checked against StockCharts ChartSchool (2026-11-20).
 - [ ] Cross-check relevant passages and figures in the 178-source course archive; not yet completed.
 - [ ] Produce and inspect cover and three data-led figures; figures must be built from verified numbers, not AI-rendered text.
 - [ ] Add final captions and ALT text after figures are created.
