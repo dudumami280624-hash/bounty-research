@@ -72,6 +72,16 @@ def extract(entry, blob):
             f"### {b['location']}\n{b['text']}" for b in blocks),encoding='utf-8')
         (work/'image_inventory.json').write_text(json.dumps(images,ensure_ascii=False,indent=2),encoding='utf-8')
         packet=make_packet(blocks,entry['sha'],entry['name'])
+        # Persist only passage hashes and locations; never publish textbook excerpts.
+        locator_dir=ROOT/'integration/source-locators'
+        locator_dir.mkdir(parents=True,exist_ok=True)
+        (locator_dir/(entry['sha']+'.json')).write_text(json.dumps({
+          'source_sha':entry['sha'],'source_name':entry['name'],
+          'topics':{topic:[{'location':x['location'],
+             'excerpt_sha256':x['excerpt_sha256'],'status':'unverified'}
+             for x in rows] for topic,rows in packet['topics'].items()},
+          'notice':'Locations and hashes only; no original excerpts or chart interpretation.'
+        },ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         packet_dir=work/'private-research'/entry['sha']
         packet_dir.mkdir(parents=True,exist_ok=True)
         (packet_dir/'evidence-packet.json').write_text(json.dumps(packet,ensure_ascii=False,indent=2),encoding='utf-8')
