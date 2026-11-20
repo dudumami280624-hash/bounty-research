@@ -72,6 +72,7 @@ jobs:
           TMM_BATCH_SIZE: '8'
           TMM_TIME_BUDGET_SECONDS: '780'
           TMM_PER_SOURCE_TIMEOUT_SECONDS: '90'
+          TMM_VISUAL_MAX_PAGES: '12'
         run: python knowledge/trading-education/tools/run_extraction_batch.py
       - name: Refresh cross-source research catalog
         if: always()
