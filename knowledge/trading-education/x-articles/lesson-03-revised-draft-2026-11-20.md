@@ -1,12 +1,12 @@
 # The Market Mind — Lesson 03
 ## Revised editorial draft
-**Title:** What Can One Candlestick Really Tell You?  
+**Title:** A Green Candle Can Hide a Losing Day  
 **Deck:** A green candle can hide a losing day. A red candle can hide a gain.  
 **Status:** DRAFT — editorial revision only; not approved for publication.
 
 ---
 
-# What Can One Candlestick Really Tell You?
+# A Green Candle Can Hide a Losing Day
 
 **The chart is green. Your investment is down. And both numbers can be correct.**
 
@@ -52,7 +52,7 @@ But compared with the previous close:
 
 Both calculations are correct. They answer different questions.
 
-Northstar opened $10 below the previous close, a gap down of approximately 9.09%. It then **closed 5% above its opening price**, recovering part—but not all—of that gap.
+Northstar opened $10 below the previous close, meaning its opening price was approximately 9.09% below the previous close. It then **closed 5% above its opening price**, but still finished below the previous session's close.
 
 It did not close above the previous session's close.
 
@@ -88,9 +88,9 @@ Close-to-close:
 
 The candle is red, yet the stock finished 3% above the previous close.
 
-The opening gap explains the difference.
+Northstar opened 6% above the previous close. That difference explains why the session could finish above yesterday's close even though the candle was red from open to close.
 
-Color needs one more qualification: the body conventionally compares close with open, but charting platforms may apply color to the body, outline or shadows using different rules. Some settings color a bar by comparing the close with the previous close. Check the chart's legend and settings before interpreting color. StockCharts documents both the standard open-versus-close body and an option that colors bars by the previous close.
+Color needs one more qualification. In StockCharts' CandleVolume chart settings, the hollow or filled body still shows the close compared with the open, while a separate color option can show whether the close was above or below the previous close. This is a specific chart configuration, not a universal rule. Check the chart's legend and settings before interpreting color.
 
 **Color is a display convention. The prices are the evidence.**
 
@@ -147,7 +147,7 @@ Every executed share trade has both a buyer and a seller. High volume does not m
 
 Volume can add useful context, but interpretation depends on the instrument, venue, session, aggregation method and data source. State those details when they matter.
 
-Do not turn high volume plus a green candle into proof of institutional accumulation. That claim requires evidence beyond a single OHLCV bar.
+Do not turn high volume plus a green candle into proof of institutional accumulation. That claim requires evidence beyond a single bar of open, high, low, close and volume data.
 
 ## 6. Separate observation from inference
 
@@ -198,7 +198,7 @@ Before reading the answers, ask:
 
 1. Red: $82 is below the $84 open.
 2. Above the previous close by 2.50%: ($82−$80)/$80.
-3. $2: the high of $86 minus the open of $84.
+3. $2: the high of $86 minus the open of $84. For a red candle, the top of the body is the open.
 4. 20% of the way from the low to the high: ($82−$81)/($86−$81).
 5. Nothing conclusive about tomorrow's direction.
 
@@ -232,6 +232,8 @@ Then write one statement the data directly supports—and one claim the candle a
 
 Share the example and the evidence you used.
 
+Previously: [Lesson 01](https://x.com/WildEarthFiles/status/2123064764918296874) · [Lesson 02](https://x.com/WildEarthFiles/status/2123350736717353101)
+
 ## Next lesson
 
 ### Why One Candlestick Is Never the Whole Story
@@ -246,20 +248,13 @@ In Lesson 04, we'll examine how multiple candles create price structure, and why
 
 ---
 
-## Research references — initial source check completed (2026-11-20)
+## Research references
 
-The following StockCharts references were opened and checked for the specific concepts used here:
+- [StockCharts ChartSchool — Introduction to Candlesticks](https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks)
+- [StockCharts ChartSchool — What Are Charts?](https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts)
+- [StockCharts ChartSchool — CandleVolume](https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlevolume)
 
-- “Introduction to Candlesticks” explains OHLC construction, the body and shadows, and explicitly notes that a candlestick does not reveal the sequence of events between the open and close or whether the high occurred before the low: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks
-- “What Are Charts?” describes candlestick data requirements and notes that some chart settings color bars according to the close versus the previous close: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts
-- “CandleVolume” explains a chart type that combines price and volume; it is not used as evidence that volume identifies participant intent: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlevolume
-
-This is an initial external-source check, not a complete literature review or verification of the user's 178 course files.
-
-- StockCharts ChartSchool, “Introduction to Candlesticks”: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/introduction-to-candlesticks
-- StockCharts ChartSchool, “What Are Charts?”: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts
-- StockCharts ChartSchool, “Candlesticks and Traditional Chart Analysis”: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlesticks-and-traditional-chart-analysis
-- StockCharts ChartSchool, “CandleVolume”: https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlevolume
+The CandleVolume reference specifically documents the option that distinguishes close-versus-open body fill from close-versus-previous-close color. The standard OHLC structure and the limits of inferring intraperiod price sequence are documented in Introduction to Candlesticks.
 
 **Data note:** Northstar and all prices in this lesson are fictional teaching examples, not historical market data, tested trading signals or investment recommendations.
 
@@ -274,8 +269,8 @@ This is an initial external-source check, not a complete literature review or ve
 - [x] Initial external-source check: OHLC/body/shadows, missing intraperiod sequence, and chart color configuration checked against StockCharts ChartSchool (2026-11-20).
 - [ ] Cross-check relevant passages and figures in the 178-source course archive; not yet completed.
 - [ ] Produce and inspect cover and three data-led figures; figures must be built from verified numbers, not AI-rendered text.
-- [ ] Add final captions and ALT text after figures are created.
-- [ ] Verify the X Article's final layout and mobile/desktop rendering.
+- [ ] Add final captions and distinct ALT text after the final figures are supplied/approved.
+- [ ] Verify the X Article's final layout and mobile/desktop rendering; not previewed in the X editor yet.
 - [ ] User approval required before publication.
 
 **Status remains DRAFT. This revision does not certify the 178-source audit as complete.**
