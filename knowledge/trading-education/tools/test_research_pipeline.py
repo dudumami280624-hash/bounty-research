@@ -4,6 +4,7 @@ import json, tempfile
 from pathlib import Path
 import research_pipeline as rp
 from research_pipeline import build_knowledge, draft_lesson, vision_pdf, research_claim
+from free_visual import inspect_pdf
 
 def main():
     with tempfile.TemporaryDirectory() as tmp:
@@ -27,6 +28,8 @@ def main():
             doc.save(pdf);doc.close()
             previous=rp.call_model
             rp.call_model=lambda messages,model='gpt-4.1',max_tokens=3000: json.dumps({'page':1,'charts':[{'type':'candlestick'}],'uncertain_details':[]})
+            free=inspect_pdf(pdf,root/'free-vision')
+            assert len(free)==1 and free[0]['status']=='visual_features_extracted_unverified'
             images=vision_pdf(pdf,root/'vision')
             assert len(images)==1 and images[0]['human_review_complete'] is False
             assert (root/'vision/page-0001.json').exists()
