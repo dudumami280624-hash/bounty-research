@@ -122,7 +122,7 @@ def main():
     integrated=sum(bool(v.get('integrated_into_lesson')) for v in files.values())
     REPORT.write_text('# The Market Mind — 178份原件自动处理进度\n\n'
        +f'- 本轮批量处理：{len(processed)}份\n'
-       +''.join(f'- {x["source_name"]}：{x["status"]}\\n' for x in processed)
+       +''.join(f'- {x["source_name"]}：{x["status"]}\n' for x in processed)
        +f'- 本轮状态：{status["extraction_status"]}\n'
        +f'- 已提取文字：{counts["extracted"]}/178\n'
        +f'- OCR不完整待重试：{counts["partial_ocr_failure"]}\n'
