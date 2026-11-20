@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "topics": {
+    "candlestick": {
+      "sources": [
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "doji": {
+      "sources": [
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "engulfing": {
+      "sources": [
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "moving_average": {
+      "sources": [
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "risk": {
+      "sources": [
+        {
+          "source_sha": "2b68639ab5516e4b44d9c1086e32adfd7059ef4d",
+          "source_name": "多头与空头旗形、三角形形态 ①.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
+          "source_name": "多头与空头旗形、三角形形态②.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-26",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "support_resistance": {
+      "sources": [
+        {
+          "source_sha": "2b68639ab5516e4b44d9c1086e32adfd7059ef4d",
+          "source_name": "多头与空头旗形、三角形形态 ①.pdf",
+          "locations": [
+            {
+              "location": "page-10",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
+          "source_name": "多头与空头旗形、三角形形态②.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "trend": {
+      "sources": [
+        {
+          "source_sha": "2b68639ab5516e4b44d9c1086e32adfd7059ef4d",
+          "source_name": "多头与空头旗形、三角形形态 ①.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
+          "source_name": "多头与空头旗形、三角形形态②.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    },
+    "volume": {
+      "sources": [
+        {
+          "source_sha": "2b68639ab5516e4b44d9c1086e32adfd7059ef4d",
+          "source_name": "多头与空头旗形、三角形形态 ①.pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
+          "source_name": "多头与空头旗形、三角形形态②.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "60f46ee50a2765e6d8152617da2b1f2c1c57007d",
+          "source_name": "六种常见看跌蜡烛图形态 .pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        }
+      ],
+      "claims": [],
+      "status": "needs_independent_fact_check",
+      "contradictions_resolved": false
+    }
+  },
+  "verified_claims": 0,
+  "notice": "Keyword mentions are NOT facts. No contradictions resolved or claims verified."
+}
