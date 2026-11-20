@@ -1,7 +1,7 @@
 # The Market Mind — Lesson 03
 ## Revised editorial draft
 **Title:** A Green Candle Can Hide a Losing Day  
-**Deck:** A green candle can hide a losing day. A red candle can hide a gain.  
+**Deck:** And a red candle can hide a gain.  
 **Status:** DRAFT — editorial revision only; not approved for publication.
 
 ---
@@ -52,7 +52,7 @@ But compared with the previous close:
 
 Both calculations are correct. They answer different questions.
 
-Northstar opened $10 below the previous close, meaning its opening price was approximately 9.09% below the previous close. It then **closed 5% above its opening price**, but still finished below the previous session's close.
+Northstar opened $10 below the previous close, about 9.09% lower. It then **closed 5% above its opening price**, but still finished below the previous session's close.
 
 It did not close above the previous session's close.
 
@@ -89,7 +89,7 @@ The candle is red, yet the stock finished 3% above the previous close.
 
 Northstar opened 6% above the previous close. That difference explains why the session could finish above yesterday's close even though the candle was red from open to close.
 
-Color needs one more qualification. In StockCharts' CandleVolume chart settings, the hollow or filled body still shows the close compared with the open, while a separate color option can show whether the close was above or below the previous close. This is a specific chart configuration, not a universal rule. Check the chart's legend and settings before interpreting color.
+Color needs one more qualification. StockCharts' Introduction to Candlesticks explains that a hollow body means the close is above the open, while a filled body means the close is below the open. Separately, StockCharts' CandleVolume page documents a Color Prices option: with that option enabled, red means the close is below the previous close, while black means it is above the previous close. This is a specific StockCharts chart configuration, not a universal rule. Check the chart's legend and settings before interpreting color.
 
 **Color is a display convention. The prices are the evidence.**
 
@@ -251,7 +251,7 @@ In Lesson 04, we'll examine how multiple candles create price structure, and why
 - [StockCharts ChartSchool — What Are Charts?](https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts)
 - [StockCharts ChartSchool — CandleVolume](https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlevolume)
 
-The CandleVolume reference specifically documents the option that distinguishes close-versus-open body fill from close-versus-previous-close color. The standard OHLC structure and the limits of inferring intraperiod price sequence are documented in Introduction to Candlesticks.
+The Introduction to Candlesticks page documents the hollow/filled body convention: close compared with open. The CandleVolume page documents the separate Color Prices option and its red/black comparison with the previous close. The standard OHLC structure and the limits of inferring intraperiod price sequence are also documented in Introduction to Candlesticks.
 
 **Data note:** Northstar and all prices in this lesson are fictional teaching examples, not historical market data, tested trading signals or investment recommendations.
 
