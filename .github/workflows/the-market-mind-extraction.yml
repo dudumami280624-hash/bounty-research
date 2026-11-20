@@ -61,6 +61,7 @@ jobs:
         run: python -m pip install --disable-pip-version-check pymupdf
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
         run: python knowledge/trading-education/tools/smoke_test.py
+      # Regression includes configured per-page OCR deadline and incomplete visual coverage.
       - name: Test source-linked private English worksheet and research pipeline
         run: python knowledge/trading-education/tools/test_research_pipeline.py
       - name: Build cross-source research catalog
