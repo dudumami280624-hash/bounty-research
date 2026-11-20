@@ -45,7 +45,7 @@ def research_claim(claim, source_sha, source_location, output, model='gpt-4.1'):
       'reputable references. Separate accepted definitions from empirical performance claims. '
       'Identify counterexamples, uncertainty and verifiable source URLs. Do not assume a '
       'textbook statement is correct. Return a concise report with citations. Claim: '+claim)
-    body=json.dumps({'model':model,'tools':[{'type':'web_search_preview'}],
+    body=json.dumps({'model':model,'tools':[{'type':'web_search'}],
       'input':request_text}).encode()
     req=urllib.request.Request('https://api.openai.com/v1/responses',data=body,
       headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
