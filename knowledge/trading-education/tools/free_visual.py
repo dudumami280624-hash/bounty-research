@@ -47,8 +47,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     proc=None
                 if proc is not None:
                     record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
-                    record['ocr_success']=proc.returncode==0
-                    record['ocr_error']=proc.stderr[-200:] if proc.returncode else ''
+                    record['ocr_success']=proc.returncode==0 and bool(proc.stdout.strip())
+                    record['ocr_error']=(proc.stderr[-200:] if proc.returncode else ('OCR returned no text; page requires review' if not proc.stdout.strip() else ''))
         else:
             record['ocr_success']=False
             record['ocr_error']='Tesseract unavailable'
