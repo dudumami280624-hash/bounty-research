@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 认识均线，了解均线.pdf (source 02a2b2505907, page-1, page-2, page-4, page-5, page-6): review the original example and explain its context.
+
 - 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-4, page-8, page-18, page-34): review the original example and explain its context.
 
 - 老于今日课堂笔记11.14pdf.pdf (source 04c6f527a539, page-1, page-4): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 老于今日课堂笔记11.23.pdf (source 3cf103be32de, page-3, page-5): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-5:shape-5, slide-5:shape-6): review the original example and explain its context.
-
-- MA均线系统三角形态选股法.docx (source 48dab88c33e0, word/document.xml:paragraph-1, word/document.xml:paragraph-3, word/document.xml:paragraph-6, word/document.xml:paragraph-7, word/document.xml:paragraph-11): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

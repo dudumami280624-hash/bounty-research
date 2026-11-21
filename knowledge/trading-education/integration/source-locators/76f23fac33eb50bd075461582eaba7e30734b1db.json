@@ -1,0 +1,21 @@
+{
+  "source_sha": "76f23fac33eb50bd075461582eaba7e30734b1db",
+  "source_name": "识别市场骗线：五种表现形式与假突破、假跌破实战解析.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "c9233de250604bc4a20b5634a68af848cb4dde4b401d4651a8e532196e437d28",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "6e0cf00427cb76d5953dc895916238e2717aadde3378b3b860258c910e0514b9",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

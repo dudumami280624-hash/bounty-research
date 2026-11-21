@@ -1,0 +1,101 @@
+{
+  "source_sha": "02a2b2505907218652685d685eed08142aa1ed33",
+  "source_name": "认识均线，了解均线.pdf",
+  "topics": {
+    "moving_average": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "66ed15eb6722b0b9c6cea74d9abf7dff5a04afa431cf61a057e92ce43503c0a8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "fd725975f75fd4e7ce73ba42a90089437cbb8e6fe6bb2c4eee019b9ce67f0fa5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "5c7635977351c3964e00fda8a35c1b096f248d14ec2d258420be111dd55b4651",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "067f1917b4664cd2945e7b0798e7e536ee8d3c551745c5185dd3af6ed4ce5116",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "17d0172adb0f3aebb0a86470f82ac0bd38d386628603b49100a43b61cc82bb0c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "52199a4545467f087614dc7095d1e13e76ddc586c1852299572b80fa5bef0359",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "33eea66ad8b7af2b8e00b73bab3fd8322e01ff9d5748491deccfd54546058c15",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "7964a90186ed041dd03fa195cf68e238931b0fe4faf2b1ce450db85a8581b4d4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "8d1862727ef524ad56ac3af4ebe6ec8333aa85d1781fc9f725fdb1140c51c3af",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12",
+        "excerpt_sha256": "4fce3ec699c5bef165dd0c06e48625e0dbf3f86ecf3d171ad9d24f94d2b3498a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "6955c4e4d197d4ff72f8db8ccbe5ef734830ce8cca9ccc96f05f78d745bb9227",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "644f5315e776aa9f63594b189ef53c88a0ba5244e665b3b25aa02967a813887f",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "5c7635977351c3964e00fda8a35c1b096f248d14ec2d258420be111dd55b4651",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "17d0172adb0f3aebb0a86470f82ac0bd38d386628603b49100a43b61cc82bb0c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "52199a4545467f087614dc7095d1e13e76ddc586c1852299572b80fa5bef0359",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "33eea66ad8b7af2b8e00b73bab3fd8322e01ff9d5748491deccfd54546058c15",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "7964a90186ed041dd03fa195cf68e238931b0fe4faf2b1ce450db85a8581b4d4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "6955c4e4d197d4ff72f8db8ccbe5ef734830ce8cca9ccc96f05f78d745bb9227",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

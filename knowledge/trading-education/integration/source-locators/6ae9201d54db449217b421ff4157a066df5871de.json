@@ -1,0 +1,129 @@
+{
+  "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+  "source_name": "老于今日课堂笔记11.29.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "584822641839e474c731cbab9f68842aa025c26683ed64be992c7fd8c088cf60",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "ff10dac37aad0337bd2c5e9593540f6c6ea11194440b5d058a3311d12c5f970b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "ec16a3aaa4bcc1e0a00e39fddb2427da6a182de6ae519eacb773618d3428f0fd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "89ab2d2a3230fc7ed29180f4b2f8f8b99db5dfc0d1364412507cd83f697200c7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "ae8cdd264ec25def5f904962cc186cd6d3ee20a3136c8c90440b903d862afddb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "60a8c81b0311cf5b20b353142749ef86a96a3dee401ac10392dd87a415d91173",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "ed00aaecd19d3db65acf004d434783e9e97f23de3c4309635a930d945e13360c",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "584822641839e474c731cbab9f68842aa025c26683ed64be992c7fd8c088cf60",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "60a8c81b0311cf5b20b353142749ef86a96a3dee401ac10392dd87a415d91173",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "ed00aaecd19d3db65acf004d434783e9e97f23de3c4309635a930d945e13360c",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "584822641839e474c731cbab9f68842aa025c26683ed64be992c7fd8c088cf60",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "f994bdba5ff6cca844a66b1df80b5c02406f821a9c418e8797e38f582b5907da",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "60a8c81b0311cf5b20b353142749ef86a96a3dee401ac10392dd87a415d91173",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "9b79b0f7fac8c705e4e2af9d0c0c37060ae4520a0f143a0d7198486ffe04f52d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "4cb81f245ea01d67986bee0ed72a7fe782ef7419e8f6f8735ad6bedac5b78b51",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "584822641839e474c731cbab9f68842aa025c26683ed64be992c7fd8c088cf60",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "ae8cdd264ec25def5f904962cc186cd6d3ee20a3136c8c90440b903d862afddb",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "ff10dac37aad0337bd2c5e9593540f6c6ea11194440b5d058a3311d12c5f970b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "89ab2d2a3230fc7ed29180f4b2f8f8b99db5dfc0d1364412507cd83f697200c7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "60a8c81b0311cf5b20b353142749ef86a96a3dee401ac10392dd87a415d91173",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "ed00aaecd19d3db65acf004d434783e9e97f23de3c4309635a930d945e13360c",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "9b79b0f7fac8c705e4e2af9d0c0c37060ae4520a0f143a0d7198486ffe04f52d",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

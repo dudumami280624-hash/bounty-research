@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 认识均线，了解均线.pdf (source 02a2b2505907, page-4, page-6, page-8, page-9, page-10): review the original example and explain its context.
+
 - 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-1, page-4, page-7, page-9, page-18): review the original example and explain its context.
 
 - 《极简缠论》截止到中枢战法.pdf (source 03ed845aa6b8, page-18:OCR-unverified, page-59:OCR-unverified, page-60:OCR-unverified): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf (source 1debe93faf76, page-6, page-28, page-54): review the original example and explain its context.
 
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-25, page-28, page-35, page-41, page-64): review the original example and explain its context.
-
-- 175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf (source 236f8ae7a3b0, page-17, page-43, page-65, page-80, page-97): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

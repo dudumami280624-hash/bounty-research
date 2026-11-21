@@ -30,7 +30,7 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-5:shape-6): review the original example and explain its context.
 
-- 帖第二波.pdf (source 420d62d27b32, page-3, page-76, page-77): review the original example and explain its context.
+- 老于今日课堂笔记11.28pdf.pdf (source 4052f3a891ea, page-6): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

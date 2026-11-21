@@ -1494,7 +1494,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 24,
         "total_pages": 5628,
         "attempts": 0,
         "coverage_complete": false,
@@ -1503,23 +1503,23 @@
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
+          "first_page": 13,
+          "last_page": 24,
           "candidate_pages": 0,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "aa78257f99e5aa4a8bff93a81a5b476a940cc3194e26ae5e7f70bfec1b7d1854",
-            "8a1d75c47a7e4f87ccd7d0861fa8bb6b217df34ae3eba32e97b18f9d496f4832",
-            "f22b8b8ff82a36255c7ea3af8f972868bb5f6d51e6ab02c64f05f526cf94402d",
-            "65ad935b92e37a8a02120b894df454a2939536e746f23c8cd992d2098eda9a8a",
-            "03d4068ba80c6f9ee20da6da0cef2ffbb8574449e7f9957912ae97959ac9a4e4",
-            "0d040b85bd47468cc174653664dd7883250a9e5929bbf647320f22ac6936f187",
-            "2347cf7f8b4caf102ca1d4523c15e817fe40b4355ee1852246b1fd27fe1cc4c2",
-            "b6b36d21d00153ccac4fd4260d0b17eb97e5722218a0babbcf067850eb0bda6b",
-            "cbd42833e89e8483988538709588119555442b0c2a11803cfdfd5f228d072866",
-            "39944e9a0068d024c33caedf0959677e3c453ece75b4b9a074ad03bea27e4f0f",
-            "8ab040d0d40ebfd07134560a12a3b4c5f666c593de8a0e03111c3cdc604cf5d4",
-            "6320e20317c9da21148a8246f5931fe6634a2ee8183a90d487395a72e946bc79"
+            "fda9d4df95436df29dd56ad3a20e6c48f53a81d5a585fe98822d39f44c7667e1",
+            "773d952206545a154b5cb9f62e9e8bf29e1bfe5fb61d384a9a0e3289a5ad2828",
+            "ffed2e2df2cf00017b4b4b2b9047b57fa4b8d1b0cd9be091f1bc295a27469112",
+            "9f91e074d02ab2119d05bf9153a153d7f9acb2f7a30c57fe2225948961869c85",
+            "f267c6613e3f6c83935886fa0a9095ae49357efb03269d9cb2a33afa75726248",
+            "5dd05aed08f21d8cae2423b0e24a60d4e84c838f3bd96fc84b1401c078cad192",
+            "d455deed0953ef9a2a2af2d70e13ac4a94fadc0e73fdaf2fc75e4357b9ba17f8",
+            "c1f280b12eb082769a8524d2a47bdc034b68ba7a7ddc5bc7ef25a4d85d0cf99a",
+            "4a004bc2054b9f75150d8977fbd0583e8a7541d937f770e721483db8ea2bae56",
+            "ad25ea8eb0cf310fdefb5784314fae9fbecbde62d2187302a34b3907b5c33e03",
+            "615b5b6cffc8bb5eb390789b32834261f796936f7d046660d0b54d5e25dc9391",
+            "2ce40197d7c1cc28432f518ada529453437444f55dd0b739ff578c7903d7d73c"
           ]
         }
       }
@@ -2078,7 +2078,7 @@
       "visual_page_audit": {
         "next_page": 12,
         "total_pages": 262,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
@@ -2103,7 +2103,8 @@
             "0946d7e7f06229804a44b39ae0a36c3bb941b9aa75408f4b7b3eaa0c5a707d0e",
             "ea6f323c218279aa57648f206a571cb34cd9d18cf13f829e1c4b6346f2a9a0d5"
           ]
-        }
+        },
+        "last_error": "Visual page window exceeded 65 seconds"
       }
     },
     "d47f4419325ee4fc52c9419adcc2ed86283367a1": {
@@ -10552,6 +10553,340 @@
       "category": "07-历史课堂与随笔（22份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:48:32.531135+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "d6ccae045d63182be2b43cf369bd8dcb75ecf00c": {
+      "extraction_status": "extracted",
+      "source_sha256": "136e2c1467c141fe6af76f6bcda96c6a9233e0cea609b798176b8be206dbba8c",
+      "text_blocks": 10,
+      "images_found": 5,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 10,
+        "window_start_page": 1,
+        "window_end_page": 10,
+        "window_complete": true,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_deferred_pages": [],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 10,
+        "document_total_pages": 10,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 4,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "老于今日课堂笔记11.27.pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:52:18.040709+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "4052f3a891eaf8b7313e726dcbf428688c14692a": {
+      "extraction_status": "extracted",
+      "source_sha256": "ad229bcc21155400506754ce7a2d888ab14f8bfaeffc937939702f3c7e145f46",
+      "text_blocks": 7,
+      "images_found": 5,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 7,
+        "window_start_page": 1,
+        "window_end_page": 7,
+        "window_complete": true,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_deferred_pages": [],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 7,
+        "document_total_pages": 7,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 4,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "老于今日课堂笔记11.28pdf.pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:52:19.004026+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "6ae9201d54db449217b421ff4157a066df5871de": {
+      "extraction_status": "extracted",
+      "source_sha256": "66ef1eb4dd6af42111861f1c638eefd89cad27cd2f8e86fe4de443ba9da91362",
+      "text_blocks": 10,
+      "images_found": 5,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 10,
+        "window_start_page": 1,
+        "window_end_page": 10,
+        "window_complete": true,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_deferred_pages": [],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 10,
+        "document_total_pages": 10,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 4,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "老于今日课堂笔记11.29.pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:52:20.038186+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "fd1f4055f5b091c94f8db6de308629b5abf25ff6": {
+      "extraction_status": "extracted",
+      "source_sha256": "ffc3101b0a389ef9bfa875ec6cdd98a001795a05a5f7e3bbc501944bce3d1443",
+      "text_blocks": 7,
+      "images_found": 5,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 7,
+        "window_start_page": 1,
+        "window_end_page": 7,
+        "window_complete": true,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_deferred_pages": [],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 7,
+        "document_total_pages": 7,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 4,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "老于今日课堂笔记11.30.pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:52:20.924761+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "a08cef021b5663d40a01e92f490830094479cb43": {
+      "extraction_status": "partial_ocr_failure",
+      "source_sha256": "402c978c08d3983329e117b4f683f0291526293cfb753fa94ef4e3cbbcb9f412",
+      "text_blocks": 4,
+      "images_found": 11,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 11,
+        "window_start_page": 1,
+        "window_end_page": 11,
+        "window_complete": true,
+        "pages_without_extractable_text": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "ocr_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "ocr_failed_pages": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "ocr_deferred_pages": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 11,
+        "document_total_pages": 11,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 11,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "股票被套后的应对策略：判断、解套原则与实战方法.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:52:47.398648+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "469594ca36df358346c6cf547ed00d1f80a8720c": {
+      "extraction_status": "partial_ocr_failure",
+      "source_sha256": "a567e24c12638804747dcf8ab0cdaea9ef8e6b273209e0de8569a941d07489b7",
+      "text_blocks": 4,
+      "images_found": 10,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 10,
+        "window_start_page": 1,
+        "window_end_page": 10,
+        "window_complete": true,
+        "pages_without_extractable_text": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "ocr_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "ocr_failed_pages": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "ocr_deferred_pages": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 10,
+        "document_total_pages": 10,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 10,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "解套方法.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:53:12.136816+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "02a2b2505907218652685d685eed08142aa1ed33": {
+      "extraction_status": "partial_ocr_failure",
+      "source_sha256": "eb8b4a4d07f5f4eef8971e267d462537255391f5c361b68265eb2fd7f8d3e2fc",
+      "text_blocks": 13,
+      "images_found": 17,
+      "topic_candidates": 2,
+      "private_research_topics": 2,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 14,
+        "window_start_page": 1,
+        "window_end_page": 14,
+        "window_complete": true,
+        "pages_without_extractable_text": [
+          3,
+          7
+        ],
+        "ocr_pages": [
+          3
+        ],
+        "ocr_failed_pages": 1,
+        "ocr_deferred_pages": [],
+        "initial_ocr_page_limit": 4,
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 14,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 12,
+        "ocr_failed_pages": 1
+      },
+      "visual_review_complete": false,
+      "source_name": "认识均线，了解均线.pdf",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T08:53:15.521136+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     }

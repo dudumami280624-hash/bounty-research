@@ -1,0 +1,95 @@
+{
+  "source_sha": "02a2b2505907218652685d685eed08142aa1ed33",
+  "source_name": "认识均线，了解均线.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 12,
+      "evidence_locations": [
+        {
+          "location": "page-4",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-13",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 39,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-6",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-13",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

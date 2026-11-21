@@ -832,6 +832,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+          "source_name": "老于今日课堂笔记11.29.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
           "source_name": "老于今日课堂笔记11.20.pdf",
           "locations": [
@@ -2009,6 +2032,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d6ccae045d63182be2b43cf369bd8dcb75ecf00c",
+          "source_name": "老于今日课堂笔记11.27.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d85d6abb2476bd199fd41c8fc607a3e692bc79c0",
           "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
           "locations": [
@@ -2420,6 +2458,17 @@
           "locations": [
             {
               "location": "slide-22:shape-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fd1f4055f5b091c94f8db6de308629b5abf25ff6",
+          "source_name": "老于今日课堂笔记11.30.pdf",
+          "locations": [
+            {
+              "location": "page-2",
               "term_mentions": 1
             }
           ],
@@ -2884,6 +2933,17 @@
             {
               "location": "slide-5:shape-6",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "4052f3a891eaf8b7313e726dcbf428688c14692a",
+          "source_name": "老于今日课堂笔记11.28pdf.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -3907,6 +3967,21 @@
             {
               "location": "word/document.xml:paragraph-1",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d6ccae045d63182be2b43cf369bd8dcb75ecf00c",
+          "source_name": "老于今日课堂笔记11.27.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -5172,6 +5247,61 @@
     "moving_average": {
       "sources": [
         {
+          "source_sha": "02a2b2505907218652685d685eed08142aa1ed33",
+          "source_name": "认识均线，了解均线.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
           "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
           "locations": [
@@ -5377,6 +5507,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4052f3a891eaf8b7313e726dcbf428688c14692a",
+          "source_name": "老于今日课堂笔记11.28pdf.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
           "source_name": "MA均线系统三角形态选股法.docx",
           "locations": [
@@ -5529,6 +5670,21 @@
             {
               "location": "page-22",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+          "source_name": "老于今日课堂笔记11.29.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -7410,6 +7566,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "fd1f4055f5b091c94f8db6de308629b5abf25ff6",
+          "source_name": "老于今日课堂笔记11.30.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "fec1e8f977e531aba45aad4c3e2eb015c75625da",
           "source_name": "43-大神预言神准-大文豪曼因斯坦.pdf",
           "locations": [
@@ -8899,6 +9074,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4052f3a891eaf8b7313e726dcbf428688c14692a",
+          "source_name": "老于今日课堂笔记11.28pdf.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -9694,6 +9880,33 @@
             },
             {
               "location": "page-16",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+          "source_name": "老于今日课堂笔记11.29.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
               "term_mentions": 1
             }
           ],
@@ -12395,6 +12608,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d6ccae045d63182be2b43cf369bd8dcb75ecf00c",
+          "source_name": "老于今日课堂笔记11.27.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d85d6abb2476bd199fd41c8fc607a3e692bc79c0",
           "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
           "locations": [
@@ -13207,6 +13431,25 @@
           "locations": [
             {
               "location": "slide-8:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fd1f4055f5b091c94f8db6de308629b5abf25ff6",
+          "source_name": "老于今日课堂笔记11.30.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
               "term_mentions": 1
             }
           ],
@@ -14321,6 +14564,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4052f3a891eaf8b7313e726dcbf428688c14692a",
+          "source_name": "老于今日课堂笔记11.28pdf.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -14767,6 +15029,41 @@
             },
             {
               "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+          "source_name": "老于今日课堂笔记11.29.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
               "term_mentions": 1
             }
           ],
@@ -16790,6 +17087,49 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d6ccae045d63182be2b43cf369bd8dcb75ecf00c",
+          "source_name": "老于今日课堂笔记11.27.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d85d6abb2476bd199fd41c8fc607a3e692bc79c0",
           "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
           "locations": [
@@ -17501,6 +17841,37 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "fd1f4055f5b091c94f8db6de308629b5abf25ff6",
+          "source_name": "老于今日课堂笔记11.30.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "fec1e8f977e531aba45aad4c3e2eb015c75625da",
           "source_name": "43-大神预言神准-大文豪曼因斯坦.pdf",
           "locations": [
@@ -17518,6 +17889,37 @@
     },
     "trend": {
       "sources": [
+        {
+          "source_sha": "02a2b2505907218652685d685eed08142aa1ed33",
+          "source_name": "认识均线，了解均线.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
           "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
@@ -18926,6 +19328,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4052f3a891eaf8b7313e726dcbf428688c14692a",
+          "source_name": "老于今日课堂笔记11.28pdf.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "4076b8781f35d7bd1e62bfeeb01dc37144718cae",
           "source_name": "泰鹏智能研报pdf.pdf",
           "locations": [
@@ -19070,6 +19483,17 @@
             },
             {
               "location": "page-408",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "469594ca36df358346c6cf547ed00d1f80a8720c",
+          "source_name": "解套方法.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -19929,6 +20353,17 @@
             },
             {
               "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+          "source_name": "老于今日课堂笔记11.29.pdf",
+          "locations": [
+            {
+              "location": "page-9",
               "term_mentions": 1
             }
           ],
@@ -21449,6 +21884,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "a08cef021b5663d40a01e92f490830094479cb43",
+          "source_name": "股票被套后的应对策略：判断、解套原则与实战方法.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
           "source_name": "老于今日课堂笔记11.22.pdf",
           "locations": [
@@ -22548,6 +22994,37 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d6ccae045d63182be2b43cf369bd8dcb75ecf00c",
+          "source_name": "老于今日课堂笔记11.27.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d85d6abb2476bd199fd41c8fc607a3e692bc79c0",
           "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
           "locations": [
@@ -23407,6 +23884,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "fd1f4055f5b091c94f8db6de308629b5abf25ff6",
+          "source_name": "老于今日课堂笔记11.30.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "fec1e8f977e531aba45aad4c3e2eb015c75625da",
           "source_name": "43-大神预言神准-大文豪曼因斯坦.pdf",
           "locations": [
@@ -23908,6 +24400,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4052f3a891eaf8b7313e726dcbf428688c14692a",
+          "source_name": "老于今日课堂笔记11.28pdf.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -24275,6 +24778,25 @@
             {
               "location": "page-32",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+          "source_name": "老于今日课堂笔记11.29.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -25519,6 +26041,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d6ccae045d63182be2b43cf369bd8dcb75ecf00c",
+          "source_name": "老于今日课堂笔记11.27.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d85d6abb2476bd199fd41c8fc607a3e692bc79c0",
           "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
           "locations": [
@@ -26264,6 +26809,21 @@
             {
               "location": "slide-22:shape-4",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "fd1f4055f5b091c94f8db6de308629b5abf25ff6",
+          "source_name": "老于今日课堂笔记11.30.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"

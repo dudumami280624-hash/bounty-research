@@ -1,0 +1,139 @@
+{
+  "source_sha": "6ae9201d54db449217b421ff4157a066df5871de",
+  "source_name": "老于今日课堂笔记11.29.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 16,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-6",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
