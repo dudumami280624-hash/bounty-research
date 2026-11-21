@@ -16,6 +16,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-5, page-6:OCR-unverified): review the original example and explain its context.
 
+- 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-22, page-98, page-125, page-127, page-138): review the original example and explain its context.
+
 - 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-464, page-483, page-498): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
@@ -26,11 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-30, word/document.xml:paragraph-45): review the original example and explain its context.
 
+- 2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf (source 5fc04eed9a13, page-42, page-53, page-58, page-66): review the original example and explain its context.
+
 - 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-44): review the original example and explain its context.
-
-- 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-6, page-7): review the original example and explain its context.
-
-- K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

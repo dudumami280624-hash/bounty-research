@@ -14,6 +14,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-48): review the original example and explain its context.
 
+- 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-93, page-135, page-412, page-687, page-794): review the original example and explain its context.
+
 - 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-128, page-142): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-5:shape-6): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-28): review the original example and explain its context.
 
 - 技术分析《道氏理论》.doc (source 615359fb2745, word/document.xml:paragraph-82, word/document.xml:paragraph-84, word/document.xml:paragraph-86, word/document.xml:paragraph-89, word/document.xml:paragraph-97): review the original example and explain its context.
-
-- 201-西方社会心态变化.pdf (source 6eb435a8373b, page-50, page-88, page-366): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

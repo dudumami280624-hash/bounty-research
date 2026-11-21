@@ -1,0 +1,401 @@
+{
+  "source_sha": "7af0a550e107edb906ccebe5b6a6c1b13a65fe93",
+  "source_name": "23-赚未来十年的钱-王海滨.pdf",
+  "topics": [
+    {
+      "concept": "engulfing",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-40:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 12,
+      "evidence_locations": [
+        {
+          "location": "page-46:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-47:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-64:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-71:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-77:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-86:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-93:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-112:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-132:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-178:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 44,
+      "evidence_locations": [
+        {
+          "location": "page-5:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-16:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-29:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-31:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-32:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-36:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-44:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-58:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-59:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-60:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-62:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-64:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-75:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-76:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-77:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-78:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-79:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-80:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-86:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-90:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-91:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-92:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-93:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-97:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-120:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-133:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-134:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-141:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-144:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-145:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-147:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-152:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-155:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-174:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-176:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-180:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 47,
+      "evidence_locations": [
+        {
+          "location": "page-3:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-20:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-28:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-29:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-31:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-33:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-35:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-37:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-38:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-39:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-40:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-41:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-45:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-47:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-52:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-68:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-76:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-77:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-84:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-85:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-89:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-91:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-94:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-95:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-98:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-100:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-105:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-106:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-116:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-127:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-130:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-144:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-145:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-147:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-149:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-166:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-168:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-177:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-178:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

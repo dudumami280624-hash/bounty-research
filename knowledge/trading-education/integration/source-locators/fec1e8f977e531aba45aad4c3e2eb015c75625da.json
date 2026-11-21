@@ -1,0 +1,119 @@
+{
+  "source_sha": "fec1e8f977e531aba45aad4c3e2eb015c75625da",
+  "source_name": "43-大神预言神准-大文豪曼因斯坦.pdf",
+  "topics": {
+    "volume": [
+      {
+        "location": "page-5",
+        "excerpt_sha256": "2bfefaa4b7a65bb2e6cbe1737dd231181a3777eb7ac9976d3d234da82d75b1c4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-52",
+        "excerpt_sha256": "074c90161b87061664255ceaf159defdd74626c47748cd808299dcda14e22ad6",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "5fe675d952e0fe083a3434192bff3b936ca7bc996ceb8b65efc6c64eee3e31b1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "8b8bb047ed5dbb923849f688d95a2b2d944c9cb96ec2c36ee3b2200d96cf8e69",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19",
+        "excerpt_sha256": "30f6325b91feb52b5fa5a4b31b6e32ca104be2790fb7ec79afc089c056f19979",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "9b28614c5bca54fadffe240b5346a2ff0cd59111d0c71ca8472623d055342892",
+        "status": "unverified"
+      },
+      {
+        "location": "page-53",
+        "excerpt_sha256": "d235d89e8c3d153971399bdbc138e0e3a886de691301f3496a6113794836bca2",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-12",
+        "excerpt_sha256": "df4c1c3e3ceb71392401b39556c3f55d6386562fd797aa3bc13d9dff35ccc0e9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "a72e0d7c6bee7a72bdae25c728b84dee09b53b9f4a14f1b47d8017632c02a9b8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "44f47464d5f3038074aa5e49dc8c62a5909cc085967c94650776cc448ceaa9f6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "4b56b8da503d52fff6c4d04c7a2fcc351ac7b68628c25f9df465da00d03841cf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32",
+        "excerpt_sha256": "c4797a0f59b14bbad4a47d883407a01cc9b23ef653dd24aa35b4ae55f7cdc8aa",
+        "status": "unverified"
+      },
+      {
+        "location": "page-35",
+        "excerpt_sha256": "5ed86ae2b6ef150650ee616fbc899411d059ae1b8c9d3a2664043991f5ce950c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-40",
+        "excerpt_sha256": "8df7cfc5a26d3ccae796abca52d37ce1cfbc970be6bc576cd9e2b68e24ea78d9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-46",
+        "excerpt_sha256": "c9f60ba55479af53627b8a3233cad0c83653dbfa2a8faf8ea3faae30923f2942",
+        "status": "unverified"
+      },
+      {
+        "location": "page-47",
+        "excerpt_sha256": "d16a66641ef8b1137d90f905d3d586dedfbe0fd0a4c0222e2f2f82222d9a792d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-53",
+        "excerpt_sha256": "d235d89e8c3d153971399bdbc138e0e3a886de691301f3496a6113794836bca2",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-51",
+        "excerpt_sha256": "422964d4ae63d9dbf96937477085cd62d4f9e3cd55541842dd176251f2c0bcad",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-52",
+        "excerpt_sha256": "074c90161b87061664255ceaf159defdd74626c47748cd808299dcda14e22ad6",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-52",
+        "excerpt_sha256": "074c90161b87061664255ceaf159defdd74626c47748cd808299dcda14e22ad6",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

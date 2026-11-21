@@ -30,7 +30,7 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-4, page-5, page-10, page-15, page-18): review the original example and explain its context.
 
-- 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-1, page-6, page-55, page-97, page-121): review the original example and explain its context.
+- 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-20, page-77, page-82, page-83, page-87): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

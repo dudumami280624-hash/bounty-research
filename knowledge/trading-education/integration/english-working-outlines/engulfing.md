@@ -14,11 +14,17 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-41, word/document.xml:paragraph-67): review the original example and explain its context.
 
+- 2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf (source 5fc04eed9a13, page-60): review the original example and explain its context.
+
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-13, page-14): review the original example and explain its context.
+
+- 23-赚未来十年的钱-王海滨.pdf (source 7af0a550e107, page-40:OCR-unverified): review the original example and explain its context.
 
 - 重要的 K 线形态组合.pdf (source 90fbf5f6508e, page-6, page-8): review the original example and explain its context.
 
 - 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-360, page-361, page-693, page-695, page-1478): review the original example and explain its context.
+
+- 23-【经济专栏】赚未来十年的钱【已出版】.pdf (source ae98bb80c1bc, page-558, page-628, page-700): review the original example and explain its context.
 
 - 11-经济大周期_踩准节拍再投资（高清）--海宁.pdf (source c4d5856c1c05, page-22:OCR-unverified): review the original example and explain its context.
 

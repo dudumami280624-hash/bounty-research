@@ -1,0 +1,470 @@
+{
+  "source_sha": "7af0a550e107edb906ccebe5b6a6c1b13a65fe93",
+  "source_name": "23-赚未来十年的钱-王海滨.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-3:OCR-unverified",
+        "excerpt_sha256": "4fd8cbd3e16236d456394b52c2a0fecb9c42ba7dfb9314a672d18b7fd23ef87e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "98c2a0db77f12e00e43dd0dac262a5aff33e0cbc983e448ea7f53bec0de554a1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7:OCR-unverified",
+        "excerpt_sha256": "ad3a2c5919c3a8c156a806e1e411916aa8c29b88bddc941ecbdc44931244c05c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18:OCR-unverified",
+        "excerpt_sha256": "f2069f6bdb250cf1a24c10c744a95fca3c515bccaebad8db3b5e919804de6a69",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20:OCR-unverified",
+        "excerpt_sha256": "bc656d5b1447e622efe3a4208de024ace724314060875f59a0e3c694a9436aff",
+        "status": "unverified"
+      },
+      {
+        "location": "page-28:OCR-unverified",
+        "excerpt_sha256": "29257255e3d63125433c2b74c8cc751ba00cbeeadf8dc6cf2015495f0573304b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-29:OCR-unverified",
+        "excerpt_sha256": "33e0a0d1aff3b83ef4a8c04f98ccf4c3e5df47369c2f4c0f8c35379c74ab47f7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-31:OCR-unverified",
+        "excerpt_sha256": "7d107e0021f6511240b0c478122217a18ed9b6644d17c00d4165badc232769b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33:OCR-unverified",
+        "excerpt_sha256": "49d029e7fe0400ea8ed93d44ee3c9ff24c47377e0c12e1d7a9a3589169a05417",
+        "status": "unverified"
+      },
+      {
+        "location": "page-35:OCR-unverified",
+        "excerpt_sha256": "3c2499129c405788302a0b8a5e1be46b0e774e41dba312aae79e2bd1efd2cd35",
+        "status": "unverified"
+      },
+      {
+        "location": "page-37:OCR-unverified",
+        "excerpt_sha256": "91be0bf1518055abf9ff3958c96569dbbf82f146eae7deb932373358a3772a3c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-38:OCR-unverified",
+        "excerpt_sha256": "aa0c9752324619f66ede21220570f07b3d5373a826a3a32c1e8e209ccc30d650",
+        "status": "unverified"
+      },
+      {
+        "location": "page-39:OCR-unverified",
+        "excerpt_sha256": "2369e367714cfe0bef2d80ed30aae04439d182377e0263bb6e8adc797252729d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-40:OCR-unverified",
+        "excerpt_sha256": "1cd9257e57b0cc4209b7e72ae9cb526c68fcb64257177a9ecdb46a5138e7648c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-41:OCR-unverified",
+        "excerpt_sha256": "c8ba3e8ba3f9e45b72844a2ccafa34a32c0b9eb6b84e70e23bc0f6497aebb91a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-45:OCR-unverified",
+        "excerpt_sha256": "62781086c409009b987dbe868f8187f8aea1c75a23a4334f4f4013d7dab0f713",
+        "status": "unverified"
+      },
+      {
+        "location": "page-47:OCR-unverified",
+        "excerpt_sha256": "addfd63f4aca9771fc0b83b33c68ddfd4423f7966b9a13bcc7d0e1eebcc27903",
+        "status": "unverified"
+      },
+      {
+        "location": "page-52:OCR-unverified",
+        "excerpt_sha256": "1642c7576d4a0fa46ef7224eba15459baa87ea2f4657ba1441d9fc91239a8a46",
+        "status": "unverified"
+      },
+      {
+        "location": "page-68:OCR-unverified",
+        "excerpt_sha256": "c79670086db67a0ba878cd088590a5f9db9ea2d71bc347f6faa415f96db3671d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-76:OCR-unverified",
+        "excerpt_sha256": "e5fde64bf25c9a4785be34315cd85ba62a725b84e3cf875c5e377025370e60f6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77:OCR-unverified",
+        "excerpt_sha256": "1277e4372f16c4028d1ba1a9c5a5882d6a539b3005e0853143d7e30d17afefa4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-84:OCR-unverified",
+        "excerpt_sha256": "d250e418d7bf894331a6cdab0f763b635dbbc18b13f6360f10007b0639dd7d54",
+        "status": "unverified"
+      },
+      {
+        "location": "page-85:OCR-unverified",
+        "excerpt_sha256": "222b814ce497180d1694f70a3b4b9096f3c764c22de067e57bccd5fa6eda4ee3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-89:OCR-unverified",
+        "excerpt_sha256": "3f7003497ec55c8f718b656ece56176fab48c609a197437f3eb707998a2f3ef8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-91:OCR-unverified",
+        "excerpt_sha256": "86360e02e9907548a69eb7260db254a99fd4a8fcfe1e84a9b6c89992608cb73c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-94:OCR-unverified",
+        "excerpt_sha256": "b707d97955da6225dda50af6f10c392bae0e8af58c22fa8dcb58229bb673795a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-95:OCR-unverified",
+        "excerpt_sha256": "3a21351391d05a7f30da8987ae2b65b99395d21dada06496cdfeef70230bc15b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-98:OCR-unverified",
+        "excerpt_sha256": "8e69afed3c9dd5886963c7075759427e8e273eb2a0c7b02b35de37957a851e1a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-100:OCR-unverified",
+        "excerpt_sha256": "1845d445e6fd835a0d084bd46f24afd7c3e105a7149a54eb362eaa2e380e5442",
+        "status": "unverified"
+      },
+      {
+        "location": "page-105:OCR-unverified",
+        "excerpt_sha256": "24c151ce502d2d24a435d945c88724642f9e6132a3e5f947b71436d7b968fc64",
+        "status": "unverified"
+      },
+      {
+        "location": "page-106:OCR-unverified",
+        "excerpt_sha256": "a619048501dee5d324f46c69fe092e694a71a40474ee5544c7bd55396e16cbd5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-116:OCR-unverified",
+        "excerpt_sha256": "b3f850c2a497abd481546c03328a1af01b9ceca849c5864a0ae8e9f5a5a63ff0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-127:OCR-unverified",
+        "excerpt_sha256": "54be23dd4a3ca7aa8d17d6417681f858e7d14b9f8fd891a8196be838b42049c6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-130:OCR-unverified",
+        "excerpt_sha256": "a1cb378246fefa300f1dd5d3c72a42a77e5cd5d36f35af0de7247f552e47a3d2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-144:OCR-unverified",
+        "excerpt_sha256": "af300296aa18c0eacd3a594d9fce50cc24719ff6bbecbf883a92f49667e309fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-145:OCR-unverified",
+        "excerpt_sha256": "f030159e0d668602c881437a978c0e0a12554630cacd2a24dc7263b74c3ff504",
+        "status": "unverified"
+      },
+      {
+        "location": "page-147:OCR-unverified",
+        "excerpt_sha256": "a1545e7772569b3d218c1739e4a0f58381a2d3c731e06bf4fe25f4bdeffa3c54",
+        "status": "unverified"
+      },
+      {
+        "location": "page-149:OCR-unverified",
+        "excerpt_sha256": "39c6f53fc6448362d21560fb114243b680679c0a1d2ca81a21350f9c957d91fa",
+        "status": "unverified"
+      },
+      {
+        "location": "page-166:OCR-unverified",
+        "excerpt_sha256": "1dfe8647d5e3902934d21b43e7e03901072ee379604fa2f04d74dcd882287ed7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-168:OCR-unverified",
+        "excerpt_sha256": "46cd1289ca989604593b4a1426fb721a3503b03a58c7565113a1b6d7f425c090",
+        "status": "unverified"
+      },
+      {
+        "location": "page-177:OCR-unverified",
+        "excerpt_sha256": "c63891f22ec9ee2a1dca76c610593b0e0884aca74df08fe013c972f12cf1a9e3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-178:OCR-unverified",
+        "excerpt_sha256": "fb826dcfa7be4b8fe178067efa5ea1b69e39edd0d96bc1038d5fa2436917afc5",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-5:OCR-unverified",
+        "excerpt_sha256": "07ba8de9a537fe41c2767fdd39aaecb3ac1e6abef10c72457185c8789a721f4d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "8a8ad23536074dd80f6975d08644160599cc1ad9f6cc25b54bb91bff49ad0685",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16:OCR-unverified",
+        "excerpt_sha256": "17bac728afde77f2aaea73684972619a6d5df451c433c316af6a5a6a16c66ab4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17:OCR-unverified",
+        "excerpt_sha256": "65d20f5d0452251967cce76f4cf1f8a09008f9ce0a4645b8eb2d5a8d6709a743",
+        "status": "unverified"
+      },
+      {
+        "location": "page-29:OCR-unverified",
+        "excerpt_sha256": "33e0a0d1aff3b83ef4a8c04f98ccf4c3e5df47369c2f4c0f8c35379c74ab47f7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-31:OCR-unverified",
+        "excerpt_sha256": "7d107e0021f6511240b0c478122217a18ed9b6644d17c00d4165badc232769b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32:OCR-unverified",
+        "excerpt_sha256": "0e21c58f62f42584993f2be8ed4a0aba413d6c292c6fc88ac900fed211b8643d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-36:OCR-unverified",
+        "excerpt_sha256": "6f2fcbb5f937485e5b5e38cfbcd10e40b5115d4b6fd63528c47a78c3a9e0e611",
+        "status": "unverified"
+      },
+      {
+        "location": "page-44:OCR-unverified",
+        "excerpt_sha256": "44f4ed914659e22dea4d941f4a464986a1e9733f088c553c13bf073d8cfd6fce",
+        "status": "unverified"
+      },
+      {
+        "location": "page-58:OCR-unverified",
+        "excerpt_sha256": "c04cc8f1196cab5af53930fa648ec245ba603971ac84711ee43ce60815ffa487",
+        "status": "unverified"
+      },
+      {
+        "location": "page-59:OCR-unverified",
+        "excerpt_sha256": "c6a07a641d442f8aced924e85ab4160a4c1e20dd65ebf9c0214af9d7df8d4cd5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-60:OCR-unverified",
+        "excerpt_sha256": "433b5929432019d784e4703107f3e8edff9b5f4eb95de39871c7ed33fc2afcd4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-62:OCR-unverified",
+        "excerpt_sha256": "506ead773668a4cb370962f683f0a3cca04a25eb199bdae5aae35e9e853f819f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-64:OCR-unverified",
+        "excerpt_sha256": "dd268425ae5ee6f46e55a639cacd11194027058e037880ec6fbe5de37f42477e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-75:OCR-unverified",
+        "excerpt_sha256": "aae982ca1ca77586ecbd83fdc73f3a3dbb3a949dd99a6914047cea6b7e8b4cef",
+        "status": "unverified"
+      },
+      {
+        "location": "page-76:OCR-unverified",
+        "excerpt_sha256": "e5fde64bf25c9a4785be34315cd85ba62a725b84e3cf875c5e377025370e60f6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77:OCR-unverified",
+        "excerpt_sha256": "1277e4372f16c4028d1ba1a9c5a5882d6a539b3005e0853143d7e30d17afefa4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-78:OCR-unverified",
+        "excerpt_sha256": "66994b664112efffb0c6874366012a992eff86cc24308dca8dc4ae23d6427fb1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-79:OCR-unverified",
+        "excerpt_sha256": "9e2845487cbfc47998afb4c728ab10677dbc5c00e83ec23b52a78dbeccfd9c78",
+        "status": "unverified"
+      },
+      {
+        "location": "page-80:OCR-unverified",
+        "excerpt_sha256": "a4d2f56ef986a03d5379b9f5697cb8a29728f835a38924dbbc5af733f236b001",
+        "status": "unverified"
+      },
+      {
+        "location": "page-86:OCR-unverified",
+        "excerpt_sha256": "8fd449554848476629767c5cfa12888307d6dd88abc8eedfa950b73cab5e723d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-90:OCR-unverified",
+        "excerpt_sha256": "9a2d76f612efdae8750fd7e874daa2051b5d360c889e2e76ac1f1dd722600171",
+        "status": "unverified"
+      },
+      {
+        "location": "page-91:OCR-unverified",
+        "excerpt_sha256": "86360e02e9907548a69eb7260db254a99fd4a8fcfe1e84a9b6c89992608cb73c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-92:OCR-unverified",
+        "excerpt_sha256": "2eddc0cd9093200187feb49025713ba9c70277445207eff1ce9000f0535652e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-93:OCR-unverified",
+        "excerpt_sha256": "a268464ba9aac51ff9cf7d8a52aca82ea9fa6427d9ebe97b7b90f04f7e29dc65",
+        "status": "unverified"
+      },
+      {
+        "location": "page-97:OCR-unverified",
+        "excerpt_sha256": "530c84b6ce99442692b98f3631d65cc0d5566c5ac2c64389429c652e0da51767",
+        "status": "unverified"
+      },
+      {
+        "location": "page-120:OCR-unverified",
+        "excerpt_sha256": "ad28e261f215a0f0379879ca5b28c0cb567384a2bf9eaf970d988413aa05d6be",
+        "status": "unverified"
+      },
+      {
+        "location": "page-133:OCR-unverified",
+        "excerpt_sha256": "2dd104af9c9b9c74d87047be3bbad818fae08d232bffb718bdb104113d9b552c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-134:OCR-unverified",
+        "excerpt_sha256": "20c3f6df6c2389c71fd183dff13a9d5222f4eef9323588c8329805570e34fe71",
+        "status": "unverified"
+      },
+      {
+        "location": "page-141:OCR-unverified",
+        "excerpt_sha256": "7e3848b693152b0cb8af31dadcd6fbb32d055ac970338bc2368587e167e825dc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-144:OCR-unverified",
+        "excerpt_sha256": "af300296aa18c0eacd3a594d9fce50cc24719ff6bbecbf883a92f49667e309fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-145:OCR-unverified",
+        "excerpt_sha256": "f030159e0d668602c881437a978c0e0a12554630cacd2a24dc7263b74c3ff504",
+        "status": "unverified"
+      },
+      {
+        "location": "page-147:OCR-unverified",
+        "excerpt_sha256": "a1545e7772569b3d218c1739e4a0f58381a2d3c731e06bf4fe25f4bdeffa3c54",
+        "status": "unverified"
+      },
+      {
+        "location": "page-152:OCR-unverified",
+        "excerpt_sha256": "422661ba57ab487b8de7410709d4867eaddd3e845817bdd9c728b7eb53ce129f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-155:OCR-unverified",
+        "excerpt_sha256": "7b1fd878652962388a79ad1a369c4098d05fce93a4d727fdf69fbd0cd1b213a3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-174:OCR-unverified",
+        "excerpt_sha256": "d39a01f448994b465fd68290e0f7fd033318621708eaf83074cab355fb9852ff",
+        "status": "unverified"
+      },
+      {
+        "location": "page-176:OCR-unverified",
+        "excerpt_sha256": "80315a97909a90ba1e1e53db1de660f0bdd3a92eace299d6b0fdc0b4e6562333",
+        "status": "unverified"
+      },
+      {
+        "location": "page-180:OCR-unverified",
+        "excerpt_sha256": "7bc02d935e5c151eb445ba4724a6339303cc58e008b64da3e58dbc0647016381",
+        "status": "unverified"
+      }
+    ],
+    "engulfing": [
+      {
+        "location": "page-40:OCR-unverified",
+        "excerpt_sha256": "1cd9257e57b0cc4209b7e72ae9cb526c68fcb64257177a9ecdb46a5138e7648c",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-46:OCR-unverified",
+        "excerpt_sha256": "1700d13519fef54cd29919185cc5fe9dc7af47b68b2e45b40a91b572bdea532b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-47:OCR-unverified",
+        "excerpt_sha256": "addfd63f4aca9771fc0b83b33c68ddfd4423f7966b9a13bcc7d0e1eebcc27903",
+        "status": "unverified"
+      },
+      {
+        "location": "page-64:OCR-unverified",
+        "excerpt_sha256": "dd268425ae5ee6f46e55a639cacd11194027058e037880ec6fbe5de37f42477e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-71:OCR-unverified",
+        "excerpt_sha256": "a0a04a560af4e02ffb734a39707d3ef014f96afdc368055ad7c75188242bf7e7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77:OCR-unverified",
+        "excerpt_sha256": "1277e4372f16c4028d1ba1a9c5a5882d6a539b3005e0853143d7e30d17afefa4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-86:OCR-unverified",
+        "excerpt_sha256": "8fd449554848476629767c5cfa12888307d6dd88abc8eedfa950b73cab5e723d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-93:OCR-unverified",
+        "excerpt_sha256": "a268464ba9aac51ff9cf7d8a52aca82ea9fa6427d9ebe97b7b90f04f7e29dc65",
+        "status": "unverified"
+      },
+      {
+        "location": "page-112:OCR-unverified",
+        "excerpt_sha256": "85483e287675765a859bf770dcfc65227d137996db13c4d47959b5c1a3dea6f2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-132:OCR-unverified",
+        "excerpt_sha256": "18802caf9d7b0856a47a64f05fea5b7e18d91cd0791c4e9bc0eb9639cbf51973",
+        "status": "unverified"
+      },
+      {
+        "location": "page-178:OCR-unverified",
+        "excerpt_sha256": "fb826dcfa7be4b8fe178067efa5ea1b69e39edd0d96bc1038d5fa2436917afc5",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

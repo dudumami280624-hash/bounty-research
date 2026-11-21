@@ -28,9 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-4, page-12, page-13, page-15, page-16): review the original example and explain its context.
 
-- 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-4, page-26, page-56, page-58, page-64): review the original example and explain its context.
+- 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-21, page-22, page-40, page-43, page-53): review the original example and explain its context.
 
-- K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-75, word/document.xml:paragraph-81, word/document.xml:paragraph-96, word/document.xml:paragraph-100, word/document.xml:paragraph-102): review the original example and explain its context.
+- 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-4, page-26, page-56, page-58, page-64): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

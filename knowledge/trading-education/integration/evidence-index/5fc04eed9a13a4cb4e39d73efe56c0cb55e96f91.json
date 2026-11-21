@@ -1,0 +1,120 @@
+{
+  "source_sha": "5fc04eed9a13a4cb4e39d73efe56c0cb55e96f91",
+  "source_name": "2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf",
+  "topics": [
+    {
+      "concept": "engulfing",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-60",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "page-42",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-53",
+          "term_mentions": 6
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-31",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-42",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-53",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-58",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-66",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-52",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-61",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

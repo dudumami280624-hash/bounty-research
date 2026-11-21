@@ -1,0 +1,112 @@
+{
+  "source_sha": "5fc04eed9a13a4cb4e39d73efe56c0cb55e96f91",
+  "source_name": "2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "627fc61897d84e774be4e795fffc192b70cd8645d9cdcc5aa1f90f7d6e5f59ca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "5555c72f954121e9f93317cc39b397af3a0ca7ce5f687199cb7f5ddbd260771c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "064b7c7b99529c9fdc1fac82b0a3b37780b68202195113e8e78de5833604985d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "8374721177b262ec420846534d8d4a04be59b607359af55b8bd5ced026078cb8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "6be84e54ade0e922c2d5232cbd517969abf6dff53fb8c3816a7a84725e1c619a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "68bfc2d4ba2c13573f7e542a8793efa883325095d9158229bbbff5e132bed4cf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-52",
+        "excerpt_sha256": "eb980c71fee489cfa743938b79e2797b6c028ba8743fd34aef1caa26d99bd223",
+        "status": "unverified"
+      },
+      {
+        "location": "page-61",
+        "excerpt_sha256": "38133e2349872cf6707233535ba839d180db9869fc651c6153a3e124d7d3ba44",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-18",
+        "excerpt_sha256": "e031c2b6b5084af92ae1da3f41a4ff4760e4cdbccb4017f3c4d4130c3dfb8b8c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "0e7b8e6fd12a1aa2e9f6e882c505f3451b3acde73938db9fc0c4215f34e23c8e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-30",
+        "excerpt_sha256": "0569b23a5f803d9201ad955298de54d4e5730de10200f07404b0e662cab77579",
+        "status": "unverified"
+      },
+      {
+        "location": "page-31",
+        "excerpt_sha256": "0a28ae7b8b948699b4de93e0661a50d041153212b2ec53b00109e51be54120f2",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-42",
+        "excerpt_sha256": "324d68eb86381fe3825e4d13dff864103d4ef46f5f5111e98c1e0e5f87000c58",
+        "status": "unverified"
+      },
+      {
+        "location": "page-53",
+        "excerpt_sha256": "ebaf32d92a0f2b7e5db53abfd21edbace2d668e42f6eb111b3dc7287f613ad5d",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-42",
+        "excerpt_sha256": "324d68eb86381fe3825e4d13dff864103d4ef46f5f5111e98c1e0e5f87000c58",
+        "status": "unverified"
+      },
+      {
+        "location": "page-53",
+        "excerpt_sha256": "ebaf32d92a0f2b7e5db53abfd21edbace2d668e42f6eb111b3dc7287f613ad5d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-58",
+        "excerpt_sha256": "be874920291ea1d93752d171d3ee07383700a49b49d4107fde635590198d7037",
+        "status": "unverified"
+      },
+      {
+        "location": "page-66",
+        "excerpt_sha256": "6d967e2ceb80305d2e2d50dcaadb2985f20161ea3fe2ea6e0faa0b40cb5ca5a4",
+        "status": "unverified"
+      }
+    ],
+    "engulfing": [
+      {
+        "location": "page-60",
+        "excerpt_sha256": "61bfb6d7895c3cedc38710cd3dbd3c0ab486af4cf6f8c434b56a131fcd77f648",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
