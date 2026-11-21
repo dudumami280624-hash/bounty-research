@@ -93,6 +93,8 @@ jobs:
       # Regression also checks fair rotation across three priority PDF sources (research 891c9b7).
       - name: Verify PDF text checkpoint resumes across CI runs (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_pdf_text_checkpoint.py
+      - name: Verify PDF audit failure cooldown (synthetic guard only)
+        run: python knowledge/trading-education/tools/test_text_audit_cooldown.py
       - name: Verify PDF text audit hard deadline and atomic checkpoint guards (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_text_audit_worker.py
       - name: Verify hard worker timeout regression (synthetic fixture only)
