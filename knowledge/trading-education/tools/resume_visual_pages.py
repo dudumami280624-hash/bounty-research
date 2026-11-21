@@ -36,6 +36,17 @@ def validate_visual_window(observations, start):
         raise RuntimeError(f'Noncontiguous visual page observations: expected {expected}, got {actual}')
     return total
 
+def retain_page_evidence(audit, observations):
+    """Persist only page hashes and unverified feature counts, never page contents."""
+    page_evidence=audit.setdefault('page_evidence',{})
+    for observation in observations:
+        page_evidence[str(observation['page'])]={
+            'render_sha256':observation['render_sha256'],
+            'ocr_success':bool(observation.get('ocr_success',False)),
+            'ocr_text_characters':int(observation.get('ocr_text_characters',0)),
+            'chart_candidate_unverified':bool(observation.get('chart_candidate',False)),
+        }
+
 def adaptive_window_pages(configured, attempts):
     """Shrink OCR-heavy windows after deadline failures without losing the page checkpoint."""
     return max(1, configured // (2 ** min(max(0, attempts), 5)))
@@ -133,17 +144,7 @@ def main():
                 if observation.get('ocr_success',False): failed.discard(page_number)
                 else: failed.add(page_number)
             audit['ocr_failed_page_numbers']=sorted(failed)
-            # Durable, copyright-safe per-page provenance across hourly windows.
-            # A last_window-only hash list lost all earlier page fingerprints.
-            page_evidence=audit.setdefault('page_evidence',{})
-            for observation in observations:
-                number=str(observation['page'])
-                page_evidence[number]={
-                    'render_sha256':observation['render_sha256'],
-                    'ocr_success':bool(observation.get('ocr_success',False)),
-                    'ocr_text_characters':int(observation.get('ocr_text_characters',0)),
-                    'chart_candidate_unverified':bool(observation.get('chart_candidate',False)),
-                }
+            retain_page_evidence(audit, observations)
             if retry_page is not None:
                 cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
                 if retry_page in failed:
