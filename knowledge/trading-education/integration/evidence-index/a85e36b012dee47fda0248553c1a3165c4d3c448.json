@@ -1,0 +1,136 @@
+{
+  "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+  "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 11,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-49",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-56",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-65",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-50",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-65",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-77",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-92",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-39",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-92",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 14,
+      "evidence_locations": [
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-77",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-80",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-85",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-95",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-100",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-104",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-105",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

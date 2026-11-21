@@ -1,0 +1,70 @@
+{
+  "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
+  "source_name": "RSI 强弱指标.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "76b12b734b3c9a8c5b6bb890042dc2a213c3c6d137e4e7042b9de61a2ff8a13a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9:OCR-unverified",
+        "excerpt_sha256": "32120f3d90f695f86d79b93f5d2243e0dc3e1226d2f4e8845fe7c42d006a14f9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11:OCR-unverified",
+        "excerpt_sha256": "01547761d7f62a34c94760ee4c0cf2da60dcba1f529ae757fafb4b9d491da30e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26:OCR-unverified",
+        "excerpt_sha256": "ca0d34d1bd63c07402227ed3189e84a3542c5b37c936807b9e31b0196f111207",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-11:OCR-unverified",
+        "excerpt_sha256": "01547761d7f62a34c94760ee4c0cf2da60dcba1f529ae757fafb4b9d491da30e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "3bccffce4c4fe474959d51b8708aabe1feaa4b8d0bea8181e502f9a372e9bf15",
+        "status": "unverified"
+      },
+      {
+        "location": "page-27:OCR-unverified",
+        "excerpt_sha256": "4adec05d1af4ff62740d04850846b4e752147653feef04314c7446767016146b",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-14:OCR-unverified",
+        "excerpt_sha256": "6035dbfa1d4fd61c2c5ed10ba9110a3bd4770d67e2bfe29f27567188df169971",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-19:OCR-unverified",
+        "excerpt_sha256": "dd1e8aa6e963a34358e4285d6c038cd53f72f8d5d4d5d1dbc0dd7ff2f245b6b9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24:OCR-unverified",
+        "excerpt_sha256": "f7faefcd67662a8d4015ff0800d604a529b49d05f53dd86836a4aa2f6297f6b3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26:OCR-unverified",
+        "excerpt_sha256": "ca0d34d1bd63c07402227ed3189e84a3542c5b37c936807b9e31b0196f111207",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

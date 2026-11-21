@@ -18,6 +18,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-13, page-14): review the original example and explain its context.
 
+- 77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf (source 61449ad5f6f6, page-115, page-378, page-575): review the original example and explain its context.
+
 - 23-赚未来十年的钱-王海滨.pdf (source 7af0a550e107, page-40:OCR-unverified): review the original example and explain its context.
 
 - 69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf (source 90851e957915, page-609, page-1068): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-360, page-361, page-693, page-695, page-1478): review the original example and explain its context.
 
 - 23-【经济专栏】赚未来十年的钱【已出版】.pdf (source ae98bb80c1bc, page-558, page-628, page-700): review the original example and explain its context.
-
-- 11-经济大周期_踩准节拍再投资（高清）--海宁.pdf (source c4d5856c1c05, page-22:OCR-unverified): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

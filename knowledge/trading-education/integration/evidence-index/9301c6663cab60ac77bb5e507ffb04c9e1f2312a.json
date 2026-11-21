@@ -1,0 +1,89 @@
+{
+  "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
+  "source_name": "RSI（相对强弱指数）.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-11:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-13:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-15:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-16:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-9:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-16:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-21:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-23:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-29:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

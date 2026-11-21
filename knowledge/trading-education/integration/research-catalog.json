@@ -4,11 +4,45 @@
     "candlestick": {
       "sources": [
         {
+          "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+          "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
           "source_name": "第10节RSI.docx",
           "locations": [
             {
               "location": "word/document.xml:paragraph-20",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-428",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1178",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1813",
               "term_mentions": 1
             }
           ],
@@ -542,6 +576,57 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-28",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-45",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-66",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-67",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-128",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-133",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-134",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-543",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-657",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-689",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -945,6 +1030,41 @@
             {
               "location": "page-24",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
+          "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
+          "locations": [
+            {
+              "location": "page-1:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-6:OCR-unverified",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-8:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-12:OCR-unverified",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -2073,6 +2193,244 @@
     "confirmation": {
       "sources": [
         {
+          "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+          "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+          "locations": [
+            {
+              "location": "page-30",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-167",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-205",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-206",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-214",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-242",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-313",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-335",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-459",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-739",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-781",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-788",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-801",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-806",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-902",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-929",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-951",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1003",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1097",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1304",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1329",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1409",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1420",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1439",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1477",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1562",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1581",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1582",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1613",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1636",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1703",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1758",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1776",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1786",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1796",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1817",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1844",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1909",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1935",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1950",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1983",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1994",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2035",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2044",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2193",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2375",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2406",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2480",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2511",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2519",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2630",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2633",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2681",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2684",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2707",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
           "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
           "locations": [
@@ -2326,6 +2684,41 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-46",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-48",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-85",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-99",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-667",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-885",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "615359fb27454108dfc7c567a1116f264b13a92e",
           "source_name": "技术分析《道氏理论》.doc",
           "locations": [
@@ -2396,6 +2789,17 @@
             },
             {
               "location": "slide-35:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
+          "source_name": "RSI 强弱指标.pdf",
+          "locations": [
+            {
+              "location": "page-14:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -2530,6 +2934,17 @@
             {
               "location": "page-1806",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
+          "source_name": "RSI（相对强弱指数）.pdf",
+          "locations": [
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -2792,6 +3207,17 @@
             {
               "location": "page-283",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+          "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+          "locations": [
+            {
+              "location": "page-105",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -3424,6 +3850,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-121",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -3775,6 +4212,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-115",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-378",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-575",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7af0a550e107edb906ccebe5b6a6c1b13a65fe93",
           "source_name": "23-赚未来十年的钱-王海滨.pdf",
           "locations": [
@@ -4120,6 +4576,40 @@
     "moving_average": {
       "sources": [
         {
+          "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+          "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-1648",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "26cfdc67c551a2d74592686f34934082a77451c5",
           "source_name": "K线策略体系：起爆点.pptx",
           "locations": [
@@ -4282,6 +4772,25 @@
           "locations": [
             {
               "location": "page-8",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-140",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-143",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-421",
               "term_mentions": 2
             }
           ],
@@ -4516,6 +5025,33 @@
             },
             {
               "location": "page-712",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
+          "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8:OCR-unverified",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-12:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -5921,6 +6457,49 @@
     "risk": {
       "sources": [
         {
+          "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+          "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-38",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-44",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-52",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -5973,6 +6552,253 @@
             {
               "location": "page-23",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-37",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-47",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-54",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-55",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-91",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-101",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-105",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-108",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-114",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-120",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-121",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-125",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-130",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-134",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-145",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-149",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-157",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-158",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-159",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-162",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-163",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-177",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-181",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-182",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-191",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-196",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-211",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-222",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-223",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-270",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-281",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-290",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-291",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-292",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-298",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-302",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-303",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-324",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-327",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-333",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-336",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-339",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-349",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-359",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-362",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-374",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-382",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-386",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-387",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-390",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-391",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-392",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-402",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -6893,6 +7719,89 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "57af4f508093c400dd10ff947296b3d61c64340e",
+          "source_name": "96_商业筹码狙击战：中国商企密谋与诡道竞争【已出版】.pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-28",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-30",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-83",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-87",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-113",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-252",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-266",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-324",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-327",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-360",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-372",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-424",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-459",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
           "source_name": "K线策略体系：酒田五法.docx",
           "locations": [
@@ -6979,6 +7888,253 @@
           "locations": [
             {
               "location": "page-26",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-40",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-44",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-51",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-62",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-67",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-99",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-103",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-110",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-114",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-116",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-122",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-123",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-129",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-131",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-142",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-155",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-165",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-170",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-178",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-188",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-190",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-212",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-228",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-230",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-246",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-263",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-264",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-265",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-274",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-275",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-282",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-283",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-299",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-300",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-310",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-312",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-315",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-344",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-369",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-373",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-398",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-438",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-440",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-486",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-505",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-544",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-570",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-571",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-572",
               "term_mentions": 1
             }
           ],
@@ -7475,6 +8631,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
+          "source_name": "RSI 强弱指标.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "81d7b1ddda32b411ac981c601164cd64c6b9a756",
           "source_name": "K线策略体系：酒田五法 (2).pptx",
           "locations": [
@@ -7780,6 +8959,21 @@
             },
             {
               "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
+          "source_name": "RSI（相对强弱指数）.pdf",
+          "locations": [
+            {
+              "location": "page-23:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-29:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -8223,6 +9417,49 @@
             {
               "location": "page-506",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+          "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-85",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-95",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-100",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-104",
+              "term_mentions": 4
             }
           ],
           "status": "candidate_unverified"
@@ -9988,6 +11225,41 @@
     "support_resistance": {
       "sources": [
         {
+          "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+          "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -10015,6 +11287,253 @@
           "locations": [
             {
               "location": "page-54",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-163",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-170",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-240",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-248",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-265",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-271",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-273",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-295",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-326",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-402",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-411",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-413",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-414",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-418",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-433",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-483",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-484",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-486",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-517",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-586",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-653",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-665",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-700",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-751",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-787",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-839",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-876",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-982",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1016",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1019",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1048",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1049",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1108",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1126",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1172",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1221",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1268",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1337",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1435",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1445",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1455",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1480",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1494",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1507",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1546",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1648",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1651",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1660",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1662",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1722",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1744",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1805",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1879",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1947",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1955",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1999",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2033",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2120",
               "term_mentions": 1
             }
           ],
@@ -10666,6 +12185,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "57af4f508093c400dd10ff947296b3d61c64340e",
+          "source_name": "96_商业筹码狙击战：中国商企密谋与诡道竞争【已出版】.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-138",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-341",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
           "source_name": "K线策略体系：酒田五法.docx",
           "locations": [
@@ -10782,6 +12324,69 @@
             },
             {
               "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-68",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-99",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-165",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-250",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-262",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-270",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-575",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-578",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-579",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-653",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-708",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-793",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-808",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-813",
               "term_mentions": 1
             }
           ],
@@ -11113,6 +12718,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
+          "source_name": "RSI 强弱指标.pdf",
+          "locations": [
+            {
+              "location": "page-11:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-27:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "81d7b1ddda32b411ac981c601164cd64c6b9a756",
           "source_name": "K线策略体系：酒田五法 (2).pptx",
           "locations": [
@@ -11311,6 +12935,36 @@
             },
             {
               "location": "page-1776",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
+          "source_name": "RSI（相对强弱指数）.pdf",
+          "locations": [
+            {
+              "location": "page-9:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-21:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
+          "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
+          "locations": [
+            {
+              "location": "page-8:OCR-unverified",
               "term_mentions": 2
             }
           ],
@@ -11612,6 +13266,29 @@
             },
             {
               "location": "page-475",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+          "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+          "locations": [
+            {
+              "location": "page-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-65",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-92",
               "term_mentions": 1
             }
           ],
@@ -13092,6 +14769,45 @@
     "trend": {
       "sources": [
         {
+          "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+          "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-62",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-67",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -13160,6 +14876,253 @@
             {
               "location": "page-54",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-28",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-82",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-84",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-93",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-169",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-190",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-191",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-193",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-199",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-204",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-238",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-248",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-273",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-286",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-301",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-310",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-311",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-391",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-398",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-431",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-433",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-484",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-488",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-552",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-572",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-573",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-604",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-643",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-651",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-667",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-702",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-745",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-747",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-755",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-774",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-810",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-815",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-820",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-822",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-853",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-904",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-975",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-983",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1009",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1017",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1030",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1061",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1190",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1195",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1202",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1206",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1243",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1260",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1262",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1270",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -14203,6 +16166,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "57af4f508093c400dd10ff947296b3d61c64340e",
+          "source_name": "96_商业筹码狙击战：中国商企密谋与诡道竞争【已出版】.pdf",
+          "locations": [
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-65",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-273",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-434",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
           "source_name": "K线策略体系：酒田五法.docx",
           "locations": [
@@ -14492,6 +16482,69 @@
             {
               "location": "page-24",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-109",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-251",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-263",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-285",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-325",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-379",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-491",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-523",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-547",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-556",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-672",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-814",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-877",
+              "term_mentions": 8
             }
           ],
           "status": "candidate_unverified"
@@ -14992,6 +17045,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
+          "source_name": "RSI 强弱指标.pdf",
+          "locations": [
+            {
+              "location": "page-19:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "81d7b1ddda32b411ac981c601164cd64c6b9a756",
           "source_name": "K线策略体系：酒田五法 (2).pptx",
           "locations": [
@@ -15448,6 +17520,60 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
+          "source_name": "RSI（相对强弱指数）.pdf",
+          "locations": [
+            {
+              "location": "page-11:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
+          "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
+          "locations": [
+            {
+              "location": "page-6:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-8:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-11:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
           "source_name": "技术指标策略体系：KDJ 英文版.pptx",
           "locations": [
@@ -15808,6 +17934,41 @@
             {
               "location": "page-527",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+          "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-49",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-65",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -17516,6 +19677,121 @@
     "volume": {
       "sources": [
         {
+          "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
+          "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
+          "locations": [
+            {
+              "location": "page-87",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-154",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-496",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-601",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-604",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-658",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-770",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-774",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-776",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-857",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-858",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-885",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-895",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1017",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1075",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1247",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1275",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1367",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1550",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1795",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1809",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1915",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1997",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2022",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2450",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2468",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2774",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "26cfdc67c551a2d74592686f34934082a77451c5",
           "source_name": "K线策略体系：起爆点.pptx",
           "locations": [
@@ -17934,6 +20210,89 @@
             {
               "location": "page-7",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "61449ad5f6f65dd4bd927cc67eae4310bea98e46",
+          "source_name": "77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf",
+          "locations": [
+            {
+              "location": "page-28",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-57",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-119",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-251",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-268",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-273",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-282",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-298",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-386",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-394",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-519",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-523",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-572",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-628",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-636",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-665",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-668",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-877",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -18391,6 +20750,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
+          "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
           "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
           "locations": [
@@ -18604,6 +20978,21 @@
             },
             {
               "location": "page-3890",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+          "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+          "locations": [
+            {
+              "location": "page-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-92",
               "term_mentions": 1
             }
           ],

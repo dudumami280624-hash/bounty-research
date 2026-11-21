@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-87, page-154, page-496, page-601, page-604): review the original example and explain its context.
+
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-4:shape-5, slide-8:shape-5, slide-10:shape-5, slide-11:shape-5, slide-17:shape-30): review the original example and explain its context.
 
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-13, page-18): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-30, word/document.xml:paragraph-45): review the original example and explain its context.
 
 - 2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf (source 5fc04eed9a13, page-42, page-53, page-58, page-66): review the original example and explain its context.
-
-- 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-44): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

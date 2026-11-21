@@ -1,0 +1,107 @@
+{
+  "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
+  "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
+  "topics": {
+    "candlestick": [
+      {
+        "location": "page-1:OCR-unverified",
+        "excerpt_sha256": "f9b91d5b9e4122229d4b355c63556806e532e37e1e91196d92bf52323c70ca30",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "1767c7a0499b5dc8b662bbce322273a3ee472e88243da6d5e930e049b6f976b6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "dbc89a9a1eb518142b51adeb240ead185de51e8ab3778d95bb58f0d6fadc9d22",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6:OCR-unverified",
+        "excerpt_sha256": "78fb09b03867338452b99ff1db7b3f987e57cd093a8e2d4d665d95391cedec51",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8:OCR-unverified",
+        "excerpt_sha256": "932b5bcb6260d264d6463c3c44001e5bf198a881d43906f08814d0d000bc849a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "b3d8a90c5ba7aeebdde18dff7204fc843b2cfb9c641379f49b7e8727b87d4581",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "6a4326e7c02a3f0cfc093373a1bfa68c673dc90440a3beb29f273b33bf2623ab",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "1767c7a0499b5dc8b662bbce322273a3ee472e88243da6d5e930e049b6f976b6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "dbc89a9a1eb518142b51adeb240ead185de51e8ab3778d95bb58f0d6fadc9d22",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8:OCR-unverified",
+        "excerpt_sha256": "932b5bcb6260d264d6463c3c44001e5bf198a881d43906f08814d0d000bc849a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "b3d8a90c5ba7aeebdde18dff7204fc843b2cfb9c641379f49b7e8727b87d4581",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "6a4326e7c02a3f0cfc093373a1bfa68c673dc90440a3beb29f273b33bf2623ab",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "dbc89a9a1eb518142b51adeb240ead185de51e8ab3778d95bb58f0d6fadc9d22",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6:OCR-unverified",
+        "excerpt_sha256": "78fb09b03867338452b99ff1db7b3f987e57cd093a8e2d4d665d95391cedec51",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-6:OCR-unverified",
+        "excerpt_sha256": "78fb09b03867338452b99ff1db7b3f987e57cd093a8e2d4d665d95391cedec51",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8:OCR-unverified",
+        "excerpt_sha256": "932b5bcb6260d264d6463c3c44001e5bf198a881d43906f08814d0d000bc849a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11:OCR-unverified",
+        "excerpt_sha256": "ab3793e105ea4a4f3c2ef2604408a7ed46c4dbbb3cdd2c843e6b5b805025f54a",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-8:OCR-unverified",
+        "excerpt_sha256": "932b5bcb6260d264d6463c3c44001e5bf198a881d43906f08814d0d000bc849a",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

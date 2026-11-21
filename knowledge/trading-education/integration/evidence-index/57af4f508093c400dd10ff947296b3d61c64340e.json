@@ -1,0 +1,142 @@
+{
+  "source_sha": "57af4f508093c400dd10ff947296b3d61c64340e",
+  "source_name": "96_商业筹码狙击战：中国商企密谋与诡道竞争【已出版】.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-65",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-76",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-273",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-434",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-138",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-341",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 27,
+      "evidence_locations": [
+        {
+          "location": "page-13",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-28",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-31",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-69",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-83",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-87",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-113",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-252",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-266",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-324",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-327",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-360",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-372",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-424",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-459",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -1,0 +1,132 @@
+{
+  "source_sha": "a85e36b012dee47fda0248553c1a3165c4d3c448",
+  "source_name": "86-2018-2019，实现个人财富飞跃的重要关口.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "547a3c28e1dd4dd78c6351a238afed53d4a6ea626b956c7a6ec986ca85db4eec",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "9f0c3b8a4397a0e790ef7d8225e1e1c1f6df1a530e6bf89e8d4a688bd4334b7b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "790915e4fca41078dcc075862d2fcc33fd0f348212699fe82c3490863bf550ad",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "9c8ddd494b6c7cec7d98ce9469a5b3a50e0b88ec149c045e7e3197b731c26e83",
+        "status": "unverified"
+      },
+      {
+        "location": "page-49",
+        "excerpt_sha256": "c860e96a273b22331a212d11735e89f09f27d6e94177217928e2b36a4f7fa9db",
+        "status": "unverified"
+      },
+      {
+        "location": "page-56",
+        "excerpt_sha256": "20b1930124f2171fe9ddc7e6981e01c40b85c568837c27a91e5a8bbc3bba9deb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-65",
+        "excerpt_sha256": "8fa769e989055b1e274fb1b5f46cab23e747a5aaf309503dd740e4c72c3d1593",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "4329c33bbe2789b8e43c5a706382db3a752b1e5b942339d9b4e2c6cd38f985f7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "0fe542916b5fc12cbea1321cccc98e20906d3d6f7762b31a52a9aec3941f4cc1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "b5df634769de8b5576cb98937926ef35b785be09f248d397a44ea6270ea4a2d3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77",
+        "excerpt_sha256": "0707ad089c00863ae2f8d11186717ce0fd12f475293d7abe2741c28854c6a895",
+        "status": "unverified"
+      },
+      {
+        "location": "page-80",
+        "excerpt_sha256": "0f2c91796c76e68821f9919ff7ba0fa9ec50044a73b4018235cf582b4329ca34",
+        "status": "unverified"
+      },
+      {
+        "location": "page-85",
+        "excerpt_sha256": "a61b3c74479165cc06e4f867bcd6c1efe40ec8ef216499f7cf3efeffe68c9e5a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-95",
+        "excerpt_sha256": "da6b31c3e764bf5d47e85580ee618bf511be2a7751859b2034afd92b3fe7d4fa",
+        "status": "unverified"
+      },
+      {
+        "location": "page-100",
+        "excerpt_sha256": "115569b01877961440f8ca769160a002291140faf42e6d4e18f542f4d628c0ca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-104",
+        "excerpt_sha256": "9ec8444b47acce3c6ecd25d7913ce0e7e3c84da2d110b0904f6e49252583587d",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-39",
+        "excerpt_sha256": "c39ece29c5237330fbde70b3281efe063703512a950cb05a497ad729834f67eb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-92",
+        "excerpt_sha256": "9a1162cefd79b1bb49cc97b2fd6fa43f22a3de78c4b3f91e3f6beffd95dabc32",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-50",
+        "excerpt_sha256": "16bb5bb6d9ab65dcc312616820f07e3a496b4e08ec0549659ff7b348563dbfe1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-65",
+        "excerpt_sha256": "8fa769e989055b1e274fb1b5f46cab23e747a5aaf309503dd740e4c72c3d1593",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77",
+        "excerpt_sha256": "0707ad089c00863ae2f8d11186717ce0fd12f475293d7abe2741c28854c6a895",
+        "status": "unverified"
+      },
+      {
+        "location": "page-92",
+        "excerpt_sha256": "9a1162cefd79b1bb49cc97b2fd6fa43f22a3de78c4b3f91e3f6beffd95dabc32",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-105",
+        "excerpt_sha256": "4ec736cc4c34f4a374478f6bbe5cd8dad71c35d10b153d93cbe50d8c97fe8cf5",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

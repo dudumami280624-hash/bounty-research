@@ -1,0 +1,179 @@
+{
+  "source_sha": "03e36d1e2f2f81af79310a44711c87a26f7e8668",
+  "source_name": "73-2019趋势预测及机会分析-老江南.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "7fc739ac34aabc9590a9a217bdf406bd9ffcdb81ac07bae84c122ae87a9c7ede",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "2dfabdadcd813f6988cb1c5f72ffe8d42ffc4c318ecc501454652000af37b1ba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "618efe147b3897bbc2110002110b0b7e140302ef2a62ce45d7aab17aa283843a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "1ae37908dfee8ae4db37e99f1b28dd92a71840aec4be32dee74e94c3d0d447ff",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "d24da9c7e9ebe10d2d9aaded3a0999f3b2bfdca789949bc14f355efd681eec2a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-62",
+        "excerpt_sha256": "b20f13fda151edfb3a4fcbdf371f6b4faf20ba0392861cfe384d6b9f8f479d9d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-67",
+        "excerpt_sha256": "b2a6bce0e10524dfdfb763a184a16b607afe81c46e365161cd1dc4b646e27c36",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77",
+        "excerpt_sha256": "dae4fe86421e0c5290fca34505a1f58e6f1b0ff45c7800968e4ed4bc02a88476",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "7fc739ac34aabc9590a9a217bdf406bd9ffcdb81ac07bae84c122ae87a9c7ede",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "99afc8beb2c08d5c111aa69edbd84d363717a5c34d58f538509305ed7610f9ca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "567d820c3363744ae7798fe4f5efac8e168e3500591f79f87fa20477917c1ede",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "1ae37908dfee8ae4db37e99f1b28dd92a71840aec4be32dee74e94c3d0d447ff",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12",
+        "excerpt_sha256": "06a454dc50f5adace1cf58dd7a55a169c5cb3211b722a94369b4e287f8a7d435",
+        "status": "unverified"
+      },
+      {
+        "location": "page-43",
+        "excerpt_sha256": "37545e2d90f99c4bd6707ec6dbd53ff4665d34ce1a6fbd7aaecfbeafccd1875c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-77",
+        "excerpt_sha256": "dae4fe86421e0c5290fca34505a1f58e6f1b0ff45c7800968e4ed4bc02a88476",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "2dfabdadcd813f6988cb1c5f72ffe8d42ffc4c318ecc501454652000af37b1ba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "78c49b11ae18eec5d1bdd2c2c199511bc5498100a773dccaa88a0fecc67462ce",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "d24da9c7e9ebe10d2d9aaded3a0999f3b2bfdca789949bc14f355efd681eec2a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-34",
+        "excerpt_sha256": "7cba8ec60ce3d4f56633c218a2a25a1237f34cf84502c8e9a073e60014f4fedb",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-5",
+        "excerpt_sha256": "567d820c3363744ae7798fe4f5efac8e168e3500591f79f87fa20477917c1ede",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19",
+        "excerpt_sha256": "61859327d128eccc2c1ee98f60a7220ece6a2e6fa864ed715534bd70dbb4ae1d",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "618efe147b3897bbc2110002110b0b7e140302ef2a62ce45d7aab17aa283843a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "78c49b11ae18eec5d1bdd2c2c199511bc5498100a773dccaa88a0fecc67462ce",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "7e336a92483de1fb4e0093ad7f6a2e384454c2a95e3393aec713e7e1dfa62b62",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "d24da9c7e9ebe10d2d9aaded3a0999f3b2bfdca789949bc14f355efd681eec2a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "d5d4715b20d70c5ab2ccbcb74bf9a91e59e53275cb11ca99f57a10c7238c64f5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-38",
+        "excerpt_sha256": "5b1d0fae1d02c46e9c2dc267b155c230809cd291d52ba1c3cdef866afea21523",
+        "status": "unverified"
+      },
+      {
+        "location": "page-43",
+        "excerpt_sha256": "37545e2d90f99c4bd6707ec6dbd53ff4665d34ce1a6fbd7aaecfbeafccd1875c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-44",
+        "excerpt_sha256": "e485a9eb76dfe8e775e31ab7e01d0912d432abdf79014eaa8508cf4a39058151",
+        "status": "unverified"
+      },
+      {
+        "location": "page-52",
+        "excerpt_sha256": "78e358e22e123477b3fbe6e594316b0059defce033b59a58da1b5057b1aa0a6d",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-30",
+        "excerpt_sha256": "00c5bdee43cca88fcbeca5b99e2a1df7415f22d4dedf4658568be3a37063c39d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-80",
+        "excerpt_sha256": "e074650e58a3736508b0a23af6518d31d87efdf30263d764371e5c793fccc941",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

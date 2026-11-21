@@ -1,0 +1,81 @@
+{
+  "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
+  "source_name": "RSI 强弱指标.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-19:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-11:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-12:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-27:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-11:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-14:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -8,6 +8,10 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-30, page-80): review the original example and explain its context.
+
+- 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-167, page-205, page-206, page-214, page-242): review the original example and explain its context.
+
 - 175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf (source 236f8ae7a3b0, page-57, page-76, page-150, page-155, page-535): review the original example and explain its context.
 
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-18, word/document.xml:paragraph-28): review the original example and explain its context.
@@ -27,10 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-9): review the original example and explain its context.
 
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-51): review the original example and explain its context.
-
-- 缺口.docx (source 60b26a19512c, word/document.xml:paragraph-28): review the original example and explain its context.
-
-- 技术分析《道氏理论》.doc (source 615359fb2745, word/document.xml:paragraph-82, word/document.xml:paragraph-84, word/document.xml:paragraph-86, word/document.xml:paragraph-89, word/document.xml:paragraph-97): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

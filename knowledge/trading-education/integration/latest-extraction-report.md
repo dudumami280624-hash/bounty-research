@@ -1,16 +1,16 @@
 # The Market Mind — 178份原件自动处理进度
 
 - 本轮批量处理：8份
-- 184-人，应该怎么活？应该怎么赚钱？.pdf：partial_ocr_failure
-- 205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf：partial_ocr_failure
-- 23-赚未来十年的钱-王海滨.pdf：partial_ocr_failure
-- 54-中国会跟随美联储加息吗？.pdf：extracted
-- 60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf：extracted
-- 64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf：extracted
-- 69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf：extracted
-- 71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf：extracted
+- 73-2019趋势预测及机会分析-老江南.pdf：extracted
+- 77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf：extracted
+- 84-财经时事 各抒己见-yyttff1981.pdf：extracted
+- 86-2018-2019，实现个人财富飞跃的重要关口.pdf：extracted
+- 96_商业筹码狙击战：中国商企密谋与诡道竞争【已出版】.pdf：extracted
+- A Bullish Candlestick Crossing Three Lines.pdf：extracted
+- RSI 强弱指标.pdf：extracted
+- RSI（相对强弱指数）.pdf：extracted
 - 本轮状态：extracted
-- 已提取文字：81/178
+- 已提取文字：89/178
 - OCR不完整待重试：5
 - 需视觉复核：1
 - 需旧格式转换：0

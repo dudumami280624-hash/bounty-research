@@ -8,6 +8,10 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-4, page-8, page-18, page-34): review the original example and explain its context.
+
+- 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-1648): review the original example and explain its context.
+
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-31:shape-5, slide-31:shape-10): review the original example and explain its context.
 
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12): review the original example and explain its context.
@@ -24,13 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-8): review the original example and explain its context.
 
+- 77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf (source 61449ad5f6f6, page-140, page-143, page-421): review the original example and explain its context.
+
 - 第九节RSI.docx (source 7037c5787026, word/document.xml:paragraph-23, word/document.xml:paragraph-26): review the original example and explain its context.
-
-- 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-17, word/document.xml:paragraph-20, word/document.xml:paragraph-23): review the original example and explain its context.
-
-- 技术指标策略体系：KDJ.pptx (source 738af4cf1d1d, slide-6:shape-19): review the original example and explain its context.
-
-- 技术指标策略体系：MACD（下）.pptx (source 76127d469fe2, slide-5:shape-5, slide-7:shape-5, slide-8:shape-5, slide-9:shape-5, slide-10:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
