@@ -85,7 +85,21 @@ def main():
                     if retry_page is not None:
                         if old_limit is None: os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
                         else: os.environ['TMM_VISUAL_MAX_PAGES']=old_limit
-            total=observations[0]['document_total_pages'] if observations else 0
+            # Empty/invalid windows are errors, not proof of full coverage.
+            # A zero-page response previously marked coverage_complete=True (0 >= 0).
+            if not observations:
+                raise RuntimeError('Visual scanner returned zero observations; retain checkpoint for retry')
+            total=observations[0]['document_total_pages']
+            if not isinstance(total,int) or total<=0:
+                raise RuntimeError(f'Invalid PDF page count: {total!r}')
+            if start>=total:
+                raise RuntimeError(f'Visual checkpoint {start} beyond PDF page count {total}')
+            if start+len(observations)>total:
+                raise RuntimeError('Visual scanner returned pages beyond document length')
+            expected=list(range(start+1,start+len(observations)+1))
+            actual=[x.get('page') for x in observations]
+            if actual!=expected:
+                raise RuntimeError(f'Noncontiguous visual page observations: expected {expected}, got {actual}')
             audit['total_pages']=total
             if retry_page is None: audit['next_page']=start+len(observations)
             # Coverage means every page was visited; OCR failures remain explicitly unresolved.
