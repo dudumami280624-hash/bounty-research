@@ -1,0 +1,103 @@
+{
+  "source_sha": "03ed845aa6b80118b227c163307111ea3e4171bd",
+  "source_name": "《极简缠论》截止到中枢战法.pdf",
+  "topics": {
+    "candlestick": [
+      {
+        "location": "page-7:OCR-unverified",
+        "excerpt_sha256": "415821b58aea2d607170c31e6bf0b6842ad4980c3b235ab18bc5a2d7f90acf16",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8:OCR-unverified",
+        "excerpt_sha256": "cf132345af0a97baa135d0e013d4da662c321ff3d27b06b97bb3ae355d777466",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9:OCR-unverified",
+        "excerpt_sha256": "b565bebb640582091b8893753dd82c1b176307bb324a657492185d1738758ece",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "1c000306aeff19fadbd62253e22038f9e7be1274f311684061c17287ddd664b4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13:OCR-unverified",
+        "excerpt_sha256": "f6254d4fe8c692e5757d117adb96470732065f5c95d8f8e2533ff019ba517241",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14:OCR-unverified",
+        "excerpt_sha256": "169c84dc09bfd6da62135877828c5f490d03f06ae06dfbb587b2cf372a3b6fcc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15:OCR-unverified",
+        "excerpt_sha256": "9b09742bdd0c8d769a218048487d00254780ff282681e9287fc709f2ef8ec51f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18:OCR-unverified",
+        "excerpt_sha256": "822f0ecb3f060001043fd417ffaeaef0e8b6f0a767ff3691dce4d32310fa2776",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22:OCR-unverified",
+        "excerpt_sha256": "c56a70aefef46006ccc049fb2b8c6164495d52b6cb183bbcad3cf2aeba731c85",
+        "status": "unverified"
+      },
+      {
+        "location": "page-28:OCR-unverified",
+        "excerpt_sha256": "7be68ad668e5a7f8afb0ca9e0fefe817caf346c0c58fa8e49814fc51228b8621",
+        "status": "unverified"
+      },
+      {
+        "location": "page-29:OCR-unverified",
+        "excerpt_sha256": "787473c97ae215461858dff6effb57bd099e2d42a6374c38df8e524168ceb4ef",
+        "status": "unverified"
+      },
+      {
+        "location": "page-30:OCR-unverified",
+        "excerpt_sha256": "3a0dce6280e28490218542edf041847c59edd95bb68c809e7b86db91f5ebba90",
+        "status": "unverified"
+      },
+      {
+        "location": "page-31:OCR-unverified",
+        "excerpt_sha256": "2bbca924393c8c05fe7d9bc7519e8a2b326d1a6e7442b76f0614deeb601a4c8f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33:OCR-unverified",
+        "excerpt_sha256": "4e790a61dab033ea185f26efdbc855c3eabe4312837196d71fd031a66a0eae44",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-18:OCR-unverified",
+        "excerpt_sha256": "822f0ecb3f060001043fd417ffaeaef0e8b6f0a767ff3691dce4d32310fa2776",
+        "status": "unverified"
+      },
+      {
+        "location": "page-59:OCR-unverified",
+        "excerpt_sha256": "75e551d3fcaebc41fdd2ee75bc5bd3921a3addcee749be00323b08d16990e7a4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-60:OCR-unverified",
+        "excerpt_sha256": "32a664bed380c06101f4419e99bf5fa9e81c97bff8ee0f47259ff6f4dc6afb1d",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-54:OCR-unverified",
+        "excerpt_sha256": "47bf0d6265fa8fced1936e6b3631bb9a47717ed23a0bc15dce37169352632ba2",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

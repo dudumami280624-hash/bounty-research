@@ -10,6 +10,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-5, page-19): review the original example and explain its context.
 
+- 《极简缠论》截止到中枢战法.pdf (source 03ed845aa6b8, page-7:OCR-unverified, page-8:OCR-unverified, page-9:OCR-unverified, page-10:OCR-unverified, page-13:OCR-unverified): review the original example and explain its context.
+
 - 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-20): review the original example and explain its context.
 
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-428, page-1178, page-1813): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-20, word/document.xml:paragraph-29): review the original example and explain its context.
 
 - K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-1, word/document.xml:paragraph-3, word/document.xml:paragraph-5, word/document.xml:paragraph-9, word/document.xml:paragraph-11): review the original example and explain its context.
-
-- 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-1, page-2, page-11, page-12, page-14): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

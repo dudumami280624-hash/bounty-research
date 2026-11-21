@@ -19,6 +19,69 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "03ed845aa6b80118b227c163307111ea3e4171bd",
+          "source_name": "《极简缠论》截止到中枢战法.pdf",
+          "locations": [
+            {
+              "location": "page-7:OCR-unverified",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-8:OCR-unverified",
+              "term_mentions": 14
+            },
+            {
+              "location": "page-9:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-13:OCR-unverified",
+              "term_mentions": 15
+            },
+            {
+              "location": "page-14:OCR-unverified",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-15:OCR-unverified",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-22:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-28:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-29:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-30:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-31:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-33:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
           "source_name": "第10节RSI.docx",
           "locations": [
@@ -2208,6 +2271,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "03ed845aa6b80118b227c163307111ea3e4171bd",
+          "source_name": "《极简缠论》截止到中枢战法.pdf",
+          "locations": [
+            {
+              "location": "page-54:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
           "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
           "locations": [
@@ -3207,6 +3281,21 @@
             {
               "location": "page-283",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a3ff6f9c9a83e599840d64c2e989a2b45f8a1786",
+          "source_name": "kk三部曲第1部.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -6534,6 +6623,137 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
+          "source_name": "kk三部曲第2部.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-27",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-41",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-61",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-66",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-72",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-88",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-104",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-109",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-112",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-113",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-119",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-123",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-134",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-136",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-138",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-157",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-158",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-167",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-169",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-173",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
           "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
           "locations": [
@@ -8214,6 +8434,81 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7171bdbf4f6b692773f94e297a92d61c310c1e51",
+          "source_name": "kk三部曲第3部.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-44",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-51",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-58",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-62",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-74",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-96",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-102",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-103",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-104",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-113",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-122",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-126",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-130",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
           "source_name": "技术指标策略体系：MA.docx",
           "locations": [
@@ -9417,6 +9712,117 @@
             {
               "location": "page-506",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a3ff6f9c9a83e599840d64c2e989a2b45f8a1786",
+          "source_name": "kk三部曲第1部.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-53",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-78",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-100",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-101",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-103",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-118",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-119",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-131",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-132",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-137",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-145",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-146",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -11271,6 +11677,37 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
+          "source_name": "kk三部曲第2部.pdf",
+          "locations": [
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-54",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-122",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-167",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
           "source_name": "第10节RSI.docx",
           "locations": [
@@ -12449,6 +12886,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7171bdbf4f6b692773f94e297a92d61c310c1e51",
+          "source_name": "kk三部曲第3部.pdf",
+          "locations": [
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-57",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-62",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-101",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-110",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-130",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-159",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
           "source_name": "技术指标策略体系：MA.docx",
           "locations": [
@@ -13266,6 +13742,21 @@
             },
             {
               "location": "page-475",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a3ff6f9c9a83e599840d64c2e989a2b45f8a1786",
+          "source_name": "kk三部曲第1部.pdf",
+          "locations": [
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-151",
               "term_mentions": 1
             }
           ],
@@ -14808,6 +15299,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "03ed845aa6b80118b227c163307111ea3e4171bd",
+          "source_name": "《极简缠论》截止到中枢战法.pdf",
+          "locations": [
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-59:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-60:OCR-unverified",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -14845,6 +15355,45 @@
             },
             {
               "location": "page-49",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
+          "source_name": "kk三部曲第2部.pdf",
+          "locations": [
+            {
+              "location": "page-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-100",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-108",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-111",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-114",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-125",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-166",
               "term_mentions": 1
             }
           ],
@@ -16777,6 +17326,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7171bdbf4f6b692773f94e297a92d61c310c1e51",
+          "source_name": "kk三部曲第3部.pdf",
+          "locations": [
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-44",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-70",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-95",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-114",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-124",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-125",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-159",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "724b03152c5697aa247b3d5aacb253c8c8d1fa6b",
           "source_name": "技术指标策略体系：MA.docx",
           "locations": [
@@ -17934,6 +18522,65 @@
             {
               "location": "page-527",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a3ff6f9c9a83e599840d64c2e989a2b45f8a1786",
+          "source_name": "kk三部曲第1部.pdf",
+          "locations": [
+            {
+              "location": "page-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-42",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-47",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-61",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-63",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-78",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-81",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-104",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-114",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-136",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-147",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -19677,6 +20324,29 @@
     "volume": {
       "sources": [
         {
+          "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
+          "source_name": "kk三部曲第2部.pdf",
+          "locations": [
+            {
+              "location": "page-89",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-121",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-122",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
           "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
           "locations": [
@@ -20303,6 +20973,33 @@
           "locations": [
             {
               "location": "slide-2:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7171bdbf4f6b692773f94e297a92d61c310c1e51",
+          "source_name": "kk三部曲第3部.pdf",
+          "locations": [
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-95",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-99",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-101",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-137",
               "term_mentions": 1
             }
           ],
@@ -20979,6 +21676,33 @@
             {
               "location": "page-3890",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a3ff6f9c9a83e599840d64c2e989a2b45f8a1786",
+          "source_name": "kk三部曲第1部.pdf",
+          "locations": [
+            {
+              "location": "page-24",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-78",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-81",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-116",
+              "term_mentions": 5
             }
           ],
           "status": "candidate_unverified"

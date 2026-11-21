@@ -1,0 +1,102 @@
+{
+  "source_sha": "03ed845aa6b80118b227c163307111ea3e4171bd",
+  "source_name": "《极简缠论》截止到中枢战法.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 73,
+      "evidence_locations": [
+        {
+          "location": "page-7:OCR-unverified",
+          "term_mentions": 7
+        },
+        {
+          "location": "page-8:OCR-unverified",
+          "term_mentions": 14
+        },
+        {
+          "location": "page-9:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-10:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-13:OCR-unverified",
+          "term_mentions": 15
+        },
+        {
+          "location": "page-14:OCR-unverified",
+          "term_mentions": 8
+        },
+        {
+          "location": "page-15:OCR-unverified",
+          "term_mentions": 8
+        },
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-22:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-28:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-29:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-30:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-31:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-33:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-59:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-60:OCR-unverified",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-54:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

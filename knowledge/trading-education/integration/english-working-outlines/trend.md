@@ -10,7 +10,11 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-1, page-4, page-7, page-9, page-18): review the original example and explain its context.
 
+- 《极简缠论》截止到中枢战法.pdf (source 03ed845aa6b8, page-18:OCR-unverified, page-59:OCR-unverified, page-60:OCR-unverified): review the original example and explain its context.
+
 - 199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf (source 061c7329a84c, page-11, page-14, page-20, page-21, page-24): review the original example and explain its context.
+
+- kk三部曲第2部.pdf (source 1844dd10f514, page-51, page-73, page-100, page-108, page-111): review the original example and explain its context.
 
 - 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-9): review the original example and explain its context.
 
@@ -27,10 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-2, page-5, page-10, page-18): review the original example and explain its context.
 
 - 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-4, word/document.xml:paragraph-6, word/document.xml:paragraph-10, word/document.xml:paragraph-14, word/document.xml:paragraph-16): review the original example and explain its context.
-
-- 股价涨跌的真正原因.pdf (source 2c475db0e753, page-6:OCR-unverified): review the original example and explain its context.
-
-- 54-中国会跟随美联储加息吗？.pdf (source 2fa62bf10207, page-16, page-17, page-19, page-34): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

@@ -1,0 +1,233 @@
+{
+  "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
+  "source_name": "kk三部曲第2部.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 10,
+      "evidence_locations": [
+        {
+          "location": "page-51",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-73",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-100",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-108",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-111",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-114",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-125",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-166",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 6,
+      "evidence_locations": [
+        {
+          "location": "page-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-43",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-54",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-90",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-122",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-167",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-89",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-90",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-121",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-122",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 44,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-16",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-27",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-41",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-43",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-50",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-51",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-61",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-66",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-72",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-88",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-90",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-104",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-109",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-112",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-113",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-119",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-123",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-134",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-136",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-138",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-157",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-158",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-167",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-169",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-173",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

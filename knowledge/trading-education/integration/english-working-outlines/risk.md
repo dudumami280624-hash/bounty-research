@@ -14,6 +14,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 未来10年好股票的新特点.docx (source 08da786ee575, word/document.xml:paragraph-49): review the original example and explain its context.
 
+- kk三部曲第2部.pdf (source 1844dd10f514, page-9, page-16, page-21, page-22, page-23): review the original example and explain its context.
+
 - 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf (source 1debe93faf76, page-1, page-8, page-14, page-23): review the original example and explain its context.
 
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-7, page-8, page-9, page-16, page-20): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-3, page-19): review the original example and explain its context.
 
 - 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-4, word/document.xml:paragraph-5, word/document.xml:paragraph-6): review the original example and explain its context.
-
-- 股价涨跌的真正原因.pdf (source 2c475db0e753, page-11:OCR-unverified): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

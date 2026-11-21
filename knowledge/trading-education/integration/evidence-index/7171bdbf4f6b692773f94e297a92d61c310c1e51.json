@@ -1,0 +1,189 @@
+{
+  "source_sha": "7171bdbf4f6b692773f94e297a92d61c310c1e51",
+  "source_name": "kk三部曲第3部.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-44",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-70",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-95",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-114",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-124",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-125",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-159",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 10,
+      "evidence_locations": [
+        {
+          "location": "page-43",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-57",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-62",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-64",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-101",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-110",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-130",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-159",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-95",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-99",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-101",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-137",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 24,
+      "evidence_locations": [
+        {
+          "location": "page-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-35",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-44",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-51",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-58",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-62",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-69",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-74",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-96",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-102",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-103",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-104",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-113",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-122",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-126",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-130",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-156",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
