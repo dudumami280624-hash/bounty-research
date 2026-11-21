@@ -1,0 +1,66 @@
+{
+  "source_sha": "622ab26130b5d53d26993d3cd82dfca184a0d4c4",
+  "source_name": "173-被抑制的通胀能捂多久.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-65",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-132",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-133",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-138",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-90",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

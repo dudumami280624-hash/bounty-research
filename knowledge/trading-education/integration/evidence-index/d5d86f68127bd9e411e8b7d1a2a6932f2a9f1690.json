@@ -1,0 +1,42 @@
+{
+  "source_sha": "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690",
+  "source_name": "第八节RSI.doc",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-1",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

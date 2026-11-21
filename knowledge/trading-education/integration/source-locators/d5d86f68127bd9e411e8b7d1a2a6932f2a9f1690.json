@@ -1,0 +1,28 @@
+{
+  "source_sha": "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690",
+  "source_name": "第八节RSI.doc",
+  "topics": {
+    "trend": [
+      {
+        "location": "word/document.xml:paragraph-1",
+        "excerpt_sha256": "514a03d0599327b6efa5eab855e51e40ba74612f8a05752fb0166d0d59da1953",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "word/document.xml:paragraph-1",
+        "excerpt_sha256": "514a03d0599327b6efa5eab855e51e40ba74612f8a05752fb0166d0d59da1953",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "word/document.xml:paragraph-1",
+        "excerpt_sha256": "514a03d0599327b6efa5eab855e51e40ba74612f8a05752fb0166d0d59da1953",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

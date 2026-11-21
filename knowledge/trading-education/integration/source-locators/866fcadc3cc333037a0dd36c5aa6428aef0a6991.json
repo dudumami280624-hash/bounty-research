@@ -1,0 +1,70 @@
+{
+  "source_sha": "866fcadc3cc333037a0dd36c5aa6428aef0a6991",
+  "source_name": "179-形势转变中，未来哪些行业有前景.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "0ffa48d77fab16aa2f7db1c74b774cf5a14693417b1edd340d7a53e1b00cf933",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "dd9fd4c0905f5bdc8f1737ace6734c21179f6067f614fe08199865e3b0890eba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32",
+        "excerpt_sha256": "475c32ecfb2bda42a1f71ee5e9dcc904eb25e147a84f2cee06007f20f0f58f7a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33",
+        "excerpt_sha256": "ebdf513a50e525ad0ee4e3de965425e1e5753d525c77b342bafa420cfcaf7812",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "0ffa48d77fab16aa2f7db1c74b774cf5a14693417b1edd340d7a53e1b00cf933",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-19",
+        "excerpt_sha256": "52a1b649c1ede636237455fd6c7166871962a630ea30c10610420c5ce38bd731",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-32",
+        "excerpt_sha256": "475c32ecfb2bda42a1f71ee5e9dcc904eb25e147a84f2cee06007f20f0f58f7a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33",
+        "excerpt_sha256": "ebdf513a50e525ad0ee4e3de965425e1e5753d525c77b342bafa420cfcaf7812",
+        "status": "unverified"
+      },
+      {
+        "location": "page-36",
+        "excerpt_sha256": "7ff55109a44b27c3df3abfb01459476fb50c7f0eedb96c25444f86bcc14a031b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-39",
+        "excerpt_sha256": "5a918bbc4a440092dd07675af9526b7450f0a42e38382e638cd7fdf7a9e9fd95",
+        "status": "unverified"
+      },
+      {
+        "location": "page-42",
+        "excerpt_sha256": "0fcd3146a236c3d32994c893ef22fa192e388d23985f374b543c49bf0cb0285b",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -1,0 +1,164 @@
+{
+  "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
+  "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+  "topics": [
+    {
+      "concept": "engulfing",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-22:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-48:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-67:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-156:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-184:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-253:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 10,
+      "evidence_locations": [
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-84:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-86:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-88:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-118:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-119:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-195:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-198:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-249:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 15,
+      "evidence_locations": [
+        {
+          "location": "page-20:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-23:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-80:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-81:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-82:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-87:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-102:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-157:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-220:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-249:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-259:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-261:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-234:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

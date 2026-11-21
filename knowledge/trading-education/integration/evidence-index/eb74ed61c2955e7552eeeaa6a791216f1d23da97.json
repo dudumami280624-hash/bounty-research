@@ -1,0 +1,36 @@
+{
+  "source_sha": "eb74ed61c2955e7552eeeaa6a791216f1d23da97",
+  "source_name": "行业因素分析选股.docx",
+  "topics": [
+    {
+      "concept": "risk",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "word/document.xml:paragraph-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "word/document.xml:paragraph-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

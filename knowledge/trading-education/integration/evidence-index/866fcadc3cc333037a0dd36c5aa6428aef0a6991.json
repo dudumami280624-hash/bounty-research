@@ -1,0 +1,81 @@
+{
+  "source_sha": "866fcadc3cc333037a0dd36c5aa6428aef0a6991",
+  "source_name": "179-形势转变中，未来哪些行业有前景.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-33",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 6,
+      "evidence_locations": [
+        {
+          "location": "page-32",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-33",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-36",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-39",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-42",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-19",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -15,6 +15,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
+          "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+          "locations": [
+            {
+              "location": "page-211",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-212",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-244",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-288",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-504",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "26cfdc67c551a2d74592686f34934082a77451c5",
           "source_name": "K线策略体系：起爆点.pptx",
           "locations": [
@@ -1399,6 +1426,45 @@
     "confirmation": {
       "sources": [
         {
+          "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
+          "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+          "locations": [
+            {
+              "location": "page-57",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-155",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-535",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-536",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-847",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1525",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "28f3cc0d5cf447a18895024d5c3ff776da66309b",
           "source_name": "技术指标策略体系：KDJ.docx",
           "locations": [
@@ -1420,6 +1486,21 @@
             {
               "location": "word/document.xml:paragraph-48",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
+          "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
+          "locations": [
+            {
+              "location": "page-128",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-142",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -1561,6 +1642,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "866fcadc3cc333037a0dd36c5aa6428aef0a6991",
+          "source_name": "179-形势转变中，未来哪些行业有前景.pdf",
+          "locations": [
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -1592,6 +1684,17 @@
           "locations": [
             {
               "location": "slide-4:shape-30",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
+          "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+          "locations": [
+            {
+              "location": "page-234:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -1664,6 +1767,17 @@
             {
               "location": "page-3061",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690",
+          "source_name": "第八节RSI.doc",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -2227,6 +2341,32 @@
     "engulfing": {
       "sources": [
         {
+          "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
+          "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+          "locations": [
+            {
+              "location": "page-619",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1568",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
+          "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
+          "locations": [
+            {
+              "location": "page-527",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -2267,6 +2407,17 @@
             {
               "location": "page-8",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
+          "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+          "locations": [
+            {
+              "location": "page-22:OCR-unverified",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -3558,6 +3709,253 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
+          "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-35",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-46",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-47",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-48",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-52",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-53",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-54",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-55",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-74",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 14
+            },
+            {
+              "location": "page-78",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-84",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-89",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-94",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-111",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-114",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-115",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-126",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-131",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-132",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-138",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-139",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-143",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-144",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-149",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-160",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-171",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-172",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-178",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-179",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-183",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-185",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-186",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-187",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-189",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-190",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-193",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-194",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-206",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-209",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-211",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-215",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-216",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-217",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "2477d8b3dc0f5f5a9406b47e36a0045c75bc18da",
           "source_name": "143_寻找朝阳行业，为下一个五年、十年做储备.pdf",
           "locations": [
@@ -3807,6 +4205,125 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
+          "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
+          "locations": [
+            {
+              "location": "page-47",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-94",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-112",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-164",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-252",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-285",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-286",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-290",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-294",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-296",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-361",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-382",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-511",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-514",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-558",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-573",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-624",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-688",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-689",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-690",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-703",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-704",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-737",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-762",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-774",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-784",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-785",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
           "source_name": "MA均线系统三角形态选股法.docx",
           "locations": [
@@ -3880,6 +4397,25 @@
           "locations": [
             {
               "location": "page-26",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "622ab26130b5d53d26993d3cd82dfca184a0d4c4",
+          "source_name": "173-被抑制的通胀能捂多久.pdf",
+          "locations": [
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
               "term_mentions": 1
             }
           ],
@@ -4119,6 +4655,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "866fcadc3cc333037a0dd36c5aa6428aef0a6991",
+          "source_name": "179-形势转变中，未来哪些行业有前景.pdf",
+          "locations": [
+            {
+              "location": "page-32",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-33",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-39",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-42",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "88e7b83e7b42c0e6430b3aa04955c70b0e8b511b",
           "source_name": "量价关系的基本形态.pdf",
           "locations": [
@@ -4224,6 +4787,61 @@
             },
             {
               "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
+          "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+          "locations": [
+            {
+              "location": "page-20:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-80:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-81:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-82:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-87:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-102:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-157:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-220:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-249:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-259:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-261:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -4675,6 +5293,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "eb74ed61c2955e7552eeeaa6a791216f1d23da97",
+          "source_name": "行业因素分析选股.docx",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "word/document.xml:paragraph-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ee0b5930e6e38f56e3404096ff0b33fdf36ed100",
           "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
           "locations": [
@@ -4962,6 +5607,105 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
+          "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+          "locations": [
+            {
+              "location": "page-54",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-195",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-326",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-363",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-405",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-429",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-501",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-653",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-684",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-704",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-807",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-864",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-918",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-965",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1076",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1090",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1183",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1267",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1384",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1471",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1472",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1485",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "26cfdc67c551a2d74592686f34934082a77451c5",
           "source_name": "K线策略体系：起爆点.pptx",
           "locations": [
@@ -5075,6 +5819,125 @@
             {
               "location": "page-23",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
+          "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-58",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-92",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-109",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-158",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-210",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-242",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-311",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-312",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-314",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-318",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-320",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-322",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-330",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-355",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-364",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-446",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-548",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-623",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-723",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-744",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-746",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-797",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-805",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -5237,6 +6100,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "622ab26130b5d53d26993d3cd82dfca184a0d4c4",
+          "source_name": "173-被抑制的通胀能捂多久.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -5353,6 +6231,17 @@
             {
               "location": "slide-38:shape-5",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "866fcadc3cc333037a0dd36c5aa6428aef0a6991",
+          "source_name": "179-形势转变中，未来哪些行业有前景.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -5520,6 +6409,49 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
+          "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+          "locations": [
+            {
+              "location": "page-24:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-84:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-86:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-88:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-118:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-119:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-195:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-198:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-249:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
           "source_name": "K线策略体系：右侧突破 (2).pptx",
           "locations": [
@@ -5680,6 +6612,17 @@
             {
               "location": "page-2941",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690",
+          "source_name": "第八节RSI.doc",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -6115,6 +7058,201 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
+          "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
+          "locations": [
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-65",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-97",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-106",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-111",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-175",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-206",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-229",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-231",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-238",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-263",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-358",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-439",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-495",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-500",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-501",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-505",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-698",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-716",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-748",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-772",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-935",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-937",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1063",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1064",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1079",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1131",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1139",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1213",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1216",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1217",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1235",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1237",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1250",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1360",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1372",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1380",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1381",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1450",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1460",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1503",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1528",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1529",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1538",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1586",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "2477d8b3dc0f5f5a9406b47e36a0045c75bc18da",
           "source_name": "143_寻找朝阳行业，为下一个五年、十年做储备.pdf",
           "locations": [
@@ -6410,6 +7548,109 @@
             },
             {
               "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
+          "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-97",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-121",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-124",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-287",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-381",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-388",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-389",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-394",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-427",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-428",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-429",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-431",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-523",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-537",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-553",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-554",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-637",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-639",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-821",
               "term_mentions": 1
             }
           ],
@@ -6971,6 +8212,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "622ab26130b5d53d26993d3cd82dfca184a0d4c4",
+          "source_name": "173-被抑制的通胀能捂多久.pdf",
+          "locations": [
+            {
+              "location": "page-65",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-132",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-133",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-138",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -7304,6 +8568,29 @@
             {
               "location": "word/document.xml:paragraph-37",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "866fcadc3cc333037a0dd36c5aa6428aef0a6991",
+          "source_name": "179-形势转变中，未来哪些行业有前景.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-33",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -7729,6 +9016,41 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
+          "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
+          "locations": [
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-48:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-67:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-156:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-184:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-253:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
           "source_name": "K线策略体系：右侧突破 (2).pptx",
           "locations": [
@@ -7932,6 +9254,17 @@
             },
             {
               "location": "page-2959",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d5d86f68127bd9e411e8b7d1a2a6932f2a9f1690",
+          "source_name": "第八节RSI.doc",
+          "locations": [
+            {
+              "location": "word/document.xml:paragraph-1",
               "term_mentions": 1
             }
           ],
@@ -8549,6 +9882,25 @@
             },
             {
               "location": "page-6:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
+          "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
+          "locations": [
+            {
+              "location": "page-464",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-483",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-498",
               "term_mentions": 1
             }
           ],

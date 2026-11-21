@@ -8,9 +8,13 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf (source 236f8ae7a3b0, page-57, page-76, page-150, page-155, page-535): review the original example and explain its context.
+
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-18, word/document.xml:paragraph-28): review the original example and explain its context.
 
 - 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-48): review the original example and explain its context.
+
+- 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-128, page-142): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-5:shape-6): review the original example and explain its context.
 
@@ -27,10 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 技术分析《道氏理论》.doc (source 615359fb2745, word/document.xml:paragraph-82, word/document.xml:paragraph-84, word/document.xml:paragraph-86, word/document.xml:paragraph-89, word/document.xml:paragraph-97): review the original example and explain its context.
 
 - K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-32:shape-5, slide-35:shape-5): review the original example and explain its context.
-
-- 量价关系的基本形态.pdf (source 88e7b83e7b42, page-9, page-13): review the original example and explain its context.
-
-- 葛兰威尔均线八大法则（卖1）.pptx (source b1c891a38487, slide-4:shape-30): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

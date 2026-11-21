@@ -1,0 +1,58 @@
+{
+  "source_sha": "622ab26130b5d53d26993d3cd82dfca184a0d4c4",
+  "source_name": "173-被抑制的通胀能捂多久.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "c569ee9abab96c54c2e56ff9b0522b6d01e49f1086eed711a37006e602dd89b4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "a41a238aa40f7f130945dd89b14cf85da0ff98f5fa14f83f69c3abfa49fc50ea",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-16",
+        "excerpt_sha256": "46fa71f3c624ef4555d3e7d4ca68843ec868b3f5d31378242b88b70979453dcb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "7ef8ec33c197d40f0314f2ef3d113ba441154ad1ad8e8faad5658c2274dbbbf5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-90",
+        "excerpt_sha256": "d50f2586f7f05ae851673c05dd2ccd1c0c0f533d2fa808eaf0ea2de9ddca82ff",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-65",
+        "excerpt_sha256": "efe1620f6f16ae171829915c0e3c67f5129da7e18be12ef160a3442805718268",
+        "status": "unverified"
+      },
+      {
+        "location": "page-132",
+        "excerpt_sha256": "941d3933a2f88b7007e2d361018eec4d09586ef3efb1e4bfe9b4598a1238968b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-133",
+        "excerpt_sha256": "8e79444d24d72e883cd79041048f26c563b4e7f292dc9a0ea629d7075620f0c5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-138",
+        "excerpt_sha256": "b72d0bfc1b75f8de50f61656b150e12a033fe0788db4d091be509a96e3e9642f",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

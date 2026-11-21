@@ -10,6 +10,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-20): review the original example and explain its context.
 
+- 175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf (source 236f8ae7a3b0, page-211, page-212, page-244, page-288, page-504): review the original example and explain its context.
+
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-4:shape-4, slide-4:shape-5, slide-5:shape-12, slide-15:shape-5, slide-17:shape-30): review the original example and explain its context.
 
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12, word/document.xml:paragraph-18, word/document.xml:paragraph-31, word/document.xml:paragraph-34): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线策略体系：右侧突破.pptx (source 68a2df654f36, slide-2:shape-4, slide-2:shape-5, slide-3:shape-4, slide-5:shape-4, slide-5:shape-5): review the original example and explain its context.
 
 - 第九节RSI.docx (source 7037c5787026, word/document.xml:paragraph-23, word/document.xml:paragraph-29): review the original example and explain its context.
-
-- 技术指标策略体系：MA.docx (source 724b03152c56, word/document.xml:paragraph-14, word/document.xml:paragraph-38, word/document.xml:paragraph-41, word/document.xml:paragraph-56): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
