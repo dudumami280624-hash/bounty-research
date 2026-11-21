@@ -122,7 +122,10 @@ def main():
     entries=inventory(INDEX.read_text(encoding='utf-8'))
     state=json.loads(STATE.read_text(encoding='utf-8')) if STATE.exists() else {'schema_version':2,'files':{}}
     files=state.setdefault('files',{})
-    terminal={'extracted','needs_visual_review'}
+    # Partial OCR already produced text and provenance. Retrying full extraction
+    # wastes scarce batch slots and can overwrite progress; resume_visual_pages.py
+    # owns page-level follow-up. Neither status implies verified OCR or semantics.
+    terminal={'extracted','needs_visual_review','partial_ocr_failure'}
     converter_available=bool(shutil.which('libreoffice'))
     pending=[e for e in entries if files.get(e['sha'],{}).get('extraction_status') not in terminal
              and (files.get(e['sha'],{}).get('attempts',0)<MAX_ATTEMPTS
