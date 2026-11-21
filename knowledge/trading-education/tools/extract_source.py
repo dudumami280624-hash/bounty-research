@@ -85,9 +85,9 @@ def pdf(path, start_page=0, max_pages=None):
                             blocks.append({'location':f'page-{page_number}:OCR-unverified',
                                            'text':run.stdout.strip()})
                             ocr_pages.append(page_number)
-                        else: ocr_failed_pages.append(i)
-                    except (subprocess.TimeoutExpired, OSError): ocr_failed_pages.append(i)
-            else: ocr_failed_pages.append(i)
+                        else: ocr_failed_pages.append(page_number)
+                    except (subprocess.TimeoutExpired, OSError): ocr_failed_pages.append(page_number)
+            else: ocr_failed_pages.append(page_number)
         for j,im in enumerate(p.get_images(full=True),1):
             images.append({'location':f'page-{page_number}:image-{j}',
                            'xref':im[0],'visually_verified':False})
