@@ -20,17 +20,17 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 23-赚未来十年的钱-王海滨.pdf (source 7af0a550e107, page-40:OCR-unverified): review the original example and explain its context.
 
+- 69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf (source 90851e957915, page-609, page-1068): review the original example and explain its context.
+
 - 重要的 K 线形态组合.pdf (source 90fbf5f6508e, page-6, page-8): review the original example and explain its context.
+
+- 64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf (source 9c3b1d2e8758, page-20, page-541, page-2031, page-2335, page-2633): review the original example and explain its context.
 
 - 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-360, page-361, page-693, page-695, page-1478): review the original example and explain its context.
 
 - 23-【经济专栏】赚未来十年的钱【已出版】.pdf (source ae98bb80c1bc, page-558, page-628, page-700): review the original example and explain its context.
 
 - 11-经济大周期_踩准节拍再投资（高清）--海宁.pdf (source c4d5856c1c05, page-22:OCR-unverified): review the original example and explain its context.
-
-- 成交量与 K 线形态的力量.pdf (source db98c9518038, page-19, page-21): review the original example and explain its context.
-
-- 100_房地产投资依然无忧，逆向思维让你找到真实.pdf (source ee0b5930e6e3, page-58, page-701, page-940, page-1423, page-2217): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

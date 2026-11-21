@@ -1,0 +1,356 @@
+{
+  "source_sha": "9c8cd5ab50f7b513e41fe39151638f70f482cd66",
+  "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 31,
+      "evidence_locations": [
+        {
+          "location": "page-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-33",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-43",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-45",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-46",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-158",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-159",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-219",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-230",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-341",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-382",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-383",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-384",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-405",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-464",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-480",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-481",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-524",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-527",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 11,
+      "evidence_locations": [
+        {
+          "location": "page-18",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-53",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-120",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-123",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-159",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-297",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-362",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-456",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-475",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 79,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-18",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-29",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-34",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-56",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-73",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-77",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-94",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-97",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-112",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-140",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-155",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-178",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-191",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-211",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-225",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-263",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-267",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-290",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-291",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-295",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-322",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-323",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-325",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-333",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-339",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-340",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-341",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-342",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-376",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-385",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-389",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-390",
+          "term_mentions": 7
+        },
+        {
+          "location": "page-391",
+          "term_mentions": 8
+        },
+        {
+          "location": "page-392",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-393",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-410",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-443",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-445",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-455",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-500",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-505",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-506",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-440",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-229",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-283",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

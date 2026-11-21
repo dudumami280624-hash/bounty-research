@@ -28,9 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 股价涨跌的真正原因.pdf (source 2c475db0e753, page-11:OCR-unverified): review the original example and explain its context.
 
-- 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-9, page-14, page-21, page-22, page-23): review the original example and explain its context.
+- 54-中国会跟随美联储加息吗？.pdf (source 2fa62bf10207, page-8, page-14, page-22, page-25, page-26): review the original example and explain its context.
 
-- 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-61, page-70, page-103, page-104, page-105): review the original example and explain its context.
+- 多头与空头旗形、三角形形态②.pdf (source 36e7f3326792, page-9, page-14, page-21, page-22, page-23): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

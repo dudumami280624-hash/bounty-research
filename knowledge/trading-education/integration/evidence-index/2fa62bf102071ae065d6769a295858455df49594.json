@@ -1,0 +1,74 @@
+{
+  "source_sha": "2fa62bf102071ae065d6769a295858455df49594",
+  "source_name": "54-中国会跟随美联储加息吗？.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 6,
+      "evidence_locations": [
+        {
+          "location": "page-16",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-19",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-34",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-36",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -965,6 +965,253 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-62",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-116",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-119",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-207",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-276",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-282",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-352",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-446",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-468",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-496",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-504",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-523",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-537",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-544",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-647",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-648",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-652",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-658",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-680",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-681",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-683",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-727",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-741",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-980",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1005",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1026",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1029",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1075",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1122",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1123",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1217",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1294",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1302",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1347",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1406",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1407",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1424",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1435",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1446",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1451",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1587",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1629",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-1630",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1650",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1673",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1674",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-1675",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1704",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1718",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1734",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1735",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-1931",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1936",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2143",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2144",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2153",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2533",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2652",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-2760",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "a87a992fbdaa44d662584aa674c273e94e9fb1b6",
           "source_name": "191-短线的最高境界是不停的追逐涨停 .pdf",
           "locations": [
@@ -2181,6 +2428,375 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-66",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-72",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-264",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-402",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-403",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-458",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-485",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-487",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-488",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-497",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-508",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-680",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-869",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-925",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1147",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1161",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1308",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1590",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1611",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1612",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1613",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1657",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1806",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-80",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-151",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-152",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-154",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-177",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-182",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-183",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-184",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-256",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-259",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-315",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-318",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-363",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-404",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-405",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-408",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-417",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-427",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-446",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-448",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-450",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-459",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-461",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-463",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-467",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-474",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-477",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-479",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-480",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-483",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-494",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-514",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-522",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-530",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-541",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-543",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-569",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-588",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-590",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-592",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-593",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-624",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-640",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-663",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-676",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-759",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-761",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-762",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-789",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-801",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-820",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-838",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-839",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-889",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-891",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-893",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-904",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-920",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-960",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c8cd5ab50f7b513e41fe39151638f70f482cd66",
+          "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+          "locations": [
+            {
+              "location": "page-229",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-283",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "a87a992fbdaa44d662584aa674c273e94e9fb1b6",
           "source_name": "191-短线的最高境界是不停的追逐涨停 .pdf",
           "locations": [
@@ -2876,6 +3492,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-446",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1123",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3268",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "a87a992fbdaa44d662584aa674c273e94e9fb1b6",
           "source_name": "191-短线的最高境界是不停的追逐涨停 .pdf",
           "locations": [
@@ -3151,6 +3786,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-609",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1068",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -3161,6 +3811,37 @@
             {
               "location": "page-8",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-541",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2031",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-2335",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2633",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3206",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -3354,6 +4035,17 @@
             {
               "location": "page-11",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-2488",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -3815,12 +4507,285 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-711",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-712",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
           "source_name": "技术指标策略体系：KDJ 英文版.pptx",
           "locations": [
             {
               "location": "slide-6:shape-21",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-152",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-155",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-181",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-304",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-318",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-364",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-367",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-447",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-458",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-482",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-587",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-588",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-658",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-660",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-681",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-682",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-689",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-758",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-759",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-763",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-788",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-789",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-802",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-820",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-827",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-833",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-965",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-966",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1005",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1123",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1194",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1195",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1216",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1217",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1247",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1302",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1322",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1359",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1411",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1434",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1444",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1449",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1458",
+              "term_mentions": 14
+            },
+            {
+              "location": "page-1464",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1466",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1587",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1588",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1628",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1629",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-1636",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1637",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1673",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1674",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-1734",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1735",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-1934",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1973",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2098",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2099",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c8cd5ab50f7b513e41fe39151638f70f482cd66",
+          "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+          "locations": [
+            {
+              "location": "page-440",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -5474,6 +6439,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "2fa62bf102071ae065d6769a295858455df49594",
+          "source_name": "54-中国会跟随美联储加息吗？.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
           "source_name": "多头与空头旗形、三角形形态②.pdf",
           "locations": [
@@ -6532,6 +7524,253 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-53",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-54",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-58",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-60",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-81",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-87",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-88",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-95",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-96",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-97",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-98",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-113",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-116",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-117",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-118",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-124",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-126",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-128",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-135",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-136",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-140",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-146",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-147",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-164",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-166",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-167",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-168",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-174",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-180",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-182",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-183",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-186",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-196",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-197",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-198",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-202",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-208",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-211",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-212",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-213",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-216",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-219",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-223",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-227",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-229",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-230",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-231",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-239",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-240",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-241",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -6541,6 +7780,448 @@
             },
             {
               "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-18",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-30",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-37",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-60",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-62",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-70",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-72",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-83",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-84",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-89",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-94",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-117",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-155",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-182",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-187",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-208",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-227",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-250",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-251",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-253",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-257",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-258",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-259",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-299",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-300",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-301",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-303",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-304",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-305",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-306",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-310",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-319",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-321",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-322",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-327",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-343",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-359",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-360",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-363",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-364",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-365",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-371",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-373",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-374",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-378",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-384",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-389",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-405",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-417",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-420",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-424",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c8cd5ab50f7b513e41fe39151638f70f482cd66",
+          "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-29",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-94",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-97",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-112",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-140",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-155",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-178",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-191",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-211",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-225",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-263",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-267",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-290",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-291",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-295",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-322",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-325",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-333",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-339",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-340",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-341",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-342",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-376",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-385",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-389",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-390",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-391",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-392",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-393",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-410",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-443",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-445",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-455",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-500",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-505",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-506",
               "term_mentions": 1
             }
           ],
@@ -7708,6 +9389,101 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d9ef21788c4440661dd3c29b322f3858d7a072d1",
+          "source_name": "71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-29",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-30",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-74",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-91",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-95",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-96",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-124",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-276",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-292",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-358",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-361",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-399",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-413",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-477",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-520",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -8394,6 +10170,21 @@
           "locations": [
             {
               "location": "page-12:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "2fa62bf102071ae065d6769a295858455df49594",
+          "source_name": "54-中国会跟随美联储加息吗？.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36",
               "term_mentions": 1
             }
           ],
@@ -9359,12 +11150,469 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-122",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-209",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-267",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-274",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-277",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-298",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-299",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-409",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-454",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-459",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-536",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-538",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-552",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-637",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-673",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-698",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-736",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-787",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-841",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-846",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-852",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-876",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-916",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-932",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-933",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-936",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-937",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-1089",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1196",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1356",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1405",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1481",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1598",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1599",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1648",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1651",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1675",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1729",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1771",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1776",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9c0fd8e54bf26e936dfcf3f39d70db60f902095d",
           "source_name": "技术指标策略体系：KDJ 英文版.pptx",
           "locations": [
             {
               "location": "slide-16:shape-5",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-74",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-182",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-183",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-186",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-252",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-412",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-436",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-443",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-446",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-458",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-477",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-479",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-480",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-482",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-488",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-491",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-522",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-526",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-530",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-537",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-542",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-569",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-593",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-639",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-654",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-655",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-661",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-662",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-705",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-708",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-732",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-733",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-745",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-754",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-836",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-890",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-999",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1072",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-1073",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1075",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1077",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-1128",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1142",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1216",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1270",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1290",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1315",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1322",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-1348",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1349",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1356",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1357",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1371",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1372",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1418",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1524",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1532",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1569",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c8cd5ab50f7b513e41fe39151638f70f482cd66",
+          "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+          "locations": [
+            {
+              "location": "page-18",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-53",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-120",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-123",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-159",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-297",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-362",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-456",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-475",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -10410,6 +12658,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d9ef21788c4440661dd3c29b322f3858d7a072d1",
+          "source_name": "71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-37",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-152",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-376",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -11323,6 +13594,29 @@
             {
               "location": "page-6:OCR-unverified",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "2fa62bf102071ae065d6769a295858455df49594",
+          "source_name": "54-中国会跟随美联储加息吗？.pdf",
+          "locations": [
+            {
+              "location": "page-16",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -12856,6 +15150,253 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-44",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-49",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-97",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-107",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-151",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-163",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-180",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-192",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-219",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-262",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-316",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-385",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-403",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-405",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-408",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-513",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-518",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-563",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-579",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-604",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-609",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-616",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-651",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-712",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-727",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-732",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-739",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-756",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-789",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-791",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-794",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-803",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-827",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-842",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-855",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-864",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-897",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-902",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-914",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-925",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-938",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-943",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-944",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-946",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-950",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-954",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-955",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-963",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-964",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-965",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-976",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-977",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-979",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1000",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1001",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -12936,6 +15477,336 @@
             },
             {
               "location": "slide-19:shape-5",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-24",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-52",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-53",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-74",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-79",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-80",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-88",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-89",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-94",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-101",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-115",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-116",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-117",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-118",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-119",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-125",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-126",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-145",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-150",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-151",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-152",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-153",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-154",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-155",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-157",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-172",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-181",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-183",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-184",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-196",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-206",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-214",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-225",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-252",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-255",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-256",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-259",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-300",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-303",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-304",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-306",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-309",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-310",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-314",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-316",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-317",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-318",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-319",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-320",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-354",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-358",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-359",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c8cd5ab50f7b513e41fe39151638f70f482cd66",
+          "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+          "locations": [
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-33",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-45",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-46",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-158",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-159",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-219",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-230",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-341",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-382",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-383",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-384",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-405",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-464",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-480",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-481",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-524",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-527",
               "term_mentions": 2
             }
           ],
@@ -14109,6 +16980,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d9ef21788c4440661dd3c29b322f3858d7a072d1",
+          "source_name": "71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf",
+          "locations": [
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-82",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-300",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-490",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "db98c9518038cb23730e86c7502a3b64d271a8bb",
           "source_name": "成交量与 K 线形态的力量.pdf",
           "locations": [
@@ -15231,6 +18129,253 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+          "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+          "locations": [
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-31",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-61",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-62",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-106",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-142",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-143",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-147",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-149",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-171",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-221",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-224",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-227",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-232",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-237",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-249",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-260",
+              "term_mentions": 11
+            },
+            {
+              "location": "page-261",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-263",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-272",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-276",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-287",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-316",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-332",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-356",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-357",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-373",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-374",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-375",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-392",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-406",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-448",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-450",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-451",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-486",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-504",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-563",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-586",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-641",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-643",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-659",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-668",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-678",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-683",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-706",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-720",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-721",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-722",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-723",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-724",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-726",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-744",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-745",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-748",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-753",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-754",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-755",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-772",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -15240,6 +18385,225 @@
             },
             {
               "location": "page-22",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
+          "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+          "locations": [
+            {
+              "location": "page-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-128",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-153",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-252",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-318",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-638",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-639",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-640",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-642",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-648",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-651",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-652",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-658",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-666",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-681",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-711",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-758",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-759",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-760",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-761",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-762",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-763",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-980",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-981",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1005",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1217",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1302",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1358",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-1359",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1461",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1650",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1651",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1704",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1705",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1931",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-1932",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2153",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2154",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2239",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2348",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2519",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2760",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2765",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2795",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2797",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2809",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2812",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3149",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3296",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-3300",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-3301",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3670",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-3890",
               "term_mentions": 1
             }
           ],

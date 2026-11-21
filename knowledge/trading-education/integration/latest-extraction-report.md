@@ -1,16 +1,16 @@
 # The Market Mind — 178份原件自动处理进度
 
 - 本轮批量处理：8份
-- 175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf：partial_ocr_failure
 - 184-人，应该怎么活？应该怎么赚钱？.pdf：partial_ocr_failure
 - 205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf：partial_ocr_failure
-- 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf：extracted
-- 23-【经济专栏】赚未来十年的钱【已出版】.pdf：extracted
 - 23-赚未来十年的钱-王海滨.pdf：partial_ocr_failure
-- 2_天涯神贴：一个炒房人的终极预测——调控将撤底失败.pdf：extracted
-- 43-大神预言神准-大文豪曼因斯坦.pdf：extracted
+- 54-中国会跟随美联储加息吗？.pdf：extracted
+- 60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf：extracted
+- 64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf：extracted
+- 69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf：extracted
+- 71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf：extracted
 - 本轮状态：extracted
-- 已提取文字：76/178
+- 已提取文字：81/178
 - OCR不完整待重试：5
 - 需视觉复核：1
 - 需旧格式转换：0

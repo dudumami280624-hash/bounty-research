@@ -1,0 +1,68 @@
+{
+  "source_sha": "2fa62bf102071ae065d6769a295858455df49594",
+  "source_name": "54-中国会跟随美联储加息吗？.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "739115fad68e7ddcd4f3d867836ecb5ec79e64ff2da2b7efe1dda604b05878ac",
+        "status": "unverified"
+      },
+      {
+        "location": "page-36",
+        "excerpt_sha256": "3c527ed886078269eb790470a0b4db9adf4f61ac8e419c8dc795f964f106c5ab",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "1e6e7c67a8bba6aa2a715c5efc6a33defbcb766f879bcbd7af1193df533c0718",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "cd5d516f5ba834546db05d4a6e6d801384039c0a78289f48e1f13c67de79e779",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "5a11b19f375750bcf2323e7d64fbd434f61273dc01b6347ce676341e61c87b81",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "ec8f9bf56344f8c5d70505439ed88a9bd404aa3f971eacec5bb2d06d133eea45",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "d9402cc73133bf425967237e1c224cf53460e4ba20321dbfe527c58e40320632",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-16",
+        "excerpt_sha256": "02d1bd2cc7b3f3b378ee12e25553a58e427dd19cbb123b41e78a89c7e8b34e65",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "2e4db8353feb81c9ac13aba863a52c64a4a2c4b7e93dc3dc3a0d4300dcf9de5a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19",
+        "excerpt_sha256": "06bfdf9425621532c164a156a01cf452a501ec283ebdda1cd9f86e25ab3c9905",
+        "status": "unverified"
+      },
+      {
+        "location": "page-34",
+        "excerpt_sha256": "d54887b66d99f4ed9e4c705903be53844f3a523814dcc2e2957ee6c303701f09",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

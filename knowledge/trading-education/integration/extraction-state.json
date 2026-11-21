@@ -232,7 +232,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 24,
         "total_pages": 33,
         "attempts": 0,
         "coverage_complete": false,
@@ -240,23 +240,23 @@
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
+          "first_page": 13,
+          "last_page": 24,
           "candidate_pages": 12,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "767cdc3242fed54c85c24f3539e1e26e2d9a27849b4a9d6c6100f449cecf593d",
-            "81297a9295250e42987b327a4fd801078fc26b140f4696c68f9c6e3079d037cf",
-            "658fbb1b2d57b1b9c3df4871235149bb897dd0cceb3a1b91559e284c9556ac11",
-            "2a3e16f613cec01eb911303159610a2e9b2927e2aaf20e2c837a9466c5e4c571",
-            "00ea4408384e503058d6702131fa8f035350e542a027cb571647cf6a6a5fd6f1",
-            "b64ee6545aade6124ac9fb40c74048138a562c419397554e7e322ac8e762a2d7",
-            "d4b12f98cd045e8385e81f1924d2f10bd3b82f23b686bb0aff71b1b3407d5951",
-            "4d5327c4c6b27160855fc0a853a6cc985f7428c7da29ee72169509e8cb8c08b9",
-            "927abdb2a7aafd0408febf9cb4ca17120af8bbe80e1711f4e92a35a2b1db7d21",
-            "9732ff2512c2f46b19b087b050d0d57e4c3b8937a4b57fd9b8fe2a7be79e2c24",
-            "df8359ec0d8297b490f68fd991457b191e2c6a23f8fa83799d296afcfe30f0ce",
-            "f59b8a62f18d0fa424906ca82724e0c733f8a8ee28c2e28bbfda094053aa8655"
+            "18712fd1e28f17db695c4bbee1a92171ed1a2979dd2a94837b81a7efba44b5f9",
+            "0d22c38041a862c4764dc4398b213a4a975dee8599ceeea86df96404cf020c60",
+            "935d24f6fc7c4b3df29e98f1c023fc2dd96cdd1b8d8f91ec560c91448ea9814e",
+            "7164b1e7e621901e3594bcfdc9bf438f06e6890a133238e32084a7b7fe465025",
+            "c1604c5709c71996b1153d4fa1de46984c237b4f86ab15c9a8f5d8f7605ba657",
+            "0d1881cb245682357289528ed9c4845679b828bdc38892ffe356f1c3e33f743f",
+            "88e2135ef5caa9cb454291402024d79ad19c840c48b45e74ee748195563c709c",
+            "bc92a632a8fbee08b2d01f0a476f5d8fbf5b22ba42cd1dfc5430e7fd40794aca",
+            "ee6eddf3383ba09cb2cafc320ceef6953798f05e9fcab28e20dbb8b6cccb5fcc",
+            "34340eaa44044a95ef856dddbe512e95761ef8e3dc89797744c208c176042fb8",
+            "7a43ba8545c624a46732dcfd49bef4273bbb8cd3ca0658dc3539d6099415e2ed",
+            "736007f5ded17dd6692a873d186378fe12809bf1cc355a08facf892c1ce6e028"
           ]
         }
       }
@@ -286,7 +286,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 24,
         "total_pages": 27,
         "attempts": 0,
         "coverage_complete": false,
@@ -294,23 +294,23 @@
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
+          "first_page": 13,
+          "last_page": 24,
           "candidate_pages": 12,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "9c335ec9f63b373f1a8cdca0f45c5077af7baf54ad707bc23405d163bd3800d1",
-            "ff2d93f67a77f5724a833cfdf77cb532742c56bfc3050073386ae0a8c8cabcee",
-            "9f0b3c517345a1e11d9595c2fc0517f9bf4e3164eb2259da8e71e2521d78c8b1",
-            "b872279ab9aaeb627ab3f526e9bfec723d23443ff2611437718843b3dadf169c",
-            "9a07db8c8c17e0cb9aeeed8d1f8e0acb471910b975237848f72c974bf94e214c",
-            "52f970fb9628e69109074bfcd14eed24a09702eaccf1ec65688e30a064703871",
-            "0600ee3836a23a3d9d879b0d1434d7b761010a627b4ff1b3b1e5cafa5a9b8f7e",
-            "99f23d6d2e28faf0969b1e1541b4fdf1d9bf88fd3867f2c67f003d84b107c8ae",
-            "4e8870484b91aa48fd67aedf1c95b07af029eaa6c793be1a0024dd5e601f7eca",
-            "c76de578f4d9d8a31a543558ecdb546e4652944d8ce2376a1691c3db8c805770",
-            "0a1c642ee7f6fdaa8e77ef1f3ab8e26c3b004b688145fae025440023311e80ed",
-            "24101cdad32da4c8831244cf4b1749de23cb583fd38e7dbd7d96c304c968f896"
+            "9693c1eb66c81ab493aa284a954d96c1ed6a4d01e80fbd0197961318bc87bd1c",
+            "98ce51a94de57309587b24fc36733b841a5886c51c01f1e1ff94357917d9d8b4",
+            "1ab31e7e6c025bbe9d213ab0c77790659bc9b77b8205aa563c2df8f75be74dc2",
+            "51de5b0041c4f54c61416afba0abcb79cba6b66bc5fe6b82c34cfe2a982607cd",
+            "04260cd8b153cb7c973ba4ccd99b103a6fe148455704a9192950bb67c39b3939",
+            "62812c573cb9250fbc0ef39ddfc5d5d29c31342abcaa1f4677972baeed509f34",
+            "c5108c0240b8c5a68ebe03a66dee7a1e216832de0f20e542f3f10baa24957ac7",
+            "6b21b863005043dde15e9ce7ca9bff9205c0668b16160e43081fb3aabbf609c7",
+            "5dbc97415d3c0e778faea3e43993acafcb1b69fd6fb0c88ca658f3045a65c81b",
+            "c5de72ae04f84872b73b01d204c5a52a81a0f1719fedafdcfd62025d890ca5de",
+            "b95f72195285fc63e21853174a6d3e9ff40b6419ffd045609d83feda448cd285",
+            "3311540a6a2cbac2f79b4465279d0a55a6fac8ef1ca6c574ff7009ca43e12619"
           ]
         }
       }
@@ -3101,8 +3101,8 @@
       "visual_review_complete": false,
       "source_name": "184-人，应该怎么活？应该怎么赚钱？.pdf",
       "category": "07-历史课堂与随笔（22份）",
-      "attempts": 2,
-      "last_attempt_utc": "2026-11-21T00:51:27.684399+00:00",
+      "attempts": 3,
+      "last_attempt_utc": "2026-11-21T01:55:14.274417+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     },
@@ -3270,8 +3270,8 @@
       "visual_review_complete": false,
       "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
       "category": "04-交易心理与风险（18份）",
-      "attempts": 2,
-      "last_attempt_utc": "2026-11-21T00:51:32.505784+00:00",
+      "attempts": 3,
+      "last_attempt_utc": "2026-11-21T01:55:18.662443+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     },
@@ -3744,8 +3744,8 @@
       "visual_review_complete": false,
       "source_name": "23-赚未来十年的钱-王海滨.pdf",
       "category": "06-宏观经济与市场周期（16份）",
-      "attempts": 1,
-      "last_attempt_utc": "2026-11-21T01:02:46.543072+00:00",
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-21T02:06:24.073872+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     },
@@ -3812,6 +3812,171 @@
       "category": "08-待归类（11份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T01:02:48.351808+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "2fa62bf102071ae065d6769a295858455df49594": {
+      "extraction_status": "extracted",
+      "source_sha256": "30ed7a295936b526624f6be55846c9d4d593d601e0697814c4e39d9f8df97e51",
+      "text_blocks": 55,
+      "images_found": 0,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 55,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 55,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "54-中国会跟随美联储加息吗？.pdf",
+      "category": "06-宏观经济与市场周期（16份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T02:06:24.876919+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "9c8cd5ab50f7b513e41fe39151638f70f482cd66": {
+      "extraction_status": "extracted",
+      "source_sha256": "27c7141b8ca1b7ebe6453ac5c017fd352bb193c997abcf27a7ec2a1ac941e7d0",
+      "text_blocks": 534,
+      "images_found": 0,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 534,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 534,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "60_资产价格极度扭曲，金融市场必有大事发生！_邹艺湘_.pdf",
+      "category": "06-宏观经济与市场周期（16份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T02:06:26.480452+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4": {
+      "extraction_status": "extracted",
+      "source_sha256": "33551c7a4046aff49428c28dd91bd640ebe647984ed08333a1fc85498c1c68bb",
+      "text_blocks": 4123,
+      "images_found": 0,
+      "topic_candidates": 10,
+      "private_research_topics": 10,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 4123,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 4123,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T02:06:33.301123+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "90851e9579150fb785609f8b99789af82964f97e": {
+      "extraction_status": "extracted",
+      "source_sha256": "029d43259cfd097cac1da63d4da9a1a9c5b303ed6d63a55bdd96f8db40777784",
+      "text_blocks": 1845,
+      "images_found": 0,
+      "topic_candidates": 7,
+      "private_research_topics": 7,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 1845,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 1845,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T02:06:36.375482+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "d9ef21788c4440661dd3c29b322f3858d7a072d1": {
+      "extraction_status": "extracted",
+      "source_sha256": "205833baaf1f0c73a263f0d255ec6bf1792d4211e9234c19f5674266865a98d6",
+      "text_blocks": 539,
+      "images_found": 0,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 539,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 539,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "71_商业筹码狙击战：中国商企密谋与诡道竞争独家首发_xiaozhu909.pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T02:06:37.758030+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     }

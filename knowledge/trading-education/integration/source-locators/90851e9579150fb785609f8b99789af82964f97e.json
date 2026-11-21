@@ -1,0 +1,2976 @@
+{
+  "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
+  "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "c64316e391d6be1d69bb1cdca9f67dba111b8b62308a4fdd8bac67e748fb2131",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "472f07ebaca38e4db27335e74348e62cdbc647001a772868f12b7b9f2e32f90f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "d1a229b248e86b9548ac5dc582cdca1262f55ff74621fa86493596fe5945cb77",
+        "status": "unverified"
+      },
+      {
+        "location": "page-44",
+        "excerpt_sha256": "37950f3260ae9e6faef4f86d8fdefed488923fedcfd103b3e65c8089af595cf8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-49",
+        "excerpt_sha256": "f2ff123e1a48304fcaeec9657cf1e1d6e4efe511d6d692b2c16330d690ea085c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-80",
+        "excerpt_sha256": "4971cc86c580836a1d85fb5cc381c56ece197016584b037278b11723f9cf4b0c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-97",
+        "excerpt_sha256": "4634bd0fe3faa0cc3b94a56809143c90f1fa9c533c27e715e536666f5e696bc7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-107",
+        "excerpt_sha256": "19f7d2581013b050cf9591029141e39e3f790e773746af62e597c50462d1a68d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-150",
+        "excerpt_sha256": "4d7b8775355eb9c4a29a58a72bce313cbdd7a89ad3bed86133243cad5dede949",
+        "status": "unverified"
+      },
+      {
+        "location": "page-151",
+        "excerpt_sha256": "6aac8e25d470a57291c41519de02614000e0418a56537928a578b1623154d40a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-163",
+        "excerpt_sha256": "867e050baea34cc95d27b8be9158d532ef15aa144d908d6d24b4ac75d95ebc3e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-180",
+        "excerpt_sha256": "8e800392c619e4fb4b2171a14d4890110b60844ded018d4d8e4df8a74a610ee3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-192",
+        "excerpt_sha256": "841608110be9301c698ce4e8aaa801a4a39b09bbcea6d98887b6279a74618279",
+        "status": "unverified"
+      },
+      {
+        "location": "page-219",
+        "excerpt_sha256": "e632a239820acabf3caf23d899892803a702792215e97664b0c15b549508b0c7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-262",
+        "excerpt_sha256": "d44eb409dab46cf7b7e942ceb05f4e973fd1387630504a49512b7035bcd8aa45",
+        "status": "unverified"
+      },
+      {
+        "location": "page-316",
+        "excerpt_sha256": "25231e5a59ea17c75dd0ba84cd24b1eb615e63b0e4a5aedee68c0104c2590afd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-385",
+        "excerpt_sha256": "20c5b338fc1e40c12bed86b939fbb6b35221a902730a25382641609888489ab2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-403",
+        "excerpt_sha256": "8c1f70977a5e3ef14f067c7b1fecd3ab0cdc46ab81f30b1dad7527dd401d4518",
+        "status": "unverified"
+      },
+      {
+        "location": "page-405",
+        "excerpt_sha256": "0b77b8f4e9ea1308c7d0623026a0405c094997ae2a57d622fdaba42ba4b3abf1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-408",
+        "excerpt_sha256": "925f25078c0e3a08d8291ac75c6778a7cfd98401e74a472c5eea87b3f89fae6a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-513",
+        "excerpt_sha256": "3227e61ea262cbba101a16a879f191961bc4bf969afd1f5a196688b31e61ffd6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-518",
+        "excerpt_sha256": "8ed3b4f9f5cf5e988cc2a07995dab7d580d8bec370add32637c55f77ba4960d9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-563",
+        "excerpt_sha256": "2d623df34155f27e6936d69f3933655a0b92ad3b89b6c7d93b21bd6e34b1bb73",
+        "status": "unverified"
+      },
+      {
+        "location": "page-579",
+        "excerpt_sha256": "a7aca28402e0d708ba28b63c6c686b7df5356760ee46e6ccf1560149c39299e6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-604",
+        "excerpt_sha256": "852928c4219c7e83e1e173cfdd47d82d06f09426bb6207aee1fccfb80401762f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-609",
+        "excerpt_sha256": "bb435876a5cbd69e6c7ab14fc2695fcce9c73a70122c6db19a47b150e4f0be99",
+        "status": "unverified"
+      },
+      {
+        "location": "page-616",
+        "excerpt_sha256": "505db2899fa49f3b446fddd980e966b360a3b6ba6efb33ac77f657809f5bddab",
+        "status": "unverified"
+      },
+      {
+        "location": "page-651",
+        "excerpt_sha256": "f29418a3c021a64b26a63838b6dceebbd64a88b1eab2f1e35876a334c2333b43",
+        "status": "unverified"
+      },
+      {
+        "location": "page-712",
+        "excerpt_sha256": "b41c5ced21c57fe376c905859274b58ec4d6513d3501051acd2e1c5d5b253441",
+        "status": "unverified"
+      },
+      {
+        "location": "page-727",
+        "excerpt_sha256": "37b80912800d0b36b9ab1cbdb86f5fd714f32d90514e45a827fccef71d5d356a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-732",
+        "excerpt_sha256": "ac8ee6f3aaafc39e2351bc9f59cf33e01f7316e08519b9c2abca50afc8796987",
+        "status": "unverified"
+      },
+      {
+        "location": "page-739",
+        "excerpt_sha256": "661a16037f078c8a8c36a31016e1deebfb925ba9f94f9f9bc4fdb635fdaa35de",
+        "status": "unverified"
+      },
+      {
+        "location": "page-756",
+        "excerpt_sha256": "be23add7f32466718b5c35aca94c1e2bd96edae9683ae4c45a723a259dee2999",
+        "status": "unverified"
+      },
+      {
+        "location": "page-789",
+        "excerpt_sha256": "cc812452b3d90825594da6b6d001810fba2e5a806d27cb060d04cac0a0bd460e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-791",
+        "excerpt_sha256": "f545e33ee83056b243d6077fdee53592186900501d829a7fae2a03a758da8360",
+        "status": "unverified"
+      },
+      {
+        "location": "page-794",
+        "excerpt_sha256": "f74bfbe2a467ebe6588edc72393a40743d2c90f49df82d5173acaee156f87820",
+        "status": "unverified"
+      },
+      {
+        "location": "page-803",
+        "excerpt_sha256": "c447958a0bb675a9bd900f9621e82692feb41ac96148bcc4a288e444fa23287d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-827",
+        "excerpt_sha256": "0685316eb3fab12db1200d2c40f6fac7cab9175609550533cef21b0fe5051bca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-842",
+        "excerpt_sha256": "99a5b4f92862795f737fc553c2feed2ea9b4fb3fc9f2980c2eb1c78acd640042",
+        "status": "unverified"
+      },
+      {
+        "location": "page-855",
+        "excerpt_sha256": "dfdc22ade1ceab51765c290cd9f1d731163ccc8f5716ee5fca7883a36148a7fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-864",
+        "excerpt_sha256": "0e81eb02f4afe519fa0131e90897001868a304b32796278262c5891e756a3077",
+        "status": "unverified"
+      },
+      {
+        "location": "page-897",
+        "excerpt_sha256": "0ef19cc830337cb673769703db487db7c7c9ada815f49584774633afea4f97d8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-902",
+        "excerpt_sha256": "8a5e140d0795d4914a36712e8fac6aa63c3bbb6ac81cd7f16a6019d0ece5655a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-914",
+        "excerpt_sha256": "b0aff5f495adf4d90a69891287da5272f17756c6eda005e9ad79a776aac6d5a8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-925",
+        "excerpt_sha256": "ae4cb3f50ad2118358876999c7486095a6f5afd6c92f048ae4f4b92a7aa46a1b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-938",
+        "excerpt_sha256": "31a8e17439bfd1d2f5de2fbbf840357d78e74e2d7780ba1f4ed253c091085d8f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-943",
+        "excerpt_sha256": "9f4bb5ce82de99b635ede3e3c5937f8fa12f2893c503f7d3cb46fd09c7b78d1c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-944",
+        "excerpt_sha256": "6920a030f4096849d358c7f3e638e0bab3267d41df44012f168303806a3f7227",
+        "status": "unverified"
+      },
+      {
+        "location": "page-946",
+        "excerpt_sha256": "f2a0645ee97d0cc4849651f63d89aa9384c3dc65a88445133a0d90b3afcde654",
+        "status": "unverified"
+      },
+      {
+        "location": "page-950",
+        "excerpt_sha256": "be29a7eaa0d34559255622e182222d149d8ed3f3646c4cd694b29efacb5fef45",
+        "status": "unverified"
+      },
+      {
+        "location": "page-954",
+        "excerpt_sha256": "df3a17f28b9e089ea592327fcdff262cf51895ca0a5bd1b38fbcb639661e8eaf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-955",
+        "excerpt_sha256": "aa791246d029aa6ff60fe5283272dec3a314f7bc12b7ce402b67e4967b703216",
+        "status": "unverified"
+      },
+      {
+        "location": "page-963",
+        "excerpt_sha256": "b2e0f9cca15215482b7ebdbbbf53100d57c4e063a7d35abe4002692bb60a897c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-964",
+        "excerpt_sha256": "eb730168bff039e8fbc0a763be8fe203ac44c6ae2421d7f2259eb766d1103ec8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-965",
+        "excerpt_sha256": "feb2dae3a79cf5239064412d1b93e17f917bb8a5f39aa5e6b13b1efc8b3c5306",
+        "status": "unverified"
+      },
+      {
+        "location": "page-976",
+        "excerpt_sha256": "c0acc7fb18336ce9bfe5e91b907f75aed6287d1194ebf88641e10287f22d2eee",
+        "status": "unverified"
+      },
+      {
+        "location": "page-977",
+        "excerpt_sha256": "61cdad45db408b8852cedbf65f6bf6d0e1c10096e12252b7cb24a8da8e07690a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-979",
+        "excerpt_sha256": "fb455ee8f93fdd44914e258194a034cfea7d7e9f49236580d6389c152f72c52f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1000",
+        "excerpt_sha256": "494952508552c5ed0ab41808b56fcb58444dfcf7e61315523f4c26f375cd2f10",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1001",
+        "excerpt_sha256": "005b91e7bc4a82d1ade6bdca702bedd9ed243abdd081b8bf6474b3519cdcb156",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1002",
+        "excerpt_sha256": "d91af3a853c940e01c4397ee59e9ef080bff02038d9135c6cabf3025441b4ada",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1012",
+        "excerpt_sha256": "0c509a648a95c473ae640fcd419cba21ae746a26dd0c16d6bae4d48817f12474",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1013",
+        "excerpt_sha256": "c45ed7d2c0fa0681341a48761aa8dce841a8a6b9888e98a8d551c29e10377705",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1015",
+        "excerpt_sha256": "7f4a0d99988117c1a8789d80c325e69b0bd93701c63a80919e93691a90e7d819",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1065",
+        "excerpt_sha256": "d6059be98ab9bc9df49344d95b1ce187df6e8d1c18ca40d8e96891a24747bebe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1085",
+        "excerpt_sha256": "776bbdb244f974a807514b97707eba4128d643a8a0ab2223461b59b20ed8d4db",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1093",
+        "excerpt_sha256": "9dd6ee430610b93b2a83de7f5d7808b46ffb2930780d5624abf9fdb14885eddf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1097",
+        "excerpt_sha256": "fc82508bf15d248f2d8d2576dfafb2f0e359057dc16b45d0ce3876ba261d6e7f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1100",
+        "excerpt_sha256": "c53907337c76a33720cf28a1db7a7b6708e6229ece8adbe08db60445d4355207",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1111",
+        "excerpt_sha256": "236301c4a854c883251ae2f24d21a1e0e8d6acefa29683076eceda7a6aadd70f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1126",
+        "excerpt_sha256": "397b6258d59875d6ab23abd22603f011c27e2db97620c8ca2179f18a3c51a420",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1131",
+        "excerpt_sha256": "980c306e4bc7bc52acf9ebba9bfe1e58019305157d69f3247c179721d69920a7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1134",
+        "excerpt_sha256": "ba68263c6484baff2c51e9c29f8293804058ba972bd42c5230ed62f505822f72",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1136",
+        "excerpt_sha256": "b3be9413c5b81335401039421834e1f9ba9bcc94f8ce33a41aed5858531c5bae",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1145",
+        "excerpt_sha256": "464cc7c6aa4b3b95b119fa038593341bdd7aca22dee3cee543b74360a72b17b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1148",
+        "excerpt_sha256": "d2726bf019aad0f3ede72227f666dce5cf0ba0586b694c04d01f1bd9a2981355",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1200",
+        "excerpt_sha256": "b75ac1d4f466a89161fd66826129ef533c57d755957392821570085ac362ef9a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1224",
+        "excerpt_sha256": "1dc1ff65641eb5f54d7faad988541736140d7cddeaf95d9d8e75d767cab0f29f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1250",
+        "excerpt_sha256": "e994071de5a8056c559295c40d8eebf842ef98b9038610d673476e153bc38e99",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1306",
+        "excerpt_sha256": "e4ac08a8884ff87183b7760e831c5fec0266152dc5a8b48906416abf39179abd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1379",
+        "excerpt_sha256": "ea84dbc19dadff554aa4e8f271682b64877a842e9e97da2b638c5da4e668948a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1402",
+        "excerpt_sha256": "6ee480aa91c3274e4613797747fca72df41d98158293b23f71318c3f527c8405",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1413",
+        "excerpt_sha256": "349052de7ecaf0961a826b8fafb3dcce6a1744cce40c0d062b9b89f74ca865a1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1422",
+        "excerpt_sha256": "5b6f2b0ecef649fab8e59fb556fad4d9f3d684b4af6e3bb3b1440eb0de3496f7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1472",
+        "excerpt_sha256": "88aaf106d718decb360a3ea4f098f00453fedafaa3c9a39d3105cc5198495bfb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1473",
+        "excerpt_sha256": "14784a9c87499b6613e5c9e112b1616cad55cf5c250a710efd1e65624785279a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1519",
+        "excerpt_sha256": "f074296afb77d35ad0d45cb6cf7021fb04ec7cd48f6cba34bac3332b1f59bcd3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1531",
+        "excerpt_sha256": "0d54502112b0075338a9ce0490f5570225a3f4f052f36d0173ef5356e2af4728",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1535",
+        "excerpt_sha256": "ae5822e7ee0178d8dbe608bba100f0cfd1cf0365ee67753457f36f423626a643",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1536",
+        "excerpt_sha256": "7379ac2b6a81d560a924d419f647ed1542970935304cd90e535da4e15ec46139",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1541",
+        "excerpt_sha256": "1d62692c66a24bc8852248f2506eaa448f8f9f6f997c63157d7641487e6969db",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1598",
+        "excerpt_sha256": "480b3c7144c1c2d07302c2f9584d639eebe68b6a0a7fe3471cffeefe49bd1141",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1599",
+        "excerpt_sha256": "ebab79d4dda1787aa255a21bdac0295dfb946aa2b6695a41421ab3fe7185b110",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1633",
+        "excerpt_sha256": "9cde4eb7a4f9af74ae5ca2994265264b00eed0cc3143dca6defc75d41ef75821",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1643",
+        "excerpt_sha256": "12a0983f84d04030db14d8c6a68af6633aa9f1c8481193758a3ba73ae5372053",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1652",
+        "excerpt_sha256": "e40ffd6e3f6edf1ace6a19a151e8a632dc9b5c3052bc1f01b373493b06925d91",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1686",
+        "excerpt_sha256": "13c96eba957a07ec8aa49426cd8b0e3d66bbfc081bd0f7ee2f9e364e95ead940",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1704",
+        "excerpt_sha256": "5aa887e0ebcf7da6d4c8e9cce29f73555fdbfe4dfa8bdf4d7d3c9339e50e230c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1705",
+        "excerpt_sha256": "5e1092bc28354771cc8e9567e965701e7d57c8f1fe3db97f6708b4fd18afeb46",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1710",
+        "excerpt_sha256": "e124ae584692106f32e80e2fa009d92c007fd82e27bd4345ddf0525e260a22c5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1731",
+        "excerpt_sha256": "6f172aa22467d92d60692710feae6bd2f2cc6d0521ffc7a9f82c98723b014a9a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1749",
+        "excerpt_sha256": "460427fdb2fcdf0a98253dd02276fbb93db0d39229ee2b58843f5b74bd5ced78",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1775",
+        "excerpt_sha256": "449038279f00c0d41698b91a44e0594c04e54ba4d25611355666852686a45a5d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1777",
+        "excerpt_sha256": "863dc731f65273674a1cc9c921c50535d74cd78938ceb7c48c4eb1083e36503b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1778",
+        "excerpt_sha256": "6930e08a48aceeda9971a130d92cbe5cf16b4edc23be17b3f02c1078496db82e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1796",
+        "excerpt_sha256": "a2adadeca6ebd409ae2049b0aa000cb1328178ad9d48a66787ba69545bd5c698",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1802",
+        "excerpt_sha256": "db65694d087a46ae69da30d28ea0d70a82f326bf016b78f362b745953e4462eb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1805",
+        "excerpt_sha256": "be78e5e05da8676d5d7ed043b96fee26813cd88ccee09ead530ceb61e1717e27",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1809",
+        "excerpt_sha256": "4be9d3070cc50bd213004d70379d487e7fc83a12034b4d246f763a8638ce3293",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-11",
+        "excerpt_sha256": "f8f330168685eafd5d679840850eeed16572224da7f184ebd8f08b166ada1d17",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "1e8deab66454cbd3b95a6e489949278a0c06a39dd1605f9506939c1b7cd33030",
+        "status": "unverified"
+      },
+      {
+        "location": "page-31",
+        "excerpt_sha256": "3b5d50e4b7762b747463d0eda54514a250b9137ce9bbc9f3a01ce309be5a0bae",
+        "status": "unverified"
+      },
+      {
+        "location": "page-61",
+        "excerpt_sha256": "4e03b5bcab52c32d638fe0d5a9a9eecc0b4c341b576361a260dd89477bd7587f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-62",
+        "excerpt_sha256": "82005a08150a4174536e227cd9182990a3e3363a36226253cbf8c193383d1d0d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-69",
+        "excerpt_sha256": "970536079a028fab27194416910ea4d2da235facb0bd6f92946544b8bef1e3b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-106",
+        "excerpt_sha256": "a5b5985f5121573ab1d8b2386c5e1aac087ace6f8e836b9fe97670574fb5586e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-142",
+        "excerpt_sha256": "4edf6cc22b05b03b34f636145fb6798b0034c39b9fa71791506605b432c55db5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-143",
+        "excerpt_sha256": "fad463a5d835f44b6d2d7934f0e055db8658db4dea47b089761a5a18f713a182",
+        "status": "unverified"
+      },
+      {
+        "location": "page-147",
+        "excerpt_sha256": "1cba5404404470ba3c915514a1bbcf4afd58afd5e6e3fb299d676adb724afd9f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-149",
+        "excerpt_sha256": "4ff26dc0a7d91b7d3466d5b58f618d241b895b835e31e95d14c713d1f91a957f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-171",
+        "excerpt_sha256": "5348825e380a880afc04d2a6c283a65aac9de5b2a5f2b0f047cd687ce8ef3af6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-221",
+        "excerpt_sha256": "dbe96eed0c4da2f06fd505ff0f37cd56c4afce77793a3819fceff25ccd0bc744",
+        "status": "unverified"
+      },
+      {
+        "location": "page-224",
+        "excerpt_sha256": "0a71b5738a5c805db89b3eeede15cb79d17effd2985ce2709f5342f1f258d02e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-227",
+        "excerpt_sha256": "7b7f1af6010326a61322a945eade169474203262dba0fa8667c3735fca03ee2b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-232",
+        "excerpt_sha256": "6693579722596d8f2b53476c0abbb0443e17fba876ad1e66f6a94826bbde445b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-237",
+        "excerpt_sha256": "c53e63d1138597655feca314fc7a534ad202804fd2524f5bf9013571d1a6bc45",
+        "status": "unverified"
+      },
+      {
+        "location": "page-249",
+        "excerpt_sha256": "67b2b0853dc6cdfe4fcc71d1673abad8600b3c308321d21a1ecb21fa5bda8655",
+        "status": "unverified"
+      },
+      {
+        "location": "page-260",
+        "excerpt_sha256": "a3a7f4cfba3430a0fa74a7dab213e2829da1d163c8af31fcf7e316d18c092bf7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-261",
+        "excerpt_sha256": "a5ea13c9bd715d3eb74c174f1bfbc99afe2080ee4114b634fa4c8a65e2095bbe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-263",
+        "excerpt_sha256": "a53d6a9ad8d021be4928ad40f05396d5e306be99969243479ad471b61d2be6a3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-272",
+        "excerpt_sha256": "7aa2d7a7cce1dffd47171d8493ae4ae6018bb7ea002c15fc5811bd2eeeabbb98",
+        "status": "unverified"
+      },
+      {
+        "location": "page-276",
+        "excerpt_sha256": "486ec59fa33de3b43032c92d0a711740ca274f99aaa928af191d28af95ddaa80",
+        "status": "unverified"
+      },
+      {
+        "location": "page-287",
+        "excerpt_sha256": "dc53fdec19d5524698019fcc28475508ec4e004cc9444065477c2d5d9fd7788c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-316",
+        "excerpt_sha256": "25231e5a59ea17c75dd0ba84cd24b1eb615e63b0e4a5aedee68c0104c2590afd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-332",
+        "excerpt_sha256": "c6f987ba4eead43f3dbee53bf4c9297e20fcdae4595dce8928eb6b840b130d73",
+        "status": "unverified"
+      },
+      {
+        "location": "page-356",
+        "excerpt_sha256": "38a512e510f6d2451f6ff8122784a926e20adc083d3ed9f028b958c7f2ba11e9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-357",
+        "excerpt_sha256": "813861f9b0023c5043173bd51dd416a174d1b18c5e6002f32fc6cdb66c56993f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-373",
+        "excerpt_sha256": "f882203a6ae9fbecee81771094c44d3820b1021645719877c111909cf8f7ddfe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-374",
+        "excerpt_sha256": "3354e40cd1c35f69fc3ff1903da155eba71ff5747623179e85865327cc359cc8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-375",
+        "excerpt_sha256": "9cee6e2582e45f607ab546783c7558134d58017101ec89a37ec854b2a02a2139",
+        "status": "unverified"
+      },
+      {
+        "location": "page-392",
+        "excerpt_sha256": "f4756d14a4a93b37c06a855c118807cee6ac7a374235d2b0e3348a2a79b3e554",
+        "status": "unverified"
+      },
+      {
+        "location": "page-406",
+        "excerpt_sha256": "f3d46335c7703a46735fe4b1af6add67850101658e0c488269b2cb6b05b76574",
+        "status": "unverified"
+      },
+      {
+        "location": "page-448",
+        "excerpt_sha256": "598072956b79b8d5a03f455f3c1a8ac6064c79ea9009f9034b8f8b260198a4e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-450",
+        "excerpt_sha256": "c759cce55df19956fc73703ca0467ee9a05e7a397d6179d96c27f8562769a8b6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-451",
+        "excerpt_sha256": "fc3ee2439a8cc71afb63a9ef14a349c0633bec6d7e210e26c5a5431787251140",
+        "status": "unverified"
+      },
+      {
+        "location": "page-486",
+        "excerpt_sha256": "0abd5fedb1b238a6962b9c1c2271a5aca001818e4b00303080386ad38b269505",
+        "status": "unverified"
+      },
+      {
+        "location": "page-504",
+        "excerpt_sha256": "f20e9d7dd96ee2ced4a791bb9be3f7e14108e80224f71febb14f44327cfd7501",
+        "status": "unverified"
+      },
+      {
+        "location": "page-563",
+        "excerpt_sha256": "2d623df34155f27e6936d69f3933655a0b92ad3b89b6c7d93b21bd6e34b1bb73",
+        "status": "unverified"
+      },
+      {
+        "location": "page-586",
+        "excerpt_sha256": "f3ba0eedde9a12858afcfb28191032dc79170eae150df5a1caaa6363226eb8b4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-641",
+        "excerpt_sha256": "e89322b8c8ae68d1fab61fdd6b0b16a700777fc3720e5b5188b8efcccc9d4522",
+        "status": "unverified"
+      },
+      {
+        "location": "page-643",
+        "excerpt_sha256": "34309015fb9ec7b9bc9655397f9d95e7699be5bf2d46c16dea035f95819b7236",
+        "status": "unverified"
+      },
+      {
+        "location": "page-659",
+        "excerpt_sha256": "4419ad45b7d9398bf1869a0092fbdda978dfcff5e1c5feb7fef4e82499c968c0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-668",
+        "excerpt_sha256": "6360de238057150b3c9c9b3fb163c7afa06a7143313aea65b17d0862b4438f2c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-678",
+        "excerpt_sha256": "3acdc510b885e772a2cb88a0e0c59321a0f95d8463c5b5e09c1e40e3dccf2fa3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-683",
+        "excerpt_sha256": "0b9228147058a59429e5b8a67fe9433da2d4c4354d2d8afc5a55d5400340e5a0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-706",
+        "excerpt_sha256": "cd093d3db28ebe10d766655a70339af058abffa8e6c4221fca85b72e4e4b4c26",
+        "status": "unverified"
+      },
+      {
+        "location": "page-720",
+        "excerpt_sha256": "309cbe5397dcf6bc8511e96442458a9d49cd6a781c48455dd6da67d8452b2da5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-721",
+        "excerpt_sha256": "73493a4bd35c6e8e789f1f29fd792e052edd8a0492cc43b0b9bf842349564c27",
+        "status": "unverified"
+      },
+      {
+        "location": "page-722",
+        "excerpt_sha256": "a136cc7e6d07f1c7786cb04e9c57a449f1601f41aac52bfe4e819d849db589c0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-723",
+        "excerpt_sha256": "552ec839b6190c69c586a9d68808b7223fba9a634f474a9acf28501e2794542b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-724",
+        "excerpt_sha256": "8bc607f6eee0cd9d9bd7d86a734f4cd2ae4773346715385e25efb1d6ea16cd9b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-726",
+        "excerpt_sha256": "7a128abbb869efd7634755bebf553178a60d06c0f12f8c0ef698e79cbd9304bd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-744",
+        "excerpt_sha256": "5d8ce0ca9a4bc815a67222bdc57d1dd93a4a543f8e15da7c24b92aa778b1940c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-745",
+        "excerpt_sha256": "5262133fa12d4a4b1aff1c34688ebd0524c1a5d914baf37ebb3f0151c704bbd4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-748",
+        "excerpt_sha256": "7474bcabdf40c364664c2011ffd8eae635ea1370e184f25af6f119b58f2fc9da",
+        "status": "unverified"
+      },
+      {
+        "location": "page-753",
+        "excerpt_sha256": "9d813a3a154e57e65c3a2e3cb9e3616361b1752b30a3ca0077fe11dfcc51d74a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-754",
+        "excerpt_sha256": "8a10b115b1ec2eb3deadea6c2397badec77277d2547767da9ce7f046887cdbc8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-755",
+        "excerpt_sha256": "1d6f9d32fe4f4707d6a840fae8785faf24bc49133f67e97e37e54eca974c14af",
+        "status": "unverified"
+      },
+      {
+        "location": "page-772",
+        "excerpt_sha256": "6c56b7dd5d226d4ff0b58dc87b00550d0e243696bff85c1e1c4167f6ebbd7a38",
+        "status": "unverified"
+      },
+      {
+        "location": "page-773",
+        "excerpt_sha256": "8d752672ccf4a5e85b379fb05892a57ec0c550d5e00803018387fff7fa2aace5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-779",
+        "excerpt_sha256": "eab4b9ea58e62be6cab66f4d53ba90517ee37c5b8102ccb71e379eefa2982cb9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-789",
+        "excerpt_sha256": "cc812452b3d90825594da6b6d001810fba2e5a806d27cb060d04cac0a0bd460e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-793",
+        "excerpt_sha256": "32bf02cc715dc07d1066643a4f057a6a29f29b34f4ad14921bdfdce950bac21f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-814",
+        "excerpt_sha256": "9db2b95b156bbc41f4e9a471a33b183cbe39fca75165fe061efc0bdace2b773e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-821",
+        "excerpt_sha256": "9c598c3c966d34862fa61f86c1b27fbaf2b3c941e37da5339ae361f20ca8b7bf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-829",
+        "excerpt_sha256": "97f441ccdc23c2dea321ca9235d083611aa5e84bd1765de183d5e06eac56e26f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-830",
+        "excerpt_sha256": "b257ac0eab8b5fab7ca4cf8731a3323ed9443a3ca6bcb43bfa70520e545b6207",
+        "status": "unverified"
+      },
+      {
+        "location": "page-864",
+        "excerpt_sha256": "0e81eb02f4afe519fa0131e90897001868a304b32796278262c5891e756a3077",
+        "status": "unverified"
+      },
+      {
+        "location": "page-870",
+        "excerpt_sha256": "ea2c9a8d1a79b3a5202df6e195aaa6db5278f69abba24953951255ba32f24183",
+        "status": "unverified"
+      },
+      {
+        "location": "page-871",
+        "excerpt_sha256": "92f3d5fc178aaa61fb2e3d026bd39b769ea5c38851c5689a0ddd2f9e7e0ca3ed",
+        "status": "unverified"
+      },
+      {
+        "location": "page-888",
+        "excerpt_sha256": "133f3f4aa68c91fd8a5206b6358d1faf1eb076cf468701bffabb15d3bbf15d1d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-957",
+        "excerpt_sha256": "59be1b5efcbcff6b73893d3a2d8b844c6adbb4af73ed0c6dbdc4bb28e9df092b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-965",
+        "excerpt_sha256": "feb2dae3a79cf5239064412d1b93e17f917bb8a5f39aa5e6b13b1efc8b3c5306",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1009",
+        "excerpt_sha256": "bf212a2e378936b4eb2715740360908b1c286215720b1f865b666361979fd7ed",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1037",
+        "excerpt_sha256": "80f63c0d87cfc0f1a307005990fa9d53e2b7c239dd1aeef5bf14f1621c2a91fe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1054",
+        "excerpt_sha256": "08cde5182b9d86ff48e9d2929ef25a2e09a5c2a335cd34f9bd0c1893ee64d2b4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1065",
+        "excerpt_sha256": "d6059be98ab9bc9df49344d95b1ce187df6e8d1c18ca40d8e96891a24747bebe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1072",
+        "excerpt_sha256": "b3c5f931f8c06002c609aaee643f1d02691480b47415f7843a1d72278f2957a2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1096",
+        "excerpt_sha256": "feaf1651ffa3f795df8350d6963e3f1576852100e131d87bb888720a165418f3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1099",
+        "excerpt_sha256": "e3d950b69e7f70f62d36169399716bfa4972814a9ecfa16640ad86b20e2ef71d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1101",
+        "excerpt_sha256": "1f34f85c5993dfbe565a982b048446042d8f3f8f1e69603551f53d907780d952",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1109",
+        "excerpt_sha256": "6950d6b4da07c02a1e0f308d9f052086cea6a9f49a3fc49e5c99c745e3095ec2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1110",
+        "excerpt_sha256": "67185f1dbc883864786e8f4979841f6fd796c07a8976b1d6591d86444ba1288e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1111",
+        "excerpt_sha256": "236301c4a854c883251ae2f24d21a1e0e8d6acefa29683076eceda7a6aadd70f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1113",
+        "excerpt_sha256": "b4dcee3dbb7b12b37ebd828bc27ed5b3ec09789d8074e3d1ca44a92c95de05f9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1117",
+        "excerpt_sha256": "656bd2f97d73e72352c7d2ba0d4d810e042517743f57833a914aebe1d04b662a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1119",
+        "excerpt_sha256": "959866fe2d1ae54baa20946878148cf0cba66bbdb061ff4c2fcb40bc9dd3752b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1125",
+        "excerpt_sha256": "c32c31589cbb617462ff158e147a476d1f1bd88568589718c64e9811dd74901f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1126",
+        "excerpt_sha256": "397b6258d59875d6ab23abd22603f011c27e2db97620c8ca2179f18a3c51a420",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1127",
+        "excerpt_sha256": "bbe64f286c2c2b84d8bb6255dad2b951f1957afe7e2112399fdce322a213e5fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1130",
+        "excerpt_sha256": "53c4381785f1ef0c9f9a6c7cc978a8ccaf3cb9ca654d3ec023f029f41970dc2c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1148",
+        "excerpt_sha256": "d2726bf019aad0f3ede72227f666dce5cf0ba0586b694c04d01f1bd9a2981355",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1171",
+        "excerpt_sha256": "00a584ad9174e973064e05550f2af6a4c0dd3043a7c630c1ea998d55e5956761",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1199",
+        "excerpt_sha256": "065f5c447cc40a8b9f7aed493433f3b8a1c42885d3967daeb43317409989271c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1200",
+        "excerpt_sha256": "b75ac1d4f466a89161fd66826129ef533c57d755957392821570085ac362ef9a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1223",
+        "excerpt_sha256": "7ae9b381b301b861608b59416ea552a39d80ca77fb6f5a4c152577a45eacd9e6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1224",
+        "excerpt_sha256": "1dc1ff65641eb5f54d7faad988541736140d7cddeaf95d9d8e75d767cab0f29f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1265",
+        "excerpt_sha256": "58c754a8daac4e5292ed87c422d7610e32faf338c921aee291c6c4e6f8cf2c63",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1274",
+        "excerpt_sha256": "2113865b9ffeb7b80f7bf62786d946ed77925d07ae19648f747628ffb83a84d7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1288",
+        "excerpt_sha256": "565b24e985b2f3433c479f5efb69c4c293e39f9bb0d234e439f3ea962ce42c73",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1297",
+        "excerpt_sha256": "a7d9ae5256e124dc1c5ebe32258a9e2de793e60df36c0822ecee284f52a4cd52",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1315",
+        "excerpt_sha256": "0d1e3d779019d35297e6947bec77ebea373d5e3bc48c3ef2fd6e728bf31f510f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1319",
+        "excerpt_sha256": "4334b90bea05aa971b1475f7922cb48989bf83a79ad51cdd09d8095759d870cf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1343",
+        "excerpt_sha256": "742a9b225234280eb5762335cd21035a857a1e885873089be8d3573aa06a2c3f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1369",
+        "excerpt_sha256": "7527686b3bb304f6f3db747202da932ec23c42d3ee1955f7904ad49dd8326acc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1378",
+        "excerpt_sha256": "9bac57ae57d8aa60060a5f0be89f909dace4f0751db698fc0271b59252fa28e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1380",
+        "excerpt_sha256": "78294f709e3e9ea8b95532ed633e1b444664a51264b369e509526aa2a9841c2a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1392",
+        "excerpt_sha256": "9abe66edb9f2a1dffde2fa2ac80bfcef59104a0adda9193c990f771b991c74dd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1404",
+        "excerpt_sha256": "c809f2320b240bf7ecca49e7cc0933b797b7f348fe235d702ab6dea3f59825b7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1412",
+        "excerpt_sha256": "dbfd601db2f16d642014cb0a4eb51b4033abaa3a60fd2dfff2a60cedf55b71d9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1418",
+        "excerpt_sha256": "86dcb0c5491d278f74b8a3d26fea53bc2df77d12fba16aab6819af9050ee9a06",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1434",
+        "excerpt_sha256": "dbf73c024b3e123b2f909e4d2264411fc0ee243c4e8b296d2381d36f8ec3d38b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1454",
+        "excerpt_sha256": "e0935e8e04a69ed27b57437168258d0425efb743cf2ebd5ca030bda881966439",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1510",
+        "excerpt_sha256": "3b60e202cd94bd4ae3b6a1aeade6f90a42b793166331611dcef321570f43ae6b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1592",
+        "excerpt_sha256": "670622a9d25e074167bc595d057ae5cbfcf3f045e8e9ef2a0314aa7b345e5231",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1597",
+        "excerpt_sha256": "62be5ab9fbbd7d693192e00f59f1a6305b34f69da37c32d001b16c4ffe8ca5a7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1687",
+        "excerpt_sha256": "e16aa65aa44b935835bd59d4e15a452715d7fb70ffebd96c4e7384d5cc19e506",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1699",
+        "excerpt_sha256": "fce24aafc090e68f15cd2ad47d759cf3f469b4f47957baf6f837b6b6d4d29228",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1722",
+        "excerpt_sha256": "ff9e352a3344e7454038b568c7be342c38d80e78735da3d77f93ec6dce1138d3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1723",
+        "excerpt_sha256": "692b2f4a67826d31a2c4db7f27fa8daa525dbb8e1504026d8b48bf0246ccdb05",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1741",
+        "excerpt_sha256": "08fddf2d4a0050aeba4742b74c2c667a45f555b3224bf996eca0f43568e3c5b3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1765",
+        "excerpt_sha256": "0849bc472c78d26432fdf0c55fadf8b23718421c4d4fed026b715ffc636ec256",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1769",
+        "excerpt_sha256": "46c25a22680d4f658bc9d778c023f21a5a031d6657685f3ff1a154a7eab123a6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1777",
+        "excerpt_sha256": "863dc731f65273674a1cc9c921c50535d74cd78938ceb7c48c4eb1083e36503b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1778",
+        "excerpt_sha256": "6930e08a48aceeda9971a130d92cbe5cf16b4edc23be17b3f02c1078496db82e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1784",
+        "excerpt_sha256": "08eac2a220db3ad48eaa07e8f436bd325547d69c36456e2ad053bd29491f25ba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1808",
+        "excerpt_sha256": "dce58acf99e87acf780e2824960f9970124a07eb841e5669c8d67053d3979a55",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1837",
+        "excerpt_sha256": "7c1eb14a95313d57e54d47c501ef8848654f3cc215a444c0fe4b66cf4e13b3b4",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-22",
+        "excerpt_sha256": "7c254711215407ab2c3920fe6ca987c7632b0547d4bbf317d735405ed4889036",
+        "status": "unverified"
+      },
+      {
+        "location": "page-53",
+        "excerpt_sha256": "f0799842a196f0bf4b53025983ebbf8be4d82c5aec8d81f526d15f35d35d0ee8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-54",
+        "excerpt_sha256": "3b76bbb62ed6c71528672480776780d0fa2b3bade123b1ad74426a4ad7c5266d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-56",
+        "excerpt_sha256": "6a94383cd490a9c6430b1af8b9f3877660de6afaf2bc2743877e4778e01cc71c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-58",
+        "excerpt_sha256": "a84a14b7e839db8f4b421ea438e8f6ebee38ec8f575c30540ce1072973d4c861",
+        "status": "unverified"
+      },
+      {
+        "location": "page-60",
+        "excerpt_sha256": "e7c504615617fc2155bd5726db1476af0196340e1322aca4bb64c9a114d64e55",
+        "status": "unverified"
+      },
+      {
+        "location": "page-64",
+        "excerpt_sha256": "5c9694f8ef9cdd154cc400358bbb47d1880f699e7ba3284a7a086052a413dad5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-68",
+        "excerpt_sha256": "7989d671bf6b0360754dd1885430698d02a0bcad661389c004529d56e9ce4bf3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-69",
+        "excerpt_sha256": "970536079a028fab27194416910ea4d2da235facb0bd6f92946544b8bef1e3b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-71",
+        "excerpt_sha256": "ce5346bebd50fe6ce2c9e20ff879c7cadaa7e74adaec1982710ed451d465d97d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-73",
+        "excerpt_sha256": "64d244a7e493e8703a71f7698fdadbdb7db44254a1dee12312b34bd9cdee10db",
+        "status": "unverified"
+      },
+      {
+        "location": "page-75",
+        "excerpt_sha256": "37292e38f36b0583a36236fb620d3cf4cfe8d1cd5c133dfc63b9caa36bced23e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-81",
+        "excerpt_sha256": "a5022636b862fae720a3e598576d00d0f40895b015d689f80a9b785964ce2296",
+        "status": "unverified"
+      },
+      {
+        "location": "page-87",
+        "excerpt_sha256": "74e271c4869e512a251d00270170540cb7f74287ed77d8a588368b7c67433a47",
+        "status": "unverified"
+      },
+      {
+        "location": "page-88",
+        "excerpt_sha256": "e27d652267015d3127ee29956c5c587d611d760f567808122490ec8c25ba99b6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-95",
+        "excerpt_sha256": "dd2d0f7e36806e71cd8e8427b411b9d89f5d0b188f2d10e5ac44301592e095b1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-96",
+        "excerpt_sha256": "912c48ab5bc067f80ed13856e933dd1e249b69294321b2126b6bc5f9f22490cf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-97",
+        "excerpt_sha256": "4634bd0fe3faa0cc3b94a56809143c90f1fa9c533c27e715e536666f5e696bc7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-98",
+        "excerpt_sha256": "29bb35f858d16c67d120e95f4d79f242481d643985632c5e7bbaca7e45dc8f2d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-113",
+        "excerpt_sha256": "788f990f65787cabdcc6b8dff72ac4c52c4691f83c171500b37a45fafb179b2a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-116",
+        "excerpt_sha256": "1cca7eddb045f5f8f6993e26aacb8710d39960e69c407c2f87fee8f1209324af",
+        "status": "unverified"
+      },
+      {
+        "location": "page-117",
+        "excerpt_sha256": "3bcaf51e51df2a1d3024a6508bc75211b63e2754e8236637e9db949a99773ec6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-118",
+        "excerpt_sha256": "21285b627dc113920839046438dbb14dcc963290351ffcda4544bbfddad4a5e2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-124",
+        "excerpt_sha256": "ba286bc014aebeac43264cb52e0244d0a6814f0317f81880ad9473dfe580e80d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-126",
+        "excerpt_sha256": "ce063aac5d8f91b8a4a1191fa59eb137dec58ec12eae39f061868ef1970bc4ae",
+        "status": "unverified"
+      },
+      {
+        "location": "page-127",
+        "excerpt_sha256": "011b13a8d32ffc89560965f809da68e441c2ddb7f6d8cd0710c01d9e6caffaa2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-128",
+        "excerpt_sha256": "9013a8523a5ba6bb7764c98a3ab877685cc8a6020205a22100b3adaf6bd90370",
+        "status": "unverified"
+      },
+      {
+        "location": "page-135",
+        "excerpt_sha256": "c9cf9bf8f92cbc5d34a913073fdcf5b94d4956b6794a78f73351dbc4a627e219",
+        "status": "unverified"
+      },
+      {
+        "location": "page-136",
+        "excerpt_sha256": "ddd36a184e484b7c85be7a6673efd5ca4b3d21cf3f562662d745849f4096c5f5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-140",
+        "excerpt_sha256": "f38ed537d182904037af54ed975a1fd558b001673536b75abb0c99f7927578a1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-146",
+        "excerpt_sha256": "9bd0a0f0ae53a6cd823b4ab80357d04bc2bf371f2b2d737fba200b13ea5d3ecf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-147",
+        "excerpt_sha256": "1cba5404404470ba3c915514a1bbcf4afd58afd5e6e3fb299d676adb724afd9f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-148",
+        "excerpt_sha256": "a568f380cd849d105197908ba2858b8daf21ed3f5bb2d6ecffa94de850819d32",
+        "status": "unverified"
+      },
+      {
+        "location": "page-164",
+        "excerpt_sha256": "5250c2a88fad7a449612518b5eaf3a0430a28c0a536c26d71a5e07a93b351473",
+        "status": "unverified"
+      },
+      {
+        "location": "page-166",
+        "excerpt_sha256": "5b49d5a18cc8085ec4e810e19e31c737e490e58d453ad96b7c143a7c7ac3f150",
+        "status": "unverified"
+      },
+      {
+        "location": "page-167",
+        "excerpt_sha256": "b4e32653f977b428b933d6909a943836671386868b19882611b5c75d166aef68",
+        "status": "unverified"
+      },
+      {
+        "location": "page-168",
+        "excerpt_sha256": "2f5d344ca65c4d852266e8dbed5d20a2055fc1fb3700e3a620a9aa095b0b8773",
+        "status": "unverified"
+      },
+      {
+        "location": "page-174",
+        "excerpt_sha256": "f5ae7e68dc803271d79f995a0ca2f9966c151c4a16f4840c50b42e72e3e6420e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-180",
+        "excerpt_sha256": "8e800392c619e4fb4b2171a14d4890110b60844ded018d4d8e4df8a74a610ee3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-182",
+        "excerpt_sha256": "57e5b73bfd103bf64ef50c2fb91ee59ce869655d29ce488b53198b0590c8e8e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-183",
+        "excerpt_sha256": "bfc6d85febf1e93cec501c02724293558f4d31510c1cb7d716861863b5acd054",
+        "status": "unverified"
+      },
+      {
+        "location": "page-186",
+        "excerpt_sha256": "06a868748d1c7a18c7dd89b99ffc9f18cb50fd53e2fb62c6478d9bffcb837e85",
+        "status": "unverified"
+      },
+      {
+        "location": "page-196",
+        "excerpt_sha256": "400258deb9283f1edd6df31e637255a38b4cff120dcb49c7d4baa25b0da4c001",
+        "status": "unverified"
+      },
+      {
+        "location": "page-197",
+        "excerpt_sha256": "b3c6732d50cfe19b43013eb51d0c2468b2cbec908c5506723003769404017ccd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-198",
+        "excerpt_sha256": "107ed515b5803dcfe995c30204570b11b4ce4a2b0e7f38ab2eca2ccb55a62de9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-202",
+        "excerpt_sha256": "f980665d9ca0535ac5ef538cb8195bce48470acdeb65c0fe462a306e372e0699",
+        "status": "unverified"
+      },
+      {
+        "location": "page-208",
+        "excerpt_sha256": "afe5867537138346910a2fd0c1f55709f9eef612a45fc1aac7b35f0da9753163",
+        "status": "unverified"
+      },
+      {
+        "location": "page-211",
+        "excerpt_sha256": "7c3c730de74fe8ae496e3d80f3bc2deb08aa09857e7a7c6a351e438125f2238a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-212",
+        "excerpt_sha256": "9d53225e318da01c30fcccdf964f2d89081398ac5a092791fdb27023062e091f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-213",
+        "excerpt_sha256": "b8d68ae7b70a1316c2285b7c69330bf3aa7b6ebe5579499440c112b396e6f7dd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-216",
+        "excerpt_sha256": "ddbd4956c13b201e1e70d9cc22d653cecc95a19813a6f66c1d2e270a95010cef",
+        "status": "unverified"
+      },
+      {
+        "location": "page-219",
+        "excerpt_sha256": "e632a239820acabf3caf23d899892803a702792215e97664b0c15b549508b0c7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-223",
+        "excerpt_sha256": "8b72ac57199e6b83cc3b4626138a53ad4e9f3850ec68e9b32eb57419c38ba8d1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-227",
+        "excerpt_sha256": "7b7f1af6010326a61322a945eade169474203262dba0fa8667c3735fca03ee2b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-229",
+        "excerpt_sha256": "3b9c6940c253e93c3cff16ebbe3fa3fa6207aa320442a3ce7b4e7c280110425a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-230",
+        "excerpt_sha256": "6e8495b601fd483e17a781a4c831dbab58057ddbf2719a15c28ad1969e00e6b1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-231",
+        "excerpt_sha256": "bb14b73a4239a8c361d1d23004fdb52db682cf5759582a8721022a1b19ef94e3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-239",
+        "excerpt_sha256": "c07c3906f0c497a6dfddc5321493d46c9b4747f197fd92cccc34b64ecb00c33c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-240",
+        "excerpt_sha256": "1424b99a6429ee10bf5ea3e72ddba2f7219804804709a4bde3ac1229f187d7ac",
+        "status": "unverified"
+      },
+      {
+        "location": "page-241",
+        "excerpt_sha256": "195143ec93494724f8e7bcaa3cebb2837cfcb7d5677213b541ec1d4bf3001f05",
+        "status": "unverified"
+      },
+      {
+        "location": "page-242",
+        "excerpt_sha256": "6a932dea36e11ba7a4b00aa13d11b90d06f5a73b54488009e2a4c3cf88684034",
+        "status": "unverified"
+      },
+      {
+        "location": "page-243",
+        "excerpt_sha256": "d4905416c97cccd422ac71587d3f37288c69acdfb4a733cf9ab6cf57350c7bee",
+        "status": "unverified"
+      },
+      {
+        "location": "page-252",
+        "excerpt_sha256": "2e086bbdcd03b0c7d7d48a8e6dd8ea82cfe32421882d63b8f3c68a24f1f231e9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-264",
+        "excerpt_sha256": "b6a00b60aae654df7ba4b1271bc82194efc4a499f930bc54b3d5a5ab62b2d185",
+        "status": "unverified"
+      },
+      {
+        "location": "page-267",
+        "excerpt_sha256": "dc801e7977e7570d96b185c5685fe66e1c75a91d4f648fe64a966a6fc6fe4795",
+        "status": "unverified"
+      },
+      {
+        "location": "page-276",
+        "excerpt_sha256": "486ec59fa33de3b43032c92d0a711740ca274f99aaa928af191d28af95ddaa80",
+        "status": "unverified"
+      },
+      {
+        "location": "page-281",
+        "excerpt_sha256": "d7d8d98e70c8dcd8698d1e702a491e06b99fd8691051a14881380a551563547f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-283",
+        "excerpt_sha256": "0086105db5e74b7902951d18f9794f51c7ec836c242eb01be65269ce698eb62c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-284",
+        "excerpt_sha256": "d847ced51d4a2e6ccf00a6854bbf1886bc2970f01a93366adf79f729adda316f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-285",
+        "excerpt_sha256": "9f7d9b46a42fcacda30bb5b77af353ac88bd9ffc9d61f05f60d067e094005d15",
+        "status": "unverified"
+      },
+      {
+        "location": "page-286",
+        "excerpt_sha256": "688907b81ba5413015ddfc08953b9d916846ac2e23a79ce2e2832216cee65276",
+        "status": "unverified"
+      },
+      {
+        "location": "page-288",
+        "excerpt_sha256": "752864d034873db960e18ec6d3e5dba9f21a55100ff5594bc9b48d241fbf4c1b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-289",
+        "excerpt_sha256": "cc795775b854c259f91dc6c695177632591ad3deb64f75670f1fbdc0f118880e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-292",
+        "excerpt_sha256": "48016b8a88128996ab4bff7f34ae55c8d51fc4888ed66ea62425ae52e4143be8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-309",
+        "excerpt_sha256": "750ad4821b345d0a3b672e214324f67e7195f4caf3018c458e911f51fe0f95de",
+        "status": "unverified"
+      },
+      {
+        "location": "page-324",
+        "excerpt_sha256": "d2dadfdefb794343443cf7c24e02a81b3c646d632020ba75af56907ef048507a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-336",
+        "excerpt_sha256": "686b68230d8610479a7457a017c1bfd003579c57480a74aa54376f3ae6412d97",
+        "status": "unverified"
+      },
+      {
+        "location": "page-339",
+        "excerpt_sha256": "2878faccc6c14bbcf38ef4243b6e694797772ecf87af872b5e349e8e73439540",
+        "status": "unverified"
+      },
+      {
+        "location": "page-340",
+        "excerpt_sha256": "63fe33ac4bdb2d2181eed2c03e33a0b5705bed15a5a31ca8f1c6477e18c2f8fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-343",
+        "excerpt_sha256": "cb7ccf1558749e336350758062ff8f2e19840f5ea1ac14f2640614391574ed1d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-344",
+        "excerpt_sha256": "98dd9980b4e9db9e0836abb0cc2bd314661ad0d0b5ea8ba7570c0feb1fccd4cb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-353",
+        "excerpt_sha256": "5e8defe5c826b04dd5a0c0da7074839339872828c7462dc70cda2bffcf764cca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-369",
+        "excerpt_sha256": "65e0b2262522c5531270a2dc83612541a3cc7a0549e2774938d154844fc9a0be",
+        "status": "unverified"
+      },
+      {
+        "location": "page-370",
+        "excerpt_sha256": "6e7d075f2db34c19eb2a29bd32a41076569111c5b9d50da99609c74615436297",
+        "status": "unverified"
+      },
+      {
+        "location": "page-380",
+        "excerpt_sha256": "d75b8c25314513a72bb1dc312d7339f66116ee67500704c6ee80a65f5c09da64",
+        "status": "unverified"
+      },
+      {
+        "location": "page-381",
+        "excerpt_sha256": "f090491b7441d0011489966bab7a33ed822ed0fb678ae31dc5f6c480e7d94707",
+        "status": "unverified"
+      },
+      {
+        "location": "page-392",
+        "excerpt_sha256": "f4756d14a4a93b37c06a855c118807cee6ac7a374235d2b0e3348a2a79b3e554",
+        "status": "unverified"
+      },
+      {
+        "location": "page-400",
+        "excerpt_sha256": "581c42a3244f233f865142c03c8e68d5ecd8f78b4d8198c18f71c5971616c7dc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-401",
+        "excerpt_sha256": "f4e3cb13f4657a9ed5c320cc0d6ff8f62dac727099ca02913f0d1e4ec38e6a47",
+        "status": "unverified"
+      },
+      {
+        "location": "page-410",
+        "excerpt_sha256": "c894bee1d4dde34bfe3b5b5eb52aa984e78c0fe9b348cc152b0182964865e5d9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-414",
+        "excerpt_sha256": "33a91f0f19677f2f448fed0d5e2938da5be584ccfb23b59b73f4877d90b7f35f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-415",
+        "excerpt_sha256": "c663ffd4376c53f08044b3e1d22f3a70e27ccf6d2b4259ef9879ea368b814f34",
+        "status": "unverified"
+      },
+      {
+        "location": "page-416",
+        "excerpt_sha256": "f8f701027d1137780a3905b854f6f9eb0988dc25953247d2cc064636c255b39b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-422",
+        "excerpt_sha256": "a78008d39d231ee65bb4bfeff83d068ae3f0c1416ab762a556505c4abf0beeb5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-433",
+        "excerpt_sha256": "7d52aaeaf4f03be690114b7cdf7a52d473179427d5500bea1ec913059519034c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-434",
+        "excerpt_sha256": "b2d20f4374e7a00c60521f7cf2ce30def51e84adca5f3891a7b06587a518de3a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-442",
+        "excerpt_sha256": "638098b780f9296f9a3d926b43aff22c5dfb2935ebd0c3b3fbd073b50e6996ec",
+        "status": "unverified"
+      },
+      {
+        "location": "page-443",
+        "excerpt_sha256": "df09f73585400e8976dbe652c71a4f037adc4047ae29cc39946bf9f731391256",
+        "status": "unverified"
+      },
+      {
+        "location": "page-445",
+        "excerpt_sha256": "123bd7402ac2b76a7e69d63829447a92f7ad944ec586c02f6c2a0028e01103e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-448",
+        "excerpt_sha256": "598072956b79b8d5a03f455f3c1a8ac6064c79ea9009f9034b8f8b260198a4e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-460",
+        "excerpt_sha256": "20829cd650415005e66dba9afeb0360cf43a739585e44d2c501c9bf164d41051",
+        "status": "unverified"
+      },
+      {
+        "location": "page-465",
+        "excerpt_sha256": "469d2b87f87472c0df607703f1c3f2b92b404acf710346fd362a2ec9e0c8641b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-475",
+        "excerpt_sha256": "cd07a494cf497e8e9a9eb82dbb6da2e171a9f2352c611ed428b779d31a25dd7a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-486",
+        "excerpt_sha256": "0abd5fedb1b238a6962b9c1c2271a5aca001818e4b00303080386ad38b269505",
+        "status": "unverified"
+      },
+      {
+        "location": "page-491",
+        "excerpt_sha256": "6aedbbd0f19502f6ed3b7a017d5566dd07c3601b9cd826255e07d9b73356059f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-503",
+        "excerpt_sha256": "55ba5bd8fc2848590db6d907436197024f223ee2c3f8e9d3fca1fd6b47eb9e3d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-511",
+        "excerpt_sha256": "a62bb0ab62eafaf805c6ac278d13a9edb7269950f85018af81a58ef639066761",
+        "status": "unverified"
+      },
+      {
+        "location": "page-515",
+        "excerpt_sha256": "39ae0e05f98384d9e1556cdbb8bc49178a4678e63ec7864eddd658bc18bf745d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-516",
+        "excerpt_sha256": "537271dc5265c603422b4780ad9a9f9c8c1e34e4e5fd97cbccbe89ae49439274",
+        "status": "unverified"
+      },
+      {
+        "location": "page-517",
+        "excerpt_sha256": "5f7382af31cdeef69bd1e5d3157473e1134d0c7bc72b8c4b550afabcceb5e812",
+        "status": "unverified"
+      },
+      {
+        "location": "page-525",
+        "excerpt_sha256": "517ecdc8dfb0c25e97dc0297acd8e74d1badb4c65e68672e5e786137b810f6b4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-538",
+        "excerpt_sha256": "3e62bfb203ae2133631f2e303eff01dbabd810debb13487ccf78271ff477d408",
+        "status": "unverified"
+      },
+      {
+        "location": "page-539",
+        "excerpt_sha256": "1c2b2b64a436f4c15f6ec4af99a2954c9997ce047a1825fb31b1649bf3bf7dea",
+        "status": "unverified"
+      },
+      {
+        "location": "page-546",
+        "excerpt_sha256": "c8cb39847464739c33fccea479d62d4952758756ba9a9af6dc55e8c63a3559c8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-547",
+        "excerpt_sha256": "29e0716e0662f8304e04075a97684be5dbc0fd672608062a00aaafdeb9c8f0d7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-565",
+        "excerpt_sha256": "7066e0f24f335ac7e40629e6eb0f0450f45adc517799632fd04860233adebc16",
+        "status": "unverified"
+      },
+      {
+        "location": "page-585",
+        "excerpt_sha256": "285dfab68b38a1926eef8a072a26f1f023e1174c17bcf6994e96355a0e39ecc1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-590",
+        "excerpt_sha256": "beba54012a39462306e8e0ff4a16e7bc6f93ac9a2ab005554b1fa91931bad3a7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-591",
+        "excerpt_sha256": "e2d43e77e2366e60ca3f63d1bc85d7bb1c9bed52f1c5d99f2168d35160f5b203",
+        "status": "unverified"
+      },
+      {
+        "location": "page-592",
+        "excerpt_sha256": "1bd85e5162812e602701dd565c272ccba17fe7682676f08b30741b263e0b8391",
+        "status": "unverified"
+      },
+      {
+        "location": "page-593",
+        "excerpt_sha256": "49028b316f6ab5276ad52a7db8bb702fff4ae14a00791042e8e7514a9f7bd958",
+        "status": "unverified"
+      },
+      {
+        "location": "page-594",
+        "excerpt_sha256": "5ddc35f48134f551742651293fde4e5a30239e9dafe0eb06b4c71f935fbbfabe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-595",
+        "excerpt_sha256": "5eec3825e118de12298a9bf3259da63c487b219195f558101a79f56f07467f01",
+        "status": "unverified"
+      },
+      {
+        "location": "page-596",
+        "excerpt_sha256": "0239d59cabb5cc89d7ec8858df5778afd320e1cc344aca3b8265968a2c93dbfc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-597",
+        "excerpt_sha256": "0351d277f6d94ab148bb656b5d84ec2b882d1aec9e0ba279c66ff2eb72c0c3bc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-604",
+        "excerpt_sha256": "852928c4219c7e83e1e173cfdd47d82d06f09426bb6207aee1fccfb80401762f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-607",
+        "excerpt_sha256": "c249fd7bec8542e7f2e7c70ee3ba19861feac96ce112925743145aa7db42309b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-611",
+        "excerpt_sha256": "229d8179e9084bebfc8e4a04ad2e64084088353cc041a70bd0c7d3b77c92062a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-638",
+        "excerpt_sha256": "7be86facc6edbb9371d02ca7d599bb47cd5e6b0073d8599b22d29a1ee02d7194",
+        "status": "unverified"
+      },
+      {
+        "location": "page-639",
+        "excerpt_sha256": "82f42c2a8a69eaf73be860980027c7abf4ae6794e4b97836736f7a8d8fbceaea",
+        "status": "unverified"
+      },
+      {
+        "location": "page-648",
+        "excerpt_sha256": "5d1ffc959db63722c5b8f62d592d0733b8c47d32d88b5e8dd4e05f2de53b0ab4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-658",
+        "excerpt_sha256": "5a08d37fa850c412c9e71e60384b906d33891665c5850abb83c2a68a1caf62da",
+        "status": "unverified"
+      },
+      {
+        "location": "page-664",
+        "excerpt_sha256": "3ab8a752dcdd9111f5bd25e7e96947721ec441b7359ca2ec553c77581389adf1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-667",
+        "excerpt_sha256": "2952bc978706c1d693985f518d296568ab5eeca36d8bedb5f8e34a42a4313d77",
+        "status": "unverified"
+      },
+      {
+        "location": "page-674",
+        "excerpt_sha256": "bcf2f16fe9559595a3962a835534db0eb10864c2d3cc9e28e24e5bf56909babe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-677",
+        "excerpt_sha256": "7ae0de4a61bf1fd490f13eb6d64e00f6d5b64c55a9aa35ee539155978e6e1a12",
+        "status": "unverified"
+      },
+      {
+        "location": "page-737",
+        "excerpt_sha256": "606290bf20de01621c6bc496ade0a7b5b0e8fc7f40149c436526cb822a7542d7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-740",
+        "excerpt_sha256": "b9df62a3f61044ead3639b95d749868941ca69cd4955e49cc19b991af51603f0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-752",
+        "excerpt_sha256": "b450ce930eebf9a0b72f111c35a3bbcc64f5214b4bab7255c308cf1d6d2ba828",
+        "status": "unverified"
+      },
+      {
+        "location": "page-777",
+        "excerpt_sha256": "344c5ebac70885464206f0ec1a8526468cd82f0c32b074958e5e52ecf9d4819e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-778",
+        "excerpt_sha256": "5e5f0eb100a9e9221fd4a9c80264b8cb95da31734326d742d734969575ecbc3a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-803",
+        "excerpt_sha256": "c447958a0bb675a9bd900f9621e82692feb41ac96148bcc4a288e444fa23287d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-826",
+        "excerpt_sha256": "4f9e242a08dc8f5015492f3d1dd3257614de076b814a8c456d44682f37576e0f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-838",
+        "excerpt_sha256": "b8b5312f2ce2bd43c8da9e6b959e38b9d09d0125a7fc4555f0ce294883ea920d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-847",
+        "excerpt_sha256": "50df9a217ef197c06d8275236e0dce6f5943eb8151b6c6de85fb6d656258a516",
+        "status": "unverified"
+      },
+      {
+        "location": "page-848",
+        "excerpt_sha256": "65a04f9acd8c17c46a3b8565c5e7740c7b7353c4e009c569c951e52dbb59f0cf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-849",
+        "excerpt_sha256": "9d9c3b2d6000525db96d3a8c2d64c3d19ab6f357711ff6612fa0c28da9e3dca0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-851",
+        "excerpt_sha256": "bad0466121b41f5404989ab66426900b1d2e1599942bd8f27c602769249e9d6e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-852",
+        "excerpt_sha256": "d298ef1404255b3cb76c7297cc185fc0de97720b7236b40a7beb37174db6c74c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-853",
+        "excerpt_sha256": "d7dfe38a23dcbd73bb422de34723fd9e29b758a57097390bdd5a8f369db26137",
+        "status": "unverified"
+      },
+      {
+        "location": "page-854",
+        "excerpt_sha256": "11e8f51fe63ef05e5faff1abfe0547ffddd8033bd841a866274212249ce246df",
+        "status": "unverified"
+      },
+      {
+        "location": "page-858",
+        "excerpt_sha256": "294d24f179aa3556e15b23fbe07edb9d8fa44b2c9563b5dfc4d2d2760298515d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-880",
+        "excerpt_sha256": "6a10402958d76cabe611cfe9a7b181b02562fbabf3dffb6b8ac77659459fa047",
+        "status": "unverified"
+      },
+      {
+        "location": "page-887",
+        "excerpt_sha256": "348568ab51497d247ad7d2423f0b5bd64a1ae5d5977b0d1afad2b3c0a7928534",
+        "status": "unverified"
+      },
+      {
+        "location": "page-903",
+        "excerpt_sha256": "b3888993a502166a1fdac0099c7d309594e4cf91a657e388a20df2efc99d1fe8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-910",
+        "excerpt_sha256": "584991deaaaba66437a8d9dc4557dc88224cc1ebf1fa826a41b2276940142864",
+        "status": "unverified"
+      },
+      {
+        "location": "page-911",
+        "excerpt_sha256": "d528007e917395494304b25e808d262c4639be8ecf062ee6c4bf4eb50cb6a236",
+        "status": "unverified"
+      },
+      {
+        "location": "page-914",
+        "excerpt_sha256": "b0aff5f495adf4d90a69891287da5272f17756c6eda005e9ad79a776aac6d5a8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-925",
+        "excerpt_sha256": "ae4cb3f50ad2118358876999c7486095a6f5afd6c92f048ae4f4b92a7aa46a1b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-934",
+        "excerpt_sha256": "4a766c96049300325c2a89a02b4b5b4e2c11ee4fb5914ffdf54fdf6166f3b50c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-935",
+        "excerpt_sha256": "cd62430fac0512a78cc4296a9c674d672754359b7f38d4f9bf57cb0ce41d99e2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-945",
+        "excerpt_sha256": "21bcf9f3358d914dc856cb7f373590a2081ec95f09cc4a90c0d8cf5ab3cbb492",
+        "status": "unverified"
+      },
+      {
+        "location": "page-952",
+        "excerpt_sha256": "b5d3966c57c0bbf9006dab1c254a6d409981c2923f135145cacde8e7e35fdde2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-953",
+        "excerpt_sha256": "9d95e2325f23899d1bef662832459684796a240d487fe74b320152c62faeb397",
+        "status": "unverified"
+      },
+      {
+        "location": "page-999",
+        "excerpt_sha256": "eb47ab525caac0cd6585f5dfa41013d71519dabfb63b6e7a9fbe720b96f0f8d8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1000",
+        "excerpt_sha256": "494952508552c5ed0ab41808b56fcb58444dfcf7e61315523f4c26f375cd2f10",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1004",
+        "excerpt_sha256": "4cf2d2c6eaec496d4db464335d70a0e48e3a179486c067f903ba534f94460c3f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1019",
+        "excerpt_sha256": "b31dc3660eaab834b71e9018d29fb28ff433da7841d4a9b9f53d8c2318934598",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1042",
+        "excerpt_sha256": "b0c50b6b6065f1fbf27dc636b2f7253c25195b9b8ae8d4b5a0c19b76660ff63e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1045",
+        "excerpt_sha256": "bda228fa9b320a9d38c27c74aeb91a87da3d410125db78430f5ea0bf735d175c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1049",
+        "excerpt_sha256": "8a699d03f4afc7faade22470c4d8af6962ab97d64f22f9e2578d4489478a1ee1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1051",
+        "excerpt_sha256": "1f03de9fb1d97109979ef081e5b33dba38d5627c1275c3dbe52b07d15f3f176f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1053",
+        "excerpt_sha256": "b52a0009a745b8a12d0032e4362280c6ee37f2f1e99a3bf3856ce7b354f5837f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1057",
+        "excerpt_sha256": "bf940d5e2258259c3023f8d0cff93facf271a68a22c92dc44a31d4e739cf7261",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1058",
+        "excerpt_sha256": "ea653b213121b544fe43351fcf6caf584b24beff4663ea3b5caaf2c3aff7d23f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1059",
+        "excerpt_sha256": "e1245c31b43f51524cf33ed112114c0cc851e39138c44d772b445c474d0ba7ad",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1082",
+        "excerpt_sha256": "0df314bffcf4fae5a56ad8fc6f02b8d77de910c348de9547b89bbea021fa6269",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1104",
+        "excerpt_sha256": "223a3e2d49b94e620924473091d8536119fc712906f01b6bf094e9cb671ef551",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1105",
+        "excerpt_sha256": "aa9a3ac41552d3421e21abe4fd79428e187339e154c0c3b55b6eb10a5ae5ce75",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1107",
+        "excerpt_sha256": "a7a3ba3822649cb362051d5e3dc8340c260538368d679a05173ef0e14d002a61",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1112",
+        "excerpt_sha256": "3c633e49a1611cb393a434e5e121afad0ad200c514cf4fe923730770559128d0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1114",
+        "excerpt_sha256": "e2603ce496d4328dc586e821a84a3e80d7af8b8d0b4528a37e04b580c9ccfb3e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1116",
+        "excerpt_sha256": "ffbd9889248f6660c2b770ad234e7a429e0eddc3aa044dc61734e3c82e9a9ae6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1122",
+        "excerpt_sha256": "29c3a43b8a1357cc6c39a15788d29f25ed4a1f761454054404e8b6f210fc95b7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1141",
+        "excerpt_sha256": "efb6e5d433fc876e9172681cae652a4aff1605ca22d864421c700c3f2a72ddc1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1160",
+        "excerpt_sha256": "77b78835ad9463e52b09c27b2663426ecf383035b19d1688fb83d42e2e3a09e3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1166",
+        "excerpt_sha256": "5589302f98dab16b4593e620725bb48851379ec4e7af14e980eb9babd216e98c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1175",
+        "excerpt_sha256": "4cd6512cdb11a26e2a12ceaf781993f9adf866da48efecb1e857b418b75daba8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1195",
+        "excerpt_sha256": "96b46372722107ddf84c1c4b9ab570dc3a91abaee691599c79ed6e06847f7d72",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1198",
+        "excerpt_sha256": "780b00fb6c3bac824e31f9df16e67141ce90e13619ca92c481a0d4ddfed48c41",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1206",
+        "excerpt_sha256": "109cf4e822d13c086cabac36ce5e9457555b3a310aa34463bc033c5f35843c0c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1207",
+        "excerpt_sha256": "c0c306a01863a72b53a34a140ed25e519422b58814c699186de8610fa79c7f0d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1212",
+        "excerpt_sha256": "a4e88067c8275d55374a6f9f0bbab05b5c51a771b60aa462ad967238aada792f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1218",
+        "excerpt_sha256": "dfe7a60c8fb99fb763866fcbad26e592d6d5ce1ee55747650a18ace0706d0040",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1228",
+        "excerpt_sha256": "5c16528cd2453dc7f8ee7c51e117bf6ef4ef021dc908de1863372540e1f8d140",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1240",
+        "excerpt_sha256": "1f70433ff03826a7379cb5ad02145b6b999aa025bd8e69d5f61f73fc47087f1e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1242",
+        "excerpt_sha256": "fa3f53522e6da4d703885e81898b41849e3c74dacf91d555dac8d85bb1558fd2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1243",
+        "excerpt_sha256": "e29546c085780afaef6bf352457039e193e104ae44332eaab2a7d24a2407129f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1244",
+        "excerpt_sha256": "05912f61f8ab9a34c7de0449da9410659bf97ffaad6c68ab771c1f1a2642ec65",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1245",
+        "excerpt_sha256": "fb326c5856711c12cb2dc9891eb422395691e184653705e84e57991be221ca97",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1246",
+        "excerpt_sha256": "b519cb426e471b5be160bb7c2ed6e93256947694c45b88d6e738237ae2dc603a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1247",
+        "excerpt_sha256": "f4b951f1cf52b43c981bde2f8a5e38e12a21c29a707a52e3a513b76f204aec17",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1256",
+        "excerpt_sha256": "6eaef202dd04045ff1651167615c46fcd01711971e8e5744807f7b85e432425c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1258",
+        "excerpt_sha256": "f49cc7998bcbf981e19cf224fcc486238ac5c14f0e770a0e54e5c93b3d45595c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1259",
+        "excerpt_sha256": "f1bc1590050a3deeecd14598546cbcab1c7dfc7600271a755f79b372efba6dea",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1260",
+        "excerpt_sha256": "7098eea4c2fcbd655f0fddd222ae99e9a0c9841a774c8836f1f3a09fa268a4d4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1268",
+        "excerpt_sha256": "280fb2e693c2f0641034771dff60626899286b2a731b19dd9bad50696fa7c173",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1270",
+        "excerpt_sha256": "38c0a3e66bc980d67a23728c92de38ba599289b3f447373ebbdbae96dbba89cd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1291",
+        "excerpt_sha256": "0fa0b977b7324ab4794d2ec8843ce07a3fa5d2e0b09d3e09f3247eca381a2638",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1293",
+        "excerpt_sha256": "d2e313f4b27cbfd52adcb7d85d6ebd83f8493b3baaba18c583f8b8a6ee4e2a3c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1308",
+        "excerpt_sha256": "c5a159b9c76f3f9483f6d5280fb520806ff351aea777a2e8ff32b9c8cc928333",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1313",
+        "excerpt_sha256": "dacb7c1b11344f8611023019151c98e22ce2f79c4d8d04960e74a40245579556",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1324",
+        "excerpt_sha256": "de089c310367a5ad0aff511dd33c07d396380e3647a1202152d33422dbdd878c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1329",
+        "excerpt_sha256": "bea2356377fc03c3b0d40464f01859db395017762eabe5f98ef8385d1602deef",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1351",
+        "excerpt_sha256": "e239a75aa705d2940518f7b1147643f9d980703fa3d6b826e90f668f51554583",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1353",
+        "excerpt_sha256": "e17ad9bb7cbccfa615ed82a94a9c9aa06bbfbcad34bb7c09b3685415e419f092",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1355",
+        "excerpt_sha256": "517cdda73bc09f1621676f5bbf0c50ab0fdc61049fc60138a46ef9b89f92f060",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1356",
+        "excerpt_sha256": "332f8e872b060acf474dc1ac6f08559602d9946857cbbdbdf809ad96cfc078a4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1357",
+        "excerpt_sha256": "dab2fcadfb054d999ce4aef7d87d381399e2e89620cb77ddbad3f5ba255dd974",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1358",
+        "excerpt_sha256": "f19e9e804199dabf7fbef099a77d074231cac6982c7b0b9927efe7d9e169300f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1366",
+        "excerpt_sha256": "8bc701632c836a4e491d6aaaac9ad5c6b00bb07ab0e21bf59b06e63bbadfbfb5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1370",
+        "excerpt_sha256": "f3c2b61ba124424258ca847977c20ca7fba4082c3365213bf01fc737ffd7c296",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1371",
+        "excerpt_sha256": "719e6ccfa394db950951b8ddf1989f1ea7bfa805aaae30683847f233c30ea321",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1382",
+        "excerpt_sha256": "bff92ef3e2b41caa91d879ccfbd09d2489bacd7185691a8b6c1622e30927fbbb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1383",
+        "excerpt_sha256": "917a58594fc5b16de634e7e8c81ec418f999af9a155868ca1ccc181571b1fda1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1384",
+        "excerpt_sha256": "627b83d425ff9d3b48dfe68435be70b4c3fd301361c0125a3ca9f69a57f1c322",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1385",
+        "excerpt_sha256": "879d7fd786ea2f003d1af6815f95813c6ccedf22b5591e36c3b098dbc75d361d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1386",
+        "excerpt_sha256": "e4f3939d78d53d4d040aca587d3843e47ce91962ddf6ea5ddcaf423aeef95e00",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1389",
+        "excerpt_sha256": "4d14b3ca46198f90a087d6629f16fffa9b013962942196a279af3efe691e0e8c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1407",
+        "excerpt_sha256": "27b4e7b423eb24a2ea072c0ce453adc0d2f9af1b06071d96113ef194b5321151",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1408",
+        "excerpt_sha256": "6e81f9e4a0a2af3791c484edeecdeccecd5a88c426187c1edf9ef0d0b75536a2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1414",
+        "excerpt_sha256": "d7e1c67b61cda51de9f384579b8d524f8509b41635800bb4a498f6506601b39c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1424",
+        "excerpt_sha256": "d4cdb4fad713f7c2df5986b4b2b5eb559ab328d5dcd42c884583971ba6a3ebc6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1429",
+        "excerpt_sha256": "5dc4b11bb801d28f03af252f10ed9447cc56f2256f269faa6664e5b79c3c4f8c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1434",
+        "excerpt_sha256": "dbf73c024b3e123b2f909e4d2264411fc0ee243c4e8b296d2381d36f8ec3d38b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1456",
+        "excerpt_sha256": "1f2553334807b6fa1c09c184b4caf4d385d95f5025c1b6fbbe84e9e005ae3a71",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1475",
+        "excerpt_sha256": "7fd1facff3f4cddacb3f6f1af09eb3c9e84765c5dab8e3e2b5f831526ac3860a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1489",
+        "excerpt_sha256": "7bbeb6d5652be6a1b413802c49e2b676bc1676a960cba91050bce27e3b3643ab",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1494",
+        "excerpt_sha256": "1b793028ab80628c5c9b1b559b919fac50b14c392769de52eb5b5cc1286da414",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1500",
+        "excerpt_sha256": "159c886708963cb1269342b393c2fbf684efff373fe9054e354ddfb1319ea59e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1510",
+        "excerpt_sha256": "3b60e202cd94bd4ae3b6a1aeade6f90a42b793166331611dcef321570f43ae6b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1525",
+        "excerpt_sha256": "149607237776ccbc1004ffaf6418b32277e3df2b50b8d85ec126ec9524886d98",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1529",
+        "excerpt_sha256": "ec0bb7e9b311a8ff343ecdc2aa8f7fd8abe33fcd357596b97f0f523210b7d20a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1530",
+        "excerpt_sha256": "e42ab0bb78dd120c33645dedc6fa9e53781402b314230ff389b645e0d2b72e91",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1532",
+        "excerpt_sha256": "9b41cf1ec0e31f330d838582375d37efc94ede12c62a68da2b68041d0a179bda",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1552",
+        "excerpt_sha256": "def1eb6219ed66b0b1dfa2dcee6d86f79d0a6d73aa7927432136645b3be45dda",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1561",
+        "excerpt_sha256": "ea1401d7f53cb1d6d16f6d2f16d2048a363c4aca739ba1191eb670cd7eb495ba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1616",
+        "excerpt_sha256": "ce5a8118e519612c75f45b27c85e82198273d72f19ac0424c3cf28a093e9a416",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1619",
+        "excerpt_sha256": "202ea7354f3fca31c22f881a947227ccf500d5d278a21adf645226cda0084236",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1622",
+        "excerpt_sha256": "9d6cb10e65df4fe07dda6ae50af66fb05818b3044bf70b005e69378f57e6a224",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1627",
+        "excerpt_sha256": "f1de74f3302e74fc74f52c91ad975939d2e5793b256eccb399838c71dbf1e750",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1630",
+        "excerpt_sha256": "422cae84444d7e27c5217c1aca6c8ef44b7333131c4ca0ccbd8a395368652e37",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1631",
+        "excerpt_sha256": "1167728e6cb34b25ce28a955f96b5b3d043af2b5e88cb0b1d03c30a5c37d53a9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1632",
+        "excerpt_sha256": "53d7699b2c80e6dcc5c4d3f26fb445d79199ae97a0119db57691e5d64678bd88",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1633",
+        "excerpt_sha256": "9cde4eb7a4f9af74ae5ca2994265264b00eed0cc3143dca6defc75d41ef75821",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1634",
+        "excerpt_sha256": "26bb5fa2bbc263e753ad440d7f5cb2d4c46075ce7d5fcfd70960e0c3364e5598",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1659",
+        "excerpt_sha256": "98844d66ed93c5077fd1f69f546e021eef136a0eabadd3334ee7ada2e640dba0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1665",
+        "excerpt_sha256": "1a549056786ba7bb68d1916d58996e0f9dd77bf91fa7e06126600066a593e33f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1674",
+        "excerpt_sha256": "942bc2e04d24bc43c591d89c15f59e4ec825b17dad4635d7468f66bb29e1ab13",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1677",
+        "excerpt_sha256": "850c65befadcb60f35241423d8e0f1380cd2266f7e479d045a905fbd51cc3d91",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1679",
+        "excerpt_sha256": "0c7be6be46ca2859feb7226d93d3ccdc3436a5377e441b2e5a3c0eaa02c5c681",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1686",
+        "excerpt_sha256": "13c96eba957a07ec8aa49426cd8b0e3d66bbfc081bd0f7ee2f9e364e95ead940",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1694",
+        "excerpt_sha256": "aa03993b0b0730cf2787b2e8ad9e0e1f13b36ecebb758889b5a9898f3718249b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1695",
+        "excerpt_sha256": "3fcb03f820937f6ac0036aec0a1dcd1bfb46a8a9944679debef061db0258fc6f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1696",
+        "excerpt_sha256": "e8130fcaa08f4d87c717fa4f6c01015f2af7facad7f1df1759084102774c5527",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1698",
+        "excerpt_sha256": "8ddbb3d3d829cb59ec3fcbb56f69b41b2d960d4da2ae9e47170cd3330968a3e4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1718",
+        "excerpt_sha256": "100bb3f945b40da816f3dfde300aa04956f76010c1e8f34d65b30b9df853e432",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1728",
+        "excerpt_sha256": "adae356d45853c2d5f91e96a3720a66efecde251c4976096ce96c8e7fdc96107",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1750",
+        "excerpt_sha256": "2a1f347b20d25b94ee33ce1e9bad4abc49045cdad91d4a155db2536c5d3468fd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1754",
+        "excerpt_sha256": "4374b04d3417e75c331854c0dbd40b64648ab328459b1c5bc3168d6d7610ec1d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1755",
+        "excerpt_sha256": "fd1f0c62a0b2d40858a58e97e8261a370500c24ba3a557c09a37cc436b353130",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1757",
+        "excerpt_sha256": "941dee8d9e9b897c5e4460e25b5a4c3f24535144d32d97de119201c757ee7577",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1759",
+        "excerpt_sha256": "3364a9ee71a1f29c08fff5a60cff6050ecc51bffbc6f70d508a83da0b81448a4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1771",
+        "excerpt_sha256": "8f8dae494ede948da6a7eede66e16d29547e40e526812090a5e95e2842d7d5a5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1775",
+        "excerpt_sha256": "449038279f00c0d41698b91a44e0594c04e54ba4d25611355666852686a45a5d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1782",
+        "excerpt_sha256": "bbb08bc62496ec4c35bff7a43aaac2b237638015fc5f0f77ccbfb592bd32cd09",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1783",
+        "excerpt_sha256": "b8735a7644275e6775e7254d36447963d29fd2b4d222bc77648f32464d4d19ae",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1786",
+        "excerpt_sha256": "1e726e676a19fe08b847dd61d343d82ccfc1930f8ac6b115c2732229bade1875",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1789",
+        "excerpt_sha256": "1b7e791e9f51a4989cdab53668c6a5977a74f2d23e78191a60c1c4bda96e1939",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1793",
+        "excerpt_sha256": "ddcfa2066844c0d52fac8f448c0cbb48d77626cbc11e043a8c4e1f87b21186e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1794",
+        "excerpt_sha256": "7d8e346f40978e5e41b0e7c9c7f4b975f9488b8cea490658746f368a31304fe8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1796",
+        "excerpt_sha256": "a2adadeca6ebd409ae2049b0aa000cb1328178ad9d48a66787ba69545bd5c698",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1797",
+        "excerpt_sha256": "bf5075e180e57df58ffae0f727580ba9f5fbb21f1f3d64818533a5c012abec4e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1804",
+        "excerpt_sha256": "85671ee94e200b8493ce590e4b30eac15f81271b6b63207705158c741c3d7322",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-66",
+        "excerpt_sha256": "94d2507b6e7d782f1d6dabbce5e07724a030f4595917e18bf63816025366536f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-68",
+        "excerpt_sha256": "7989d671bf6b0360754dd1885430698d02a0bcad661389c004529d56e9ce4bf3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-72",
+        "excerpt_sha256": "6692317037a159df68a742d2ea48f5533ef967b4f930cf415252326e905c05bf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-148",
+        "excerpt_sha256": "a568f380cd849d105197908ba2858b8daf21ed3f5bb2d6ecffa94de850819d32",
+        "status": "unverified"
+      },
+      {
+        "location": "page-264",
+        "excerpt_sha256": "b6a00b60aae654df7ba4b1271bc82194efc4a499f930bc54b3d5a5ab62b2d185",
+        "status": "unverified"
+      },
+      {
+        "location": "page-402",
+        "excerpt_sha256": "11b138a4ba8e05af211ca22386d081f5d9a7c24e8712515632cbc5cac107974f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-403",
+        "excerpt_sha256": "8c1f70977a5e3ef14f067c7b1fecd3ab0cdc46ab81f30b1dad7527dd401d4518",
+        "status": "unverified"
+      },
+      {
+        "location": "page-458",
+        "excerpt_sha256": "c5a19629d338fb775b9a1e5d695596f4869a0834f2f997b66971dfe4e7e9b9fd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-485",
+        "excerpt_sha256": "14d67a1cc4a00eed0b779cd405c3288e61ddafee84d74a2ac5f4acfc81f08d55",
+        "status": "unverified"
+      },
+      {
+        "location": "page-487",
+        "excerpt_sha256": "deecdf65cad6851e750d02fd9d56663c11b8da4ddc3eadf58391f17f51eb0339",
+        "status": "unverified"
+      },
+      {
+        "location": "page-488",
+        "excerpt_sha256": "7423168994c47d8a469507c0df348a5976d86ff3074129d55807fd82a0a6e82d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-497",
+        "excerpt_sha256": "86bbb27f73586c25a0655df083dbc3dfcf6214f600632c91b6ac983d9991a2c2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-508",
+        "excerpt_sha256": "e371f955677ed9ed58249087efa28f793444158f7388e0a5df69290ed39c701b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-680",
+        "excerpt_sha256": "f636957222db6b615f9c2ef087c9d401a47f52da28a68f45b2ee454c614c784d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-869",
+        "excerpt_sha256": "cb30aba132cee0c938b8ecfffeeeac5dbe7a5fb36e39da6abfe2bbbf2a961355",
+        "status": "unverified"
+      },
+      {
+        "location": "page-925",
+        "excerpt_sha256": "ae4cb3f50ad2118358876999c7486095a6f5afd6c92f048ae4f4b92a7aa46a1b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1147",
+        "excerpt_sha256": "0378e14e11c27a069c1eba838ff0e374ac4d7d50271641d3031e592880375429",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1161",
+        "excerpt_sha256": "b0cbdf09e02fe153e7e6bebeb2a61c845a9a34cd739a9d4e3a3dcff3bafe9832",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1308",
+        "excerpt_sha256": "c5a159b9c76f3f9483f6d5280fb520806ff351aea777a2e8ff32b9c8cc928333",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1590",
+        "excerpt_sha256": "73644d34894e2e3fe0a94e1b437c10136e3a95ef4c3f915870a568bbeda21ff2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1611",
+        "excerpt_sha256": "81eacc58ab5cc80823d8c34901da20c1fcd0e23bcaec5e75165416f69e5dc9fb",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1612",
+        "excerpt_sha256": "9978dfc4d5131dbe81cc7e065da069fc1f530ab487e4fc201c633088e040d0ab",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1613",
+        "excerpt_sha256": "d0a18f8b5eeb3adf7c7fa7131aba1171202ef7916bdf81c7172638384857d854",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1657",
+        "excerpt_sha256": "7aa8db425fba34f88057230ca85a94d31345c0ec54d4e4e9caa3322fac7c2f22",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1806",
+        "excerpt_sha256": "ca780d322e506ebd6ebf1dccaad64884048ab0ef4aab87c643de1fb627eed7eb",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-122",
+        "excerpt_sha256": "4b9d3c696624f04c8306a77c2ce27b6c9558523476531ef3cc681ba97b0c20f6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-209",
+        "excerpt_sha256": "72147244fb697151d4f8c97aa6c4ad85e68e3e85533f9d95d236b3ccad277977",
+        "status": "unverified"
+      },
+      {
+        "location": "page-267",
+        "excerpt_sha256": "dc801e7977e7570d96b185c5685fe66e1c75a91d4f648fe64a966a6fc6fe4795",
+        "status": "unverified"
+      },
+      {
+        "location": "page-274",
+        "excerpt_sha256": "0da712ced5614f9ed4202d693e4d208793dab17ad1b8e95e8592c30c92c30e40",
+        "status": "unverified"
+      },
+      {
+        "location": "page-277",
+        "excerpt_sha256": "b13d2fc2b0c17eb3470b0b575f87b1286157657fcab0afe9fce95846297ab0e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-298",
+        "excerpt_sha256": "c191ae080de080891f0a17f91728038c4033e12ba489f53758bba771c5c392c3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-299",
+        "excerpt_sha256": "b38d19eedec9ea5796a87aebe2dc726cb5c92f17e2fbbe1396ec42dfbbbe19ce",
+        "status": "unverified"
+      },
+      {
+        "location": "page-409",
+        "excerpt_sha256": "35598ff9eda95b14410f1679609d8148f66b38ec67e0c19cef6cb1771c6015c2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-454",
+        "excerpt_sha256": "a6f7ae0c9c8fa7d30b6b53cdca72cf64fcf6dcaabe0fced0df7bb3303d4319ad",
+        "status": "unverified"
+      },
+      {
+        "location": "page-459",
+        "excerpt_sha256": "73889706c9e415bccec6c6977a07aa320f3e519afa9a6b36260330ed941837fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-536",
+        "excerpt_sha256": "b222bc2a778d7d471cec1f37bb724e23030ca49ab16013ac8210325a77339986",
+        "status": "unverified"
+      },
+      {
+        "location": "page-538",
+        "excerpt_sha256": "3e62bfb203ae2133631f2e303eff01dbabd810debb13487ccf78271ff477d408",
+        "status": "unverified"
+      },
+      {
+        "location": "page-552",
+        "excerpt_sha256": "48fa87d7b8307787be9369a6f22ad9662bbca160dbae73c4d0e4a1700a12a39b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-637",
+        "excerpt_sha256": "ae69c14b19e62ce3e4eb5ec696156cc5049a095d8816225f922c8c12384b0ff2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-673",
+        "excerpt_sha256": "b43900ce073b24bd755fdd0dca02369e9ec7f0b0423acbf376bc81d9138b36b9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-698",
+        "excerpt_sha256": "ccb5846dc5040e021ed288d9a064e8bd7cc8d084dcce0a6cfb476d73272bc107",
+        "status": "unverified"
+      },
+      {
+        "location": "page-736",
+        "excerpt_sha256": "a1e72be73a75c92d85799e6d9ef47fe1689e47504a27109bb472c5c6953e6348",
+        "status": "unverified"
+      },
+      {
+        "location": "page-787",
+        "excerpt_sha256": "435420a5efdb3e5e35b3f62c6f1a20abca0ac53b557c9fc4945d0de2d02e94b9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-841",
+        "excerpt_sha256": "065172d972c08510d4ac9d44d25a1eb651c7bb84e742c7df50b41c56012c2467",
+        "status": "unverified"
+      },
+      {
+        "location": "page-846",
+        "excerpt_sha256": "19b4e2686bd6c13fcb8f68d0d78ed93c821725a9e83e92fa12ef5d1052812b0f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-852",
+        "excerpt_sha256": "d298ef1404255b3cb76c7297cc185fc0de97720b7236b40a7beb37174db6c74c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-876",
+        "excerpt_sha256": "c97914fb2563569e67e4830b6a5e9fd6b5fd2e1a1c727cd5f25f0e55fcd49e18",
+        "status": "unverified"
+      },
+      {
+        "location": "page-916",
+        "excerpt_sha256": "43df5197ddeb8f77d49229ba8d18772b464c54dd74f2678d3067b83122417dc1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-932",
+        "excerpt_sha256": "3c3dd58efd2d97eccee665ef2468a87be66e0d4bb88e8f3a651c47075ab96360",
+        "status": "unverified"
+      },
+      {
+        "location": "page-933",
+        "excerpt_sha256": "20021a7d4c4969e5db54236a1c7aaae52ac468982510ce90d17a7d5bdf408fae",
+        "status": "unverified"
+      },
+      {
+        "location": "page-936",
+        "excerpt_sha256": "f948b2f788ae28a12fbff398ae70665fee39ff2f1a973117899a41eaf64df112",
+        "status": "unverified"
+      },
+      {
+        "location": "page-937",
+        "excerpt_sha256": "edbd596948609d19174c835363385c0fccd164d10858c65721d8540521146ed8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1089",
+        "excerpt_sha256": "cea13bce5ed2ddc3968af78c5946f9fb801e4d11346cbc05f561f7919ec8df95",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1196",
+        "excerpt_sha256": "01497eb07fb975b71d83a9e62652f690d54ec6f4bdc63c1e9cddff19aed28752",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1356",
+        "excerpt_sha256": "332f8e872b060acf474dc1ac6f08559602d9946857cbbdbdf809ad96cfc078a4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1405",
+        "excerpt_sha256": "ad7d09ba39f5b7bbd1ef8e8c5d034af95ca7bd2ecd33c0fad680af3d12ae8019",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1481",
+        "excerpt_sha256": "891130e9767a3742fec74da12c0c0b9526c6bd5d5b8d61c21a28fc7cd8ddd9f6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1598",
+        "excerpt_sha256": "480b3c7144c1c2d07302c2f9584d639eebe68b6a0a7fe3471cffeefe49bd1141",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1599",
+        "excerpt_sha256": "ebab79d4dda1787aa255a21bdac0295dfb946aa2b6695a41421ab3fe7185b110",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1648",
+        "excerpt_sha256": "ba4b9dfbe668ed19150340a8968f504c8f9ae5a5ca6fcf696023d82f5ce926ac",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1651",
+        "excerpt_sha256": "e5981551fc118895175c48148d4f2945ed1da24a95753498a258580cf2ba7dff",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1675",
+        "excerpt_sha256": "57f103acc6da0da1508d07eab0bb3aef12ecfd1de41a59ca45402b6e3c6de7ec",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1729",
+        "excerpt_sha256": "f172c4fdb61158eb99cbd68a247f6a4ef2ce4e296c764b1484781378550da54b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1771",
+        "excerpt_sha256": "8f8dae494ede948da6a7eede66e16d29547e40e526812090a5e95e2842d7d5a5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1776",
+        "excerpt_sha256": "7568f73e66cae2b59682b9e58b72a35bbe12214fcc4ebdbc582e6f75d87e8963",
+        "status": "unverified"
+      }
+    ],
+    "engulfing": [
+      {
+        "location": "page-609",
+        "excerpt_sha256": "bb435876a5cbd69e6c7ab14fc2695fcce9c73a70122c6db19a47b150e4f0be99",
+        "status": "unverified"
+      },
+      {
+        "location": "page-1068",
+        "excerpt_sha256": "275270b64b230ac93c4f2dc71d80d4dce46545737b876ba6890376e58f863441",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-711",
+        "excerpt_sha256": "c7d93736cfb43674cc5a27712ca148b3a396d363dea070832400bbcaec4bf002",
+        "status": "unverified"
+      },
+      {
+        "location": "page-712",
+        "excerpt_sha256": "b41c5ced21c57fe376c905859274b58ec4d6513d3501051acd2e1c5d5b253441",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
