@@ -1,0 +1,31 @@
+{
+  "source_sha": "76f23fac33eb50bd075461582eaba7e30734b1db",
+  "source_name": "识别市场骗线：五种表现形式与假突破、假跌破实战解析.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-2:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

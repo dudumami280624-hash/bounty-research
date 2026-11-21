@@ -22,6 +22,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf (source 61449ad5f6f6, page-115, page-378, page-575): review the original example and explain its context.
 
+- 趋势交易.pdf (source 6b2bfde406e7, page-36:OCR-unverified, page-37): review the original example and explain its context.
+
 - 23-赚未来十年的钱-王海滨.pdf (source 7af0a550e107, page-40:OCR-unverified): review the original example and explain its context.
 
 - 均线实战总结.pdf (source 7eca802fd109, page-31:OCR-unverified): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf (source 90851e957915, page-609, page-1068): review the original example and explain its context.
 
 - 丁圣元译《股票大作手回忆录(修订版)》.pdf (source 9096c146fc49, page-11): review the original example and explain its context.
-
-- 重要的 K 线形态组合.pdf (source 90fbf5f6508e, page-6, page-8): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

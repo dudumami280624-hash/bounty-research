@@ -238,6 +238,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3a1163b18a7563f43cbc4642f1ee7f179bcc3434",
+          "source_name": "趋势交易-4.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3f45c70001355c99f59c2f721c4a6568a14a301e",
           "source_name": "技术指标策略体系：MACD（上）.pptx",
           "locations": [
@@ -855,6 +866,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-49",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
           "source_name": "老于今日课堂笔记11.20.pdf",
           "locations": [
@@ -944,6 +982,17 @@
             {
               "location": "slide-9:shape-5",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "76f23fac33eb50bd075461582eaba7e30734b1db",
+          "source_name": "识别市场骗线：五种表现形式与假突破、假跌破实战解析.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -1933,6 +1982,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "be4f5bcbcf9e145e249fa1bca17d46133edcbc80",
+          "source_name": "趋势交易—2.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
           "source_name": "MA均线系统实战法则.docx",
           "locations": [
@@ -2004,6 +2072,17 @@
             },
             {
               "location": "word/document.xml:paragraph-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cddec5393c4ebbe6582f2e2f960115fc7872118f",
+          "source_name": "趋势交易3.pdf",
+          "locations": [
+            {
+              "location": "page-12",
               "term_mentions": 1
             }
           ],
@@ -2442,6 +2521,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f18e59b6fa802d0307e6edc099f5d09fd6d908f1",
+          "source_name": "趋势交易1.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
           "source_name": "老于今日课堂笔记11.15.pdf",
           "locations": [
@@ -2829,6 +2919,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3a1163b18a7563f43cbc4642f1ee7f179bcc3434",
+          "source_name": "趋势交易-4.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3a8f058eca2aceac0667d7a54b494f94a4ff1895",
           "source_name": "20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf",
           "locations": [
@@ -3145,6 +3246,41 @@
           "locations": [
             {
               "location": "page-34",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-49",
               "term_mentions": 1
             }
           ],
@@ -3846,6 +3982,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "be4f5bcbcf9e145e249fa1bca17d46133edcbc80",
+          "source_name": "趋势交易—2.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "c43ef4a49b4387da77f9387c1f42729d40d1ca59",
           "source_name": "葛兰威尔均线八大法则（买1）.pptx",
           "locations": [
@@ -3873,6 +4036,17 @@
           "locations": [
             {
               "location": "page-2:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cddec5393c4ebbe6582f2e2f960115fc7872118f",
+          "source_name": "趋势交易3.pdf",
+          "locations": [
+            {
+              "location": "page-10",
               "term_mentions": 1
             }
           ],
@@ -4846,6 +5020,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-36:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-37",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7af0a550e107edb906ccebe5b6a6c1b13a65fe93",
           "source_name": "23-赚未来十年的钱-王海滨.pdf",
           "locations": [
@@ -5684,6 +5873,21 @@
             },
             {
               "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-38",
               "term_mentions": 1
             }
           ],
@@ -6774,6 +6978,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "cddec5393c4ebbe6582f2e2f960115fc7872118f",
+          "source_name": "趋势交易3.pdf",
+          "locations": [
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
           "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
           "locations": [
@@ -7365,6 +7580,17 @@
             {
               "location": "page-5627",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f18e59b6fa802d0307e6edc099f5d09fd6d908f1",
+          "source_name": "趋势交易1.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -9907,6 +10133,21 @@
             },
             {
               "location": "page-10",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-60",
               "term_mentions": 1
             }
           ],
@@ -13400,6 +13641,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f18e59b6fa802d0307e6edc099f5d09fd6d908f1",
+          "source_name": "趋势交易1.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
           "source_name": "老于今日课堂笔记11.15.pdf",
           "locations": [
@@ -14173,6 +14425,25 @@
             },
             {
               "location": "page-23",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3a1163b18a7563f43cbc4642f1ee7f179bcc3434",
+          "source_name": "趋势交易-4.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
               "term_mentions": 2
             }
           ],
@@ -15070,6 +15341,69 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 9
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 10
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 12
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-49",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-51",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-52",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
           "source_name": "老于今日课堂笔记11.20.pdf",
           "locations": [
@@ -15213,6 +15547,17 @@
             },
             {
               "location": "word/document.xml:paragraph-1405",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "76f23fac33eb50bd075461582eaba7e30734b1db",
+          "source_name": "识别市场骗线：五种表现形式与假突破、假跌破实战解析.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -16815,6 +17160,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "be4f5bcbcf9e145e249fa1bca17d46133edcbc80",
+          "source_name": "趋势交易—2.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
           "source_name": "MA均线系统实战法则.docx",
           "locations": [
@@ -17757,6 +18121,37 @@
             {
               "location": "page-854",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f18e59b6fa802d0307e6edc099f5d09fd6d908f1",
+          "source_name": "趋势交易1.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 9
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 10
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 12
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -18946,6 +19341,41 @@
             },
             {
               "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3a1163b18a7563f43cbc4642f1ee7f179bcc3434",
+          "source_name": "趋势交易-4.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
               "term_mentions": 1
             }
           ],
@@ -20364,6 +20794,173 @@
           "locations": [
             {
               "location": "page-9",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 11
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-29",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-38",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-44",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-46",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-47",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-48",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-51",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-53",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-58",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-59",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-61",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-65",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-67",
               "term_mentions": 1
             }
           ],
@@ -22635,6 +23232,57 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "be4f5bcbcf9e145e249fa1bca17d46133edcbc80",
+          "source_name": "趋势交易—2.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "beaec7ac9cb1a24df2f99a6975ac30253164b64f",
           "source_name": "MA均线系统实战法则.docx",
           "locations": [
@@ -22816,6 +23464,37 @@
             },
             {
               "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cddec5393c4ebbe6582f2e2f960115fc7872118f",
+          "source_name": "趋势交易3.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-12",
               "term_mentions": 1
             }
           ],
@@ -23791,6 +24470,45 @@
             },
             {
               "location": "page-1081",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f18e59b6fa802d0307e6edc099f5d09fd6d908f1",
+          "source_name": "趋势交易1.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 11
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
               "term_mentions": 2
             }
           ],
@@ -24797,6 +25515,45 @@
             {
               "location": "page-8",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6b2bfde406e7ab712383251f238e8caca43cb0f2",
+          "source_name": "趋势交易.pdf",
+          "locations": [
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-30:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-33:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-37",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -25934,6 +26691,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "be4f5bcbcf9e145e249fa1bca17d46133edcbc80",
+          "source_name": "趋势交易—2.pdf",
+          "locations": [
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "c6fa7f59e96f606395987d2f0f1f1426cafdcbb5",
           "source_name": "K线策略体系：右侧突破 (2).pptx",
           "locations": [
@@ -25955,6 +26723,25 @@
             {
               "location": "word/document.xml:paragraph-16",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cddec5393c4ebbe6582f2e2f960115fc7872118f",
+          "source_name": "趋势交易3.pdf",
+          "locations": [
+            {
+              "location": "page-6:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"

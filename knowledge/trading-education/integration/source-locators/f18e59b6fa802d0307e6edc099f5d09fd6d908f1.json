@@ -1,0 +1,102 @@
+{
+  "source_sha": "f18e59b6fa802d0307e6edc099f5d09fd6d908f1",
+  "source_name": "趋势交易1.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "274ddd9ae988d2a9b6e8ab9af0962ece97137de303936e8bba51fc99964686c1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "d1cd8f257cc11120bcb567469dca418542ffa0ccbba7c7ed3600a890511d607f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "344f60738ef826e51476f784b037f3e6ef5dc6835fdaca9c143caf567882d1e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "a1a10066ad4abb901903090b58590b5d34799e9f919b5b61c9f7f838a6fe491a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "220619543450f718c326f17ee4d258bc01fcab576ec056be3adba8c64549585d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "7f9910144c583f282077d8e34b7be41830c6c4eedfbe6c5f07d4fa9e3ee78d15",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "618980e521cc853adb149b0024209e1164bebd0a906e8146f745eab79e297a31",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "8d1a32d05d557c5e05df4f24985787674b0fabf3f3854af3c4581129199cc101",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "a1a10066ad4abb901903090b58590b5d34799e9f919b5b61c9f7f838a6fe491a",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "a1a10066ad4abb901903090b58590b5d34799e9f919b5b61c9f7f838a6fe491a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "220619543450f718c326f17ee4d258bc01fcab576ec056be3adba8c64549585d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "7f9910144c583f282077d8e34b7be41830c6c4eedfbe6c5f07d4fa9e3ee78d15",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "618980e521cc853adb149b0024209e1164bebd0a906e8146f745eab79e297a31",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "8d1a32d05d557c5e05df4f24985787674b0fabf3f3854af3c4581129199cc101",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "fabbee29eb58bd5c1932150ac1d142ccc802056ce5dec7e47036e3424e08a761",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "a1a10066ad4abb901903090b58590b5d34799e9f919b5b61c9f7f838a6fe491a",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "fabbee29eb58bd5c1932150ac1d142ccc802056ce5dec7e47036e3424e08a761",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -1,0 +1,92 @@
+{
+  "source_sha": "cddec5393c4ebbe6582f2e2f960115fc7872118f",
+  "source_name": "趋势交易3.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 10,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-6:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

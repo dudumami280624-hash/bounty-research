@@ -28,9 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-4:shape-4, slide-4:shape-5, slide-5:shape-21, slide-15:shape-33, slide-17:shape-30): review the original example and explain its context.
 
-- 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
+- 趋势交易-4.pdf (source 3a1163b18a75, page-7): review the original example and explain its context.
 
-- K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-5, word/document.xml:paragraph-6): review the original example and explain its context.
+- 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

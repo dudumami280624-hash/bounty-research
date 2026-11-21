@@ -1,0 +1,75 @@
+{
+  "source_sha": "3a1163b18a7563f43cbc4642f1ee7f179bcc3434",
+  "source_name": "趋势交易-4.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "623fa03d43700ee74c954cb45673d1da0767336292de1726263f8343ead711ad",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "a44bd0040f52d938ba4b07c2fed14f90108397f4a2e70bd2dc2496f18b3921b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "e799a731c1e024d9bd6771ff7b384fc36373f0a614dc6c5a7ee321e3fd7b0b69",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "9288ff9ba5798175e9b38c64bbfa5776af7e8dad4dbac256230f35c5895b5454",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "fe75b9cc5336b74d4bb052a2976221d6bb4ab753bd7999fcf3039d72af7f6225",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "912790a620c6e68ba1a57ba25680d3a9436dd17428ef7d9ef57d24ecab54ac89",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "bf6a480531d68f37642a3c2fb8100400fc28750a2efb23779548fa80ec4c0026",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "e6ef27d78599a3cdb2621400cc7ef5940e352069c6873ffe648fbfa7c8ebb225",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "e6ef27d78599a3cdb2621400cc7ef5940e352069c6873ffe648fbfa7c8ebb225",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "bf6a480531d68f37642a3c2fb8100400fc28750a2efb23779548fa80ec4c0026",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "75d4c64d6eac740f26e29082ee47588703fe55993f541327d9671f1595e72b38",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "e6ef27d78599a3cdb2621400cc7ef5940e352069c6873ffe648fbfa7c8ebb225",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
