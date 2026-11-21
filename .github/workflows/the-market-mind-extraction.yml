@@ -98,7 +98,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TMM_TEXT_AUDIT_BUDGET_SECONDS: '90'
-          TMM_TEXT_WINDOW_PAGES: '12'
+          TMM_TEXT_WINDOW_PAGES: '12' # bounded to 1-30 in research 89155d0
           TMM_BATCH_SIZE: '8'
           TMM_TIME_BUDGET_SECONDS: '780'
           TMM_PER_SOURCE_TIMEOUT_SECONDS: '90'
