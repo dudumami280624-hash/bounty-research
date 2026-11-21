@@ -24,6 +24,15 @@ def main():
         # Retry after a cooldown; the per-window alarm still bounds runtime.
         if 'ocr_failed_page_numbers' not in audit and audit.get('ocr_failed_pages_total',0):
             audit['ocr_failures_without_page_locations']=True
+        # Historical OCR failure counts lack page locators; re-audit all pages once.
+        # Preserve the unknown-failure flag until the full pass finishes.
+        if (audit.get('coverage_complete')
+                and audit.get('ocr_failures_without_page_locations')
+                and not audit.get('legacy_reaudit_started')):
+            audit['next_page']=0
+            audit['coverage_complete']=False
+            audit['legacy_reaudit_started']=True
+            audit['ocr_failed_page_numbers']=[]
         failed_pages=list(audit.get('ocr_failed_page_numbers',[]))
         retry_page=(failed_pages[0] if audit.get('coverage_complete') and failed_pages else None)
         if audit.get('coverage_complete') and retry_page is None: continue
@@ -77,6 +86,9 @@ def main():
                 audit.pop('ocr_retry_after_utc',None)
             audit['ocr_failed_pages_total']=len(failed)
             # Old audits recorded counts without page numbers; never silently certify them.
+            if audit.get('legacy_reaudit_started') and audit['coverage_complete']:
+                audit['ocr_failures_without_page_locations']=False
+                audit.pop('legacy_reaudit_started',None)
             legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
             audit['ocr_complete']=audit['coverage_complete'] and not failed and not legacy_unknown
             audit['attempts']=0
