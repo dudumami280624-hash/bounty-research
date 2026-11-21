@@ -152,6 +152,7 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
     This is an independent completeness audit, not a claim that earlier text survives.
     """
     import fitz
+    window_pages=max(1,min(30,int(window_pages)))
     started=time.monotonic()
     advanced=[]
     for entry in entries:
@@ -162,6 +163,7 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
         audit=record.setdefault('pdf_text_page_audit',{'next_page':0,'total_pages':None,'page_evidence':{},'coverage_complete':False})
         if audit.get('coverage_complete'): continue
         try:
+            # Network fetch and native parser are bounded by the caller's worker deadline.
             blob=download_blob(entry['sha'])
             with tempfile.TemporaryDirectory() as td:
                 source=Path(td)/'source.pdf'
