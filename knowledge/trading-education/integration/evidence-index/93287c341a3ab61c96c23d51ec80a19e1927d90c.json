@@ -1,0 +1,118 @@
+{
+  "source_sha": "93287c341a3ab61c96c23d51ec80a19e1927d90c",
+  "source_name": "彼得林奇的成功投资.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-30",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-41",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-54",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 30,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-32",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-42",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-47",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-48",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-49",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-56",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-33",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-43",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

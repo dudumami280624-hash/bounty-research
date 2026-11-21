@@ -2766,6 +2766,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
+          "source_name": "帖第二波.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -3198,6 +3217,21 @@
             {
               "location": "page-18:OCR-unverified",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "93287c341a3ab61c96c23d51ec80a19e1927d90c",
+          "source_name": "彼得林奇的成功投资.pdf",
+          "locations": [
+            {
+              "location": "page-33",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -8393,6 +8427,253 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
+          "source_name": "帖第二波.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-30",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-43",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-66",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-68",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-85",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-86",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-88",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-94",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-106",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-107",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-118",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-121",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-122",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-125",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-130",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-131",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-133",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-151",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-162",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-163",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-165",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-166",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-175",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-176",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-177",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-184",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-192",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-195",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-199",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-200",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-206",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-210",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-216",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-227",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-238",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-240",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-241",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-242",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-245",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-246",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-251",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-260",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-262",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-263",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-277",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-283",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-285",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-288",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-295",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
           "source_name": "MA均线系统三角形态选股法.docx",
           "locations": [
@@ -8452,6 +8733,17 @@
             },
             {
               "location": "word/document.xml:paragraph-96",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "57281674d731a6eef27f6611ad60e3a28b3b125c",
+          "source_name": "支撑位与阻力位.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -9248,6 +9540,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "786b8bdd09777a4a8d060d81bff7f4363bf9cdc6",
+          "source_name": "指标之王MACD.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -9925,6 +10228,65 @@
             },
             {
               "location": "page-29:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "93287c341a3ab61c96c23d51ec80a19e1927d90c",
+          "source_name": "彼得林奇的成功投资.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-42",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-47",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-48",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-49",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-56",
               "term_mentions": 1
             }
           ],
@@ -13289,6 +13651,81 @@
             },
             {
               "location": "page-805",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
+          "source_name": "帖第二波.pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-118",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-139",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-156",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-177",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-187",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-215",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-237",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-249",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-284",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-323",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-333",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-335",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-337",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-364",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-372",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-408",
               "term_mentions": 1
             }
           ],
@@ -17540,6 +17977,145 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
+          "source_name": "帖第二波.pdf",
+          "locations": [
+            {
+              "location": "page-31",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-33",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-50",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-52",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-64",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-66",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-89",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-100",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-125",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-130",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-134",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-138",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-158",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-185",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-199",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-223",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-238",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-240",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-242",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-254",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-283",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-326",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-339",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-341",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-358",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-359",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-375",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-382",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-383",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-408",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "48dab88c33e0e0564718f5b6075364f5f3f51a3c",
           "source_name": "MA均线系统三角形态选股法.docx",
           "locations": [
@@ -18577,6 +19153,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "786b8bdd09777a4a8d060d81bff7f4363bf9cdc6",
+          "source_name": "指标之王MACD.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
           "source_name": "K线策略体系：右侧突破.docx",
           "locations": [
@@ -19351,6 +19938,41 @@
             {
               "location": "page-24:OCR-unverified",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "93287c341a3ab61c96c23d51ec80a19e1927d90c",
+          "source_name": "彼得林奇的成功投资.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-30",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-40",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-41",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-54",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -22065,6 +22687,81 @@
             {
               "location": "slide-4:shape-5",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
+          "source_name": "帖第二波.pdf",
+          "locations": [
+            {
+              "location": "page-19",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-66",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-67",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-69",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-77",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-103",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-104",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-105",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-215",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-248",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-357",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-358",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-359",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-362",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-364",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-391",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"

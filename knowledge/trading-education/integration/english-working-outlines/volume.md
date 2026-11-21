@@ -26,11 +26,11 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
 
+- 帖第二波.pdf (source 420d62d27b32, page-19, page-20, page-66, page-67, page-69): review the original example and explain its context.
+
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-7, word/document.xml:paragraph-13, word/document.xml:paragraph-19, word/document.xml:paragraph-51): review the original example and explain its context.
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-74): review the original example and explain its context.
-
-- 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-30, word/document.xml:paragraph-45): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

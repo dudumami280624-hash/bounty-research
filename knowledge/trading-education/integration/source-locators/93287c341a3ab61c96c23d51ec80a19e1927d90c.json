@@ -1,0 +1,123 @@
+{
+  "source_sha": "93287c341a3ab61c96c23d51ec80a19e1927d90c",
+  "source_name": "彼得林奇的成功投资.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "319041bb26412029468223b7b607bbd82281f436ffc95419bd996b553b95a746",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "1c1c024108ea930229690b24d7c815207cebeaff3691dd71388a7936e2a83f12",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "49e294fc99144bd365c721ccd551622f586415ed541358274136a4955c2f65b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "b4b86c18d8bff241653f3d8daab86a1c9120522cf961c940714d10d4986bba1e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "8b1efa8e4cdc324ab268d6d853cb645cbaf23f9ae8c642bacfc633b9d5c6212c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "f8a26c663f5b32e7e9b24926d1f60511ebeb56ebb8b580cf98c2dd848e30795f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "d0c838fcf21f36d63550b7353f03bc5585e0a6b26f865d4272e7216f89455e70",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32",
+        "excerpt_sha256": "f11ff1a061a2fe13000b5cf969bc3d03c6ddfccd297289f726108b691d96cbaa",
+        "status": "unverified"
+      },
+      {
+        "location": "page-42",
+        "excerpt_sha256": "f78bab2e903dd913df43fc8a96f1ee6847ed5fbcb341de1addfabee0eb3d8cc2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-47",
+        "excerpt_sha256": "f4783919571de64a902fcd2f8a11190862c8fddfeb8b299d96fd0e363659c58c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-48",
+        "excerpt_sha256": "a1b4116ac61125348be6c2d94a1085d0eddd40af561e3df9e2f2662df463bf89",
+        "status": "unverified"
+      },
+      {
+        "location": "page-49",
+        "excerpt_sha256": "24193d6ecf8e148eda789c1b2264aec3c9027061bf510defe9eb53a47df4ad78",
+        "status": "unverified"
+      },
+      {
+        "location": "page-56",
+        "excerpt_sha256": "7205f71100527c75a7eb0c2885b91e52635255fba081591cb55d19c8de3d8cd0",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "b35c580e71403a501e0814e801813cc62123b5d173e51cf055a34c793b1e6d2c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "908b5fd27c90d5f1cacd3c4663a42de83201af95edbc7ad3acaf263bcdfeaac5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-30",
+        "excerpt_sha256": "f1394ae67c62547a3cd84204e75dfb88d6094ecca03e5c4ce30db65b00cf8b2a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32",
+        "excerpt_sha256": "f11ff1a061a2fe13000b5cf969bc3d03c6ddfccd297289f726108b691d96cbaa",
+        "status": "unverified"
+      },
+      {
+        "location": "page-40",
+        "excerpt_sha256": "e2d297ab72cf0365d0c6588abdfba1509d8007c602fea8a33c9397f664ac2ce9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-41",
+        "excerpt_sha256": "d134fd094dc550beb3a1274f172108e8aee2551080c6c66db7af07e7350c4089",
+        "status": "unverified"
+      },
+      {
+        "location": "page-54",
+        "excerpt_sha256": "11892f560a50c89f4bbd98d663c87057c3eb19657daee3cf2f0b5557ce7936d4",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-33",
+        "excerpt_sha256": "5281300d8a7d1c8334dd8af45642e00e2a2146cbbfe54cc7c869061b946d9aa7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-43",
+        "excerpt_sha256": "bca514141e386c8c6f0dece55faf933bf8b871f43d33af9486c3f112a9ca44a7",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
