@@ -67,6 +67,8 @@ jobs:
       # Regression includes configured per-page OCR deadline and incomplete visual coverage.
       - name: Test source-linked private English worksheet and research pipeline
         run: python knowledge/trading-education/tools/test_research_pipeline.py
+      - name: Verify visual re-audit and extraction script syntax
+        run: python -m py_compile knowledge/trading-education/tools/resume_visual_pages.py knowledge/trading-education/tools/run_extraction_batch.py
       - name: Verify hard worker timeout regression (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_hard_timeout.py
       - name: Build cross-source research catalog
