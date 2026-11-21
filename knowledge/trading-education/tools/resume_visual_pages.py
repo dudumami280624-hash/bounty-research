@@ -34,12 +34,19 @@ def main():
             audit['legacy_reaudit_started']=True
             audit['ocr_failed_page_numbers']=[]
         failed_pages=list(audit.get('ocr_failed_page_numbers',[]))
-        retry_page=(failed_pages[0] if audit.get('coverage_complete') and failed_pages else None)
+        retry_page=None
+        if audit.get('coverage_complete') and failed_pages:
+            cooldowns=audit.get('ocr_page_retry_after_utc',{})
+            now=datetime.now(timezone.utc)
+            for candidate in failed_pages:
+                try:
+                    ready=datetime.fromisoformat(cooldowns[candidate.__str__()])<=now
+                except (KeyError, ValueError, TypeError):
+                    ready=True
+                if ready:
+                    retry_page=candidate
+                    break
         if audit.get('coverage_complete') and retry_page is None: continue
-        if retry_page is not None and audit.get('ocr_retry_after_utc'):
-            try:
-                if datetime.fromisoformat(audit['ocr_retry_after_utc'])>datetime.now(timezone.utc): continue
-            except ValueError: pass
         if audit.get('attempts',0)>=3:
             retry_after=audit.get('retry_after_utc')
             if retry_after:
@@ -80,9 +87,12 @@ def main():
                 if observation.get('ocr_success',False): failed.discard(page_number)
                 else: failed.add(page_number)
             audit['ocr_failed_page_numbers']=sorted(failed)
-            if retry_page is not None and retry_page in failed:
-                audit['ocr_retry_after_utc']=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
-            elif retry_page is not None:
+            if retry_page is not None:
+                cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
+                if retry_page in failed:
+                    cooldowns[str(retry_page)]=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
+                else:
+                    cooldowns.pop(str(retry_page),None)
                 audit.pop('ocr_retry_after_utc',None)
             audit['ocr_failed_pages_total']=len(failed)
             # Old audits recorded counts without page numbers; never silently certify them.
