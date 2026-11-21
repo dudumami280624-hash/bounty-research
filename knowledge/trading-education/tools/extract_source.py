@@ -44,7 +44,7 @@ def ooxml(path, fmt):
                                'visually_verified':False})
     return blocks, images, {'xml_parts_read':parts}
 
-def pdf(path):
+def pdf(path, start_page=0, max_pages=None):
     try: import fitz
     except ImportError: raise SystemExit('Install PDF support: pip install pymupdf')
     d=fitz.open(path); blocks=[]; images=[]; blank=[]; ocr_pages=[]; ocr_failed_pages=[]
@@ -60,14 +60,19 @@ def pdf(path):
             available=subprocess.run(['tesseract','--list-langs'],capture_output=True,text=True,timeout=5).stdout
             if 'chi_sim' in available.split(): languages='eng+chi_sim'
         except (subprocess.TimeoutExpired,OSError): pass
-    for i,p in enumerate(d,1):
+    total_pages=len(d)
+    stop=total_pages if max_pages is None else min(total_pages,start_page+max_pages)
+    if start_page<0 or start_page>total_pages: raise ValueError('Invalid PDF start page')
+    for i in range(start_page,stop):
+        p=d[i]
+        page_number=i+1
         s=p.get_text('text').strip()
-        if s: blocks.append({'location':f'page-{i}','text':s})
+        if s: blocks.append({'location':f'page-{page_number}','text':s})
         else:
-            blank.append(i)
+            blank.append(page_number)
             if attempted_ocr >= max_ocr_pages:
-                deferred_ocr_pages.append(i)
-                ocr_failed_pages.append(i)
+                deferred_ocr_pages.append(page_number)
+                ocr_failed_pages.append(page_number)
             elif shutil.which('tesseract'):
                 attempted_ocr+=1
                 with tempfile.TemporaryDirectory() as tmp:
@@ -77,16 +82,16 @@ def pdf(path):
                         run=subprocess.run(['tesseract',str(image_path),'stdout','-l',languages],
                                            capture_output=True,text=True,timeout=ocr_timeout)
                         if run.returncode==0 and run.stdout.strip():
-                            blocks.append({'location':f'page-{i}:OCR-unverified',
+                            blocks.append({'location':f'page-{page_number}:OCR-unverified',
                                            'text':run.stdout.strip()})
-                            ocr_pages.append(i)
+                            ocr_pages.append(page_number)
                         else: ocr_failed_pages.append(i)
                     except (subprocess.TimeoutExpired, OSError): ocr_failed_pages.append(i)
             else: ocr_failed_pages.append(i)
         for j,im in enumerate(p.get_images(full=True),1):
-            images.append({'location':f'page-{i}:image-{j}',
+            images.append({'location':f'page-{page_number}:image-{j}',
                            'xref':im[0],'visually_verified':False})
-    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_failed_pages':ocr_failed_pages, 'ocr_deferred_pages':deferred_ocr_pages, 'initial_ocr_page_limit':max_ocr_pages, 'ocr_languages':languages, 'ocr_page_timeout_seconds':ocr_timeout, 'ocr_requires_manual_review':True}
+    return blocks,images,{'pages':total_pages,'window_start_page':start_page+1,'window_end_page':stop,'window_complete':stop>=total_pages,'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_failed_pages':ocr_failed_pages, 'ocr_deferred_pages':deferred_ocr_pages, 'initial_ocr_page_limit':max_ocr_pages, 'ocr_languages':languages, 'ocr_page_timeout_seconds':ocr_timeout, 'ocr_requires_manual_review':True}
 
 def main():
     a=argparse.ArgumentParser()
