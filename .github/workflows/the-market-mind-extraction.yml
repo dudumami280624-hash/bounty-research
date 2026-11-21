@@ -74,6 +74,8 @@ jobs:
         run: python -m py_compile knowledge/trading-education/tools/resume_visual_pages.py knowledge/trading-education/tools/run_extraction_batch.py
       - name: Verify bounded initial PDF OCR preserves deferred page locators (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_pdf_ocr_budget.py
+      - name: Verify bounded PDF page windows and page locators (synthetic fixture only)
+        run: python knowledge/trading-education/tools/test_pdf_page_windows.py
       - name: Verify hard worker timeout regression (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_hard_timeout.py
       - name: Build cross-source research catalog
