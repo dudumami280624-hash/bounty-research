@@ -90,6 +90,7 @@ jobs:
       - name: Verify bounded PDF page windows and page locators (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_pdf_page_windows.py
       # Also rejects source-byte drift before advancing a persisted page cursor (research f7e1b5d).
+      # Regression also checks fair rotation across three priority PDF sources (research 891c9b7).
       - name: Verify PDF text checkpoint resumes across CI runs (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_pdf_text_checkpoint.py
       - name: Verify hard worker timeout regression (synthetic fixture only)
