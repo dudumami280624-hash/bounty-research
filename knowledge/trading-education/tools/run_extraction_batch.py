@@ -170,6 +170,15 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
         if record.get('extraction_status') not in ('extracted','partial_ocr_failure','needs_visual_review'): continue
         audit=record.setdefault('pdf_text_page_audit',{'next_page':0,'total_pages':None,'page_evidence':{},'coverage_complete':False})
         if audit.get('coverage_complete'): continue
+        # Avoid repeatedly downloading a broken PDF every hour while still
+        # retrying transient failures after a six-hour cooldown.
+        retry_after=audit.get('retry_after_utc')
+        if retry_after:
+            try:
+                if datetime.now(timezone.utc)<datetime.fromisoformat(retry_after):
+                    continue
+            except (TypeError,ValueError):
+                pass
         try:
             # Network fetch and native parser are bounded by the caller's worker deadline.
             blob=download_blob(entry['sha'], timeout_seconds=25)
@@ -205,9 +214,11 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
                     audit['coverage_complete']=stop==total
                     audit['last_advanced_utc']=datetime.now(timezone.utc).isoformat()
                     audit.pop('last_error',None)
+                    audit.pop('retry_after_utc',None)
                     advanced.append({'source_sha':entry['sha'],'pages':f'{start+1}-{stop}','total':total})
         except Exception as exc:
             audit['last_error']=str(exc)[:250]
+            audit['retry_after_utc']=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
             print(f'TEXT WINDOW ERROR {entry["name"]!r}: {exc}',flush=True)
         # Never persist source text. The source SHA and page hashes permit re-extraction.
         audit_checkpoint=STATE.with_suffix('.audit.tmp')
