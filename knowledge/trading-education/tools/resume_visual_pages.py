@@ -40,6 +40,21 @@ def adaptive_window_pages(configured, attempts):
     """Shrink OCR-heavy windows after deadline failures without losing the page checkpoint."""
     return max(1, configured // (2 ** min(max(0, attempts), 5)))
 
+def visual_priority(entry, files):
+    """Finish started page audits first, preserving the 26-source category priority.
+
+    Sorting by *ascending* next_page repeatedly selected new PDFs (page zero)
+    ahead of unfinished books, so long PDFs never reached their final pages.
+    Each file still gets at most one window per run.
+    """
+    audit=files[entry['sha']].get('visual_page_audit',{})
+    next_page=max(0,int(audit.get('next_page',0)))
+    return (0 if entry['category'].startswith('01-') else 1,
+            bool(audit.get('coverage_complete',False)),
+            0 if next_page>0 else 1,
+            -next_page,
+            entry['name'])
+
 def main():
     state=json.loads(STATE.read_text(encoding='utf-8'))
     files=state['files']
@@ -48,10 +63,7 @@ def main():
              files.get(e['sha'],{}).get('extraction_status') in ('extracted','partial_ocr_failure','needs_visual_review')]
     # Prioritize unfinished first-pass coverage over retries of already visited pages.
     # Otherwise the first two OCR-heavy books can consume every hourly window.
-    entries.sort(key=lambda e: (
-        bool(files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)),
-        int(files[e['sha']].get('visual_page_audit',{}).get('next_page',0)),
-        e['name']))
+    entries.sort(key=lambda e: visual_priority(e,files))
     budget=int(os.environ.get('TMM_VISUAL_AUDIT_BUDGET_SECONDS','145'))
     started=time.monotonic()
     completed=0
