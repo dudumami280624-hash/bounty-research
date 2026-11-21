@@ -49,6 +49,18 @@ def retain_page_evidence(audit, observations):
             'chart_candidate_unverified':bool(observation.get('chart_candidate',False)),
         }
 
+def update_page_retry_cooldowns(audit, observations, failed, now):
+    """Per-page retry schedule; successful OCR clears its own cooldown."""
+    cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
+    retry_at=(now+timedelta(hours=6)).isoformat()
+    for observation in observations:
+        key=str(observation['page'])
+        if observation['page'] in failed:
+            cooldowns[key]=retry_at
+        else:
+            cooldowns.pop(key,None)
+    audit.pop('ocr_retry_after_utc',None)
+
 def adaptive_window_pages(configured, attempts):
     """Shrink OCR-heavy windows after deadline failures without losing the page checkpoint."""
     return max(1, configured // (2 ** min(max(0, attempts), 5)))
@@ -150,15 +162,7 @@ def main():
             # Schedule *every* failed page independently, including first-pass
             # failures. Previously first-pass failures had no cooldown and could
             # immediately consume all six hourly windows on the same pages.
-            cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
-            retry_at=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
-            for observation in observations:
-                key=str(observation['page'])
-                if observation['page'] in failed:
-                    cooldowns[key]=retry_at
-                else:
-                    cooldowns.pop(key,None)
-            audit.pop('ocr_retry_after_utc',None)
+            update_page_retry_cooldowns(audit, observations, failed, datetime.now(timezone.utc))
             audit['ocr_failed_pages_total']=len(failed)
             # Old audits recorded counts without page numbers; never silently certify them.
             if audit.get('legacy_reaudit_started') and audit['coverage_complete']:
