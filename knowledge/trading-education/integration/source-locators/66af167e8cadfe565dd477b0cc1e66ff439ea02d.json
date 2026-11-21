@@ -1,0 +1,182 @@
+{
+  "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+  "source_name": "如何识别趋势交易通道.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "f2dbd30e133d3cbd219ca793bf29232b31b4ae0e86ef647d45c638d18e0bbce1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "0a850c9fb5dd1de77f59666c90144e3b0c42c9f534038bd9402e3d0b16c5645c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "b50df6f0e32f03ebe4f55c098cbcbe078abe14b18a90f4fff6442d6a185117df",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "003afd58e8ecc68842da0accfecee9386b7094b570e7e5a5ca20c51ba704713b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "b3de225978dec0092e2847a66c5a967eec828072841d483b77b5f0ff791f7e43",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "92b7293b3c21d86f92e3941ea5f2d19b07c8447be92eaddc3be9db9641543f50",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "20df1261e24289e4a12f3cd7017fcc7b2d67747b7ffd8ca28e1b6753d7b7ef8c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "2df63de4e38bc079223eadb767824381af363d4fae2b07e330a04bbdf2d3542a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "968349b54dec18f65461c8f8ae8fa5c53930cc82abc3223283370c04efcf62d9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "e63bc187c36418e6b16a3a185fe3b86dc2d1859b3c2834b011d4b55e471cea9f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19",
+        "excerpt_sha256": "135dcd9d7ba45c403fc50e0be74b62dab42b82f0e6623c7a06af84d4c1e5a1dc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "38664bcafa4109cb019075130cfe4b85ba24e29f459cd8e8efa24e951bc8c115",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "088f6a3619349c625f295aeea73b44e4dfca093c58501c7ad3ad76dcbe83ff8c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "f0091823c2ee5ecfc33b188391d21d2aa96edbbcafc174675029b544a785a358",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "a923acdc0640b7e6d9b8ce9863bef3c0f84956a83742d4d040e6c90b6a3e6349",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "e55a31ceaa5377864bc125f941ccc83f842453cd5b90833d995abf29fa6e8a4e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "55114c039d3aa99fff1f96d933abbcaffe5ca8508a762afa88ddc72eae74b9ce",
+        "status": "unverified"
+      },
+      {
+        "location": "page-27",
+        "excerpt_sha256": "f65472b2440f9a467c523bade33cb0170ab529f9543715471c5a1df822ddae20",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "b3de225978dec0092e2847a66c5a967eec828072841d483b77b5f0ff791f7e43",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "92b7293b3c21d86f92e3941ea5f2d19b07c8447be92eaddc3be9db9641543f50",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "2df63de4e38bc079223eadb767824381af363d4fae2b07e330a04bbdf2d3542a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "968349b54dec18f65461c8f8ae8fa5c53930cc82abc3223283370c04efcf62d9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "e63bc187c36418e6b16a3a185fe3b86dc2d1859b3c2834b011d4b55e471cea9f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "38664bcafa4109cb019075130cfe4b85ba24e29f459cd8e8efa24e951bc8c115",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "f0091823c2ee5ecfc33b188391d21d2aa96edbbcafc174675029b544a785a358",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "a923acdc0640b7e6d9b8ce9863bef3c0f84956a83742d4d040e6c90b6a3e6349",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-13",
+        "excerpt_sha256": "2df63de4e38bc079223eadb767824381af363d4fae2b07e330a04bbdf2d3542a",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-13",
+        "excerpt_sha256": "2df63de4e38bc079223eadb767824381af363d4fae2b07e330a04bbdf2d3542a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "088f6a3619349c625f295aeea73b44e4dfca093c58501c7ad3ad76dcbe83ff8c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "f0091823c2ee5ecfc33b188391d21d2aa96edbbcafc174675029b544a785a358",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "a923acdc0640b7e6d9b8ce9863bef3c0f84956a83742d4d040e6c90b6a3e6349",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "55114c039d3aa99fff1f96d933abbcaffe5ca8508a762afa88ddc72eae74b9ce",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-22",
+        "excerpt_sha256": "088f6a3619349c625f295aeea73b44e4dfca093c58501c7ad3ad76dcbe83ff8c",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

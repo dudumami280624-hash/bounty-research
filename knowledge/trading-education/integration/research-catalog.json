@@ -690,6 +690,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+          "source_name": "如何识别趋势交易通道.pdf",
+          "locations": [
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -2635,6 +2646,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "2ccb167f3755c586dd8eb0c32f2d38675b50b626",
+          "source_name": "均线的经典形态.pdf",
+          "locations": [
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3a8f058eca2aceac0667d7a54b494f94a4ff1895",
           "source_name": "20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf",
           "locations": [
@@ -2883,6 +2905,33 @@
             },
             {
               "location": "word/document.xml:paragraph-109",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+          "source_name": "如何识别趋势交易通道.pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
               "term_mentions": 1
             }
           ],
@@ -3585,6 +3634,17 @@
           "locations": [
             {
               "location": "page-234:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "cb47af59d2a728f1011ee4b1dbfed70b9ddf44d9",
+          "source_name": "左侧交易与右侧交易：抄底与追涨的策略逻辑.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -4958,6 +5018,41 @@
             {
               "location": "word/document.xml:paragraph-12",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "2ccb167f3755c586dd8eb0c32f2d38675b50b626",
+          "source_name": "均线的经典形态.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 4
             }
           ],
           "status": "candidate_unverified"
@@ -6711,6 +6806,21 @@
             },
             {
               "location": "page-5627",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f6bedf12be7a1cbb74474b71057a553efd1fd6b4",
+          "source_name": "布林带的逻辑与力量.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-6",
               "term_mentions": 1
             }
           ],
@@ -13485,6 +13595,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+          "source_name": "如何识别趋势交易通道.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "68a2df654f366399c63b6d4799bb1b75ef02acd4",
           "source_name": "K线策略体系：右侧突破.pptx",
           "locations": [
@@ -16031,6 +16180,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f6bedf12be7a1cbb74474b71057a553efd1fd6b4",
+          "source_name": "布林带的逻辑与力量.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
           "source_name": "技术指标策略体系：MA(1).pptx",
           "locations": [
@@ -18057,6 +18221,85 @@
             },
             {
               "location": "page-138",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+          "source_name": "如何识别趋势交易通道.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-27",
               "term_mentions": 1
             }
           ],
@@ -20385,6 +20628,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "cb47af59d2a728f1011ee4b1dbfed70b9ddf44d9",
+          "source_name": "左侧交易与右侧交易：抄底与追涨的策略逻辑.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "cfe509743f325c8831b681494461732a4b1710c1",
           "source_name": "技术指标策略体系：MA 英文版 (3).pptx",
           "locations": [
@@ -21306,6 +21564,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f6bedf12be7a1cbb74474b71057a553efd1fd6b4",
+          "source_name": "布林带的逻辑与力量.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
           "source_name": "技术指标策略体系：MA(1).pptx",
           "locations": [
@@ -22024,6 +22297,17 @@
             },
             {
               "location": "page-877",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+          "source_name": "如何识别趋势交易通道.pdf",
+          "locations": [
+            {
+              "location": "page-13",
               "term_mentions": 1
             }
           ],

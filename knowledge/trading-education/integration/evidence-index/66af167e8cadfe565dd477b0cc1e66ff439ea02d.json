@@ -1,0 +1,176 @@
+{
+  "source_sha": "66af167e8cadfe565dd477b0cc1e66ff439ea02d",
+  "source_name": "如何识别趋势交易通道.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-22",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 31,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-13",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-19",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-27",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 19,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-13",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-13",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-13",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

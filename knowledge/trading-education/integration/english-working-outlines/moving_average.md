@@ -16,6 +16,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12): review the original example and explain its context.
 
+- 均线的经典形态.pdf (source 2ccb167f3755, page-1, page-3, page-5, page-7, page-8): review the original example and explain its context.
+
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-31:shape-26, slide-31:shape-27): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-5:shape-5, slide-5:shape-6): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-8): review the original example and explain its context.
 
 - 77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf (source 61449ad5f6f6, page-140, page-143, page-421): review the original example and explain its context.
-
-- 第九节RSI.docx (source 7037c5787026, word/document.xml:paragraph-23, word/document.xml:paragraph-26): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

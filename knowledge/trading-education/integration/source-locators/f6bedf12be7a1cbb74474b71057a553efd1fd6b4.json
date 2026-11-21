@@ -1,0 +1,43 @@
+{
+  "source_sha": "f6bedf12be7a1cbb74474b71057a553efd1fd6b4",
+  "source_name": "布林带的逻辑与力量.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "da96d617f848c16b27647a9ebe224ad57e6530fc769881f84ec0862371344042",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "1b607697ee2058afa61f4f1ede4d70d053a11e56448dd831e47c75f374c95832",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "da96d617f848c16b27647a9ebe224ad57e6530fc769881f84ec0862371344042",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "f0710db5a87bb24194a5ca4a02389c0e315bde5c7d374adeb4a2e6dd4b901071",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "f0710db5a87bb24194a5ca4a02389c0e315bde5c7d374adeb4a2e6dd4b901071",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "22feb66f1d7a1620b4f47c4bc7163dd12eb2a54a1051dd73dd433a9f4a77403f",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

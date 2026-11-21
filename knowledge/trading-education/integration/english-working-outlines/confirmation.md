@@ -20,6 +20,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 华尔街：金字塔交易（1.2.3.4.5）.docx (source 2c0ff6f3ea76, word/document.xml:paragraph-48): review the original example and explain its context.
 
+- 均线的经典形态.pdf (source 2ccb167f3755, page-12): review the original example and explain its context.
+
 - 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-93, page-135, page-412, page-687, page-794): review the original example and explain its context.
 
 - 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-128, page-142): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-96, word/document.xml:paragraph-105, word/document.xml:paragraph-112, word/document.xml:paragraph-113): review the original example and explain its context.
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-35, word/document.xml:paragraph-38, word/document.xml:paragraph-95, word/document.xml:paragraph-104): review the original example and explain its context.
-
-- 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-9): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

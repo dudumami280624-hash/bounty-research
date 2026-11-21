@@ -1,0 +1,26 @@
+{
+  "source_sha": "cb47af59d2a728f1011ee4b1dbfed70b9ddf44d9",
+  "source_name": "左侧交易与右侧交易：抄底与追涨的策略逻辑.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "9c02eb2c70efe82696e7bf1fb96ca66bbaf9e983d2550d534100a35809f7816a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "eca0d116a42d38c7504832b5f201bec439fc33f7bb1749d37ee5547abb18f8c8",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "9c02eb2c70efe82696e7bf1fb96ca66bbaf9e983d2550d534100a35809f7816a",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

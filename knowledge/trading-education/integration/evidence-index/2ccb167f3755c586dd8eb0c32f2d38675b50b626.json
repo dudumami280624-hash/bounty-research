@@ -1,0 +1,55 @@
+{
+  "source_sha": "2ccb167f3755c586dd8eb0c32f2d38675b50b626",
+  "source_name": "均线的经典形态.pdf",
+  "topics": [
+    {
+      "concept": "moving_average",
+      "mentions": 36,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 7
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

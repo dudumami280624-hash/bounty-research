@@ -1,0 +1,51 @@
+{
+  "source_sha": "2ccb167f3755c586dd8eb0c32f2d38675b50b626",
+  "source_name": "均线的经典形态.pdf",
+  "topics": {
+    "moving_average": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "f26f44d810fc40fd8076c1cbaa26e5794fb83b9dbb673f71c5970daed957466d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "c0f3b842ae88bea7051f5b07c9edd895a22b80b66b07fcce00beaa6edad79ae3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "eb4a37868c7a5b44e3a7a58e6e8118f7a32d3b2b5fd07de94f78cfe2eff19d32",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "8b17c835efe95ba07bc2e59bf0d6bd04fcaa60b54dca9de8cb03539e77fb652c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "526e8e740021ebf51f049a151ddc5c3c3281c8426214141b24c332c266265e60",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "670856eb08e7d85dbb01148f9a522c98b964f3556a0ee161b5f2ef7ac4c963af",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "17d13545495563f3ec775714dd1d4fe62496493ce79e7e895a3b0286dfe43490",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-12",
+        "excerpt_sha256": "dfbdc1916b5bc01fd9fa673a7f4e9442c1cb4678fdc3646c7e3e51bfdd7d855c",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

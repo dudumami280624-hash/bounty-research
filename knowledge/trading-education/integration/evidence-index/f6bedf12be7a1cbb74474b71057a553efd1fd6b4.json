@@ -1,0 +1,54 @@
+{
+  "source_sha": "f6bedf12be7a1cbb74474b71057a553efd1fd6b4",
+  "source_name": "布林带的逻辑与力量.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
