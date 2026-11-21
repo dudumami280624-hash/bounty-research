@@ -2,7 +2,7 @@
 """Free offline visual inspection using PyMuPDF and Tesseract.
 Produces page-image evidence and OCR; does NOT claim semantic chart understanding.
 """
-import hashlib, json, shutil, subprocess, tempfile, os
+import hashlib, json, shutil, subprocess, tempfile, os, re
 from pathlib import Path
 
 def inspect_pdf(pdf_path, output, start_page=0):
@@ -31,14 +31,19 @@ def inspect_pdf(pdf_path, output, start_page=0):
                 'visual_window_start':start_page}
         embedded_text=page.get_text('text').strip()
         record['embedded_text_characters']=len(embedded_text)
-        if embedded_text:
+        # A page number, running header or watermark is not evidence that a
+        # scanned chart/table has been transcribed. OCR sparse-text pages too.
+        meaningful_chars=len(re.sub(r'\\s+', '', embedded_text))
+        sparse_embedded=bool(embedded_text) and meaningful_chars<80
+        record['embedded_text_sparse']=sparse_embedded
+        if embedded_text and not sparse_embedded:
             record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
             record['text_origin']='embedded_pdf_text'
             record['ocr_performed']=False
             record['ocr_skipped_reason']='embedded_text_available'
             record['ocr_text_characters']=len(embedded_text)
         elif shutil.which('tesseract'):
-            record['text_origin']='ocr_unverified'
+            record['text_origin']='embedded_sparse_plus_ocr_unverified' if sparse_embedded else 'ocr_unverified'
             record['ocr_performed']=True
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
@@ -55,7 +60,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     record['ocr_error']=(proc.stderr[-200:] if proc.returncode else ('OCR returned no text; page requires review' if not proc.stdout.strip() else ''))
         else:
             record['ocr_success']=False
-            record['text_origin']='none'
+            record['text_origin']='embedded_sparse_ocr_unavailable' if sparse_embedded else 'none'
             record['ocr_performed']=False
             record['ocr_error']='Tesseract unavailable'
         record['chart_candidate']=bool(record['vector_drawings']>=12 or record['image_objects']>0)
