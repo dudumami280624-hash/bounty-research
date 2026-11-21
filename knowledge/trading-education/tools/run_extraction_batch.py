@@ -189,7 +189,7 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
             audit['last_error']=str(exc)[:250]
             print(f'TEXT WINDOW ERROR {entry["name"]!r}: {exc}',flush=True)
         # Never persist source text. The source SHA and page hashes permit re-extraction.
-        STATE.write_text(json.dumps({'schema_version':2,'files':files},ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+        STATE.write_text(json.dumps({'schema_version':2,'files':files},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         if len(advanced)>=2: break
     return advanced
 
