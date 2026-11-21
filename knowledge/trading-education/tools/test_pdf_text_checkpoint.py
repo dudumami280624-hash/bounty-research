@@ -38,6 +38,14 @@ def main():
         assert not any('SYNTHETIC PRIVATE PAGE' in str(v) for v in audit['page_evidence'].values())
         assert not batch.advance_pdf_text_windows([entry],persisted,budget_seconds=10,window_pages=2)
         assert all(not v['verified'] for v in audit['page_evidence'].values())
+        # With three unfinished priority PDFs, two windows per run must rotate:
+        # a third book cannot be starved by the same first two books forever.
+        other=[{'name':f'synthetic-{i}.pdf','sha':str(i)*40,'category':'01-test'} for i in (1,2,3)]
+        rotating={e['sha']:{'extraction_status':'partial_ocr_failure'} for e in other}
+        batch.download_blob=lambda sha, timeout_seconds=180:data
+        batch.advance_pdf_text_windows(other,rotating,budget_seconds=10,window_pages=1)
+        batch.advance_pdf_text_windows(other,rotating,budget_seconds=10,window_pages=1)
+        assert all(rotating[e['sha']]['pdf_text_page_audit']['next_page']>=1 for e in other), rotating
         # Tampering with source bytes must not advance a cursor or replace evidence.
         persisted[entry['sha']]['pdf_text_page_audit']['coverage_complete']=False
         persisted[entry['sha']]['pdf_text_page_audit']['next_page']=4
