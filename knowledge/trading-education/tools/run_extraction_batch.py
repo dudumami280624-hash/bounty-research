@@ -155,7 +155,15 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
     window_pages=max(1,min(30,int(window_pages)))
     started=time.monotonic()
     advanced=[]
-    for entry in entries:
+    # Oldest last-served PDF first within the priority-26 group. Without rotation,
+    # two long books monopolize the two windows for many consecutive CI runs.
+    def audit_priority(entry):
+        record=files.get(entry['sha'],{})
+        audit=record.get('pdf_text_page_audit') or {}
+        return (0 if entry.get('category','').startswith('01-') else 1,
+                audit.get('last_advanced_utc',''),
+                entry['sha'])
+    for entry in sorted(entries,key=audit_priority):
         if time.monotonic()-started>=budget_seconds: break
         if not entry['name'].lower().endswith('.pdf'): continue
         record=files.get(entry['sha'],{})
@@ -195,6 +203,8 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
                     audit['source_sha256']=actual_sha256
                     audit['next_page']=stop
                     audit['coverage_complete']=stop==total
+                    audit['last_advanced_utc']=datetime.now(timezone.utc).isoformat()
+                    audit.pop('last_error',None)
                     advanced.append({'source_sha':entry['sha'],'pages':f'{start+1}-{stop}','total':total})
         except Exception as exc:
             audit['last_error']=str(exc)[:250]
