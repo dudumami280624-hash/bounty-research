@@ -147,6 +147,52 @@ def isolated_extract(entry, timeout_seconds):
     if kind=='error': raise RuntimeError(payload)
     return payload
 
+def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12):
+    """Persist page-by-page *metadata* across CI runs, never copyrighted text.
+    This is an independent completeness audit, not a claim that earlier text survives.
+    """
+    import fitz
+    started=time.monotonic()
+    advanced=[]
+    for entry in entries:
+        if time.monotonic()-started>=budget_seconds: break
+        if not entry['name'].lower().endswith('.pdf'): continue
+        record=files.get(entry['sha'],{})
+        if record.get('extraction_status') not in ('extracted','partial_ocr_failure','needs_visual_review'): continue
+        audit=record.setdefault('pdf_text_page_audit',{'next_page':0,'total_pages':None,'page_evidence':{},'coverage_complete':False})
+        if audit.get('coverage_complete'): continue
+        try:
+            blob=download_blob(entry['sha'])
+            with tempfile.TemporaryDirectory() as td:
+                source=Path(td)/'source.pdf'
+                source.write_bytes(blob)
+                with fitz.open(source) as doc:
+                    total=len(doc)
+                    start=int(audit.get('next_page',0))
+                    if start<0 or start>=total: raise ValueError('Invalid PDF text audit cursor')
+                    stop=min(total,start+window_pages)
+                    evidence={}
+                    for i in range(start,stop):
+                        page=doc[i]
+                        raw=page.get_text('text').strip()
+                        evidence[str(i+1)]={'source_page':i+1,
+                            'text_origin':'embedded_pdf_text' if raw else 'no_embedded_text',
+                            'embedded_text_sha256':hashlib.sha256(raw.encode()).hexdigest() if raw else None,
+                            'embedded_text_chars':len(raw),
+                            'ocr_needed':not bool(raw),'verified':False}
+                    audit['page_evidence'].update(evidence)
+                    audit['total_pages']=total
+                    audit['next_page']=stop
+                    audit['coverage_complete']=stop==total
+                    advanced.append({'source_sha':entry['sha'],'pages':f'{start+1}-{stop}','total':total})
+        except Exception as exc:
+            audit['last_error']=str(exc)[:250]
+            print(f'TEXT WINDOW ERROR {entry["name"]!r}: {exc}',flush=True)
+        # Never persist source text. The source SHA and page hashes permit re-extraction.
+        STATE.write_text(json.dumps({'schema_version':2,'files':files},ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+        if len(advanced)>=2: break
+    return advanced
+
 def main():
     if not TOKEN: raise RuntimeError('GITHUB_TOKEN is missing')
     entries=inventory(INDEX.read_text(encoding='utf-8'))
@@ -208,6 +254,10 @@ def main():
         checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         checkpoint.replace(STATE)
         processed.append({'source_name':entry['name'],'source_sha':sha,'status':status['extraction_status']})
+    text_windows=advance_pdf_text_windows(entries,files,
+        budget_seconds=int(os.environ.get('TMM_TEXT_AUDIT_BUDGET_SECONDS','120')),
+        window_pages=int(os.environ.get('TMM_TEXT_WINDOW_PAGES','12')))
+    print('PDF TEXT WINDOWS',json.dumps(text_windows,ensure_ascii=False),flush=True)
     status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'no_eligible_files'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
