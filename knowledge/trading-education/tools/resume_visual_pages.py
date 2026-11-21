@@ -6,6 +6,17 @@ from pathlib import Path
 from run_extraction_batch import ROOT, INDEX, STATE, inventory, download_blob
 from free_visual import inspect_pdf
 
+def next_retry_page(failed_pages, cooldowns, now):
+    """Choose first eligible failed 1-based page; never strand others behind one failure."""
+    for candidate in failed_pages:
+        try:
+            ready=datetime.fromisoformat(cooldowns[str(candidate)])<=now
+        except (KeyError, ValueError, TypeError):
+            ready=True
+        if ready:
+            return candidate
+    return None
+
 def main():
     state=json.loads(STATE.read_text(encoding='utf-8'))
     files=state['files']
@@ -34,18 +45,8 @@ def main():
             audit['legacy_reaudit_started']=True
             audit['ocr_failed_page_numbers']=[]
         failed_pages=list(audit.get('ocr_failed_page_numbers',[]))
-        retry_page=None
-        if audit.get('coverage_complete') and failed_pages:
-            cooldowns=audit.get('ocr_page_retry_after_utc',{})
-            now=datetime.now(timezone.utc)
-            for candidate in failed_pages:
-                try:
-                    ready=datetime.fromisoformat(cooldowns[candidate.__str__()])<=now
-                except (KeyError, ValueError, TypeError):
-                    ready=True
-                if ready:
-                    retry_page=candidate
-                    break
+        retry_page=(next_retry_page(failed_pages,audit.get('ocr_page_retry_after_utc',{}),datetime.now(timezone.utc))
+                    if audit.get('coverage_complete') else None)
         if audit.get('coverage_complete') and retry_page is None: continue
         if audit.get('attempts',0)>=3:
             retry_after=audit.get('retry_after_utc')
