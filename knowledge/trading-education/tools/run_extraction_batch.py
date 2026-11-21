@@ -4,7 +4,7 @@ Outputs only non-copyrighted processing metadata to the public repository.
 Never marks image review, factual validation, or teaching integration as complete.
 """
 import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil, time, signal, multiprocessing
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from extract_source import ooxml, pdf
 from evidence_candidates import candidates
@@ -157,10 +157,20 @@ def main():
     # owns page-level follow-up. Neither status implies verified OCR or semantics.
     terminal={'extracted','needs_visual_review','partial_ocr_failure'}
     converter_available=bool(shutil.which('libreoffice'))
-    pending=[e for e in entries if files.get(e['sha'],{}).get('extraction_status') not in terminal
-             and (files.get(e['sha'],{}).get('attempts',0)<MAX_ATTEMPTS
-                  or (files.get(e['sha'],{}).get('extraction_status')=='needs_conversion' and converter_available))
-             and (converter_available or Path(e['name']).suffix.lower() not in ('.doc','.ppt'))]
+    # Retry exhausted failed sources after a six-hour cooldown, never silently abandon them.
+    def eligible(e):
+        previous=files.get(e['sha'],{})
+        if previous.get('extraction_status') in terminal: return False
+        if not converter_available and Path(e['name']).suffix.lower() in ('.doc','.ppt'): return False
+        if previous.get('extraction_status')=='needs_conversion' and converter_available: return True
+        if previous.get('attempts',0)<MAX_ATTEMPTS: return True
+        if previous.get('extraction_status')!='failed': return False
+        try:
+            last=datetime.fromisoformat(previous['last_attempt_utc'])
+            return datetime.now(timezone.utc)>=last+timedelta(hours=6)
+        except (KeyError, ValueError, TypeError):
+            return False
+    pending=[e for e in entries if eligible(e)]
     # Track deferred legacy documents without treating them as failed attempts.
     for e in entries:
         if not converter_available and Path(e['name']).suffix.lower() in ('.doc','.ppt') and e['sha'] not in files:
@@ -177,9 +187,13 @@ def main():
             break
         sha=entry['sha'];previous=files.get(sha,{})
         print(f'BEGIN source={entry["name"]!r} sha={sha} attempt={previous.get("attempts",0)+1}',flush=True)
-        attempts=previous.get('attempts',0)+1
+        attempts=(0 if previous.get('attempts',0)>=MAX_ATTEMPTS else previous.get('attempts',0))+1
         try:
-            status=isolated_extract(entry,per_source_timeout)
+            remaining=budget_seconds-(time.monotonic()-started)
+            if remaining<30:
+                print('Insufficient batch time for another source',flush=True)
+                break
+            status=isolated_extract(entry,min(per_source_timeout,int(remaining)))
         except Exception as exc:
             status={'extraction_status':'failed','error':str(exc)[:500]}
         status.update({'source_name':entry['name'],'category':entry['category'],
