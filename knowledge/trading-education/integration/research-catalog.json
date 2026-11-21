@@ -5113,6 +5113,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
+          "source_name": "碰撞均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "213dea66f2aa88af466ea396e9c0bfea80344695",
           "source_name": "84-财经时事 各抒己见-yyttff1981.pdf",
           "locations": [
@@ -7392,6 +7431,17 @@
             },
             {
               "location": "page-173",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
+          "source_name": "碰撞均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-9",
               "term_mentions": 1
             }
           ],
@@ -12984,6 +13034,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
+          "source_name": "碰撞均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "1debe93faf7685d10e8e08752910ad7bbfbf5308",
           "source_name": "169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf",
           "locations": [
@@ -17062,6 +17139,21 @@
             {
               "location": "word/document.xml:paragraph-9",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
+          "source_name": "碰撞均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -22646,6 +22738,17 @@
             {
               "location": "page-122",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
+          "source_name": "碰撞均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"

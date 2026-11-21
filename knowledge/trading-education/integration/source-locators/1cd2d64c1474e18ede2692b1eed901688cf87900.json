@@ -1,0 +1,102 @@
+{
+  "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
+  "source_name": "碰撞均线启动点.pdf",
+  "topics": {
+    "moving_average": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "5dc7e28e5494f88f393d10a39bfc0e230f149499ca0f2e42d32461ab2a5d584f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "0a99dc04d4ab3c881ddca0377d48040619783c499c2c55123a232737bc566c3a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "4815a222b47aacd774164988b55864e22e561767498efd8916cc8b00df80d50b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "331353de5603fc7aa88c5d26dd6a5aa34d8d78b5c8b4306aa5dbb34606dc9fc8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "a8e67a6d9ebce4693b1fdfce92899820e13975ceb3c760a36b3d6741975460df",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "f01fd606bdaf29cbb7ca40f46bc59855f846ac53e1abc8b444fe02e0ac7c62a6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "4d14c3929fe13af4b889cff98297d41a2d8ac5ad4034349cf8e65d6e3450039f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "00e96cc3a4644917ffd66cf899677923d7ce98a5fc416f1b9256fd507e902258",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "0a99dc04d4ab3c881ddca0377d48040619783c499c2c55123a232737bc566c3a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "4815a222b47aacd774164988b55864e22e561767498efd8916cc8b00df80d50b",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "0a99dc04d4ab3c881ddca0377d48040619783c499c2c55123a232737bc566c3a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "4815a222b47aacd774164988b55864e22e561767498efd8916cc8b00df80d50b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "ac94d91bdb197983882f18586c112c5d77ac45c3b515c75cf80dddff7747404d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "f01fd606bdaf29cbb7ca40f46bc59855f846ac53e1abc8b444fe02e0ac7c62a6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "00e96cc3a4644917ffd66cf899677923d7ce98a5fc416f1b9256fd507e902258",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "4d14c3929fe13af4b889cff98297d41a2d8ac5ad4034349cf8e65d6e3450039f",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "4d14c3929fe13af4b889cff98297d41a2d8ac5ad4034349cf8e65d6e3450039f",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

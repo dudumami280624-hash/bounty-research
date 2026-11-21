@@ -10,6 +10,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 73-2019趋势预测及机会分析-老江南.pdf (source 03e36d1e2f2f, page-4, page-8, page-18, page-34): review the original example and explain its context.
 
+- 碰撞均线启动点.pdf (source 1cd2d64c1474, page-1, page-3, page-4, page-5, page-6): review the original example and explain its context.
+
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-1648): review the original example and explain its context.
 
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-31:shape-5, slide-31:shape-10): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 反转形态之三重顶与三重底.docx (source 5bfb06ec7a8e, word/document.xml:paragraph-43): review the original example and explain its context.
 
 - 六种常见看跌蜡烛图形态 .pdf (source 60f46ee50a27, page-8): review the original example and explain its context.
-
-- 77_两次杠杆做到5000万股灾被强平的投机之路_南侠1987.pdf (source 61449ad5f6f6, page-140, page-143, page-421): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

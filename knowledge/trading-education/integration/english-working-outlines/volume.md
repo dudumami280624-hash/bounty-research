@@ -10,6 +10,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - kk三部曲第2部.pdf (source 1844dd10f514, page-89, page-90, page-121, page-122): review the original example and explain its context.
 
+- 碰撞均线启动点.pdf (source 1cd2d64c1474, page-9): review the original example and explain its context.
+
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-87, page-154, page-496, page-601, page-604): review the original example and explain its context.
 
 - K线策略体系：起爆点.pptx (source 26cfdc67c551, slide-4:shape-5, slide-8:shape-5, slide-10:shape-5, slide-11:shape-5, slide-17:shape-30): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
 
 - 帖第二波.pdf (source 420d62d27b32, page-19, page-20, page-66, page-67, page-69): review the original example and explain its context.
-
-- K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-7, word/document.xml:paragraph-13, word/document.xml:paragraph-19, word/document.xml:paragraph-51): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

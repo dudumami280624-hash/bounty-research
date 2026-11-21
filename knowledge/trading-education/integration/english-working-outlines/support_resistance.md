@@ -18,6 +18,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-12): review the original example and explain its context.
 
+- 碰撞均线启动点.pdf (source 1cd2d64c1474, page-3, page-4, page-7, page-8, page-10): review the original example and explain its context.
+
 - 169_黄金价格这么个玩法，意味着国际性大通胀时代的降临.pdf (source 1debe93faf76, page-54): review the original example and explain its context.
 
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-14, page-163, page-170, page-240, page-248): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-39): review the original example and explain its context.
 
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-10, page-12, page-17): review the original example and explain its context.
-
-- 股价涨跌的真正原因.pdf (source 2c475db0e753, page-12:OCR-unverified): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.
