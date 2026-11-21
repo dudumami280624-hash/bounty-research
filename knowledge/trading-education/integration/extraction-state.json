@@ -335,7 +335,7 @@
       "visual_page_audit": {
         "next_page": 12,
         "total_pages": 20,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
@@ -360,7 +360,8 @@
             "b65531b94b48d9b4dc42afb47568534ca6e5df2575592a5488a41a8aebc1cf4e",
             "9c7e30a7f15d1a31760882bf86d87d328ad2d8fdb25e91622b52a371cc6d833a"
           ]
-        }
+        },
+        "last_error": "No module named 'fitz'"
       }
     },
     "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4": {
@@ -392,7 +393,7 @@
       "visual_page_audit": {
         "next_page": 12,
         "total_pages": 27,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [
@@ -419,7 +420,8 @@
             "291c0482924909a8e3b2b0ddd6f058fbbeac3fc3d0acfeabe44715f7db909de9",
             "af7f1020bb466df5c31bcf5b353da48c515a37ae084d4ddd1d9d35b7ef64158e"
           ]
-        }
+        },
+        "last_error": "No module named 'fitz'"
       }
     },
     "db98c9518038cb23730e86c7502a3b64d271a8bb": {
