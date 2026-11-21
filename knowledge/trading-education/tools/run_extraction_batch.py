@@ -332,9 +332,9 @@ def main():
     completed_audits=sum(bool(a.get('coverage_complete')) for a in pdf_audits)
     pending_ocr_pages=sum(sum(bool(p.get('ocr_needed')) for p in a.get('page_evidence',{}).values())
                           for a in pdf_audits)
-    REPORT.write_text('# The Market Mind — 178份原件自动处理进度\\n\\n'
+    REPORT.write_text('# The Market Mind — 178份原件自动处理进度\n\n'
        +f'- 本轮批量处理：{len(processed)}份\n'
-       +f'- PDF文字逐页元数据：{len(pdf_audits)}份、{audited_pages}页；覆盖完成{completed_audits}份；待OCR页{pending_ocr_pages}（仅页级标记）\\n'
+       +f'- PDF文字逐页元数据：{len(pdf_audits)}份、{audited_pages}页；覆盖完成{completed_audits}份；待OCR页{pending_ocr_pages}（仅页级标记）\n'
        +''.join(f'- {x["source_name"]}：{x["status"]}\n' for x in processed)
        +f'- 本轮状态：{status["extraction_status"]}\n'
        +f'- 已提取文字：{counts["extracted"]}/178\n'
