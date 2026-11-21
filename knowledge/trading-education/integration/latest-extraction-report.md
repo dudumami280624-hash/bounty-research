@@ -1,14 +1,7 @@
 # The Market Mind — 178份原件自动处理进度
 
-- 本轮批量处理：7份
-- 趋势交易法5-6.pdf：extracted
-- 量化ETF.pdf：partial_ocr_failure
-- 黄金、白银 分析.pdf：partial_ocr_failure
-- 黄金分割线 .pdf：partial_ocr_failure
-- 黄金趋势.pdf：partial_ocr_failure
-- 黄金逻辑.pdf：partial_ocr_failure
-- ［美］彼得·林奇 学以致富.pdf：partial_ocr_failure
-- 本轮状态：partial_ocr_failure
+- 本轮批量处理：0份
+- 本轮状态：no_eligible_files
 - 已提取文字：126/178
 - OCR不完整待重试：51
 - 需视觉复核：1
