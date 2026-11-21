@@ -22,7 +22,12 @@ def main():
             'coverage_complete':False,'semantic_verified':False})
         # Do not permanently strand a PDF after three transient network/OCR failures.
         # Retry after a cooldown; the per-window alarm still bounds runtime.
-        if audit.get('coverage_complete'): continue
+        failed_pages=list(audit.get('ocr_failed_page_numbers',[]))
+        retry_page=(failed_pages[0] if audit.get('coverage_complete') and failed_pages else None)
+        if audit.get('coverage_complete') and failed_pages:
+            # Failed OCR pages remain pending, not proof of semantic verification.
+            pass
+        if audit.get('coverage_complete') and retry_page is None: continue
         if audit.get('attempts',0)>=3:
             retry_after=audit.get('retry_after_utc')
             if retry_after:
@@ -34,7 +39,7 @@ def main():
                     audit['attempts']=0
             else:
                 audit['attempts']=0
-        start=int(audit.get('next_page',0))
+        start=retry_page-1 if retry_page is not None else int(audit.get('next_page',0))
         print(f'VISUAL BEGIN {e["name"]!r} start_page={start}',flush=True)
         def timeout(_sig,_frame): raise TimeoutError('Visual page window exceeded 65 seconds')
         previous=signal.signal(signal.SIGALRM,timeout)
@@ -43,24 +48,39 @@ def main():
             with tempfile.TemporaryDirectory() as td:
                 path=Path(td)/'source.pdf'
                 path.write_bytes(download_blob(e['sha']))
-                observations=inspect_pdf(path,Path(td)/'pages',start_page=start)
+                # Retry only the failed page, not the already scanned PDF window.
+                old_limit=os.environ.get('TMM_VISUAL_MAX_PAGES')
+                if retry_page is not None: os.environ['TMM_VISUAL_MAX_PAGES']='1'
+                try:
+                    observations=inspect_pdf(path,Path(td)/'pages',start_page=start)
+                finally:
+                    if retry_page is not None:
+                        if old_limit is None: os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
+                        else: os.environ['TMM_VISUAL_MAX_PAGES']=old_limit
             total=observations[0]['document_total_pages'] if observations else 0
             audit['total_pages']=total
-            audit['next_page']=start+len(observations)
+            if retry_page is None: audit['next_page']=start+len(observations)
             # Coverage means every page was visited; OCR failures remain explicitly unresolved.
             audit['coverage_complete']=audit['next_page']>=total
-            audit['ocr_failed_pages_total']=audit.get('ocr_failed_pages_total',0)+sum(
-                not x.get('ocr_success',False) for x in observations)
-            audit['ocr_complete']=audit['coverage_complete'] and audit['ocr_failed_pages_total']==0
+            failed=set(audit.get('ocr_failed_page_numbers',[]))
+            for observation in observations:
+                page_number=observation['page']
+                if observation.get('ocr_success',False): failed.discard(page_number)
+                else: failed.add(page_number)
+            audit['ocr_failed_page_numbers']=sorted(failed)
+            audit['ocr_failed_pages_total']=len(failed)
+            # Old audits recorded counts without page numbers; never silently certify them.
+            legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
+            audit['ocr_complete']=audit['coverage_complete'] and not failed and not legacy_unknown
             audit['attempts']=0
             audit.pop('last_error',None)
             audit.pop('retry_after_utc',None)
             # No original image, OCR text, or copyrighted content persisted.
-            audit['last_window']={'first_page':start+1,'last_page':audit['next_page'],
+            audit['last_window']={'first_page':start+1,'last_page':start+len(observations),
                 'candidate_pages':sum(bool(x['chart_candidate']) for x in observations),
                 'ocr_failed_pages':sum(not x.get('ocr_success',False) for x in observations),
                 'render_sha256':[x['render_sha256'] for x in observations]}
-            print(f'VISUAL END next={audit["next_page"]}/{total}',flush=True)
+            print(f'VISUAL END next={audit["next_page"]}/{total} failed_pages={audit["ocr_failed_page_numbers"]}',flush=True)
         except Exception as exc:
             audit['attempts']=audit.get('attempts',0)+1
             audit['last_error']=str(exc)[:250]
