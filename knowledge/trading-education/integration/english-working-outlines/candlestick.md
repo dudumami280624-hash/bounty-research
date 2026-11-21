@@ -12,6 +12,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 《极简缠论》截止到中枢战法.pdf (source 03ed845aa6b8, page-7:OCR-unverified, page-8:OCR-unverified, page-9:OCR-unverified, page-10:OCR-unverified, page-13:OCR-unverified): review the original example and explain its context.
 
+- 老于今日课堂笔记11.14pdf.pdf (source 04c6f527a539, page-6): review the original example and explain its context.
+
 - 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-20): review the original example and explain its context.
 
 - 84-财经时事 各抒己见-yyttff1981.pdf (source 213dea66f2aa, page-428, page-1178, page-1813): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
 
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-5, word/document.xml:paragraph-6): review the original example and explain its context.
-
-- K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-20, word/document.xml:paragraph-29): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

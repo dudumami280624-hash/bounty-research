@@ -8,6 +8,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 ## Source reading and examples
 
+- 老于今日课堂笔记11.19pdf.pdf (source 0d9030f244b1, page-5): review the original example and explain its context.
+
 - kk三部曲第2部.pdf (source 1844dd10f514, page-89, page-90, page-121, page-122): review the original example and explain its context.
 
 - 碰撞均线启动点.pdf (source 1cd2d64c1474, page-9): review the original example and explain its context.
@@ -26,11 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf (source 3a8f058eca2a, page-22, page-98, page-125, page-127, page-138): review the original example and explain its context.
 
+- 老于今日课堂笔记11.23.pdf (source 3cf103be32de, page-1): review the original example and explain its context.
+
 - 176-百年未有之大变局，世界将走向何方？.pdf (source 3e8fab646585, page-464, page-483, page-498): review the original example and explain its context.
-
-- 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
-
-- 帖第二波.pdf (source 420d62d27b32, page-19, page-20, page-66, page-67, page-69): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

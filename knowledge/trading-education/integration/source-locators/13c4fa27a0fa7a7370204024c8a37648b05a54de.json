@@ -1,0 +1,50 @@
+{
+  "source_sha": "13c4fa27a0fa7a7370204024c8a37648b05a54de",
+  "source_name": "老于今日课堂笔记11.21.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "15821185cd65434dd4b0b9092a21d827335c09eacb629e88e25cb91518ae8012",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "101d0da79d1cad53d437435328fc338a2f1d4f16f6bdcf3e5c13ed10fb4832b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "0d7dc8f3e2e803cad828b9962a5dea0733ccdf9572dc6c97c3553ed0b21de804",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "101d0da79d1cad53d437435328fc338a2f1d4f16f6bdcf3e5c13ed10fb4832b0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "0d7dc8f3e2e803cad828b9962a5dea0733ccdf9572dc6c97c3553ed0b21de804",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "101d0da79d1cad53d437435328fc338a2f1d4f16f6bdcf3e5c13ed10fb4832b0",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "0d7dc8f3e2e803cad828b9962a5dea0733ccdf9572dc6c97c3553ed0b21de804",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

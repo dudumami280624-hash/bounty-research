@@ -1,0 +1,122 @@
+{
+  "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+  "source_name": "老于今日课堂笔记11.22.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 20,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 7
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 8
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 5
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 10,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-3",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 6,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

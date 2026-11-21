@@ -1,0 +1,74 @@
+{
+  "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+  "source_name": "老于今日课堂笔记11.15.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "5bad05d7ce647fd94947c5519aa7ef6924b93677777aefdf17bcce13c6358f86",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "cc4261d7336d9add5b6434cfa2c57edc3c0da6490c8af5434e38a68dc7d2745b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "6a7217299d89a48bf5b5e2695b66cd0dc8f3524912f109315151bc0438ac4f1b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "9bc6b16c4c265de0d18a0b01787fda962712c4c0ef0a646ae2bd3942b8a34669",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "5bad05d7ce647fd94947c5519aa7ef6924b93677777aefdf17bcce13c6358f86",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "36ac5c890f286faf63165ed1b5be39108682ad25c2ed48dea50b1225cfdfab8c",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "cc4261d7336d9add5b6434cfa2c57edc3c0da6490c8af5434e38a68dc7d2745b",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "9bc6b16c4c265de0d18a0b01787fda962712c4c0ef0a646ae2bd3942b8a34669",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "aa6497a7cc31e7b658f10eef75846a5fa9f6973f56c361f7dfa29b89a34c11ff",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "36ac5c890f286faf63165ed1b5be39108682ad25c2ed48dea50b1225cfdfab8c",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-10",
+        "excerpt_sha256": "aa6497a7cc31e7b658f10eef75846a5fa9f6973f56c361f7dfa29b89a34c11ff",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

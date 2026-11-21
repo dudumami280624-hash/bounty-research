@@ -28,9 +28,9 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf (source 9c3b1d2e8758, page-446, page-1123, page-3268): review the original example and explain its context.
 
-- 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-441, page-1280, page-1330, page-1748, page-2225): review the original example and explain its context.
+- 老于今日课堂笔记11.22.pdf (source a10f66d85470, page-8): review the original example and explain its context.
 
-- 1K线策略体系：十字星.docx (source ac24fb5d2d91, word/document.xml:paragraph-10, word/document.xml:paragraph-13, word/document.xml:paragraph-16, word/document.xml:paragraph-19, word/document.xml:paragraph-22): review the original example and explain its context.
+- 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-441, page-1280, page-1330, page-1748, page-2225): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

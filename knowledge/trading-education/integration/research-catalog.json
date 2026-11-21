@@ -82,6 +82,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "04c6f527a5392965dac203aa1a7a778d60297cfc",
+          "source_name": "老于今日课堂笔记11.14pdf.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "18ac71456414816f9070abf851cad423dc9f0a8c",
           "source_name": "第10节RSI.docx",
           "locations": [
@@ -821,6 +832,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
+          "source_name": "老于今日课堂笔记11.20.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
           "source_name": "第九节RSI.docx",
           "locations": [
@@ -1515,6 +1537,25 @@
             {
               "location": "page-2760",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 5
             }
           ],
           "status": "candidate_unverified"
@@ -2358,6 +2399,17 @@
             {
               "location": "page-3792",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+          "source_name": "老于今日课堂笔记11.15.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 6
             }
           ],
           "status": "candidate_unverified"
@@ -3987,6 +4039,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "e1ea838443e3c2b6305ab863868ebab8647912b4",
+          "source_name": "老于今日课堂笔记11.26.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ee0b5930e6e38f56e3404096ff0b33fdf36ed100",
           "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
           "locations": [
@@ -4390,6 +4461,17 @@
             {
               "location": "page-3268",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -5113,6 +5195,32 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "04c6f527a5392965dac203aa1a7a778d60297cfc",
+          "source_name": "老于今日课堂笔记11.14pdf.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "13c4fa27a0fa7a7370204024c8a37648b05a54de",
+          "source_name": "老于今日课堂笔记11.21.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "1cd2d64c1474e18ede2692b1eed901688cf87900",
           "source_name": "碰撞均线启动点.pdf",
           "locations": [
@@ -5233,6 +5341,21 @@
             },
             {
               "location": "slide-31:shape-27",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "3cf103be32de42d3608e7129ddbd6165d0e70275",
+          "source_name": "老于今日课堂笔记11.23.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
               "term_mentions": 1
             }
           ],
@@ -5406,6 +5529,25 @@
             {
               "location": "page-22",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
+          "source_name": "老于今日课堂笔记11.20.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -6052,6 +6194,17 @@
           "locations": [
             {
               "location": "page-440",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-3",
               "term_mentions": 1
             }
           ],
@@ -6851,6 +7004,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "e1ea838443e3c2b6305ab863868ebab8647912b4",
+          "source_name": "老于今日课堂笔记11.26.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ee0b5930e6e38f56e3404096ff0b33fdf36ed100",
           "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
           "locations": [
@@ -7037,6 +7209,21 @@
             {
               "location": "page-5627",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+          "source_name": "老于今日课堂笔记11.15.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -7284,6 +7471,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "04c6f527a5392965dac203aa1a7a778d60297cfc",
+          "source_name": "老于今日课堂笔记11.14pdf.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -7328,6 +7526,28 @@
             {
               "location": "page-20:OCR-unverified",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "0d9030f244b1d645034ceda735c93066dbe0dd40",
+          "source_name": "老于今日课堂笔记11.19pdf.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "13c4fa27a0fa7a7370204024c8a37648b05a54de",
+          "source_name": "老于今日课堂笔记11.21.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -8534,6 +8754,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3cf103be32de42d3608e7129ddbd6165d0e70275",
+          "source_name": "老于今日课堂笔记11.23.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
           "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
           "locations": [
@@ -9463,6 +9694,17 @@
             },
             {
               "location": "page-16",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
+          "source_name": "老于今日课堂笔记11.20.pdf",
+          "locations": [
+            {
+              "location": "page-6",
               "term_mentions": 1
             }
           ],
@@ -11034,6 +11276,17 @@
             },
             {
               "location": "page-506",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-7",
               "term_mentions": 1
             }
           ],
@@ -12923,6 +13176,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+          "source_name": "老于今日课堂笔记11.15.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
           "source_name": "【交易六大心得 · 八大准则】.pdf",
           "locations": [
@@ -13038,6 +13302,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "04c6f527a5392965dac203aa1a7a778d60297cfc",
+          "source_name": "老于今日课堂笔记11.14pdf.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -13054,6 +13341,36 @@
           "locations": [
             {
               "location": "page-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "0d9030f244b1d645034ceda735c93066dbe0dd40",
+          "source_name": "老于今日课堂笔记11.19pdf.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "13c4fa27a0fa7a7370204024c8a37648b05a54de",
+          "source_name": "老于今日课堂笔记11.21.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
               "term_mentions": 1
             }
           ],
@@ -13866,6 +14183,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3cf103be32de42d3608e7129ddbd6165d0e70275",
+          "source_name": "老于今日课堂笔记11.23.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
           "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
           "locations": [
@@ -14432,6 +14768,21 @@
             {
               "location": "page-18",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
+          "source_name": "老于今日课堂笔记11.20.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -15480,6 +15831,29 @@
             {
               "location": "page-475",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -16716,6 +17090,33 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "e1ea838443e3c2b6305ab863868ebab8647912b4",
+          "source_name": "老于今日课堂笔记11.26.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "e52818fc8b1efd429060a61eb72d2a27a1d444ca",
           "source_name": "第3部.docx",
           "locations": [
@@ -17021,6 +17422,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+          "source_name": "老于今日课堂笔记11.15.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
           "source_name": "【交易六大心得 · 八大准则】.pdf",
           "locations": [
@@ -17153,6 +17577,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "04c6f527a5392965dac203aa1a7a778d60297cfc",
+          "source_name": "老于今日课堂笔记11.14pdf.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
           "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
           "locations": [
@@ -17190,6 +17625,44 @@
             },
             {
               "location": "page-49",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "0d9030f244b1d645034ceda735c93066dbe0dd40",
+          "source_name": "老于今日课堂笔记11.19pdf.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "13c4fa27a0fa7a7370204024c8a37648b05a54de",
+          "source_name": "老于今日课堂笔记11.21.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
               "term_mentions": 1
             }
           ],
@@ -18324,6 +18797,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3cf103be32de42d3608e7129ddbd6165d0e70275",
+          "source_name": "老于今日课堂笔记11.23.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
           "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
           "locations": [
@@ -19445,6 +19929,17 @@
             },
             {
               "location": "page-25",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
+          "source_name": "老于今日课堂笔记11.20.pdf",
+          "locations": [
+            {
+              "location": "page-7",
               "term_mentions": 1
             }
           ],
@@ -20954,6 +21449,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "a3ff6f9c9a83e599840d64c2e989a2b45f8a1786",
           "source_name": "kk三部曲第1部.pdf",
           "locations": [
@@ -22440,6 +22954,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "e1ea838443e3c2b6305ab863868ebab8647912b4",
+          "source_name": "老于今日课堂笔记11.26.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "e52818fc8b1efd429060a61eb72d2a27a1d444ca",
           "source_name": "第3部.docx",
           "locations": [
@@ -22783,6 +23320,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+          "source_name": "老于今日课堂笔记11.15.pdf",
+          "locations": [
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
           "source_name": "【交易六大心得 · 八大准则】.pdf",
           "locations": [
@@ -22892,6 +23440,17 @@
     },
     "volume": {
       "sources": [
+        {
+          "source_sha": "0d9030f244b1d645034ceda735c93066dbe0dd40",
+          "source_name": "老于今日课堂笔记11.19pdf.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
         {
           "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
           "source_name": "kk三部曲第2部.pdf",
@@ -23308,6 +23867,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "3cf103be32de42d3608e7129ddbd6165d0e70275",
+          "source_name": "老于今日课堂笔记11.23.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3e8fab6465851e35e58b20c9afe8293a3ebd2c72",
           "source_name": "176-百年未有之大变局，世界将走向何方？.pdf",
           "locations": [
@@ -23705,6 +24275,25 @@
             {
               "location": "page-32",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6d627f9347b1494c7a5a5f258059eee95de1426f",
+          "source_name": "老于今日课堂笔记11.20.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -24449,6 +25038,25 @@
             {
               "location": "page-3890",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+          "source_name": "老于今日课堂笔记11.22.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 4
             }
           ],
           "status": "candidate_unverified"
@@ -25630,6 +26238,21 @@
             {
               "location": "page-2103",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f4e44e232cb3bdb990bf0b4532e91f428dae7bf2",
+          "source_name": "老于今日课堂笔记11.15.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 5
             }
           ],
           "status": "candidate_unverified"

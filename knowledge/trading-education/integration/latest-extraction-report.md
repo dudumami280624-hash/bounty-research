@@ -1,17 +1,17 @@
 # The Market Mind — 178份原件自动处理进度
 
 - 本轮批量处理：8份
-- 移动平均线.pdf：partial_ocr_failure
-- 稀土资讯.pdf：partial_ocr_failure
-- 算法交易.pdf：partial_ocr_failure
-- 纳克诺尔研报pdf.pdf：partial_ocr_failure
-- 纳科诺尔研报pdf.pdf：extracted
-- 经济数据.pdf：partial_ocr_failure
-- 网球趋势交易选股法_.pdf：extracted
-- 美股策略方向.pdf：partial_ocr_failure
-- 本轮状态：partial_ocr_failure
-- 已提取文字：110/178
-- OCR不完整待重试：37
+- 老于今日课堂笔记11.14pdf.pdf：extracted
+- 老于今日课堂笔记11.15.pdf：partial_ocr_failure
+- 老于今日课堂笔记11.19pdf.pdf：extracted
+- 老于今日课堂笔记11.20.pdf：extracted
+- 老于今日课堂笔记11.21.pdf：extracted
+- 老于今日课堂笔记11.22.pdf：extracted
+- 老于今日课堂笔记11.23.pdf：extracted
+- 老于今日课堂笔记11.26.pdf：extracted
+- 本轮状态：extracted
+- 已提取文字：117/178
+- OCR不完整待重试：38
 - 需视觉复核：1
 - 需旧格式转换：0
 - 失败待重试：0；重试耗尽：0

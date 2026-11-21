@@ -1,0 +1,101 @@
+{
+  "source_sha": "a10f66d85470e02a6d53b81a0906805dca70334a",
+  "source_name": "老于今日课堂笔记11.22.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "97c6f04353f2a8f9e17be648bed7a9c8013cb97e7ba5544af43f74ad9a89be47",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "6411c06fdda5b2030646739f34d99c1a9012f5d2b25d4281a6098ffeecd1d168",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "feda80c06559ba79b70086e3afb76921911b58f1169b5e62debabce3587e4d59",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "c3b63d9424bfe7e0066d0dd1cde0d785a6b179b5893736146149a297176cd2f9",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "feda80c06559ba79b70086e3afb76921911b58f1169b5e62debabce3587e4d59",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "c3b63d9424bfe7e0066d0dd1cde0d785a6b179b5893736146149a297176cd2f9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "52a5a6c1602df55cb844a8b3c0abcb159d6a734c2cff112361d1ab2ea3e56bdd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "1c0b3e26b947429c88f8a44731918471e4c8d406d34248e008b6edd72f663044",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "3796279164e771d816bc321e35cdce3ccd4b8243b9acb971a7fd2feab5bcc525",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "6636f21fb9150836d4938036b8e04a28c39f9a26bff3558ddd05f3e40c419c95",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "1c0b3e26b947429c88f8a44731918471e4c8d406d34248e008b6edd72f663044",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "6636f21fb9150836d4938036b8e04a28c39f9a26bff3558ddd05f3e40c419c95",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "52a5a6c1602df55cb844a8b3c0abcb159d6a734c2cff112361d1ab2ea3e56bdd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "1c0b3e26b947429c88f8a44731918471e4c8d406d34248e008b6edd72f663044",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "73fb5220c24a0dfb0c15e98a77a3d86d16c9b1168812b3ade542f59080b0bd11",
+        "status": "unverified"
+      }
+    ],
+    "doji": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "52a5a6c1602df55cb844a8b3c0abcb159d6a734c2cff112361d1ab2ea3e56bdd",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -1,0 +1,50 @@
+{
+  "source_sha": "0d9030f244b1d645034ceda735c93066dbe0dd40",
+  "source_name": "老于今日课堂笔记11.19pdf.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "3ae81a2e40d5437990c196aa152a756f446ce25b9af7067be3b054746840b406",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "56364263279d2e77736de80f8d0ecc822423d9e1d17f35334775c08c606b96fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "c60ef04722dba587e3ac200a491f32cf988b7bc40a9ef2914c9bdfc24ee566a1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "0c17f6d44fc3513b03fcc0550c691d19a445c721def976a23791f292e7971145",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "81f8585b416f90cdf8e8cc07001ac606cbde69518923713ba3d1d9eb38f855fa",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-5",
+        "excerpt_sha256": "0c17f6d44fc3513b03fcc0550c691d19a445c721def976a23791f292e7971145",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "81f8585b416f90cdf8e8cc07001ac606cbde69518923713ba3d1d9eb38f855fa",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
