@@ -66,18 +66,18 @@ def adaptive_window_pages(configured, attempts):
     return max(1, configured // (2 ** min(max(0, attempts), 5)))
 
 def visual_priority(entry, files):
-    """Finish started page audits first, preserving the 26-source category priority.
+    """Fair rotation inside the first-26 group, then the remaining sources.
 
-    Sorting by *ascending* next_page repeatedly selected new PDFs (page zero)
-    ahead of unfinished books, so long PDFs never reached their final pages.
-    Each file still gets at most one window per run.
+    A fixed -next_page ordering repeatedly favored the longest started PDFs.
+    Sort by last successful window (oldest first), retaining started-before-new
+    as a tie-breaker. This does not certify OCR or chart semantics.
     """
     audit=files[entry['sha']].get('visual_page_audit',{})
     next_page=max(0,int(audit.get('next_page',0)))
     return (0 if entry['category'].startswith('01-') else 1,
             bool(audit.get('coverage_complete',False)),
+            audit.get('last_advanced_utc',''),
             0 if next_page>0 else 1,
-            -next_page,
             entry['name'])
 
 def main():
@@ -171,6 +171,7 @@ def main():
             legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
             audit['ocr_complete']=audit['coverage_complete'] and not failed and not legacy_unknown
             audit['attempts']=0
+            audit['last_advanced_utc']=datetime.now(timezone.utc).isoformat()
             audit.pop('last_error',None)
             audit.pop('retry_after_utc',None)
             # No original image, OCR text, or copyrighted content persisted.
@@ -188,7 +189,9 @@ def main():
         finally:
             signal.alarm(0)
             signal.signal(signal.SIGALRM,previous)
-            STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            checkpoint=STATE.with_suffix('.visual.tmp')
+            checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            checkpoint.replace(STATE)
         completed+=1
     pdf_audits=[v['visual_page_audit'] for v in files.values() if 'visual_page_audit' in v]
     covered=sum(a.get('coverage_complete',False) for a in pdf_audits)
