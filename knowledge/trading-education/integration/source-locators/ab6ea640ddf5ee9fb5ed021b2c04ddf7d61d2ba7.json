@@ -1,0 +1,145 @@
+{
+  "source_sha": "ab6ea640ddf5ee9fb5ed021b2c04ddf7d61d2ba7",
+  "source_name": "网球趋势交易选股法_.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "7a50fbc4f5499a6cec5206f6b2885c02d5d3393f524eefe32aba1c32cb360cd9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-2",
+        "excerpt_sha256": "8b2d9e2fc62355bfff0490476cc3681eac1dbeb6fa9c58a6795b6758ac0fc7f7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "51724b6816146a6abcd473e4385cd74706ee2dc0503a67d3f9ec815331124c20",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "cdfcda795c587dd99d4c234d31e78ffb9cbe9e6b29897d66b8fbd79d5f03bd05",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "9dd819f24b04b6a719e683cbf2db233e99c13fff80b3e3130bf8c22ebed7bc13",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "8f28f8be3925ac833dcee924f6bcf95647d16e646917f694add8862c9d398517",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "af3ad67d6d144506f5f1e066b07532ff2ad5bf178900bcd172ef6f7bb585b273",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "a15a2e11d3c1f0304e2012cc02a84ff91d8cc9c23c2465429a9f54d0ad7c4d81",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "b69b811f0ea891cfb2a5ef95db040b168770c328147c38080aed82ddf303d7e4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12",
+        "excerpt_sha256": "8fb73da0b48b21149cc6133089d3d5354926ca9da8033a8ebe1cfd77437686af",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "06bb7d460dc5406d0044ba2119e8f4f477176d7a2f84dafd6b1bf9968b1ebc74",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "a17bc7c67372be64abb3797863cfd082f11fda64165df6be47bb7173f9c10637",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "e804bbf58baebe01f5bd1040fa4ac4a75a910437480ca7ec64639339323abf65",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16",
+        "excerpt_sha256": "a26004b97f0afaf4e14b52283be43c8f416b8b14a0dd6628061df019472a2325",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "933760b2ec94d6437814196c3b0fd9d4611ebad92f01499adfd0fd41d95ec3f2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "1cff076c1a54121023ae2887948d4148cdc8ad320fdb9f324f8e5195e0496d1f",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-5",
+        "excerpt_sha256": "9dd819f24b04b6a719e683cbf2db233e99c13fff80b3e3130bf8c22ebed7bc13",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "a15a2e11d3c1f0304e2012cc02a84ff91d8cc9c23c2465429a9f54d0ad7c4d81",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "b69b811f0ea891cfb2a5ef95db040b168770c328147c38080aed82ddf303d7e4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "933760b2ec94d6437814196c3b0fd9d4611ebad92f01499adfd0fd41d95ec3f2",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "af3ad67d6d144506f5f1e066b07532ff2ad5bf178900bcd172ef6f7bb585b273",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "a15a2e11d3c1f0304e2012cc02a84ff91d8cc9c23c2465429a9f54d0ad7c4d81",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "b69b811f0ea891cfb2a5ef95db040b168770c328147c38080aed82ddf303d7e4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12",
+        "excerpt_sha256": "8fb73da0b48b21149cc6133089d3d5354926ca9da8033a8ebe1cfd77437686af",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "933760b2ec94d6437814196c3b0fd9d4611ebad92f01499adfd0fd41d95ec3f2",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-15",
+        "excerpt_sha256": "e804bbf58baebe01f5bd1040fa4ac4a75a910437480ca7ec64639339323abf65",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

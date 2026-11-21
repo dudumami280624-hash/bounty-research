@@ -1,0 +1,20 @@
+{
+  "source_sha": "b5027d8ef156265e9f5e685ecfe8c27a1316b04e",
+  "source_name": "纳科诺尔研报pdf.pdf",
+  "topics": [
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-10",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

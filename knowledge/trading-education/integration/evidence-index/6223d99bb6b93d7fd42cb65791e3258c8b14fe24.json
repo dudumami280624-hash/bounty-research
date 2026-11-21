@@ -1,0 +1,20 @@
+{
+  "source_sha": "6223d99bb6b93d7fd42cb65791e3258c8b14fe24",
+  "source_name": "稀土资讯.pdf",
+  "topics": [
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-3:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

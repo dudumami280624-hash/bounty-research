@@ -1,0 +1,19 @@
+{
+  "source_sha": "3ed9c71d072ac96bd6a82794ee5f2dae45f6f15b",
+  "source_name": "美股策略方向.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "251a9dd9b95ad31ca5b096dd70317b27e1fc538573e1ae991d8f38a4af8faf50",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "23053943494414548f802b852bc7ae4f56a28329ea47da31920b245eceb70ddf",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

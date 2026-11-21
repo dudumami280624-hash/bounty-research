@@ -1,0 +1,14 @@
+{
+  "source_sha": "6223d99bb6b93d7fd42cb65791e3258c8b14fe24",
+  "source_name": "稀土资讯.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-3:OCR-unverified",
+        "excerpt_sha256": "6478c48b8f45aed931795a3c8b5cc547406001e56df9f92cf73b950a2f4ce9f3",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

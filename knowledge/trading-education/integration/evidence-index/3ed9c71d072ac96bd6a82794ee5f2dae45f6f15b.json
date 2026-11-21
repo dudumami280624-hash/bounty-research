@@ -1,0 +1,24 @@
+{
+  "source_sha": "3ed9c71d072ac96bd6a82794ee5f2dae45f6f15b",
+  "source_name": "美股策略方向.pdf",
+  "topics": [
+    {
+      "concept": "risk",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-2:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

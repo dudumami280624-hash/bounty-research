@@ -1,0 +1,19 @@
+{
+  "source_sha": "cb4c8c3003e10493a50118d6cb2978150acb46a6",
+  "source_name": "经济数据.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "6f7d6907ab93ecda4d832fb73ac1beaed81bfe7770c1438b7c1a2c43c6c82922",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3:OCR-unverified",
+        "excerpt_sha256": "d53bc6a506db1d6563d526fd95f9e2e54c67cbe58cab7905a750ac9a8d77d87d",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
