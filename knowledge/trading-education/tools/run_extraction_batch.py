@@ -3,7 +3,7 @@
 Outputs only non-copyrighted processing metadata to the public repository.
 Never marks image review, factual validation, or teaching integration as complete.
 """
-import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil, time, signal
+import base64, hashlib, json, os, re, sys, tempfile, urllib.request, subprocess, shutil, time, signal, multiprocessing
 from datetime import datetime, timezone
 from pathlib import Path
 from extract_source import ooxml, pdf
@@ -117,6 +117,36 @@ def extract(entry, blob):
             'research_draft_status':'internal_unverified_only','details':details,'visual_ai':vision_result,
             'visual_review_complete':False}
 
+def isolated_extract(entry, timeout_seconds):
+    """Hard wall-clock deadline for native PDF/OCR/converter calls.
+    SIGALRM alone cannot reliably interrupt blocking native code or subprocesses.
+    The worker gets a fresh process group so its OCR descendants are killed too.
+    """
+    queue=multiprocessing.Queue(maxsize=1)
+    def worker():
+        os.setsid()
+        try:
+            queue.put(('ok', extract(entry, download_blob(entry['sha']))))
+        except BaseException as exc:
+            queue.put(('error', str(exc)[:500]))
+    proc=multiprocessing.Process(target=worker)
+    proc.start()
+    proc.join(timeout_seconds)
+    if proc.is_alive():
+        try: os.killpg(proc.pid, signal.SIGKILL)
+        except ProcessLookupError: pass
+        proc.join(5)
+        queue.close()
+        raise TimeoutError(f'Source worker exceeded hard {timeout_seconds}s deadline')
+    try:
+        kind, payload=queue.get(timeout=3)
+    except Exception:
+        raise RuntimeError(f'Source worker exited {proc.exitcode} without a result')
+    finally:
+        queue.close()
+    if kind=='error': raise RuntimeError(payload)
+    return payload
+
 def main():
     if not TOKEN: raise RuntimeError('GITHUB_TOKEN is missing')
     entries=inventory(INDEX.read_text(encoding='utf-8'))
@@ -141,9 +171,6 @@ def main():
     started=time.monotonic()
     budget_seconds=max(60,int(os.environ.get('TMM_TIME_BUDGET_SECONDS','1050')))
     per_source_timeout=max(30,min(180,int(os.environ.get('TMM_PER_SOURCE_TIMEOUT_SECONDS','120'))))
-    def source_timeout(_signum, _frame):
-        raise TimeoutError(f'Source processing exceeded {per_source_timeout}s; retry next batch')
-    previous_handler=signal.signal(signal.SIGALRM,source_timeout)
     for entry in pending[:BATCH_SIZE]:
         if time.monotonic()-started>=budget_seconds:
             print('Batch time budget reached; remaining files will resume next run',flush=True)
@@ -152,12 +179,9 @@ def main():
         print(f'BEGIN source={entry["name"]!r} sha={sha} attempt={previous.get("attempts",0)+1}',flush=True)
         attempts=previous.get('attempts',0)+1
         try:
-            signal.alarm(per_source_timeout)
-            status=extract(entry,download_blob(sha))
+            status=isolated_extract(entry,per_source_timeout)
         except Exception as exc:
             status={'extraction_status':'failed','error':str(exc)[:500]}
-        finally:
-            signal.alarm(0)
         status.update({'source_name':entry['name'],'category':entry['category'],
                        'attempts':attempts,'last_attempt_utc':datetime.now(timezone.utc).isoformat(),
                        'visual_review_complete':False,'fact_checked':False,
@@ -170,7 +194,6 @@ def main():
         checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         checkpoint.replace(STATE)
         processed.append({'source_name':entry['name'],'source_sha':sha,'status':status['extraction_status']})
-    signal.signal(signal.SIGALRM,previous_handler)
     status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'no_eligible_files'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
