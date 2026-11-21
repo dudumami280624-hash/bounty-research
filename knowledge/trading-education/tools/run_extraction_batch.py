@@ -275,9 +275,43 @@ def main():
         checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         checkpoint.replace(STATE)
         processed.append({'source_name':entry['name'],'source_sha':sha,'status':status['extraction_status']})
-    text_windows=advance_pdf_text_windows(entries,files,
-        budget_seconds=int(os.environ.get('TMM_TEXT_AUDIT_BUDGET_SECONDS','120')),
-        window_pages=int(os.environ.get('TMM_TEXT_WINDOW_PAGES','12')))
+    # Run page metadata audit under a hard process-group deadline. A malformed or
+    # huge PDF must not prevent the main extraction state/report from being committed.
+    text_windows=[]
+    audit_deadline=max(20,min(180,int(os.environ.get('TMM_TEXT_AUDIT_BUDGET_SECONDS','90'))))
+    audit_queue=multiprocessing.Queue(maxsize=1)
+    def audit_worker():
+        os.setsid()
+        try:
+            updated=advance_pdf_text_windows(entries,files,
+                budget_seconds=audit_deadline-10,
+                window_pages=int(os.environ.get('TMM_TEXT_WINDOW_PAGES','12')))
+            audit_queue.put(('ok',updated))
+        except BaseException as exc:
+            audit_queue.put(('error',str(exc)[:300]))
+    audit_proc=multiprocessing.Process(target=audit_worker)
+    audit_proc.start()
+    audit_proc.join(audit_deadline)
+    if audit_proc.is_alive():
+        try: os.killpg(audit_proc.pid,signal.SIGKILL)
+        except ProcessLookupError: pass
+        audit_proc.join(5)
+        print('PDF TEXT AUDIT: hard timeout; previous metadata checkpoint remains on disk',flush=True)
+    else:
+        try:
+            audit_kind,audit_payload=audit_queue.get(timeout=2)
+            if audit_kind=='ok': text_windows=audit_payload
+            else: print('PDF TEXT AUDIT ERROR',audit_payload,flush=True)
+        except Exception as exc:
+            print('PDF TEXT AUDIT WORKER ERROR',str(exc)[:200],flush=True)
+    audit_queue.close()
+    # The child process has a separate in-memory state. Reload only its on-disk
+    # metadata checkpoint so the final state write does not erase new page cursors.
+    if STATE.exists():
+        checkpoint_state=json.loads(STATE.read_text(encoding='utf-8'))
+        for sha,record in checkpoint_state.get('files',{}).items():
+            if sha in files and 'pdf_text_page_audit' in record:
+                files[sha]['pdf_text_page_audit']=record['pdf_text_page_audit']
     print('PDF TEXT WINDOWS',json.dumps(text_windows,ensure_ascii=False),flush=True)
     status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'no_eligible_files'}
     state['schema_version']=2
