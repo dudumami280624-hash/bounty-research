@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Synthetic cross-run page metadata regression. Never writes textbook content."""
 import json
+import hashlib
 import tempfile
 from pathlib import Path
 import fitz
@@ -31,11 +32,19 @@ def main():
         assert third[0]['pages']=='5-5',third
         audit=persisted[entry['sha']]['pdf_text_page_audit']
         assert audit['coverage_complete'] and audit['next_page']==5
+        assert audit['source_sha256']==hashlib.sha256(data).hexdigest()
         assert audit['page_evidence']['3']['ocr_needed']
         assert audit['page_evidence']['1']['text_origin']=='embedded_pdf_text'
         assert not any('SYNTHETIC PRIVATE PAGE' in str(v) for v in audit['page_evidence'].values())
         assert not batch.advance_pdf_text_windows([entry],persisted,budget_seconds=10,window_pages=2)
         assert all(not v['verified'] for v in audit['page_evidence'].values())
+        # Tampering with source bytes must not advance a cursor or replace evidence.
+        persisted[entry['sha']]['pdf_text_page_audit']['coverage_complete']=False
+        persisted[entry['sha']]['pdf_text_page_audit']['next_page']=4
+        batch.download_blob=lambda sha, timeout_seconds=180: b'changed bytes'
+        assert not batch.advance_pdf_text_windows([entry],persisted,budget_seconds=10,window_pages=2)
+        assert persisted[entry['sha']]['pdf_text_page_audit']['next_page']==4
+        assert 'source SHA-256' in persisted[entry['sha']]['pdf_text_page_audit']['last_error']
     print('PASS synthetic cross-run PDF text metadata checkpoint; no copyrighted text persisted')
 
 if __name__=='__main__':
