@@ -22,12 +22,15 @@ def main():
             'coverage_complete':False,'semantic_verified':False})
         # Do not permanently strand a PDF after three transient network/OCR failures.
         # Retry after a cooldown; the per-window alarm still bounds runtime.
+        if 'ocr_failed_page_numbers' not in audit and audit.get('ocr_failed_pages_total',0):
+            audit['ocr_failures_without_page_locations']=True
         failed_pages=list(audit.get('ocr_failed_page_numbers',[]))
         retry_page=(failed_pages[0] if audit.get('coverage_complete') and failed_pages else None)
-        if audit.get('coverage_complete') and failed_pages:
-            # Failed OCR pages remain pending, not proof of semantic verification.
-            pass
         if audit.get('coverage_complete') and retry_page is None: continue
+        if retry_page is not None and audit.get('ocr_retry_after_utc'):
+            try:
+                if datetime.fromisoformat(audit['ocr_retry_after_utc'])>datetime.now(timezone.utc): continue
+            except ValueError: pass
         if audit.get('attempts',0)>=3:
             retry_after=audit.get('retry_after_utc')
             if retry_after:
@@ -68,6 +71,10 @@ def main():
                 if observation.get('ocr_success',False): failed.discard(page_number)
                 else: failed.add(page_number)
             audit['ocr_failed_page_numbers']=sorted(failed)
+            if retry_page is not None and retry_page in failed:
+                audit['ocr_retry_after_utc']=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
+            elif retry_page is not None:
+                audit.pop('ocr_retry_after_utc',None)
             audit['ocr_failed_pages_total']=len(failed)
             # Old audits recorded counts without page numbers; never silently certify them.
             legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
