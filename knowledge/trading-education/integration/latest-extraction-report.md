@@ -1,17 +1,16 @@
 # The Market Mind — 178份原件自动处理进度
 
-- 本轮批量处理：8份
-- 识别市场骗线：五种表现形式与假突破、假跌破实战解析.pdf：partial_ocr_failure
-- 财务独立.pdf：partial_ocr_failure
-- 财富增长与通胀侵蚀：普通人如何实现资产保值增值？.pdf：partial_ocr_failure
-- 趋势交易-4.pdf：extracted
-- 趋势交易.pdf：partial_ocr_failure
-- 趋势交易1.pdf：extracted
-- 趋势交易3.pdf：extracted
-- 趋势交易—2.pdf：extracted
-- 本轮状态：extracted
-- 已提取文字：125/178
-- OCR不完整待重试：45
+- 本轮批量处理：7份
+- 趋势交易法5-6.pdf：extracted
+- 量化ETF.pdf：partial_ocr_failure
+- 黄金、白银 分析.pdf：partial_ocr_failure
+- 黄金分割线 .pdf：partial_ocr_failure
+- 黄金趋势.pdf：partial_ocr_failure
+- 黄金逻辑.pdf：partial_ocr_failure
+- ［美］彼得·林奇 学以致富.pdf：partial_ocr_failure
+- 本轮状态：partial_ocr_failure
+- 已提取文字：126/178
+- OCR不完整待重试：51
 - 需视觉复核：1
 - 需旧格式转换：0
 - 失败待重试：0；重试耗尽：0

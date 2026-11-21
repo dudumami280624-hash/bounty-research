@@ -1282,6 +1282,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "95bd9391894fa9870b427a1ee28e3a23822ad90e",
+          "source_name": "黄金分割线 .pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
           "source_name": "五种常见的看涨信号形态.pdf",
           "locations": [
@@ -6264,6 +6275,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "95bd9391894fa9870b427a1ee28e3a23822ad90e",
+          "source_name": "黄金分割线 .pdf",
+          "locations": [
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
           "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
           "locations": [
@@ -9311,6 +9333,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "412c983754532898f1cbb6af5034486c8678d32e",
+          "source_name": "趋势交易法5-6.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -10091,6 +10124,17 @@
           "locations": [
             {
               "location": "slide-2:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "68ca464b308ade9903b4f669c5df921b084930fc",
+          "source_name": "量化ETF.pdf",
+          "locations": [
+            {
+              "location": "page-3:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -11250,6 +11294,17 @@
             },
             {
               "location": "page-56",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "95bd9391894fa9870b427a1ee28e3a23822ad90e",
+          "source_name": "黄金分割线 .pdf",
+          "locations": [
+            {
+              "location": "page-12",
               "term_mentions": 1
             }
           ],
@@ -14854,6 +14909,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "412c983754532898f1cbb6af5034486c8678d32e",
+          "source_name": "趋势交易法5-6.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -16130,6 +16200,25 @@
             },
             {
               "location": "page-21:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "95bd9391894fa9870b427a1ee28e3a23822ad90e",
+          "source_name": "黄金分割线 .pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
               "term_mentions": 1
             }
           ],
@@ -19780,6 +19869,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "412c983754532898f1cbb6af5034486c8678d32e",
+          "source_name": "趋势交易法5-6.pdf",
+          "locations": [
+            {
+              "location": "page-1",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -22031,6 +22159,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "95bd9391894fa9870b427a1ee28e3a23822ad90e",
+          "source_name": "黄金分割线 .pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
           "source_name": "五种常见的看涨信号形态.pdf",
           "locations": [
@@ -23387,6 +23534,17 @@
             {
               "location": "page-253:OCR-unverified",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "c5b0a4c9f8adceb5a7aa6bbd392e4be5e3d7acc1",
+          "source_name": "黄金趋势.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -25129,6 +25287,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "412c983754532898f1cbb6af5034486c8678d32e",
+          "source_name": "趋势交易法5-6.pdf",
+          "locations": [
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "420d62d27b328b4c4df5723cbf0b192da1a1f2b3",
           "source_name": "帖第二波.pdf",
           "locations": [
@@ -26071,6 +26248,17 @@
             },
             {
               "location": "page-22",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "95bd9391894fa9870b427a1ee28e3a23822ad90e",
+          "source_name": "黄金分割线 .pdf",
+          "locations": [
+            {
+              "location": "page-13",
               "term_mentions": 1
             }
           ],

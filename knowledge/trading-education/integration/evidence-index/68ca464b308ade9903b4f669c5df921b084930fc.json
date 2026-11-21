@@ -1,0 +1,20 @@
+{
+  "source_sha": "68ca464b308ade9903b4f669c5df921b084930fc",
+  "source_name": "量化ETF.pdf",
+  "topics": [
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-3:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

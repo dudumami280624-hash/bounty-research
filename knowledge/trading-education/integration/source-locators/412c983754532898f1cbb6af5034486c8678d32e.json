@@ -1,0 +1,85 @@
+{
+  "source_sha": "412c983754532898f1cbb6af5034486c8678d32e",
+  "source_name": "趋势交易法5-6.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-1",
+        "excerpt_sha256": "acbe3cd38de987b43730721bc2938ab2747140e81b4ceebad2069d90e3df6781",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3",
+        "excerpt_sha256": "6088335a6d53e8dd73f0a1a3b0cfb3b135d394084128123dfa7294a473e355f4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "6122dea2ada701cc68c4f4eb07833d9174b67dfbd3fc720ceb7540f0b00a937a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "bfac24dec923bbcfb67dea8901b137009d2c57af6f18916e553dcbf89c6289a5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "7df7e89cd73ee63cc1332c02182895d320109c78db88315e9dce6ca2309bf61e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12",
+        "excerpt_sha256": "0c59f96fc322289ed4422967aba66e17097bff908f9309b88a410562e3bc4002",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "fc0f1b7e5dbde56f5550f1d2d11b758ae64f69fce01d31899e7e61199e1106a4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "20855a924ac79a180971a79a2f887a7470975ef6bfbf6909ca791195902ff9e8",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "af6813eaa004535c7fb9844fed6a98cc6a9ad6fc28438533118baebeea6dc0a1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "733d5d6baad54c831429b7a4e0c9d91c3d32f2c7119a728c0fc7190f644d6413",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "a20f33ab0866c828ac171e0f45bf953ccfce84ab67c47b2c8321aeaaa30db0cb",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-12",
+        "excerpt_sha256": "0c59f96fc322289ed4422967aba66e17097bff908f9309b88a410562e3bc4002",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16",
+        "excerpt_sha256": "aa6fb74900d465f8d23480041a233bdd6190f184ad3bfa926e7b55be1c5eb659",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "733d5d6baad54c831429b7a4e0c9d91c3d32f2c7119a728c0fc7190f644d6413",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
