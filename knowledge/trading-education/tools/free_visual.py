@@ -32,10 +32,14 @@ def inspect_pdf(pdf_path, output, start_page=0):
         embedded_text=page.get_text('text').strip()
         record['embedded_text_characters']=len(embedded_text)
         if embedded_text:
-            record['ocr_success']=True
+            record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
+            record['text_origin']='embedded_pdf_text'
+            record['ocr_performed']=False
             record['ocr_skipped_reason']='embedded_text_available'
             record['ocr_text_characters']=len(embedded_text)
         elif shutil.which('tesseract'):
+            record['text_origin']='ocr_unverified'
+            record['ocr_performed']=True
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
                 try:
@@ -51,6 +55,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     record['ocr_error']=(proc.stderr[-200:] if proc.returncode else ('OCR returned no text; page requires review' if not proc.stdout.strip() else ''))
         else:
             record['ocr_success']=False
+            record['text_origin']='none'
+            record['ocr_performed']=False
             record['ocr_error']='Tesseract unavailable'
         record['chart_candidate']=bool(record['vector_drawings']>=12 or record['image_objects']>0)
         record['chart_semantics_verified']=False
