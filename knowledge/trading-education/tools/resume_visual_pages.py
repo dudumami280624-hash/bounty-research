@@ -36,6 +36,10 @@ def validate_visual_window(observations, start):
         raise RuntimeError(f'Noncontiguous visual page observations: expected {expected}, got {actual}')
     return total
 
+def adaptive_window_pages(configured, attempts):
+    """Shrink OCR-heavy windows after deadline failures without losing the page checkpoint."""
+    return max(1, configured // (2 ** min(max(0, attempts), 5)))
+
 def main():
     state=json.loads(STATE.read_text(encoding='utf-8'))
     files=state['files']
@@ -97,13 +101,15 @@ def main():
                 path.write_bytes(download_blob(e['sha']))
                 # Retry only the failed page, not the already scanned PDF window.
                 old_limit=os.environ.get('TMM_VISUAL_MAX_PAGES')
-                if retry_page is not None: os.environ['TMM_VISUAL_MAX_PAGES']='1'
+                configured=max(1,int(old_limit or '12'))
+                # A 12-page OCR window can exceed the 65-second hard deadline.
+                # Halve it on each failure, eventually retrying one page at a time.
+                os.environ['TMM_VISUAL_MAX_PAGES']=str(1 if retry_page is not None else adaptive_window_pages(configured,audit.get('attempts',0)))
                 try:
                     observations=inspect_pdf(path,Path(td)/'pages',start_page=start)
                 finally:
-                    if retry_page is not None:
-                        if old_limit is None: os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
-                        else: os.environ['TMM_VISUAL_MAX_PAGES']=old_limit
+                    if old_limit is None: os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
+                    else: os.environ['TMM_VISUAL_MAX_PAGES']=old_limit
             total=validate_visual_window(observations,start)
             audit['total_pages']=total
             if retry_page is None: audit['next_page']=start+len(observations)
