@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Resume bounded PDF page-level visual feature coverage, never semantic verification."""
 import json, os, tempfile, time, signal
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from run_extraction_batch import ROOT, INDEX, STATE, inventory, download_blob
 from free_visual import inspect_pdf
@@ -19,7 +20,20 @@ def main():
         record=files[e['sha']]
         audit=record.setdefault('visual_page_audit',{'next_page':0,'total_pages':None,'attempts':0,
             'coverage_complete':False,'semantic_verified':False})
-        if audit.get('coverage_complete') or audit.get('attempts',0)>=3: continue
+        # Do not permanently strand a PDF after three transient network/OCR failures.
+        # Retry after a cooldown; the per-window alarm still bounds runtime.
+        if audit.get('coverage_complete'): continue
+        if audit.get('attempts',0)>=3:
+            retry_after=audit.get('retry_after_utc')
+            if retry_after:
+                try:
+                    if datetime.fromisoformat(retry_after)<datetime.now(timezone.utc):
+                        audit['attempts']=0
+                    else: continue
+                except ValueError:
+                    audit['attempts']=0
+            else:
+                audit['attempts']=0
         start=int(audit.get('next_page',0))
         print(f'VISUAL BEGIN {e["name"]!r} start_page={start}',flush=True)
         def timeout(_sig,_frame): raise TimeoutError('Visual page window exceeded 65 seconds')
@@ -40,6 +54,7 @@ def main():
             audit['ocr_complete']=audit['coverage_complete'] and audit['ocr_failed_pages_total']==0
             audit['attempts']=0
             audit.pop('last_error',None)
+            audit.pop('retry_after_utc',None)
             # No original image, OCR text, or copyrighted content persisted.
             audit['last_window']={'first_page':start+1,'last_page':audit['next_page'],
                 'candidate_pages':sum(bool(x['chart_candidate']) for x in observations),
@@ -49,6 +64,8 @@ def main():
         except Exception as exc:
             audit['attempts']=audit.get('attempts',0)+1
             audit['last_error']=str(exc)[:250]
+            if audit['attempts']>=3:
+                audit['retry_after_utc']=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
             print(f'VISUAL ERROR {e["name"]!r}: {exc}',flush=True)
         finally:
             signal.alarm(0)
@@ -64,7 +81,7 @@ def main():
         +f'- PDF files with tracked visual audit: {len(pdf_audits)}\n'
         +f'- Page coverage complete: {covered}\n'
         +f'- Windows attempted this run: {completed}\n'
-        +f'- Repeated failures needing manual review: {blocked}\n'
+        +f'- Repeated failures cooling down for automatic retry: {blocked}\n'
         +f'- Page coverage finished but OCR incomplete: {ocr_incomplete}\n'
         +'- Chart semantics independently verified: 0 (not performed by this scanner)\n'
         +'- Source page hashes and positions only; no copyrighted pages or OCR excerpts.\n',encoding='utf-8')
