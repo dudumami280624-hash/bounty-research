@@ -1,5 +1,6 @@
 name: The Market Mind - hourly source extraction
 # Verify English draft generation without independent-verification blocking.
+# Regression: partial OCR is resumed by page audit, not re-extracted each batch.
 
 on:
   schedule:
