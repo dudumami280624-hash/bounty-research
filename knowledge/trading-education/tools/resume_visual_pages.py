@@ -43,6 +43,8 @@ def retain_page_evidence(audit, observations):
         page_evidence[str(observation['page'])]={
             'render_sha256':observation['render_sha256'],
             'ocr_success':bool(observation.get('ocr_success',False)),
+            'text_origin':observation.get('text_origin','legacy_unknown'),
+            'ocr_performed':observation.get('ocr_performed'),
             'ocr_text_characters':int(observation.get('ocr_text_characters',0)),
             'chart_candidate_unverified':bool(observation.get('chart_candidate',False)),
         }
