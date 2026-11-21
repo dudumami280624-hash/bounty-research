@@ -165,6 +165,13 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
         try:
             # Network fetch and native parser are bounded by the caller's worker deadline.
             blob=download_blob(entry['sha'], timeout_seconds=25)
+            # Reject source drift before advancing a durable page cursor.
+            expected_sha256=record.get('source_sha256')
+            actual_sha256=hashlib.sha256(blob).hexdigest()
+            if expected_sha256 and expected_sha256!=actual_sha256:
+                raise ValueError('PDF source SHA-256 differs from initial extraction; page cursor unchanged')
+            if audit.get('source_sha256') and audit['source_sha256']!=actual_sha256:
+                raise ValueError('PDF source SHA-256 differs from earlier page windows; cursor unchanged')
             with tempfile.TemporaryDirectory() as td:
                 source=Path(td)/'source.pdf'
                 source.write_bytes(blob)
@@ -185,6 +192,7 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
                             'ocr_needed':not bool(raw),'verified':False}
                     audit['page_evidence'].update(evidence)
                     audit['total_pages']=total
+                    audit['source_sha256']=actual_sha256
                     audit['next_page']=stop
                     audit['coverage_complete']=stop==total
                     advanced.append({'source_sha':entry['sha'],'pages':f'{start+1}-{stop}','total':total})
