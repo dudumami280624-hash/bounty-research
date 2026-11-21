@@ -50,6 +50,10 @@ def pdf(path):
     d=fitz.open(path); blocks=[]; images=[]; blank=[]; ocr_pages=[]; ocr_failed_pages=[]
     # A page OCR must not exhaust the per-document 90-second watchdog.
     ocr_timeout=max(3,min(30,int(os.environ.get('TMM_OCR_PAGE_TIMEOUT_SECONDS','12'))))
+    # Bound expensive OCR on initial extraction; remaining blank pages stay explicitly pending.
+    max_ocr_pages=max(0,int(os.environ.get('TMM_INITIAL_OCR_MAX_PAGES','4')))
+    attempted_ocr=0
+    deferred_ocr_pages=[]
     languages='eng'
     if shutil.which('tesseract'):
         try:
@@ -61,7 +65,11 @@ def pdf(path):
         if s: blocks.append({'location':f'page-{i}','text':s})
         else:
             blank.append(i)
-            if shutil.which('tesseract'):
+            if attempted_ocr >= max_ocr_pages:
+                deferred_ocr_pages.append(i)
+                ocr_failed_pages.append(i)
+            elif shutil.which('tesseract'):
+                attempted_ocr+=1
                 with tempfile.TemporaryDirectory() as tmp:
                     image_path=Path(tmp)/'page.png'
                     image_path.write_bytes(p.get_pixmap(matrix=fitz.Matrix(2,2)).tobytes('png'))
@@ -78,7 +86,7 @@ def pdf(path):
         for j,im in enumerate(p.get_images(full=True),1):
             images.append({'location':f'page-{i}:image-{j}',
                            'xref':im[0],'visually_verified':False})
-    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_failed_pages':ocr_failed_pages, 'ocr_languages':languages, 'ocr_page_timeout_seconds':ocr_timeout, 'ocr_requires_manual_review':True}
+    return blocks,images,{'pages':len(d),'pages_without_extractable_text':blank, 'ocr_pages':ocr_pages, 'ocr_failed_pages':ocr_failed_pages, 'ocr_deferred_pages':deferred_ocr_pages, 'initial_ocr_page_limit':max_ocr_pages, 'ocr_languages':languages, 'ocr_page_timeout_seconds':ocr_timeout, 'ocr_requires_manual_review':True}
 
 def main():
     a=argparse.ArgumentParser()
