@@ -3,7 +3,9 @@
 Synthetic PDF only: does not claim source OCR or semantic verification.
 """
 import tempfile
-import re
+import re, inspect
+from free_visual import inspect_pdf as _inspect
+assert "re.sub(r'\\s+', '', embedded_text)" in inspect.getsource(_inspect), 'OCR sparse-text gate must strip whitespace'
 assert len(re.sub(r'\s+', '', '12' + ' ' * 120)) == 2, 'whitespace must not count as meaningful PDF text'
 from pathlib import Path
 from unittest.mock import patch
