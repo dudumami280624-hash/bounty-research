@@ -189,6 +189,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "33d0a09d625b3983a21864b6c21ce676db7a4f30",
+          "source_name": "波浪理论.pdf",
+          "locations": [
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "343d56ef34776f13ee0c2424904f75f323942daa",
           "source_name": "K线策略体系：起爆点 (2).pptx",
           "locations": [
@@ -766,6 +777,44 @@
             },
             {
               "location": "slide-18:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6a604efa250b78ea0cd790587314bfca40d58180",
+          "source_name": "核心指标——MACD.pdf",
+          "locations": [
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-32",
               "term_mentions": 1
             }
           ],
@@ -1908,6 +1957,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d85d6abb2476bd199fd41c8fc607a3e692bc79c0",
           "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
           "locations": [
@@ -2657,6 +2717,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "33d0a09d625b3983a21864b6c21ce676db7a4f30",
+          "source_name": "波浪理论.pdf",
+          "locations": [
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "3a8f058eca2aceac0667d7a54b494f94a4ff1895",
           "source_name": "20_来经济论坛一看，这里怎么又被房多们占领了_七剑战歌之风月.pdf",
           "locations": [
@@ -2951,6 +3022,17 @@
             },
             {
               "location": "page-26",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-34",
               "term_mentions": 1
             }
           ],
@@ -3679,6 +3761,17 @@
           "locations": [
             {
               "location": "page-2:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-36",
               "term_mentions": 1
             }
           ],
@@ -5253,6 +5346,32 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6a604efa250b78ea0cd790587314bfca40d58180",
+          "source_name": "核心指标——MACD.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-22",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7037c578702660333c360059073299d5dfc4cc4e",
           "source_name": "第九节RSI.docx",
           "locations": [
@@ -6430,6 +6549,17 @@
             {
               "location": "slide-22:shape-4",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-25",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -8026,6 +8156,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "33d0a09d625b3983a21864b6c21ce676db7a4f30",
+          "source_name": "波浪理论.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-19",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4",
           "source_name": "多头与空头旗形、三角形形态②.pdf",
           "locations": [
@@ -9196,6 +9345,21 @@
           "locations": [
             {
               "location": "slide-2:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16",
               "term_mentions": 1
             }
           ],
@@ -11577,6 +11741,25 @@
           "locations": [
             {
               "location": "slide-8:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-19",
               "term_mentions": 1
             }
           ],
@@ -14086,6 +14269,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "6eb435a8373b5ed4374da8a07e3225c878d529a0",
           "source_name": "201-西方社会心态变化.pdf",
           "locations": [
@@ -15778,6 +15984,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "c47c4b809993b07d0eafd71ced4764d459e09d51",
+          "source_name": "炒股养家心法.pdf",
+          "locations": [
+            {
+              "location": "page-197",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "c4d5856c1c05451a639bb6da84c78dd5d87e71f5",
           "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
           "locations": [
@@ -15838,6 +16055,29 @@
             {
               "location": "slide-22:shape-3",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-14",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -17550,6 +17790,37 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "33d0a09d625b3983a21864b6c21ce676db7a4f30",
+          "source_name": "波浪理论.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "343d56ef34776f13ee0c2424904f75f323942daa",
           "source_name": "K线策略体系：起爆点 (2).pptx",
           "locations": [
@@ -17971,6 +18242,17 @@
             },
             {
               "location": "slide-9:shape-5",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "4076b8781f35d7bd1e62bfeeb01dc37144718cae",
+          "source_name": "泰鹏智能研报pdf.pdf",
+          "locations": [
+            {
+              "location": "page-5",
               "term_mentions": 2
             }
           ],
@@ -18920,6 +19202,56 @@
             {
               "location": "slide-14:shape-5",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6a604efa250b78ea0cd790587314bfca40d58180",
+          "source_name": "核心指标——MACD.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -21308,6 +21640,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-27",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-28",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "d47f4419325ee4fc52c9419adcc2ed86283367a1",
           "source_name": "139_三年挣850万，你也可以复制！现在新书已出版，书名《我把一切告诉你》.pdf",
           "locations": [
@@ -22461,6 +22808,29 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "33d0a09d625b3983a21864b6c21ce676db7a4f30",
+          "source_name": "波浪理论.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 5
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "343d56ef34776f13ee0c2424904f75f323942daa",
           "source_name": "K线策略体系：起爆点 (2).pptx",
           "locations": [
@@ -23016,6 +23386,48 @@
           "locations": [
             {
               "location": "slide-2:shape-5",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6a604efa250b78ea0cd790587314bfca40d58180",
+          "source_name": "核心指标——MACD.pdf",
+          "locations": [
+            {
+              "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+          "source_name": "机构资金操盘揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-27",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-32",
               "term_mentions": 1
             }
           ],
@@ -24136,6 +24548,33 @@
           "locations": [
             {
               "location": "slide-22:shape-3",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+          "source_name": "机构资金操盘过程揭秘.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
               "term_mentions": 1
             }
           ],

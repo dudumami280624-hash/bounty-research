@@ -1,0 +1,106 @@
+{
+  "source_sha": "d0c9caf042cc7f17e6b042621f61741af5acf9b9",
+  "source_name": "机构资金操盘过程揭秘.pdf",
+  "topics": {
+    "volume": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "067831e62389fb3c83131657a35e14327e1e49deff7065ebb9ada149c9c48562",
+        "status": "unverified"
+      },
+      {
+        "location": "page-6",
+        "excerpt_sha256": "7b798dbfde8713d30bbb1766833a5e741e309c9931e86c90ea9d4b7c9f0c128a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23",
+        "excerpt_sha256": "af60530cecfd8f0369a3ca89a8e0e812c4937599ba2338076a3b3ad75b842f93",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "16eade7f631d4087aa28fdc8ce7510da0515800fc43f32440a2a35be40e63cd0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-34",
+        "excerpt_sha256": "390d415870b8515f6913c19f2912682cd43a10df265dbb0f42eda93ffdbb0321",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "6a2741db0dd3218f72e83e29e116d039baf5635faa7d541a25388868c88cdfac",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "5b46afa49ebb8a6b3eb61050cb4a6384c82983929b68a459b83b5631ec3b58d1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "6d08e47610e9d5eda061a08552b03c566e3857142d86319700becd22f002eb2e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "e96240fb157ea8bbd87d0c474f4bab88f6f652aa9e892746028ee34941c4a522",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "91997e1a5f27588229f6073a850ef41af94263e18a41f2922e4823a68ac6f3e3",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-10",
+        "excerpt_sha256": "6d08e47610e9d5eda061a08552b03c566e3857142d86319700becd22f002eb2e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "91997e1a5f27588229f6073a850ef41af94263e18a41f2922e4823a68ac6f3e3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19",
+        "excerpt_sha256": "b572fc544358f94a38f48d576c10171c473fca373294b94ba74d2486d885a8d8",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-25",
+        "excerpt_sha256": "16eade7f631d4087aa28fdc8ce7510da0515800fc43f32440a2a35be40e63cd0",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-27",
+        "excerpt_sha256": "757064c12834639051812f2eba46135114160096534916c83a8476d8f4c49e1f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-28",
+        "excerpt_sha256": "afa9cc2530ca1b1b9594bd09050120d3bc4b5ecf6d9f407c348886c7096ede84",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-36",
+        "excerpt_sha256": "18db1397f3143e752c47b7d1bb7217d42a0668f89eafbc6cbbb6ac7da5c4a18a",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

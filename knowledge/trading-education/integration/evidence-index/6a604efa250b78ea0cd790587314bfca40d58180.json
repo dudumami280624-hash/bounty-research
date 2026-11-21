@@ -1,0 +1,77 @@
+{
+  "source_sha": "6a604efa250b78ea0cd790587314bfca40d58180",
+  "source_name": "核心指标——MACD.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 7,
+      "evidence_locations": [
+        {
+          "location": "page-2",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-13",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

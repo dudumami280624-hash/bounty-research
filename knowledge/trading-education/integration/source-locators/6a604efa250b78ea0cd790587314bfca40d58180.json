@@ -1,0 +1,65 @@
+{
+  "source_sha": "6a604efa250b78ea0cd790587314bfca40d58180",
+  "source_name": "核心指标——MACD.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-2",
+        "excerpt_sha256": "094aa6a635584ff7860eb5a30ceff5161f0b58bb464857b619737222337a31bd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "00552d423695fee2179b7a875487a6346c95013d0be36321f16ca9a0753c9966",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "a018421d1d5cf9e02a8eb07b263c181e17e0ee167fa2679142d89a81753d8729",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "9c94a7d00604dda8999a479d1be490bb393e85d5275af02a528a0677ff6711b7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "108506ae246cabe9f4590d9cada8a3b504c5147c16e8b15bca35f0e9cb24b7cd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "0c25e47f07dcf6bbf775cc90c72ebd32d76bcd7810dae49900166567f2dad78f",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-5",
+        "excerpt_sha256": "4fd2cb010afe33dabbedee01a4b366512e8ed6ec85af1c9c4d5180d9c6c866de",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "0c25e47f07dcf6bbf775cc90c72ebd32d76bcd7810dae49900166567f2dad78f",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-15",
+        "excerpt_sha256": "0c25e47f07dcf6bbf775cc90c72ebd32d76bcd7810dae49900166567f2dad78f",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-15",
+        "excerpt_sha256": "0c25e47f07dcf6bbf775cc90c72ebd32d76bcd7810dae49900166567f2dad78f",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

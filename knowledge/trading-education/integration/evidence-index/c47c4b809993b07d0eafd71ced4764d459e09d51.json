@@ -1,0 +1,20 @@
+{
+  "source_sha": "c47c4b809993b07d0eafd71ced4764d459e09d51",
+  "source_name": "炒股养家心法.pdf",
+  "topics": [
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-197",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

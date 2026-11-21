@@ -22,6 +22,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术指标策略体系：KDJ.docx (source 28f3cc0d5cf4, word/document.xml:paragraph-12, word/document.xml:paragraph-18, word/document.xml:paragraph-31, word/document.xml:paragraph-34): review the original example and explain its context.
 
+- 波浪理论.pdf (source 33d0a09d625b, page-18): review the original example and explain its context.
+
 - K线策略体系：起爆点 (2).pptx (source 343d56ef3477, slide-4:shape-4, slide-4:shape-5, slide-5:shape-21, slide-15:shape-33, slide-17:shape-30): review the original example and explain its context.
 
 - 技术指标策略体系：MACD（上）.pptx (source 3f45c7000135, slide-4:shape-5): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - K线组合形态 文档.docx (source 55adafaceed4, word/document.xml:paragraph-1, word/document.xml:paragraph-2, word/document.xml:paragraph-3, word/document.xml:paragraph-5, word/document.xml:paragraph-6): review the original example and explain its context.
 
 - K线策略体系：酒田五法.docx (source 5a58cfdfd1c0, word/document.xml:paragraph-8, word/document.xml:paragraph-11, word/document.xml:paragraph-14, word/document.xml:paragraph-20, word/document.xml:paragraph-29): review the original example and explain its context.
-
-- K线策略体系：起爆点.docx (source 5f5d08f8ad52, word/document.xml:paragraph-1, word/document.xml:paragraph-3, word/document.xml:paragraph-5, word/document.xml:paragraph-9, word/document.xml:paragraph-11): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

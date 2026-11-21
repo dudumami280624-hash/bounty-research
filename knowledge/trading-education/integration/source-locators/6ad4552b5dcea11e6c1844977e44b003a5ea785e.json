@@ -1,0 +1,131 @@
+{
+  "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+  "source_name": "机构资金操盘揭秘.pdf",
+  "topics": {
+    "candlestick": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "c635de427734703caafca8b265454838b75a4acbdd1b30c25044e7d4411761a5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "2cc64c0ea93c47fa8ab568f9a02ab8e147c7bba67c3fae0efefb4bb4f95c1c76",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "b1e71030eab60d284cbf9f59070388f503a6e175d2351347e206b13f0d1b0ab4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "c673508b19a5e636513157a6d101c2456981df153945a3eee3241347d19ace66",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32",
+        "excerpt_sha256": "49f1d053314346893941a7e2ab320963f7ebfa43790901b79706266cffd03cc6",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "c635de427734703caafca8b265454838b75a4acbdd1b30c25044e7d4411761a5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "2cc64c0ea93c47fa8ab568f9a02ab8e147c7bba67c3fae0efefb4bb4f95c1c76",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "73e485c078c25ad481c9499cf183dad326623cafee07c152da625c225c555ecc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "750e6f8e32a79cd8c0310f7fe449f7d34fffd566921a370d447fc694c8e9c54f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-27",
+        "excerpt_sha256": "97194cec95a1738095cf5d882b531b116759c247d2f3d23d8bc2fe5c71bb46d0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-32",
+        "excerpt_sha256": "49f1d053314346893941a7e2ab320963f7ebfa43790901b79706266cffd03cc6",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-6",
+        "excerpt_sha256": "8e82b136c5299b32b481dbfff2c9b3e1411874d79f73c4dd5233bdda92e6c9b4",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "03da117fa46fc7509a31269f0996a32fdd92380b6852ae720030b9dba18e1b66",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "03c6e561e312538c18a40ba8849e4b132bc0cbebec287dd1de43f80450257d00",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "d1b58fb60627a4423a01fb92fae8a61317ed504bcf76b856caac8c44e4d58536",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-11",
+        "excerpt_sha256": "03da117fa46fc7509a31269f0996a32fdd92380b6852ae720030b9dba18e1b66",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "c673508b19a5e636513157a6d101c2456981df153945a3eee3241347d19ace66",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25",
+        "excerpt_sha256": "e5f38ec27e085690dad932310b4d8ab1abbf13cb74607cf2886bf7afa7875c93",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-15",
+        "excerpt_sha256": "03c6e561e312538c18a40ba8849e4b132bc0cbebec287dd1de43f80450257d00",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16",
+        "excerpt_sha256": "fb3caf0b78c29e4933891a980cff8e13d756500778000a7e9b291357050bf413",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-22",
+        "excerpt_sha256": "750e6f8e32a79cd8c0310f7fe449f7d34fffd566921a370d447fc694c8e9c54f",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-34",
+        "excerpt_sha256": "74e6400de2f60c42c4e28845a45508f02e8888fa11049bcd68e67061c86dcd66",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

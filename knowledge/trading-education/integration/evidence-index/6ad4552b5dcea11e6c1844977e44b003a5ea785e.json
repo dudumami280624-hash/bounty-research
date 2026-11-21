@@ -1,0 +1,146 @@
+{
+  "source_sha": "6ad4552b5dcea11e6c1844977e44b003a5ea785e",
+  "source_name": "机构资金操盘揭秘.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-32",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-6",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-18",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-20",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-27",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-32",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-16",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-22",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-34",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -1,0 +1,92 @@
+{
+  "source_sha": "33d0a09d625b3983a21864b6c21ce676db7a4f30",
+  "source_name": "波浪理论.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "c0505155e73bf1254bce6adaa534416c2ef16966f0a6f07c020c385496b747e7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "7a139a87e494315bbfecec9dbadc0100f00979180319929694c61436d6ea969c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19",
+        "excerpt_sha256": "ff2db9007e79d53e7eb0598ff9c7a69af3573f4248b306d50a2724ff5c20de38",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "d5d2ad3b97fedba1f6e693c465f6669df204bad786aa8138747d721572eb8513",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "ba2ed6aca78c0128cf3772e970112df7b5d31e4c2b699d5fa4273f42b21605f3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "e2eec7f065c549a25593b3471a8edf4997279a6782357b8a14f99cc0680a8c83",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "b32a9eaf418187376faf6cfbdfaebf65239e187af9d5ea7b19589ba9c0742c9c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "7a139a87e494315bbfecec9dbadc0100f00979180319929694c61436d6ea969c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "a9150e7dd64c772dce3408a56afc1eb46dec9c578cd9dd2cedeb462c0a4f6be9",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-5",
+        "excerpt_sha256": "a1f913da7e644de351e80e8dc39928d5c59ec9fb7f6c1fa31a100975d1cdc47e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "1247591466953448202bbe7276217a8be2b447ba46fd7b02a974b1021df5b131",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "34091c16e039b973b921ac5824fdf5bab3b1647adfb8d5886403e39ae25e7a12",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "7a139a87e494315bbfecec9dbadc0100f00979180319929694c61436d6ea969c",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-11",
+        "excerpt_sha256": "e7784ecf44b4831c19091a5f0024055e2c0ecb7fd78714e2d1c31e3f60adcb1a",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-18",
+        "excerpt_sha256": "7a139a87e494315bbfecec9dbadc0100f00979180319929694c61436d6ea969c",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

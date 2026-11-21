@@ -1,0 +1,20 @@
+{
+  "source_sha": "4076b8781f35d7bd1e62bfeeb01dc37144718cae",
+  "source_name": "泰鹏智能研报pdf.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-5",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
