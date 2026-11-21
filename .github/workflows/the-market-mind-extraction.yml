@@ -1,6 +1,7 @@
 name: The Market Mind - hourly source extraction
 # Verify English draft generation without independent-verification blocking.
 # Reject empty Tesseract output as successful OCR (research 520450b).
+# Retry exhausted source failures after six-hour cooldown (research e482a362).
 # Regression: partial OCR is resumed by page audit, not re-extracted each batch.
 # Page-specific OCR retries retain failed page numbers and six-hour cooldown.
 # Hard per-source process-group timeout prevents native PDF/OCR hangs (3bceb66).
