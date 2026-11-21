@@ -1,0 +1,86 @@
+{
+  "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
+  "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 13,
+      "evidence_locations": [
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-20",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-21",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-27",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-47",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-49",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-31",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-23",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-28",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-33",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

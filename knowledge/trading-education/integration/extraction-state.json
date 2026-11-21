@@ -59,29 +59,28 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 23,
         "total_pages": 23,
         "attempts": 0,
-        "coverage_complete": false,
+        "coverage_complete": true,
         "semantic_verified": false,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 23,
+          "candidate_pages": 11,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "3fddfdd465753028abc69ee74890051836438670f762f033b66a28a9760fc6a2",
-            "ca6b5c54a9160bd1392f825dcbc0daf07308fe24e6ffa990a0c49d1c37396812",
-            "50939ba30158ba10b1e02ed690c2eecdafd611d246554a5fcf3b74247845d30c",
-            "3781b4ad9c78cc653833d3ef165c5a2d72bac916b63a8ce824ed9d5a1c7df895",
-            "6db2063ca49e86ad0d175fcde127a0342b86d8e5a2b99c465089772f1554b138",
-            "9d4bfdcc205cdc54ea31a2b71e9a49e985ca213c488d1b77386a731eef706e3a",
-            "7be255842210e11fde38747ce99bda7a8a5e757386d99242a2ec4072ebe61433",
-            "6f375e32f6e09d3fb4d84bc62e2a8858f9e02798c90c7059fcc41920fac0ee16",
-            "d58aeeb3be6c3efc464919516b5972a88e98ee4c3dfc3a0ebaf9fa703c470e53",
-            "9fb33b15284ae25f8ec4495447352d49b622cbc8084318b8b69211c66f93279d",
-            "9baed7c551954b06a21978bc56fbb9ca7f8de97acf274c2a06a54d0bea5c6eee",
-            "81542a22ecf6f5fce48c59a58ccaec5f11fba289ce7d61b6a9a9d96e1e56e336"
+            "bd308eab88f9b117e648caa1003fdf9a983cc86f82f96d6eed9aa4930aacd03e",
+            "717920ae93e3eccb0b5f9f2745c68a6a0bb46249d1d8569534877b9f3d8d01af",
+            "07fe0c9c8cdbade872926273f0e942550cac38cbb2df951f091fde9fdf7f7da7",
+            "1109b626f256f92979e6d6da423adcef556a032104ca0a5bc5f1d6af8283e863",
+            "175b4ea2ccfb6dabf5b45dac8955679b302b9a8552ba0deeac860846af643f60",
+            "fd5e111049535a8a8045a5c1047f5cfdf2cfc751263a296ec53c61e7bd16b1c5",
+            "4a67a82442762b7a2dbf4a2ce75de2a450bc4db0f6b43bb6446257016f7d656b",
+            "282427ac3ce92bc7735291056dc4887aa5ce56c634dfa9ea969fd1fb366c4b99",
+            "ceb434f70e6f5c3f51e57d46b672635a68717e6a208f6304bf6f5f619d13f3d5",
+            "423b11f9b77ada37316e5b2b0c611d73c1b3ea4de8cff76f4703dd8be95d0b58",
+            "a945a468e489a4d51dbe58c37694321d48174111524eaf94600c641a8e6d2a4e"
           ]
         }
       }
@@ -133,29 +132,18 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 13,
         "total_pages": 13,
         "attempts": 0,
-        "coverage_complete": false,
+        "coverage_complete": true,
         "semantic_verified": false,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 13,
+          "candidate_pages": 1,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "caf10bdbdaa43bcd79abfe7805b1048a6be22d261ae9b5f0c59ff314aea4de6b",
-            "fb1cfdb8a41e4d5dc8d20b523bf2d779dd2b039361394ba3f36a64026c0e39b5",
-            "0f261d873f8b213875fb8684508f9695dcc9f57c63808d115c09c6eb720a3a7b",
-            "974325c8caf0ffed0fe1cca6b351c4d3265946ab2d4f595a964e0b4a0134a799",
-            "6de7de84b2ed50f7a5e513fe32245a53033970e82813caa9917d58b170e98a9c",
-            "4af392c9395dda8fdbaf1b4086d8cfe5e820e30533fbf5888912f3e764028f4f",
-            "6bc10c03e00eb743e4d7fc19fbb0abf83b893a4d7ddf9925255ea08dfeaa1004",
-            "0f4975b7d4b81f16f8b51216ba3aaceabd8d0d9f5deef0e0624a49ad93185981",
-            "6d88bcfc802ffe1a73b553aed9910e28c19c4f0fc64f2ad7d8735e489961bca6",
-            "a730f626b13e063dc24d99e5d88751f57cc10f3fff25c559866c0bff356b0303",
-            "d3636233f3721572c55fcb9d992d21530e16b0af1de201bef25c3e37adc998cf",
-            "7f4ab6d996edcaf69198e9c67bbc51937160a746d8b073d30b53f22768f08fdc"
+            "3d3ced1ea26c2717b9fbf3cec9635fe473a83d217a5047a51297ea9f0cb11014"
           ]
         }
       }
@@ -1652,7 +1640,6 @@
           52,
           53,
           54,
-          55,
           56,
           57,
           58,
@@ -1665,6 +1652,7 @@
           65,
           66,
           67,
+          68,
           69,
           70,
           71,
@@ -1859,7 +1847,7 @@
         ],
         "ocr_failed_pages": [
           2,
-          68,
+          55,
           176
         ],
         "ocr_languages": "eng+chi_sim",
@@ -1877,8 +1865,8 @@
       "visual_review_complete": false,
       "source_name": "11-经济大周期_踩准节拍再投资（高清）--海宁.pdf",
       "category": "05-投资与基本面研究（30份）",
-      "attempts": 2,
-      "last_attempt_utc": "2026-11-21T00:00:16.158273+00:00",
+      "attempts": 3,
+      "last_attempt_utc": "2026-11-21T00:29:58.196778+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     },
@@ -2952,8 +2940,8 @@
       "visual_review_complete": false,
       "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
       "category": "06-宏观经济与市场周期（16份）",
-      "attempts": 1,
-      "last_attempt_utc": "2026-11-21T00:00:21.439048+00:00",
+      "attempts": 2,
+      "last_attempt_utc": "2026-11-21T00:30:02.529370+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     },
@@ -3020,6 +3008,212 @@
       "category": "05-投资与基本面研究（30份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T00:00:24.225071+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "72bcf7e0a3cd6408523dc0ccf1826e07876f8fc1": {
+      "extraction_status": "partial_ocr_failure",
+      "source_sha256": "b89d963cca4651a97a74f8ab77d1f25ac1ac714e4046311f0ff267697fc80689",
+      "text_blocks": 53,
+      "images_found": 0,
+      "topic_candidates": 5,
+      "private_research_topics": 5,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 54,
+        "pages_without_extractable_text": [
+          54
+        ],
+        "ocr_pages": [],
+        "ocr_failed_pages": [
+          54
+        ],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 54,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "184-人，应该怎么活？应该怎么赚钱？.pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T00:30:03.518009+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "a87a992fbdaa44d662584aa674c273e94e9fb1b6": {
+      "extraction_status": "extracted",
+      "source_sha256": "3ce1284da4da4050fa8d70fa414cea507fc858ef4e9463a372918c6e23c7a4bd",
+      "text_blocks": 6672,
+      "images_found": 0,
+      "topic_candidates": 9,
+      "private_research_topics": 9,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 6672,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 6672,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "191-短线的最高境界是不停的追逐涨停 .pdf",
+      "category": "07-历史课堂与随笔（22份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T00:30:19.135993+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "852b49fa9d5d1fe6ff2daeb3e5ce68d247cabcbb": {
+      "extraction_status": "extracted",
+      "source_sha256": "20c1c70810c2b82bfe612698d7d4c5bc406622e0a412a08b7d5df11efbc5a373",
+      "text_blocks": 77,
+      "images_found": 0,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 77,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 77,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "196-整个全球经济的怪现象.pdf",
+      "category": "06-宏观经济与市场周期（16份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T00:30:19.951127+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "061c7329a84cd2df99a810ae4b2a6994f35462e2": {
+      "extraction_status": "extracted",
+      "source_sha256": "ee48673ecf46e30a0cb990508cb70e23254ae4841112a903de08abec5fc829de",
+      "text_blocks": 51,
+      "images_found": 0,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 51,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 51,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
+      "category": "06-宏观经济与市场周期（16份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T00:30:20.727940+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "6eb435a8373b5ed4374da8a07e3225c878d529a0": {
+      "extraction_status": "extracted",
+      "source_sha256": "f401c9608a994a6deffec9c33a3211701845c300b26dbe184876f7d0ff9fe1ae",
+      "text_blocks": 391,
+      "images_found": 0,
+      "topic_candidates": 4,
+      "private_research_topics": 4,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 391,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 391,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "201-西方社会心态变化.pdf",
+      "category": "08-待归类（11份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T00:30:22.626430+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "d85d6abb2476bd199fd41c8fc607a3e692bc79c0": {
+      "extraction_status": "partial_ocr_failure",
+      "source_sha256": "73ac1dcc07a5e0758226eeaae4e0b9e8bc73bbb4bcb87062c2b4ea0cb61bb427",
+      "text_blocks": 1474,
+      "images_found": 0,
+      "topic_candidates": 8,
+      "private_research_topics": 8,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 1475,
+        "pages_without_extractable_text": [
+          1452
+        ],
+        "ocr_pages": [],
+        "ocr_failed_pages": [
+          1452
+        ],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 1475,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T00:30:26.769487+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     }

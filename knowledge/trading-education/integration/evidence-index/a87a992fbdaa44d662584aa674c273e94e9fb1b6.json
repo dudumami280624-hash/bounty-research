@@ -1,0 +1,1676 @@
+{
+  "source_sha": "a87a992fbdaa44d662584aa674c273e94e9fb1b6",
+  "source_name": "191-短线的最高境界是不停的追逐涨停 .pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 127,
+      "evidence_locations": [
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-191",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-192",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-207",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-242",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-329",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-361",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-362",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-428",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-430",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-466",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-500",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-573",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-579",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-580",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-581",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-626",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-684",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-804",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-922",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-944",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1098",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1366",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1373",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1416",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1428",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1627",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1649",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1655",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1705",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1710",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1764",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1780",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1784",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1802",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1827",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1878",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1891",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1929",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1949",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2214",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2217",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2224",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2347",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2362",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2547",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2574",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2675",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2687",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2689",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2690",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2706",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2733",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2780",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2810",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2861",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2864",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2876",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2918",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-441",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1280",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1330",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1748",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2225",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2432",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2621",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "engulfing",
+      "mentions": 20,
+      "evidence_locations": [
+        {
+          "location": "page-360",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-361",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-693",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-695",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1478",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1479",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1717",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2693",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2931",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3106",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3108",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3297",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3300",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3614",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3877",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3904",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3974",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4235",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-5249",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 1842,
+      "evidence_locations": [
+        {
+          "location": "page-19",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-20",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-36",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-37",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-78",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-162",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-218",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-285",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-296",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-299",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-300",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-314",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-315",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-316",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-317",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-336",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-340",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-361",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-412",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-443",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-445",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-448",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-497",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-500",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-540",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-560",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-565",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-587",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-598",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-602",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-606",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-624",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-680",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-693",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-695",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-696",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-712",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-729",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-737",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-738",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-766",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-810",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-815",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-817",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-830",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-832",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-836",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-863",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-879",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-910",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-920",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-982",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1019",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1081",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1082",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1083",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1085",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 353,
+      "evidence_locations": [
+        {
+          "location": "page-68",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-386",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-390",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-395",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-484",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-554",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-555",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-569",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-656",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-680",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-684",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-758",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-759",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-765",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-770",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-772",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-774",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-779",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-831",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-867",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-877",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-879",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-882",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-932",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-941",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-954",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-961",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-980",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1066",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1094",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1131",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1132",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1161",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1166",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1281",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1296",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1303",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1315",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1317",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1342",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1355",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1378",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1387",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1417",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1433",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1476",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1501",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1542",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1545",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1563",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1579",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1596",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1597",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1602",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1603",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1607",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1620",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1621",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1631",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-1640",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 440,
+      "evidence_locations": [
+        {
+          "location": "page-34",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-44",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-54",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-346",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-366",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-367",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-374",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-389",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-394",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-427",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-482",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-694",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-695",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-726",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-742",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-759",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-772",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-774",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-779",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-816",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-820",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-828",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-848",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-849",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-851",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-872",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-894",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1040",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1044",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1159",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1161",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1166",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1183",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1290",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1296",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1330",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1337",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1393",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1431",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1435",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1513",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1514",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1526",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1531",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1538",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1540",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1545",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1584",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1586",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1591",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1596",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1621",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1622",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1628",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1638",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1642",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1643",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1659",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1672",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1673",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1547,
+      "evidence_locations": [
+        {
+          "location": "page-1",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-3",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-14",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-23",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-28",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-31",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-38",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-49",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-59",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-60",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-61",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-79",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-84",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-99",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-100",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-121",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-123",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-125",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-136",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-138",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-140",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-147",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-149",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-169",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-173",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-182",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-202",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-209",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-235",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-238",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-259",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-263",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-265",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-271",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-272",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-278",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-283",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-293",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-295",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-305",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-311",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-312",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-315",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-317",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-324",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-338",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-354",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-361",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-362",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-372",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-374",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 96,
+      "evidence_locations": [
+        {
+          "location": "page-50",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-124",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-151",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-334",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-352",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-540",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-572",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-582",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1429",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1615",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1649",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1692",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1724",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1740",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1742",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1759",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1780",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1786",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1802",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1896",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1900",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1947",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1952",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1967",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-1990",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1991",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2011",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2059",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2060",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2106",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2113",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2251",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2261",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2282",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2295",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2507",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2520",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2535",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2537",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2643",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-2645",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2732",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2810",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2859",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2874",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2901",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2903",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2921",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2974",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3030",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3190",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3280",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3336",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3381",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3383",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-3384",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-3724",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4019",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-4020",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-4054",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 16,
+      "evidence_locations": [
+        {
+          "location": "page-53",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-372",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-499",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1238",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1239",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1270",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-1698",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2154",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-2734",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3388",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-3915",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4779",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4883",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-5005",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-6013",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

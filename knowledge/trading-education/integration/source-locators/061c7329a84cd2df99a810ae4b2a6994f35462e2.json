@@ -1,0 +1,83 @@
+{
+  "source_sha": "061c7329a84cd2df99a810ae4b2a6994f35462e2",
+  "source_name": "199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-11",
+        "excerpt_sha256": "73adbe5e9b7b3f6ac829c63eff0a42a119d14a84e0800b02717b4b5dd12cdd80",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14",
+        "excerpt_sha256": "258fa651e10ab47f96fb3994381f394e7f3201afdc97aa5cf6a070f30d0fac41",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "8c8d5a11fcff5fe1a45a9f09b7fde3669faf045d53577e21fce4a58eff0b3d4c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-21",
+        "excerpt_sha256": "814606e14bad1cde34580ce19204a44608fbd03724938c80f661e5243bddec17",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "35c23ca4735656a4cdf49e0abdc4430f12c095235a758064ebb7eda80d4706ff",
+        "status": "unverified"
+      },
+      {
+        "location": "page-27",
+        "excerpt_sha256": "3ebf3daa1f57a9179b9de9fc077a50b6a3e82c53da50748613d2a24571dc40cc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-40",
+        "excerpt_sha256": "f40379b21c0e6259807329d9ffadcb4efb4f338f520421ad53a3045747269d70",
+        "status": "unverified"
+      },
+      {
+        "location": "page-47",
+        "excerpt_sha256": "eb5f5345044c0e7912fcea5b5c71f46e374f504ae6f12ccc15d67542c0ec6253",
+        "status": "unverified"
+      },
+      {
+        "location": "page-49",
+        "excerpt_sha256": "f9d585756d1a765210cdd59ef9422f66824afd38ea8e8ff36506613e7e8823bf",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-23",
+        "excerpt_sha256": "90f0300de2b1ff8bb4bffd7b604a074656bc4815ad295aa262ce604795be4a94",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "6d87bc99b056676e2d28b4563e7857f9554f5ff42213fa7b21a549677e0b8ba5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-28",
+        "excerpt_sha256": "47ce58a9d18d7a87869c22ffab398d9cbea3935f6432d7eaf67bbd5a0a9241fe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33",
+        "excerpt_sha256": "adbc07312759f9da5a7f0a2de139fa1e995ac29cf8dea0de6cc897e1943e7362",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-31",
+        "excerpt_sha256": "3314fbf5b7bf84edc70fda6559de68100bdf6db39232fbae20cc1281211fdf05",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

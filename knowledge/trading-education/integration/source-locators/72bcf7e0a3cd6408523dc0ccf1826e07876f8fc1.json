@@ -1,0 +1,77 @@
+{
+  "source_sha": "72bcf7e0a3cd6408523dc0ccf1826e07876f8fc1",
+  "source_name": "184-人，应该怎么活？应该怎么赚钱？.pdf",
+  "topics": {
+    "candlestick": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "916cef53b34d8e0711c769c568d254a1ff396f383f98cfae3ccd157a40426a29",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "d0de2d5cf685065d4fa26eb52591bd5c60cd852f5d88bb4c5ffc4ee307c71c28",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "d0de2d5cf685065d4fa26eb52591bd5c60cd852f5d88bb4c5ffc4ee307c71c28",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "56fdf2841470fdd07e8a2539334f6bdada936f167158231cf4b7d183d796e41d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-42",
+        "excerpt_sha256": "5cef555da882e0401497a57506a779c504180fce689f905dd22366a7ccfeb496",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-14",
+        "excerpt_sha256": "06e3d5cded4976ac6e9ef305bccfc6a744bf370e7900b8d0984d867bf6b9ff9d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15",
+        "excerpt_sha256": "380a1bb1a16d660e2971f84ad37da22dc50cb526c8adb2335887f13e7e381f87",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16",
+        "excerpt_sha256": "abe42543ff399b91edd0794742d56f11600d0be2026f88e7b25648bb0ef3dfb0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-40",
+        "excerpt_sha256": "104a6ee84c155696124149664c076dc5f3860373c5b0282db770b86624461e83",
+        "status": "unverified"
+      },
+      {
+        "location": "page-44",
+        "excerpt_sha256": "88ad876b862c3e591373c8a3777b24b422f6b7f41f34f3e26a541fd02f42eb77",
+        "status": "unverified"
+      },
+      {
+        "location": "page-52",
+        "excerpt_sha256": "26e75cb5b2a3a3baa5af28397bee6a35a3eb3a52c15cc84256da14caf7452ba5",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-48",
+        "excerpt_sha256": "b4ab8ed23a9c306fd2c290cb9fc7103a8666c0987de11a6e871101f4f15ba0a3",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

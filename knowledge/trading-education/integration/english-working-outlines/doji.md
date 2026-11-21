@@ -22,13 +22,15 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：酒田五法 (2).pptx (source 81d7b1ddda32, slide-11:shape-5, slide-14:shape-5): review the original example and explain its context.
 
+- 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-441, page-1280, page-1330, page-1748, page-2225): review the original example and explain its context.
+
 - 1K线策略体系：十字星.docx (source ac24fb5d2d91, word/document.xml:paragraph-10, word/document.xml:paragraph-13, word/document.xml:paragraph-16, word/document.xml:paragraph-19, word/document.xml:paragraph-22): review the original example and explain its context.
 
 - 1.初学者成为高手的秘籍：十字星.pptx (source b915344b9813, slide-5:shape-4, slide-5:shape-5, slide-6:shape-4, slide-6:shape-5, slide-7:shape-4): review the original example and explain its context.
 
 - 葛兰威尔均线八大法则（买1）.pptx (source c43ef4a49b43, slide-6:shape-1): review the original example and explain its context.
 
-- 100_房地产投资依然无忧，逆向思维让你找到真实.pdf (source ee0b5930e6e3, page-4108): review the original example and explain its context.
+- 205_市场心理研究_贪嗔痴慢疑的那些事儿，顺便分析分析当前市场.pdf (source d85d6abb2476, page-412, page-415, page-458, page-696, page-857): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

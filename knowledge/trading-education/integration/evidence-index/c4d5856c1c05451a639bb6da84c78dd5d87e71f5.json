@@ -15,7 +15,7 @@
     },
     {
       "concept": "trend",
-      "mentions": 7,
+      "mentions": 8,
       "evidence_locations": [
         {
           "location": "page-18:OCR-unverified",
@@ -31,6 +31,10 @@
         },
         {
           "location": "page-67:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-68:OCR-unverified",
           "term_mentions": 1
         },
         {

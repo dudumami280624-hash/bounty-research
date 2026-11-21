@@ -1,0 +1,121 @@
+{
+  "source_sha": "6eb435a8373b5ed4374da8a07e3225c878d529a0",
+  "source_name": "201-西方社会心态变化.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 12,
+      "evidence_locations": [
+        {
+          "location": "page-55",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-104",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-142",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-185",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-368",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-370",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-386",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-199",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-358",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-87",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-132",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-134",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-245",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-283",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-284",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-288",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-330",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-387",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-50",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-88",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-366",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -1,0 +1,120 @@
+{
+  "source_sha": "6eb435a8373b5ed4374da8a07e3225c878d529a0",
+  "source_name": "201-西方社会心态变化.pdf",
+  "topics": {
+    "confirmation": [
+      {
+        "location": "page-50",
+        "excerpt_sha256": "98321c886f7d13b5f3d20f93fdccd92d3e18074f72e6cf877c262a2d494b958c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-88",
+        "excerpt_sha256": "7696b79b024138fae29819667051a28093a987c9713581fe149412362edd52e0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-366",
+        "excerpt_sha256": "607b08f3cbef947724e7ba14c3f5946f55dd38bb66d6887abbcce10269f0894f",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-55",
+        "excerpt_sha256": "79aa8c9520bcfda61552f3e1b0e8b44b0ae940b9df5f5cf7f753dcc35725a04f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-104",
+        "excerpt_sha256": "759fed82f49a12a6c5db0c8f00467baf3e1763f2759f067dd5499fd43303e5d2",
+        "status": "unverified"
+      },
+      {
+        "location": "page-142",
+        "excerpt_sha256": "6c485e215cc91b29eac52c999e8e94b69347ad279becc53dbe8c3e41dc16062f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-185",
+        "excerpt_sha256": "3f530aec03114446ecefa14a6f2706402f1e60e80e4dd3063e73affacf2f65fd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-368",
+        "excerpt_sha256": "d9c7acf4c52849232fb4d414f47389b7c022d24579b78e8a18e1fb3da1313081",
+        "status": "unverified"
+      },
+      {
+        "location": "page-370",
+        "excerpt_sha256": "10c73a3a8f51d663f254f569ff72745c8cdec49a3eab5bc511b6a194d83255ca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-386",
+        "excerpt_sha256": "86d76cd2f0a1fe13ef373b297a51e919dbe2e0a7447da2f3c78191519e551b5d",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-87",
+        "excerpt_sha256": "a9d70ffbade0e5b763ef70b67b505654826aa0fcb1eae09258afb82c7a130c26",
+        "status": "unverified"
+      },
+      {
+        "location": "page-132",
+        "excerpt_sha256": "611227c851db0f0b8a76da2f19e3079f793dd3c9c5e5bc32e28b5a8f49474c81",
+        "status": "unverified"
+      },
+      {
+        "location": "page-134",
+        "excerpt_sha256": "1fec962ac44add9b928ab1f6b9a61ccac188a70547bcda7799729500fafc585b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-245",
+        "excerpt_sha256": "a4b81d0413f2827c7abc2e5d49d0450a2fba8ef0e8c7ed92ec74163d490cce62",
+        "status": "unverified"
+      },
+      {
+        "location": "page-283",
+        "excerpt_sha256": "7ef8ce28e646ebbec52c5777c308eb63c6a10d8d030e6006678e0159e455b861",
+        "status": "unverified"
+      },
+      {
+        "location": "page-284",
+        "excerpt_sha256": "c78da872104192c6d98120d8caf30285dcd527222bc4bd237673dfe2a61e3672",
+        "status": "unverified"
+      },
+      {
+        "location": "page-288",
+        "excerpt_sha256": "59cfe4c1018a49e6916e99fa9a8961404a7b1c4322609b4cd154b43f312947ca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-330",
+        "excerpt_sha256": "2fe75c14cf3bb358b4a74f457c74b3a52fb91c677ed1ee9fe8044991ee4fefe8",
+        "status": "unverified"
+      },
+      {
+        "location": "page-387",
+        "excerpt_sha256": "3e85059eeb0128a9f07b961a207ecb9e51fd8679fa24665773d459c310dcef14",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-199",
+        "excerpt_sha256": "1c3c27fb0eca0a269cbd8a0c5e3f842d4f5f326f671d985cec1fd642990012fc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-358",
+        "excerpt_sha256": "0858c9ce85c865ccf05c5e441759b9f934e467c278b83fcf8a0e04439bac21d5",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

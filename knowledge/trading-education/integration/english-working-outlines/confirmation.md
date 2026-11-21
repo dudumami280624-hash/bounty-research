@@ -30,7 +30,7 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 技术分析《道氏理论》.doc (source 615359fb2745, word/document.xml:paragraph-82, word/document.xml:paragraph-84, word/document.xml:paragraph-86, word/document.xml:paragraph-89, word/document.xml:paragraph-97): review the original example and explain its context.
 
-- K线策略体系：酒田五法.pptx (source 7c1743f1133a, slide-32:shape-5, slide-35:shape-5): review the original example and explain its context.
+- 201-西方社会心态变化.pdf (source 6eb435a8373b, page-50, page-88, page-366): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

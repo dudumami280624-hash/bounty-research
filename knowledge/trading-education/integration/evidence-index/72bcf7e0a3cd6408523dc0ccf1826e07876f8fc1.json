@@ -1,0 +1,92 @@
+{
+  "source_sha": "72bcf7e0a3cd6408523dc0ccf1826e07876f8fc1",
+  "source_name": "184-人，应该怎么活？应该怎么赚钱？.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-48",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-42",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-14",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-15",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-16",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-40",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-44",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-52",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

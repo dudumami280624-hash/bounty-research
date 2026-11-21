@@ -18,6 +18,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 重要的 K 线形态组合.pdf (source 90fbf5f6508e, page-6, page-8): review the original example and explain its context.
 
+- 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-360, page-361, page-693, page-695, page-1478): review the original example and explain its context.
+
 - 11-经济大周期_踩准节拍再投资（高清）--海宁.pdf (source c4d5856c1c05, page-22:OCR-unverified): review the original example and explain its context.
 
 - 成交量与 K 线形态的力量.pdf (source db98c9518038, page-19, page-21): review the original example and explain its context.

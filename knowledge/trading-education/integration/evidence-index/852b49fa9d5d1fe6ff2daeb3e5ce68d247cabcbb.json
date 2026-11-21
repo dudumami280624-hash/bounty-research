@@ -1,0 +1,24 @@
+{
+  "source_sha": "852b49fa9d5d1fe6ff2daeb3e5ce68d247cabcbb",
+  "source_name": "196-整个全球经济的怪现象.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-55",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}
