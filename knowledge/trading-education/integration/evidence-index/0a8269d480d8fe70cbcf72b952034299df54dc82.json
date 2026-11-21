@@ -1,0 +1,24 @@
+{
+  "source_sha": "0a8269d480d8fe70cbcf72b952034299df54dc82",
+  "source_name": "关税政策.pdf",
+  "topics": [
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-5:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-20:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

@@ -1,0 +1,19 @@
+{
+  "source_sha": "0a8269d480d8fe70cbcf72b952034299df54dc82",
+  "source_name": "关税政策.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-5:OCR-unverified",
+        "excerpt_sha256": "67886a304082ecb825d9265c6fa1e3f79263360a4dae2dfcc00a34115ea2129c",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20:OCR-unverified",
+        "excerpt_sha256": "df0307691d34f124aa4637479edc4eb12b77911dbe9e9089efe54e0f226b126c",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

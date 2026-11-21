@@ -1,0 +1,83 @@
+{
+  "source_sha": "4feda2d831f7eb8deffcecaba8b7055e8e9d54e1",
+  "source_name": "四大风险管理策略与股市分析.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-2:OCR-unverified",
+        "excerpt_sha256": "4a5f22720d3e2c0cc820120d6c5fac925ce6c6f4b633c3c7f4b38324fb365af0",
+        "status": "unverified"
+      },
+      {
+        "location": "page-3:OCR-unverified",
+        "excerpt_sha256": "7ebb1963b48d87d72b5e5f1b58b8e121a537daaa53b22deed10df9b500e86fd6",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "67e7fc17f156e9df1a1ba72008ca0bec41aed507616bdf7894ff933811818bbd",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5:OCR-unverified",
+        "excerpt_sha256": "1db5c4e51f3858386360748c4176566f9e4be32033b632e0ddc1fc8036d52e23",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7:OCR-unverified",
+        "excerpt_sha256": "40cc2e6bab08c254672380ffda407c6aaa5a550e0af437329c57894d479319fe",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8:OCR-unverified",
+        "excerpt_sha256": "2679189a7ac9b44ed32d79c3e0208a8febe883e939be6cd9f8b719ec68bcc771",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9:OCR-unverified",
+        "excerpt_sha256": "535d22eee3cd42ec71f9713b1ed81582d1c7fc2cce4170c5f54ec200471f7bd9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "1dc2c96c84763d197213a476e364054a5427556edff9b7df3afc2dc2e3aeb49f",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-6:OCR-unverified",
+        "excerpt_sha256": "a8afaae34c4aab03cedd501dc8d3f8ba4bf9dbdb3ce1b244df084400b692f0ea",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "1fd2d10a29146593d3cc1db08c9060ca9f11f0411d4530383e8fd6370819b3c9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16:OCR-unverified",
+        "excerpt_sha256": "9a638477aecfbd1fc1a84df150f304f7edd381320ffbfb52b8b9a3932169520d",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "1fd2d10a29146593d3cc1db08c9060ca9f11f0411d4530383e8fd6370819b3c9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18:OCR-unverified",
+        "excerpt_sha256": "99976fdb478b559f0371795d9e5dabd8a50c77b8717cc6210d395a8760a1aeef",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20:OCR-unverified",
+        "excerpt_sha256": "0e56c99efd49e344867340a66a4659f108e10e2c235258c52dd251d9f1e49819",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

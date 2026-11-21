@@ -1,0 +1,101 @@
+{
+  "source_sha": "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6",
+  "source_name": "仓位管理第二部分.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 9,
+      "evidence_locations": [
+        {
+          "location": "page-4",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-13",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-12",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-11",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

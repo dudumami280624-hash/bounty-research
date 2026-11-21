@@ -1,0 +1,86 @@
+{
+  "source_sha": "4feda2d831f7eb8deffcecaba8b7055e8e9d54e1",
+  "source_name": "四大风险管理策略与股市分析.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-6:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-12:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-16:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-12:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-20:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 14,
+      "evidence_locations": [
+        {
+          "location": "page-2:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-3:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-5:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-7:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-8:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-9:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

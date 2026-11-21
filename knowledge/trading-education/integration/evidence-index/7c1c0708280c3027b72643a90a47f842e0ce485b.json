@@ -1,0 +1,82 @@
+{
+  "source_sha": "7c1c0708280c3027b72643a90a47f842e0ce485b",
+  "source_name": "均线7种经典形态.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-10:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-12:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 30,
+      "evidence_locations": [
+        {
+          "location": "page-9:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-12:OCR-unverified",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-14:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-16:OCR-unverified",
+          "term_mentions": 5
+        },
+        {
+          "location": "page-18:OCR-unverified",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-20:OCR-unverified",
+          "term_mentions": 6
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 4
+        },
+        {
+          "location": "page-25:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-22:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

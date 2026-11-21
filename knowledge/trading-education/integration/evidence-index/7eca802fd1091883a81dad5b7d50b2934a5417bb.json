@@ -1,0 +1,135 @@
+{
+  "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+  "source_name": "均线实战总结.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-31:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-33:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "engulfing",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-31:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-15:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-36:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-27:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 23,
+      "evidence_locations": [
+        {
+          "location": "page-13:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-15:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-17:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-19:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-23:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-25:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-27:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-29:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-31:OCR-unverified",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-33:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-34:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-36:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

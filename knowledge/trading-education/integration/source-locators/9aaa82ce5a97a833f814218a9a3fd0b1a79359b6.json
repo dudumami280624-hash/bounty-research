@@ -1,0 +1,95 @@
+{
+  "source_sha": "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6",
+  "source_name": "仓位管理第二部分.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "76cf7f59a914b485af61f96925cde46f344eb856027debe9fdfc360e9970def3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-4",
+        "excerpt_sha256": "a608b2751895ed86b778fac43f7a762141520317ce348b7bc8bd6f1a5a3aa901",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "63a88c13dd65e430541a440a6e554c62ac080b23a02bdd5de0c000cb172a740d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-8",
+        "excerpt_sha256": "6cd3e491306d4e09e3ce2d57e8e89b1c2a40c28a75792dbd2ed6c8ec5bfca1e1",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "5b7a50b23ba62ee5586571fdd1d6722b1c98c20649026c0e792ad16b09cbadf5",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "a608b2751895ed86b778fac43f7a762141520317ce348b7bc8bd6f1a5a3aa901",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "22d9051d5f5ebd7c5b17324f474cb45c7d8419d644e4b82f5fab380eaea37092",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "63a88c13dd65e430541a440a6e554c62ac080b23a02bdd5de0c000cb172a740d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "0296cbbaf6d43ca516ed8993dca01060c6f581c3d04b87546d0fc1f6993c0fd7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "5b7a50b23ba62ee5586571fdd1d6722b1c98c20649026c0e792ad16b09cbadf5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "8d955d0fa96c1a76f52b851ded3a3efe57f2beb87995efe2f1e42f0f69471b8d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-13",
+        "excerpt_sha256": "19a61ea8748a8bc697ffc4c78047538ec2ce1a5f9f5fdf10312a3d1488e0b816",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-7",
+        "excerpt_sha256": "63a88c13dd65e430541a440a6e554c62ac080b23a02bdd5de0c000cb172a740d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-11",
+        "excerpt_sha256": "8d955d0fa96c1a76f52b851ded3a3efe57f2beb87995efe2f1e42f0f69471b8d",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "0296cbbaf6d43ca516ed8993dca01060c6f581c3d04b87546d0fc1f6993c0fd7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12",
+        "excerpt_sha256": "241f2161f1161c86ee2cc3c6c026ff45c8a340d846902e5c8a72530b58c1ae48",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

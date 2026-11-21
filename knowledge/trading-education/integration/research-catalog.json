@@ -954,6 +954,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+          "source_name": "均线实战总结.pdf",
+          "locations": [
+            {
+              "location": "page-31:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-33:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "81d7b1ddda32b411ac981c601164cd64c6b9a756",
           "source_name": "K线策略体系：酒田五法 (2).pptx",
           "locations": [
@@ -1018,6 +1033,21 @@
             {
               "location": "word/document.xml:paragraph-30",
               "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+          "source_name": "均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-15:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17:OCR-unverified",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -2904,6 +2934,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7c1c0708280c3027b72643a90a47f842e0ce485b",
+          "source_name": "均线7种经典形态.pdf",
+          "locations": [
+            {
+              "location": "page-22:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
           "source_name": "RSI 强弱指标.pdf",
           "locations": [
@@ -2935,6 +2976,21 @@
             },
             {
               "location": "page-13",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+          "source_name": "均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-13:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -3104,6 +3160,21 @@
             {
               "location": "page-22",
               "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6",
+          "source_name": "仓位管理第二部分.pdf",
+          "locations": [
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 2
             }
           ],
           "status": "candidate_unverified"
@@ -4442,6 +4513,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+          "source_name": "均线实战总结.pdf",
+          "locations": [
+            {
+              "location": "page-31:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90851e9579150fb785609f8b99789af82964f97e",
           "source_name": "69_理性探讨楼市趋势，以政策为依据，以数据为论据，以事实为佐证，不多不空_熊鞍.pdf",
           "locations": [
@@ -5194,6 +5276,104 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7c1c0708280c3027b72643a90a47f842e0ce485b",
+          "source_name": "均线7种经典形态.pdf",
+          "locations": [
+            {
+              "location": "page-9:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12:OCR-unverified",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-14:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-16:OCR-unverified",
+              "term_mentions": 5
+            },
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-20:OCR-unverified",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-24:OCR-unverified",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-25:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+          "source_name": "均线实战总结.pdf",
+          "locations": [
+            {
+              "location": "page-13:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-15:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-17:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-19:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-23:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-25:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-27:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-29:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-31:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-33:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-36:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "8b1ff0822ab5f73c9d0ff4fddb8ccc3b12ff6b2c",
           "source_name": "技术指标策略体系：MACD（下）.docx",
           "locations": [
@@ -5255,6 +5435,25 @@
             },
             {
               "location": "word/document.xml:paragraph-62",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+          "source_name": "均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-13:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-23:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -6779,6 +6978,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "0a8269d480d8fe70cbcf72b952034299df54dc82",
+          "source_name": "关税政策.pdf",
+          "locations": [
+            {
+              "location": "page-5:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "1844dd10f51432ffa40a2f0fb0e5bbf112b3f375",
           "source_name": "kk三部曲第2部.pdf",
           "locations": [
@@ -8080,6 +8294,45 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4feda2d831f7eb8deffcecaba8b7055e8e9d54e1",
+          "source_name": "四大风险管理策略与股市分析.pdf",
+          "locations": [
+            {
+              "location": "page-2:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-3:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5:OCR-unverified",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-7:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-9:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -9082,6 +9335,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+          "source_name": "均线实战总结.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
           "source_name": "RSI 强弱指标.pdf",
           "locations": [
@@ -9148,6 +9412,21 @@
           "locations": [
             {
               "location": "page-9",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+          "source_name": "均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-8:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -9547,6 +9826,33 @@
           "locations": [
             {
               "location": "page-15",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6",
+          "source_name": "仓位管理第二部分.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
               "term_mentions": 1
             }
           ],
@@ -12879,6 +13185,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4feda2d831f7eb8deffcecaba8b7055e8e9d54e1",
+          "source_name": "四大风险管理策略与股市分析.pdf",
+          "locations": [
+            {
+              "location": "page-12:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -13498,6 +13823,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+          "source_name": "均线实战总结.pdf",
+          "locations": [
+            {
+              "location": "page-27:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
           "source_name": "RSI 强弱指标.pdf",
           "locations": [
@@ -13548,6 +13884,21 @@
             },
             {
               "location": "page-8",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+          "source_name": "均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-21:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -13876,6 +14227,21 @@
             {
               "location": "page-8:OCR-unverified",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6",
+          "source_name": "仓位管理第二部分.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -17061,6 +17427,25 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "4feda2d831f7eb8deffcecaba8b7055e8e9d54e1",
+          "source_name": "四大风险管理策略与股市分析.pdf",
+          "locations": [
+            {
+              "location": "page-6:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-12:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-16:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "55adafaceed46e2764705047bb3a970993d87701",
           "source_name": "K线组合形态 文档.docx",
           "locations": [
@@ -18082,6 +18467,48 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "7c1c0708280c3027b72643a90a47f842e0ce485b",
+          "source_name": "均线7种经典形态.pdf",
+          "locations": [
+            {
+              "location": "page-10:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-12:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-24:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+          "source_name": "均线实战总结.pdf",
+          "locations": [
+            {
+              "location": "page-15:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25:OCR-unverified",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-36:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "7f4589720f7315820c81e8507de7de6cd6d0d054",
           "source_name": "RSI 强弱指标.pdf",
           "locations": [
@@ -18253,6 +18680,29 @@
             },
             {
               "location": "word/document.xml:paragraph-30",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+          "source_name": "均线启动点.pdf",
+          "locations": [
+            {
+              "location": "page-4:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-23:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24:OCR-unverified",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25:OCR-unverified",
               "term_mentions": 1
             }
           ],
@@ -18707,6 +19157,41 @@
             },
             {
               "location": "page-11:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6",
+          "source_name": "仓位管理第二部分.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-11",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-13",
               "term_mentions": 1
             }
           ],

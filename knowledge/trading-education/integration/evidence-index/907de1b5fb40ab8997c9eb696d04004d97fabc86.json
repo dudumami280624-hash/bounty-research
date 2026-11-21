@@ -1,0 +1,111 @@
+{
+  "source_sha": "907de1b5fb40ab8997c9eb696d04004d97fabc86",
+  "source_name": "均线启动点.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 3,
+      "evidence_locations": [
+        {
+          "location": "page-15:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17:OCR-unverified",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-4:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-23:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-21:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-8:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-25:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "moving_average",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-13:OCR-unverified",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-23:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-10:OCR-unverified",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-13:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

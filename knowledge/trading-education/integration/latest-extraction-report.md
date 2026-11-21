@@ -2,16 +2,16 @@
 
 - 本轮批量处理：8份
 - 《金融炼金术》乔治·索罗斯.pdf：failed
-- 【交易六大心得 · 八大准则】.pdf：extracted
-- 丁圣元译《股票大作手回忆录(修订版)》.pdf：extracted
-- 中机认检研报.pdf：extracted
-- 中远通研报.pdf：extracted
-- 五种常见的看涨信号形态.pdf：extracted
-- 交易执行的底层逻辑.pdf：extracted
-- 交易操作延迟与价格滑点.pdf：extracted
+- 仓位管理第二部分.pdf：extracted
+- 仓位管理：在衰落中生存.pdf：extracted
+- 关税政策.pdf：extracted
+- 四大风险管理策略与股市分析.pdf：partial_ocr_failure
+- 均线7种经典形态.pdf：partial_ocr_failure
+- 均线启动点.pdf：partial_ocr_failure
+- 均线实战总结.pdf：extracted
 - 本轮状态：extracted
-- 已提取文字：99/178
-- OCR不完整待重试：6
+- 已提取文字：103/178
+- OCR不完整待重试：9
 - 需视觉复核：1
 - 需旧格式转换：0
 - 失败待重试：1；重试耗尽：0

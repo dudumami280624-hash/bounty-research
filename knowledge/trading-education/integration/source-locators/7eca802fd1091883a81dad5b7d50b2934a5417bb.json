@@ -1,0 +1,124 @@
+{
+  "source_sha": "7eca802fd1091883a81dad5b7d50b2934a5417bb",
+  "source_name": "均线实战总结.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-4:OCR-unverified",
+        "excerpt_sha256": "e6448ff884d70e0ea99f708bc7c0d9a161fa3c88f98a6c77cc8f258a9c604c60",
+        "status": "unverified"
+      }
+    ],
+    "moving_average": [
+      {
+        "location": "page-13:OCR-unverified",
+        "excerpt_sha256": "04c51a3c7457ef0c7935983c0853d6582b443949e91c5094824e0016cc921364",
+        "status": "unverified"
+      },
+      {
+        "location": "page-15:OCR-unverified",
+        "excerpt_sha256": "f2600f4ee354c852a606120e05f068fd0b66cd00abddfd97e169c0e48f083cba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17:OCR-unverified",
+        "excerpt_sha256": "d7cc7b6c18257b2c93ee276b1fb082bd88f29d75a6fb04fd19db3a3a36e4217b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-19:OCR-unverified",
+        "excerpt_sha256": "92334505e87e9682737f1053cf3bdc63b37101cff891b1fe25448a7cfcefb6ca",
+        "status": "unverified"
+      },
+      {
+        "location": "page-23:OCR-unverified",
+        "excerpt_sha256": "a6e147f1d7dc8281c79fb69b3f6727805706ea9024f0b79ec72e642ea26e8b2b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25:OCR-unverified",
+        "excerpt_sha256": "45f7ea22bd8ceb9673be4b20f5f3dcb96a6d1347f40374454a21a0f7b83b6234",
+        "status": "unverified"
+      },
+      {
+        "location": "page-27:OCR-unverified",
+        "excerpt_sha256": "4b9becce8dfef0156217648ff690a3e709eff80da37f732e5bca10cdf416cd6e",
+        "status": "unverified"
+      },
+      {
+        "location": "page-29:OCR-unverified",
+        "excerpt_sha256": "c9ad400f4bcd908ab6169c6a786c64cdb9a3cb66ccdad759ab1fcbc28b2e1820",
+        "status": "unverified"
+      },
+      {
+        "location": "page-31:OCR-unverified",
+        "excerpt_sha256": "06b34b7a8930a7444344c82c74ac79b14f71af0450fea04e076a68cd61d49873",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33:OCR-unverified",
+        "excerpt_sha256": "350534d5631e1e6a2b1ac2d45c9ab08d7504610720b2cfa8322ba3f0c6c6334d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-34:OCR-unverified",
+        "excerpt_sha256": "c69ad911522240530ee7532c5551d68e9b199d3bf901738513668d27ebf26484",
+        "status": "unverified"
+      },
+      {
+        "location": "page-36:OCR-unverified",
+        "excerpt_sha256": "fecdcc0a3794548e1e795e7b0139ba1ecacaa9ff2e571e3c78eb6bd0326358e6",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-15:OCR-unverified",
+        "excerpt_sha256": "f2600f4ee354c852a606120e05f068fd0b66cd00abddfd97e169c0e48f083cba",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17:OCR-unverified",
+        "excerpt_sha256": "d7cc7b6c18257b2c93ee276b1fb082bd88f29d75a6fb04fd19db3a3a36e4217b",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25:OCR-unverified",
+        "excerpt_sha256": "45f7ea22bd8ceb9673be4b20f5f3dcb96a6d1347f40374454a21a0f7b83b6234",
+        "status": "unverified"
+      },
+      {
+        "location": "page-36:OCR-unverified",
+        "excerpt_sha256": "fecdcc0a3794548e1e795e7b0139ba1ecacaa9ff2e571e3c78eb6bd0326358e6",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-27:OCR-unverified",
+        "excerpt_sha256": "4b9becce8dfef0156217648ff690a3e709eff80da37f732e5bca10cdf416cd6e",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-31:OCR-unverified",
+        "excerpt_sha256": "06b34b7a8930a7444344c82c74ac79b14f71af0450fea04e076a68cd61d49873",
+        "status": "unverified"
+      },
+      {
+        "location": "page-33:OCR-unverified",
+        "excerpt_sha256": "350534d5631e1e6a2b1ac2d45c9ab08d7504610720b2cfa8322ba3f0c6c6334d",
+        "status": "unverified"
+      }
+    ],
+    "engulfing": [
+      {
+        "location": "page-31:OCR-unverified",
+        "excerpt_sha256": "06b34b7a8930a7444344c82c74ac79b14f71af0450fea04e076a68cd61d49873",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -1,0 +1,78 @@
+{
+  "source_sha": "7c1c0708280c3027b72643a90a47f842e0ce485b",
+  "source_name": "均线7种经典形态.pdf",
+  "topics": {
+    "moving_average": [
+      {
+        "location": "page-9:OCR-unverified",
+        "excerpt_sha256": "ccc6e033887f1992644d55cd07d2876f1ade31548b186f0f8253670ac68942b3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "1df042c2bc23931892bf90e45fe21c057d28b63418a61a3d2d458d7becb60fe3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "926822c355b6910e7cf7c72a0c939e853f8c0308d74bd0bdf4758b850a1ac65a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-14:OCR-unverified",
+        "excerpt_sha256": "c6e17d2a58c03b431c11445154de54acc1591928b8e92a3b0d37776279d37e56",
+        "status": "unverified"
+      },
+      {
+        "location": "page-16:OCR-unverified",
+        "excerpt_sha256": "283580b8f22407bd6fed82431507ef2b9357c8fee43f363c5eb0a5648ce5d6b9",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18:OCR-unverified",
+        "excerpt_sha256": "79cc9b5458da1988ec3b2bc219f22b8ae261fd69e0826a7511610d05d8dffa14",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20:OCR-unverified",
+        "excerpt_sha256": "cbc894d18154737fd5bf2ba413bceb53b2e8327a9611a303e6cefc5c0029ca66",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24:OCR-unverified",
+        "excerpt_sha256": "ba0cb7eac84c57f906bf8febaf75b13cf305923d154f9e5c38bac6c40ca999e5",
+        "status": "unverified"
+      },
+      {
+        "location": "page-25:OCR-unverified",
+        "excerpt_sha256": "303f0cbeb71b531d056916eb24c2e761bd8f49e9c90aec8b11c7baf723bfa4dd",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-10:OCR-unverified",
+        "excerpt_sha256": "1df042c2bc23931892bf90e45fe21c057d28b63418a61a3d2d458d7becb60fe3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-12:OCR-unverified",
+        "excerpt_sha256": "926822c355b6910e7cf7c72a0c939e853f8c0308d74bd0bdf4758b850a1ac65a",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24:OCR-unverified",
+        "excerpt_sha256": "ba0cb7eac84c57f906bf8febaf75b13cf305923d154f9e5c38bac6c40ca999e5",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-22:OCR-unverified",
+        "excerpt_sha256": "80babdabd0796fc880cfbe8dee87177417402884aca284aa2e03fc4d1596b4d2",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}
