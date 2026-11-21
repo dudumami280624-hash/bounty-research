@@ -23,6 +23,12 @@ def main():
     entries=[e for e in inventory(INDEX.read_text(encoding='utf-8'))
              if e['name'].lower().endswith('.pdf') and
              files.get(e['sha'],{}).get('extraction_status') in ('extracted','partial_ocr_failure','needs_visual_review')]
+    # Prioritize unfinished first-pass coverage over retries of already visited pages.
+    # Otherwise the first two OCR-heavy books can consume every hourly window.
+    entries.sort(key=lambda e: (
+        bool(files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)),
+        int(files[e['sha']].get('visual_page_audit',{}).get('next_page',0)),
+        e['name']))
     budget=int(os.environ.get('TMM_VISUAL_AUDIT_BUDGET_SECONDS','145'))
     started=time.monotonic()
     completed=0
