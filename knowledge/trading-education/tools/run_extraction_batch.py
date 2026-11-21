@@ -34,13 +34,13 @@ def inventory(text):
                                x['name']))
     return entries
 
-def download_blob(sha):
+def download_blob(sha, timeout_seconds=180):
     url=f'https://api.github.com/repos/{REPO}/git/blobs/{sha}'
     req=urllib.request.Request(url,headers={
         'Authorization':f'Bearer {TOKEN}',
         'Accept':'application/vnd.github+json',
         'X-GitHub-Api-Version':'2022-11-28'})
-    with urllib.request.urlopen(req,timeout=180) as response: data=json.load(response)
+    with urllib.request.urlopen(req,timeout=timeout_seconds) as response: data=json.load(response)
     if data.get('encoding')!='base64': raise ValueError('Blob was not returned as base64')
     blob=base64.b64decode(data['content'],validate=False)
     actual=hashlib.sha1(b'blob '+str(len(blob)).encode()+b'\0'+blob).hexdigest()
@@ -164,12 +164,13 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
         if audit.get('coverage_complete'): continue
         try:
             # Network fetch and native parser are bounded by the caller's worker deadline.
-            blob=download_blob(entry['sha'])
+            blob=download_blob(entry['sha'], timeout_seconds=25)
             with tempfile.TemporaryDirectory() as td:
                 source=Path(td)/'source.pdf'
                 source.write_bytes(blob)
                 with fitz.open(source) as doc:
                     total=len(doc)
+                    if total==0: raise ValueError('PDF has zero pages')
                     start=int(audit.get('next_page',0))
                     if start<0 or start>=total: raise ValueError('Invalid PDF text audit cursor')
                     stop=min(total,start+window_pages)
