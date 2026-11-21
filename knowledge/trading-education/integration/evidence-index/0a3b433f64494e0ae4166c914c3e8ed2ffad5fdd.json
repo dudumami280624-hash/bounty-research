@@ -1,0 +1,20 @@
+{
+  "source_sha": "0a3b433f64494e0ae4166c914c3e8ed2ffad5fdd",
+  "source_name": "中远通研报.pdf",
+  "topics": [
+    {
+      "concept": "support_resistance",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

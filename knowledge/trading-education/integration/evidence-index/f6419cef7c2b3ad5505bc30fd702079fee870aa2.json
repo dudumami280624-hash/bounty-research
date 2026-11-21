@@ -1,0 +1,54 @@
+{
+  "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
+  "source_name": "【交易六大心得 · 八大准则】.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 6,
+      "evidence_locations": [
+        {
+          "location": "page-4",
+          "term_mentions": 3
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-4",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-7",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 4,
+      "evidence_locations": [
+        {
+          "location": "page-3",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-5",
+          "term_mentions": 3
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

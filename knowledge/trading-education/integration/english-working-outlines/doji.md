@@ -24,13 +24,13 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - K线策略体系：酒田五法 (2).pptx (source 81d7b1ddda32, slide-11:shape-5, slide-14:shape-5): review the original example and explain its context.
 
+- 五种常见的看涨信号形态.pdf (source 96356a177d3d, page-19, page-20): review the original example and explain its context.
+
 - 64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf (source 9c3b1d2e8758, page-446, page-1123, page-3268): review the original example and explain its context.
 
 - 191-短线的最高境界是不停的追逐涨停 .pdf (source a87a992fbdaa, page-441, page-1280, page-1330, page-1748, page-2225): review the original example and explain its context.
 
 - 1K线策略体系：十字星.docx (source ac24fb5d2d91, word/document.xml:paragraph-10, word/document.xml:paragraph-13, word/document.xml:paragraph-16, word/document.xml:paragraph-19, word/document.xml:paragraph-22): review the original example and explain its context.
-
-- 1.初学者成为高手的秘籍：十字星.pptx (source b915344b9813, slide-5:shape-4, slide-5:shape-5, slide-6:shape-4, slide-6:shape-5, slide-7:shape-4): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

@@ -1,0 +1,20 @@
+{
+  "source_sha": "1dc310dd0a277bacee3a1a9b7cf9c46fe0a31533",
+  "source_name": "交易操作延迟与价格滑点.pdf",
+  "topics": [
+    {
+      "concept": "engulfing",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-3:OCR-unverified",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

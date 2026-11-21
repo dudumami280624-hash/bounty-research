@@ -1,0 +1,172 @@
+{
+  "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+  "source_name": "五种常见的看涨信号形态.pdf",
+  "topics": [
+    {
+      "concept": "candlestick",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-16",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-20",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-27",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "doji",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-19",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-20",
+          "term_mentions": 4
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "engulfing",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-21",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-22",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "hammer",
+      "mentions": 5,
+      "evidence_locations": [
+        {
+          "location": "page-17",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-18",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-20",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "trend",
+      "mentions": 8,
+      "evidence_locations": [
+        {
+          "location": "page-8",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-10",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-17",
+          "term_mentions": 2
+        },
+        {
+          "location": "page-18",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-26",
+          "term_mentions": 2
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "support_resistance",
+      "mentions": 2,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        },
+        {
+          "location": "page-24",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "volume",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-9",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "risk",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-15",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    },
+    {
+      "concept": "confirmation",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-22",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

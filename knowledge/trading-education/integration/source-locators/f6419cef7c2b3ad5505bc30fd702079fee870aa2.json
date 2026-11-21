@@ -1,0 +1,43 @@
+{
+  "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
+  "source_name": "【交易六大心得 · 八大准则】.pdf",
+  "topics": {
+    "risk": [
+      {
+        "location": "page-3",
+        "excerpt_sha256": "be0ce2fd73e01925e72566ff86502a11d4ccedebf8804ba796c8732501a24055",
+        "status": "unverified"
+      },
+      {
+        "location": "page-5",
+        "excerpt_sha256": "9d9b38482069b1bd3c021b662b3e89314ddc21fd5b10fa7b0b0618ddaf6ba405",
+        "status": "unverified"
+      }
+    ],
+    "trend": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "19793c34258b0e049d200e27287c2d3818cf2c3329c8ae620dc3ffa955599bbc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "35cfc5e2b73b722001557ed8b059b5b44a977b05cc1e0779ca9b65ad5f3a1583",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-4",
+        "excerpt_sha256": "19793c34258b0e049d200e27287c2d3818cf2c3329c8ae620dc3ffa955599bbc",
+        "status": "unverified"
+      },
+      {
+        "location": "page-7",
+        "excerpt_sha256": "35cfc5e2b73b722001557ed8b059b5b44a977b05cc1e0779ca9b65ad5f3a1583",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

@@ -333,35 +333,30 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 20,
         "total_pages": 20,
-        "attempts": 1,
-        "coverage_complete": false,
+        "attempts": 0,
+        "coverage_complete": true,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "ocr_failed_pages_total": 0,
-        "ocr_complete": false,
+        "ocr_complete": true,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 20,
+          "candidate_pages": 8,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "3fc0ed885df43bcb17a61827c8d3a9fdfdcc132f8e0e2c10312fd4e30b92a513",
-            "7805ad32ff5a9f06b24c9eadff97df7ed04a10ac5505ddbde923103448d553e9",
-            "c792ef3dc7922937f2e70762b3e5a0cd3eacfebb534df99ddb6bfaac6a76407f",
-            "44c8dd00587fb693c54428e3bdceafd3d8d42280d300273fc2a5da7cdba047c6",
-            "feb3b46b3fe5e120dfe6f2897f7742f0051e29f2a9443c59a0e8fd83744c8af4",
-            "1c0ffdb78ef89c5170efcaf32b93eb93c5cb8f4bb52c164c3597a06e0a804ac5",
-            "144efeb417dee460753c486fcab42ba4494b2fe7a736a3dcaa84fb955e178017",
-            "ada2160efdae462c66fa414ee2a211f08bfc1fa08fb7f9cf312df3beaf9863af",
-            "53da6b26a9568038e7aa78165d8153b9b68b2266211b6ef1e17530bcf9f5ffb8",
-            "9fe0f3397eade3decf96d809228004b258c9f6d1945a1eb687c3908ecee001ff",
-            "b65531b94b48d9b4dc42afb47568534ca6e5df2575592a5488a41a8aebc1cf4e",
-            "9c7e30a7f15d1a31760882bf86d87d328ad2d8fdb25e91622b52a371cc6d833a"
+            "749f78ba42099200aa941afb3a2e0446a8ee968255577365134dbd760057a42f",
+            "7a7051143325193dacdf9d08886447accf348c5420cf3fed862e1b1f397da3e2",
+            "3791e7a9fc7fef4c61016ae93c44b07bbd5421c4ca41c2de29969c4dc8b2f123",
+            "128d4bef20e2038bd63884c01718da41d6c871d616f9d0b1ec438b7db6776dbf",
+            "17529d9e2ab3186dc6ef47b6fcb673c7357eebaed095e4fb16601428c1ac4045",
+            "afc1531623a2a3719848210f70eca71d4d32446899b74e7346799f85fec5afbb",
+            "63b34a757ca1245e46deb2972ba329552e4c3a26b888e10a809a03998ce75919",
+            "5958f6ca32dbadb039624740e71283100dc9deb57ea28faa466620fcfa1f480b"
           ]
-        },
-        "last_error": "No module named 'fitz'"
+        }
       }
     },
     "36e7f3326792933ba7f4b7c749cf4a69fcd3a0b4": {
@@ -391,9 +386,9 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 24,
         "total_pages": 27,
-        "attempts": 1,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [
@@ -402,26 +397,25 @@
         "ocr_failed_pages_total": 1,
         "ocr_complete": false,
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
+          "first_page": 13,
+          "last_page": 24,
           "candidate_pages": 12,
-          "ocr_failed_pages": 1,
+          "ocr_failed_pages": 0,
           "render_sha256": [
-            "09fb5d9c451083f29d9df7e5794fe0731fbf93ec78cb24a8065d5e74a28313a4",
-            "b44b76ef8ec771b30a712a296193fccfbb3a614e765a58278c8be49c3d0d99da",
-            "95924b03c9a0dedcec63d0857d79d00bc7c2ea725cb9318d7c4a0f3475581d57",
-            "008978ca3e2e195495a58d7351c3ac33738527999af120a92bb3e26ab7bdaaf4",
-            "d4280d4e6b1e1f0855f3d6ce0cf4e38e63f3ab712ddc9f61cad6c52a20e94172",
-            "2dc9e0c169b768bc44b073223cc278a68c699a42f9909eb96843b0fb499d6cce",
-            "d4db982c2f14257f08a72030d549cbe51cc02c5ca8ae06f244866965f8f800a4",
-            "1c6ec57bfa5cc8089c2cf53209b7f5ca93da7363ad715a7c4540bee6f5802a26",
-            "7c97594887eba1ef0bfa9f5b76be413a04cb20f89345e021ca198b02dabd3b07",
-            "ded92bff9881f5fa5662b80a50c7a32c5281ca54d49f14ae0a27d92e763fcd2a",
-            "291c0482924909a8e3b2b0ddd6f058fbbeac3fc3d0acfeabe44715f7db909de9",
-            "af7f1020bb466df5c31bcf5b353da48c515a37ae084d4ddd1d9d35b7ef64158e"
+            "6c9ed305fa9ed6b1fba10fdc863ff35766c2e7b7e67add57a94f4fc06b4985eb",
+            "525078e3048e9f1807b36e4a829cecab57772b5587453762cf1fcdfeebb5d874",
+            "e4fd978b5fdd3fe2195d8a2fd51424fe8995425bd9384a540b01052714634cfd",
+            "e658defb58d12ea60e3dca89d4c31b82fc1ea631aff1996fbaad7db32d5cefe5",
+            "0e4eb31e5d8ed3618632669f4fc558b630cf83b9be351b8da7a2679c663ba017",
+            "22ff6efe56eecc0285b3a095cf9fa274a6e465b7f281c52a0f68ea18712908fd",
+            "9b4f9301ba30014495e079c47c4e5654dd9b361187e820adfd143158749c3e65",
+            "a284c1a31566e1c47846f487964c4b3520f0147ecfb1c7c0e94030bad999e22a",
+            "0b692186747701d6b4dc83339deef6229d59c1d8b2895ab61b15506d3baad2f5",
+            "09f2af88c7ac284ba3c1c7424b5ede74588410ba5694023d888a118f093f60cc",
+            "d7722f49b9f1078bd7ec0f85565e89113b7340227c7e5d78fee38f930348a14f",
+            "93f902ea7955f63b5477760358abb7882a04f74067d03a46ddd493fa54974837"
           ]
-        },
-        "last_error": "No module named 'fitz'"
+        }
       }
     },
     "db98c9518038cb23730e86c7502a3b64d271a8bb": {
@@ -4711,6 +4705,300 @@
       "category": "02-趋势均线形态（47份）",
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T03:54:01.690581+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "5726836b66f424f3c8e90f80486d871b9f53cdf7": {
+      "extraction_status": "failed",
+      "error": "Source worker exceeded hard 90s deadline",
+      "source_name": "《金融炼金术》乔治·索罗斯.pdf",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:57:06.041827+00:00",
+      "visual_review_complete": false,
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "f6419cef7c2b3ad5505bc30fd702079fee870aa2": {
+      "extraction_status": "extracted",
+      "source_sha256": "b3188e0d7de41235681554169f3b2b0dc534a9948efa8229ccea340065f5db11",
+      "text_blocks": 9,
+      "images_found": 10,
+      "topic_candidates": 3,
+      "private_research_topics": 3,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 9,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 9,
+        "document_total_pages": 9,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 9,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "【交易六大心得 · 八大准则】.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:57:07.493613+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "9096c146fc495516499137840811f875688172b1": {
+      "extraction_status": "extracted",
+      "source_sha256": "b30459d46ebb1b2f455d6e1d6d81a55a165eaf1888484f059347933051f3d3b0",
+      "text_blocks": 174,
+      "images_found": 20,
+      "topic_candidates": 6,
+      "private_research_topics": 6,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 174,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 174,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 0,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:57:09.135647+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "ecf82ed12cf67df4ea05030573b83ca23b9fa542": {
+      "extraction_status": "extracted",
+      "source_sha256": "1a5258658ae16afabd74e96408509e9e37d9859901f440d8210a361164bcae59",
+      "text_blocks": 13,
+      "images_found": 83,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 13,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 13,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 12,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "中机认检研报.pdf",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:57:11.326803+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "0a3b433f64494e0ae4166c914c3e8ed2ffad5fdd": {
+      "extraction_status": "extracted",
+      "source_sha256": "f79a622367af26b6fa61dac7bfea1caa20dba6194c34b4518fc04326483e3d5b",
+      "text_blocks": 14,
+      "images_found": 100,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 14,
+        "pages_without_extractable_text": [],
+        "ocr_pages": [],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 14,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 12,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "中远通研报.pdf",
+      "category": "05-投资与基本面研究（30份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:57:13.735121+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "96356a177d3d6c1e1cac86ca7a7c184684f00482": {
+      "extraction_status": "extracted",
+      "source_sha256": "b35cae7a7d507ecdc67366796c5406b7d552818f7aca883f6771ef82cd9366ce",
+      "text_blocks": 28,
+      "images_found": 36,
+      "topic_candidates": 9,
+      "private_research_topics": 9,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 28,
+        "pages_without_extractable_text": [
+          5
+        ],
+        "ocr_pages": [
+          5
+        ],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 28,
+        "visual_coverage_complete": false,
+        "chart_candidate_pages": 12,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "五种常见的看涨信号形态.pdf",
+      "category": "02-趋势均线形态（47份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:57:16.082695+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "555712c4ab4e563dc0e44c84ffc0aff5687c1f17": {
+      "extraction_status": "extracted",
+      "source_sha256": "7a3ad440843dbe8de68ba96e0a200dc90c49c75d9f21da45e599a918c8c9c533",
+      "text_blocks": 12,
+      "images_found": 12,
+      "topic_candidates": 0,
+      "private_research_topics": 0,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 12,
+        "pages_without_extractable_text": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "ocr_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 12,
+        "document_total_pages": 12,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 12,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "交易执行的底层逻辑.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:58:02.339123+00:00",
+      "fact_checked": false,
+      "integrated_into_lesson": false
+    },
+    "1dc310dd0a277bacee3a1a9b7cf9c46fe0a31533": {
+      "extraction_status": "extracted",
+      "source_sha256": "606f8139ba5ce7e775d7ea68b0fc0611f57f9df96443a75bd17baf944faa290a",
+      "text_blocks": 10,
+      "images_found": 10,
+      "topic_candidates": 1,
+      "private_research_topics": 1,
+      "research_draft_status": "internal_unverified_only",
+      "details": {
+        "pages": 10,
+        "pages_without_extractable_text": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "ocr_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "ocr_failed_pages": [],
+        "ocr_languages": "eng+chi_sim",
+        "ocr_page_timeout_seconds": 12,
+        "ocr_requires_manual_review": true
+      },
+      "visual_ai": {
+        "status": "free_visual_features_unverified",
+        "pages_analyzed": 10,
+        "document_total_pages": 10,
+        "visual_coverage_complete": true,
+        "chart_candidate_pages": 10,
+        "ocr_failed_pages": 0
+      },
+      "visual_review_complete": false,
+      "source_name": "交易操作延迟与价格滑点.pdf",
+      "category": "04-交易心理与风险（18份）",
+      "attempts": 1,
+      "last_attempt_utc": "2026-11-21T04:58:43.277427+00:00",
       "fact_checked": false,
       "integrated_into_lesson": false
     }

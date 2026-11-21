@@ -1098,6 +1098,41 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-16",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-27",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "981f84213b753e6d19faf56e447b3ef395500421",
           "source_name": "A Bullish Candlestick Crossing Three Lines.pdf",
           "locations": [
@@ -3013,12 +3048,62 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9096c146fc495516499137840811f875688172b1",
+          "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+          "locations": [
+            {
+              "location": "page-6",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-79",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-126",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
           "source_name": "RSI（相对强弱指数）.pdf",
           "locations": [
             {
               "location": "page-18:OCR-unverified",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-22",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -4018,6 +4103,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-19",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-20",
+              "term_mentions": 4
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9c3b1d2e8758cdfbee37e59ee0e84ed163cef3c4",
           "source_name": "64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf",
           "locations": [
@@ -4234,6 +4334,17 @@
     "engulfing": {
       "sources": [
         {
+          "source_sha": "1dc310dd0a277bacee3a1a9b7cf9c46fe0a31533",
+          "source_name": "交易操作延迟与价格滑点.pdf",
+          "locations": [
+            {
+              "location": "page-3:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "236f8ae7a3b078ffbe8e6548cc11513f4d1d9fa7",
           "source_name": "175_〖天涯头条〗剖析国有银行基层经营，管窥中国金融乱象.pdf",
           "locations": [
@@ -4346,6 +4457,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9096c146fc495516499137840811f875688172b1",
+          "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+          "locations": [
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -4356,6 +4478,21 @@
             {
               "location": "page-8",
               "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
             }
           ],
           "status": "candidate_unverified"
@@ -4579,6 +4716,25 @@
             },
             {
               "location": "page-11",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-20",
               "term_mentions": 2
             }
           ],
@@ -9245,6 +9401,117 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9096c146fc495516499137840811f875688172b1",
+          "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+          "locations": [
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-21",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-22",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-34",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-54",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-56",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-76",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-89",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-90",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-91",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-99",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-103",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-107",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-108",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-109",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-117",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-127",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-132",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-140",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-142",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-145",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-149",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-162",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -9269,6 +9536,17 @@
             },
             {
               "location": "page-29:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-15",
               "term_mentions": 1
             }
           ],
@@ -11566,6 +11844,21 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
+          "source_name": "【交易六大心得 · 八大准则】.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 3
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "fbe77980689439fd0a5a3aed4f8ff910b30724da",
           "source_name": "技术指标策略体系：MA(1).pptx",
           "locations": [
@@ -11671,6 +11964,17 @@
           "locations": [
             {
               "location": "page-31",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "0a3b433f64494e0ae4166c914c3e8ed2ffad5fdd",
+          "source_name": "中远通研报.pdf",
+          "locations": [
+            {
+              "location": "page-11",
               "term_mentions": 1
             }
           ],
@@ -13417,6 +13721,121 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9096c146fc495516499137840811f875688172b1",
+          "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+          "locations": [
+            {
+              "location": "page-2",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-58",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-72",
+              "term_mentions": 7
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 10
+            },
+            {
+              "location": "page-74",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-75",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-82",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-100",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-106",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-107",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-128",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-129",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-131",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-132",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-133",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-142",
+              "term_mentions": 6
+            },
+            {
+              "location": "page-143",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-145",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-146",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-148",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-153",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-158",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-164",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-165",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-168",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "9301c6663cab60ac77bb5e507ffb04c9e1f2312a",
           "source_name": "RSI（相对强弱指数）.pdf",
           "locations": [
@@ -13430,6 +13849,21 @@
             },
             {
               "location": "page-21:OCR-unverified",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-24",
               "term_mentions": 1
             }
           ],
@@ -15210,6 +15644,21 @@
             },
             {
               "location": "page-854",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
+          "source_name": "【交易六大心得 · 八大准则】.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-7",
               "term_mentions": 1
             }
           ],
@@ -18057,6 +18506,77 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9096c146fc495516499137840811f875688172b1",
+          "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+          "locations": [
+            {
+              "location": "page-3",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-4",
+              "term_mentions": 8
+            },
+            {
+              "location": "page-5",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-33",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-38",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-41",
+              "term_mentions": 4
+            },
+            {
+              "location": "page-55",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-71",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-72",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-73",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-105",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-133",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-146",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-164",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-173",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-174",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -18137,6 +18657,37 @@
             },
             {
               "location": "page-24:OCR-unverified",
+              "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-8",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-9",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-10",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-17",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-18",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-26",
               "term_mentions": 2
             }
           ],
@@ -19997,6 +20548,17 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "ecf82ed12cf67df4ea05030573b83ca23b9fa542",
+          "source_name": "中机认检研报.pdf",
+          "locations": [
+            {
+              "location": "page-11",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "ee0b5930e6e38f56e3404096ff0b33fdf36ed100",
           "source_name": "100_房地产投资依然无忧，逆向思维让你找到真实.pdf",
           "locations": [
@@ -20239,6 +20801,21 @@
             {
               "location": "page-1081",
               "term_mentions": 2
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "f6419cef7c2b3ad5505bc30fd702079fee870aa2",
+          "source_name": "【交易六大心得 · 八大准则】.pdf",
+          "locations": [
+            {
+              "location": "page-4",
+              "term_mentions": 3
+            },
+            {
+              "location": "page-7",
+              "term_mentions": 3
             }
           ],
           "status": "candidate_unverified"
@@ -21432,6 +22009,37 @@
           "status": "candidate_unverified"
         },
         {
+          "source_sha": "9096c146fc495516499137840811f875688172b1",
+          "source_name": "丁圣元译《股票大作手回忆录(修订版)》.pdf",
+          "locations": [
+            {
+              "location": "page-12",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-25",
+              "term_mentions": 2
+            },
+            {
+              "location": "page-26",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-27",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-49",
+              "term_mentions": 1
+            },
+            {
+              "location": "page-126",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
           "source_sha": "90fbf5f6508e3c5e5cdf6b1125a2bbb6882e325f",
           "source_name": "重要的 K 线形态组合.pdf",
           "locations": [
@@ -21441,6 +22049,17 @@
             },
             {
               "location": "page-22",
+              "term_mentions": 1
+            }
+          ],
+          "status": "candidate_unverified"
+        },
+        {
+          "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+          "source_name": "五种常见的看涨信号形态.pdf",
+          "locations": [
+            {
+              "location": "page-9",
               "term_mentions": 1
             }
           ],

@@ -1,0 +1,20 @@
+{
+  "source_sha": "ecf82ed12cf67df4ea05030573b83ca23b9fa542",
+  "source_name": "中机认检研报.pdf",
+  "topics": [
+    {
+      "concept": "trend",
+      "mentions": 1,
+      "evidence_locations": [
+        {
+          "location": "page-11",
+          "term_mentions": 1
+        }
+      ],
+      "status": "candidate_unverified"
+    }
+  ],
+  "chart_verified": false,
+  "fact_checked": false,
+  "lesson_integrated": false
+}

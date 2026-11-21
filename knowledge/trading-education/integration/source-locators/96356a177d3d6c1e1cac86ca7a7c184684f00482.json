@@ -1,0 +1,150 @@
+{
+  "source_sha": "96356a177d3d6c1e1cac86ca7a7c184684f00482",
+  "source_name": "五种常见的看涨信号形态.pdf",
+  "topics": {
+    "trend": [
+      {
+        "location": "page-8",
+        "excerpt_sha256": "ae87d9079a0cbdf9235852f2813212ef28b7f10601356fecf73fc66f6f765910",
+        "status": "unverified"
+      },
+      {
+        "location": "page-9",
+        "excerpt_sha256": "ba4dee57b5ecf348daafeeaceb48ba9f3a1d920470d622825042baa7e93d914d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-10",
+        "excerpt_sha256": "bfa1be7333e61a6648df4afd8e59458ba4983c711b78a4be6f76b76dd1689dc7",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "6cb95c92d7b547f79a1aa07e4099a1af9d9e16a106b237c5656e5aff61014faf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "87df1c84a4606de859995e603593e20ce6c28acfabd31500075531c989c277e3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "f4aafebc6b6acf24087448a9c5f4d22c1d3fee80cb038eb7e513eda38aa337db",
+        "status": "unverified"
+      }
+    ],
+    "support_resistance": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "ba4dee57b5ecf348daafeeaceb48ba9f3a1d920470d622825042baa7e93d914d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "f024fab41c6e53c07e774d57987f4e5ffc749dd5ab2e801e2d7597bc4aa5d891",
+        "status": "unverified"
+      }
+    ],
+    "volume": [
+      {
+        "location": "page-9",
+        "excerpt_sha256": "ba4dee57b5ecf348daafeeaceb48ba9f3a1d920470d622825042baa7e93d914d",
+        "status": "unverified"
+      }
+    ],
+    "risk": [
+      {
+        "location": "page-15",
+        "excerpt_sha256": "1ac318a77ad06baf984fd2273fc31aa4b6eef10491d083de17050f6bd719fb42",
+        "status": "unverified"
+      }
+    ],
+    "candlestick": [
+      {
+        "location": "page-16",
+        "excerpt_sha256": "bc90bcdcc7193d9faf7dabe2d6cb04ef431d2ce36d74f0a1f7bca595be966f7f",
+        "status": "unverified"
+      },
+      {
+        "location": "page-17",
+        "excerpt_sha256": "6cb95c92d7b547f79a1aa07e4099a1af9d9e16a106b237c5656e5aff61014faf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "19c681401f35c6a73ddcb3e9aac29d21b22fa4574a1296b5db42f115d305ff13",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "71adc7fdc9dbd339702e5254b0fb47f8834147b4a877dfd263fcc0970b00ef49",
+        "status": "unverified"
+      },
+      {
+        "location": "page-24",
+        "excerpt_sha256": "f024fab41c6e53c07e774d57987f4e5ffc749dd5ab2e801e2d7597bc4aa5d891",
+        "status": "unverified"
+      },
+      {
+        "location": "page-26",
+        "excerpt_sha256": "f4aafebc6b6acf24087448a9c5f4d22c1d3fee80cb038eb7e513eda38aa337db",
+        "status": "unverified"
+      },
+      {
+        "location": "page-27",
+        "excerpt_sha256": "7ee80dcf049db2966aaef3fa066b101d415812d5d1cb0d9743a1e421b5c4b7e9",
+        "status": "unverified"
+      }
+    ],
+    "hammer": [
+      {
+        "location": "page-17",
+        "excerpt_sha256": "6cb95c92d7b547f79a1aa07e4099a1af9d9e16a106b237c5656e5aff61014faf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-18",
+        "excerpt_sha256": "87df1c84a4606de859995e603593e20ce6c28acfabd31500075531c989c277e3",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "19c681401f35c6a73ddcb3e9aac29d21b22fa4574a1296b5db42f115d305ff13",
+        "status": "unverified"
+      }
+    ],
+    "doji": [
+      {
+        "location": "page-19",
+        "excerpt_sha256": "071b4f8e20b2da0dc78fdb9e5e20e8001d6a4ca11ba129f8366d0a0d30c7decf",
+        "status": "unverified"
+      },
+      {
+        "location": "page-20",
+        "excerpt_sha256": "19c681401f35c6a73ddcb3e9aac29d21b22fa4574a1296b5db42f115d305ff13",
+        "status": "unverified"
+      }
+    ],
+    "engulfing": [
+      {
+        "location": "page-21",
+        "excerpt_sha256": "ad0cd5990849ef57288fe63980952556864ffafe2e3b079f4eb9b4ffe011eb3d",
+        "status": "unverified"
+      },
+      {
+        "location": "page-22",
+        "excerpt_sha256": "71adc7fdc9dbd339702e5254b0fb47f8834147b4a877dfd263fcc0970b00ef49",
+        "status": "unverified"
+      }
+    ],
+    "confirmation": [
+      {
+        "location": "page-22",
+        "excerpt_sha256": "71adc7fdc9dbd339702e5254b0fb47f8834147b4a877dfd263fcc0970b00ef49",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

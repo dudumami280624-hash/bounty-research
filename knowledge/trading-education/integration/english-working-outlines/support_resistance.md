@@ -12,6 +12,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 199_面对可能要到来的可怕滞涨，我们该怎么办？.pdf (source 061c7329a84c, page-31): review the original example and explain its context.
 
+- 中远通研报.pdf (source 0a3b433f6449, page-11): review the original example and explain its context.
+
 - kk三部曲第2部.pdf (source 1844dd10f514, page-16, page-43, page-54, page-90, page-122): review the original example and explain its context.
 
 - 第10节RSI.docx (source 18ac71456414, word/document.xml:paragraph-12): review the original example and explain its context.
@@ -29,8 +31,6 @@ It distinguishes descriptions of price behavior from claims about future perform
 - 多头与空头旗形、三角形形态 ①.pdf (source 2b68639ab551, page-10, page-12, page-17): review the original example and explain its context.
 
 - 股价涨跌的真正原因.pdf (source 2c475db0e753, page-12:OCR-unverified): review the original example and explain its context.
-
-- 54-中国会跟随美联储加息吗？.pdf (source 2fa62bf10207, page-6, page-36): review the original example and explain its context.
 
 ## Practical interpretation
 To be developed from inspected source passages: market context, observed pattern, alternative interpretations, and invalidation conditions.

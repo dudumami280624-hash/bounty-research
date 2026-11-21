@@ -1,0 +1,14 @@
+{
+  "source_sha": "0a3b433f64494e0ae4166c914c3e8ed2ffad5fdd",
+  "source_name": "中远通研报.pdf",
+  "topics": {
+    "support_resistance": [
+      {
+        "location": "page-11",
+        "excerpt_sha256": "274828d8f59843a12b9b41849b8c92e4a48718a20386c0528ad28e5261152420",
+        "status": "unverified"
+      }
+    ]
+  },
+  "notice": "Locations and hashes only; no original excerpts or chart interpretation."
+}

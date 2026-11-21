@@ -10,6 +10,8 @@ It distinguishes descriptions of price behavior from claims about future perform
 
 - 重要的 K 线形态组合.pdf (source 90fbf5f6508e, page-9, page-10, page-11): review the original example and explain its context.
 
+- 五种常见的看涨信号形态.pdf (source 96356a177d3d, page-17, page-18, page-20): review the original example and explain its context.
+
 - 64_《空》_以期货实盘交易讲解什么是_道_一生二，二生三，三生万物_peterwind_PhDing.pdf (source 9c3b1d2e8758, page-2488): review the original example and explain its context.
 
 - 1K线策略体系：十字星.docx (source ac24fb5d2d91, word/document.xml:paragraph-28, word/document.xml:paragraph-31, word/document.xml:paragraph-34, word/document.xml:paragraph-37, word/document.xml:paragraph-55): review the original example and explain its context.
