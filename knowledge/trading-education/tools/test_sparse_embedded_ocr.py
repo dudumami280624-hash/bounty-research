@@ -3,6 +3,8 @@
 Synthetic PDF only: does not claim source OCR or semantic verification.
 """
 import tempfile
+import re
+assert len(re.sub(r'\s+', '', '12' + ' ' * 120)) == 2, 'whitespace must not count as meaningful PDF text'
 from pathlib import Path
 from unittest.mock import patch
 import fitz
@@ -13,6 +15,8 @@ with tempfile.TemporaryDirectory() as td:
     d=fitz.open()
     page=d.new_page()
     page.insert_text((72,72),'12')
+    # A whitespace-heavy extraction must not defeat the sparse-page OCR gate.
+    page.insert_text((72,95),' '.join([' '] * 100))
     d.save(p);d.close()
     class OCR:
         returncode=0
