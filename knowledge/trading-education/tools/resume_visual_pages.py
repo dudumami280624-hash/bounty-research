@@ -147,13 +147,18 @@ def main():
                 else: failed.add(page_number)
             audit['ocr_failed_page_numbers']=sorted(failed)
             retain_page_evidence(audit, observations)
-            if retry_page is not None:
-                cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
-                if retry_page in failed:
-                    cooldowns[str(retry_page)]=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
+            # Schedule *every* failed page independently, including first-pass
+            # failures. Previously first-pass failures had no cooldown and could
+            # immediately consume all six hourly windows on the same pages.
+            cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
+            retry_at=(datetime.now(timezone.utc)+timedelta(hours=6)).isoformat()
+            for observation in observations:
+                key=str(observation['page'])
+                if observation['page'] in failed:
+                    cooldowns[key]=retry_at
                 else:
-                    cooldowns.pop(str(retry_page),None)
-                audit.pop('ocr_retry_after_utc',None)
+                    cooldowns.pop(key,None)
+            audit.pop('ocr_retry_after_utc',None)
             audit['ocr_failed_pages_total']=len(failed)
             # Old audits recorded counts without page numbers; never silently certify them.
             if audit.get('legacy_reaudit_started') and audit['coverage_complete']:
