@@ -69,6 +69,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_research_pipeline.py
       - name: Verify visual re-audit and extraction script syntax
         run: python -m py_compile knowledge/trading-education/tools/resume_visual_pages.py knowledge/trading-education/tools/run_extraction_batch.py
+      - name: Verify bounded initial PDF OCR preserves deferred page locators (synthetic fixture only)
+        run: python knowledge/trading-education/tools/test_pdf_ocr_budget.py
       - name: Verify hard worker timeout regression (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_hard_timeout.py
       - name: Build cross-source research catalog
@@ -82,6 +84,7 @@ jobs:
           TMM_PER_SOURCE_TIMEOUT_SECONDS: '90'
           TMM_VISUAL_MAX_PAGES: '12'
           TMM_OCR_PAGE_TIMEOUT_SECONDS: '12'
+          TMM_INITIAL_OCR_MAX_PAGES: '4'
         run: python knowledge/trading-education/tools/run_extraction_batch.py
       # Revisit partial-OCR/visual-review PDFs; three failures now cool down for six hours,
       # then retry automatically rather than permanently stranding source pages.
