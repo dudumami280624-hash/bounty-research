@@ -32,8 +32,10 @@ def main():
     budget=int(os.environ.get('TMM_VISUAL_AUDIT_BUDGET_SECONDS','145'))
     started=time.monotonic()
     completed=0
+    # Do not impose a two-file ceiling when short PDF windows leave time unused.
+    max_windows=max(1,min(12,int(os.environ.get('TMM_VISUAL_WINDOWS_PER_RUN','6'))))
     for e in entries:
-        if time.monotonic()-started>=budget or completed>=2: break
+        if time.monotonic()-started>=budget or completed>=max_windows: break
         record=files[e['sha']]
         audit=record.setdefault('visual_page_audit',{'next_page':0,'total_pages':None,'attempts':0,
             'coverage_complete':False,'semantic_verified':False})
