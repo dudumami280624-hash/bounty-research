@@ -33,7 +33,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
         record['embedded_text_characters']=len(embedded_text)
         # A page number, running header or watermark is not evidence that a
         # scanned chart/table has been transcribed. OCR sparse-text pages too.
-        meaningful_chars=len(re.sub(r'\\s+', '', embedded_text))
+        meaningful_chars=len(re.sub(r'\s+', '', embedded_text))
         sparse_embedded=bool(embedded_text) and meaningful_chars<80
         record['embedded_text_sparse']=sparse_embedded
         if embedded_text and not sparse_embedded:
