@@ -18,7 +18,7 @@ def main():
         doc.save(source)
         data=source.read_bytes()
         batch.STATE=td/'state.json'
-        batch.download_blob=lambda sha:data
+        batch.download_blob=lambda sha, timeout_seconds=180:data
         entry={'name':'synthetic.pdf','sha':'a'*40,'category':'01-test'}
         files={entry['sha']:{'extraction_status':'partial_ocr_failure'}}
         first=batch.advance_pdf_text_windows([entry],files,budget_seconds=10,window_pages=2)
