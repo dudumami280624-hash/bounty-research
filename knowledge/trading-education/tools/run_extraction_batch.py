@@ -210,13 +210,18 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
                         # A page number or watermark is not a complete transcription.
                         # Match free_visual's sparse-page OCR threshold.
                         meaningful_chars=len(re.sub(r'\s+', '', raw))
-                        needs_ocr=meaningful_chars<80
+                        # A caption or long selectable text layer does not prove
+                        # text inside a rasterized K-line chart was captured.
+                        # Match free_visual.inspect_pdf's raster-plus-text rule.
+                        raster_images=len(page.get_images(full=True))
+                        needs_ocr=meaningful_chars<80 or raster_images>0
                         evidence[str(i+1)]={'source_page':i+1,
                             'text_origin':('embedded_sparse_unverified' if raw and needs_ocr else
                                            'embedded_pdf_text' if raw else 'no_embedded_text'),
                             'embedded_text_sha256':hashlib.sha256(raw.encode()).hexdigest() if raw else None,
                             'embedded_text_chars':len(raw),
                             'embedded_meaningful_chars':meaningful_chars,
+                            'raster_image_objects':raster_images,
                             'ocr_needed':needs_ocr,'verified':False}
                     audit['page_evidence'].update(evidence)
                     audit['total_pages']=total
