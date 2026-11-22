@@ -36,15 +36,14 @@ def inspect_pdf(pdf_path, output, start_page=0):
         meaningful_chars=len(re.sub(r'\s+', '', embedded_text))
         sparse_embedded=bool(embedded_text) and meaningful_chars<80
         record['embedded_text_sparse']=sparse_embedded
-        if embedded_text and not sparse_embedded:
-            record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
+        # Embedded text may be a caption over an image-only chart. If the page\n        # contains raster images, OCR the rendered page too rather than treating\n        # its caption as full chart text coverage. Vector drawings alone are\n        # common for text glyphs and should not force OCR on every text PDF.\n        raster_chart_with_text=bool(embedded_text and record['image_objects']>0)\n        record['raster_with_embedded_text_ocr_needed']=raster_chart_with_text\n        if embedded_text and not sparse_embedded and not raster_chart_with_text:\n            record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
             record['text_origin']='embedded_pdf_text'
             record['ocr_performed']=False
             record['ocr_skipped_reason']='embedded_text_available'
             record['ocr_text_characters']=len(embedded_text)
             record['text_sha256']=hashlib.sha256(embedded_text.encode('utf-8')).hexdigest()
         elif shutil.which('tesseract'):
-            record['text_origin']='embedded_sparse_plus_ocr_unverified' if sparse_embedded else 'ocr_unverified'
+            record['text_origin']=('embedded_raster_plus_ocr_unverified' if raster_chart_with_text\n                else 'embedded_sparse_plus_ocr_unverified' if sparse_embedded else 'ocr_unverified')
             record['ocr_performed']=True
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
@@ -63,7 +62,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     record['ocr_error']=(proc.stderr[-200:] if proc.returncode else ('OCR returned no text; page requires review' if not proc.stdout.strip() else ''))
         else:
             record['ocr_success']=False
-            record['text_origin']='embedded_sparse_ocr_unavailable' if sparse_embedded else 'none'
+            record['text_origin']=('embedded_raster_ocr_unavailable' if raster_chart_with_text\n                else 'embedded_sparse_ocr_unavailable' if sparse_embedded else 'none')
             record['ocr_performed']=False
             record['ocr_error']='Tesseract unavailable'
         record['chart_candidate']=bool(record['vector_drawings']>=12 or record['image_objects']>0)
