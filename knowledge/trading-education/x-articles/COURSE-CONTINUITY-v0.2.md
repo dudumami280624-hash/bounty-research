@@ -1,6 +1,6 @@
 # The Market Mind | Course Continuity and Original-Material Map v0.2
 
-**Status:** working editorial map, NOT a locked/approved 20- or 30-episode syllabus. Lesson 01 has a user-supplied published URL; the remaining lessons are candidate sequence, not drafts/published work. User must approve substantive changes. Based on existing knowledge-map and inspected parts of 10.03 lecture; no claim to have read 98 originals in full.
+**Status:** historical working editorial map (2026-11-18), NOT the current publication ledger or an approved syllabus. Lessons 01 and 02 have published versions; Lesson 03 has an editorial draft. The older candidate sequence below is retained for reference only. User must approve substantive changes. Based on existing knowledge-map and inspected parts of 10.03 lecture; no claim to have read 98 originals in full.
 
 ## One central teaching question
 How do we turn imperfect market information into decisions that can be examined, while distinguishing market observations from our own interpretations? Reader starts with zero finance knowledge. English public-facing, Chinese audit only.
@@ -15,7 +15,7 @@ How do we turn imperfect market information into decisions that can be examined,
 - Status: user reports posted, link in ARTICLE-LEDGER.md; public-page independent confirmation pending.
 - Bridge: if a chart is a market observation, what exactly is it measuring?
 
-**02 — What Does a Stock Chart Actually Record?** — NEXT, PLANNED
+**02 — What Does a Stock Chart Actually Record?** — SUPERSEDED HISTORICAL PLAN (not the published Lesson 02)
 - Reader question: if price alone cannot explain its cause, what does a chart actually tell us?
 - Concepts: exchange trading, trades vs quotes, OHLC, closing price, calendar/timeframes, adjusted vs unadjusted prices, price vs value, data limitations.
 - Reader exercise: compare two legitimate timeframes of the same documented stock and list facts vs inferred reasons. No invented price series.
@@ -23,7 +23,9 @@ How do we turn imperfect market information into decisions that can be examined,
 - Source pointers: K-line and price behavior from taxonomy/knowledge-map.md; **source documents not yet checked for this lesson**. Cross-check exchange and financial-market primary documentation before drafting.
 - Exit/bridge: how do opening, high, low and closing prices form a candle?
 
-## Candidate prerequisite-based sequence (not locked)
+## Candidate prerequisite-based sequence (historical, not locked)
+
+**Current teaching rule:** teach from zero knowledge in beginner → intermediate → advanced order. Do not treat the sequence below as approved or as an instruction to skip foundational explanations. Actual Lesson 02 covers Apple's stock split and adjusted price comparisons; actual Lesson 03 draft covers candle open/close versus previous close. See `lessons/lesson-02/EN_FINAL_USER_EXPORTED.md` and `lesson-03-revised-draft-2026-11-20.md`.
 
 | Candidate | Reader's unresolved question | Source module / provenance status | New practical skill | Bridge |
 |---|---|---|---|---|
