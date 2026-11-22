@@ -97,6 +97,10 @@ def visual_priority(entry, files):
     """
     audit=files[entry['sha']].get('visual_page_audit',{})
     next_page=max(0,int(audit.get('next_page',0)))
+    # A previous scanner skipped raster-chart OCR on pages with long captions.
+    # Revisit completed legacy audits once under the revised scanner, without
+    # claiming old coverage as new OCR or discarding old page evidence.
+    stale=bool(audit.get('coverage_complete') and audit.get('scanner_revision',0)<2)
     # Completed audits with failed OCR pages must eventually receive retry time.
     # Rotate due retries alongside unfinished books rather than placing every
     # completed book behind the entire unfinished inventory indefinitely.
@@ -104,7 +108,7 @@ def visual_priority(entry, files):
         audit.get('ocr_failed_page_numbers',[]), audit.get('ocr_page_retry_after_utc',{}),
         datetime.now(timezone.utc))))
     return (0 if entry['category'].startswith('01-') else 1,
-            0 if due_retry else (1 if not audit.get('coverage_complete',False) else 2),
+            0 if due_retry else (1 if stale or not audit.get('coverage_complete',False) else 2),
             audit.get('last_advanced_utc',''),
             0 if next_page>0 else 1,
             entry['name'])
@@ -120,8 +124,8 @@ def interleave_visual_work(entries, files):
     for tier in (0,1):
         group=[e for e in entries if (0 if e['category'].startswith('01-') else 1)==tier]
         group.sort(key=lambda e:visual_priority(e,files))
-        unfinished=[e for e in group if not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)]
-        retries=[e for e in group if files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)]
+        unfinished=[e for e in group if (not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False) or files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)<2)]
+        retries=[e for e in group if (files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False) and files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)>=2)]
         while unfinished or retries:
             for _ in range(2):
                 if unfinished: ordered.append(unfinished.pop(0))
@@ -151,6 +155,13 @@ def main():
         record=files[e['sha']]
         audit=record.setdefault('visual_page_audit',{'next_page':0,'total_pages':None,'attempts':0,
             'coverage_complete':False,'semantic_verified':False})
+        # Revisit legacy completed PDFs after captioned-raster OCR fix. Persist
+        # the revision only after a full second pass; retain source page hashes.
+        if audit.get('coverage_complete') and audit.get('scanner_revision',0)<2:
+            audit['next_page']=0
+            audit['coverage_complete']=False
+            audit['ocr_complete']=False
+            audit['scanner_reaudit_in_progress']=True
         # Do not permanently strand a PDF after three transient network/OCR failures.
         # Retry after a cooldown; the per-window alarm still bounds runtime.
         if 'ocr_failed_page_numbers' not in audit and audit.get('ocr_failed_pages_total',0):
@@ -234,6 +245,9 @@ def main():
                 audit.pop('legacy_reaudit_started',None)
             legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
             audit['ocr_complete']=audit['coverage_complete'] and not failed and not legacy_unknown
+            if audit['coverage_complete'] and audit.get('scanner_reaudit_in_progress'):
+                audit['scanner_revision']=2
+                audit.pop('scanner_reaudit_in_progress',None)
             audit['attempts']=0
             audit['last_advanced_utc']=datetime.now(timezone.utc).isoformat()
             audit.pop('last_error',None)
