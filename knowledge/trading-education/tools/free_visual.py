@@ -36,7 +36,14 @@ def inspect_pdf(pdf_path, output, start_page=0):
         meaningful_chars=len(re.sub(r'\s+', '', embedded_text))
         sparse_embedded=bool(embedded_text) and meaningful_chars<80
         record['embedded_text_sparse']=sparse_embedded
-        # Embedded text may be a caption over an image-only chart. If the page\n        # contains raster images, OCR the rendered page too rather than treating\n        # its caption as full chart text coverage. Vector drawings alone are\n        # common for text glyphs and should not force OCR on every text PDF.\n        raster_chart_with_text=bool(embedded_text and record['image_objects']>0)\n        record['raster_with_embedded_text_ocr_needed']=raster_chart_with_text\n        if embedded_text and not sparse_embedded and not raster_chart_with_text:\n            record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
+        # Embedded text may be a caption over an image-only chart. If the page
+        # contains raster images, OCR the rendered page too rather than treating
+        # its caption as full chart text coverage. Vector drawings alone are
+        # common for text glyphs and should not force OCR on every text PDF.
+        raster_chart_with_text=bool(embedded_text and record['image_objects']>0)
+        record['raster_with_embedded_text_ocr_needed']=raster_chart_with_text
+        if embedded_text and not sparse_embedded and not raster_chart_with_text:
+            record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
             record['text_origin']='embedded_pdf_text'
             record['ocr_performed']=False
             record['ocr_skipped_reason']='embedded_text_available'
