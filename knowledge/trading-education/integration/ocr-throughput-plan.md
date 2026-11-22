@@ -1,0 +1,7 @@
+# OCR throughput intervention — 2026-11-22
+
+Verified baseline: Actions run 44991358239 succeeded. Latest extraction report: 126/178 extraction-state entries, 51 partial OCR sources, 11 PDFs / 240 text-audited pages, 88 pages flagged OCR-needed. Visual report: 84 PDFs tracked, 20 coverage complete, 100 actual OCR success page records (not human verified), 39 embedded-text page records. No chart semantics or factual verification completed.
+
+Bottleneck: workflow capped visual page resume at 145 seconds / 6 windows / 3-minute step, while the job permits up to 24 minutes. This restricts actual OCR work even when files remain. Expand visual resume budget to 240 seconds, max 10 windows, and step timeout to 5 minutes, keeping per-page Tesseract timeout 12 seconds and per-window alarm 65 seconds. This is a throughput change, not evidence of completed OCR; observe actual windows and success in the next CI report. Continue prioritizing 26 candlestick/price-action sources.
+
+Outstanding: 51 partial OCR files still lack full text completion and independent quality verification. Metadata-only public GitHub branch must never contain source PDF pages or copyrighted OCR text. Private cross-run text retention remains unsolved; do not claim page hashes reconstruct text. Next: verify new run ID and result, inspect OCR windows and source failures; address durable access-controlled OCR output without publishing copyrighted text.
