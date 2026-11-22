@@ -101,6 +101,26 @@ def visual_priority(entry, files):
             0 if next_page>0 else 1,
             entry['name'])
 
+def interleave_visual_work(entries, files):
+    """Interleave due retries and unfinished audits without crossing source tiers.
+
+    A flood of due OCR pages must not monopolize all windows, and unfinished
+    PDFs must not permanently starve retryable pages. Only scheduling changes;
+    no page is marked reviewed or complete.
+    """
+    ordered=[]
+    for tier in (0,1):
+        group=[e for e in entries if (0 if e['category'].startswith('01-') else 1)==tier]
+        group.sort(key=lambda e:visual_priority(e,files))
+        unfinished=[e for e in group if not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)]
+        retries=[e for e in group if files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)]
+        while unfinished or retries:
+            for _ in range(2):
+                if unfinished: ordered.append(unfinished.pop(0))
+            if retries: ordered.append(retries.pop(0))
+        # Completed audits with no due retry remain safe to skip in main.
+    return ordered
+
 def main():
     state=json.loads(STATE.read_text(encoding='utf-8'))
     files=state['files']
@@ -109,7 +129,10 @@ def main():
              files.get(e['sha'],{}).get('extraction_status') in ('extracted','partial_ocr_failure','needs_visual_review')]
     # Prioritize unfinished first-pass coverage over retries of already visited pages.
     # Otherwise the first two OCR-heavy books can consume every hourly window.
-    entries.sort(key=lambda e: visual_priority(e,files))
+    # Keep first-pass PDF coverage moving even when many completed PDFs have
+    # due OCR retries. Reserve approximately two of every three slots for
+    # unfinished audits, while still retrying due failures each run.
+    entries=interleave_visual_work(entries,files)
     budget=int(os.environ.get('TMM_VISUAL_AUDIT_BUDGET_SECONDS','145'))
     started=time.monotonic()
     completed=0
