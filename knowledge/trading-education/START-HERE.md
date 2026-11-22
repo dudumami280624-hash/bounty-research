@@ -1,14 +1,22 @@
 # 统一融合入口
 
+> **当前阅读顺序：先看本页，再看[知识融合索引](UNIFIED-KNOWLEDGE.md)，最后进入[x-articles课程资料](x-articles/)。** 教学分初级→中级→高级；读者从零基础开始，不能直接跳到复杂技术形态。
+
 **现在统一调用 [trading-education 股票技术＋市场心理＋历史研究知识体系](UNIFIED-KNOWLEDGE.md)。** 该入口同时连接原有98份技术教学资料与 `knowledge/market-psychology/` 股市心理学来源分库；原文件不移动、不删除。融合检索已经建立，未完成的逐页、逐图事实审核仍明确标注。
 
 # trading-education · 股票技术教学统一入口
 
-## 最新保存状态（2026-11-18）
+## 历史保存记录（2026-11-18；不是当前全部资料统计）
 - **98份原始上传文件：已经归档到用户私有文件库** `/trading-education/`，分为 `trading-education-originals-01-of-02.zip` 与 `trading-education-originals-02-of-02.zip`；每包49份，保留原文件名及SHA-256清单。**这些原件不在本公开GitHub仓库里**。
 - **比对数据：** `/trading-education/trading-education-98-comparison.json`，同样在私有文件库，供后续检索、核验。
 - **GitHub：** 统一导航、五份批次索引、98份对比审计与六张知识卡均已建立。继续以内容为准扩充。
 - **未完成：** 98份全部图表的视觉复核、所有相似对按>50%正文覆盖率独立确认、全部技术规则外部事实核验。**私有备份完成≠内容审核完成**。
+
+## 当前课件状态
+- Lesson 01、02：已有发布记录，保留已发布原件。
+- Lesson 03：英文编辑稿在 `x-articles/lesson-03-revised-draft-2026-11-20.md`；包含虚构教学算例和真实标普500历史案例，**仍是草稿，未获发布批准**。
+- 教材总研究范围为178份；历史98份技术课件只是其中一个批次，不能与178份总量混为一谈。
+- 最新提取进度请以 `integration/latest-extraction-report.md` 为准，不沿用本页2026-11-18的旧统计。
 
 ## 实际调用路线
 1. 查方法和技术规则：打开 [知识总导航](taxonomy/knowledge-map.md) 与 [已整理的概念知识卡](concepts/)。
