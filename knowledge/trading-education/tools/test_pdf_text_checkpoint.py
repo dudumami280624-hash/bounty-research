@@ -14,7 +14,7 @@ def main():
         for i in range(5):
             p=doc.new_page()
             if i!=2:
-                p.insert_text((72,72),f'SYNTHETIC PRIVATE PAGE {i+1}')
+                p.insert_text((72,72),f'SYNTHETIC PRIVATE PAGE {i+1} ' + 'A'*90)
         source=td/'fixture.pdf'
         doc.save(source)
         data=source.read_bytes()
