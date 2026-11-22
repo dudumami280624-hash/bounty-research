@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# Preserve successful OCR page evidence on transient retry failures (research f8a9ed2).
 # Distinguish actual OCR from embedded PDF text in visual evidence (research c532e69).
 # Report text extraction state separately from independently verified full coverage (72a0609).
 # Verify English draft generation without independent-verification blocking.
