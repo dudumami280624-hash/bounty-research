@@ -2,7 +2,7 @@ name: The Market Mind - hourly source extraction
 # Verify English draft generation without independent-verification blocking.
 # Reject empty Tesseract output as successful OCR (research 520450b).
 # Regression: execute sparse-page character count and correct regex (research 3174a44, 43174aa).
-# Repair checkpoint synthetic fixture to exceed 80 *rendered* meaningful characters (research 1bfbd0c).
+# Repair checkpoint fixture using separate in-bounds text draws (research 3971b0b); previous CI 44982683219 failed.
 # Retry exhausted source failures after six-hour cooldown (research e482a362).
 # PDF parser page-window API introduced in research 245e58a; validate through CI.
 # Regression: partial OCR is resumed by page audit, not re-extracted each batch.
