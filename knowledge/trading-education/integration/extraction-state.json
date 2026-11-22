@@ -29790,9 +29790,13 @@
           "6": {
             "render_sha256": "8dc1a8420dd1cf399a19928ad8b9e33c34d9c4dc7e19cf59435c08cb6f8ee278",
             "ocr_success": false,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": false,
+            "embedded_text_available": false,
             "text_origin": "ocr_unverified",
             "ocr_performed": true,
             "ocr_text_characters": 0,
+            "text_sha256": null,
             "chart_candidate_unverified": true
           },
           "7": {
@@ -29869,20 +29873,19 @@
           }
         },
         "ocr_page_retry_after_utc": {
-          "6": "2026-11-22T10:53:27.949850+00:00",
+          "6": "2026-11-22T22:58:11.627894+00:00",
           "9": "2026-11-22T10:53:27.949850+00:00"
         },
         "ocr_failed_pages_total": 2,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T15:57:10.185617+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:11.627920+00:00",
         "last_window": {
-          "first_page": 13,
-          "last_page": 14,
-          "candidate_pages": 2,
-          "ocr_failed_pages": 0,
+          "first_page": 6,
+          "last_page": 6,
+          "candidate_pages": 1,
+          "ocr_failed_pages": 1,
           "render_sha256": [
-            "2d7a2cbc38f7422a9845c09fff9a157ef9708b7fcd32f1fe2b4702c46f3181a0",
-            "af573304e30484d537ba81ca552fa3dbf698e9e60a1c2a4c94eee00c5a736152"
+            "8dc1a8420dd1cf399a19928ad8b9e33c34d9c4dc7e19cf59435c08cb6f8ee278"
           ]
         }
       },
@@ -31474,7 +31477,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 71,
         "attempts": 0,
         "coverage_complete": false,
@@ -31576,30 +31579,70 @@
             "ocr_performed": false,
             "ocr_text_characters": 1492,
             "chart_candidate_unverified": false
+          },
+          "13": {
+            "render_sha256": "01e7cff9f15a6122564d9c51efd492667386d5ffab06013134e25b072f1f894d",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 1382,
+            "text_sha256": "95f8b82a8af742b44320da0f34c3f8ed5548ff56183aacec4099fdc470a17b6b",
+            "chart_candidate_unverified": false
+          },
+          "14": {
+            "render_sha256": "c3d576307e74a64fcadb1e8e9bb6a6dbabe3ab5951c5e5cbad526eb1614ce2b2",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 1080,
+            "text_sha256": "0acdf16a64ee5c230f23f9c578f720f76f4b64f63eb4544148dca7b8b36ad6a6",
+            "chart_candidate_unverified": false
+          },
+          "15": {
+            "render_sha256": "3e92697c72580af4b5b6b570120bd782bcc79bd3f90f1b85c981e89c821f9028",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 1535,
+            "text_sha256": "124fb23cf5a89317b96675e699265ffe15b67158c57659e97884932a64bbabbd",
+            "chart_candidate_unverified": false
+          },
+          "16": {
+            "render_sha256": "e3d4067e11d627f822113ddecb8467f27927da9e035e5e1f34545c04af93304e",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 1420,
+            "text_sha256": "0cc90c287cbee43989ee9aa6372a56210a84b03e800a596a135c34a0ea4108cc",
+            "chart_candidate_unverified": false
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:05:49.705059+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:06.180232+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
+          "first_page": 13,
+          "last_page": 16,
           "candidate_pages": 0,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "a6cbe0475fea51aa9b17c707cb4a943e7f0923850f923ed362a8d290df488b3a",
-            "200d81ef2951274e16e5339969f3f2a64bb42d8ea2dee82ac98a9bbd55e4e4a7",
-            "c33ef94627b7194fe91c011aad9d062f80e1aa7b88254aedfb4f3101ee2fcc42",
-            "dfdc08f9aeb07b2665f5b0eeebd0a3d13382cd6d1464bc3cfbd551a0c60654cc",
-            "79ef0348aa3b3609aab47f4ea110323bf9e4ccfade82b939073ae223f294c2f9",
-            "89db8f9965c8906d70ea8823aa420d942f5e78324a5074f76ab40080afe6f3f9",
-            "c61d9047194fed2f1f30052dc24e76097bef32b863e928811ce84e321666ba21",
-            "b2fac69343a3ced38e969fdbabba68f382d906e7881ad3fdc8ff5950a516d25e",
-            "ef6550b42a7c1cb52da90664767e1e3c496589f330b27ccc3867057ccdfda533",
-            "0600a51d14440c0c63ed8ee69a77711c90179b32aacece58fb02f0ccdec40217",
-            "15af3fe35501dabbed0cbdfd0dcc8d701d8f402a2d7fbaf72d444207a175268b",
-            "4e64b067257825e750df5e669b93f44a47717d8f094a7031d5eb6b8070b2e3c1"
+            "01e7cff9f15a6122564d9c51efd492667386d5ffab06013134e25b072f1f894d",
+            "c3d576307e74a64fcadb1e8e9bb6a6dbabe3ab5951c5e5cbad526eb1614ce2b2",
+            "3e92697c72580af4b5b6b570120bd782bcc79bd3f90f1b85c981e89c821f9028",
+            "e3d4067e11d627f822113ddecb8467f27927da9e035e5e1f34545c04af93304e"
           ]
         }
       }
@@ -32123,7 +32166,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 26,
         "attempts": 0,
         "coverage_complete": false,
@@ -32261,30 +32304,70 @@
             "ocr_performed": true,
             "ocr_text_characters": 225,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "d254af3605f7bab23821de360c950906e76d247b3ba8ced1a2fde5c21c86b7c7",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 136,
+            "text_sha256": "849a4cfbdcb87faae3e9f4d085914af6cefab7d8f4a678380b372f562a5c024c",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "39413522bd8c755d5f42865a9cefdc79eae41f6a162978eb2cec9cd1278424de",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 159,
+            "text_sha256": "d38c778a5b7dd53085ac3a274e7d278bfcb9215efa083620f1096706ffef73d7",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "da05dda38669f13c78c40805dc301880c01b06123419650688773c7b22689816",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 177,
+            "text_sha256": "dbc6b35fc1c45d71249a5a1d5cbf78dd7a66aa74c130175d532080aa876571a6",
+            "chart_candidate_unverified": true
+          },
+          "16": {
+            "render_sha256": "afb0c5068188e50127a7b5d1d5c97d0cf8f24f29b5e87948602f2f632119312c",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 229,
+            "text_sha256": "e2aa3496dcd12ce1a2d076283b3751fef544aca33317d65c971f1183f2ef956e",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:07:08.072916+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:10.668132+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 16,
+          "candidate_pages": 4,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "5c79089bb6a6318aa55f31282a7471612093c940886abff46e9fefc47bcb0984",
-            "5dc9d109fac710cbadb7b954ffaa21d4850ce7afce1b64c5402dd5d8532cecc9",
-            "e0f64470ae348b9e2fdc5ebb5a50f0d97c47c4c5efb1f8e0a89857eb688dbf0f",
-            "702113ecc619528b9c6621e84a0553a6527fea26934dbb9ce62c3faa3abbe456",
-            "85860bfe20eec0b3385babb1a7010260ac83867d60cac4786ebe1dab382d7a1a",
-            "0067e4f1a2baba805158b0f84d677b39e219930fb0cf9a430f16a5d29197013d",
-            "42205b2bca745762c8c91bc63a02de74c8d079812ac96aeedfd7da020c068947",
-            "823f5687bd47513b47062069e84301d0179f4853f80819d0428531e6e10dd97a",
-            "b2f01348f716ff904786dfcfd5f1a6b38da86809894b2c90bbb9203c56503262",
-            "39d1686bf6c8de3c56da2e70cdb9090e86368d09e0180cb28417d7fbc09d74b3",
-            "29d9aaba8d14af80cf4e3120f24be82b380e9dece1aec2d919062301e06609c5",
-            "0323ef0185d6c3cbea62701930e722d21da5a11e73e0bd068d068e6c262ef0f3"
+            "d254af3605f7bab23821de360c950906e76d247b3ba8ced1a2fde5c21c86b7c7",
+            "39413522bd8c755d5f42865a9cefdc79eae41f6a162978eb2cec9cd1278424de",
+            "da05dda38669f13c78c40805dc301880c01b06123419650688773c7b22689816",
+            "afb0c5068188e50127a7b5d1d5c97d0cf8f24f29b5e87948602f2f632119312c"
           ]
         }
       },
@@ -32528,7 +32611,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 29,
         "attempts": 0,
         "coverage_complete": false,
@@ -32666,30 +32749,70 @@
             "ocr_performed": true,
             "ocr_text_characters": 247,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "571b272fe6e1bd7b7737a859de5457a9070b82b2cdcebc53be656015dfcae7fb",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 187,
+            "text_sha256": "be696d054e4b82255708cd7ed1ccab25b77533ec044c9e431194232907940f79",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "e2e406ae0ebda7f97ad7b248067f572ad74a09321cfe5acfaf6f13d420c4ba50",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 245,
+            "text_sha256": "49dc4b8cf209f71c99cd999dffd97ffb9d7aa36c06e09c18f5e9d9bc6ad9f769",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "348a1a2aae25c62a606dc606181ce1dead4f8d6d835827195272f878dde25c1b",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 37,
+            "text_sha256": "1f55f3678d31ad92febe202fdafd8f2dd5357b7bb8bd24b3f200c59d8bd7c5c5",
+            "chart_candidate_unverified": true
+          },
+          "16": {
+            "render_sha256": "6f485e1f1308734afca3a87ba53afb6960812e47e233ce53b1e472265e659592",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 134,
+            "text_sha256": "ee75a3968b91d00d7247db5b99acdad711271a48c4e13051bd3087203b523d41",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:07:23.760398+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:17.165243+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 16,
+          "candidate_pages": 4,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "d8b17b69254f5862b813e987880d4dde6d95ec3b33d322c1b672d5185b7f4ee8",
-            "b91e613fb7b93e9890fa1785c93ddced6a74b32965575e6c9c2d316d252d1f13",
-            "935ba103d3478aea80c8b953ceb0e23dcd8fe81d5c78ffbf7b5a4e8816231cae",
-            "d9450f8bcc46cd2b00fe2d8bf0d25b256047566fdcf3bf92bdc77027de3b1261",
-            "eba5f95d2f264771569457c91b89050da80ae1d8afb33c81d8559669924a9285",
-            "2cc70b9b8c1ad7171641939d22813ee5e67be26e1d11e86013a5c6875d41c314",
-            "3c5e595188f3263311a57d8ded0d5d6b80f2b32839bcaf44dc97bef26bac4aa6",
-            "719e9ddcbbb8727dc9a9ff3fd5ed24b95aba6ffbfbc39d1173fb76133f7fc13a",
-            "517666a017f19f371cd4367fb7cdb6277778e9e441ded3e642f7c27bd22b38a9",
-            "a94e3eb26483aea4a07071813ac5041c9e6232feed3bf28f0d825a60bbc9c6ca",
-            "4fac06f50362146973f2407932d0ce1b43e17f11bf826e8da4a878ab8c788b71",
-            "4464315a52ee2b16f895847152ba7ff62f7029322f437ad2777e3cb328761df9"
+            "571b272fe6e1bd7b7737a859de5457a9070b82b2cdcebc53be656015dfcae7fb",
+            "e2e406ae0ebda7f97ad7b248067f572ad74a09321cfe5acfaf6f13d420c4ba50",
+            "348a1a2aae25c62a606dc606181ce1dead4f8d6d835827195272f878dde25c1b",
+            "6f485e1f1308734afca3a87ba53afb6960812e47e233ce53b1e472265e659592"
           ]
         }
       }
@@ -32819,7 +32942,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 30,
         "attempts": 0,
         "coverage_complete": false,
@@ -32957,30 +33080,70 @@
             "ocr_performed": true,
             "ocr_text_characters": 30,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "783428606bf38154ce6a7a2e1fc4a21574505debefaaa6503ffed28e0ba3d9d0",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 239,
+            "text_sha256": "0b3acfb6d0e5e2b200c9175541b2cf1fe6b1d578046307cb2a9d155c4e85403e",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "900b526bf2fbfbfe88b853c361a28a279bd6c980137265f7a2cfa45ca2249299",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 329,
+            "text_sha256": "21156b58157928a7f0a5d2495dc0aba55b05ef6e0969ccbf98cab71710f9259e",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "a792536af0deb04c036b3fde7c180cd5b3c8b26d330388d11f54d47a9075641d",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 29,
+            "text_sha256": "818878a2e67f8cc2ce19ece2c9955d46362fc00d5e3f94b497aa8c6b5a5164c4",
+            "chart_candidate_unverified": true
+          },
+          "16": {
+            "render_sha256": "64916928848304ee5885eaaa981b805e909be43fb665860048c5ab00f6a5e909",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 186,
+            "text_sha256": "91ee92496ed426751f74b66403532798d8f3500cda69c9225a314e119e989fb8",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:07:38.510727+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:23.517621+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 16,
+          "candidate_pages": 4,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "87f847ad9c8d580a3f80e536599b18ec6ee9b555d45219ec12eb0f59d830de17",
-            "98b9da6b692d090af5e1bf5c53e5c2e2d54c548c41933c2e3eb3eaadef10483b",
-            "208182baacebf7da12c02dccaa840733503030d792ce360aeaedfb772b54f516",
-            "63bbbd657847092d3344ae7665c10b06b6ac8fb62c4c02ffa3c5837c62508c36",
-            "f8d789f6bf5475edc614f1a861a4c32c894306c70f94aac983e7149f761031df",
-            "e3a0a13c54c4b591f6482cf5225e87dbda7bf0d1a97e7aea266af8bf1a7e75ce",
-            "d5ba42f0938edc7d44b62a8a895963239b93ba04b6ce3bb475e7997a111d0832",
-            "e0259544a536027bc47ddf20501b37676fd2ce5f9bcc86f69b303de138c34f93",
-            "361d4971009dc3e548916666e8f058d2ca7dbf9630518428aa8e0044ef5b955f",
-            "afc85d4b88954e2757d6799a36dba302471305fb33a1d8d4a7ab6d1a3fe2f1d6",
-            "f7eeadc29f490a184cda4294fa429e584ffb2ee6e652d2a4b8649da77c9e4851",
-            "91a85fb7b6584c00e8e4ac63427b06983ac44f29f5c02e415ad29c35c9df3d25"
+            "783428606bf38154ce6a7a2e1fc4a21574505debefaaa6503ffed28e0ba3d9d0",
+            "900b526bf2fbfbfe88b853c361a28a279bd6c980137265f7a2cfa45ca2249299",
+            "a792536af0deb04c036b3fde7c180cd5b3c8b26d330388d11f54d47a9075641d",
+            "64916928848304ee5885eaaa981b805e909be43fb665860048c5ab00f6a5e909"
           ]
         }
       }
@@ -33062,10 +33225,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 14,
         "total_pages": 14,
         "attempts": 0,
-        "coverage_complete": false,
+        "coverage_complete": true,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -33200,30 +33363,44 @@
             "ocr_performed": true,
             "ocr_text_characters": 194,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "dabf1998025ceb47bf0d983f6eb7a2e2dc93c78299ec3de186448b05935eff41",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 264,
+            "text_sha256": "c30c62daaa72623759a1ba64dd96eae00a9b6e657b3130042dcc7c03f5d7f4cf",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "63a937f2026b04eb956a6f9980cb18087cec1f158bfefb72360ee8a95e6535c7",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 259,
+            "text_sha256": "f6edf0e8f08506002444ce7bf5ff2c83b8fba40a147ce643269f722037ecf988",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:07:55.792232+00:00",
+        "ocr_complete": true,
+        "last_advanced_utc": "2026-11-22T16:58:28.762455+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 14,
+          "candidate_pages": 2,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "868fdd3d1c19b716c1cd3273368c95cd42f0c7088e36bce28fb8d299ebf75141",
-            "a78d026e51278d6c0aa4dee709d75d8abc133271364d5c9fa2dfac099638ed25",
-            "01eaa9642ab1f3a44b35ec95c01ec46d7397cf87878fccd43453ad8adcf115e9",
-            "d39d62f31af2e48e5ee89436bbe17cb09ffc5a79a8e1c7f2b72f3c3d8d95c546",
-            "739ab9d3d6a943a16bba8aff9611edc893cebb3a28892cdb4a305eb7dadfcb50",
-            "59bb0e3d64307175d5f258825ed3969cf82e73846249892eb30fe673c25da78a",
-            "b5611d0841318381bb5779fad3287f92e87d3dc2dc90d608c955883777f61bbc",
-            "8bafbb02d38bc5958ac6554c1435a9ec393fe8086473cc463311f5f35889a3df",
-            "e0a911094c9679f458ed6a23273f4434375d6b66505ed047fcfe74e6e0d35bcc",
-            "6a7bfd4d848b6d88288a1cc092fc2d88f943b219ec89b4e44e565951e875cd37",
-            "3b1ca4df35a410c406c217a581ff624fed69dc0bd88d4d22cab15b64c3e4e6c3",
-            "e0b16f534b6032a22f4eaab148f7f873f00fb8dbbeab1d1d9ab2aa810e0f0fa3"
+            "dabf1998025ceb47bf0d983f6eb7a2e2dc93c78299ec3de186448b05935eff41",
+            "63a937f2026b04eb956a6f9980cb18087cec1f158bfefb72360ee8a95e6535c7"
           ]
         }
       }
@@ -33503,7 +33680,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 38,
         "attempts": 0,
         "coverage_complete": false,
@@ -33641,30 +33818,70 @@
             "ocr_performed": true,
             "ocr_text_characters": 21,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "5f6822995cd04c8108fcc53297df4f9a1bbe48ade0e8446bb1b0facce14bd29d",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 126,
+            "text_sha256": "265360ca82694937952a5528d6b308b4dda94f1b6dbd580203c9efd78cfd49e5",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "89deca7618415e4d7ea17ba087c66cd86abcf3f3db6f6c0719879347a7d63f32",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 21,
+            "text_sha256": "bc39e376c950c6837310ea86110bb554d214251fbbec559c9481ca5515c2c8ff",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "a1927393fd6fa504406938f9f4fb75e9f749f7c07d6b380ed96cf59d613331df",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 128,
+            "text_sha256": "03c6e561e312538c18a40ba8849e4b132bc0cbebec287dd1de43f80450257d00",
+            "chart_candidate_unverified": true
+          },
+          "16": {
+            "render_sha256": "29435b2069d191e06e85ffd246aa26dd0bfce7fbad46bd2d3d1babcb4dcee319",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 118,
+            "text_sha256": "fb3caf0b78c29e4933891a980cff8e13d756500778000a7e9b291357050bf413",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:54:56.806834+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:29.883305+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 16,
+          "candidate_pages": 4,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "6192477bd16bca1a9e945356d12e98c0e21fb8f723807748da4dadcc2d5c9a5f",
-            "8521b159e3027d75fd85bad901812cec0b46ec5ba82fd3421708f22f97ef3654",
-            "2bca92e37bb312831ad5379f68547c7f8587ef8ce71d5fabfadf720721db6d3d",
-            "950181abcbfd2dc37c87a397e813be076fdce697bc19b036352de92aa1e82000",
-            "7d5d5ceee1febf9def78e720b92d3cfe106fb09ac634fedd061a6ce1961f2419",
-            "10f61e073e9aaf1bd0d3705d557492be500dc0e84f38ea9e7f5ad5f8559c6f59",
-            "c5a058705610589a6e1f7e4d821f7bd1402f24b1aa7bbcebb9b4b678761d1bf3",
-            "a9d4dc3144b3cb577595b103f6748785c39da1b5d577d9a77f9536bf40079f4d",
-            "371fd2162ec52056e5c0129b9a35c29d859780e50abf08c0d91e5de3e17dce30",
-            "8ac4bd37908c5777cbf10a0909bd3ab207a04e44791d063208b97e45f7f4f6b7",
-            "666817ac5301d037b9733716e9b54b7d5db3d8cfb8d08f6e9aa5a2ff16cc3491",
-            "252c4bfd0bfb70a0d0988e0273378feb74ed4b52da5bdfaa27ced073a3af5453"
+            "5f6822995cd04c8108fcc53297df4f9a1bbe48ade0e8446bb1b0facce14bd29d",
+            "89deca7618415e4d7ea17ba087c66cd86abcf3f3db6f6c0719879347a7d63f32",
+            "a1927393fd6fa504406938f9f4fb75e9f749f7c07d6b380ed96cf59d613331df",
+            "29435b2069d191e06e85ffd246aa26dd0bfce7fbad46bd2d3d1babcb4dcee319"
           ]
         }
       }
@@ -33737,12 +33954,14 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 41,
         "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "ocr_failed_page_numbers": [],
+        "ocr_failed_page_numbers": [
+          13
+        ],
         "page_evidence": {
           "1": {
             "render_sha256": "d409d46fbe59dcae90eed1f65c6a9594208ed4403f23dc6e16df89fb1e7ffadb",
@@ -33875,30 +34094,72 @@
             "ocr_performed": true,
             "ocr_text_characters": 99,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "3f4aa09c8030e63a6ba691b4fb993e83d477fcb4e4f51d7c314474b958c7601e",
+            "ocr_success": false,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": false,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 0,
+            "text_sha256": null,
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "875eb9cc3e507cf53769b0d0445a52b6d2b747608820ed2052f9d074eda1586f",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 115,
+            "text_sha256": "e96240fb157ea8bbd87d0c474f4bab88f6f652aa9e892746028ee34941c4a522",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "9f23c522bb490106f4243c761bbd55d41f828260360a74ff820922047827db63",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 20,
+            "text_sha256": "b19fc141ad4000a62a78a248b8c18605ff9580d178f35e924cecfa10a305a9e1",
+            "chart_candidate_unverified": true
+          },
+          "16": {
+            "render_sha256": "0ed58c160b936a0af5db39a06a1d4fb1699c1044e538fea95c4114b0ad2fecab",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 116,
+            "text_sha256": "4b4fa83f943992c0ea0c0bddb0f22adbf02e22d5307155b5d7dd2c2e15c30d1b",
+            "chart_candidate_unverified": true
           }
         },
-        "ocr_page_retry_after_utc": {},
-        "ocr_failed_pages_total": 0,
+        "ocr_page_retry_after_utc": {
+          "13": "2026-11-22T22:58:31.256939+00:00"
+        },
+        "ocr_failed_pages_total": 1,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:55:01.751288+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:31.256967+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
-          "ocr_failed_pages": 0,
+          "first_page": 13,
+          "last_page": 16,
+          "candidate_pages": 4,
+          "ocr_failed_pages": 1,
           "render_sha256": [
-            "d409d46fbe59dcae90eed1f65c6a9594208ed4403f23dc6e16df89fb1e7ffadb",
-            "c2374d96118ddbb434bd3d7b68b8a2f7a4b1c5d17655e6ba9f898a145a1de160",
-            "289f9b8cbd2d36b0f8de34b545ffbe569cac352eeb2e8dc68a56df82a36d243c",
-            "e3ec723b90f130b5f95179a14f0033417b68294816528831b49b1afb2328f217",
-            "92d53b115fcb19f60722e9572025e4217f7d4f3b1ee3edb76fe371250ea24ecf",
-            "8e6ded7c46e8751e60bb2d7cd7b77e8f78f92b922a4fa089db5336b94f053654",
-            "cb1c0a7464e4c2773f48d19fe14d625f3cdd92a88dda0e85658b2ff0f79111fd",
-            "1dd691872cc6da2768fdf67dab14c4348f680aa4a4bb6fb6099252cbc92b4857",
-            "e31dd32a354502c5b8d402ed8f2f2688a10bfad0cf36071f7b6a1d33a28fe8f4",
-            "24911ed53ca5701fba31446fb88fb7f0289705dc907b26727c4458671765b416",
-            "69eaef395b27f30b693bb097edfc6226b26226f5e8dee984dfc16fc117046fc8",
-            "fffeadbd9af93bf9e66d4f5f25fdd90ff6dbe688af1e36e129725c744e3975c4"
+            "3f4aa09c8030e63a6ba691b4fb993e83d477fcb4e4f51d7c314474b958c7601e",
+            "875eb9cc3e507cf53769b0d0445a52b6d2b747608820ed2052f9d074eda1586f",
+            "9f23c522bb490106f4243c761bbd55d41f828260360a74ff820922047827db63",
+            "0ed58c160b936a0af5db39a06a1d4fb1699c1044e538fea95c4114b0ad2fecab"
           ]
         }
       }
@@ -33946,10 +34207,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 15,
         "total_pages": 15,
         "attempts": 0,
-        "coverage_complete": false,
+        "coverage_complete": true,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -34084,30 +34345,57 @@
             "ocr_performed": true,
             "ocr_text_characters": 58,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "916a1044a146305ff9fb17ad3dd5ca05f54ce6095cf673ec7894ebda7cc2afd8",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 115,
+            "text_sha256": "108506ae246cabe9f4590d9cada8a3b504c5147c16e8b15bca35f0e9cb24b7cd",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "5a59f311d416a2cf0448a397a96ea4ddb1028a5abfb84081f061dd68d8ca4d4f",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "embedded_sparse_plus_ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 145,
+            "text_sha256": "37651bc58828c5c4171fcb208bfaaa6209c02d8a2be7f8bb517f96bc31a15953",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "a9506f983135f4e8bb46ada429f9fec90f86e7d091e3ffe198a909bc9cc52710",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 178,
+            "text_sha256": "0c25e47f07dcf6bbf775cc90c72ebd32d76bcd7810dae49900166567f2dad78f",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:55:06.507946+00:00",
+        "ocr_complete": true,
+        "last_advanced_utc": "2026-11-22T16:58:32.454650+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 15,
+          "candidate_pages": 3,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "98e0c357c40004dcc80d4b2d6d167e689dbf62c65a101a3d82e2bc4efa484b84",
-            "5f98ed5f82a7fa965122be45e0bb4e13e11ec62b4fa0018e9a2e6f86a687e3c6",
-            "848d8c963c15fb79ee40b257b5731c3c0c0fb3bf32a5e9c2fa0ec0b7746cf22d",
-            "abf4d35e5955b84067ebb79b61a013d50abe2ff88a83fbbd95ed8e2668b0a8e3",
-            "3fd7bd05576411a86c6577c5d145cc1c681d83590f03a861f92b6b41e0b3f729",
-            "cafb161b26a4d5c56647637542eefc14012a7703846a7dae1eb76281eed72e09",
-            "c8bcc9775cf7a235bfa03a1a2c006a9bd9b0452bd4d4df1bf89a28f5e92d7942",
-            "2920d753b7ffb2a875ea67cb05dfc5eb7779034897238a6e79dac79d10c48ce5",
-            "7fef8c4edfa72ca6f5040b7dab92a5356fe6d51f8d637c9797f36803f35a9ce5",
-            "95902c3355d161016b35d71287e51e06dd38abcbb31743b1611200a69dff6085",
-            "ed5f262fe72edb81435ad7729903503bebd1a1ee0ad6c523c7d1786e9a1be5b4",
-            "502c61dfe9e6a37d853616f5a298ffad01c6d4ee71c1c5b74e1438682ad2e3b6"
+            "916a1044a146305ff9fb17ad3dd5ca05f54ce6095cf673ec7894ebda7cc2afd8",
+            "5a59f311d416a2cf0448a397a96ea4ddb1028a5abfb84081f061dd68d8ca4d4f",
+            "a9506f983135f4e8bb46ada429f9fec90f86e7d091e3ffe198a909bc9cc52710"
           ]
         }
       }
@@ -34157,7 +34445,7 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 12,
+        "next_page": 16,
         "total_pages": 20,
         "attempts": 0,
         "coverage_complete": false,
@@ -34295,30 +34583,70 @@
             "ocr_performed": true,
             "ocr_text_characters": 72,
             "chart_candidate_unverified": true
+          },
+          "13": {
+            "render_sha256": "1db6ca882a63c54d3e49635ce9ed575578849ac581aac84033277ce0e6d56f10",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "embedded_sparse_plus_ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 145,
+            "text_sha256": "51e62ba145c50a84152f0d00e73a443598e68e42a4ca9d03596fba4175a1e16d",
+            "chart_candidate_unverified": true
+          },
+          "14": {
+            "render_sha256": "7b0c30d59ce83300bedda14eabf163c4efc1c1b2289f75153546052a45a977c8",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 75,
+            "text_sha256": "a78dbc1b4753efb7c22965d14d40eedd30b2624ff66f7c2a0116dab7e2dfbfa2",
+            "chart_candidate_unverified": true
+          },
+          "15": {
+            "render_sha256": "9b5628bbef4ac6cdb22744f5f3b9997cbf7b3abadae9b16f984cd3eed773caf9",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "embedded_sparse_plus_ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 153,
+            "text_sha256": "6df301670c7b881baf5bfffef3b46f593181551dbfa13d5717d2ecb0bfd387da",
+            "chart_candidate_unverified": true
+          },
+          "16": {
+            "render_sha256": "e05c60f3cd7065a2135df507f1f5ec0ebcc59c571b283b2b5661e0231c192fa1",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 21,
+            "text_sha256": "bc39e376c950c6837310ea86110bb554d214251fbbec559c9481ca5515c2c8ff",
+            "chart_candidate_unverified": true
           }
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
         "ocr_complete": false,
-        "last_advanced_utc": "2026-11-22T05:55:11.198866+00:00",
+        "last_advanced_utc": "2026-11-22T16:58:34.433267+00:00",
         "last_window": {
-          "first_page": 1,
-          "last_page": 12,
-          "candidate_pages": 12,
+          "first_page": 13,
+          "last_page": 16,
+          "candidate_pages": 4,
           "ocr_failed_pages": 0,
           "render_sha256": [
-            "8ba166ba0bf0ee5d86c793ee8e04effea8deb3ae0be65ed0618a26eb8c3eed75",
-            "ada6b415aee9a53ed68c3e9cc45d15e0fb2797534c8171b1b222ef22626c3f8c",
-            "459fa3b2205c54df2cabf42d9fe59c092d024f4ecb73c342d8e6d1d89a3a3115",
-            "0b0384f16d0c960c4b5d1b38c33ad91bda870ac8081584e1cc9f3b06cef951ec",
-            "d579b61976956637e972a508d63f16c251924eb993270ff02dad4a985f003239",
-            "b2c7e8e3f4fc672bd7ac9877719d09e7e40b0f3a4a2208b44f3f0bd70d28c1ab",
-            "964c13ec02631ad2f64d982fb28e98e742bd4c9658a8baebde39e1e08258415d",
-            "5f60d8b6248163a641305372e41bad458eceefbaec57a677061de04be749ecea",
-            "e9503fd0dcafb2d8c28e2c14b75e03730d029608821947f7c2a21d15b24be6a8",
-            "3940672c89068ed03862bdff04a53db5e5111dd32ecd54528ca936e9ecc8ac51",
-            "ad849cae79f2a2bef6ba1751b29456404ac3e67f0bd26678c7bd7c0390caed40",
-            "b201a9648149ea32bc488ac6cf475b57a0f9e3a7b657b6ad5f70e045647a05f0"
+            "1db6ca882a63c54d3e49635ce9ed575578849ac581aac84033277ce0e6d56f10",
+            "7b0c30d59ce83300bedda14eabf163c4efc1c1b2289f75153546052a45a977c8",
+            "9b5628bbef4ac6cdb22744f5f3b9997cbf7b3abadae9b16f984cd3eed773caf9",
+            "e05c60f3cd7065a2135df507f1f5ec0ebcc59c571b283b2b5661e0231c192fa1"
           ]
         }
       }
