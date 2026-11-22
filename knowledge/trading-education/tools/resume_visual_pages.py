@@ -10,7 +10,12 @@ def next_retry_page(failed_pages, cooldowns, now):
     """Choose first eligible failed 1-based page; never strand others behind one failure."""
     for candidate in failed_pages:
         try:
-            ready=datetime.fromisoformat(cooldowns[str(candidate)])<=now
+            deadline=datetime.fromisoformat(cooldowns[str(candidate)])
+            # Historical checkpoints may contain naive timestamps; normalize to UTC
+            # rather than aborting the entire visual audit on mixed datetime types.
+            if deadline.tzinfo is None:
+                deadline=deadline.replace(tzinfo=timezone.utc)
+            ready=deadline<=now
         except (KeyError, ValueError, TypeError):
             ready=True
         if ready:
@@ -136,7 +141,10 @@ def main():
             retry_after=audit.get('retry_after_utc')
             if retry_after:
                 try:
-                    if datetime.fromisoformat(retry_after)<datetime.now(timezone.utc):
+                    deadline=datetime.fromisoformat(retry_after)
+                    if deadline.tzinfo is None:
+                        deadline=deadline.replace(tzinfo=timezone.utc)
+                    if deadline<datetime.now(timezone.utc):
                         audit['attempts']=0
                     else: continue
                 except ValueError:
