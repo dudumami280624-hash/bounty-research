@@ -1,6 +1,6 @@
 # The Market Mind｜Lesson 03 制作蓝图（2026-11-20）
 
-状态：**PLANNED / NOT APPROVED / NOT PUBLISHED**。本文件是制作与审核计划，不代表金融事实核验、178份课程原文逐页审计已完成。不可取代已发布Lesson 01–02，也不改动LOCKED资产。
+状态：**HISTORICAL BLUEPRINT / SUPERSEDED BY DRAFT / NOT APPROVED / NOT PUBLISHED**。现有英文草稿见 [lesson-03-revised-draft-2026-11-20.md](lesson-03-revised-draft-2026-11-20.md)；本文仅保留早期制作设想，不代表当前稿件或完成状态。本文件是制作与审核计划，不代表金融事实核验、178份课程原文逐页审计已完成。不可取代已发布Lesson 01–02，也不改动LOCKED资产。
 
 ## 已锁定衔接（来自用户提供的两份MD）
 - Lesson 01: Why Investors Suddenly Changed Their Minds About Losing Stocks — 区分市场观察、投资者解释、证据与决策。
@@ -55,4 +55,4 @@ And that's where many chart interpretations begin to go wrong.
 - [ ] 原件及已发布前两章只读；不删除，不覆盖。
 
 ## 实际结果与边界
-此提交仅落地第三章制作蓝图。尚未写完整英文正文、尚未制作图片、尚未完成178份逐页审核、尚未获用户批准发布。
+历史说明：本蓝图最初创建时尚未写完整英文正文。此后已形成 [Lesson 03 英文编辑草稿](lesson-03-revised-draft-2026-11-20.md)，但图像归档、来源核验和发布审批仍不能据此视为完成；178份材料也尚未逐页审核。
