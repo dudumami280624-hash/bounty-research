@@ -354,7 +354,9 @@ def main():
        +f'- PDF文字逐页元数据：{len(pdf_audits)}份、{audited_pages}页；覆盖完成{completed_audits}份；待OCR页{pending_ocr_pages}（仅页级标记）\n'
        +''.join(f'- {x["source_name"]}：{x["status"]}\n' for x in processed)
        +f'- 本轮状态：{status["extraction_status"]}\n'
-       +f'- 已提取文字：{counts["extracted"]}/178\n'
+       +f'- 已提取文字状态（非完整提取验收）：{counts["extracted"]}/178\n'
+       +f'- 逐页文字证据尚未覆盖完的PDF：{len(pdf_audits)-completed_audits}份（仅已建档PDF）\n'
+       +f'- 待OCR页面标记：{pending_ocr_pages}页；已确认完成OCR全文验收：0份\n'
        +f'- OCR不完整待重试：{counts["partial_ocr_failure"]}\n'
        +f'- 需视觉复核：{counts["needs_visual_review"]}\n'
        +f'- 需旧格式转换：{counts["needs_conversion"]}\n'
