@@ -12,6 +12,8 @@ name: The Market Mind - hourly source extraction
 # Page-specific OCR retries retain failed page numbers and six-hour cooldown.
 # Prioritize first 26 and started PDF page audits without starvation (research 3fa95d3).
 # Hard per-source process-group timeout prevents native PDF/OCR hangs (3bceb66).
+# 2026-11-23: rerun parser and captioned-raster OCR regression after removing two
+# literal backslash-n syntax errors in research free_visual.py (4b2a2a08).
 
 on:
   schedule:
