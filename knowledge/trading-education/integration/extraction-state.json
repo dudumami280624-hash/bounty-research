@@ -21562,6 +21562,105 @@
             "66f2ef072314359ffdffba27f2afcd9a1e75ce2de76fdd4ffb763bff8b00e724"
           ]
         }
+      },
+      "pdf_text_page_audit": {
+        "next_page": 10,
+        "total_pages": 10,
+        "page_evidence": {
+          "1": {
+            "source_page": 1,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "2": {
+            "source_page": 2,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "3": {
+            "source_page": 3,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "4": {
+            "source_page": 4,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "5": {
+            "source_page": 5,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "6": {
+            "source_page": 6,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "7": {
+            "source_page": 7,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "8": {
+            "source_page": 8,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "9": {
+            "source_page": 9,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "10": {
+            "source_page": 10,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          }
+        },
+        "coverage_complete": true,
+        "source_sha256": "606f8139ba5ce7e775d7ea68b0fc0611f57f9df96443a75bd17baf944faa290a",
+        "last_advanced_utc": "2026-11-22T09:57:16.561502+00:00"
       }
     },
     "9aaa82ce5a97a833f814218a9a3fd0b1a79359b6": {
@@ -29962,6 +30061,105 @@
             "ee0fb660d6d45e7a2cdb3b69af293a9fe16f3b0754410eb77729eee8bc1e79b3"
           ]
         }
+      },
+      "pdf_text_page_audit": {
+        "next_page": 10,
+        "total_pages": 10,
+        "page_evidence": {
+          "1": {
+            "source_page": 1,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "5dc7e28e5494f88f393d10a39bfc0e230f149499ca0f2e42d32461ab2a5d584f",
+            "embedded_text_chars": 23,
+            "embedded_meaningful_chars": 21,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "2": {
+            "source_page": 2,
+            "text_origin": "no_embedded_text",
+            "embedded_text_sha256": null,
+            "embedded_text_chars": 0,
+            "embedded_meaningful_chars": 0,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "3": {
+            "source_page": 3,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "0a99dc04d4ab3c881ddca0377d48040619783c499c2c55123a232737bc566c3a",
+            "embedded_text_chars": 195,
+            "embedded_meaningful_chars": 191,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "4": {
+            "source_page": 4,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "4815a222b47aacd774164988b55864e22e561767498efd8916cc8b00df80d50b",
+            "embedded_text_chars": 97,
+            "embedded_meaningful_chars": 96,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "5": {
+            "source_page": 5,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "331353de5603fc7aa88c5d26dd6a5aa34d8d78b5c8b4306aa5dbb34606dc9fc8",
+            "embedded_text_chars": 204,
+            "embedded_meaningful_chars": 199,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "6": {
+            "source_page": 6,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "a8e67a6d9ebce4693b1fdfce92899820e13975ceb3c760a36b3d6741975460df",
+            "embedded_text_chars": 158,
+            "embedded_meaningful_chars": 155,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "7": {
+            "source_page": 7,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "ac94d91bdb197983882f18586c112c5d77ac45c3b515c75cf80dddff7747404d",
+            "embedded_text_chars": 110,
+            "embedded_meaningful_chars": 107,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "8": {
+            "source_page": 8,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "f01fd606bdaf29cbb7ca40f46bc59855f846ac53e1abc8b444fe02e0ac7c62a6",
+            "embedded_text_chars": 85,
+            "embedded_meaningful_chars": 82,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "9": {
+            "source_page": 9,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "4d14c3929fe13af4b889cff98297d41a2d8ac5ad4034349cf8e65d6e3450039f",
+            "embedded_text_chars": 131,
+            "embedded_meaningful_chars": 128,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "10": {
+            "source_page": 10,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "00e96cc3a4644917ffd66cf899677923d7ce98a5fc416f1b9256fd507e902258",
+            "embedded_text_chars": 154,
+            "embedded_meaningful_chars": 151,
+            "ocr_needed": false,
+            "verified": false
+          }
+        },
+        "coverage_complete": true,
+        "source_sha256": "c1d30bfe8d7a55b2a7c04ade8548ee768b179a153f68fe3f89b99483e1de759e",
+        "last_advanced_utc": "2026-11-22T09:57:13.544611+00:00"
       }
     },
     "804f99c675e7745713ed8691a3796b359724af91": {
@@ -33333,12 +33531,104 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 0,
-        "total_pages": null,
-        "attempts": 1,
+        "next_page": 6,
+        "total_pages": 8,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "last_error": "No module named 'fitz'"
+        "ocr_failed_page_numbers": [],
+        "page_evidence": {
+          "1": {
+            "render_sha256": "e2ef426311269829878b3753c4976a6611128bc4fa7d4c4edf23871a81e1b924",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 431,
+            "text_sha256": "0144b289ebbf254de660276a775c67a48a2a5ac1e0c59def821d19dcefa36d00",
+            "chart_candidate_unverified": true
+          },
+          "2": {
+            "render_sha256": "36f200b96ab4034714a3f31815cf244daedeed162ba1427956d269d8b1be6ec1",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 437,
+            "text_sha256": "9c487269309e8eb3172b55819048992beaeb590e5f1afaae4dc6c351167cceda",
+            "chart_candidate_unverified": true
+          },
+          "3": {
+            "render_sha256": "cf66a39eedfb0499f96bcbfa6df1123ca5567263cf373a0dfe2409cf72f22a44",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 479,
+            "text_sha256": "44568ddd1719d30c0b0fe2c4c8ba0f4032fdefb37497a282544d11d610d77326",
+            "chart_candidate_unverified": true
+          },
+          "4": {
+            "render_sha256": "65bfc8087d29bcde827b21651a71a759eb453f1a3a4d32dd6d9a5a2e7ca0c0ea",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 680,
+            "text_sha256": "701cb1e8342814db27b8981a1941db83d16aea51b0116af16de32085290448e2",
+            "chart_candidate_unverified": false
+          },
+          "5": {
+            "render_sha256": "289f112a7b75f4f07877a7113d9e76e1d657e2e713dae16ecce02ecda4afcbb5",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 382,
+            "text_sha256": "8efc149ba51d0df2adeac80fce45861993ff88ee77e56b2f29adb1d44b6f8fe0",
+            "chart_candidate_unverified": true
+          },
+          "6": {
+            "render_sha256": "069242a4b59988ab066bc1b6ccb7f0b7533beb8aca9cbc95cd358d5b0be5f047",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 538,
+            "text_sha256": "62917634067331f59b44573018985c96f61f63293cdab58e8371c2cc9ef686f1",
+            "chart_candidate_unverified": true
+          }
+        },
+        "ocr_page_retry_after_utc": {},
+        "ocr_failed_pages_total": 0,
+        "ocr_complete": false,
+        "last_advanced_utc": "2026-11-22T09:57:17.585176+00:00",
+        "last_window": {
+          "first_page": 1,
+          "last_page": 6,
+          "candidate_pages": 5,
+          "ocr_failed_pages": 0,
+          "render_sha256": [
+            "e2ef426311269829878b3753c4976a6611128bc4fa7d4c4edf23871a81e1b924",
+            "36f200b96ab4034714a3f31815cf244daedeed162ba1427956d269d8b1be6ec1",
+            "cf66a39eedfb0499f96bcbfa6df1123ca5567263cf373a0dfe2409cf72f22a44",
+            "65bfc8087d29bcde827b21651a71a759eb453f1a3a4d32dd6d9a5a2e7ca0c0ea",
+            "289f112a7b75f4f07877a7113d9e76e1d657e2e713dae16ecce02ecda4afcbb5",
+            "069242a4b59988ab066bc1b6ccb7f0b7533beb8aca9cbc95cd358d5b0be5f047"
+          ]
+        }
       }
     },
     "d6ccae045d63182be2b43cf369bd8dcb75ecf00c": {
@@ -33379,12 +33669,104 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 0,
-        "total_pages": null,
-        "attempts": 1,
+        "next_page": 6,
+        "total_pages": 10,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "last_error": "No module named 'fitz'"
+        "ocr_failed_page_numbers": [],
+        "page_evidence": {
+          "1": {
+            "render_sha256": "38b6471d3dd108020a3ea9abcae46ab6602d0665fa771428737d9d189a8b1715",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 402,
+            "text_sha256": "1486218387cdcd2970379b0ee26b71a8d462e54e4b20823ced003db12be01d99",
+            "chart_candidate_unverified": true
+          },
+          "2": {
+            "render_sha256": "04c622d94da1a2c1aa4b01e3c97cd065e0f88d3b4d2ee4e7778ec4b5a7da7276",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 501,
+            "text_sha256": "fb3af05982da664438f6e5b1cbf3fffb67df598f195f0e84fedec490f742e080",
+            "chart_candidate_unverified": false
+          },
+          "3": {
+            "render_sha256": "e9bd43a9a7697dc5aeec3db87a33b61186028b6c669b3abab8d7aa59b984d4b8",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 290,
+            "text_sha256": "02e5d4cb2ea2c0f616abdf78de15d9aac8e46c90beaf3b538ee372fd736f807c",
+            "chart_candidate_unverified": true
+          },
+          "4": {
+            "render_sha256": "59ac8c490130a0b440daab0794b3e9e7e6b4f70571662beac76aa60acb098bc7",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 371,
+            "text_sha256": "7f70b34a40c86326b751f0c8057c18686fa4c5d701727c5ca692af5c27944894",
+            "chart_candidate_unverified": true
+          },
+          "5": {
+            "render_sha256": "d282b9354084d49d10e7d5851169cdfe49c5941819d414c00a3a5b11cba2709f",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 250,
+            "text_sha256": "d3d07f27faf93fd60aa4583fbd6b7417a8238367ec2231289c8c6cf9ecb02790",
+            "chart_candidate_unverified": true
+          },
+          "6": {
+            "render_sha256": "8a6db87777eefb268ecb0caa7fd5d56c3559dfb476c856bd98bed8290c95d212",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 502,
+            "text_sha256": "a30f6a06d4b373fb37bcd0fa2c19e58c8c18ff3d79e399773290a97c20cc2887",
+            "chart_candidate_unverified": false
+          }
+        },
+        "ocr_page_retry_after_utc": {},
+        "ocr_failed_pages_total": 0,
+        "ocr_complete": false,
+        "last_advanced_utc": "2026-11-22T09:57:18.231323+00:00",
+        "last_window": {
+          "first_page": 1,
+          "last_page": 6,
+          "candidate_pages": 4,
+          "ocr_failed_pages": 0,
+          "render_sha256": [
+            "38b6471d3dd108020a3ea9abcae46ab6602d0665fa771428737d9d189a8b1715",
+            "04c622d94da1a2c1aa4b01e3c97cd065e0f88d3b4d2ee4e7778ec4b5a7da7276",
+            "e9bd43a9a7697dc5aeec3db87a33b61186028b6c669b3abab8d7aa59b984d4b8",
+            "59ac8c490130a0b440daab0794b3e9e7e6b4f70571662beac76aa60acb098bc7",
+            "d282b9354084d49d10e7d5851169cdfe49c5941819d414c00a3a5b11cba2709f",
+            "8a6db87777eefb268ecb0caa7fd5d56c3559dfb476c856bd98bed8290c95d212"
+          ]
+        }
       }
     },
     "4052f3a891eaf8b7313e726dcbf428688c14692a": {
@@ -33425,12 +33807,104 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 0,
-        "total_pages": null,
-        "attempts": 1,
+        "next_page": 6,
+        "total_pages": 7,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "last_error": "No module named 'fitz'"
+        "ocr_failed_page_numbers": [],
+        "page_evidence": {
+          "1": {
+            "render_sha256": "98f29b5957c7e942e9d3bc7c2e8fe93b5bd98e6a44deac82d2e4b4ac9acc0164",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 423,
+            "text_sha256": "1036bbe4b8449cc79820cbde53270f3827f9c2033d25f93541807ad2d79e7898",
+            "chart_candidate_unverified": true
+          },
+          "2": {
+            "render_sha256": "e14c66ccd78058654187748acf78b6509204bee8ba7e5522b9ad978718f21825",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 518,
+            "text_sha256": "5b8b304e40df9d7bea2e6b384b9383cc1fb2447702bb62f3b71a24d375777f59",
+            "chart_candidate_unverified": true
+          },
+          "3": {
+            "render_sha256": "86406aec1ed311b783e9c752f4f0c01b337c46f56469360c5cf4277f81ac97fe",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 464,
+            "text_sha256": "2e9e1e84f3cc1c2da9336110c97b778111ae68e702fe966d1de9952786746527",
+            "chart_candidate_unverified": true
+          },
+          "4": {
+            "render_sha256": "5c53001a8413e2e06afa735cd41f3b0a01f9f9bdc8788f57bc3483e4e59f54df",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 531,
+            "text_sha256": "42a2371333ade448fb3633e43345c762024cbfb5eff417d8d4ced83300c8c808",
+            "chart_candidate_unverified": false
+          },
+          "5": {
+            "render_sha256": "54ee47771ee958a4d470df5296964d2e470bf580917b905d686a0f5fdc564b62",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 224,
+            "text_sha256": "66d5ea858444dc41eded9a546dcf8f533170d2f0120f058713f58d0aee4ce9f0",
+            "chart_candidate_unverified": true
+          },
+          "6": {
+            "render_sha256": "68bb462c1b9ebcf1bef4d865d68408a3539f6b1ab10e71f3ec6dd1ea21c675d8",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 715,
+            "text_sha256": "8ce40d9fc4b0a9c0d40f296d4883a85e63e54613573c4eb3146a7116f9baebcc",
+            "chart_candidate_unverified": false
+          }
+        },
+        "ocr_page_retry_after_utc": {},
+        "ocr_failed_pages_total": 0,
+        "ocr_complete": false,
+        "last_advanced_utc": "2026-11-22T09:57:18.975064+00:00",
+        "last_window": {
+          "first_page": 1,
+          "last_page": 6,
+          "candidate_pages": 4,
+          "ocr_failed_pages": 0,
+          "render_sha256": [
+            "98f29b5957c7e942e9d3bc7c2e8fe93b5bd98e6a44deac82d2e4b4ac9acc0164",
+            "e14c66ccd78058654187748acf78b6509204bee8ba7e5522b9ad978718f21825",
+            "86406aec1ed311b783e9c752f4f0c01b337c46f56469360c5cf4277f81ac97fe",
+            "5c53001a8413e2e06afa735cd41f3b0a01f9f9bdc8788f57bc3483e4e59f54df",
+            "54ee47771ee958a4d470df5296964d2e470bf580917b905d686a0f5fdc564b62",
+            "68bb462c1b9ebcf1bef4d865d68408a3539f6b1ab10e71f3ec6dd1ea21c675d8"
+          ]
+        }
       }
     },
     "6ae9201d54db449217b421ff4157a066df5871de": {
@@ -33471,12 +33945,104 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 0,
-        "total_pages": null,
-        "attempts": 1,
+        "next_page": 6,
+        "total_pages": 10,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "last_error": "No module named 'fitz'"
+        "ocr_failed_page_numbers": [],
+        "page_evidence": {
+          "1": {
+            "render_sha256": "a8cbefee15b62540f176088f21cf709d5d1500e8d084e00f92352cf4dbd9e4dc",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 407,
+            "text_sha256": "584822641839e474c731cbab9f68842aa025c26683ed64be992c7fd8c088cf60",
+            "chart_candidate_unverified": true
+          },
+          "2": {
+            "render_sha256": "c63b27fa077e30aaed11a9948376b596328cc48510e93368b033a283bceac128",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 487,
+            "text_sha256": "ff10dac37aad0337bd2c5e9593540f6c6ea11194440b5d058a3311d12c5f970b",
+            "chart_candidate_unverified": false
+          },
+          "3": {
+            "render_sha256": "debba4cd51a00f02460a00356a20b8180396aeb591e97f376a66cf12005fc254",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 482,
+            "text_sha256": "ec16a3aaa4bcc1e0a00e39fddb2427da6a182de6ae519eacb773618d3428f0fd",
+            "chart_candidate_unverified": true
+          },
+          "4": {
+            "render_sha256": "b5b8bac269246e5f41657a6b84d1352eafedba482f25e4cd7f1a3addf044e351",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 454,
+            "text_sha256": "89ab2d2a3230fc7ed29180f4b2f8f8b99db5dfc0d1364412507cd83f697200c7",
+            "chart_candidate_unverified": true
+          },
+          "5": {
+            "render_sha256": "4c146de1995663b3b3ebed9e0247be4df43d0fa37f6c844a53964ff9c436b82c",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 237,
+            "text_sha256": "f994bdba5ff6cca844a66b1df80b5c02406f821a9c418e8797e38f582b5907da",
+            "chart_candidate_unverified": true
+          },
+          "6": {
+            "render_sha256": "e09a454422eb7dd1cef14a6351c781644b993bab61873ac74fab9ef09cbfd802",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 642,
+            "text_sha256": "ae8cdd264ec25def5f904962cc186cd6d3ee20a3136c8c90440b903d862afddb",
+            "chart_candidate_unverified": false
+          }
+        },
+        "ocr_page_retry_after_utc": {},
+        "ocr_failed_pages_total": 0,
+        "ocr_complete": false,
+        "last_advanced_utc": "2026-11-22T09:57:19.609298+00:00",
+        "last_window": {
+          "first_page": 1,
+          "last_page": 6,
+          "candidate_pages": 4,
+          "ocr_failed_pages": 0,
+          "render_sha256": [
+            "a8cbefee15b62540f176088f21cf709d5d1500e8d084e00f92352cf4dbd9e4dc",
+            "c63b27fa077e30aaed11a9948376b596328cc48510e93368b033a283bceac128",
+            "debba4cd51a00f02460a00356a20b8180396aeb591e97f376a66cf12005fc254",
+            "b5b8bac269246e5f41657a6b84d1352eafedba482f25e4cd7f1a3addf044e351",
+            "4c146de1995663b3b3ebed9e0247be4df43d0fa37f6c844a53964ff9c436b82c",
+            "e09a454422eb7dd1cef14a6351c781644b993bab61873ac74fab9ef09cbfd802"
+          ]
+        }
       }
     },
     "fd1f4055f5b091c94f8db6de308629b5abf25ff6": {
@@ -33517,12 +34083,104 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 0,
-        "total_pages": null,
-        "attempts": 1,
+        "next_page": 6,
+        "total_pages": 7,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "last_error": "No module named 'fitz'"
+        "ocr_failed_page_numbers": [],
+        "page_evidence": {
+          "1": {
+            "render_sha256": "37cf78be315ef02cb7d411c36f7f5dfbc040414ee915a3e4e5b4e77854ff93bc",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 397,
+            "text_sha256": "a669c54e6247db80455391309b9952d1e7765ac4a863b5c70d49989ff96056a0",
+            "chart_candidate_unverified": true
+          },
+          "2": {
+            "render_sha256": "dec98ff36a7debe1028c402439f2c36a90c653c214280f123638b782f144f5ec",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 771,
+            "text_sha256": "1d605686c57dfef4cae5b62251a0966d33948a840d974829dc681387b2dcb62d",
+            "chart_candidate_unverified": false
+          },
+          "3": {
+            "render_sha256": "609ca71ed21f6748b7028f9f0da34242a9da1cd07d7ca903d0a083365d750c85",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 285,
+            "text_sha256": "7b12826f628a2373646148f9043514a28d8c319162d1159168715ec1a940b4b7",
+            "chart_candidate_unverified": true
+          },
+          "4": {
+            "render_sha256": "d8e26d307fece37352c5cd9cbfeb989694063fbf994f0d263b9a80e61b2aa7c7",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 416,
+            "text_sha256": "50e177f01bbcafab35477861e9f44beb491252f727974b62d671de01a0ed334f",
+            "chart_candidate_unverified": true
+          },
+          "5": {
+            "render_sha256": "898fc5e50ebedacc97db2d301d18d07f0664b1a9b05a25dc585632ddc2440226",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 252,
+            "text_sha256": "ec9bb703cd6786ea762314b129ebcc1a101ee60086089eeddf18c8f6449c34de",
+            "chart_candidate_unverified": true
+          },
+          "6": {
+            "render_sha256": "3d2c655779759d608cdc334c6396d76109cfe04b534e8de53937582436c6a631",
+            "ocr_success": true,
+            "ocr_actually_performed": false,
+            "ocr_actual_success": false,
+            "embedded_text_available": true,
+            "text_origin": "embedded_pdf_text",
+            "ocr_performed": false,
+            "ocr_text_characters": 782,
+            "text_sha256": "5cba4cab6c09ec0853bc058fdf868c01727fc1894c768f0d0887b43a99f1c7a8",
+            "chart_candidate_unverified": false
+          }
+        },
+        "ocr_page_retry_after_utc": {},
+        "ocr_failed_pages_total": 0,
+        "ocr_complete": false,
+        "last_advanced_utc": "2026-11-22T09:57:20.233956+00:00",
+        "last_window": {
+          "first_page": 1,
+          "last_page": 6,
+          "candidate_pages": 4,
+          "ocr_failed_pages": 0,
+          "render_sha256": [
+            "37cf78be315ef02cb7d411c36f7f5dfbc040414ee915a3e4e5b4e77854ff93bc",
+            "dec98ff36a7debe1028c402439f2c36a90c653c214280f123638b782f144f5ec",
+            "609ca71ed21f6748b7028f9f0da34242a9da1cd07d7ca903d0a083365d750c85",
+            "d8e26d307fece37352c5cd9cbfeb989694063fbf994f0d263b9a80e61b2aa7c7",
+            "898fc5e50ebedacc97db2d301d18d07f0664b1a9b05a25dc585632ddc2440226",
+            "3d2c655779759d608cdc334c6396d76109cfe04b534e8de53937582436c6a631"
+          ]
+        }
       }
     },
     "a08cef021b5663d40a01e92f490830094479cb43": {
@@ -33596,12 +34254,104 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 0,
-        "total_pages": null,
-        "attempts": 1,
+        "next_page": 6,
+        "total_pages": 11,
+        "attempts": 0,
         "coverage_complete": false,
         "semantic_verified": false,
-        "last_error": "No module named 'fitz'"
+        "ocr_failed_page_numbers": [],
+        "page_evidence": {
+          "1": {
+            "render_sha256": "e29f2fc1bf725d97def3c6d87a8391193c1d35555b73a4698f9a85ef41323a65",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 73,
+            "text_sha256": "0df39e55c53bc0602450f1488eeaa5c698477b6a8df191d0e3a3b96472407e1d",
+            "chart_candidate_unverified": true
+          },
+          "2": {
+            "render_sha256": "8e714d502cc224167c24ee618d1f56711b519ac9b157f40b07a9284ccfb90d55",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 323,
+            "text_sha256": "9817a4a65e3dfbee3327fbf53c613bc1653f42923c36dcd11d54ec3f9749b0f2",
+            "chart_candidate_unverified": true
+          },
+          "3": {
+            "render_sha256": "45b2f063ecae6c00e3fb53b4a03c1e0dbb4febf9c591b555203f45ba4d8861a7",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 380,
+            "text_sha256": "b1faa957eff38552bd2913d717fb23b7c9ce31851399a78b23ad0a0ddfdfa102",
+            "chart_candidate_unverified": true
+          },
+          "4": {
+            "render_sha256": "b14515a1e81be3219664b25d62701fbeafee4b6e58299411da5b2a9f7d48c75a",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 313,
+            "text_sha256": "a7c26a751e0b56446d48bf119dee3a04eb0133d201c971296ef81e39f2dfe7fd",
+            "chart_candidate_unverified": true
+          },
+          "5": {
+            "render_sha256": "56994f6e0735aa5655aadab6c1bd3eaa6cff8fc32f2d7b402e863d02d0b3da21",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 286,
+            "text_sha256": "1322c4b188c8793014b17525963c83e6635ddf11f64a68312ee57fc5f76b3c0a",
+            "chart_candidate_unverified": true
+          },
+          "6": {
+            "render_sha256": "4820f6f64048887ab4e9c8b8d051e2019a4a6d4c60f3055c95630f0797ebdf89",
+            "ocr_success": true,
+            "ocr_actually_performed": true,
+            "ocr_actual_success": true,
+            "embedded_text_available": false,
+            "text_origin": "ocr_unverified",
+            "ocr_performed": true,
+            "ocr_text_characters": 184,
+            "text_sha256": "1c45d1f5804e89442a3ec80109618655444c437245f044b53e56e126a8505deb",
+            "chart_candidate_unverified": true
+          }
+        },
+        "ocr_page_retry_after_utc": {},
+        "ocr_failed_pages_total": 0,
+        "ocr_complete": false,
+        "last_advanced_utc": "2026-11-22T09:57:32.252599+00:00",
+        "last_window": {
+          "first_page": 1,
+          "last_page": 6,
+          "candidate_pages": 6,
+          "ocr_failed_pages": 0,
+          "render_sha256": [
+            "e29f2fc1bf725d97def3c6d87a8391193c1d35555b73a4698f9a85ef41323a65",
+            "8e714d502cc224167c24ee618d1f56711b519ac9b157f40b07a9284ccfb90d55",
+            "45b2f063ecae6c00e3fb53b4a03c1e0dbb4febf9c591b555203f45ba4d8861a7",
+            "b14515a1e81be3219664b25d62701fbeafee4b6e58299411da5b2a9f7d48c75a",
+            "56994f6e0735aa5655aadab6c1bd3eaa6cff8fc32f2d7b402e863d02d0b3da21",
+            "4820f6f64048887ab4e9c8b8d051e2019a4a6d4c60f3055c95630f0797ebdf89"
+          ]
+        }
       }
     },
     "469594ca36df358346c6cf547ed00d1f80a8720c": {
