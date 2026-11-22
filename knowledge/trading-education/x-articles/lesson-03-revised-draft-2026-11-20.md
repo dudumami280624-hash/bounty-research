@@ -24,7 +24,17 @@ In Lesson 02, we examined how a stock split can make a historical price comparis
 
 **A candle records prices. It does not record intentions.**
 
-## 1. A green candle on a losing day
+## 1. Read the prices before you read the color
+
+A candlestick is a compact record, not a verdict on whether a day was good or bad.
+
+Start with the four prices it actually contains: the open, high, low, and close. Then look at the previous close separately. That fifth reference answers a different question.
+
+Here is a small test. If a stock opens at $100 and closes at $105, you can say it gained 5% **during that session**. Can you say the stock gained 5% **since yesterday's close**? Not until you know yesterday's closing price.
+
+That is the habit worth learning: name the comparison before announcing the result.
+
+### A green candle on a losing day
 
 Consider Northstar, a fictional company.
 
@@ -161,6 +171,16 @@ Then ask what happened before the candle and what the volume data actually measu
 
 The goal is not to ban interpretation. It is to label it honestly and test it against alternative explanations.
 
+## A quick teaching checkpoint
+
+Before moving on, try explaining the distinction to someone who has never opened a chart:
+
+- A candle's body compares the open with the close of the same period.
+- A day-over-day return compares today's close with the previous close.
+- Neither measurement tells you who traded or what tomorrow's price will be.
+
+If those three statements are clear, the chart is already becoming easier to read.
+
 ## 7. Test your reading
 
 A fictional stock has these prices:
@@ -248,6 +268,7 @@ The Introduction to Candlesticks page documents the hollow/filled body conventio
 ## Editorial QA — current status
 
 - [x] Reworked opening around the reader's real comparison error.
+- [x] Added a plain-language teaching checkpoint distinguishing session change from close-to-close return.
 - [x] Added the opposite red-candle/positive-day example.
 - [x] Replaced wording that could imply an unobserved intraday path.
 - [x] Reduced repeated claims about prediction and institutional intent.
