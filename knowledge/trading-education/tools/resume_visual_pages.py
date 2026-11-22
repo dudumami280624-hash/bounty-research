@@ -49,6 +49,7 @@ def retain_page_evidence(audit, observations):
             'text_origin':observation.get('text_origin','legacy_unknown'),
             'ocr_performed':observation.get('ocr_performed'),
             'ocr_text_characters':int(observation.get('ocr_text_characters',0)),
+            'text_sha256':observation.get('text_sha256'),
             'chart_candidate_unverified':bool(observation.get('chart_candidate',False)),
         }
 
