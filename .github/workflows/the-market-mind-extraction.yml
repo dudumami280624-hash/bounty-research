@@ -94,6 +94,7 @@ jobs:
         run: python knowledge/trading-education/tools/test_pdf_ocr_budget.py
       - name: Verify first-pass OCR failures receive page-specific cooldowns (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_first_pass_ocr_cooldown.py
+      # Includes malformed/missing timestamps: failed sources must not be stranded.
       - name: Verify exhausted source retry cooldown with legacy UTC timestamps (production function; no source download)
         run: python knowledge/trading-education/tools/test_source_retry_timestamp.py
       - name: Verify legacy PDF text audit cooldown timestamps (synthetic only)
