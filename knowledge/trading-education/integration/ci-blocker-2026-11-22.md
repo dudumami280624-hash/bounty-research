@@ -7,3 +7,9 @@
 - Last published counts before new run: 126/178 extraction-status records; 51 partial OCR; 10 PDF text audits / 189 audited pages / 5 fully traversed / 68 OCR-needed page markers; 13 visual page audits complete. No new source extraction or independent chart/fact verification confirmed in this repair.
 - **Next run first:** verify latest CI test and actual PDF page-audit progress; if successful, prioritize durable, private, non-public OCR text storage and complete first-26 source audits. Do not treat metadata-only audits, synthetic tests, or OCR as independent verification.
 - Copyright safety: do not publish source PDF pages, original images, or extracted/OCR full text. No paid APIs, X or YouTube publication.
+
+## 10:53 local follow-up
+- Real failing run 44978082895: test_pdf_text_checkpoint.py line 38 expected no OCR on synthetic page 1.
+- Locally reproduced with PyMuPDF: a 90-character single-line fixture is clipped by PDF page width, leaving only 71 meaningful extracted characters (<80). Three printable lines extract 111 meaningful characters.
+- Fixed synthetic fixture in research commit 1bfbd0c; this is test correction, not evidence of real OCR completion.
+- Next first action: verify the new GitHub Actions run, then resume real OCR and secure cross-run copyrighted-text storage. No copyrighted source material committed.
