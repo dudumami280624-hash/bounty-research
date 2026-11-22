@@ -84,6 +84,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_visual_window_validation.py
       - name: Verify sparse embedded-text pages still receive OCR (synthetic PDF fixture)
         run: python knowledge/trading-education/tools/test_sparse_embedded_ocr.py
+      - name: Verify sparse PDF text audit flags OCR-needed pages (synthetic guard only)
+        run: python knowledge/trading-education/tools/test_sparse_text_audit.py
       - name: Verify embedded PDF text is not mislabeled OCR (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_text_origin_evidence.py
       - name: Verify durable PDF page evidence checkpoints (synthetic fixture only)
