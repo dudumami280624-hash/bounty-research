@@ -32548,7 +32548,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:48:32.531135+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "d6ccae045d63182be2b43cf369bd8dcb75ecf00c": {
       "extraction_status": "extracted",
@@ -32586,7 +32594,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:52:18.040709+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "4052f3a891eaf8b7313e726dcbf428688c14692a": {
       "extraction_status": "extracted",
@@ -32624,7 +32640,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:52:19.004026+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "6ae9201d54db449217b421ff4157a066df5871de": {
       "extraction_status": "extracted",
@@ -32662,7 +32686,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:52:20.038186+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "fd1f4055f5b091c94f8db6de308629b5abf25ff6": {
       "extraction_status": "extracted",
@@ -32700,7 +32732,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:52:20.924761+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "a08cef021b5663d40a01e92f490830094479cb43": {
       "extraction_status": "partial_ocr_failure",
@@ -32771,7 +32811,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:52:47.398648+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "469594ca36df358346c6cf547ed00d1f80a8720c": {
       "extraction_status": "partial_ocr_failure",
@@ -32839,7 +32887,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:53:12.136816+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "02a2b2505907218652685d685eed08142aa1ed33": {
       "extraction_status": "partial_ocr_failure",
@@ -32999,6 +33055,14 @@
         "coverage_complete": false,
         "source_sha256": "eb8b4a4d07f5f4eef8971e267d462537255391f5c361b68265eb2fd7f8d3e2fc",
         "last_advanced_utc": "2026-11-22T06:51:10.007161+00:00"
+      },
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
       }
     },
     "76f23fac33eb50bd075461582eaba7e30734b1db": {
@@ -33070,7 +33134,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:55:38.575791+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "c0d772bf7cac32a769b46d3f1d317e4222a84404": {
       "extraction_status": "partial_ocr_failure",
@@ -33198,7 +33270,15 @@
       "attempts": 1,
       "last_attempt_utc": "2026-11-21T08:55:56.853116+00:00",
       "fact_checked": false,
-      "integrated_into_lesson": false
+      "integrated_into_lesson": false,
+      "visual_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "attempts": 1,
+        "coverage_complete": false,
+        "semantic_verified": false,
+        "last_error": "No module named 'fitz'"
+      }
     },
     "596ae7e0c9227d55ff4fa518956873cf5da9942f": {
       "extraction_status": "partial_ocr_failure",
