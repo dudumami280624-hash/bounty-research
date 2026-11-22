@@ -12,7 +12,7 @@
 - `concepts/` 已整理的主题知识卡；`source-reviews/` 来源审阅记录
 - `integration/` 提取进度、交叉研究与待核事项
 - `x-articles/` 课程衔接、已发布版本与英文编辑草稿
-- `templates/` 长文及案例模板
+- 长文与案例模板：当前未建立独立的 `templates/` 目录；请以 `x-articles/` 中实际存在的文件为准，不将计划目录当成现有文件
 
 ## 核心分类（初稿，等待依据实际课件调整）
 1. K线与蜡烛图（Candlesticks）
