@@ -43,6 +43,9 @@ def retain_page_evidence(audit, observations):
         page_evidence[str(observation['page'])]={
             'render_sha256':observation['render_sha256'],
             'ocr_success':bool(observation.get('ocr_success',False)),
+            'ocr_actually_performed':bool(observation.get('ocr_performed',False)),
+            'ocr_actual_success':bool(observation.get('ocr_performed',False) and observation.get('ocr_success',False)),
+            'embedded_text_available':observation.get('text_origin')=='embedded_pdf_text',
             'text_origin':observation.get('text_origin','legacy_unknown'),
             'ocr_performed':observation.get('ocr_performed'),
             'ocr_text_characters':int(observation.get('ocr_text_characters',0)),
@@ -197,6 +200,8 @@ def main():
     covered=sum(a.get('coverage_complete',False) for a in pdf_audits)
     blocked=sum(a.get('attempts',0)>=3 for a in pdf_audits)
     ocr_incomplete=sum(a.get('coverage_complete') and not a.get('ocr_complete',False) for a in pdf_audits)
+    actual_ocr_success=sum(sum(bool(p.get('ocr_actual_success')) for p in a.get('page_evidence',{}).values()) for a in pdf_audits)
+    embedded_text_pages=sum(sum(bool(p.get('embedded_text_available')) for p in a.get('page_evidence',{}).values()) for a in pdf_audits)
     (ROOT/'integration/visual-page-coverage-progress.md').write_text(
         '# PDF page-level visual coverage (not semantic verification)\n\n'
         +f'- PDF files with tracked visual audit: {len(pdf_audits)}\n'
@@ -204,6 +209,8 @@ def main():
         +f'- Windows attempted this run: {completed}\n'
         +f'- Repeated failures cooling down for automatic retry: {blocked}\n'
         +f'- Page coverage finished but OCR incomplete: {ocr_incomplete}\n'
+        +f'- Actual OCR success pages (new evidence only): {actual_ocr_success}\n'
+        +f'- Embedded-text pages (new evidence only, not OCR): {embedded_text_pages}\n'
         +'- Chart semantics independently verified: 0 (not performed by this scanner)\n'
         +'- Source page hashes and positions only; no copyrighted pages or OCR excerpts.\n',encoding='utf-8')
     print(json.dumps({'windows_attempted':completed,'page_coverage_only':True}))
