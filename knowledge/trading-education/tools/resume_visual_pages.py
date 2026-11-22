@@ -146,7 +146,7 @@ def main():
         start=retry_page-1 if retry_page is not None else int(audit.get('next_page',0))
         print(f'VISUAL BEGIN {e["name"]!r} start_page={start}',flush=True)
         def timeout(_sig,_frame): raise TimeoutError('Visual page window exceeded 65 seconds')
-        previous=signal.signal(signal.SIGALRM,timeout)
+        previous_handler=signal.signal(signal.SIGALRM,timeout)
         try:
             signal.alarm(65)
             with tempfile.TemporaryDirectory() as td:
@@ -206,7 +206,7 @@ def main():
             print(f'VISUAL ERROR {e["name"]!r}: {exc}',flush=True)
         finally:
             signal.alarm(0)
-            signal.signal(signal.SIGALRM,previous)
+            signal.signal(signal.SIGALRM,previous_handler)
             checkpoint=STATE.with_suffix('.visual.tmp')
             checkpoint.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
             checkpoint.replace(STATE)
