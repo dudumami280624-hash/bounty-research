@@ -264,7 +264,10 @@ def main():
                 last=last.replace(tzinfo=timezone.utc)
             return datetime.now(timezone.utc)>=last+timedelta(hours=6)
         except (KeyError, ValueError, TypeError):
-            return False
+            # A malformed or missing legacy retry timestamp must not permanently
+            # strand an exhausted failed source. Retry it once under the same
+            # bounded worker deadline, then persist a fresh valid timestamp.
+            return True
     pending=[e for e in entries if eligible(e)]
     # Track deferred legacy documents without treating them as failed attempts.
     for e in entries:
