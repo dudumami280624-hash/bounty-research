@@ -20,3 +20,11 @@
 - Last directly inspected real run `44982683219`, job `137086419986`, **failed** at synthetic PDF text checkpoint test; its log confirms later metadata commit `a63ae02`, but failure is not a pass. The current checkpoint fixture has since been revised with three in-bounds text lines. A completed passing run for the new workflow commit was **not** available through the connector in this check. Do not claim success.
 - Current latest report: 126/178 text-extraction status records; 51 partial OCR; 1 visual review; 19 PDF page audits covering 331 pages, 11 traversals complete, 133 pages marked OCR-needed, **0 fully verified OCR source documents**, 0 semantic chart/fact checks.
 - Next run first: check the Actions run triggered by main `7d020a52`, inspect its OCR install step and PDF checkpoint test. If still failing, repair from actual logs; then continue page coverage of priority-26 sources. Do not publicly persist copyrighted extracted text or images.
+
+## 2026-11-23 02:44 ICT — cooldown regression rerun confirmed
+
+- GitHub Actions run [45057886406](https://github.com/dudumami280624-hash/bounty-research/actions/runs/45057886406), attempt **2**, returned `completed / success` when checked via the GitHub API.
+- Earlier attempt failed at `Verify PDF audit failure cooldown (synthetic guard only)` because `test_text_audit_cooldown.py` asserted an obsolete inline datetime comparison after production code began normalizing naive UTC timestamps. Research-branch test repair commit: `d7fd4b013a3272d8905c22aa72730e73ddab8ea1`.
+- This verifies the rerun result for that workflow attempt; it **does not** prove all 178 sources were extracted, that OCR is complete, or that chart/fact review passed.
+- Latest research-branch report at this check: **126/178** extraction-status records; **35 PDFs / 507 pages** of page-level text metadata; **16** page traversals marked complete; **198** OCR-needed page markers; **0** complete OCR-text acceptances; **0** visual-chart and **0** factual verifications. The report also says `no_eligible_files` for the last batch. These are report figures, not independently audited textbook content.
+- Next priority: make a real eligible source pass end-to-end with reproducible evidence, and determine why the batch says `no_eligible_files`; keep copyrighted full text and original images out of the public repository.
