@@ -92,6 +92,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_pdf_ocr_budget.py
       - name: Verify first-pass OCR failures receive page-specific cooldowns (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_first_pass_ocr_cooldown.py
+      - name: Verify legacy PDF text audit cooldown timestamps (synthetic only)
+        run: python knowledge/trading-education/tools/test_pdf_text_retry_timestamp.py
       - name: Verify legacy OCR retry timestamps cannot stall visual audit (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_visual_retry_timestamp.py
       - name: Verify unfinished PDF windows and due OCR retries interleave (synthetic only)
