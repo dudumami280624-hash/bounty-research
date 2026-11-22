@@ -34,6 +34,8 @@ def main():
         assert audit['coverage_complete'] and audit['next_page']==5
         assert audit['source_sha256']==hashlib.sha256(data).hexdigest()
         assert audit['page_evidence']['3']['ocr_needed']
+        assert audit['page_evidence']['3']['text_origin']=='no_embedded_text'
+        assert not audit['page_evidence']['1']['ocr_needed']
         assert audit['page_evidence']['1']['text_origin']=='embedded_pdf_text'
         assert not any('SYNTHETIC PRIVATE PAGE' in str(v) for v in audit['page_evidence'].values())
         assert not batch.advance_pdf_text_windows([entry],persisted,budget_seconds=10,window_pages=2)
