@@ -80,7 +80,9 @@ jobs:
           fi
           command -v libreoffice && libreoffice --version || true
       - name: Install PDF text and image parser
-        run: python -m pip install --disable-pip-version-check pymupdf
+        run: python -m pip install --disable-pip-version-check pymupdf pillow
+      - name: Verify production visual scanner performs real Tesseract OCR on scanned PDF
+        run: python knowledge/trading-education/tools/test_real_tesseract_smoke.py
       - name: Run real Tesseract OCR on generated image-only PDF (not textbook verification)
         run: python knowledge/trading-education/tools/test_real_ocr_smoke.py
       - name: Verify parser on synthetic DOCX PPTX PDF fixtures
