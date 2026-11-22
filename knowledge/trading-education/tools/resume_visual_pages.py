@@ -207,7 +207,8 @@ def main():
             if retry_page is None: audit['next_page']=start+len(observations)
             # Coverage means every page was visited; OCR failures remain explicitly unresolved.
             audit['coverage_complete']=audit['next_page']>=total
-            failed=set(audit.get('ocr_failed_page_numbers',[]))
+            failed={int(p) for p in audit.get('ocr_failed_page_numbers',[])
+                if not isinstance(p,bool) and str(p).isdigit() and int(p)>0}
             for observation in observations:
                 page_number=observation['page']
                 previous=audit.get('page_evidence',{}).get(str(page_number),{})
