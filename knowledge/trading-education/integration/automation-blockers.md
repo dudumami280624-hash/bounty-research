@@ -1,5 +1,7 @@
 # The Market Mind — automation blockers and next actions
 
+> **历史检查点提示（2026-11-22）**：下文的126/178、60份视觉审计及16份覆盖完成等数字是对应时间的历史记录，不能当作实时总进度。请分别查看 [latest-extraction-report.md](latest-extraction-report.md) 和 [visual-page-coverage-progress.md](visual-page-coverage-progress.md) 获取各自最近生成的状态；两份报告统计口径不同，不能互相替代，也都不代表逐页语义审核、图表判断或事实核验完成。
+
 ## 2026-11-22 11:50 Asia/Phnom_Penh — checkpoint regression
 - Verified failed Actions run: 44982683219, job 137086419986. Failure in test_pdf_text_checkpoint.py line 38: page 1 `ocr_needed` was true despite fixture expectation false. CI did run subsequent visual scan (six windows), generated 10 unverified outlines, and committed page metadata (a63ae02). This is a test failure, not evidence that real OCR or factual validation succeeded.
 - Root cause: test fixture passed literal escaped newline sequences to a single `insert_text` call, so long text could be clipped beyond the PDF page. Changed to three separate, in-bounds text draws; locally verified with PyMuPDF that 111 non-whitespace characters are extractable, above the 80-character production gate.
