@@ -196,7 +196,13 @@ def main():
                 configured=max(1,int(old_limit or '12'))
                 # A 12-page OCR window can exceed the 65-second hard deadline.
                 # Halve it on each failure, eventually retrying one page at a time.
-                os.environ['TMM_VISUAL_MAX_PAGES']=str(1 if retry_page is not None else adaptive_window_pages(configured,audit.get('attempts',0)))
+                # Bound the OCR worst case to fit the 65-second window alarm.
+                # Twelve pages * twelve seconds of Tesseract alone can exceed it;
+                # repeatedly timing out the entire window loses all page evidence.
+                ocr_timeout=max(1,min(120,int(os.environ.get('TMM_OCR_PAGE_TIMEOUT_SECONDS','12'))))
+                safe_pages=max(1,55//ocr_timeout)  # reserve ~10s for render/download/metadata
+                window_pages=1 if retry_page is not None else min(safe_pages,adaptive_window_pages(configured,audit.get('attempts',0)))
+                os.environ['TMM_VISUAL_MAX_PAGES']=str(window_pages)
                 try:
                     observations=inspect_pdf(path,Path(td)/'pages',start_page=start)
                 finally:
