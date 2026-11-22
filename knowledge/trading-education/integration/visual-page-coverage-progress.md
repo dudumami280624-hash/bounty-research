@@ -1,6 +1,6 @@
 # PDF page-level visual coverage (not semantic verification)
 
-- PDF files with tracked visual audit: 60
+- PDF files with tracked visual audit: 66
 - Page coverage complete: 16
 - Windows attempted this run: 6
 - Repeated failures cooling down for automatic retry: 0
