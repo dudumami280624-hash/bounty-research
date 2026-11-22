@@ -42,8 +42,8 @@ publication_status: source_only | draft | approved | published
 - 不把本文当成已完成的逐页阅读或数学回测证明。
 
 ## 多软件调用顺序
-1. 读 `integration/source-inventory-178-2026-11-20.md` 确定候选文件和Git blob SHA-1；
-2. 读 `UNIFIED-KNOWLEDGE.md`、`taxonomy/knowledge-map.md`、`concepts/` 既有可追溯知识卡；
+1. 读 [来源清单](source-inventory-178-2026-11-20.md) 确定候选文件和Git blob SHA-1；
+2. 读 [统一知识入口](../UNIFIED-KNOWLEDGE.md)、[知识分类图](../taxonomy/knowledge-map.md)、[主题知识卡目录](../concepts/) 中已有的可追溯知识卡；
 3. 工具若不能解析PDF/DOC/PPT二进制，应标记待读取，不能假装读过；
 4. 任何新知识卡需附文件和页/段引用；对外文案需单独审核。
 
