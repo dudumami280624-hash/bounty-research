@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# Report text extraction state separately from independently verified full coverage (72a0609).
 # Verify English draft generation without independent-verification blocking.
 # Reject empty Tesseract output as successful OCR (research 520450b).
 # Regression: execute sparse-page character count and correct regex (research 3174a44, 43174aa).
