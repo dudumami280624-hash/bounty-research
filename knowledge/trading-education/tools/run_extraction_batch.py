@@ -204,7 +204,7 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
                         raw=page.get_text('text').strip()
                         # A page number or watermark is not a complete transcription.
                         # Match free_visual's sparse-page OCR threshold.
-                        meaningful_chars=len(re.sub(r'\\s+', '', raw))
+                        meaningful_chars=len(re.sub(r'\s+', '', raw))
                         needs_ocr=meaningful_chars<80
                         evidence[str(i+1)]={'source_page':i+1,
                             'text_origin':('embedded_sparse_unverified' if raw and needs_ocr else
