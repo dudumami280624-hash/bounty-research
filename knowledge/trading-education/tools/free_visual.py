@@ -42,6 +42,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
             record['ocr_performed']=False
             record['ocr_skipped_reason']='embedded_text_available'
             record['ocr_text_characters']=len(embedded_text)
+            record['text_sha256']=hashlib.sha256(embedded_text.encode('utf-8')).hexdigest()
         elif shutil.which('tesseract'):
             record['text_origin']='embedded_sparse_plus_ocr_unverified' if sparse_embedded else 'ocr_unverified'
             record['ocr_performed']=True
@@ -57,6 +58,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
                 if proc is not None:
                     record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
                     record['ocr_success']=proc.returncode==0 and bool(proc.stdout.strip())
+                    if record['ocr_success']:
+                        record['text_sha256']=hashlib.sha256(proc.stdout.strip().encode('utf-8')).hexdigest()
                     record['ocr_error']=(proc.stderr[-200:] if proc.returncode else ('OCR returned no text; page requires review' if not proc.stdout.strip() else ''))
         else:
             record['ocr_success']=False
