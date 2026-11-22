@@ -12,6 +12,13 @@
 - **GitHub：** 统一导航、五份批次索引、98份对比审计与六张知识卡均已建立。继续以内容为准扩充。
 - **未完成：** 98份全部图表的视觉复核、所有相似对按>50%正文覆盖率独立确认、全部技术规则外部事实核验。**私有备份完成≠内容审核完成**。
 
+## 当前课程及研究的权威入口
+- [发布台账（Lesson 01–03状态）](x-articles/ARTICLE-LEDGER.md)：区分已发布、用户提供的发布证据与未发布草稿。
+- [课程编辑规则](x-articles/PROJECT-RULES.md)：已锁定的质量与发布权限要求。
+- [统一课程与检索规范](integration/MASTER-COURRICULUM-AND-RETRIEVAL-v1.md)：模块前置顺序，不等于已审核完成的最终教学大纲。
+- [178份来源清单](integration/source-inventory-178-2026-11-20.md)及[最新提取报告](integration/latest-extraction-report.md)：来源登记和提取进度，不能替代逐页核验。
+- [Lesson 03 当前草稿](x-articles/lesson-03-revised-draft-2026-11-20.md)；[早期蓝图](x-articles/lesson-03-blueprint-2026-11-20.md)仅供历史参考。
+
 ## 当前课件状态
 - Lesson 01、02：已有发布记录，保留已发布原件。
 - Lesson 03：英文编辑稿在 `x-articles/lesson-03-revised-draft-2026-11-20.md`；包含虚构教学算例和真实标普500历史案例，**仍是草稿，未获发布批准**。
