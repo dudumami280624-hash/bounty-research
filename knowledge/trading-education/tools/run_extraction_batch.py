@@ -175,7 +175,12 @@ def advance_pdf_text_windows(entries, files, budget_seconds=120, window_pages=12
         retry_after=audit.get('retry_after_utc')
         if retry_after:
             try:
-                if datetime.now(timezone.utc)<datetime.fromisoformat(retry_after):
+                deadline=datetime.fromisoformat(retry_after)
+                # Older checkpoints may store UTC without a timezone suffix.
+                # Normalize rather than raising TypeError and aborting all PDF windows.
+                if deadline.tzinfo is None:
+                    deadline=deadline.replace(tzinfo=timezone.utc)
+                if datetime.now(timezone.utc)<deadline:
                     continue
             except (TypeError,ValueError):
                 pass
