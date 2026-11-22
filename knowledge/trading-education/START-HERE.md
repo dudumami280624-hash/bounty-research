@@ -7,7 +7,7 @@
 # trading-education · 股票技术教学统一入口
 
 ## 历史保存记录（2026-11-18；不是当前全部资料统计）
-- **98份原始上传文件：已经归档到用户私有文件库** `/trading-education/`，分为 `trading-education-originals-01-of-02.zip` 与 `trading-education-originals-02-of-02.zip`；每包49份，保留原文件名及SHA-256清单。**这些原件不在本公开GitHub仓库里**。
+- **98份原始上传文件：已经归档到用户私有文件库** `/trading-education/`，分为 `trading-education-originals-01-of-02.zip` 与 `trading-education-originals-02-of-02.zip`；每包49份，保留原文件名及SHA-256清单。**这两份私有压缩包不在本公开GitHub仓库中；但公开仓库的 `source-files/` 目录目前另有来源文件，不能据此断言仓库完全没有原始教材。公开范围与版权仍需逐项核查。**
 - **比对数据：** `/trading-education/trading-education-98-comparison.json`，同样在私有文件库，供后续检索、核验。
 - **GitHub：** 统一导航、五份批次索引、98份对比审计与六张知识卡均已建立。继续以内容为准扩充。
 - **未完成：** 98份全部图表的视觉复核、所有相似对按>50%正文覆盖率独立确认、全部技术规则外部事实核验。**私有备份完成≠内容审核完成**。
@@ -31,7 +31,7 @@
 3. 检查重复与待审核项目：参阅[98文件交叉比对](inventory/98-file-crosscheck-2026-11-18.md)和[去重决策台账](inventory/dedup-decisions-98-2026-11-18.md)。
 
 
-> 状态：**索引整合初版（不是全文知识库已完成）**。本目录用于检索股票教学的实际内容；原始课件未上传公开仓库。
+> 状态：**索引整合初版（不是全文知识库已完成）**。本目录用于检索股票教学的实际内容；部分来源文件已存在于公开仓库的 `source-files/`；私有98份压缩备份不在此仓库。公开文件的版权与许可状态仍需逐项核查。
 
 ## 从这里开始
 1. [技术知识总导航](taxonomy/knowledge-map.md) — **优先按教学内容查找**。
