@@ -258,6 +258,10 @@ def main():
         if previous.get('extraction_status')!='failed': return False
         try:
             last=datetime.fromisoformat(previous['last_attempt_utc'])
+            # Older extraction-state records may have timezone-naive UTC stamps.
+            # A naive/aware comparison raises TypeError and aborts the whole batch.
+            if last.tzinfo is None:
+                last=last.replace(tzinfo=timezone.utc)
             return datetime.now(timezone.utc)>=last+timedelta(hours=6)
         except (KeyError, ValueError, TypeError):
             return False
