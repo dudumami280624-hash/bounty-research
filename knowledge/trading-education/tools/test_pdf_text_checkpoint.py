@@ -14,7 +14,10 @@ def main():
         for i in range(5):
             p=doc.new_page()
             if i!=2:
-                p.insert_text((72,72),f'SYNTHETIC PRIVATE PAGE {i+1}\\n' + 'A'*45 + '\\n' + 'B'*45)
+                # Three bounded text draws avoid clipping long PDF lines.
+                p.insert_text((72,72),f'SYNTHETIC PRIVATE PAGE {i+1}')
+                p.insert_text((72,100),'A'*45)
+                p.insert_text((72,128),'B'*45)
         source=td/'fixture.pdf'
         doc.save(source)
         data=source.read_bytes()
