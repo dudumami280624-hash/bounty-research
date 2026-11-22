@@ -4,7 +4,7 @@
 
 ## 两个来源库，一套知识体系
 
-- [技术课程来源库](../trading-education/START-HERE.md)：98份上传文件的登记、五批索引、跨文件比对及6张技术知识卡。原件在用户私有资料存储中，不在公开GitHub。
+- [技术课程来源库](../trading-education/START-HERE.md)：98份上传文件的登记、五批索引、跨文件比对及6张技术知识卡。98份历史上传文件的私有压缩备份保存在用户私有资料存储中，不在公开GitHub；但公开仓库的 `source-files/` 目录另有来源文件，不能据此断言公开仓库没有原始教材。公开文件的版权与许可仍需逐项核查。
 - [股市心理与历史资料来源库](../market-psychology/README.md)：登记19份PDF来源及提取状态；[提取文本目录](../market-psychology/text/)包含部分实际可读取正文；[证据卡索引](../market-psychology/evidence-cards/INDEX.md)列有16张研究卡。19份PDF的登记不等于19份原PDF都在仓库。
 - [《交易心理分析》书目核对](../market-psychology/TRADING_PSYCHOLOGY_ANALYSIS.md)：确认为Mark Douglas的《Trading in the Zone》，但此条是书目与主题登记，不能当成整本书全文。
 
