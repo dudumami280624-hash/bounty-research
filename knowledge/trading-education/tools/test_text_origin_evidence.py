@@ -10,10 +10,11 @@ with tempfile.TemporaryDirectory() as td:
     source=Path(td)/'synthetic.pdf'
     doc=fitz.open()
     page=doc.new_page()
-    page.insert_text((72,72),'Synthetic embedded text, not OCR')
+    page.insert_text((72,72),'Synthetic embedded text, not OCR. ' * 4)
     doc.save(source)
     doc.close()
     observations=inspect_pdf(source,Path(td)/'private',start_page=0)
+    assert observations[0]['embedded_text_sparse'] is False, 'Fixture must exceed 80 meaningful characters'
     assert len(observations)==1
     assert observations[0]['text_origin']=='embedded_pdf_text'
     assert observations[0]['ocr_performed'] is False
