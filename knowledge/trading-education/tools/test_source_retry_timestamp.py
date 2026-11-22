@@ -28,10 +28,11 @@ cases = [
     ({"extraction_status": "failed", "attempts": 3,
       "last_attempt_utc": (now - timedelta(hours=7)).isoformat()}, True),
     ({"extraction_status": "extracted", "attempts": 3}, False),
-    ({"extraction_status": "failed", "attempts": 3, "last_attempt_utc": "invalid"}, False),
+    ({"extraction_status": "failed", "attempts": 3, "last_attempt_utc": "invalid"}, True),
+    ({"extraction_status": "failed", "attempts": 3}, True),
 ]
 for record, expected in cases:
     namespace["files"] = {sha: record}
     actual = namespace["eligible"](entry)
     assert actual is expected, (record, actual, expected)
-print("PASS: production retry eligibility with naive/aware UTC, cooldown, and invalid records; no live source processing")
+print("PASS: production retry eligibility with naive/aware UTC, cooldown, and malformed/missing timestamp recovery; no live source processing")
