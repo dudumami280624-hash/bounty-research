@@ -113,6 +113,20 @@ But OHLC data alone do not reveal the exact order in which the high and low occu
 A daily candle compresses a trading period into four values. That compression is useful—but it leaves information out.
 
 
+## Real-market case study: the S&P 500, October–November 2024
+
+The fictional examples above teach the arithmetic. Now look at a real index.
+
+On October 31, 2024, the S&P 500 opened at 5,775.34, reached a high of 5,775.34, traded as low as 5,702.86, and closed at 5,705.45. That is a long red body with almost no upper shadow. The close was also below October 30's close of 5,813.67.
+
+On November 1, the index opened at 5,723.22 and closed at 5,728.80: a **small green candle**. It also finished slightly above October 31's close of 5,705.45. But one small green candle did not erase the preceding decline. On November 4 the index closed at 5,712.69; on November 5 it closed at 5,782.76; on November 6 it closed at 5,929.04.
+
+**Our interpretation:** a candle is more informative when you see what preceded it and what followed it. The November 1 green candle describes that session's open-to-close move; it does not prove a lasting reversal. The later prices are observations, not evidence that the candle predicted them.
+
+**Visual asset:** `sp500_real_candles_2024.png` (real daily OHLC chart reconstructed from published data; not a screenshot). The original image is a separate draft asset and must be attached and previewed before publication.
+
+**Source:** [Yahoo Finance — S&P 500 historical daily data](https://finance.yahoo.com/quote/%5EGSPC/history/?period1=1698796800&period2=1734307200), entries dated October 30–November 7, 2024. The chart and teaching annotations were independently created from those daily OHLC entries.
+
 ## 4. The same candle in a different context
 
 Imagine the same OHLC candle appearing after three different price histories:
