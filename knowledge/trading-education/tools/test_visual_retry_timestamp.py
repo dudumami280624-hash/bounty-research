@@ -9,4 +9,9 @@ assert next_retry_page([1],{'1':'2026-11-22T11:00:00'},now) is None
 assert next_retry_page([1,2],{'1':'2026-11-22T11:00:00','2':'2026-11-22T09:00:00+00:00'},now)==2
 assert next_retry_page([1],{'1':'invalid'},now)==1
 assert next_retry_page([1],{},now)==1
-print('PASS: legacy naive UTC retry deadlines and eligible-page rotation (synthetic)')
+# Persisted JSON can contain string page numbers; retry arithmetic requires ints.
+assert next_retry_page(['2'], {'2':'2026-11-22T09:00:00'}, now)==2
+assert next_retry_page(['0','not-a-page','3'], {'3':'2026-11-22T09:00:00'}, now)==3
+assert next_retry_page(['-1','0','bad'], {}, now) is None
+assert next_retry_page([True, 4], {'4':'2026-11-22T09:00:00'}, now)==4
+print('PASS: legacy UTC deadlines and numeric/string OCR page retry locators (synthetic)')
