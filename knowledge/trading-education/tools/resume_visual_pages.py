@@ -9,17 +9,25 @@ from free_visual import inspect_pdf
 def next_retry_page(failed_pages, cooldowns, now):
     """Choose first eligible failed 1-based page; never strand others behind one failure."""
     for candidate in failed_pages:
+        # Older checkpoints may encode page numbers as strings. Normalize before
+        # arithmetic; otherwise retry_page - 1 raises TypeError every run.
+        # Reject invalid 0/negative/noninteger locators without blocking later pages.
         try:
-            deadline=datetime.fromisoformat(cooldowns[str(candidate)])
-            # Historical checkpoints may contain naive timestamps; normalize to UTC
-            # rather than aborting the entire visual audit on mixed datetime types.
+            page=int(candidate)
+            if page<1 or isinstance(candidate,bool) or str(candidate).strip()!=str(page):
+                continue
+        except (ValueError,TypeError):
+            continue
+        try:
+            deadline=datetime.fromisoformat(cooldowns[str(page)])
+            # Historical checkpoints may contain naive timestamps; normalize to UTC.
             if deadline.tzinfo is None:
                 deadline=deadline.replace(tzinfo=timezone.utc)
             ready=deadline<=now
         except (KeyError, ValueError, TypeError):
             ready=True
         if ready:
-            return candidate
+            return page
     return None
 
 def validate_visual_window(observations, start):
