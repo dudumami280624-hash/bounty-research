@@ -128,6 +128,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_hard_timeout.py
       - name: Build cross-source research catalog
         run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
+      - name: Audit catalog source provenance (offline; not fact verification)
+        run: python knowledge/trading-education/tools/audit_provenance.py knowledge/trading-education/integration/research-catalog.json
       # Research f938155: report real page-audit metadata separately from OCR completion.
       - name: Extract next indexed source
         timeout-minutes: 15
