@@ -40,6 +40,12 @@ def retain_page_evidence(audit, observations):
     """Persist only page hashes and unverified feature counts, never page contents."""
     page_evidence=audit.setdefault('page_evidence',{})
     for observation in observations:
+        previous=page_evidence.get(str(observation['page']),{})
+        # A transient OCR timeout must not erase an earlier successful result
+        # for the same rendered page. Different render hashes are not comparable.
+        if (previous.get('ocr_success') and not observation.get('ocr_success')
+                and previous.get('render_sha256')==observation.get('render_sha256')):
+            continue
         page_evidence[str(observation['page'])]={
             'render_sha256':observation['render_sha256'],
             'ocr_success':bool(observation.get('ocr_success',False)),
@@ -165,7 +171,9 @@ def main():
             failed=set(audit.get('ocr_failed_page_numbers',[]))
             for observation in observations:
                 page_number=observation['page']
-                if observation.get('ocr_success',False): failed.discard(page_number)
+                previous=audit.get('page_evidence',{}).get(str(page_number),{})
+                preserved=bool(previous.get('ocr_success') and previous.get('render_sha256')==observation.get('render_sha256'))
+                if observation.get('ocr_success',False) or preserved: failed.discard(page_number)
                 else: failed.add(page_number)
             audit['ocr_failed_page_numbers']=sorted(failed)
             retain_page_evidence(audit, observations)
