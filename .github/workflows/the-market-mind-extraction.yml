@@ -178,6 +178,9 @@ jobs:
       - name: Generate English working outlines without verification deadlock
         if: always()
         run: python knowledge/trading-education/tools/research_pipeline.py draft-all knowledge/trading-education/integration/research-catalog.json --out knowledge/trading-education/integration/english-working-outlines
+      - name: Build Horizon-inspired offline evidence briefing (no paid API)
+        if: always()
+        run: python knowledge/trading-education/tools/offline_research_briefing.py knowledge/trading-education/integration/research-catalog.json --out knowledge/trading-education/integration/offline-research-briefing.md
       - name: Generate chart and knowledge review queue
         if: always()
         run: python knowledge/trading-education/tools/review_queue.py
