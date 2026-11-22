@@ -1,0 +1,8 @@
+# The Market Mind — automation blockers and next actions
+
+## 2026-11-22 11:50 Asia/Phnom_Penh — checkpoint regression
+- Verified failed Actions run: 44982683219, job 137086419986. Failure in test_pdf_text_checkpoint.py line 38: page 1 `ocr_needed` was true despite fixture expectation false. CI did run subsequent visual scan (six windows), generated 10 unverified outlines, and committed page metadata (a63ae02). This is a test failure, not evidence that real OCR or factual validation succeeded.
+- Root cause: test fixture passed literal escaped newline sequences to a single `insert_text` call, so long text could be clipped beyond the PDF page. Changed to three separate, in-bounds text draws; locally verified with PyMuPDF that 111 non-whitespace characters are extractable, above the 80-character production gate.
+- Research commit: 3971b0b196a823c238d2ca784123b3d12818d68e. Main workflow trigger commit: dc8f7be155b5672bddfd3499bf5c195b47a8a8ad. New CI run ID not yet visible at first query; **must check result first next run**, fix any failing step.
+- Current metadata: 126/178 extracted; 51 partial OCR; visual audits 60 PDFs, 16 coverage-complete; text audit 10 PDFs/189 pages, 5 complete, 68 OCR-needed. Independent chart semantics and fact checks remain zero. The source text is not persisted in the public repository.
+- Next substantive blocker: recover verified page-level OCR output across runs without publishing copyrighted text or images; prefer private transient artifacts with explicit retention controls or deterministic re-extraction and source SHA checks. Do not equate OCR hashes with factual validation.
