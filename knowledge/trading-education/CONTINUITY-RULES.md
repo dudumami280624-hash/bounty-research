@@ -32,3 +32,10 @@ Updated: 2026-11-22. This is a project handoff document, not a claim that any ta
 - Prior successful GitHub Actions run: `44982683219`; do not claim this validates later workflow changes.
 - Offline provenance audit `tools/audit_provenance.py` and synthetic regression `tools/test_audit_provenance.py` were added; latest workflow changes require independent real-run confirmation.
 - User specifically instructed: **每小时都有进展，不是每小时卡死在同一个问题上**.
+
+## 2026-11-22 hourly execution handoff — visual scheduler fairness
+- Actual fix: `tools/resume_visual_pages.py` now interleaves two unfinished PDF page-audit windows with one completed-PDF due OCR retry inside each inventory tier, instead of sorting all due retries before every unfinished source. This prevents a large due-retry backlog from monopolizing a bounded hourly window while still servicing retries.
+- Research commits: `6e9027316aae33df19df0f73f40ef734e53f8c20` (scheduler), `7cdca891f11d6c37a7a2687e4fe44ba4f1ed5ea6` (synthetic regression).
+- Main workflow commit: `fe497d994ec25896eb0bc0f545cfcf5a917f8929` adds `test_visual_interleave.py`. A push to main should trigger CI, but the connector's commit-to-run endpoint only exposes PR-triggered runs and returned `workflow_runs: []`; public GitHub API URL was inaccessible through web. **New run ID/result not verified.** Previous known run `44982683219` succeeded, but predates this change.
+- Latest report observed: 126/178 extraction-status records; 31 PDFs with page-text metadata (459 pages), 175 pages flagged for OCR; 16 of those 31 PDF text audits incomplete. Separate visual coverage report: 127 PDFs tracked, 38 visual audits coverage-complete, 352 OCR-success page evidence, 333 embedded-text page evidence. These metrics measure different stages and must not be added together or called factual/semantic verification.
+- Next run: verify new workflow step and actual run outcome; if failed, inspect job log and repair. Then advance the 175 page-level OCR queue and 26 priority sources. If no run ID available, keep doing independent code/research work and record exact verification gap; do not block on CI lookup.
