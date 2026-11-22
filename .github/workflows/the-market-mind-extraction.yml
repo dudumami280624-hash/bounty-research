@@ -91,7 +91,7 @@ jobs:
       - name: Test source-linked private English worksheet and research pipeline
         run: python knowledge/trading-education/tools/test_research_pipeline.py
       - name: Verify visual re-audit and extraction script syntax
-        run: python -m py_compile knowledge/trading-education/tools/resume_visual_pages.py knowledge/trading-education/tools/run_extraction_batch.py
+        run: python -m py_compile knowledge/trading-education/tools/free_visual.py knowledge/trading-education/tools/test_captioned_raster_ocr.py knowledge/trading-education/tools/resume_visual_pages.py knowledge/trading-education/tools/run_extraction_batch.py
       - name: Verify bounded initial PDF OCR preserves deferred page locators (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_pdf_ocr_budget.py
       - name: Verify first-pass OCR failures receive page-specific cooldowns (synthetic fixture only)
