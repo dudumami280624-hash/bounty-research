@@ -50,7 +50,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
             record['ocr_text_characters']=len(embedded_text)
             record['text_sha256']=hashlib.sha256(embedded_text.encode('utf-8')).hexdigest()
         elif shutil.which('tesseract'):
-            record['text_origin']=('embedded_raster_plus_ocr_unverified' if raster_chart_with_text\n                else 'embedded_sparse_plus_ocr_unverified' if sparse_embedded else 'ocr_unverified')
+            record['text_origin']=('embedded_raster_plus_ocr_unverified' if raster_chart_with_text
+                else 'embedded_sparse_plus_ocr_unverified' if sparse_embedded else 'ocr_unverified')
             record['ocr_performed']=True
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
@@ -69,7 +70,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     record['ocr_error']=(proc.stderr[-200:] if proc.returncode else ('OCR returned no text; page requires review' if not proc.stdout.strip() else ''))
         else:
             record['ocr_success']=False
-            record['text_origin']=('embedded_raster_ocr_unavailable' if raster_chart_with_text\n                else 'embedded_sparse_ocr_unavailable' if sparse_embedded else 'none')
+            record['text_origin']=('embedded_raster_ocr_unavailable' if raster_chart_with_text
+                else 'embedded_sparse_ocr_unavailable' if sparse_embedded else 'none')
             record['ocr_performed']=False
             record['ocr_error']='Tesseract unavailable'
         record['chart_candidate']=bool(record['vector_drawings']>=12 or record['image_objects']>0)
