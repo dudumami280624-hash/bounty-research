@@ -51,11 +51,21 @@ jobs:
       - name: Install OCR for image-only PDF pages
         timeout-minutes: 4
         run: |
+          # Preinstalled Tesseract on hosted runners may have English only.
+          # Check the language pack independently instead of skipping Chinese OCR.
+          if ! command -v tesseract >/dev/null 2>&1 || ! tesseract --list-langs 2>/dev/null | grep -qx 'chi_sim'; then
+            echo 'Installing Tesseract and simplified-Chinese language data'
+            timeout 210s sudo apt-get update -qq &&
+              timeout 60s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq tesseract-ocr tesseract-ocr-chi-sim ||
+              echo 'WARNING: Chinese OCR unavailable; scanned Chinese pages remain unverified'
+          fi
           if command -v tesseract >/dev/null 2>&1; then
-            echo 'Tesseract already available; checking languages'
             tesseract --list-langs
+            if ! tesseract --list-langs 2>/dev/null | grep -qx 'chi_sim'; then
+              echo 'WARNING: chi_sim missing; do not claim Chinese OCR coverage'
+            fi
           else
-            timeout 210s sudo apt-get update -qq && timeout 60s sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-chi-sim || echo 'OCR unavailable: scanned pages will remain flagged for review'
+            echo 'WARNING: Tesseract unavailable; OCR pages remain unverified'
           fi
       - name: Install free legacy Office converter for six deferred documents
         timeout-minutes: 4
