@@ -77,8 +77,14 @@ def visual_priority(entry, files):
     """
     audit=files[entry['sha']].get('visual_page_audit',{})
     next_page=max(0,int(audit.get('next_page',0)))
+    # Completed audits with failed OCR pages must eventually receive retry time.
+    # Rotate due retries alongside unfinished books rather than placing every
+    # completed book behind the entire unfinished inventory indefinitely.
+    due_retry=(bool(audit.get('coverage_complete')) and bool(next_retry_page(
+        audit.get('ocr_failed_page_numbers',[]), audit.get('ocr_page_retry_after_utc',{}),
+        datetime.now(timezone.utc))))
     return (0 if entry['category'].startswith('01-') else 1,
-            bool(audit.get('coverage_complete',False)),
+            0 if due_retry else (1 if not audit.get('coverage_complete',False) else 2),
             audit.get('last_advanced_utc',''),
             0 if next_page>0 else 1,
             entry['name'])
