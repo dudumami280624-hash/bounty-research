@@ -298,7 +298,7 @@ def main():
             # No original image, OCR text, or copyrighted content persisted.
             audit['last_window']={'first_page':start+1,'last_page':start+len(observations),
                 'candidate_pages':sum(bool(x['chart_candidate']) for x in observations),
-                'ocr_failed_pages':sum(not x.get('ocr_success',False) for x in observations),
+                'ocr_failed_pages':sum(x['page'] in failed for x in observations),
                 'render_sha256':[x['render_sha256'] for x in observations]}
             print(f'VISUAL END next={audit["next_page"]}/{total} failed_pages={audit["ocr_failed_page_numbers"]}',flush=True)
         except Exception as exc:
