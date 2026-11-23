@@ -20,7 +20,7 @@ records={
  'new':{'visual_page_audit':{'next_page':0}},
  'started':{'visual_page_audit':{'next_page':24}},
  'priority':{'visual_page_audit':{'next_page':0}},
- 'done':{'visual_page_audit':{'next_page':50,'coverage_complete':True}},
+ 'done':{'visual_page_audit':{'next_page':50,'coverage_complete':True,'scanner_revision':2}},
 }
 assert [e['sha'] for e in sorted(entries,key=lambda e:visual_priority(e,records))]==[
  'priority','started','new','done']
