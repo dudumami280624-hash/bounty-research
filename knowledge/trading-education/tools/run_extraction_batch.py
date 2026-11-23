@@ -388,7 +388,10 @@ def main():
        +f'- 本轮批量处理：{len(processed)}份\n'
        +f'- PDF文字逐页元数据：{len(pdf_audits)}份、{audited_pages}页；覆盖完成{completed_audits}份；待OCR页{pending_ocr_pages}（仅页级标记）\n'
        +''.join(f'- {x["source_name"]}：{x["status"]}\n' for x in processed)
-       +f'- 本轮状态：{status["extraction_status"]}（仅初次提取阶段；不代表OCR/视觉工作结束）\n'\n       +f'- 初次提取待处理：{stage_counts["initial_eligible"]}份；初次提取终态：{stage_counts["initial_terminal"]}份\n'\n       +f'- 视觉页面覆盖未完成源：{stage_counts["visual_page_audit_unfinished"]}份；视觉OCR失败页定位记录：{stage_counts["ocr_failed_page_locators"]}条\n'\n       +f'- PDF文字逐页审计未完成源（包含尚未建档）：{stage_counts["text_page_audit_unfinished"]}份\n'
+       +f'- 本轮状态：{status["extraction_status"]}（仅初次提取阶段；不代表OCR/视觉工作结束）\n'
+       +f'- 初次提取待处理：{stage_counts["initial_eligible"]}份；初次提取终态：{stage_counts["initial_terminal"]}份\n'
+       +f'- 视觉页面覆盖未完成源：{stage_counts["visual_page_audit_unfinished"]}份；视觉OCR失败页定位记录：{stage_counts["ocr_failed_page_locators"]}条\n'
+       +f'- PDF文字逐页审计未完成源（包含尚未建档）：{stage_counts["text_page_audit_unfinished"]}份\n'
        +f'- 已提取文字状态（非完整提取验收）：{counts["extracted"]}/178\n'
        +f'- 逐页文字证据尚未覆盖完的PDF：{len(pdf_audits)-completed_audits}份（仅已建档PDF）\n'
        +f'- 待OCR页面标记：{pending_ocr_pages}页；已确认完成OCR全文验收：0份\n'
