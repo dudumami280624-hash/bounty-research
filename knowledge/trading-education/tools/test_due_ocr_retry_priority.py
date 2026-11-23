@@ -8,9 +8,12 @@ future=(now+timedelta(hours=6)).isoformat()
 past=(now-timedelta(hours=1)).isoformat()
 entries=[{'sha':x,'name':x+'.pdf','category':'01-price-action'} for x in ('due','unfinished','cooling')]
 files={
- 'due':{'visual_page_audit':{'coverage_complete':True,'next_page':20,'ocr_failed_page_numbers':[3],'ocr_page_retry_after_utc':{'3':past}}},
+ 'due':{'visual_page_audit':{'coverage_complete':True,'scanner_revision':2,'next_page':20,'ocr_failed_page_numbers':[3],'ocr_page_retry_after_utc':{'3':past}}},
  'unfinished':{'visual_page_audit':{'coverage_complete':False,'next_page':12}},
- 'cooling':{'visual_page_audit':{'coverage_complete':True,'next_page':20,'ocr_failed_page_numbers':[3],'ocr_page_retry_after_utc':{'3':future}}},
+ 'cooling':{'visual_page_audit':{'coverage_complete':True,'scanner_revision':2,'next_page':20,'ocr_failed_page_numbers':[3],'ocr_page_retry_after_utc':{'3':future}}},
 }
 assert [x['sha'] for x in sorted(entries,key=lambda e:visual_priority(e,files))]==['due','unfinished','cooling']
+# A legacy completed scan must be re-audited under the revised raster gate.
+files['cooling']['visual_page_audit']['scanner_revision']=1
+assert visual_priority(entries[2],files)[1]==1
 print('PASS due OCR retry priority; synthetic scheduler only')
