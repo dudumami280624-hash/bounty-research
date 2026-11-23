@@ -18,4 +18,10 @@ retain_page_evidence(audit,[observation(False,'render-A')])
 assert audit['page_evidence']['1']==first, 'transient OCR failure erased successful evidence'
 retain_page_evidence(audit,[observation(False,'render-B')])
 assert not audit['page_evidence']['1']['ocr_success'], 'changed page must not inherit old evidence'
-print('PASS: same-render retry preserves OCR; changed render invalidates it')
+# Historical checkpoints set ocr_success=True for selectable PDF text even
+# when Tesseract was never run. Those records must not mask failed new OCR.
+legacy={'page_evidence':{'1':{'render_sha256':'render-C',
+    'ocr_success':True,'ocr_actual_success':False,'embedded_text_available':True}}}
+retain_page_evidence(legacy,[observation(False,'render-C')])
+assert not legacy['page_evidence']['1']['ocr_success'], 'legacy embedded text masked failed OCR'
+print('PASS: same-render real OCR preserved; legacy embedded-text flag cannot mask OCR failure')
