@@ -164,7 +164,10 @@ jobs:
       - name: Audit catalog source provenance (offline; not fact verification)
         run: python knowledge/trading-education/tools/audit_provenance.py knowledge/trading-education/integration/research-catalog.json
       # Research f938155: report real page-audit metadata separately from OCR completion.
+      # Test failures must be visible, but should not starve real source processing.
+      # Extraction is independently bounded and retains unverified status.
       - name: Extract next indexed source
+        if: always()
         timeout-minutes: 15
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -203,6 +206,28 @@ jobs:
       - name: Generate chart and knowledge review queue
         if: always()
         run: python knowledge/trading-education/tools/review_queue.py
+      - name: Summarize real pipeline run and stage counts
+        if: always()
+        run: |
+          {
+            echo "## The Market Mind source pipeline"
+            echo "- GitHub Actions run ID: ${GITHUB_RUN_ID}"
+            echo "- Run attempt: ${GITHUB_RUN_ATTEMPT}"
+            echo "- Research branch: memory/the-market-mind-daily"
+            echo "- Text extraction and visual/OCR audit are separate stages; neither is fact verification."
+            echo ""
+            if [ -f knowledge/trading-education/integration/latest-extraction-report.md ]; then
+              cat knowledge/trading-education/integration/latest-extraction-report.md
+            else
+              echo "No extraction report generated in this run."
+            fi
+            echo ""
+            if [ -f knowledge/trading-education/integration/visual-page-coverage-progress.md ]; then
+              cat knowledge/trading-education/integration/visual-page-coverage-progress.md
+            else
+              echo "No visual coverage report generated in this run."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Commit metadata-only progress
         if: always()
         run: |
