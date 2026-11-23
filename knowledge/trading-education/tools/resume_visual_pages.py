@@ -137,8 +137,19 @@ def interleave_visual_work(entries, files):
     for tier in (0,1):
         group=[e for e in entries if (0 if e['category'].startswith('01-') else 1)==tier]
         group.sort(key=lambda e:visual_priority(e,files))
-        unfinished=[e for e in group if (not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False) or files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)<2)]
-        retries=[e for e in group if (files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False) and files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)>=2)]
+        # A completed legacy audit may also have a due OCR retry. Treat it as
+        # retry work first; otherwise it can flood the unfinished queue and
+        # starve genuine first-pass coverage (see test_visual_interleave.py).
+        now=datetime.now(timezone.utc)
+        def due(e):
+            a=files[e['sha']].get('visual_page_audit',{})
+            return bool(a.get('coverage_complete') and next_retry_page(
+                a.get('ocr_failed_page_numbers',[]),
+                a.get('ocr_page_retry_after_utc',{}), now))
+        retries=[e for e in group if due(e)]
+        unfinished=[e for e in group if not due(e) and (
+            not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)
+            or files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)<2)]
         while unfinished or retries:
             for _ in range(2):
                 if unfinished: ordered.append(unfinished.pop(0))
