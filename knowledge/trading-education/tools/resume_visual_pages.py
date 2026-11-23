@@ -6,6 +6,20 @@ from pathlib import Path
 from run_extraction_batch import ROOT, INDEX, STATE, inventory, download_blob
 from free_visual import inspect_pdf
 
+def bounded_failed_pages(failed_pages, total_pages):
+    """Drop malformed or impossible persisted OCR page locators after PDF inspection."""
+    valid=set()
+    for candidate in failed_pages:
+        if isinstance(candidate, bool):
+            continue
+        try:
+            page=int(candidate)
+            if str(candidate).strip()==str(page) and 1<=page<=total_pages:
+                valid.add(page)
+        except (TypeError, ValueError):
+            continue
+    return valid
+
 def next_retry_page(failed_pages, cooldowns, now, total_pages=None):
     """Choose first eligible failed 1-based page; never strand others behind one failure."""
     for candidate in failed_pages:
@@ -287,8 +301,7 @@ def main():
             if retry_page is None: audit['next_page']=start+len(observations)
             # Coverage means every page was visited; OCR failures remain explicitly unresolved.
             audit['coverage_complete']=audit['next_page']>=total
-            failed={int(p) for p in audit.get('ocr_failed_page_numbers',[])
-                if not isinstance(p,bool) and str(p).isdigit() and 1<=int(p)<=total}
+            failed=bounded_failed_pages(audit.get('ocr_failed_page_numbers',[]), total)
             for observation in observations:
                 page_number=observation['page']
                 previous=audit.get('page_evidence',{}).get(str(page_number),{})
