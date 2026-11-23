@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# 2026-11-23: verify legacy OCR failure counts with empty page locator arrays are rescheduled (research f4edb002).
 # 2026-11-23: validate strict rendered-page evidence hashes before checkpoint (research 2976f573).
 # 2026-11-23: validate corrected last-page visual coverage fixture (research dac73789).
 # 2026-11-23: validate elapsed-time OCR windows and faster selectable-text traversal (research c82dc2e).
@@ -200,6 +201,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_visual_retry_timestamp.py
       - name: Verify unfinished PDF windows and due OCR retries interleave (synthetic only)
         run: python knowledge/trading-education/tools/test_visual_interleave.py
+      - name: Verify legacy OCR counts with empty page locators are rescheduled (synthetic only)
+        run: python knowledge/trading-education/tools/test_legacy_empty_ocr_locators.py
       - name: Verify failed OCR page retries rotate without starvation (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_ocr_retry_rotation.py
       - name: Reject empty or malformed visual audit windows (synthetic fixture only)
