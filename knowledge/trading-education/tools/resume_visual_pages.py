@@ -188,7 +188,7 @@ def main():
     started=time.monotonic()
     completed=0
     # Do not impose a two-file ceiling when short PDF windows leave time unused.
-    max_windows=max(1,min(12,int(os.environ.get('TMM_VISUAL_WINDOWS_PER_RUN','6'))))
+    max_windows=max(1,min(24,int(os.environ.get('TMM_VISUAL_WINDOWS_PER_RUN','12'))))
     for e in entries:
         if time.monotonic()-started>=budget or completed>=max_windows: break
         record=files[e['sha']]
