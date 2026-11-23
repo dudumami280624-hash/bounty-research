@@ -133,6 +133,8 @@ jobs:
       # Research f938155: report real page-audit metadata separately from OCR completion.
       # Test failures must be visible, but should not starve real source processing.
       # Extraction is independently bounded and retains unverified status.
+      - name: Compile production extraction and visual OCR modules before processing
+        run: python -m py_compile knowledge/trading-education/tools/run_extraction_batch.py knowledge/trading-education/tools/resume_visual_pages.py knowledge/trading-education/tools/free_visual.py
       - name: Extract next indexed source
         if: always()
         timeout-minutes: 15
