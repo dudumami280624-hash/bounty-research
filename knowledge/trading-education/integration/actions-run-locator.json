@@ -3,7 +3,7 @@
   "run_attempt": 1,
   "workflow_commit_sha": "e39f1ed6a397830d383b3ffae1f68a238a7f1d5f",
   "run_url": "https://github.com/dudumami280624-hash/bounty-research/actions/runs/45164627544",
-  "recorded_at_utc": "2026-11-23T11:22:43.504268+00:00",
-  "verification_status": "early_locator_only_not_job_result",
-  "note": "Recorded before extraction; not evidence of successful OCR or passing CI."
+  "recorded_at_utc": "2026-11-23T11:24:19.342499+00:00",
+  "verification_status": "run_locator_only_not_job_result",
+  "note": "This file proves the workflow reached this step; inspect job logs and final conclusion separately."
 }
