@@ -46,6 +46,12 @@ def main():
             # Real PyMuPDF rendering on a two-page fixture; no model verification implied.
             import os
             multi=root/'multi.pdf';d=fitz.open();d.new_page();d.new_page();d.save(multi);d.close()
+            # Timeout fixture must contain real graphical marks: truly blank pages
+            # intentionally bypass OCR and must never be counted as OCR timeouts.
+            timeout_pdf=root/'ocr-timeout-fixture.pdf';tdoc=fitz.open()
+            for _ in range(2):
+                tp=tdoc.new_page();tp.draw_rect(fitz.Rect(60,80,120,180))
+            tdoc.save(timeout_pdf);tdoc.close()
             old_limit=os.environ.get('TMM_VISUAL_MAX_PAGES')
             os.environ['TMM_VISUAL_MAX_PAGES']='1'
             try:
@@ -70,7 +76,7 @@ def main():
                     calls.append(kwargs.get('timeout'))
                     raise fv.subprocess.TimeoutExpired(args,kwargs.get('timeout'))
                 fv.subprocess.run=fake_run
-                timed=inspect_pdf(multi,root/'ocr-timeout')
+                timed=inspect_pdf(timeout_pdf,root/'ocr-timeout')
                 assert calls==[3,3] and all(not row['ocr_success'] for row in timed)
                 assert all('3 seconds' in row['ocr_error'] for row in timed)
             finally:
