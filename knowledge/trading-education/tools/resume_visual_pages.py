@@ -72,6 +72,19 @@ def retain_page_evidence(audit, observations):
             'chart_candidate_unverified':bool(observation.get('chart_candidate',False)),
         }
 
+def page_ocr_resolved(observation, previous):
+    """True only when a page no longer requires OCR, or has genuine OCR evidence.
+
+    Legacy ocr_success=True may mean selectable PDF text, not Tesseract.
+    """
+    actual_success=bool(observation.get('ocr_performed') and observation.get('ocr_success'))
+    preserved=bool(previous.get('ocr_actual_success')
+                   and previous.get('render_sha256')==observation.get('render_sha256'))
+    text_only=bool(observation.get('text_origin')=='embedded_pdf_text'
+                   and not observation.get('raster_with_embedded_text_ocr_needed')
+                   and not observation.get('ocr_performed'))
+    return actual_success or preserved or text_only
+
 def update_page_retry_cooldowns(audit, observations, failed, now):
     """Per-page retry schedule; successful OCR clears its own cooldown."""
     cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
@@ -229,14 +242,10 @@ def main():
             for observation in observations:
                 page_number=observation['page']
                 previous=audit.get('page_evidence',{}).get(str(page_number),{})
-                preserved=bool(previous.get('ocr_actual_success') and previous.get('render_sha256')==observation.get('render_sha256'))
                 # Embedded selectable text is not proof that a previously failed
                 # raster OCR was repaired. Only actual OCR, or a text-only page
                 # that genuinely does not need OCR, may clear a failed locator.
-                actual_success=bool(observation.get('ocr_performed') and observation.get('ocr_success'))
-                text_only=bool(observation.get('text_origin')=='embedded_pdf_text'
-                               and not observation.get('raster_with_embedded_text_ocr_needed'))
-                if actual_success or preserved or text_only: failed.discard(page_number)
+                if page_ocr_resolved(observation, previous): failed.discard(page_number)
                 else: failed.add(page_number)
             audit['ocr_failed_page_numbers']=sorted(failed)
             retain_page_evidence(audit, observations)
