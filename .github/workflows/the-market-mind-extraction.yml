@@ -119,6 +119,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_legacy_raster_reaudit.py
       - name: Verify captioned raster PDF receives real OCR (generated fixture, not textbooks)
         run: python knowledge/trading-education/tools/test_captioned_raster_ocr.py
+      - name: Verify actual blank PDF pages do not consume OCR retries (generated PyMuPDF fixture)
+        run: python knowledge/trading-education/tools/test_blank_pdf_page.py
       - name: Verify sparse embedded-text pages still receive OCR (synthetic PDF fixture)
         run: python knowledge/trading-education/tools/test_sparse_embedded_ocr.py
       - name: Verify sparse PDF text audit flags OCR-needed pages (synthetic guard only)
