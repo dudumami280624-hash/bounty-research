@@ -204,6 +204,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_ocr_retry_rotation.py
       - name: Reject empty or malformed visual audit windows (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_visual_window_validation.py
+      - name: Verify completed legacy OCR failures without page locators get scheduled (synthetic only)
+        run: python knowledge/trading-education/tools/test_legacy_unknown_ocr_schedule.py
       - name: Verify legacy raster OCR re-audit scheduling (structural guard only)
         run: python knowledge/trading-education/tools/test_legacy_raster_reaudit.py
       - name: Verify captioned raster PDF receives real OCR (generated fixture, not textbooks)
