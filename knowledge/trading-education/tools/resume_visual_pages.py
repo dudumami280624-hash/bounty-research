@@ -250,8 +250,11 @@ def main():
                 # Twelve pages * twelve seconds of Tesseract alone can exceed it;
                 # repeatedly timing out the entire window loses all page evidence.
                 ocr_timeout=max(1,min(120,int(os.environ.get('TMM_OCR_PAGE_TIMEOUT_SECONDS','12'))))
-                safe_pages=max(1,55//ocr_timeout)  # reserve ~10s for render/download/metadata
-                window_pages=1 if retry_page is not None else min(safe_pages,adaptive_window_pages(configured,audit.get('attempts',0)))
+                # free_visual.py now stops a window before another OCR page can
+                # exceed its own 52s budget. Do not cap every selectable-text
+                # PDF at four pages merely because *some* pages may need OCR.
+                # The scanner returns a contiguous partial window for checkpointing.
+                window_pages=1 if retry_page is not None else adaptive_window_pages(configured,audit.get('attempts',0))
                 os.environ['TMM_VISUAL_MAX_PAGES']=str(window_pages)
                 try:
                     observations=inspect_pdf(path,Path(td)/'pages',start_page=start)
