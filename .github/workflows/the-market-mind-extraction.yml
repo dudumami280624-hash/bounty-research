@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# 2026-11-23: validate bounded sparse-text Tesseract OCR fallback (research 65001f8).
 # 2026-11-23: verify bounded Tesseract PSM 11 fallback for empty chart-page OCR (research 65001f8).
 # 2026-11-23: report revision-2 visual re-audit backlog separately (research b2bd709).
 # 2026-11-23: fix adaptive visual scheduling test fixture revision (research c25d663).
