@@ -228,6 +228,33 @@ jobs:
               echo "No visual coverage report generated in this run."
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Persist real Actions run locator for next-cycle verification
+        if: always()
+        env:
+          TMM_RUN_ID: ${{ github.run_id }}
+          TMM_RUN_ATTEMPT: ${{ github.run_attempt }}
+          TMM_WORKFLOW_SHA: ${{ github.sha }}
+          TMM_REPOSITORY: ${{ github.repository }}
+        run: |
+          python - <<'PY'
+          import datetime, json, os
+          from pathlib import Path
+          dest=Path('knowledge/trading-education/integration/actions-run-locator.json')
+          dest.parent.mkdir(parents=True, exist_ok=True)
+          repo=os.environ['TMM_REPOSITORY']
+          run_id=os.environ['TMM_RUN_ID']
+          data={
+              'run_id':run_id,
+              'run_attempt':int(os.environ['TMM_RUN_ATTEMPT']),
+              'workflow_commit_sha':os.environ['TMM_WORKFLOW_SHA'],
+              'run_url':f'https://github.com/{repo}/actions/runs/{run_id}',
+              'recorded_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'verification_status':'run_locator_only_not_job_result',
+              'note':'This file proves the workflow reached this step; inspect job logs and final conclusion separately.'
+          }
+          dest.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+          print('REAL ACTIONS RUN LOCATOR',data['run_url'],flush=True)
+          PY
       - name: Commit metadata-only progress
         if: always()
         run: |
