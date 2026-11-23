@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# 2026-11-24: rerun legacy unknown-page OCR scheduling fixture with persisted failure count (research 58113071).
 # 2026-11-23: verify legacy OCR failure counts with empty page locator arrays are rescheduled (research f4edb002).
 # 2026-11-23: validate strict rendered-page evidence hashes before checkpoint (research 2976f573).
 # 2026-11-23: validate corrected last-page visual coverage fixture (research dac73789).
