@@ -48,6 +48,48 @@ jobs:
             knowledge/trading-education/tools
             knowledge/trading-education/integration
           sparse-checkout-cone-mode: true
+      # Persist the genuine run ID BEFORE dependency installs, OCR and long tests.
+      # This separate early push survives later job timeout/failure when checkout succeeded.
+      - name: Publish early real Actions run locator
+        env:
+          TMM_RUN_ID: ${{ github.run_id }}
+          TMM_RUN_ATTEMPT: ${{ github.run_attempt }}
+          TMM_WORKFLOW_SHA: ${{ github.sha }}
+          TMM_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import datetime, json, os
+          from pathlib import Path
+          path = Path('knowledge/trading-education/integration/actions-run-locator.json')
+          path.parent.mkdir(parents=True, exist_ok=True)
+          run_id = os.environ['TMM_RUN_ID']
+          repo = os.environ['TMM_REPOSITORY']
+          data = {
+              'run_id': run_id,
+              'run_attempt': int(os.environ['TMM_RUN_ATTEMPT']),
+              'workflow_commit_sha': os.environ['TMM_WORKFLOW_SHA'],
+              'run_url': f'https://github.com/{repo}/actions/runs/{run_id}',
+              'recorded_at_utc': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'verification_status': 'early_locator_only_not_job_result',
+              'note': 'Recorded before extraction; not evidence of successful OCR or passing CI.'
+          }
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('EARLY REAL ACTIONS RUN LOCATOR', data['run_url'], flush=True)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add knowledge/trading-education/integration/actions-run-locator.json
+          git commit -m "chore: persist real Actions run locator before processing"
+          for attempt in 1 2 3; do
+            git fetch origin memory/the-market-mind-daily
+            if git rebase origin/memory/the-market-mind-daily && git push origin HEAD:memory/the-market-mind-daily; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 3))
+          done
+          echo 'EARLY_RUN_LOCATOR_PUSH_FAILED' >&2
+          exit 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
