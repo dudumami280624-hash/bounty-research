@@ -35,6 +35,10 @@ def inspect_pdf(pdf_path, output, start_page=0):
         # scanned chart/table has been transcribed. OCR sparse-text pages too.
         meaningful_chars=len(re.sub(r'\s+', '', embedded_text))
         sparse_embedded=bool(embedded_text) and meaningful_chars<80
+        # A genuinely empty PDF page needs no text OCR. Do not confuse it with
+        # a raster/vector chart whose OCR returned an empty string.
+        record['visually_blank_no_ocr_needed']=bool(not meaningful_chars and
+            record['image_objects']==0 and record['vector_drawings']==0)
         record['embedded_text_sparse']=sparse_embedded
         # Embedded text may be a caption over an image-only chart. If the page
         # contains raster images, OCR the rendered page too rather than treating
@@ -42,7 +46,13 @@ def inspect_pdf(pdf_path, output, start_page=0):
         # common for text glyphs and should not force OCR on every text PDF.
         raster_chart_with_text=bool(embedded_text and record['image_objects']>0)
         record['raster_with_embedded_text_ocr_needed']=raster_chart_with_text
-        if embedded_text and not sparse_embedded and not raster_chart_with_text:
+        if record['visually_blank_no_ocr_needed']:
+            record['ocr_success']=False
+            record['ocr_performed']=False
+            record['text_origin']='visually_blank_page'
+            record['ocr_skipped_reason']='no_text_images_or_vector_drawings'
+            record['ocr_text_characters']=0
+        elif embedded_text and not sparse_embedded and not raster_chart_with_text:
             record['ocr_success']=True  # Legacy field: text available, not necessarily OCR performed
             record['text_origin']='embedded_pdf_text'
             record['ocr_performed']=False
