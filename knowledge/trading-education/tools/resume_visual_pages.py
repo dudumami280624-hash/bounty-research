@@ -89,6 +89,7 @@ def retain_page_evidence(audit, observations):
             'ocr_actually_performed':bool(observation.get('ocr_performed',False)),
             'ocr_actual_success':bool(observation.get('ocr_performed',False) and observation.get('ocr_success',False)),
             'embedded_text_available':observation.get('text_origin')=='embedded_pdf_text',
+            'raster_with_embedded_text_ocr_needed':bool(observation.get('raster_with_embedded_text_ocr_needed',False)),
             'visually_blank_no_ocr_needed':bool(observation.get('visually_blank_no_ocr_needed',False)),
             'text_origin':observation.get('text_origin','legacy_unknown'),
             'ocr_performed':observation.get('ocr_performed'),
@@ -135,8 +136,14 @@ def verified_ocr_page_coverage(audit):
         digest=item.get('render_sha256')
         if not isinstance(digest,str) or len(digest)!=64 or any(c not in '0123456789abcdef' for c in digest):
             return False
-        if not (item.get('ocr_actual_success') or item.get('embedded_text_available')
-                or item.get('visually_blank_no_ocr_needed')):
+        # Selectable text alone cannot clear a raster-chart OCR requirement.
+        # Persisted legacy evidence without this distinction must remain unverified.
+        embedded_only=(item.get('embedded_text_available')
+                       and item.get('text_origin')=='embedded_pdf_text'
+                       and item.get('raster_with_embedded_text_ocr_needed') is False)
+        blank=(item.get('visually_blank_no_ocr_needed')
+               and item.get('text_origin')=='visually_blank_page')
+        if not (item.get('ocr_actual_success') or embedded_only or blank):
             return False
     return True
 
