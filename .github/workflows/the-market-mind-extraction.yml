@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# 2026-11-24: validate pruning impossible persisted OCR failure locators (research 9bf75a72).
 # 2026-11-24: validate out-of-range OCR retry locators (research c4dbcf52).
 # 2026-11-24: rerun legacy unknown-page OCR scheduling fixture with persisted failure count (research 58113071).
 # 2026-11-23: verify legacy OCR failure counts with empty page locator arrays are rescheduled (research f4edb002).
