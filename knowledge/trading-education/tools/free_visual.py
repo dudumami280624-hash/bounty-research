@@ -17,7 +17,13 @@ def inspect_pdf(pdf_path, output, start_page=0):
     max_pages=max(1,int(os.environ.get('TMM_VISUAL_MAX_PAGES','12')))
     total_pages=len(doc)
     start_page=max(0,int(start_page))
+    window_started=time.monotonic()
+    # Allow many fast selectable-text pages, but stop before the next expensive
+    # OCR call could exhaust the outer 65-second checkpoint alarm.
+    window_budget=max(ocr_timeout+4,min(58,int(os.environ.get('TMM_VISUAL_WINDOW_BUDGET_SECONDS','52'))))
     for index in range(start_page,min(total_pages,start_page+max_pages)):
+        if result and time.monotonic()-window_started+ocr_timeout+3>=window_budget:
+            break
         page=doc[index]
         pix=page.get_pixmap(matrix=fitz.Matrix(1.5,1.5),alpha=False)
         png=pix.tobytes('png')
