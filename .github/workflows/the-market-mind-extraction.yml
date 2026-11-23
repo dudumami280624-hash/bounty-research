@@ -182,7 +182,7 @@ jobs:
           TMM_VISUAL_AUDIT_BUDGET_SECONDS: '540'
           TMM_VISUAL_WINDOWS_PER_RUN: '48'
         run: python knowledge/trading-education/tools/resume_visual_pages.py
-      - name: Verify out-of-range persisted OCR page IDs do not strand valid retries (synthetic only)
+      - name: Reject missing page evidence before declaring OCR queue complete (synthetic regression)\n        run: python knowledge/trading-education/tools/test_verified_ocr_page_coverage.py\n      - name: Verify out-of-range persisted OCR page IDs do not strand valid retries (synthetic only)
         run: python knowledge/trading-education/tools/test_retry_page_bounds.py
       - name: Verify production visual scanner performs real Tesseract OCR on scanned PDF
         run: python knowledge/trading-education/tools/test_real_tesseract_smoke.py
