@@ -119,6 +119,17 @@ def adaptive_window_pages(configured, attempts):
     """Shrink OCR-heavy windows after deadline failures without losing the page checkpoint."""
     return max(1, configured // (2 ** min(max(0, attempts), 5)))
 
+def needs_legacy_reaudit(audit):
+    """Legacy OCR failure counts without page IDs require a bounded full re-audit.
+
+    An existing empty list is not proof that historical failures were located.
+    """
+    return bool(audit.get('ocr_failed_pages_total', 0) > 0
+                and not audit.get('ocr_failed_page_numbers')
+                and not audit.get('legacy_reaudit_started')
+                and audit.get('ocr_failures_without_page_locations') is not False)
+
+
 def visual_priority(entry, files):
     """Fair rotation inside the first-26 group, then the remaining sources.
 
@@ -168,8 +179,7 @@ def interleave_visual_work(entries, files):
         unfinished=[e for e in group if not due(e) and (
             not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)
             or files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)<2
-            or (files[e['sha']].get('visual_page_audit',{}).get('ocr_failures_without_page_locations')
-                and not files[e['sha']].get('visual_page_audit',{}).get('legacy_reaudit_started')))]
+            or needs_legacy_reaudit(files[e['sha']].get('visual_page_audit',{})))]
         while unfinished or retries:
             for _ in range(2):
                 if unfinished: ordered.append(unfinished.pop(0))
@@ -214,13 +224,12 @@ def main():
             audit['scanner_reaudit_in_progress']=True
         # Do not permanently strand a PDF after three transient network/OCR failures.
         # Retry after a cooldown; the per-window alarm still bounds runtime.
-        if 'ocr_failed_page_numbers' not in audit and audit.get('ocr_failed_pages_total',0):
+        if audit.get('ocr_failed_pages_total',0) and not audit.get('ocr_failed_page_numbers') and audit.get('ocr_failures_without_page_locations') is not False:
             audit['ocr_failures_without_page_locations']=True
         # Historical OCR failure counts lack page locators; re-audit all pages once.
         # Preserve the unknown-failure flag until the full pass finishes.
         if (audit.get('coverage_complete')
-                and audit.get('ocr_failures_without_page_locations')
-                and not audit.get('legacy_reaudit_started')):
+                and needs_legacy_reaudit(audit)):
             audit['next_page']=0
             audit['coverage_complete']=False
             audit['legacy_reaudit_started']=True
