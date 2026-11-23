@@ -4461,7 +4461,7 @@
       "visual_page_audit": {
         "next_page": 25,
         "total_pages": 25,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": true,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [
@@ -4801,7 +4801,8 @@
           "18": "2026-11-23T09:19:08.958715+00:00"
         },
         "last_advanced_utc": "2026-11-23T11:23:25.461033+00:00",
-        "scanner_revision": 2
+        "scanner_revision": 2,
+        "last_error": "No module named 'fitz'"
       },
       "pdf_text_page_audit": {
         "next_page": 25,
@@ -35443,10 +35444,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 13,
+        "next_page": 0,
         "total_pages": 13,
-        "attempts": 0,
-        "coverage_complete": true,
+        "attempts": 1,
+        "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -35561,7 +35562,7 @@
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": true,
+        "ocr_complete": false,
         "last_advanced_utc": "2026-11-22T15:57:14.611150+00:00",
         "last_window": {
           "first_page": 13,
@@ -35571,7 +35572,9 @@
           "render_sha256": [
             "50d96783342a32a34fb05e0e431aba50481c38205fefe47b2c21cdd9535d9504"
           ]
-        }
+        },
+        "scanner_reaudit_in_progress": true,
+        "last_error": "No module named 'fitz'"
       }
     },
     "66af167e8cadfe565dd477b0cc1e66ff439ea02d": {
@@ -36087,10 +36090,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 16,
+        "next_page": 0,
         "total_pages": 16,
-        "attempts": 0,
-        "coverage_complete": true,
+        "attempts": 1,
+        "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -36241,7 +36244,7 @@
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": true,
+        "ocr_complete": false,
         "last_advanced_utc": "2026-11-22T15:57:17.063083+00:00",
         "last_window": {
           "first_page": 13,
@@ -36254,7 +36257,9 @@
             "6333c3428ae9c797aefe1ab3287f12c22b82d0a382751cc32254ddf7c3c0b957",
             "42afec24ef118cfcd5358e5df1415e989cde8b86e30fc48a3e7d11efda20be4d"
           ]
-        }
+        },
+        "scanner_reaudit_in_progress": true,
+        "last_error": "No module named 'fitz'"
       }
     },
     "04e41e1b5d36a0b9b2fa4c9e51060d390d67c856": {
@@ -39220,10 +39225,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 14,
+        "next_page": 0,
         "total_pages": 14,
-        "attempts": 0,
-        "coverage_complete": true,
+        "attempts": 1,
+        "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -39386,7 +39391,7 @@
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": true,
+        "ocr_complete": false,
         "last_advanced_utc": "2026-11-22T16:58:28.762455+00:00",
         "last_window": {
           "first_page": 13,
@@ -39397,7 +39402,9 @@
             "dabf1998025ceb47bf0d983f6eb7a2e2dc93c78299ec3de186448b05935eff41",
             "63a937f2026b04eb956a6f9980cb18087cec1f158bfefb72360ee8a95e6535c7"
           ]
-        }
+        },
+        "scanner_reaudit_in_progress": true,
+        "last_error": "No module named 'fitz'"
       }
     },
     "9eb8c22584e9c36dced948bd19ea3f05345a4207": {
@@ -39680,7 +39687,7 @@
       "visual_page_audit": {
         "next_page": 16,
         "total_pages": 38,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
@@ -39881,7 +39888,8 @@
             "a1927393fd6fa504406938f9f4fb75e9f749f7c07d6b380ed96cf59d613331df",
             "29435b2069d191e06e85ffd246aa26dd0bfce7fbad46bd2d3d1babcb4dcee319"
           ]
-        }
+        },
+        "last_error": "No module named 'fitz'"
       }
     },
     "d0c9caf042cc7f17e6b042621f61741af5acf9b9": {
@@ -39954,7 +39962,7 @@
       "visual_page_audit": {
         "next_page": 16,
         "total_pages": 41,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [
@@ -40159,7 +40167,8 @@
             "9f23c522bb490106f4243c761bbd55d41f828260360a74ff820922047827db63",
             "0ed58c160b936a0af5db39a06a1d4fb1699c1044e538fea95c4114b0ad2fecab"
           ]
-        }
+        },
+        "last_error": "No module named 'fitz'"
       }
     },
     "6a604efa250b78ea0cd790587314bfca40d58180": {
@@ -40205,10 +40214,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 15,
+        "next_page": 0,
         "total_pages": 15,
-        "attempts": 0,
-        "coverage_complete": true,
+        "attempts": 1,
+        "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -40383,7 +40392,7 @@
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": true,
+        "ocr_complete": false,
         "last_advanced_utc": "2026-11-22T16:58:32.454650+00:00",
         "last_window": {
           "first_page": 13,
@@ -40395,7 +40404,9 @@
             "5a59f311d416a2cf0448a397a96ea4ddb1028a5abfb84081f061dd68d8ca4d4f",
             "a9506f983135f4e8bb46ada429f9fec90f86e7d091e3ffe198a909bc9cc52710"
           ]
-        }
+        },
+        "scanner_reaudit_in_progress": true,
+        "last_error": "No module named 'fitz'"
       }
     },
     "33d0a09d625b3983a21864b6c21ce676db7a4f30": {
@@ -40445,7 +40456,7 @@
       "visual_page_audit": {
         "next_page": 16,
         "total_pages": 20,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
@@ -40646,7 +40657,8 @@
             "9b5628bbef4ac6cdb22744f5f3b9997cbf7b3abadae9b16f984cd3eed773caf9",
             "e05c60f3cd7065a2135df507f1f5ec0ebcc59c571b283b2b5661e0231c192fa1"
           ]
-        }
+        },
+        "last_error": "No module named 'fitz'"
       },
       "pdf_text_page_audit": {
         "next_page": 12,
@@ -40807,10 +40819,10 @@
       "fact_checked": false,
       "integrated_into_lesson": false,
       "visual_page_audit": {
-        "next_page": 13,
+        "next_page": 0,
         "total_pages": 13,
-        "attempts": 0,
-        "coverage_complete": true,
+        "attempts": 1,
+        "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
         "page_evidence": {
@@ -40961,7 +40973,7 @@
         },
         "ocr_page_retry_after_utc": {},
         "ocr_failed_pages_total": 0,
-        "ocr_complete": true,
+        "ocr_complete": false,
         "last_advanced_utc": "2026-11-22T17:27:21.824836+00:00",
         "last_window": {
           "first_page": 13,
@@ -40971,7 +40983,9 @@
           "render_sha256": [
             "217d33253dc8996b303a57ae3e24979bb24aa3206825d138d066f04faca789f5"
           ]
-        }
+        },
+        "scanner_reaudit_in_progress": true,
+        "last_error": "No module named 'fitz'"
       },
       "pdf_text_page_audit": {
         "next_page": 12,
@@ -41737,7 +41751,7 @@
       "visual_page_audit": {
         "next_page": 16,
         "total_pages": 200,
-        "attempts": 0,
+        "attempts": 1,
         "coverage_complete": false,
         "semantic_verified": false,
         "ocr_failed_page_numbers": [],
@@ -41938,7 +41952,8 @@
             "805a16c87b1d5198d295a2e4d8069c948a4f1c78a3eadc76583f4fb58fc6ec4d",
             "bbd1bd02429281e37831cb44bfaf09dc86e0ee4f5188da30236999bec72710d1"
           ]
-        }
+        },
+        "last_error": "No module named 'fitz'"
       }
     },
     "b7975ddb5ad2bc9a4da9c53dc20373f4219b7242": {

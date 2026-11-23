@@ -1,7 +1,11 @@
 # PDF page-level visual coverage (not semantic verification)
 
 - PDF files with tracked visual audit: 127
-- Page coverage complete: 23
+- Page coverage complete: 18
+- Coverage complete on current scanner revision: 10
+- Legacy coverage complete awaiting re-audit: 8
+- Re-audit in progress (not counted complete): 41
+- Note: re-audit resets the completion flag until every page is revisited; earlier page hashes remain recorded.
 - Windows attempted this run: 10
 - Repeated failures cooling down for automatic retry: 0
 - Page coverage finished but OCR incomplete: 7
