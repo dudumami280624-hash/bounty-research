@@ -120,10 +120,15 @@ jobs:
           # Check the language pack independently instead of skipping Chinese OCR.
           if ! command -v tesseract >/dev/null 2>&1 || ! tesseract --list-langs 2>/dev/null | grep -qx 'chi_sim'; then
             echo 'Installing Tesseract and simplified-Chinese language data'
-            timeout 210s sudo apt-get update -qq &&
-              timeout 60s sudo DEBIAN_FRONTEND=noninteractive apt-get install -y -qq tesseract-ocr tesseract-ocr-chi-sim ||
-              echo 'WARNING: Chinese OCR unavailable; scanned Chinese pages remain unverified'
+            # Retry transient Ubuntu mirror errors; do not silently skip real OCR.
+            sudo apt-get -o Acquire::Retries=3 update -qq
+            sudo env DEBIAN_FRONTEND=noninteractive apt-get -o Acquire::Retries=3 install -y -qq --no-install-recommends tesseract-ocr tesseract-ocr-chi-sim
           fi
+          command -v tesseract
+          tesseract --version
+          tesseract --list-langs
+          tesseract --list-langs 2>/dev/null | grep -qx 'eng'
+          tesseract --list-langs 2>/dev/null | grep -qx 'chi_sim'
           if command -v tesseract >/dev/null 2>&1; then
             tesseract --list-langs
             if ! tesseract --list-langs 2>/dev/null | grep -qx 'chi_sim'; then
