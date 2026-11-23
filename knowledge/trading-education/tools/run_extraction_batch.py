@@ -274,6 +274,24 @@ def main():
             # bounded worker deadline, then persist a fresh valid timestamp.
             return True
     pending=[e for e in entries if eligible(e)]
+    # Initial extraction and page-level OCR are separate queues. An empty
+    # initial queue must not be reported as no remaining research work.
+    stage_counts={'initial_eligible':len(pending),'initial_terminal':0,
+                  'visual_page_audit_unfinished':0,'ocr_failed_page_locators':0,
+                  'text_page_audit_unfinished':0}
+    for entry in entries:
+        rec=files.get(entry['sha'],{})
+        if rec.get('extraction_status') in terminal:
+            stage_counts['initial_terminal']+=1
+        visual=rec.get('visual_page_audit') or {}
+        if entry['name'].lower().endswith('.pdf') and rec.get('extraction_status') in terminal:
+            if not visual.get('coverage_complete',False):
+                stage_counts['visual_page_audit_unfinished']+=1
+            stage_counts['ocr_failed_page_locators']+=len(visual.get('ocr_failed_page_numbers') or [])
+            text_audit=rec.get('pdf_text_page_audit') or {}
+            if not text_audit.get('coverage_complete',False):
+                stage_counts['text_page_audit_unfinished']+=1
+    print('PIPELINE STAGE QUEUES',json.dumps(stage_counts,sort_keys=True),flush=True)
     # Track deferred legacy documents without treating them as failed attempts.
     for e in entries:
         if not converter_available and Path(e['name']).suffix.lower() in ('.doc','.ppt') and e['sha'] not in files:
@@ -349,7 +367,7 @@ def main():
             if sha in files and 'pdf_text_page_audit' in record:
                 files[sha]['pdf_text_page_audit']=record['pdf_text_page_audit']
     print('PDF TEXT WINDOWS',json.dumps(text_windows,ensure_ascii=False),flush=True)
-    status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'no_eligible_files'}
+    status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'initial_extraction_queue_empty'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
     STATE.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
@@ -370,7 +388,7 @@ def main():
        +f'- 本轮批量处理：{len(processed)}份\n'
        +f'- PDF文字逐页元数据：{len(pdf_audits)}份、{audited_pages}页；覆盖完成{completed_audits}份；待OCR页{pending_ocr_pages}（仅页级标记）\n'
        +''.join(f'- {x["source_name"]}：{x["status"]}\n' for x in processed)
-       +f'- 本轮状态：{status["extraction_status"]}\n'
+       +f'- 本轮状态：{status["extraction_status"]}（仅初次提取阶段；不代表OCR/视觉工作结束）\n'\n       +f'- 初次提取待处理：{stage_counts["initial_eligible"]}份；初次提取终态：{stage_counts["initial_terminal"]}份\n'\n       +f'- 视觉页面覆盖未完成源：{stage_counts["visual_page_audit_unfinished"]}份；视觉OCR失败页定位记录：{stage_counts["ocr_failed_page_locators"]}条\n'\n       +f'- PDF文字逐页审计未完成源（包含尚未建档）：{stage_counts["text_page_audit_unfinished"]}份\n'
        +f'- 已提取文字状态（非完整提取验收）：{counts["extracted"]}/178\n'
        +f'- 逐页文字证据尚未覆盖完的PDF：{len(pdf_audits)-completed_audits}份（仅已建档PDF）\n'
        +f'- 待OCR页面标记：{pending_ocr_pages}页；已确认完成OCR全文验收：0份\n'
