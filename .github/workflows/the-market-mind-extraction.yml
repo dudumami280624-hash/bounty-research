@@ -228,6 +228,7 @@ jobs:
         run: python knowledge/trading-education/tools/test_scanner_revision_checkpoint.py
       - name: Verify due OCR retry pages cannot starve (synthetic scheduler only)
         run: python knowledge/trading-education/tools/test_due_ocr_retry_priority.py
+      # Regression now checks elapsed-time gating, not obsolete fixed-page arithmetic (research 17167a1).
       - name: Verify OCR window fits hard deadline (synthetic arithmetic only)
         run: python knowledge/trading-education/tools/test_visual_window_budget.py
       - name: Verify adaptive visual OCR window retries (synthetic fixture only)
