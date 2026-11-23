@@ -6,7 +6,7 @@ from pathlib import Path
 from run_extraction_batch import ROOT, INDEX, STATE, inventory, download_blob
 from free_visual import inspect_pdf
 
-def next_retry_page(failed_pages, cooldowns, now):
+def next_retry_page(failed_pages, cooldowns, now, total_pages=None):
     """Choose first eligible failed 1-based page; never strand others behind one failure."""
     for candidate in failed_pages:
         # Older checkpoints may encode page numbers as strings. Normalize before
@@ -14,7 +14,8 @@ def next_retry_page(failed_pages, cooldowns, now):
         # Reject invalid 0/negative/noninteger locators without blocking later pages.
         try:
             page=int(candidate)
-            if page<1 or isinstance(candidate,bool) or str(candidate).strip()!=str(page):
+            if (page<1 or isinstance(candidate,bool) or str(candidate).strip()!=str(page)
+                    or (isinstance(total_pages,int) and total_pages>0 and page>total_pages)):
                 continue
         except (ValueError,TypeError):
             continue
@@ -148,7 +149,7 @@ def visual_priority(entry, files):
     # completed book behind the entire unfinished inventory indefinitely.
     due_retry=(bool(audit.get('coverage_complete')) and bool(next_retry_page(
         audit.get('ocr_failed_page_numbers',[]), audit.get('ocr_page_retry_after_utc',{}),
-        datetime.now(timezone.utc))))
+        datetime.now(timezone.utc), audit.get('total_pages'))))
     return (0 if entry['category'].startswith('01-') else 1,
             0 if due_retry else (1 if stale or not audit.get('coverage_complete',False) else 2),
             audit.get('last_advanced_utc',''),
@@ -174,7 +175,7 @@ def interleave_visual_work(entries, files):
             a=files[e['sha']].get('visual_page_audit',{})
             return bool(a.get('coverage_complete') and next_retry_page(
                 a.get('ocr_failed_page_numbers',[]),
-                a.get('ocr_page_retry_after_utc',{}), now))
+                a.get('ocr_page_retry_after_utc',{}), now, a.get('total_pages')))
         retries=[e for e in group if due(e)]
         unfinished=[e for e in group if not due(e) and (
             not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)
@@ -235,7 +236,7 @@ def main():
             audit['legacy_reaudit_started']=True
             audit['ocr_failed_page_numbers']=[]
         failed_pages=list(audit.get('ocr_failed_page_numbers',[]))
-        retry_page=(next_retry_page(failed_pages,audit.get('ocr_page_retry_after_utc',{}),datetime.now(timezone.utc))
+        retry_page=(next_retry_page(failed_pages,audit.get('ocr_page_retry_after_utc',{}),datetime.now(timezone.utc),audit.get('total_pages'))
                     if audit.get('coverage_complete') else None)
         if audit.get('coverage_complete') and retry_page is None: continue
         if audit.get('attempts',0)>=3:
