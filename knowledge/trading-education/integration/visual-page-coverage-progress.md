@@ -4,8 +4,8 @@
 - Page coverage complete: 51
 - Windows attempted this run: 10
 - Repeated failures cooling down for automatic retry: 0
-- Page coverage finished but OCR incomplete: 10
-- Actual OCR success pages (new evidence only): 746
-- Embedded-text pages (new evidence only, not OCR): 722
+- Page coverage finished but OCR incomplete: 11
+- Actual OCR success pages (new evidence only): 773
+- Embedded-text pages (new evidence only, not OCR): 730
 - Chart semantics independently verified: 0 (not performed by this scanner)
 - Source page hashes and positions only; no copyrighted pages or OCR excerpts.
