@@ -252,7 +252,7 @@ jobs:
               'verification_status':'run_locator_only_not_job_result',
               'note':'This file proves the workflow reached this step; inspect job logs and final conclusion separately.'
           }
-          dest.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+          dest.write_text(json.dumps(data,ensure_ascii=False,indent=2)+chr(10),encoding='utf-8')
           print('REAL ACTIONS RUN LOCATOR',data['run_url'],flush=True)
           PY
       - name: Commit metadata-only progress
