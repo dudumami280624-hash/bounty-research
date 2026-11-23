@@ -157,6 +157,12 @@ def interleave_visual_work(entries, files):
         # Completed audits with no due retry remain safe to skip in main.
     return ordered
 
+def mark_scanner_revision_if_covered(audit):
+    """Mark completed page visitation, without claiming OCR/semantic completion."""
+    if audit.get('coverage_complete'):
+        audit['scanner_revision']=2
+        audit.pop('scanner_reaudit_in_progress',None)
+
 def main():
     state=json.loads(STATE.read_text(encoding='utf-8'))
     files=state['files']
@@ -271,9 +277,11 @@ def main():
                 audit.pop('legacy_reaudit_started',None)
             legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
             audit['ocr_complete']=audit['coverage_complete'] and not failed and not legacy_unknown
-            if audit['coverage_complete'] and audit.get('scanner_reaudit_in_progress'):
-                audit['scanner_revision']=2
-                audit.pop('scanner_reaudit_in_progress',None)
+            # Stamp every fully scanned PDF with the scanner revision, including
+            # first-time audits. Otherwise fresh completed audits retain revision 0
+            # and get needlessly re-scanned from page 1 on every later run.
+            # Failed OCR pages remain queued independently; this is NOT OCR success.
+            mark_scanner_revision_if_covered(audit)
             audit['attempts']=0
             audit['last_advanced_utc']=datetime.now(timezone.utc).isoformat()
             audit.pop('last_error',None)
