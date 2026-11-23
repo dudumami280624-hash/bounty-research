@@ -42,7 +42,9 @@ permissions:
 # dependency installation and regression tests; a 24m cap could preempt OCR.
 concurrency:
   group: tmm-hourly-extraction
-  cancel-in-progress: true
+  # Queue the newest trigger instead of killing a running OCR checkpoint.
+  # GitHub may replace a pending run, but the active run finishes and saves progress.
+  cancel-in-progress: false
 
 jobs:
   extract:
