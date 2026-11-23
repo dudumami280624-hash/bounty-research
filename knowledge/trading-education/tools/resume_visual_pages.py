@@ -118,6 +118,28 @@ def page_ocr_resolved(observation, previous):
                observation.get('embedded_text_characters')==0)
     return actual_success or preserved or text_only or blank
 
+def verified_ocr_page_coverage(audit):
+    """Require evidence for every numbered page before claiming OCR queue complete.
+
+    A legacy checkpoint may say coverage_complete without retaining complete
+    page-level OCR/embedded-text evidence. Never certify those gaps.
+    """
+    total=audit.get('total_pages')
+    evidence=audit.get('page_evidence',{})
+    if not isinstance(total,int) or total<=0 or not isinstance(evidence,dict):
+        return False
+    for number in range(1,total+1):
+        item=evidence.get(str(number))
+        if not isinstance(item,dict):
+            return False
+        digest=item.get('render_sha256')
+        if not isinstance(digest,str) or len(digest)!=64 or any(c not in '0123456789abcdef' for c in digest):
+            return False
+        if not (item.get('ocr_actual_success') or item.get('embedded_text_available')
+                or item.get('visually_blank_no_ocr_needed')):
+            return False
+    return True
+
 def update_page_retry_cooldowns(audit, observations, failed, now):
     """Per-page retry schedule; successful OCR clears its own cooldown."""
     cooldowns=audit.setdefault('ocr_page_retry_after_utc',{})
@@ -322,7 +344,8 @@ def main():
                 audit['ocr_failures_without_page_locations']=False
                 audit.pop('legacy_reaudit_started',None)
             legacy_unknown=bool(audit.get('ocr_failures_without_page_locations',False))
-            audit['ocr_complete']=audit['coverage_complete'] and not failed and not legacy_unknown
+            audit['ocr_complete']=(audit['coverage_complete'] and not failed and not legacy_unknown
+                                   and verified_ocr_page_coverage(audit))
             # Stamp every fully scanned PDF with the scanner revision, including
             # first-time audits. Otherwise fresh completed audits retain revision 0
             # and get needlessly re-scanned from page 1 on every later run.
