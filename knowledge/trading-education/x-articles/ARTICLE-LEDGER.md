@@ -6,7 +6,6 @@ Evidence rule: user-provided links and screenshots are evidence of user action a
 |---|---|---|---|---|
 | 01 | Why Investors Suddenly Changed Their Minds About Losing Stocks | PUBLISHED — USER REPORTED; LIVE PAGE NOT INDEPENDENTLY VERIFIED | https://x.com/WildEarthFiles/status/2123064764918296874 | User supplied link Nov 18, 2026; screenshots of X Articles cover, body images, captions, references and publish dialog. Confirm live public page when available. |
 | 02 | Apple's Stock Went From $499 to $129. Why Wasn't That a 74% Crash? | PUBLISHED — USER LINK SUPPLIED; LIVE PAGE NOT INDEPENDENTLY VERIFIED | https://x.com/WildEarthFiles/status/2123350736717353101 | User shared X link Nov 19, 2026 after publication dialog; prior screenshots show 5:2 locked-style Lesson 02 cover, split comparison chart, OHLC two-path graphic and captions. Full published content and visuals not independently fetched from X. Actual image binaries NOT verified archived in GitHub. |
-
 | 03 | A Green Candle Can Hide a Losing Day (working title; earlier blueprint: What Can One Candlestick Really Tell You?) | DRAFT — NOT APPROVED OR PUBLISHED | — | English editorial draft: `lesson-03-revised-draft-2026-11-20.md`; includes fictional OHLC exercises and a real S&P 500 historical example. Chart asset not yet archived in GitHub; full source/figure and layout checks remain open. |
 
 ## Lesson 01 content coverage
