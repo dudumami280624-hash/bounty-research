@@ -135,6 +135,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_page_evidence_checkpoint.py
       - name: Verify fair rotation of real OCR scheduler (synthetic scheduler regression only)
         run: python knowledge/trading-education/tools/test_visual_fair_rotation.py
+      - name: Verify completed first-pass PDF scanner revision (production checkpoint regression)
+        run: python knowledge/trading-education/tools/test_scanner_revision_checkpoint.py
       - name: Verify due OCR retry pages cannot starve (synthetic scheduler only)
         run: python knowledge/trading-education/tools/test_due_ocr_retry_priority.py
       - name: Verify OCR window fits hard deadline (synthetic arithmetic only)
