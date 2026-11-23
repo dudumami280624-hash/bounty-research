@@ -12,9 +12,9 @@ audit=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='ad
 assignments=[n for n in ast.walk(audit) if isinstance(n,ast.Assign)]
 count=next(n.value for n in assignments if any(isinstance(t,ast.Name) and t.id=='meaningful_chars' for t in n.targets))
 gate=next(n.value for n in assignments if any(isinstance(t,ast.Name) and t.id=='needs_ocr' for t in n.targets))
-def evaluate(raw):
+def evaluate(raw, raster_images=0):
     chars=eval(compile(ast.Expression(count),'<production-character-count>','eval'),{'len':len,'re':re,'raw':raw})
-    needed=eval(compile(ast.Expression(gate),'<production-ocr-gate>','eval'),{'meaningful_chars':chars})
+    needed=eval(compile(ast.Expression(gate),'<production-ocr-gate>','eval'),{'meaningful_chars':chars,'raster_images':raster_images})
     return chars,needed
 
 assert evaluate('12'+' '*500)==(2,True)
@@ -22,6 +22,8 @@ assert evaluate('12\n\t'+' '*500)==(2,True)
 assert evaluate('X'*79)==(79,True)
 assert evaluate('X'*80)==(80,False)
 assert evaluate('X '*80)==(80,False)
+assert evaluate('X'*80, raster_images=1)==(80,True)
+assert evaluate('X'*80, raster_images=2)==(80,True)
 assert "'embedded_meaningful_chars':meaningful_chars" in source
 assert "'ocr_needed':needs_ocr" in source
 assert "'verified':False" in source
