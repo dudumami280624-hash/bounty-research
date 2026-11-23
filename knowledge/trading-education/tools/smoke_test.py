@@ -37,7 +37,13 @@ def main():
         assert [x['page'] for x in first]==[1,2]
         assert [x['page'] for x in second]==[3,4]
         assert first[0]['visual_coverage_complete'] is False
-        assert second[0]['visual_coverage_complete'] is True
+        assert second[0]['visual_coverage_complete'] is False
+        assert second[-1]['visual_coverage_complete'] is True
+        import json
+        saved=json.loads((root/'visual-second'/'page-0004.json').read_text(encoding='utf-8'))
+        assert saved['visual_coverage_complete'] is True
+        earlier=json.loads((root/'visual-second'/'page-0003.json').read_text(encoding='utf-8'))
+        assert earlier['visual_coverage_complete'] is False
         os.environ.pop('TMM_VISUAL_MAX_PAGES',None)
     print('PASS: DOCX, PPTX, PDF extraction smoke tests')
 if __name__=='__main__':main()
