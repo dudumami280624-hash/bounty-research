@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# 2026-11-23: run sparse PDF OCR gate regression with raster_images fixture input (research d6fbbec).
 # 2026-11-23: check per-window unresolved OCR failure accounting (research f6a1f9c).
 # 2026-11-23: run real extraction before regression suite; preserve bounded OCR time.
 # 2026-11-23: distinguish empty initial extraction queue from outstanding OCR page queues (research 89ca416).
