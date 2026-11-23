@@ -53,7 +53,7 @@ def analyze(paths):
             pairs.append({"a": a["name"], "b": b["name"],
                           "token_coverage_a": round(common / len(a["_tokens"]), 4) if a["_tokens"] else None,
                           "token_coverage_b": round(common / len(b["_tokens"]), 4) if b["_tokens"] else None,
-                          "normalized_text_identical": a["normalized_sha256"] == b["normalized_sha256"]})
+                          "normalized_text_identical": (a["characters"] > 0 and b["characters"] > 0\n                                                        and a["normalized_sha256"] == b["normalized_sha256"])})
     for r in records:
         del r["_tokens"]
     return {"sources": records, "pairs": pairs, "visual_reviewed": False, "fact_verified": False,
