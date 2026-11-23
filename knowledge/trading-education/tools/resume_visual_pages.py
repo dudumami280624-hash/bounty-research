@@ -167,7 +167,9 @@ def interleave_visual_work(entries, files):
         retries=[e for e in group if due(e)]
         unfinished=[e for e in group if not due(e) and (
             not files[e['sha']].get('visual_page_audit',{}).get('coverage_complete',False)
-            or files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)<2)]
+            or files[e['sha']].get('visual_page_audit',{}).get('scanner_revision',0)<2
+            or (files[e['sha']].get('visual_page_audit',{}).get('ocr_failures_without_page_locations')
+                and not files[e['sha']].get('visual_page_audit',{}).get('legacy_reaudit_started')))]
         while unfinished or retries:
             for _ in range(2):
                 if unfinished: ordered.append(unfinished.pop(0))
