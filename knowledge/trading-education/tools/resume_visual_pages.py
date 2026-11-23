@@ -316,6 +316,14 @@ def main():
         completed+=1
     pdf_audits=[v['visual_page_audit'] for v in files.values() if 'visual_page_audit' in v]
     covered=sum(a.get('coverage_complete',False) for a in pdf_audits)
+    # Scanner revision 2 re-audits reset coverage_complete until the new pass finishes.
+    # Report these separately so a falling covered count is not mistaken for lost page evidence.
+    reauditing=sum(bool(a.get('scanner_reaudit_in_progress') or a.get('legacy_reaudit_started'))
+                   and not a.get('coverage_complete',False) for a in pdf_audits)
+    stale_complete=sum(bool(a.get('coverage_complete')) and a.get('scanner_revision',0)<2
+                       for a in pdf_audits)
+    current_revision_complete=sum(bool(a.get('coverage_complete')) and a.get('scanner_revision',0)>=2
+                                  for a in pdf_audits)
     blocked=sum(a.get('attempts',0)>=3 for a in pdf_audits)
     ocr_incomplete=sum(a.get('coverage_complete') and not a.get('ocr_complete',False) for a in pdf_audits)
     actual_ocr_success=sum(sum(bool(p.get('ocr_actual_success')) for p in a.get('page_evidence',{}).values()) for a in pdf_audits)
@@ -324,6 +332,10 @@ def main():
         '# PDF page-level visual coverage (not semantic verification)\n\n'
         +f'- PDF files with tracked visual audit: {len(pdf_audits)}\n'
         +f'- Page coverage complete: {covered}\n'
+        +f'- Coverage complete on current scanner revision: {current_revision_complete}\n'
+        +f'- Legacy coverage complete awaiting re-audit: {stale_complete}\n'
+        +f'- Re-audit in progress (not counted complete): {reauditing}\n'
+        +'- Note: re-audit resets the completion flag until every page is revisited; earlier page hashes remain recorded.\n'
         +f'- Windows attempted this run: {completed}\n'
         +f'- Repeated failures cooling down for automatic retry: {blocked}\n'
         +f'- Page coverage finished but OCR incomplete: {ocr_incomplete}\n'
