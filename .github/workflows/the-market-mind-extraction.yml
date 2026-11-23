@@ -127,6 +127,8 @@ jobs:
         run: python knowledge/trading-education/tools/test_page_text_fingerprint.py
       - name: Verify embedded PDF text is not mislabeled OCR (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_text_origin_evidence.py
+      - name: Verify failed raster OCR locator resolution (production function, synthetic metadata)
+        run: python knowledge/trading-education/tools/test_ocr_failed_locator_resolution.py
       - name: Verify successful OCR evidence survives transient retry failure (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_preserve_ocr_evidence.py
       - name: Verify durable PDF page evidence checkpoints (synthetic fixture only)
