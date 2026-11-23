@@ -65,6 +65,7 @@ def retain_page_evidence(audit, observations):
             'ocr_actually_performed':bool(observation.get('ocr_performed',False)),
             'ocr_actual_success':bool(observation.get('ocr_performed',False) and observation.get('ocr_success',False)),
             'embedded_text_available':observation.get('text_origin')=='embedded_pdf_text',
+            'visually_blank_no_ocr_needed':bool(observation.get('visually_blank_no_ocr_needed',False)),
             'text_origin':observation.get('text_origin','legacy_unknown'),
             'ocr_performed':observation.get('ocr_performed'),
             'ocr_text_characters':int(observation.get('ocr_text_characters',0)),
@@ -83,7 +84,15 @@ def page_ocr_resolved(observation, previous):
     text_only=bool(observation.get('text_origin')=='embedded_pdf_text'
                    and not observation.get('raster_with_embedded_text_ocr_needed')
                    and not observation.get('ocr_performed'))
-    return actual_success or preserved or text_only
+    # Only truly empty pages (no text, raster or vector marks) can be resolved
+    # without OCR. An image-only K-line chart with empty OCR stays in retry.
+    blank=bool(observation.get('visually_blank_no_ocr_needed') and
+               observation.get('text_origin')=='visually_blank_page' and
+               not observation.get('ocr_performed') and
+               observation.get('image_objects')==0 and
+               observation.get('vector_drawings')==0 and
+               observation.get('embedded_text_characters')==0)
+    return actual_success or preserved or text_only or blank
 
 def update_page_retry_cooldowns(audit, observations, failed, now):
     """Per-page retry schedule; successful OCR clears its own cooldown."""
