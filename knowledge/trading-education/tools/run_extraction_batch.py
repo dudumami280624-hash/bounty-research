@@ -384,6 +384,13 @@ def main():
     completed_audits=sum(bool(a.get('coverage_complete')) for a in pdf_audits)
     pending_ocr_pages=sum(sum(bool(p.get('ocr_needed')) for p in a.get('page_evidence',{}).values())
                           for a in pdf_audits)
+    visual_audits=[v['visual_page_audit'] for v in files.values()
+                   if isinstance(v.get('visual_page_audit'),dict)]
+    actual_ocr_pages=sum(sum(bool(p.get('ocr_actual_success'))
+                             for p in a.get('page_evidence',{}).values())
+                         for a in visual_audits)
+    visual_covered=sum(bool(a.get('coverage_complete')) for a in visual_audits)
+    visual_ocr_complete=sum(bool(a.get('ocr_complete')) for a in visual_audits)
     REPORT.write_text('# The Market Mind — 178份原件自动处理进度\n\n'
        +f'- 本轮批量处理：{len(processed)}份\n'
        +f'- PDF文字逐页元数据：{len(pdf_audits)}份、{audited_pages}页；覆盖完成{completed_audits}份；待OCR页{pending_ocr_pages}（仅页级标记）\n'
@@ -394,7 +401,9 @@ def main():
        +f'- PDF文字逐页审计未完成源（包含尚未建档）：{stage_counts["text_page_audit_unfinished"]}份\n'
        +f'- 已提取文字状态（非完整提取验收）：{counts["extracted"]}/178\n'
        +f'- 逐页文字证据尚未覆盖完的PDF：{len(pdf_audits)-completed_audits}份（仅已建档PDF）\n'
-       +f'- 待OCR页面标记：{pending_ocr_pages}页；已确认完成OCR全文验收：0份\n'
+       +f'- 待OCR页面标记（文字审计队列，不等于当前失败数）：{pending_ocr_pages}页\n'
+       +f'- 真实OCR成功页面证据：{actual_ocr_pages}页；视觉逐页覆盖完成：{visual_covered}/{len(visual_audits)}份；视觉OCR队列完成：{visual_ocr_complete}份（均非语义或全文验收）\n'
+       +'- 独立人工全文OCR验收：0份（自动OCR完成不得冒充人工验收）\n'
        +f'- OCR不完整待重试：{counts["partial_ocr_failure"]}\n'
        +f'- 需视觉复核：{counts["needs_visual_review"]}\n'
        +f'- 需旧格式转换：{counts["needs_conversion"]}\n'
