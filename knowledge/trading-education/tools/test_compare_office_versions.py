@@ -28,7 +28,7 @@ def main():
         assert len(report["pairs"]) == 3
         assert all(pair["normalized_text_identical"] for pair in report["pairs"])
         assert all(pair["token_coverage_a"] == 1 for pair in report["pairs"])
-        assert report["visual_reviewed"] is False
+        # Empty/graphics-only Office files must not be labelled text-identical.\n        empty1, empty2 = root / "empty1.docx", root / "empty2.docx"\n        make(empty1, "word/document.xml", word.replace("十字星 ABC", ""))\n        make(empty2, "word/document.xml", word.replace("十字星 ABC", ""))\n        empty_report = analyze([empty1, empty2])\n        assert empty_report["sources"][0]["characters"] == 0\n        assert empty_report["pairs"][0]["normalized_text_identical"] is False\n        assert empty_report["pairs"][0]["token_coverage_a"] is None\n        assert report["visual_reviewed"] is False
         assert report["fact_verified"] is False
     print("Synthetic Office comparison checks passed")
 
