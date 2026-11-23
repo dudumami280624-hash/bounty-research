@@ -180,7 +180,7 @@ jobs:
           TMM_VISUAL_MAX_PAGES: '12'
           TMM_OCR_PAGE_TIMEOUT_SECONDS: '12'
           TMM_VISUAL_AUDIT_BUDGET_SECONDS: '540'
-          TMM_VISUAL_WINDOWS_PER_RUN: '24'
+          TMM_VISUAL_WINDOWS_PER_RUN: '48'
         run: python knowledge/trading-education/tools/resume_visual_pages.py
       - name: Verify out-of-range persisted OCR page IDs do not strand valid retries (synthetic only)
         run: python knowledge/trading-education/tools/test_retry_page_bounds.py
