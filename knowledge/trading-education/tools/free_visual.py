@@ -2,7 +2,7 @@
 """Free offline visual inspection using PyMuPDF and Tesseract.
 Produces page-image evidence and OCR; does NOT claim semantic chart understanding.
 """
-import hashlib, json, shutil, subprocess, tempfile, os, re
+import hashlib, json, shutil, subprocess, tempfile, os, re, time
 from pathlib import Path
 
 def inspect_pdf(pdf_path, output, start_page=0):
@@ -65,6 +65,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
             record['ocr_performed']=True
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
+                ocr_started=time.monotonic()
                 try:
                     proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
                         capture_output=True,text=True,timeout=ocr_timeout)
@@ -72,6 +73,21 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     record['ocr_success']=False
                     record['ocr_error']=f'OCR timed out after {ocr_timeout} seconds'
                     proc=None
+                # Sparse chart labels often need Tesseract sparse-text mode (PSM 11).
+                # Retry only a successful-but-empty default OCR, and share the same
+                # per-page deadline; never double the worst-case timeout.
+                if proc is not None and proc.returncode==0 and not proc.stdout.strip():
+                    remaining=ocr_timeout-(time.monotonic()-ocr_started)
+                    if remaining>=1:
+                        try:
+                            alternate=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang,'--psm','11'],
+                                capture_output=True,text=True,timeout=remaining)
+                            record['ocr_sparse_mode_attempted']=True
+                            if alternate.returncode==0 and alternate.stdout.strip():
+                                proc=alternate
+                                record['ocr_sparse_mode_recovered']=True
+                        except subprocess.TimeoutExpired:
+                            record['ocr_sparse_mode_timed_out']=True
                 if proc is not None:
                     record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
                     record['ocr_success']=proc.returncode==0 and bool(proc.stdout.strip())
