@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# 2026-11-23: validate strict rendered-page evidence hashes before checkpoint (research 2976f573).
 # 2026-11-23: validate corrected last-page visual coverage fixture (research dac73789).
 # 2026-11-23: validate elapsed-time OCR windows and faster selectable-text traversal (research c82dc2e).
 # 2026-11-23: validate bounded sparse-text Tesseract OCR fallback (research 65001f8).
