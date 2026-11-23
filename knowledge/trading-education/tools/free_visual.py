@@ -33,7 +33,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
                 'status':'visual_features_extracted_unverified',
                 'document_total_pages':total_pages,
                 'visual_sample_limit':max_pages,
-                'visual_coverage_complete':start_page+max_pages>=total_pages,
+                'visual_coverage_complete':False,
                 'visual_window_start':start_page}
         embedded_text=page.get_text('text').strip()
         record['embedded_text_characters']=len(embedded_text)
@@ -110,6 +110,12 @@ def inspect_pdf(pdf_path, output, start_page=0):
         record['chart_semantics_verified']=False
         (out/f'page-{index+1:04}.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
         result.append(record)
+    # The elapsed-time budget may end a window before max_pages is reached.
+    # Completion must reflect the last page actually written, not the requested window.
+    if result:
+        result[-1]['visual_coverage_complete'] = result[-1]['page'] >= total_pages
+        last_path = out / f"page-{result[-1]['page']:04}.json"
+        last_path.write_text(json.dumps(result[-1], ensure_ascii=False, indent=2) + '\n')
     doc.close()
     return result
 
