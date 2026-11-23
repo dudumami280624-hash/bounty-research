@@ -47,6 +47,15 @@ def validate_visual_window(observations, start):
     actual=[x.get('page') for x in observations]
     if actual!=expected:
         raise RuntimeError(f'Noncontiguous visual page observations: expected {expected}, got {actual}')
+    # A corrupt/partial renderer response must never advance persistent checkpoints.
+    # Source hashes are evidence locators; missing or inconsistent metadata cannot
+    # be treated as successful visitation of an original textbook page.
+    for observation in observations:
+        if observation.get('document_total_pages') != total:
+            raise RuntimeError('Inconsistent PDF total page counts within visual window')
+        digest=observation.get('render_sha256')
+        if not isinstance(digest,str) or len(digest)!=64 or any(c not in '0123456789abcdef' for c in digest):
+            raise RuntimeError(f"Missing or invalid rendered-page SHA-256 for page {observation.get('page')}")
     return total
 
 def retain_page_evidence(audit, observations):
