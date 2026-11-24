@@ -76,7 +76,11 @@ def inspect_pdf(pdf_path, output, start_page=0):
                 ocr_started=time.monotonic()
                 # Reserve time for a different segmentation strategy even when
                 # the first invocation times out. Both attempts share one deadline.
-                first_budget=ocr_timeout if ocr_timeout<3 else ocr_timeout*0.65
+                # Reserve part of the page budget for the independent engine when enabled.
+                tesseract_budget=ocr_timeout
+                if os.environ.get('TMM_RAPIDOCR_FALLBACK') == '1' and ocr_timeout>=8:
+                    tesseract_budget=ocr_timeout*0.6
+                first_budget=tesseract_budget if tesseract_budget<3 else tesseract_budget*0.65
                 proc=None
                 try:
                     proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
@@ -86,7 +90,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
                     record['ocr_success']=False
                     record['ocr_error']='Default OCR timed out'
                 if proc is None or proc.returncode!=0 or not proc.stdout.strip():
-                    remaining=ocr_timeout-(time.monotonic()-ocr_started)
+                    remaining=tesseract_budget-(time.monotonic()-ocr_started)
                     if remaining>=1:
                         record['ocr_sparse_mode_attempted']=True
                         try:
@@ -119,6 +123,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
         if (not record.get('ocr_success') and not record.get('visually_blank_no_ocr_needed')
                 and os.environ.get('TMM_RAPIDOCR_FALLBACK') == '1'):
             remaining=window_budget-(time.monotonic()-window_started)-3
+            if remaining<3:
+                record['rapidocr_error']='insufficient_window_budget'
             if remaining>=3:
                 record['rapidocr_attempted']=True
                 try:
@@ -135,6 +141,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
                                     ocr_text_characters=len(value),
                                     text_sha256=hashlib.sha256(value.encode('utf-8')).hexdigest(),
                                     ocr_error='')
+                            else:
+                                record['rapidocr_error']='no_text_returned'
                         else:
                             record['rapidocr_error']='nonzero_exit_'+str(p.returncode)
                 except (subprocess.TimeoutExpired, ValueError, IndexError, OSError) as exc:
