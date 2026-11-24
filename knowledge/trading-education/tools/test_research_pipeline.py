@@ -73,12 +73,17 @@ def main():
                 def fake_run(args,**kwargs):
                     if '--list-langs' in args:
                         return type('R',(),{'stdout':'eng','returncode':0,'stderr':''})()
-                    calls.append(kwargs.get('timeout'))
+                    calls.append((kwargs.get('timeout'), '--psm' in args))
                     raise fv.subprocess.TimeoutExpired(args,kwargs.get('timeout'))
                 fv.subprocess.run=fake_run
                 timed=inspect_pdf(timeout_pdf,root/'ocr-timeout')
-                assert calls==[3,3] and all(not row['ocr_success'] for row in timed)
-                assert all('3 seconds' in row['ocr_error'] for row in timed)
+                assert len(timed)==2 and len(calls)==4
+                for default, alternate in zip(calls[::2], calls[1::2]):
+                    assert not default[1] and alternate[1]
+                    assert 0 < default[0] < 3 and 0 < alternate[0] <= 3
+                assert all(not row['ocr_success'] and row['ocr_default_mode_timed_out']
+                           and row['ocr_sparse_mode_timed_out'] for row in timed)
+                assert all('timed out' in row['ocr_error'] for row in timed)
             finally:
                 fv.subprocess.run=old_run
                 fv.shutil.which=old_which
