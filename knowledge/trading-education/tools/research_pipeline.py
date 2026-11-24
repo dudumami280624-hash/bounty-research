@@ -71,7 +71,18 @@ def build_knowledge(evidence_dir, output):
     result={'schema_version':1,'topics':{},'verified_claims':0,
       'notice':'Keyword mentions are NOT facts. No contradictions resolved or claims verified.'}
     for topic,items in sorted(by_topic.items()):
-        unique={x['source_sha']:x for x in items if x['source_sha']}
+        unique={}
+        for x in items:
+            sha=x.get('source_sha')
+            if not sha: continue
+            if sha not in unique:
+                unique[sha]=dict(x, locations=[])
+            seen={json.dumps(v,sort_keys=True,ensure_ascii=False) for v in unique[sha]['locations']}
+            for loc in x.get('locations',[]):
+                key=json.dumps(loc,sort_keys=True,ensure_ascii=False)
+                if key not in seen:
+                    unique[sha]['locations'].append(loc)
+                    seen.add(key)
         result['topics'][topic]={'sources':list(unique.values()),'claims':[],
           'status':'needs_independent_fact_check','contradictions_resolved':False}
     Path(output).parent.mkdir(parents=True,exist_ok=True)
