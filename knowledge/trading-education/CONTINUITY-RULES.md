@@ -227,3 +227,7 @@ Updated: 2026-11-22. This is a project handoff document, not a claim that any ta
 
 ## 2026-11-24 — Owner's original course authorship and internal accuracy checks
 The Market Mind is the owner's original educational project. The 178 reference materials are research inputs, not the authorship or structure of the final course. Independent factual checks concern numerical calculations, market data, and factual claims, not proof of the owner's originality. Keep internal review evidence separate from public-facing course prose. Do not add verification labels or source lists to every original opinion or explanation; cite specific external facts, data, or attributed ideas where appropriate. Create independent lesson structures, original English explanations and examples, and original charts from appropriate market data. Never claim unsupported facts are verified. No publication without explicit authorization.
+
+
+## Execution architecture — ChatGPT research, GitHub processing
+GitHub Actions handles deterministic extraction, OCR, indexing and regression tests. ChatGPT performs original course writing and independent research directly through its available tools, without requiring a paid API key. Run these tracks concurrently; incomplete extraction is not a global writing gate. Inspect actual accessible evidence, distinguish illustrative examples from real market observations, and record inaccessible inputs honestly. Save substantive research and original drafts on the authorized branch; never publish externally without permission.
