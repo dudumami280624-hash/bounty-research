@@ -71,6 +71,8 @@ def inspect_pdf(pdf_path, output, start_page=0):
             record['ocr_performed']=True
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
+                ocr_env=dict(os.environ)
+                ocr_env.setdefault('OMP_THREAD_LIMIT','1')
                 ocr_started=time.monotonic()
                 # Reserve time for a different segmentation strategy even when
                 # the first invocation times out. Both attempts share one deadline.
@@ -78,7 +80,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
                 proc=None
                 try:
                     proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
-                        capture_output=True,text=True,timeout=first_budget)
+                        capture_output=True,text=True,timeout=first_budget,env=ocr_env)
                 except subprocess.TimeoutExpired:
                     record['ocr_default_mode_timed_out']=True
                     record['ocr_success']=False
@@ -89,7 +91,7 @@ def inspect_pdf(pdf_path, output, start_page=0):
                         record['ocr_sparse_mode_attempted']=True
                         try:
                             alternate=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang,'--psm','11'],
-                                capture_output=True,text=True,timeout=remaining)
+                                capture_output=True,text=True,timeout=remaining,env=ocr_env)
                             if alternate.returncode==0 and alternate.stdout.strip():
                                 proc=alternate
                                 record['ocr_sparse_mode_recovered']=True
