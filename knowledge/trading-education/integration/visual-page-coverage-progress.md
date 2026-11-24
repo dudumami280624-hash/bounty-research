@@ -6,11 +6,11 @@
 - Legacy coverage complete awaiting re-audit: 0
 - Re-audit in progress (not counted complete): 0
 - Note: re-audit resets the completion flag until every page is revisited; earlier page hashes remain recorded.
-- Windows attempted this run: 28
+- Windows attempted this run: 29
 - Repeated failures cooling down for automatic retry: 0
-- Page coverage finished but OCR incomplete: 14
-- Actual OCR success pages (new evidence only): 2290
-- Independent RapidOCR recovered pages: 0
-- Embedded-text pages (new evidence only, not OCR): 4575
+- Page coverage finished but OCR incomplete: 13
+- Actual OCR success pages (new evidence only): 2334
+- Independent RapidOCR recovered pages: 3
+- Embedded-text pages (new evidence only, not OCR): 4779
 - Chart semantics independently verified: 0 (not performed by this scanner)
 - Source page hashes and positions only; no copyrighted pages or OCR excerpts.
