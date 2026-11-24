@@ -115,6 +115,30 @@ def inspect_pdf(pdf_path, output, start_page=0):
                 else 'embedded_sparse_ocr_unavailable' if sparse_embedded else 'none')
             record['ocr_performed']=False
             record['ocr_error']='Tesseract unavailable'
+        # Independent CPU OCR fallback; bounded subprocess, no source text persisted.
+        if (not record.get('ocr_success') and not record.get('visually_blank_no_ocr_needed')
+                and os.environ.get('TMM_RAPIDOCR_FALLBACK') == '1'):
+            remaining=window_budget-(time.monotonic()-window_started)-3
+            if remaining>=3:
+                record['rapidocr_attempted']=True
+                try:
+                    with tempfile.TemporaryDirectory() as td:
+                        image=Path(td)/'page.png';image.write_bytes(png)
+                        script="import sys,json; from rapidocr_onnxruntime import RapidOCR; rows,_=RapidOCR()(sys.argv[1]); print(json.dumps([r[1] for r in (rows or [])]))"
+                        p=subprocess.run([__import__('sys').executable,'-c',script,str(image)],
+                            capture_output=True,text=True,timeout=min(20,remaining))
+                        if p.returncode==0:
+                            value=' '.join(json.loads(p.stdout.splitlines()[-1])).strip()
+                            if value:
+                                record.update(ocr_success=True,ocr_performed=True,
+                                    text_origin='rapidocr_unverified',ocr_engine='rapidocr_onnxruntime',
+                                    ocr_text_characters=len(value),
+                                    text_sha256=hashlib.sha256(value.encode('utf-8')).hexdigest(),
+                                    ocr_error='')
+                        else:
+                            record['rapidocr_error']='nonzero_exit_'+str(p.returncode)
+                except (subprocess.TimeoutExpired, ValueError, IndexError, OSError) as exc:
+                    record['rapidocr_error']=type(exc).__name__
         record['chart_candidate']=bool(record['vector_drawings']>=12 or record['image_objects']>0)
         record['chart_semantics_verified']=False
         (out/f'page-{index+1:04}.json').write_text(json.dumps(record,ensure_ascii=False,indent=2)+'\n')
