@@ -33469,6 +33469,14 @@
         },
         "ocr_page_retry_after_utc": {},
         "last_advanced_utc": "2026-11-24T10:21:34.093386+00:00"
+      },
+      "pdf_text_page_audit": {
+        "next_page": 0,
+        "total_pages": null,
+        "page_evidence": {},
+        "coverage_complete": false,
+        "last_error": "HTTP Error 504: Gateway Timeout",
+        "retry_after_utc": "2026-11-24T22:10:50.044354+00:00"
       }
     },
     "852b49fa9d5d1fe6ff2daeb3e5ce68d247cabcbb": {
@@ -69128,6 +69136,135 @@
           ]
         },
         "scanner_revision": 2
+      },
+      "pdf_text_page_audit": {
+        "next_page": 12,
+        "total_pages": 107,
+        "page_evidence": {
+          "1": {
+            "source_page": 1,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "7e6ac2b551fac7e51bbebebb39ac700edb453bcfcdaa0c862d474a7c7a64b61a",
+            "embedded_text_chars": 362,
+            "embedded_meaningful_chars": 336,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "2": {
+            "source_page": 2,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "8a73be2d515fd290a268bef4bf39098d63a1917b955416b6c297432d5d0b88c8",
+            "embedded_text_chars": 409,
+            "embedded_meaningful_chars": 379,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "3": {
+            "source_page": 3,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "547a3c28e1dd4dd78c6351a238afed53d4a6ea626b956c7a6ec986ca85db4eec",
+            "embedded_text_chars": 413,
+            "embedded_meaningful_chars": 380,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "4": {
+            "source_page": 4,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "9f0c3b8a4397a0e790ef7d8225e1e1c1f6df1a530e6bf89e8d4a688bd4334b7b",
+            "embedded_text_chars": 423,
+            "embedded_meaningful_chars": 391,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "5": {
+            "source_page": 5,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "da6bd770bda3041ce1a3b6c9ce871377721a7869fcf7d69a11d9444fc36085d1",
+            "embedded_text_chars": 471,
+            "embedded_meaningful_chars": 432,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "6": {
+            "source_page": 6,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "8eef08380d1436745772a6ababcf17e4883d56eb922f3ea76b6af289e95d22ed",
+            "embedded_text_chars": 417,
+            "embedded_meaningful_chars": 383,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "7": {
+            "source_page": 7,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "4329c33bbe2789b8e43c5a706382db3a752b1e5b942339d9b4e2c6cd38f985f7",
+            "embedded_text_chars": 392,
+            "embedded_meaningful_chars": 354,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "8": {
+            "source_page": 8,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "c3e48a6c26b11cd8db4b4e76ba0561ee96ef12de75084d9d65cfd577c03a313d",
+            "embedded_text_chars": 381,
+            "embedded_meaningful_chars": 348,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "9": {
+            "source_page": 9,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "e642b27806f591bf775fe95536f7c004ad1beb79278b91cd7d6f0d687c7a4c10",
+            "embedded_text_chars": 424,
+            "embedded_meaningful_chars": 393,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "10": {
+            "source_page": 10,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "70482b6702b1da373ce27cd84540127afab6d14184858719ad4206f3e1f41fd9",
+            "embedded_text_chars": 433,
+            "embedded_meaningful_chars": 399,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "11": {
+            "source_page": 11,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "d590791889f3618e52af0c3fa75d89671b88be06f43eb06c20267d4bff52b967",
+            "embedded_text_chars": 424,
+            "embedded_meaningful_chars": 388,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          },
+          "12": {
+            "source_page": 12,
+            "text_origin": "embedded_pdf_text",
+            "embedded_text_sha256": "890e21b765ea95c1dfa6ffdea8d9c181accbfb6693b897f8476568e48f430777",
+            "embedded_text_chars": 423,
+            "embedded_meaningful_chars": 392,
+            "raster_image_objects": 0,
+            "ocr_needed": false,
+            "verified": false
+          }
+        },
+        "coverage_complete": false,
+        "source_sha256": "f03552c0edff554f6442e2834d5822af02b2fffc354af6ad7a7094db9cc86d63",
+        "last_advanced_utc": "2026-11-24T16:10:38.732487+00:00"
       }
     },
     "57af4f508093c400dd10ff947296b3d61c64340e": {
@@ -115755,6 +115892,135 @@
           ]
         },
         "scanner_revision": 2
+      },
+      "pdf_text_page_audit": {
+        "next_page": 12,
+        "total_pages": 22,
+        "page_evidence": {
+          "1": {
+            "source_page": 1,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "7a50fbc4f5499a6cec5206f6b2885c02d5d3393f524eefe32aba1c32cb360cd9",
+            "embedded_text_chars": 25,
+            "embedded_meaningful_chars": 23,
+            "raster_image_objects": 3,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "2": {
+            "source_page": 2,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "8b2d9e2fc62355bfff0490476cc3681eac1dbeb6fa9c58a6795b6758ac0fc7f7",
+            "embedded_text_chars": 81,
+            "embedded_meaningful_chars": 71,
+            "raster_image_objects": 4,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "3": {
+            "source_page": 3,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "51724b6816146a6abcd473e4385cd74706ee2dc0503a67d3f9ec815331124c20",
+            "embedded_text_chars": 22,
+            "embedded_meaningful_chars": 20,
+            "raster_image_objects": 1,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "4": {
+            "source_page": 4,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "cdfcda795c587dd99d4c234d31e78ffb9cbe9e6b29897d66b8fbd79d5f03bd05",
+            "embedded_text_chars": 247,
+            "embedded_meaningful_chars": 239,
+            "raster_image_objects": 2,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "5": {
+            "source_page": 5,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "9dd819f24b04b6a719e683cbf2db233e99c13fff80b3e3130bf8c22ebed7bc13",
+            "embedded_text_chars": 317,
+            "embedded_meaningful_chars": 308,
+            "raster_image_objects": 1,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "6": {
+            "source_page": 6,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "8f28f8be3925ac833dcee924f6bcf95647d16e646917f694add8862c9d398517",
+            "embedded_text_chars": 298,
+            "embedded_meaningful_chars": 274,
+            "raster_image_objects": 1,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "7": {
+            "source_page": 7,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "f807651c45b3f749da2fee4817d66405e4900bf81f709f996ac5c71ce8f679ec",
+            "embedded_text_chars": 70,
+            "embedded_meaningful_chars": 68,
+            "raster_image_objects": 2,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "8": {
+            "source_page": 8,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "af3ad67d6d144506f5f1e066b07532ff2ad5bf178900bcd172ef6f7bb585b273",
+            "embedded_text_chars": 141,
+            "embedded_meaningful_chars": 137,
+            "raster_image_objects": 2,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "9": {
+            "source_page": 9,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "c3dfb704eefc42dee1904bb15dad745911f7d2565f95403b1ba31f46e8bc5b61",
+            "embedded_text_chars": 20,
+            "embedded_meaningful_chars": 19,
+            "raster_image_objects": 1,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "10": {
+            "source_page": 10,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "a15a2e11d3c1f0304e2012cc02a84ff91d8cc9c23c2465429a9f54d0ad7c4d81",
+            "embedded_text_chars": 265,
+            "embedded_meaningful_chars": 256,
+            "raster_image_objects": 2,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "11": {
+            "source_page": 11,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "b69b811f0ea891cfb2a5ef95db040b168770c328147c38080aed82ddf303d7e4",
+            "embedded_text_chars": 154,
+            "embedded_meaningful_chars": 143,
+            "raster_image_objects": 1,
+            "ocr_needed": true,
+            "verified": false
+          },
+          "12": {
+            "source_page": 12,
+            "text_origin": "embedded_sparse_unverified",
+            "embedded_text_sha256": "8fb73da0b48b21149cc6133089d3d5354926ca9da8033a8ebe1cfd77437686af",
+            "embedded_text_chars": 318,
+            "embedded_meaningful_chars": 302,
+            "raster_image_objects": 1,
+            "ocr_needed": true,
+            "verified": false
+          }
+        },
+        "coverage_complete": false,
+        "source_sha256": "0fac0d42ebb8d9daafcdf63351ff8dd8e76ead28eb7aabbd6523dc131de66ec4",
+        "last_advanced_utc": "2026-11-24T16:10:50.988492+00:00"
       }
     },
     "3ed9c71d072ac96bd6a82794ee5f2dae45f6f15b": {
