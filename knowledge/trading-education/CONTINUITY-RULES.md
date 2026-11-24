@@ -231,3 +231,7 @@ The Market Mind is the owner's original educational project. The 178 reference m
 
 ## Execution architecture — ChatGPT research, GitHub processing
 GitHub Actions handles deterministic extraction, OCR, indexing and regression tests. ChatGPT performs original course writing and independent research directly through its available tools, without requiring a paid API key. Run these tracks concurrently; incomplete extraction is not a global writing gate. Inspect actual accessible evidence, distinguish illustrative examples from real market observations, and record inaccessible inputs honestly. Save substantive research and original drafts on the authorized branch; never publish externally without permission.
+
+
+## Confirmed file discovery (2026-11-24)
+The actual research catalog is `integration/research-catalog.json`; source evidence index is `integration/evidence-index/` as specified by the main workflow `.github/workflows/the-market-mind-extraction.yml`. Confirmed catalog read succeeded and contains ten topics. On 404 inspect workflow commands and production output paths instead of repeating guessed paths. Visual progress is `integration/visual-page-coverage-progress.md`; run locator is `integration/actions-run-locator.json`. Catalog keyword locations are not inspected source passages. Latest confirmed run 45373770237 passed; no newer run established here.
