@@ -153,6 +153,10 @@ jobs:
           command -v libreoffice && libreoffice --version || true
       - name: Install PDF text and image parser
         run: python -m pip install --disable-pip-version-check pymupdf pillow
+      - name: Install optional independent CPU OCR fallback
+        timeout-minutes: 4
+        run: |
+          python -m pip install --disable-pip-version-check 'rapidocr-onnxruntime==1.4.4' || echo 'RapidOCR install failed; fallback remains unavailable'
       # Research f938155: report real page-audit metadata separately from OCR completion.
       # Test failures must be visible, but should not starve real source processing.
       # Extraction is independently bounded and retains unverified status.
@@ -183,6 +187,7 @@ jobs:
           TMM_OCR_PAGE_TIMEOUT_SECONDS: '12'
           TMM_VISUAL_AUDIT_BUDGET_SECONDS: '540'
           TMM_VISUAL_WINDOWS_PER_RUN: '48'
+          TMM_RAPIDOCR_FALLBACK: '1'
         run: python knowledge/trading-education/tools/resume_visual_pages.py
       - name: Reject missing page evidence before declaring OCR queue complete (synthetic regression)
         run: python knowledge/trading-education/tools/test_verified_ocr_page_coverage.py
