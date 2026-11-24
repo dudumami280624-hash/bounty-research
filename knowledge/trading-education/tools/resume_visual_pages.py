@@ -439,7 +439,6 @@ def main():
         +f'- Embedded-text pages (new evidence only, not OCR): {embedded_text_pages}\n'
         +'- Chart semantics independently verified: 0 (not performed by this scanner)\n'
         +'- Source page hashes and positions only; no copyrighted pages or OCR excerpts.\n',encoding='utf-8')
-    refresh_extraction_visual_summary(ROOT/'integration/latest-extraction-report.md', files, inventory(INDEX.read_text(encoding='utf-8')))
     report_path=ROOT/'integration/latest-extraction-report.md'
     if report_path.exists():
         report_path.write_text(refresh_extraction_visual_summary(report_path.read_text(encoding='utf-8'),files,entries),encoding='utf-8')
