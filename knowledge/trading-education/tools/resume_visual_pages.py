@@ -258,7 +258,14 @@ def refresh_extraction_visual_summary(report, files, entries):
     failures=sum(len(r.get('visual_page_audit',{}).get('ocr_failed_page_numbers') or [])
                  for r in eligible)
     replacements=[
-        (r'^- 视觉页面覆盖未完成源：.*    state=json.loads(STATE.read_text(encoding='utf-8'))
+        (r'^- 视觉页面覆盖未完成源：.*$',f'- 视觉页面覆盖未完成源：{unfinished}份；视觉OCR失败页定位记录：{failures}条'),
+        (r'^- 真实OCR成功页面证据：.*$',f'- 真实OCR成功页面证据：{successes}页；视觉逐页覆盖完成：{covered}/{len(audits)}份；视觉OCR队列完成：{complete}份（均非语义或全文验收）')]
+    for pattern, value in replacements:
+        report=re.sub(pattern,lambda _:value,report,flags=re.M)
+    return report
+
+def main():
+    state=json.loads(STATE.read_text(encoding='utf-8'))
     files=state['files']
     entries=[e for e in inventory(INDEX.read_text(encoding='utf-8'))
              if e['name'].lower().endswith('.pdf') and
@@ -433,6 +440,9 @@ def refresh_extraction_visual_summary(report, files, entries):
         +'- Chart semantics independently verified: 0 (not performed by this scanner)\n'
         +'- Source page hashes and positions only; no copyrighted pages or OCR excerpts.\n',encoding='utf-8')
     refresh_extraction_visual_summary(ROOT/'integration/latest-extraction-report.md', files, inventory(INDEX.read_text(encoding='utf-8')))
+    report_path=ROOT/'integration/latest-extraction-report.md'
+    if report_path.exists():
+        report_path.write_text(refresh_extraction_visual_summary(report_path.read_text(encoding='utf-8'),files,entries),encoding='utf-8')
     print(json.dumps({'windows_attempted':completed,'page_coverage_only':True}))
 
 if __name__=='__main__': main()
