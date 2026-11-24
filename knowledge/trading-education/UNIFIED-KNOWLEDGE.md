@@ -8,6 +8,12 @@
 - [股市心理与历史资料来源库](../market-psychology/README.md)：登记19份PDF来源及提取状态；[提取文本目录](../market-psychology/text/)包含部分实际可读取正文；[证据卡索引](../market-psychology/evidence-cards/INDEX.md)列有16张研究卡。19份PDF的登记不等于19份原PDF都在仓库。
 - [《交易心理分析》书目核对](../market-psychology/TRADING_PSYCHOLOGY_ANALYSIS.md)：确认为Mark Douglas的《Trading in the Zone》，但此条是书目与主题登记，不能当成整本书全文。
 
+## 当前178份研究范围
+
+- [178份研究来源清单](integration/source-inventory-178-2026-11-20.md)：当前研究范围；上文98份为历史批次，不是当前总量。
+- [最新提取报告](integration/latest-extraction-report.md)：以最新报告为准，提取状态、OCR覆盖与逐页审核分别统计。
+- [课程发布台账](x-articles/ARTICLE-LEDGER.md)：用于课程编号和发布状态核对。
+
 ## 按知识主题融合调用
 
 |统一主题|技术课件来源|心理/历史来源|应用时如何融合|
