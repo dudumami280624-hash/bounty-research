@@ -1,4 +1,5 @@
 name: The Market Mind - hourly source extraction
+# Revalidate two-stage timeout regression after run 45335976638.
 # Validate bounded OCR fallback after timeout (research 3a16e9d4).
 # Pin Ubuntu 24.04: ubuntu-latest resolved to 26.04 and apt OCR install timed out (run 45244335184).
 # 2026-11-24: validate pruning impossible persisted OCR failure locators (research 9bf75a72).
