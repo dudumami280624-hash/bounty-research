@@ -49,6 +49,43 @@ def download_blob(sha, timeout_seconds=180):
         raise ValueError('Git LFS pointer requires separate authenticated LFS download')
     return blob
 
+def numeric_research_bridge(blocks, source_sha):
+    """Export only labeled OHLC numerical observations, never source prose."""
+    labels={'open':r'(?:开盘价|开盘|open(?:ing)?(?: price)?)',
+            'high':r'(?:最高价|最高|high(?: price)?)',
+            'low':r'(?:最低价|最低|low(?: price)?)',
+            'close':r'(?:收盘价|收盘|clos(?:e|ing)(?: price)?)'}
+    rows=[]
+    for block in blocks:
+        values={}
+        for key,label in labels.items():
+            matches=re.findall(r'(?i)(?<![a-z])'+label+r'\s*[:：=]\s*([0-9]+(?:\.[0-9]+)?)',block.get('text',''))
+            if len(matches)==1: values[key]=float(matches[0])
+        if len(values)!=4: continue
+        if not (0<values['low']<=min(values['open'],values['close'])<=max(values['open'],values['close'])<=values['high']): continue
+        rows.append({'location':block['location'],'ohlc':values,'status':'source_numeric_candidate_unverified'})
+    return {'source_sha':source_sha,'rows':rows,'status':'numeric_only_not_chart_verification'}
+
+def backfill_numeric_bridge(entries):
+    # One small Office source per run; no change to extraction completion flags.
+    dest=ROOT/'integration/numeric-research-bridge'
+    dest.mkdir(parents=True,exist_ok=True)
+    for entry in entries:
+        if not entry['category'].startswith('01-') or not entry['name'].lower().endswith('.docx'): continue
+        output=dest/(entry['sha']+'.json')
+        if output.exists(): continue
+        try:
+            with tempfile.TemporaryDirectory() as td:
+                source=Path(td)/'source.docx'
+                source.write_bytes(download_blob(entry['sha'],timeout_seconds=15))
+                blocks,_,_=ooxml(source,'docx')
+                data=numeric_research_bridge(blocks,entry['sha'])
+                output.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+                print('NUMERIC BRIDGE',entry['sha'],len(data['rows']),flush=True)
+        except Exception as exc:
+            print('NUMERIC BRIDGE ERROR',entry['sha'],str(exc)[:180],flush=True)
+        break
+
 def extract(entry, blob):
     ext=Path(entry['name']).suffix.lower()
     if ext not in ('.pdf','.docx','.pptx','.doc','.ppt'):
@@ -367,6 +404,7 @@ def main():
             if sha in files and 'pdf_text_page_audit' in record:
                 files[sha]['pdf_text_page_audit']=record['pdf_text_page_audit']
     print('PDF TEXT WINDOWS',json.dumps(text_windows,ensure_ascii=False),flush=True)
+    backfill_numeric_bridge(entries)
     status=files[processed[-1]['source_sha']] if processed else {'extraction_status':'initial_extraction_queue_empty'}
     state['schema_version']=2
     STATE.parent.mkdir(parents=True,exist_ok=True)
