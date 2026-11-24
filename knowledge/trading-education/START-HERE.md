@@ -23,6 +23,7 @@
 - Lesson 01、02：已有发布记录，保留已发布原件。
 - Lesson 03：英文编辑稿在 `x-articles/lesson-03-revised-draft-2026-11-20.md`；包含虚构教学算例和真实标普500历史案例，**仍是草稿，未获发布批准**。
 - 教材总研究范围为178份；历史98份技术课件只是其中一个批次，不能与178份总量混为一谈。
+- `source-files/` 当前共182个文件（178份研究清单原件、额外2份PDF及2份Markdown）；2026-11-24重新核对178条文件名及Git blob SHA，缺失和不匹配均为0。详见[目录与178份清单差异核对](inventory/source-files-vs-178-crosscheck-2026-11-22.md)。这不是正文去重或逐页审核结果。
 - 最新提取进度请以 `integration/latest-extraction-report.md` 为准，不沿用本页2026-11-18的旧统计。
 
 ## 实际调用路线
