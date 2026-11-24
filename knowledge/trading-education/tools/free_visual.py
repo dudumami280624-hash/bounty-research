@@ -72,28 +72,35 @@ def inspect_pdf(pdf_path, output, start_page=0):
             with tempfile.TemporaryDirectory() as td:
                 image=Path(td)/'page.png';image.write_bytes(png)
                 ocr_started=time.monotonic()
+                # Reserve time for a different segmentation strategy even when
+                # the first invocation times out. Both attempts share one deadline.
+                first_budget=ocr_timeout if ocr_timeout<3 else ocr_timeout*0.65
+                proc=None
                 try:
                     proc=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang],
-                        capture_output=True,text=True,timeout=ocr_timeout)
+                        capture_output=True,text=True,timeout=first_budget)
                 except subprocess.TimeoutExpired:
+                    record['ocr_default_mode_timed_out']=True
                     record['ocr_success']=False
-                    record['ocr_error']=f'OCR timed out after {ocr_timeout} seconds'
-                    proc=None
-                # Sparse chart labels often need Tesseract sparse-text mode (PSM 11).
-                # Retry only a successful-but-empty default OCR, and share the same
-                # per-page deadline; never double the worst-case timeout.
-                if proc is not None and proc.returncode==0 and not proc.stdout.strip():
+                    record['ocr_error']='Default OCR timed out'
+                if proc is None or proc.returncode!=0 or not proc.stdout.strip():
                     remaining=ocr_timeout-(time.monotonic()-ocr_started)
                     if remaining>=1:
+                        record['ocr_sparse_mode_attempted']=True
                         try:
                             alternate=subprocess.run(['tesseract',str(image),'stdout','-l',ocr_lang,'--psm','11'],
                                 capture_output=True,text=True,timeout=remaining)
-                            record['ocr_sparse_mode_attempted']=True
                             if alternate.returncode==0 and alternate.stdout.strip():
                                 proc=alternate
                                 record['ocr_sparse_mode_recovered']=True
+                            elif proc is None:
+                                proc=alternate
                         except subprocess.TimeoutExpired:
                             record['ocr_sparse_mode_timed_out']=True
+                if proc is None:
+                    record['ocr_text_characters']=0
+                    record['ocr_success']=False
+                    record['ocr_error']='OCR timed out; page requires retry'
                 if proc is not None:
                     record['ocr_text_characters']=len(proc.stdout.strip()) if proc.returncode==0 else 0
                     record['ocr_success']=proc.returncode==0 and bool(proc.stdout.strip())
