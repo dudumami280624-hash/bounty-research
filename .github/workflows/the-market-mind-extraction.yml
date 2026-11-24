@@ -273,6 +273,21 @@ jobs:
         run: python knowledge/trading-education/tools/test_text_audit_worker.py
       - name: Verify hard worker timeout regression (synthetic fixture only)
         run: python knowledge/trading-education/tools/test_hard_timeout.py
+      - name: Verify research catalog retains duplicate-source evidence locations
+        run: |
+          python - <<'PY'
+          import sys, tempfile, json
+          from pathlib import Path
+          sys.path.insert(0, 'knowledge/trading-education/tools')
+          from research_pipeline import build_knowledge
+          with tempfile.TemporaryDirectory() as d:
+              root=Path(d)
+              for i in (1,2):
+                  (root/f'{i}.json').write_text(json.dumps({'source_sha':'same','topics':[{'concept':'candles','evidence_locations':[{'location':str(i)}]}]}))
+              result=build_knowledge(root,root/'catalog.json')
+              assert len(result['topics']['candles']['sources'][0]['locations'])==2
+              assert result['verified_claims']==0
+          PY
       - name: Build cross-source research catalog
         run: python knowledge/trading-education/tools/research_pipeline.py catalog knowledge/trading-education/integration/evidence-index --out knowledge/trading-education/integration/research-catalog.json
       - name: Verify provenance audit guards (synthetic fixtures only)
