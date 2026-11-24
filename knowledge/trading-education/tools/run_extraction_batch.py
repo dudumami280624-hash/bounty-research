@@ -80,7 +80,7 @@ def backfill_numeric_bridge(entries):
                 source.write_bytes(download_blob(entry['sha'],timeout_seconds=15))
                 blocks,_,_=ooxml(source,'docx')
                 data=numeric_research_bridge(blocks,entry['sha'])
-                output.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8')
+                output.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
                 print('NUMERIC BRIDGE',entry['sha'],len(data['rows']),flush=True)
         except Exception as exc:
             print('NUMERIC BRIDGE ERROR',entry['sha'],str(exc)[:180],flush=True)
