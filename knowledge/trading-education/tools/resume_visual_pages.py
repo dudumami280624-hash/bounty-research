@@ -319,8 +319,10 @@ def main():
                     if deadline<datetime.now(timezone.utc):
                         audit['attempts']=0
                     else: continue
-                except ValueError:
+                except (ValueError, TypeError, OverflowError):
+                    # Malformed legacy JSON deadlines must not abort the batch.
                     audit['attempts']=0
+                    audit.pop('retry_after_utc',None)
             else:
                 audit['attempts']=0
         start=retry_page-1 if retry_page is not None else int(audit.get('next_page',0))
