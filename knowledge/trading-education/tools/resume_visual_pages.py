@@ -275,6 +275,9 @@ def main():
     # Keep first-pass PDF coverage moving even when many completed PDFs have
     # due OCR retries. Reserve approximately two of every three slots for
     # unfinished audits, while still retrying due failures each run.
+    # Keep the full eligible inventory for reporting; the scheduler filters out
+    # completed sources with no due retry, including cooling-down failures.
+    report_entries=entries
     entries=interleave_visual_work(entries,files)
     budget=int(os.environ.get('TMM_VISUAL_AUDIT_BUDGET_SECONDS','145'))
     started=time.monotonic()
@@ -443,7 +446,7 @@ def main():
         +'- Source page hashes and positions only; no copyrighted pages or OCR excerpts.\n',encoding='utf-8')
     report_path=ROOT/'integration/latest-extraction-report.md'
     if report_path.exists():
-        report_path.write_text(refresh_extraction_visual_summary(report_path.read_text(encoding='utf-8'),files,entries),encoding='utf-8')
+        report_path.write_text(refresh_extraction_visual_summary(report_path.read_text(encoding='utf-8'),files,report_entries),encoding='utf-8')
     print(json.dumps({'windows_attempted':completed,'page_coverage_only':True}))
 
 if __name__=='__main__': main()
