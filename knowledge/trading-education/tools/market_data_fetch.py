@@ -43,7 +43,16 @@ def fetch_pubmarks(symbol):
     if not re.fullmatch(r"[A-Z0-9.-]+",symbol):
         raise ValueError("invalid symbol")
     path=f"data/stocks/{symbol}/ohlcv.csv"
-    pointer=get(f"https://raw.githubusercontent.com/Pubmarks/datasets/main/{path}")
+    try:
+        pointer=get(f"https://raw.githubusercontent.com/Pubmarks/datasets/main/{path}")
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        # Raw and LFS media endpoints can differ in availability. Validate the
+        # alternate response exactly as a normal CSV; never accept HTML.
+        raw=get(f"https://media.githubusercontent.com/media/Pubmarks/datasets/main/{path}")
+        validate(raw)
+        return raw
     match=re.search(rb"oid sha256:([0-9a-f]{64})\s+size (\d+)",pointer)
     if not match:
         raw=pointer
