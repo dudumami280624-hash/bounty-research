@@ -64,7 +64,18 @@ def numeric_research_bridge(blocks, source_sha):
         if len(values)!=4: continue
         if not (0<values['low']<=min(values['open'],values['close'])<=max(values['open'],values['close'])<=values['high']): continue
         rows.append({'location':block['location'],'ohlc':values,'status':'source_numeric_candidate_unverified'})
-    return {'source_sha':source_sha,'rows':rows,'status':'numeric_only_not_chart_verification'}
+    # Fixed vocabulary: export locators, not source prose.
+    vocabulary={'doji':r'十字星|\bdoji\b','hammer':r'锤子线|锤头|\bhammer\b',
+                'engulfing':r'吞没|吞噬|\bengulfing\b','body':r'实体|\bbody\b',
+                'shadow':r'影线|\b(?:shadow|wick)\b','trend':r'趋势|\btrend\b'}
+    concepts=[]
+    for block in blocks:
+        tags=[key for key,pattern in vocabulary.items() if re.search(pattern,block.get('text',''),re.I)]
+        if tags:
+            concepts.append({'location':block['location'],'tags':tags})
+    return {'schema_version':2,'source_sha':source_sha,'rows':rows,
+            'concept_locations':concepts,'text_blocks_read':len(blocks),
+            'status':'numeric_and_keyword_candidates_not_semantic_verification'}
 
 def backfill_numeric_bridge(entries):
     # One small Office source per run; no change to extraction completion flags.
@@ -73,7 +84,10 @@ def backfill_numeric_bridge(entries):
     for entry in entries:
         if not entry['category'].startswith('01-') or not entry['name'].lower().endswith('.docx'): continue
         output=dest/(entry['sha']+'.json')
-        if output.exists(): continue
+        if output.exists():
+            try:
+                if json.loads(output.read_text(encoding='utf-8')).get('schema_version')==2: continue
+            except (ValueError,OSError): pass
         try:
             with tempfile.TemporaryDirectory() as td:
                 source=Path(td)/'source.docx'
