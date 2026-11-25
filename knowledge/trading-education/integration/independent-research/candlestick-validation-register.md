@@ -4,7 +4,7 @@ Purpose: seek truth, not confirmation of a preferred conclusion. Record all vali
 
 | ID | Research question | Status |
 |---|---|---|
-| C01 | Long-term reversal: hammer and shooting star | Pending |
+| C01 | Long-term reversal: hammer and shooting star | Mixed — [U.S. weekly/monthly matched study](us-candle-horizons/README.md); replication pending |
 | C02 | Trend continuation | Pending |
 | C03 | Trend exhaustion | Pending |
 | C04 | Support and resistance | Pending |

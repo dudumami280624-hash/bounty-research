@@ -1,0 +1,3024 @@
+{
+  "roster_sha256": "5307d7ebfe868913b59c53463993b4ce4544a9bd031cf9d4fe4f093d743c4995",
+  "exchange_directory_sha256": "e3845cddc4ca648ceca136e51ec97725be8a6e38868034ddfff58ce36027cba1",
+  "cutoff": "2026-11-25",
+  "eligible_events": 22173,
+  "unique_ticker_sessions": 22101,
+  "sources": [
+    {
+      "ticker": "SPY",
+      "sha256": "1b60fc4870c636df0a073c9571305f52c2a6a69c89bf658f84654ffb686966e1",
+      "raw_date_rows": 8514
+    },
+    {
+      "ticker": "NKE",
+      "sha256": "55f054327bb5b90351325cd11b88375331b2ca5b62f903f5fc2f432a3f560da6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DAL",
+      "sha256": "13a268513100a0c503436c774bab5b010bc082a9d356ffd79dd4d93c4e23deea",
+      "raw_date_rows": 4923
+    },
+    {
+      "ticker": "A",
+      "sha256": "040ec56fde836a4dc9dbc9582b71e7c169992a2599fafe15e73d3ad49edee7de",
+      "raw_date_rows": 6795
+    },
+    {
+      "ticker": "AAPL",
+      "sha256": "b4c501a29aefdec53d08f340e0cfaa54d9f915364e62a6efbe9ea43aae6a396e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ABBV",
+      "sha256": "f8854e900daa093ab7b446877d018c8e58a36517535465f72a399c7d00c8bfd1",
+      "raw_date_rows": 3496
+    },
+    {
+      "ticker": "ABNB",
+      "sha256": "79bd13479f67e3a2bc57ac0ad06acb0c5d19ae9953a55b81d39f207feb4cbf2a",
+      "raw_date_rows": 1496
+    },
+    {
+      "ticker": "ABT",
+      "sha256": "2cb1e87ca89f07e07f11df13cd6cf9ffdfdb930489df97887082b59ae0855d4e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ACGL",
+      "sha256": "78c22540f455969fdd8154d5ce9e2b3ad83854666b6fcd669cf89fa8b378d11b",
+      "raw_date_rows": 7851
+    },
+    {
+      "ticker": "ACN",
+      "sha256": "920ac372a5e82a687c6e50a02726cb51f00fdb84a9a9f462161b6119aaeb7cb1",
+      "raw_date_rows": 6376
+    },
+    {
+      "ticker": "ADBE",
+      "sha256": "3706cf4309cc894f2267b28f9249d5c627b7d1287f62dc86358da9e347b40d05",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ADI",
+      "sha256": "2b82cdadf2ad7577de7d73e56810eedb2e1ef3d10488d374563a4a9511a76aeb",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ADM",
+      "sha256": "ed673f91858ee002c024e0550f3177f54c7a8b67f85576c8d439fffa586c5610",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ADP",
+      "sha256": "b43feef55188442d856af4a95c8da4823a80dae986117d0ab0c8c3b119a11857",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ADSK",
+      "sha256": "72899d3a66975254c25de4bb4a001d1fd9bd94ede4793bc5bb35e16d46cc27b0",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AEE",
+      "sha256": "7db035601462e2f76871ea1b2adaa891e71d14d624bb5527ae41c9560534b9c1",
+      "raw_date_rows": 7269
+    },
+    {
+      "ticker": "AEP",
+      "sha256": "403e84e4dab5ac9754abf5a8544f35f26b148d5c9b0c5823be67525885394aea",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AES",
+      "sha256": "39975d33ad5a8151e993179b36b4f06a2ac1a3782949fa2f83c945af687a5447",
+      "raw_date_rows": 8918
+    },
+    {
+      "ticker": "AFL",
+      "sha256": "b5ab02d62ea77499b995f0f04b7391c4a22e1949d5028619e67fe123ed3aa11c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AIG",
+      "sha256": "188bf1d99da30e7c593ce80a93b0c9aebeb491e225016220ad38e72b78db5eed",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AIZ",
+      "sha256": "4a45398dac259efd581991be85dcf3e66b87d86f85518a4e010f3da09bdc99a9",
+      "raw_date_rows": 5738
+    },
+    {
+      "ticker": "AJG",
+      "sha256": "851c4f92ffb197de78fa7e663e6e6700cea98219d0aa159745be3bd6858bc6f2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AKAM",
+      "sha256": "010df216bfc9e2e1ce5629767c5b8ad78b5da6a8aef854037ae58a558d8e68f3",
+      "raw_date_rows": 6809
+    },
+    {
+      "ticker": "ALB",
+      "sha256": "8f59d87fd3ac699158ac1b1d812167431e82b0100d490c015322cd208a3353b8",
+      "raw_date_rows": 8245
+    },
+    {
+      "ticker": "ALGN",
+      "sha256": "a35ddba09c85ca713d8bbf0017d908dcc21e88698bd6a73e147cb0faca348dfb",
+      "raw_date_rows": 6494
+    },
+    {
+      "ticker": "ALL",
+      "sha256": "5c447c434a9a0dfb48ede2024eca39e78b3aead1461f8a6aa0059cc13df32622",
+      "raw_date_rows": 8428
+    },
+    {
+      "ticker": "ALLE",
+      "sha256": "4f74e66412c435c6e719d62727d3641540baf2a228d657993e4d60de785293b8",
+      "raw_date_rows": 3274
+    },
+    {
+      "ticker": "AMAT",
+      "sha256": "2c13e2e7d9eb142744a5a48f0d28402044433e0c2c903c3ca9d0cb128a100639",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AMCR",
+      "sha256": "902a5c366548b0929c9c7dcf65f09912c291d7a974229e15957e0c28bd1eb5c9",
+      "raw_date_rows": 3654
+    },
+    {
+      "ticker": "AMD",
+      "sha256": "ba42e24a7c50acf359f5ab82eaa8d8345c9250af55a6b2cd5ed24324af8199fa",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AME",
+      "sha256": "c9905098ed38d6400ac7a7ac728a150bcde71298e091ef248928effd3d0df126",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AMGN",
+      "sha256": "eb2b27ce434ef8c493648a0a6a7677dc77c11f9ea84c2710a127360b99052048",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AMP",
+      "sha256": "4c59725679a7fd858c32e19bfc5f9257539d1df850d006075e6a8b249525db94",
+      "raw_date_rows": 5332
+    },
+    {
+      "ticker": "AMT",
+      "sha256": "ee0e33e983b19f3ea733f2ade1752a18a999690b1d876acb33b32af8ec9f6be2",
+      "raw_date_rows": 7231
+    },
+    {
+      "ticker": "AMZN",
+      "sha256": "f4ec84e4967d7a9c26ef9792198728f63aa5ce9711935664523de59222ab9f94",
+      "raw_date_rows": 7429
+    },
+    {
+      "ticker": "ANET",
+      "sha256": "07089c6c52daad1925debfa64827f9f773498b35630ec35df3c870833d1bd6ec",
+      "raw_date_rows": 3137
+    },
+    {
+      "ticker": "AON",
+      "sha256": "938ef31db24642ddb18303708702bc4005d2131ff48ae47be641a9aa5777fd4b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AOS",
+      "sha256": "db5aeed9bf7097854304ad029b17c6511ce3156f0c583eb24a53ebf0602dfa33",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "APA",
+      "sha256": "94ad2b59486134afa614da41a3fb1843f5ea581479489265f9c3e8ba9ea718cd",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "APD",
+      "sha256": "9c1f6b85fb4a2a8d72458d0ba5b3df48c71c792b8e7f640a74d388789472df22",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "APH",
+      "sha256": "2370878025c28cf1c862c10bd08b5798fc0e3aa16484e1532bda6a3859476a0e",
+      "raw_date_rows": 8823
+    },
+    {
+      "ticker": "APO",
+      "sha256": "c44667219da5c395dbb61ab6b7852cf9e7f125c434668c56b79585053f5ff4db",
+      "raw_date_rows": 3938
+    },
+    {
+      "ticker": "APP",
+      "sha256": "31ad63ec769b83d3904fd63d0dabfd094d452269605ddbcd3aa65a280fcb01a0",
+      "raw_date_rows": 1411
+    },
+    {
+      "ticker": "APTV",
+      "sha256": "34755d3abb1bf486f41777fdaf37480b7aab4b56a2f070cc3176dac85a4050f2",
+      "raw_date_rows": 3776
+    },
+    {
+      "ticker": "ARE",
+      "sha256": "e4b7d049f656e9b2810925e6d24464f578b38c7284d89510612704fa0317dc60",
+      "raw_date_rows": 7421
+    },
+    {
+      "ticker": "ARES",
+      "sha256": "539e0ab278dc00e24770770254421227cc95866c01dfd9978b20b245585ee27b",
+      "raw_date_rows": 3161
+    },
+    {
+      "ticker": "ATO",
+      "sha256": "84a9ef53a34aa2f0d9c4e352ad6a9560fc456e0e1c29e0b0b3d1bfd8c0feae57",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AVGO",
+      "sha256": "c2c7b0c674631ec9ab72344076bbcb74f0956f61be7ac5c92c0f974861005a0e",
+      "raw_date_rows": 4353
+    },
+    {
+      "ticker": "AVY",
+      "sha256": "80c7b5aea1a084b7e9136504c0c284265bcede2b2f358a2e5bf38610b2058270",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AWK",
+      "sha256": "2f18226e0d8060be388750c47c9fd123904241a911ee5ccc496807c205c1f941",
+      "raw_date_rows": 4678
+    },
+    {
+      "ticker": "AXON",
+      "sha256": "4ee7991fce32ab62e369591a9147d1de7182640ba1ea1d6f2131b286d047323a",
+      "raw_date_rows": 6397
+    },
+    {
+      "ticker": "AXP",
+      "sha256": "77586f29a40d133e9de88257f0985a85cc993fc251641f0e9121b8f43342fa4c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AZO",
+      "sha256": "b7332488c54998d99eac8d0c995806ea6a98f52c3242de15b3dbc712ae1a3580",
+      "raw_date_rows": 8978
+    },
+    {
+      "ticker": "BA",
+      "sha256": "5e835aa5e7b8f31c5fa0c6c59342ad1e3c555fdd326fb12e2960eee984f53672",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BAC",
+      "sha256": "e2bafa8c86b06daf3f528113442c9825347bf10a9212f387eed3ec96e849556a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BALL",
+      "sha256": "62c07a410d711bcbfb0efc2bd465d3877becd2130b9a395f547845345c4d26f5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BAX",
+      "sha256": "adc1ca7d94e601bd5b47e05bb12367ea1f641f98f1be4fe3d6e7d014efb12639",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BBY",
+      "sha256": "f0c0e82926b5a311b0bde71c47e0b952e146ef6402617b7f281038f742923c86",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BDX",
+      "sha256": "955e9243605ee1fcc935d4b38c498f280a89addc274d97f02e23f8c8adba9817",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BE",
+      "sha256": "5111776313061d51738662cfaaa8fae6cc07e16f6cb5265fcf4f651c5dad5aca",
+      "raw_date_rows": 2096
+    },
+    {
+      "ticker": "BEN",
+      "sha256": "77b376fc271e19f93539af188b04c526db387782cfcedae1f93aebf7c54751df",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BF-B",
+      "sha256": "8cb16fce182820f6ee0456a02b2a52f4f024c9b360ba2be26adf679deac4aabf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BG",
+      "sha256": "1f26bcac1f0b9b21fc6bdc2cd98617565306cef576ab9eaff288a3f203fc0392",
+      "raw_date_rows": 6366
+    },
+    {
+      "ticker": "BIIB",
+      "sha256": "a31ff02e03a01f3ca1d89149d4a75f0b36701cd2be662098d514b72f33a611b8",
+      "raw_date_rows": 8861
+    },
+    {
+      "ticker": "BKNG",
+      "sha256": "f7e7ba6888e7d25ccab872dae60cb96fbb18d2b36e48abd3475e6af6f95a8ab5",
+      "raw_date_rows": 6957
+    },
+    {
+      "ticker": "BKR",
+      "sha256": "5241b3758189282e41bd94219a7d25d9136c52237900521a5050493261107be0",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BLK",
+      "sha256": "1258e1c1e097cbf62c8fabe0564c7ee06f3057b38778f3a16690ca11de7de262",
+      "raw_date_rows": 6829
+    },
+    {
+      "ticker": "BMY",
+      "sha256": "fa84398213661f02e806c8e1b0a7eec39f21056fdb00644a76a78b9d24cf5dd6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BNY",
+      "sha256": "e41ef55f9702405338535be0feab71bea8da4740ab5998ad5122063c42650ffe",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BR",
+      "sha256": "9fa163397a3a1a52f8b7fcbc3627d5efabc8c929d74e9cd4aaffcff7ff9f7794",
+      "raw_date_rows": 4952
+    },
+    {
+      "ticker": "BRK-B",
+      "sha256": "991b6c22dbdf4e87fa1b122251c98838b2787cdffb98c4ed6c42aebb3f400846",
+      "raw_date_rows": 7686
+    },
+    {
+      "ticker": "BRO",
+      "sha256": "79bd8f7920e717c7d438148a01119aed90fbafed682785aaad7ca292232c3fa6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "BSX",
+      "sha256": "c4ac00f9c86deadfae7d8bde0557a2dd27bbc829b76fd086c97d54d2614ea591",
+      "raw_date_rows": 8691
+    },
+    {
+      "ticker": "BX",
+      "sha256": "26d3243c786e91471b68e21b3a8aa1181a8c7cf32c2904e3d78b02d8078b86e2",
+      "raw_date_rows": 4888
+    },
+    {
+      "ticker": "BXP",
+      "sha256": "8823de0f3d94b640cab7475fcb346c285ccaa21088ceae6e73a3b7ef44e267d5",
+      "raw_date_rows": 7406
+    },
+    {
+      "ticker": "C",
+      "sha256": "825c6310233ecb8caa34020945f6a81d152875d21f04d9000ee1ee0e2fbfd94d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CAH",
+      "sha256": "88db24a2427aeced32b568d8aa2eae87a9cca2192554e3172e7d122879432293",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CARR",
+      "sha256": "fe6264551267293e034ddde49845cf67434b71c5832805271266019dc9a49249",
+      "raw_date_rows": 1681
+    },
+    {
+      "ticker": "CASY",
+      "sha256": "e977d63b92f29f7cee471d09e87497730b7fea7cd4a269e6cb19b35d3c9b3249",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CAT",
+      "sha256": "145c9f5d9aa124f004d320e45373aedb0bf57e9c582db4ffc448892513ad7889",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CB",
+      "sha256": "563a65848571605bb3703ad33f111979323058856b21d3d1f464e8df55886f7e",
+      "raw_date_rows": 8476
+    },
+    {
+      "ticker": "CBOE",
+      "sha256": "cc168d36e2b5e8a228c4515463c4111c4290f9cd0de9e592b5bb2388db767b57",
+      "raw_date_rows": 4138
+    },
+    {
+      "ticker": "CBRE",
+      "sha256": "f8746d8861fdac60bec12a65fee05053dd80fc5559062a72e17e32203454f6e2",
+      "raw_date_rows": 5651
+    },
+    {
+      "ticker": "CCI",
+      "sha256": "f30ce1f4d2a6dd72aa7b56a8d92b9ccc241dd4dca3d13d69103241c294c42bd5",
+      "raw_date_rows": 7112
+    },
+    {
+      "ticker": "CCL",
+      "sha256": "0228140a76da8a29b59459b5a12ef5af43b08432e06e205e19c0085ba937affd",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CDNS",
+      "sha256": "24d9f6267f81c3687f7d63a581b547bb78acf9ce721cf115eb66e8449023a302",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CDW",
+      "sha256": "23d2273792899184148578ad00fd3f9b5f1a51f86fe233ec514e178bf9720006",
+      "raw_date_rows": 3374
+    },
+    {
+      "ticker": "CEG",
+      "sha256": "b58373618d3761ccb4917fc28dd053d3c206415568830182d10cd81529c45c19",
+      "raw_date_rows": 1218
+    },
+    {
+      "ticker": "CF",
+      "sha256": "e2e05fa54f985201b2e3d3b729eb3c0b532a8170289cc199be0d285abf7486c5",
+      "raw_date_rows": 5356
+    },
+    {
+      "ticker": "CFG",
+      "sha256": "f7d5822c616a6340352343d8d461dc85a97ee85f09dfa9d3ceda832c3200bdcc",
+      "raw_date_rows": 3061
+    },
+    {
+      "ticker": "CHD",
+      "sha256": "21375c04808faf9a032efd312ffcb987136a0cbf8c2a9a4a921e6593e641ccfe",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CHRW",
+      "sha256": "880da1d7f6c0989cb797dd8e16641d132f4e3a0eb1bbeaaab007b58d2f9a6823",
+      "raw_date_rows": 7322
+    },
+    {
+      "ticker": "CHTR",
+      "sha256": "25f445325a66e4e700f7fdb7cff0987c9f85729f66697cab5a4f0b0405db6c90",
+      "raw_date_rows": 4249
+    },
+    {
+      "ticker": "CI",
+      "sha256": "ac49b66c0ee3d161d99342e1a073c0d7815842dab0627bcc67a5a007a2d7f740",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CIEN",
+      "sha256": "bfc39f19c1e00549e641435a37edf49b2550d8456d26707e4b61614e5de8d486",
+      "raw_date_rows": 7496
+    },
+    {
+      "ticker": "CINF",
+      "sha256": "28cdb36ab767e68fb95bd605dcc2cde087c98efb30a24256b3662de47b02f0f9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CL",
+      "sha256": "44275b1642b94a2990419e539ead43f548f78ad4dec8c06ba53e6992d6823c0b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CLX",
+      "sha256": "5ad2edcb484bc0bbaf00f566aa45c16ff3fc4ad78b4b6627f0b84bf45633f2f6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CMCSA",
+      "sha256": "dbb963d18b41f07605c76a93a4f4efb344709574025a862ff443c31bfc4db0f4",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CME",
+      "sha256": "d2ad56275f14f2e65a17142415671f07d34b2ecb82a4b5e33318d24809b0b2a2",
+      "raw_date_rows": 6030
+    },
+    {
+      "ticker": "CMG",
+      "sha256": "8fc611388a240faebb17376257a922ab70c278c2f41adff94dd97fad38c2e150",
+      "raw_date_rows": 5241
+    },
+    {
+      "ticker": "CMI",
+      "sha256": "9b0a972a444898e2c7a63f1a7e0c4c07751999a7d70b119f3fb29b4333cf6fae",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CMS",
+      "sha256": "81ae1d1db776ac1ada60b10eb0a68a2e4aac8c5bbf88f6e88525b98147ec9c71",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CNC",
+      "sha256": "83f1fc5e77fd64cec66708f113810d41ff1d4f815036c3c70f0b6d1d77bddbb6",
+      "raw_date_rows": 6277
+    },
+    {
+      "ticker": "CNP",
+      "sha256": "f35dfd7fbad92cb97f271dedb01f1940cd4f330cd77c74147fdb1f6c30659919",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "COF",
+      "sha256": "f96beb37f2e73fb68b7a1ca130520c71a9a95148a435ca53233846bf4e106f67",
+      "raw_date_rows": 8059
+    },
+    {
+      "ticker": "COHR",
+      "sha256": "83e79b62a798fbda1494d484fd4f084bc91174187aceaa11b23634ef25e02b3d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "COIN",
+      "sha256": "28503b07a019ce22de1cd36adf68e159837de354f5b56e8e3b23afb9a3010564",
+      "raw_date_rows": 1412
+    },
+    {
+      "ticker": "COO",
+      "sha256": "948b6440d2381e03fa4151d019157da7d9b2e1dc95e268daac9fc901f37f3e7e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "COP",
+      "sha256": "110d512eb581db3bb94204c96471cac50bda39dead5393fbe0c59c8c03620136",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "COR",
+      "sha256": "1a4466fff0703f72dbe90fd64b9262d2f34b9bcbc8965f393392098af20f9deb",
+      "raw_date_rows": 7964
+    },
+    {
+      "ticker": "COST",
+      "sha256": "0b72b0f1766e5b95d7df3edff9c5897ed535d415310c7c4273a62aa307533cb7",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CPAY",
+      "sha256": "0a4515cd197b3e37d5e53579a1b95787be0fec6d085fc4a249bdc6bebda2ed5b",
+      "raw_date_rows": 4010
+    },
+    {
+      "ticker": "CPRT",
+      "sha256": "1ef83837213b6bcf82e99a48692eb1b1f2905527581e6db190e7d0d8d3f7f1bf",
+      "raw_date_rows": 8228
+    },
+    {
+      "ticker": "CPT",
+      "sha256": "800bbc130c8f10b76d0c2d5a1700da645f70a8efa8a8e2fa25729a8f9c5f105b",
+      "raw_date_rows": 8394
+    },
+    {
+      "ticker": "CRH",
+      "sha256": "cfb89888c72ba49e9b756c32c3cf659ae2f22b109ab65a3c1ef96d969f10592f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CRL",
+      "sha256": "0f30f6b3bf58fb48b5f6aa5f83744c2b4259ec25d75f463a26062514678bd8b5",
+      "raw_date_rows": 6645
+    },
+    {
+      "ticker": "CRM",
+      "sha256": "21e30ccc7f5d41d911dd97d1216da82a25926ca062bf955b5621071cc6de8d82",
+      "raw_date_rows": 5643
+    },
+    {
+      "ticker": "CRWD",
+      "sha256": "042e17198e5cfa3d436a63a47bb6eae88ae045f3d6b48703a6e406851c6ed8f8",
+      "raw_date_rows": 1875
+    },
+    {
+      "ticker": "CSCO",
+      "sha256": "f4081e98903e22c0933ecc92adbbd3b87b4e2bfc8d5017f4f57a9a01f41038c0",
+      "raw_date_rows": 9260
+    },
+    {
+      "ticker": "CSGP",
+      "sha256": "f5b8f13c7d8a61bcf33fa854ab376e4cead443bf593e3c9aebc54f98dbaa5904",
+      "raw_date_rows": 7145
+    },
+    {
+      "ticker": "CSX",
+      "sha256": "8785dce1875074be881420676e0c1dc9f17d0b39e2d8e9509ed6b11bbd0f6e29",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CTAS",
+      "sha256": "73b2267a7cfa0391af04889ae929e29f5f957c8567518927761f04293a021ad8",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CTSH",
+      "sha256": "e76d42b117cddc474a0150a42e459e6d73420f3e5353eaf200bafe622b4e17c8",
+      "raw_date_rows": 7153
+    },
+    {
+      "ticker": "CVNA",
+      "sha256": "e5e657ae3269e3f47df815e3a6f32b4a73b4fac8cab759a798ca428b3d5c61e2",
+      "raw_date_rows": 2408
+    },
+    {
+      "ticker": "CVS",
+      "sha256": "c4cf6856a5683ef396c709c8428c78475250b4a24eb437e553ce048f09005acb",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CVX",
+      "sha256": "8e340523b4b9e53ddacbafe6c78fa6d601a5ad14b885ccf46b3ad8af16faf55e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "D",
+      "sha256": "13b7456db0a23478040e199cec04a0191ca41b106c348c8633f52d9fd7bb7a68",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DASH",
+      "sha256": "7a8fe7b164b1624e2ac2cb7c3429bbdc59b3861a3d30a66699885079da3a3b53",
+      "raw_date_rows": 1497
+    },
+    {
+      "ticker": "DD",
+      "sha256": "0e09ab3aa0d0c76b9ef2b6a0906e0c0ad1f794c289dfb1b0a708488408a998bf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DDOG",
+      "sha256": "8fa32a334e074e41e6efeb1c56705cc687ee8d80f8b09902f624d1a8baec3572",
+      "raw_date_rows": 1806
+    },
+    {
+      "ticker": "DE",
+      "sha256": "a0a06b3fdc4a0caf718ee3c0720919813d8a50fdd0969ab00d25aa19f66f28e5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DECK",
+      "sha256": "0c0c5685323997355a749cac35491a5f6952768addefbad08415d7b00984958b",
+      "raw_date_rows": 8334
+    },
+    {
+      "ticker": "DELL",
+      "sha256": "8c2f4df2608d80794ba03436b7ee346543c7d81e775f49c69249393e0aa34824",
+      "raw_date_rows": 2583
+    },
+    {
+      "ticker": "DG",
+      "sha256": "fa9f079bee5ad795d57243841fed4cf8f0aa362c66778eead54814c0cf350f1d",
+      "raw_date_rows": 4283
+    },
+    {
+      "ticker": "DGX",
+      "sha256": "c8bd7633337a3bce2e50e7d067cd5de8b3c62d8af950163232812ceb091ea4ee",
+      "raw_date_rows": 7532
+    },
+    {
+      "ticker": "DHI",
+      "sha256": "6566bc7f0bf71894386a2b135640f90952e79963ef234b4f82d28c18d6cf9892",
+      "raw_date_rows": 8679
+    },
+    {
+      "ticker": "DHR",
+      "sha256": "ba5a0ceeea6f38dcaf40e850c170244cda067bfdd9d6ce95168142cbffecc1f9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DIS",
+      "sha256": "22b687bedc27cf2e0cf44e5c88603f5bdddddafeae32cd3afe98b6e889a49026",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DLR",
+      "sha256": "62d0c153854ea89c0c4312563c96b1c2e7c777a0ce997e727247fe3766b27e9c",
+      "raw_date_rows": 5553
+    },
+    {
+      "ticker": "DLTR",
+      "sha256": "c4792f6bed035a107a466f188c33cc532342b93acb35a9cee62360d06dbd2b01",
+      "raw_date_rows": 7984
+    },
+    {
+      "ticker": "DOC",
+      "sha256": "b417626a65714d4da4e90ffd96e9606790d12667f68c00a0959faab1df865400",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DOV",
+      "sha256": "a4cf1012d97be053c63a4ba901e46b9afafb21e302450dea56d2a155615b0376",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DOW",
+      "sha256": "3a8ea8fe776cd14d619670d306c26529602c75ec284d4e93fda077be1bc4a2a9",
+      "raw_date_rows": 1933
+    },
+    {
+      "ticker": "DPZ",
+      "sha256": "3db3c61ceca354d498cb9b06baf2f57149cd1094ca61e1c4763bbcc86f3bde11",
+      "raw_date_rows": 5630
+    },
+    {
+      "ticker": "DRI",
+      "sha256": "72bb894d76c0ab99033efbf1ebd8e0be155038e54885dbedad9c02367e31de54",
+      "raw_date_rows": 7940
+    },
+    {
+      "ticker": "DTE",
+      "sha256": "b99990b9c590b28b9d4a2d0c673373c6d5134ca84f44b31fbe3b6a8073c42ffa",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DUK",
+      "sha256": "6b3d1c5e171a1f17e95c9588c15ec1aa32c178e51fa9b9e525ef2163d4d92175",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DVA",
+      "sha256": "abe8b00f5dc8fe19535da3e18ef5100c7488c3959195d06ba66f3042790716ea",
+      "raw_date_rows": 7818
+    },
+    {
+      "ticker": "DVN",
+      "sha256": "b6f6957d678cc3fc68537267efde8ff344d1a5fe3a347414241c0d233d391672",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DXCM",
+      "sha256": "f24b4342244ca619f149fb2bb13429e92ee92b473845861e92e611a4ba43729a",
+      "raw_date_rows": 5439
+    },
+    {
+      "ticker": "EBAY",
+      "sha256": "29667b24a4e5abd01bc47a529a911bbf14955f9767962c42ffe75f2d0c15239b",
+      "raw_date_rows": 7086
+    },
+    {
+      "ticker": "ECHO",
+      "sha256": "015a0c93954eb56bd5d6bb87a60d687a14226a545c9d5ab87d97738c0ebb5399",
+      "raw_date_rows": 4755
+    },
+    {
+      "ticker": "ECL",
+      "sha256": "9f606d2d79a2630118bcd945589ab12a36c39538039473f30856519581567216",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ED",
+      "sha256": "3d0102c62a577a29349cdd096d4d44bdd685ee9fd5d2ef4a875fa3ca852edc14",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EFX",
+      "sha256": "fdde103599cfef9babd80283507bc71de28883f8e4edbf982f2b47a06495e951",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EG",
+      "sha256": "9eab9bd8ead30fe505e8f796e6626c64538b14ab0615441fc7833e5095f1f07e",
+      "raw_date_rows": 7838
+    },
+    {
+      "ticker": "EIX",
+      "sha256": "4f6111c8a5a9fbd44d0b5b7dd129ac1bf70671024eef2fd3246e6398e14e7f58",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EL",
+      "sha256": "b9767ff87319d43270395cd3d6568624d81d8a2c12bb027a91f24e363ec64ac4",
+      "raw_date_rows": 7805
+    },
+    {
+      "ticker": "ELV",
+      "sha256": "4dfc087c77f7e739fb70288c33baaa15ddf0a52b8590be43653b090e55d92d90",
+      "raw_date_rows": 6308
+    },
+    {
+      "ticker": "EME",
+      "sha256": "1b4743e8a51c1612e766905db59b6423fdd7de7e899f3c57bc58bb91f57a79be",
+      "raw_date_rows": 8023
+    },
+    {
+      "ticker": "EMR",
+      "sha256": "bd6c7f980421b9cbca8db6e782b8018ad02df9ff91713b5dc0602a99a6d82d59",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EOG",
+      "sha256": "ed444a9f9377879892052fa2e5d457425c3689d32e5b1d140afd5cca44655311",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EQIX",
+      "sha256": "5f51d78a0f9eeea5659a2c823cc8d3c39fdb049fa3566140fa4b4c63a7cbe1f0",
+      "raw_date_rows": 6611
+    },
+    {
+      "ticker": "EQT",
+      "sha256": "897a1a10a286308abe9bc9c1a04f475534d0ff188ebf2328d52fe2b5e7b43517",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ERIE",
+      "sha256": "d55f9986ec314926c37c406a5fd8b5b36d33d842b51bd5dc6fff4ecedc97bbe3",
+      "raw_date_rows": 7839
+    },
+    {
+      "ticker": "ES",
+      "sha256": "8aa850cbed5e6f3fdeb71b680a4622d0067542bab8c1d0f55e7929e6066de502",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ESS",
+      "sha256": "1e9a136e53755239066987b394ca9929eac2e7b2395c3a44f0b923d83140365b",
+      "raw_date_rows": 8173
+    },
+    {
+      "ticker": "ETN",
+      "sha256": "a43e41f8662b310afc52b3806922d0b5aeb85c4a248efb16bea8fd33026efb8e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ETR",
+      "sha256": "8130a11d942347f7bf825c9d006ca31e1ed972b22ee31039852637d136d0596c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EVRG",
+      "sha256": "2c768c505d3af7bec2a4ddc9883236bb471d2af95d1d65ad5f4d15935589f3ea",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EW",
+      "sha256": "649cbac977f1ab165cdbcb4aaf4566a658fb169b32320a7c533f3a6eed9a402b",
+      "raw_date_rows": 6707
+    },
+    {
+      "ticker": "EXC",
+      "sha256": "55eca20a7b8cb2e4fe203bfe11b47499917c0298220d7075afab2107d3ef8b1a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EXE",
+      "sha256": "66d3bebeeb8096e583f852d4a3509692d37feafd18a148ce8e73a058216530b6",
+      "raw_date_rows": 1455
+    },
+    {
+      "ticker": "EXPD",
+      "sha256": "f14b197b2a53ca5174288eb3b91b68c26fb64c5b2c89a8931edc36533b7ff928",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EXPE",
+      "sha256": "9a9bfe4723577cbcd5db4443579ed5f36eb1f797dee92a0a5c274d66dc08133f",
+      "raw_date_rows": 5371
+    },
+    {
+      "ticker": "EXR",
+      "sha256": "ed6758418705080b7e02e224a90d4a6b2b2484ce6d3a49f8e18ba0bfc90a1735",
+      "raw_date_rows": 5606
+    },
+    {
+      "ticker": "F",
+      "sha256": "bded95bf256e25701ac84b037e98061ccbce0b1a3a733518a731142d6e896015",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FANG",
+      "sha256": "c1e3e753517c6038029ee5587f56ba885282c0369585251969d2ffb51b450d93",
+      "raw_date_rows": 3549
+    },
+    {
+      "ticker": "FAST",
+      "sha256": "0c766bfa2747b0fc8aefcaf3f85b2f94eb32e0e95ae7325d63619f2810bb354f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FCX",
+      "sha256": "101eb5e198cc1cfaab2974a3aea5bbebbbbd5870a5e77953aab514c732f4ae18",
+      "raw_date_rows": 7898
+    },
+    {
+      "ticker": "FDS",
+      "sha256": "4f6419a92db83c33836e62b4be4b9f08f9c30f43d4af54ad1dad5be8dcd44a93",
+      "raw_date_rows": 7651
+    },
+    {
+      "ticker": "FDX",
+      "sha256": "6e61f5647b47b2b5208356b3adac39b1710e2e994e11586be32c8ed0950ffb43",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FDXF",
+      "error": "invalid symbol, currency or history | invalid symbol, currency or history"
+    },
+    {
+      "ticker": "FE",
+      "sha256": "bf7e7f77942c58b0f70b66a442738da550eeaaa00c7d539da060ef4a905d4311",
+      "raw_date_rows": 7305
+    },
+    {
+      "ticker": "FERG",
+      "sha256": "1497f2a1cb32b9258519866dc0fb7d78e65c5363b5cb8a6f3a7d6842de64ce92",
+      "raw_date_rows": 4249
+    },
+    {
+      "ticker": "FFIV",
+      "sha256": "8f4f31fd6ee6e859ca0f8bc9dee65a33de9c6eb6baf8674205ab200990b0f356",
+      "raw_date_rows": 6912
+    },
+    {
+      "ticker": "FICO",
+      "sha256": "5ee0d7b4b8f1fe9979806f2861ade12381f91ed075c6011da62a527c207354a5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FIS",
+      "sha256": "e8f7bed10993f9d410527e34e3062cf6c51418955b802dfb989e2eefcfe834b3",
+      "raw_date_rows": 6396
+    },
+    {
+      "ticker": "FISV",
+      "sha256": "59bdf781927b1b296e9d665990e1f3a3119efee4986f29b665e5225ec1d7ee24",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FITB",
+      "sha256": "3c12f1948be25798190952031f8a854037359c6d825d371433eedca6d306c0f2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FIX",
+      "sha256": "e60700617f98e5271f3549b9265adf4b8aa780cc12239671b2b3b00beb1cfed4",
+      "raw_date_rows": 7399
+    },
+    {
+      "ticker": "FLEX",
+      "sha256": "237e975227282a83e73754a63089bcb9ff7a4bdedc577d7114fdd180b1cb5eef",
+      "raw_date_rows": 8227
+    },
+    {
+      "ticker": "FOX",
+      "sha256": "23fb7d006d37057d9f7fbeb8955d509822e2d9b5b42d40196e21123d5ccf0998",
+      "raw_date_rows": 1938
+    },
+    {
+      "ticker": "FOXA",
+      "sha256": "ce4d1c5c34faa9dc2c3ec5c144982c2b25fa1a4f1d7244a759a48756f0672ced",
+      "raw_date_rows": 1939
+    },
+    {
+      "ticker": "FRT",
+      "sha256": "5a2ef97de264a31bb64cce06a418ac75de4795c2532cc8f4abc3a27e4971f914",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "FSLR",
+      "sha256": "02b325460316cee417428c1bbc359a90e073f41fe80ffce008fec83ee2e1d5e0",
+      "raw_date_rows": 5035
+    },
+    {
+      "ticker": "FTNT",
+      "sha256": "2f7ad365ddeb5bf5997de7bf5b13f81ac48512d81ff987a82a17d63e533e6acd",
+      "raw_date_rows": 4280
+    },
+    {
+      "ticker": "FTV",
+      "sha256": "f94abe951ed63ae9f4e0e6a54b73e55d46c14dad121e8cd2ab1634f95ad60313",
+      "raw_date_rows": 2614
+    },
+    {
+      "ticker": "GD",
+      "sha256": "8c88852cc48f28bb3c4b91c2206601a7d053a1a858b86d00d2329b923414f861",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GDDY",
+      "sha256": "5bc857cffb4ed059149de6b7c382ddda75e1d5295698d43fb8fbb9dc0e857160",
+      "raw_date_rows": 2932
+    },
+    {
+      "ticker": "GE",
+      "sha256": "f161afbf4ea27581ff679acbde1564b0c3facaae2c4ca9807401c8487d476fee",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GEHC",
+      "sha256": "2c8e7ff490fa23da7c71a648cd7faf2d972b9457b90c964614d1ab6efab49646",
+      "raw_date_rows": 989
+    },
+    {
+      "ticker": "GEN",
+      "sha256": "c5ee062e3b6c5ec6b898f8eeb26e70161dfd1a4ab1330bb47d168cc6325b338c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GEV",
+      "sha256": "b83a972a5638427e426030ae93d76520d7f3b4c052f0db3cb7e21fe7240269f5",
+      "raw_date_rows": 669
+    },
+    {
+      "ticker": "GILD",
+      "sha256": "453a6274f691dc5a3229ed22853c6ce9f70d139bf57eaf8d20d4855a2d3a0367",
+      "raw_date_rows": 8773
+    },
+    {
+      "ticker": "GIS",
+      "sha256": "8f47045eb58e19b937d4769577556c4c684b00c93275e388f5051a22dc595b07",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GL",
+      "sha256": "200026c7f61134e03f1704f5c4cfc2c259be95f17d8aaa8e02d754aaa01b75b9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GLW",
+      "sha256": "b982d18c9c550f34acdfb0dfd4d1fabb856f8778c4ee64d517c171ae640b6d74",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GM",
+      "sha256": "95fdf00b66e0033b019fca3b61b0f031721b795484c7f179500cbad1abdd7cf2",
+      "raw_date_rows": 4028
+    },
+    {
+      "ticker": "GNRC",
+      "sha256": "c91503775a72c4d527a53224195fc9b2226fad3caa07c0a860fd4b4e9387f8aa",
+      "raw_date_rows": 4223
+    },
+    {
+      "ticker": "GOOG",
+      "sha256": "856d7c15d2e6474dbbe9e7477ab0fb55cc1b03c5261a7f89ef7f123d4d5034d9",
+      "raw_date_rows": 5603
+    },
+    {
+      "ticker": "GOOGL",
+      "sha256": "4835b78d840d7d5dccc5f7cccfd2f7f64119056035505548119c1baea302d11a",
+      "raw_date_rows": 5603
+    },
+    {
+      "ticker": "GPC",
+      "sha256": "7923ded4eb7b7d7b0de6a33de011f395c461d85dc937df5b035ce22fae9fa285",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "GPN",
+      "sha256": "ab77c495918b1d87842ea6e4fc508393c532f396105d9aecb25ceb2534ab1d9e",
+      "raw_date_rows": 6504
+    },
+    {
+      "ticker": "GRMN",
+      "sha256": "12831d559065a239cf8c4a7a4777552332ffea43898674854587bb173c6a15cd",
+      "raw_date_rows": 6528
+    },
+    {
+      "ticker": "GS",
+      "sha256": "beb4f21e75e4259f444f59d6da3398ed8254f1abdef0e4368cfe059bc615b092",
+      "raw_date_rows": 6934
+    },
+    {
+      "ticker": "GWW",
+      "sha256": "17ce6c544d3e6e8ef1ece7e8e5560371506e1399535c34dc0b1410df4d932a81",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HAL",
+      "sha256": "d5b772f76d6035985315dbff29f1aec874efd0b72e80c65929302e5426ea3b4c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HAS",
+      "sha256": "7bcf883b80804c53e3f3f5fd53c63918c773d52bc6d65530d759d1c8b96e4966",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HBAN",
+      "sha256": "c06f1c6f90cc35cf7cdc16612dd98f82b3b037c20ba3d4c194f343181288b291",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HCA",
+      "sha256": "52199525dc59acb9f82f2eea2868666e8e02b59299fda75dfe7aad34b4d310fb",
+      "raw_date_rows": 3952
+    },
+    {
+      "ticker": "HD",
+      "sha256": "27296ca560264c022f746f2c0140f643288e6766ca6e90507c8f6f0d102254a7",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HIG",
+      "sha256": "3ffb2d6480f895a5aa6106b01b5d8a7a2c0eff2155b98ab9e95be197ea20646b",
+      "raw_date_rows": 7786
+    },
+    {
+      "ticker": "HII",
+      "sha256": "758f907ed82416a2cd182ad03e8d5957a6868cc9534c7b78e19e4f9f7feaeb0a",
+      "raw_date_rows": 3944
+    },
+    {
+      "ticker": "HLT",
+      "sha256": "400354920b10d3d5a71b66ef6ad88015f8ea9ae3fa0cdf6c9fc185e91053e781",
+      "raw_date_rows": 3257
+    },
+    {
+      "ticker": "HON",
+      "sha256": "b083360ae2e61d9984e13d62a4c5fe8e2e518fcee7e5915e5b198b1817c07640",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HONA",
+      "error": "invalid symbol, currency or history | invalid symbol, currency or history"
+    },
+    {
+      "ticker": "HOOD",
+      "sha256": "449b21daac4aab34b22db35c439399b86b12efdb7475a69ccda1ad4b9b3e9d49",
+      "raw_date_rows": 1338
+    },
+    {
+      "ticker": "HPE",
+      "sha256": "81b067db910b86c792b667d97681bdb9effe97987a7e08d8d23e27d9165b4450",
+      "raw_date_rows": 2792
+    },
+    {
+      "ticker": "HPQ",
+      "sha256": "130dff74d093340eb9186168585a7f824c5a5d3bb8d468d885eb0aa609d089aa",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HRL",
+      "sha256": "bd714701c3260ec62fd307c9f306cafe091bc4edb1b70884d48ad18e438b7b00",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HSIC",
+      "sha256": "f19be1d2d72e83e1a41b45ded2689269ba37710f3ab806bce34dc6d1521dfed9",
+      "raw_date_rows": 7815
+    },
+    {
+      "ticker": "HST",
+      "sha256": "50ee6b67fbc16d7e7940ee0f3f786f0ee0c47553f8438543a2439d6d0e1218ab",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HSY",
+      "sha256": "092a3101a1075dcbf24622d0cd690d504ce71db353b3b6af7d514f9a23ecc1be",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HUBB",
+      "sha256": "cc2bd60e48dd7cf9beda338f5c6b9045a1c7ab92fc206e77f0a96d5f1effbec2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HUM",
+      "sha256": "b8ab6a78a1ddc5a1629791f90409a774e18bfae49f0f49c66083313ba0dfb2b0",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HWM",
+      "sha256": "dff2a515f859f1c3993c5ba322e995c7eac50f89e505b95cd03f671b2003efa5",
+      "raw_date_rows": 2530
+    },
+    {
+      "ticker": "IBKR",
+      "sha256": "5f79d55d5ec92bc74103c72e869b04712f9d5a729afb4bc80e4fd0c318645200",
+      "raw_date_rows": 4922
+    },
+    {
+      "ticker": "IBM",
+      "sha256": "befb079ae649780e75e6a5dd62314281cfe8bdd7ccb5f16e4b25ce4ccabdbc75",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ICE",
+      "sha256": "8b44cd305af8a4d6a03ba420b84b0c5c0bd430d61deaf31414385d1dfe9f5807",
+      "raw_date_rows": 5288
+    },
+    {
+      "ticker": "IDXX",
+      "sha256": "f305235b54a51a504675a3ccf774c6072978c5fc4f720c27c543978f32c9091d",
+      "raw_date_rows": 8921
+    },
+    {
+      "ticker": "IEX",
+      "sha256": "9057670733631a07d607518a02c2410516e0bc595179cb1079fc5f6b4ba5e3cb",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "IFF",
+      "sha256": "c35672f5fbbed4bb6d7e98f6caa0fc6c1e89f578dc0c1304aa2b06ae13017d66",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ILMN",
+      "sha256": "6bae317df047bb969447417b5e1efa412b9bae7e9d1cc88c4eb8671972f4f8c4",
+      "raw_date_rows": 6621
+    },
+    {
+      "ticker": "INCY",
+      "sha256": "624fb028fc4693cca68587647ffd1f8e61efc6e92e46fb0c85876093f43a4e73",
+      "raw_date_rows": 8320
+    },
+    {
+      "ticker": "INTC",
+      "sha256": "ee2fde2712203dc662757861630546d0d8cbe6530b03da3ddf370232c4f205d1",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "INTU",
+      "sha256": "814104851027e929ef3b1bbd8b87f18217bb988f63b742bcab8c80b737b6c524",
+      "raw_date_rows": 8485
+    },
+    {
+      "ticker": "INVH",
+      "sha256": "d1b72ee12e6d22c8d830d5f5b303b5d8726713c46dfde5b3b031c5768694a755",
+      "raw_date_rows": 2468
+    },
+    {
+      "ticker": "IP",
+      "sha256": "3a4d655fc7e82d5990b37c5feecda05bd665fc34f1e18c5b3c0df4d2d4c3f9ed",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "IQV",
+      "sha256": "6a0211712b5d1923be4cc4faf1b2c15362aec34a46cff2444fb37fb47340ec61",
+      "raw_date_rows": 3408
+    },
+    {
+      "ticker": "IR",
+      "sha256": "d7674edb15e7ddf031d69af2c039dbed09f79313211339e2930c687e72e0d08c",
+      "raw_date_rows": 2398
+    },
+    {
+      "ticker": "IRM",
+      "sha256": "6f6a924f35dd037fc734f869c3d346acb3d8b704228b28d6a4f0206920673ceb",
+      "raw_date_rows": 7754
+    },
+    {
+      "ticker": "ISRG",
+      "sha256": "54e49e74e0864eaa86c066ef602f4c26570ed1edf56ebd3a5444550bfa0717cf",
+      "raw_date_rows": 6650
+    },
+    {
+      "ticker": "IT",
+      "sha256": "f13b9ece4d6592cc064b73876f2fe62e221aa60a877a606e082c942b85d33eb4",
+      "raw_date_rows": 8342
+    },
+    {
+      "ticker": "ITW",
+      "sha256": "d24ee65e4337711a7a3a94b9fc321ff5426e56b11a9078667f8ae24122d2b096",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "IVZ",
+      "sha256": "727d4fd027827192e83ce1f36f0342e581c95f85666be5d24090bf6a345fd140",
+      "raw_date_rows": 7864
+    },
+    {
+      "ticker": "J",
+      "sha256": "c228f6d3e419f6cba8c35e122940da887da95ff6c1300e7cd38a8380b75ccccb",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "JBHT",
+      "sha256": "6f493dee0d3278a35102b828b6b51967d63f5eba8df054fd2010557cd1ac7f9a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "JBL",
+      "sha256": "4e84a3c02500f3c51a071b25e580d4c8e654d8965ed1612965f4ad3c8437afdc",
+      "raw_date_rows": 8450
+    },
+    {
+      "ticker": "JCI",
+      "sha256": "56e99b58ac9a94497160f314e476c5eff603a9c427e8f8e8c88f6e01559ce2eb",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "JKHY",
+      "sha256": "ba1189c1759274a13998c9ae7b73576b0119b7369976a7996ad322b85560d620",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "JNJ",
+      "sha256": "7c691f2cd34dca1c91451222aba26345e79d9dcc1a9472090150c22f1b621dd9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "JPM",
+      "sha256": "34c68712006c6d61fdb1300177010bf17dcbbb7a93750c9305be611169b38464",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "KDP",
+      "sha256": "6157d53490ac8acdada2804e8f416ed2c6d8748f1dcc79e115b973f968bb5e66",
+      "raw_date_rows": 4668
+    },
+    {
+      "ticker": "KEY",
+      "sha256": "9b1a63b0bd8a8fda9d57f5978aa89b8f02182da2e1010a1b69ad79c0686877db",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "KEYS",
+      "sha256": "d8899cb836b751e12a55d0cc91905cb0e28540d4310fbafc27c49705014beb63",
+      "raw_date_rows": 3043
+    },
+    {
+      "ticker": "KHC",
+      "sha256": "9be2af0bce769a984339966033d10c02eb4075254bba39bfa437a570d8fa429b",
+      "raw_date_rows": 2866
+    },
+    {
+      "ticker": "KIM",
+      "sha256": "7c97b3582cae1f408127de36194c90287011e0fbaffea4f5b5b935994f47c64e",
+      "raw_date_rows": 8813
+    },
+    {
+      "ticker": "KKR",
+      "sha256": "d7c7187e87a10131e047330d6419a194ec495a67dd69764f6890beb0d3514eb8",
+      "raw_date_rows": 4117
+    },
+    {
+      "ticker": "KLAC",
+      "sha256": "d4fc43fc9d49588fb0c7da8f92a5463fd170611b65203a9d468069fda5ee5cdf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "KMB",
+      "sha256": "9f1cc08f96b7aee98cfc39607a72d7ef06ebf7aad0cbb2b7df6ee761b047080b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "KMI",
+      "sha256": "e9f299fbb1889a4236ea94256195a51bfab47893fb628f7ce77fa0058062d296",
+      "raw_date_rows": 3970
+    },
+    {
+      "ticker": "KO",
+      "sha256": "41e261fd5e8d7165d943121efac003b644a6dfd48b5c2efb741018ebae7137a6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "KR",
+      "sha256": "37b3d4d4416a927ceb614f3aedcabaa244a0d6fd0f4ef5301d58c2b32fa90f0d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "L",
+      "sha256": "94fdfa1299be8086f721b5fe4910b39cbc1ac7a3ab711b4443402ac41493574b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LDOS",
+      "sha256": "0ae39908533171ebea0b8102c1a414b91419064160acf6093e71157ddb48a9ee",
+      "raw_date_rows": 5058
+    },
+    {
+      "ticker": "LEN",
+      "sha256": "b2c1dc6681e5fc3b5886b6137bfa0aa8e1af777232d3d8740b42d419174a8dd1",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LH",
+      "sha256": "0d9c3d5e05f0c47c5436bc54e0f20406c04753cb8cd2f12791c1d49833b4d4d8",
+      "raw_date_rows": 9232
+    },
+    {
+      "ticker": "LHX",
+      "sha256": "ab5499bed9dd834578d24ad1f67dc6b61993b265a6054f9bac440c9683af7ade",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LII",
+      "sha256": "8f7824eeded91a0b3876715e8d824e43faf5a72c807705880b82d2e2a2dd8749",
+      "raw_date_rows": 6874
+    },
+    {
+      "ticker": "LIN",
+      "sha256": "bf2e9e57743198abd435c87a52314b0cfbc94ba663eeeaa9ba0d46932ba5616a",
+      "raw_date_rows": 8671
+    },
+    {
+      "ticker": "LITE",
+      "sha256": "914cba171053284c3d1e165d0c5b64c40f525fc80c82b545b64d3ad7a3814ad9",
+      "raw_date_rows": 2853
+    },
+    {
+      "ticker": "LLY",
+      "sha256": "c475d7601d0d673380c9a6e282ec9b84b0713f70c87202b45ad9659fb68a318d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LMT",
+      "sha256": "9105b08d9f945d22dc98d0d8a034d98c5a93623440619b2249d4ca3e0e8833cf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LNT",
+      "sha256": "f0ab6c8f4f5ac15ac8be82cf9db1c45831cc3915d37129ebb492d6079cbf8e7b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LOW",
+      "sha256": "6cf830aa842aa99dfdd88eef8eef5153a6a8ba7ad8363036e92c7ac917dbc612",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LRCX",
+      "sha256": "3c97e44648ccdada926209c04d1aa22f01cd7a361e98875d0f51429ca71d5412",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LULU",
+      "sha256": "a6ed0a12672dd60fd85bf5b050ca444744398cbfefaeb43f00373aeb98ba03e8",
+      "raw_date_rows": 4864
+    },
+    {
+      "ticker": "LUV",
+      "sha256": "24f6d3ec711ac165b5283271b27f1c21ea55bb7f762e01f50efc5cade85ca816",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "LVS",
+      "sha256": "eb6718816d95363089b29ef38ae685c6c9024134b31d7b26aa434ffea143dbd2",
+      "raw_date_rows": 5521
+    },
+    {
+      "ticker": "LYB",
+      "sha256": "1841c956a7554939e6a0377e41efa46a992b21a274e635c45b21996bcbc8f976",
+      "raw_date_rows": 4171
+    },
+    {
+      "ticker": "LYV",
+      "sha256": "fa1002af64ebc46a5a5c8ab76519b30c7fe45484e43f113a9140879d68276a21",
+      "raw_date_rows": 5264
+    },
+    {
+      "ticker": "MA",
+      "sha256": "8f569d35f8370899929d4f6f0304fffbd273b61ea7f2d2327ba422a7b30301c2",
+      "raw_date_rows": 5158
+    },
+    {
+      "ticker": "MAA",
+      "sha256": "c00b4bc83594d9768f1821eaa58538a0d727a1e425bd57682c7675d7e6577641",
+      "raw_date_rows": 8261
+    },
+    {
+      "ticker": "MAR",
+      "sha256": "494c4d221e8d1f3644acc21f929346f97c1c694839d69ada3e21a078e96e4fc3",
+      "raw_date_rows": 7215
+    },
+    {
+      "ticker": "MAS",
+      "sha256": "cca55e5925d14a78d448a4b11800231c3922734e37200e35ce014ee8dd67ec31",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MCD",
+      "sha256": "8723e0a7ff21278796c1c70518e3cb2ae08a003c8b6d681ce3d05bca5919da73",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MCHP",
+      "sha256": "2ef328e5d47187a08c2fc933640e0b69fabc703ca1cbc44b73e75978aacb422d",
+      "raw_date_rows": 8480
+    },
+    {
+      "ticker": "MCK",
+      "sha256": "7284daba58c368930df1d64a7cc492814dd81bfdd66dcd3876e228945a61b320",
+      "raw_date_rows": 8063
+    },
+    {
+      "ticker": "MCO",
+      "sha256": "efc54372a34dddf1cc3633e9c05c574e86a2747e24a7b8e3be8c3ebd644277ad",
+      "raw_date_rows": 8071
+    },
+    {
+      "ticker": "MDLZ",
+      "sha256": "03635bf24a2374b8447fb281f71c488ee9a171a98780c4028c2b3eeb378c615e",
+      "raw_date_rows": 6401
+    },
+    {
+      "ticker": "MDT",
+      "sha256": "c1959e1d31838995ce788fddc8a3a7b90bd04e20dfe52c45d9388a19b453d8ed",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MET",
+      "sha256": "56c9d34d6387838cd5d4c77d99f0666fb0e62b30f9d9ab9af0f521edd3d81d8b",
+      "raw_date_rows": 6700
+    },
+    {
+      "ticker": "META",
+      "sha256": "7337f83b4e22e7e041facdc520bc6127417e6adcd763d7311287333e7af502ae",
+      "raw_date_rows": 3651
+    },
+    {
+      "ticker": "MGM",
+      "sha256": "36575a90cb05f42ca24fe2bd83c8a0e41a182e16fd478691223a6cef0ac072e6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MKC",
+      "sha256": "15a1fa46d44ec000b825db291eec3ac8125eb97a34c24077bc5fee16c055eed2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MLM",
+      "sha256": "9dbe7f55a732e945d0b8bcf60856e4cf92bbf1470ec31c10ea9d9f3f0466a9b0",
+      "raw_date_rows": 8247
+    },
+    {
+      "ticker": "MMM",
+      "sha256": "3b2a6f01d56f150a5a0dfd0653b0e89890029c81ef698cb99ebbcf33b796506a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MNST",
+      "sha256": "7a8f52addd02b75fe50f3b7b8cafecc39a15f852db0d3486ceff140c73e8f415",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MO",
+      "sha256": "68eb152cda77e3aee6d92d22ace0467b49665a42b749252bb33153f421f5b830",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MOS",
+      "sha256": "cc236610351511b393218cc7a94a1367a53417c1239ef73ff45d2c7a5f50bc58",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MPC",
+      "sha256": "6bc94d77b3684583ba93dacb4a23945dac1acf51e214fe8e966f327f6e496f12",
+      "raw_date_rows": 3878
+    },
+    {
+      "ticker": "MPWR",
+      "sha256": "0aacfbceb7c02a5b3c3be1631259743a9923371f776564e2adbbb9510591c59e",
+      "raw_date_rows": 5538
+    },
+    {
+      "ticker": "MRK",
+      "sha256": "8da6b130a6334a93580d6fa4ea7de226eb7b8c6fb892830a44cf786a75e2583c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MRNA",
+      "sha256": "7d9f7727372d60c44b747038ed34e6efa1c9a9ace3e050590d0d0f7bad896e8d",
+      "raw_date_rows": 2002
+    },
+    {
+      "ticker": "MRSH",
+      "sha256": "b3b24ac9eac032c8a8af4e31cef28c4af8ef97fbea25399fd8f0f3f69e19d393",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MRVL",
+      "sha256": "2a1e4bb35bd1e213478c9b08eeba2180047a266690d5fc697d1ca97f779c5880",
+      "raw_date_rows": 6640
+    },
+    {
+      "ticker": "MS",
+      "sha256": "e27ebc54d57e23d0046ffc36bd72c9fd9f1fdc7983189a2c7f3814dc0c4fa085",
+      "raw_date_rows": 8498
+    },
+    {
+      "ticker": "MSCI",
+      "sha256": "6934dc10ccb01e3b13c0e5d93158c051dccc01bc02552d6741fcef6723abe016",
+      "raw_date_rows": 4786
+    },
+    {
+      "ticker": "MSFT",
+      "sha256": "8b12c54cb55e3c8d76c0629fb5316489cf012612338ca367328efbc203eea9fb",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MSI",
+      "sha256": "9b6e77b84832b8660e2b3eb564875430491499f76fa79883c1f4befd642ddf0c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MTB",
+      "sha256": "e6617c93051c5112738a7025694479ef319c729190adcf155db6cc9597e6917f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "MTD",
+      "sha256": "016e1c628628f23e353c4a615ae1202a5dc50643411427d8b6235a8c63cd749e",
+      "raw_date_rows": 7301
+    },
+    {
+      "ticker": "MU",
+      "sha256": "a5e011f838ffd5414d49f3dba99668f875cff149da7acee9c70e48e5613893da",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NCLH",
+      "sha256": "3b963724d141fe068ce7855078e7668ef8e31748211a823ea356feb8e5060bf5",
+      "raw_date_rows": 3484
+    },
+    {
+      "ticker": "NDAQ",
+      "sha256": "c71806af9d0375f49c9a1bae18c5441b38041e4e9dd7b661e18731f23b33ac9b",
+      "raw_date_rows": 6141
+    },
+    {
+      "ticker": "NDSN",
+      "sha256": "86dd3c9a628b894408a1ccc59e46d4ab85691abc9bf0aa5af05254c59addc280",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NEE",
+      "sha256": "8a8f22772acfef90387a081674b947377d57cd7bb405bfa9de237fde28d0e842",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NEM",
+      "sha256": "6968539ab89c06d9794c38d0d596de76a8e052cb3c97f2b14ab1474a78d5bbb1",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NFLX",
+      "sha256": "bfb818eb9340ec4efb032b8988349bbd481d02b37d0483a13bdcbf46734c960e",
+      "raw_date_rows": 6167
+    },
+    {
+      "ticker": "NI",
+      "sha256": "abe2abdd79f806dd718f6e0a6530027f70cdbc223941ecfc48b7c40905242f31",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NOC",
+      "sha256": "9a72242c38d21eb2c8731a548097c8f2e5c08cd48d95142396b49b877452b85a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NOW",
+      "sha256": "b1c007416fbc3796697a3e3e038e3409e4a32d4ca9072cec631dc9d0b9969cf3",
+      "raw_date_rows": 3622
+    },
+    {
+      "ticker": "NRG",
+      "sha256": "0d13ff1a2ad4885dedd3ab71cd38b65a629e751f0565496677c0381389faad0d",
+      "raw_date_rows": 5782
+    },
+    {
+      "ticker": "NSC",
+      "sha256": "cb1fe8fb54caaf9eb956a738bdc1ee372a218b7faa91b2a6d2ec01785fe42287",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NTAP",
+      "sha256": "971a9594f22a5386f996e65489a4cb9b65950a00a5d942b6b8d8d9dab4e1e439",
+      "raw_date_rows": 7803
+    },
+    {
+      "ticker": "NTRS",
+      "sha256": "135f234c52ba4c4f29a4f87eec4db33d692fdaaeccb66832354def566b98964c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NUE",
+      "sha256": "70822ffad0912fdd53cb8ca627f2e76e8d5b7a5ad8661fa8209d0f025a4bfab2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NVDA",
+      "sha256": "ad142ffdd4172e91b8219daab8f4b2dc26fa125a19adc0323c0ed5de4344898e",
+      "raw_date_rows": 7004
+    },
+    {
+      "ticker": "NVR",
+      "sha256": "689766a41e429ec621335aca5629bfb31e8d283c8deeacf89b5fccd3b787e75c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NWS",
+      "sha256": "72dbf8dc5f95c6c687bddf5aeb8b76502aea1c79fa6b1b3b2fa4ef72fb186046",
+      "raw_date_rows": 3380
+    },
+    {
+      "ticker": "NWSA",
+      "sha256": "b51d598c8f9191bc4b2d908bbe6b44bb7a3ac410ae1717778064ee4b3e79a5b8",
+      "raw_date_rows": 3380
+    },
+    {
+      "ticker": "NXPI",
+      "sha256": "95957dbe3f5c443d8b9884021dad7d52087983c380bb0b557b1f37f8a748366e",
+      "raw_date_rows": 4101
+    },
+    {
+      "ticker": "O",
+      "sha256": "281be30c4be0eb46ea004fa4134ec3d972ba35686aa3800fdeb5147fb96b4d8c",
+      "raw_date_rows": 8080
+    },
+    {
+      "ticker": "ODFL",
+      "sha256": "f8ca17149cdd5a12208030917ccc89b984f35c268b7be7eb0ed6f63b28061313",
+      "raw_date_rows": 8834
+    },
+    {
+      "ticker": "OKE",
+      "sha256": "3a92d3642066b28beb4969d3eaeb29deccb2a7e819097ae8e1902286355f72f2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "OKTA",
+      "sha256": "35ea99af108e994ca26089cb8349f3af6216b7b638456ff73dfc9016a28c542c",
+      "raw_date_rows": 2422
+    },
+    {
+      "ticker": "OMC",
+      "sha256": "abd5374d393af98ad4d1c83ec2db2b0c26f9b6a5c5f9c9ccc38070b91ea6d94a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ON",
+      "sha256": "83319c1290327b78a902c8bab3fdde48101f1ace81d41d936016c885410f6181",
+      "raw_date_rows": 6682
+    },
+    {
+      "ticker": "ORCL",
+      "sha256": "3bffdcc1c1072ac64a03f563cae5e0b7b2081580af7691fa0a0ea34e6056b5c0",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ORLY",
+      "sha256": "8bc165cafd9c8729b00ac44eed7b2f32d341ba710b1a29d3659a37018dd44f4b",
+      "raw_date_rows": 8456
+    },
+    {
+      "ticker": "OTIS",
+      "sha256": "7a5f1b242235006c2d7901df916104d3eeaa137042df41d32ba6e2e87c3b1f8c",
+      "raw_date_rows": 1681
+    },
+    {
+      "ticker": "OXY",
+      "sha256": "b4dc7a5d90845bfa22128c2f0dc6e4f5377b2462020d1d4eccb30a1e79bbac06",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "P",
+      "sha256": "0c1dc045f3c181df6cbbfc0982c253dbd485f4d2a965fc27ecc8d934676d87f3",
+      "raw_date_rows": 2801
+    },
+    {
+      "ticker": "PANW",
+      "sha256": "180d10397112488bc295b619cb05149fa70de3f3a8bd84466df425d9bc7e5fbd",
+      "raw_date_rows": 3608
+    },
+    {
+      "ticker": "PAYX",
+      "sha256": "8bf1a71c087bab25d1aa786dd1f579b2215db188906473b61de024080a2a680f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PCAR",
+      "sha256": "54695ef634e851928cdaede21584a694bb1b6524144cd23ab1639ec19b7feca5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PCG",
+      "sha256": "92c6ddd6bd044ace494101aca889873b1e58c635672c90c29f2847144897e768",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PEG",
+      "sha256": "64821430c532ff2ff56d23aadfd4b4ae5e9bb7fb6d07f84a377f481b08ad1445",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PEP",
+      "sha256": "143189174a5ad810df5bfac3257e3860819e0a703f63be84669aa67b3abb0d2f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PFE",
+      "sha256": "0fd5ef201c983095804f1179b6c60e307b19216633e07db694d301639234d02a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PFG",
+      "sha256": "73e0ae6e6b20658fee37338f12ba1079fd652e66c9d3bbf6c3066b04e691d958",
+      "raw_date_rows": 6313
+    },
+    {
+      "ticker": "PG",
+      "sha256": "802c463e3c6ada529a7720cc59afc976396fbfec7e0dc83c080e8db6f9ba3b82",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PGR",
+      "sha256": "90a709b7c93c2b06fad28d5b45f8b116c31ecf674ead5e3ae3072b22eb1dc18c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PH",
+      "sha256": "49e7b2262f10f204e7461edaddfe5e1f899b675a035844ce6c2ec3b715641a02",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PHM",
+      "sha256": "99eab9217d371de29d871c0de576750e81b2bd9988efdde2546f714963c84efd",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PKG",
+      "sha256": "e51fd9cc1595bb6b68646f8a07441c3366e4ddf735bc3dc074b4567cf6e381fa",
+      "raw_date_rows": 6747
+    },
+    {
+      "ticker": "PLD",
+      "sha256": "803e85f85d6b17fcd5ec99500056a0cd75ac9cdd41a56e56c1699da85084af55",
+      "raw_date_rows": 7296
+    },
+    {
+      "ticker": "PLTR",
+      "sha256": "e1dcc7986236bd56785549f795bce7f7e3dcbbb4a02ec457c5cbab71cfd767b4",
+      "raw_date_rows": 1546
+    },
+    {
+      "ticker": "PM",
+      "sha256": "efeb2a942d68e5f477811e1ef45fd896536bb8846ff3b2f87ac6ad3fabef04f7",
+      "raw_date_rows": 4704
+    },
+    {
+      "ticker": "PNC",
+      "sha256": "478b19bb0b7d3327d64b4c38c03e2c202f2525298e2e63f100a8f82dd8475f48",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PNR",
+      "sha256": "d9cd1512f070f46639cd245d586e0ba077799724d1685d7a50a0c945e706fe75",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PNW",
+      "sha256": "12e67687bc3b1ba738df2392d9a5b02d5a7ad4c319e7abd06a09057bc03f8cb5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PODD",
+      "sha256": "1239b07e9ac6310caf9583b1c84479704cfaf5bbd01cb6dfbdf3d08b81b8004e",
+      "raw_date_rows": 4915
+    },
+    {
+      "ticker": "PPG",
+      "sha256": "a37626332ed6d34c946135ce4433b56a7d54d971096f2c936d2b3d6eed88ef3d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PPL",
+      "sha256": "f6e4ceca2ecc88d514093cdf82ad89e560b521ee8edc8ebda41dbe26ef29de58",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PRU",
+      "sha256": "5ffde76ac8b76978f35a5b3ca82dc57743e6ea1cc77f7b601e9539ab8aa7dd7c",
+      "raw_date_rows": 6277
+    },
+    {
+      "ticker": "PSA",
+      "sha256": "eedd4a262fa662a1841603ee26743fc6ba44624903dd046e968a8ed630fc27e7",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PSX",
+      "sha256": "7796802bb02275faa0afdd20726906ca910654f88be05780b0b81708896aff68",
+      "raw_date_rows": 3677
+    },
+    {
+      "ticker": "PTC",
+      "sha256": "f5872ea43c3a970b460cb144faaa4b191943b7b5c71574b03f8bb728debcdcce",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PWR",
+      "sha256": "31f44d197f8b78a5bb6847ee49e3b1fe1cb6046a270f52951eaf28037eb2765e",
+      "raw_date_rows": 7241
+    },
+    {
+      "ticker": "PYPL",
+      "sha256": "ebab35bf785fd1882ca841a55faf0bea01455843a23f54df1f35a6559cf47804",
+      "raw_date_rows": 2866
+    },
+    {
+      "ticker": "Q",
+      "sha256": "6217e1caee47b9d069c1c996b00ee95d78aeee30a36eee35061cd52754e140f4",
+      "raw_date_rows": 272
+    },
+    {
+      "ticker": "QCOM",
+      "sha256": "9435bc948495a6dd99651fad099afe5047c9544155f5e232fd800107c9e764ca",
+      "raw_date_rows": 8799
+    },
+    {
+      "ticker": "RCL",
+      "sha256": "bf595312860a4e27d5f28f91e96803b9df1cffa904e81542f53911ab71e00839",
+      "raw_date_rows": 8453
+    },
+    {
+      "ticker": "RDDT",
+      "sha256": "bfc27ff40d93a310c0ea4bf5c53862cc1d31a5759f14f051240266d78e0dbad2",
+      "raw_date_rows": 673
+    },
+    {
+      "ticker": "REG",
+      "sha256": "f51c50b13d23518bdecc6003ad98390330d675ac6e786835be291a326ddbfd53",
+      "raw_date_rows": 8324
+    },
+    {
+      "ticker": "REGN",
+      "sha256": "1362f28e2aa82a81527339f546838f7f57df6e81a399c9310acac451421c438e",
+      "raw_date_rows": 8978
+    },
+    {
+      "ticker": "RF",
+      "sha256": "4b3ce98eb929aff0c1fe636b19ede681d56e63e3a15210c5edcb82581f0fc663",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "RJF",
+      "sha256": "bc7adb4dbea194d5d768f7ef47daa48e563155f47d5a13aef662944b82f63ea2",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "RL",
+      "sha256": "e5633e5f184e8157e4e8d690e7c895931b334d49cfe6ed651417aa2d714e9f7f",
+      "raw_date_rows": 7410
+    },
+    {
+      "ticker": "RMD",
+      "sha256": "eccfd831aa7a3979c84ab2b1078e4ad714023c2d591140af85bbe0ec3e86c334",
+      "raw_date_rows": 7923
+    },
+    {
+      "ticker": "ROK",
+      "sha256": "23cacedbdb87958b7bfb658b19282065e6553b5339a2c8c346d2f67b61836ba5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ROL",
+      "sha256": "1dc83e0db0336e9b24799d19141b098820a10b235b067a3d0d017f618d34df1d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ROP",
+      "sha256": "006237a7576759878369dddda6ecd92dcf6c51b8bf211131c70a558be98d4ee2",
+      "raw_date_rows": 8757
+    },
+    {
+      "ticker": "ROST",
+      "sha256": "8e247345e6f368347eccc6f81d6bdb0d5dca5b6852a7c5c0fa03d83a35decdff",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "RSG",
+      "sha256": "147ed397e90ab847a0eabc78331e208e75d0ffda3ba815c36475919f973bd231",
+      "raw_date_rows": 7145
+    },
+    {
+      "ticker": "RTX",
+      "sha256": "4c9a233d154e9c0d1d0367f5dc43638cb768170aabff5977d9ee10811088f0bf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "RVTY",
+      "sha256": "a20ddc22bb1cabba08e0464e5d3ff4432d555274cef705f278ea06c9baedc6ba",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SBAC",
+      "sha256": "aea0f954e7248eee84a39a5a260f8f013a54cce8a755cc025132e3d05980005d",
+      "raw_date_rows": 6904
+    },
+    {
+      "ticker": "SBUX",
+      "sha256": "f7181ccc8a774015f0c5d0823d894357c9092d2b050c0236d02d59e1e41de95d",
+      "raw_date_rows": 8664
+    },
+    {
+      "ticker": "SCHW",
+      "sha256": "d5e9929c7588d45facfd0139fa8aa844b0cf4715727385b808acd72f98f53c55",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SHW",
+      "sha256": "5b8866debd18c3cf57afd17647c4e75c894b5feca8e8db6b21d21ef3f77534d9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SJM",
+      "sha256": "4da52dd4fe74fce2a3ed4070e63170beb205657cc9ea56ff9b34d8d7970b2a06",
+      "raw_date_rows": 8071
+    },
+    {
+      "ticker": "SKYD",
+      "sha256": "f1ecb7bc4a819a4d7e6d79caa723258778f71c68d42f2828bf53b2013da9497a",
+      "raw_date_rows": 5276
+    },
+    {
+      "ticker": "SLB",
+      "sha256": "ee60e4043242edac5ae6ffba9403bbb26857eded4d26b133cd721eaedde94ca4",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SMCI",
+      "sha256": "cfe315136ed71bf1c27254a150015d9b60e81f61dfa51558a1756fc6bfbe2a29",
+      "raw_date_rows": 4947
+    },
+    {
+      "ticker": "SNA",
+      "sha256": "31f90d6739581afcf70510daf25c61d53921c33fbd17872ac842afded96038e4",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SNDK",
+      "sha256": "fdfe9f80b062631c291d86f50fda4c03f041668150584e8479370809c894dc04",
+      "raw_date_rows": 448
+    },
+    {
+      "ticker": "SNPS",
+      "sha256": "ec6d6c53f32a321d2a262048289c9fbdb9af83dd7c7ab85d33bda5cfd6859764",
+      "raw_date_rows": 8749
+    },
+    {
+      "ticker": "SO",
+      "sha256": "d81bb1b85c397e79c9fac366797b8cf630c2c1093ee715ab112c00bbc6e87861",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SOLV",
+      "sha256": "2d6d11f774907c994445e39ec35d7cfc1d136fe2973f2027d8dbf2034c968a4c",
+      "raw_date_rows": 670
+    },
+    {
+      "ticker": "SPG",
+      "sha256": "6a4b4b50f0ee8ee2c6751c258ada0defb44b1fec42704ba450831a4f26c06e85",
+      "raw_date_rows": 8293
+    },
+    {
+      "ticker": "SPGI",
+      "sha256": "c87adc2e7a58125173bb6aa2174ff857e0d97ef16b499b4c7f82127da6109a55",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SRE",
+      "sha256": "7cd586a4c68f8e6b9b6a3bc722cf4285cac21e803b97753f6bb725a55414e8ec",
+      "raw_date_rows": 7147
+    },
+    {
+      "ticker": "STE",
+      "sha256": "d7202492e72278ff8c0ca5d19d41ddac1fe21a0d2684e72cd8e9222726f836e9",
+      "raw_date_rows": 8683
+    },
+    {
+      "ticker": "STLD",
+      "sha256": "b60aa947e89d4032f4f2a64617faf7e5aa33f3e93ab2a953104dd15a3b71d5da",
+      "raw_date_rows": 7548
+    },
+    {
+      "ticker": "STT",
+      "sha256": "1f36b891dc788048634a8c6dff7a9594119258eb003bbde6b5d0dcd00ca3a2c4",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "STX",
+      "sha256": "cf3e35226dc8ad1c2c429a3961dbf5171819f6a058ffa61ab6526c383abf1565",
+      "raw_date_rows": 6027
+    },
+    {
+      "ticker": "STZ",
+      "sha256": "f30d1081deca357d586d9efe7ea485898bc5b5d250e610126e89334515c0a4f9",
+      "raw_date_rows": 8735
+    },
+    {
+      "ticker": "SW",
+      "sha256": "919d192fd8e01c953a793d804476b3667b4873b9b08335f5f044294fdd6a4620",
+      "raw_date_rows": 4640
+    },
+    {
+      "ticker": "SWK",
+      "sha256": "9b89b947dab57b65eba42d7c76862b2d702bf3cb69cba5563e96f0b24e56ad9b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SWKS",
+      "sha256": "fe99c7281a71d361ee83b4b4b43025b153fb7ac29b6e3d2f033c7f8b5f97a6e6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SYF",
+      "sha256": "f28cc22d9aaf11bf49400fe8ddf81178d61e5e1aa1350a41b6b5072c46c4feb4",
+      "raw_date_rows": 3099
+    },
+    {
+      "ticker": "SYK",
+      "sha256": "f0611648d113fb540bd18af41f820bb51b5c1a812a0ff142d171a2d57dca2ac6",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SYY",
+      "sha256": "620d89a648591eb6727f974348b34111b90011f2526c3801d3f554dd589ecd4e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "T",
+      "sha256": "855ba37002aa89216b4e7f74af50b34540490be612115caeebc0eb0132c09d7e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TDG",
+      "sha256": "f9130b6cafe947b9cdb8cda7a66ee3ae43bcc5729b77a3d43df76c8f0eca1326",
+      "raw_date_rows": 5208
+    },
+    {
+      "ticker": "TDY",
+      "sha256": "88c46a7d5aab97185dbbaa2dd72ebde6f928fc182565bd66c2a583c632fe0043",
+      "raw_date_rows": 6792
+    },
+    {
+      "ticker": "TECH",
+      "sha256": "baa97ce044cd59e2328b589b99179b058c69af7597a8d2d0f332554fc53c0eff",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TEL",
+      "sha256": "f94c60c0bfe007e3fb32bf22e206f3ff29f12483a5323c51965c432a1bf6fd15",
+      "raw_date_rows": 4894
+    },
+    {
+      "ticker": "TER",
+      "sha256": "73f4f47969d27beb544f90f947a3609d99b62775c6e450a15b6aa16ea21c4241",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TFC",
+      "sha256": "d9d3e91f08e31ca66db590cb100927ca1b119b990692b8888146915f86d94a5a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TGT",
+      "sha256": "d458291569a337a69fde2ed046485739a906e24d0f3fa0ff149f6022026f00af",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TJX",
+      "sha256": "6d383e04a4e9f789ba155144c76b221ad66681a5b6f1d662d2a53d4011c12cf0",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TKO",
+      "sha256": "7c58639f8bb6bbd2dcac26d01a74aa7705688163d146a8a50842bdaf64efafad",
+      "raw_date_rows": 6817
+    },
+    {
+      "ticker": "TMO",
+      "sha256": "adea6fb84e8814339dd05656510caa7b9446299c6f0c89072a83c2399bf849d9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TMUS",
+      "sha256": "eedc0e67ac8f293970f2a34b495df85b0d80306a8ea92ae4d96ead6e90207cfe",
+      "raw_date_rows": 4933
+    },
+    {
+      "ticker": "TPL",
+      "sha256": "de63539194e74550cae69c4c91e676c745808102d4b73f84dc2d914b42124db3",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TPR",
+      "sha256": "a7cd09c62f14d3ee80b22706561512eb45576c1bb263e4741c3a46f82bb028b6",
+      "raw_date_rows": 6572
+    },
+    {
+      "ticker": "TRGP",
+      "sha256": "951251e0f141f3569900fd19d2c16ea2f9f58ddee31c510448614a84e0b52495",
+      "raw_date_rows": 4016
+    },
+    {
+      "ticker": "TRMB",
+      "sha256": "88f48f615e42d7ac1e7e6c4f0edcfc5dbd4f8be5fc20ccdd3f5b018188a6361b",
+      "raw_date_rows": 9154
+    },
+    {
+      "ticker": "TROW",
+      "sha256": "09287b03f64904a76468a4d6ac47ebb91b81952052eaba72a7ed4b2352a45cef",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TRV",
+      "sha256": "04a7f0c1415fb2f776830fe2212b084d4b2310c5c046976bb292e1acfcd2a91d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TSCO",
+      "sha256": "063fba05abfd77faec8a727d65ebabf267070d6aa34d83b4ff920d40cc0e10c0",
+      "raw_date_rows": 8247
+    },
+    {
+      "ticker": "TSLA",
+      "sha256": "a631c4c28f6fe76eee6d6602849032b5e5c3a011ae063bcb1801d04c152fa99f",
+      "raw_date_rows": 4128
+    },
+    {
+      "ticker": "TSN",
+      "sha256": "13a6361d4bcdf6b7a6aea8b3482d155db06a21f9adeb0958a96cd6555fc2486c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TT",
+      "sha256": "e0a795a282ce2b0c5727892b81905cb18bfe8eda835e3d7ff6a3c915bd76eee3",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TTWO",
+      "sha256": "47a4b0ad9a5b074e3d03f6fc208f565867c54609e3190d41faed7ce606e2834e",
+      "raw_date_rows": 7451
+    },
+    {
+      "ticker": "TWLO",
+      "sha256": "b466c0c47e92086aa9a7db56d4051d09b45aede7ab112985acf811d879b8a320",
+      "raw_date_rows": 2621
+    },
+    {
+      "ticker": "TXN",
+      "sha256": "2b6117a3af932b1dbc0fc0444512de6114766420c619f71ee20a69cd65683c3c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TXT",
+      "sha256": "7598345035deade82d2e102d8ae34342931637e1faa9017fb1d7c63b0aa8c848",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "TYL",
+      "sha256": "21bbe9d50c933670897ca465a36178283579d3606c29754ccf571300cf41996f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "UAL",
+      "sha256": "0ded9f87f1edd4ff8406fe0a73649f1d8abda927888cd7c02092b39141b15899",
+      "raw_date_rows": 5234
+    },
+    {
+      "ticker": "UBER",
+      "sha256": "3576e02e48414311aba74722fb1d7ebab4e0f1bbdab5aae6014732e3879c798e",
+      "raw_date_rows": 1897
+    },
+    {
+      "ticker": "UDR",
+      "sha256": "dd60d72cc21c2b10841baf11111ddc9fe2b36ebcca24fdf928e528933148bcbd",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "UHS",
+      "sha256": "f779b920ab6c1235c8647fd82d31ffeb465b7ab7d973328de6acc6a2df938d4b",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ULTA",
+      "sha256": "4003a16725fc16140c41af5be1aeed9e3ac9fe3a2fa5367ba32c72deb22ccda7",
+      "raw_date_rows": 4801
+    },
+    {
+      "ticker": "UNH",
+      "sha256": "5170166af223c9f7cf545fbc56a8f266c545f5dc6b2222877a8e98dc9040401c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "UNP",
+      "sha256": "22982ae173a9e391271dee48ec326f1bf1b9727e82a03cf4ddb7bcbf8a84e85e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "UPS",
+      "sha256": "936f43edcca2be09fa7b42d7c9b226ff85de65c0549238b74ed82d650663ce43",
+      "raw_date_rows": 6801
+    },
+    {
+      "ticker": "URI",
+      "sha256": "d7cd7c9b43be56875c07ab428e53e1c538ac51261f83d95b41d52d43655d5300",
+      "raw_date_rows": 7278
+    },
+    {
+      "ticker": "USB",
+      "sha256": "304f8b4fcdfb1ce1579036ded19016388560965ec015df9b843655599df4fc2a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "V",
+      "sha256": "1f685192178394e15648e2737b2b65220795554d7ac680e30d8c29d7559e773e",
+      "raw_date_rows": 4702
+    },
+    {
+      "ticker": "VEEV",
+      "sha256": "0278f945d1d3215047d70ab3b38481ffac46f66656f4e7c2f7a17461ba1a80d5",
+      "raw_date_rows": 3297
+    },
+    {
+      "ticker": "VICI",
+      "sha256": "1cd7aefe99cffc75fd242729e802d46ae1d7071048c1359f87317ab50f1c34be",
+      "raw_date_rows": 2237
+    },
+    {
+      "ticker": "VLO",
+      "sha256": "a8e1b981a834c95deb237e6468c234973fe6d165f04c011e1ac1e158b64a31b1",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "VLTO",
+      "sha256": "08c9b6ad47c8d27be0a5d012743d1616bb1bedd3c2a5de57cdbb197c7703d225",
+      "raw_date_rows": 789
+    },
+    {
+      "ticker": "VMC",
+      "sha256": "e3b6dc2dc7322c100cd899e89968d132bf4d28e412ee7a4acfb3c1dee1577259",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "VMRK",
+      "sha256": "c34854b9fce5bb7b8e89185d787220865f99e77dcfd3a2fd4412f52eb58e6299",
+      "raw_date_rows": 8379
+    },
+    {
+      "ticker": "VRSK",
+      "sha256": "86986515b6369ca44e13eab7df21621a433446bdc152e82aea64fea50243c94c",
+      "raw_date_rows": 4310
+    },
+    {
+      "ticker": "VRSN",
+      "sha256": "33baae61a329f7a1ee91462c349716d3e6d171fdf3aeabbcb3bb27504d5d7f15",
+      "raw_date_rows": 7250
+    },
+    {
+      "ticker": "VRT",
+      "sha256": "fce142782c33e6feac29f513e9fbbb0d154d0e0a18646842b488636bc13f7489",
+      "raw_date_rows": 2090
+    },
+    {
+      "ticker": "VRTX",
+      "sha256": "f9c55d086e7199cdcfb2c16039ce0a777a3dee53fa678c6d76d11a3bfc31d6cc",
+      "raw_date_rows": 8899
+    },
+    {
+      "ticker": "VST",
+      "sha256": "bedfc582055f9bc0ce03ffafcfd40fdd895ad4d620d81ad649d121b11329984f",
+      "raw_date_rows": 2549
+    },
+    {
+      "ticker": "VTR",
+      "sha256": "16baddd20b8909d2ac5fbfc9e00291e91fa781cd1ed8fb629425f54cfa9148f9",
+      "raw_date_rows": 7437
+    },
+    {
+      "ticker": "VTRS",
+      "sha256": "1395562c09dd10a09dc02013dd099937c6ead04b45c034b6ef3c0b7903619bb3",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "VYLR",
+      "error": "invalid symbol, currency or history | invalid symbol, currency or history"
+    },
+    {
+      "ticker": "VZ",
+      "sha256": "068b723d13c6d7a1a7751e1ae765a877e9aa85212055537581a4d79cd06ff403",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WAB",
+      "sha256": "0465501f57f192ced15ed650aa75098a687605cdaf241a726ab162d5561bd6bf",
+      "raw_date_rows": 7913
+    },
+    {
+      "ticker": "WAT",
+      "sha256": "6d32603c7722bd5f47bbf516bc13716d08707027d676e137ec60838ff2c5cdbe",
+      "raw_date_rows": 7805
+    },
+    {
+      "ticker": "WDAY",
+      "sha256": "ad3267d88437511386d7c8a9f2065988662c463a63b312a3946d0b6e7e43a065",
+      "raw_date_rows": 3549
+    },
+    {
+      "ticker": "WDC",
+      "sha256": "519704db2727b0537faf474bf6b7ddd9bc21beb21fbcdfd6301421e4d416f57d",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WEC",
+      "sha256": "81beb78559bba12db3095ea9e9130fb4c17df36d9c8c69c9f63ee6947cab5111",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WELL",
+      "sha256": "e4fb080f5960de5a82132cd62e3c16cbe635953e5dea4021cbffd08386b0cbc1",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WFC",
+      "sha256": "c94c6db814f673eb4c7d4e2fabba830bcecc701cd0d8950d56b746529a8a877e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WM",
+      "sha256": "573666c14f05905c2ffa670cf578f72a815a5fbe11c1c34ef458caf3e4935ebf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WMB",
+      "sha256": "d16f9e317fdc3ee1b5074fdda827fa1d538f31257282607c4100a7ca1be5b93e",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WMT",
+      "sha256": "2a9e290cd7a9248095f2f4b749a3a2d6e8b687b8c8089faf89b8e8e41ce64fad",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WRB",
+      "sha256": "f1d582569e608c65b0891d4bdd13b3a11359955331e21afbcf5d70f156de4572",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WSM",
+      "sha256": "ef50b230c5cef059c7304905eca45fc14e67f606c3821abd17d3f326ae0d6862",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WST",
+      "sha256": "a5e3a26311bd8a360ac2815104662a9575d8db042eec759cbed249ab894b51d4",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WTW",
+      "sha256": "8e6da2155c62e5c87452fb65f56e66ca95c90c5179a97dce1ebfdb326368a463",
+      "raw_date_rows": 6402
+    },
+    {
+      "ticker": "WY",
+      "sha256": "cf38242ee0b1e1423443df61d0f62762b9c3aa28bf2b4bf506714418c3ab6f02",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "WYNN",
+      "sha256": "aabef8c1c548225d883906635adfcb816639440edbe40016fa794665b909ad38",
+      "raw_date_rows": 6059
+    },
+    {
+      "ticker": "XEL",
+      "sha256": "793c41aaaab289886fd433b9db8ec9ff004e13b504edeb70f47cc7bb9abd8288",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "XOM",
+      "sha256": "3b220fb371d649728e411c299d5ba0aa4af36d0779dee27807ef9936b2a56041",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "XYL",
+      "sha256": "4c33fa6aee803d4289a04586796512843c4e1567b1c8aba7fb48ea6958329b10",
+      "raw_date_rows": 3801
+    },
+    {
+      "ticker": "XYZ",
+      "sha256": "69850bcab55c1e380fd04e060ab510b771cceaa573cf265795859a304d6ffc8c",
+      "raw_date_rows": 2769
+    },
+    {
+      "ticker": "YUM",
+      "sha256": "36abe156500007dac22c5db3b8fde831cdee813d64e1439ba09442db40fd7607",
+      "raw_date_rows": 7343
+    },
+    {
+      "ticker": "ZBH",
+      "sha256": "5e45a7278242dfa72c641c5d202c91960e6f317c44662230a015c16149ab42b3",
+      "raw_date_rows": 6372
+    },
+    {
+      "ticker": "ZBRA",
+      "sha256": "7b1d136d0ddc6701b27c66ec9e141d72703ec7082ac5b65aab070fe7b3937bdb",
+      "raw_date_rows": 8883
+    },
+    {
+      "ticker": "ZTS",
+      "sha256": "d12ced71a8e9377d5c8d81b1d1e3321a401c8471eecd4902345f9d03258b54ba",
+      "raw_date_rows": 3475
+    },
+    {
+      "ticker": "WTTR",
+      "sha256": "f5c62a99c7ef5a30b242ab8835886349734a3b8b5d1526254d42a31a2d589fe3",
+      "raw_date_rows": 2368
+    },
+    {
+      "ticker": "SWZ",
+      "sha256": "4a8b44aa53da672f7ed6016ea50ba8594e5ae7c92a88abf00ab8ec9acb1fa42c",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SON",
+      "sha256": "6ff2a93f26fd9fd86885bc6a2fe1d7c6292ae5795c935dc6f06839a991f24a31",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "PARR",
+      "sha256": "8dc1f3f790c1a7bbd02e78f533848eecc59db248cfa1059c2dfb5aacef00b3c1",
+      "raw_date_rows": 3576
+    },
+    {
+      "ticker": "SNOW",
+      "sha256": "e21a33d0545c076b0bbc5aca88609a46cb7496d0fc3ac23a490f7bdd0a53e62d",
+      "raw_date_rows": 1556
+    },
+    {
+      "ticker": "JFR",
+      "sha256": "6cd2f77f18a28585c7ad56075aa6cddb56150927cf7c8390ec20907101310260",
+      "raw_date_rows": 5704
+    },
+    {
+      "ticker": "NVRI",
+      "sha256": "16bf182d90039fea8323a5ff4b4dd4fd55864bc3119fcea8dcdde9d489719c04",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HIPO",
+      "sha256": "994011e722e9463234d732860a0eb0bf52541fe331b7286199933fbf1c47a7ef",
+      "raw_date_rows": 1476
+    },
+    {
+      "ticker": "PEN",
+      "sha256": "016b98bdbba84c39e9d1b6ede9e1f20cd449c637dc7f057ba63b9bba0e84a9f2",
+      "raw_date_rows": 2813
+    },
+    {
+      "ticker": "AMPY",
+      "sha256": "3b1b1d3b513163e9d5a26bad1838efbd3d420c0f5433eed7b9a70cdb44658335",
+      "raw_date_rows": 3671
+    },
+    {
+      "ticker": "RKT",
+      "sha256": "b8650904496714c0e7b6be0f1fc797f55e95ab3ce78007a5091d9a904ad8a5a1",
+      "raw_date_rows": 1584
+    },
+    {
+      "ticker": "CNI",
+      "sha256": "45ed9da0383b81686dd018b6d4c29452d52a5088018562a7fc3eea001b7c2ea6",
+      "raw_date_rows": 7546
+    },
+    {
+      "ticker": "WAL",
+      "sha256": "78ef5c74050686b9242a92ddf06a44ae84dbdd86954a72eea59f0ec80c467abb",
+      "raw_date_rows": 5384
+    },
+    {
+      "ticker": "MLI",
+      "sha256": "8de3df60a8c3aadefceb4dce27f4ebccca08f6504638426b630504d0f15611e6",
+      "raw_date_rows": 9003
+    },
+    {
+      "ticker": "WT",
+      "sha256": "c85d181a15f25ec2a2f2aa5920818b18d5275b876cacd839f22d2b2d273fe636",
+      "raw_date_rows": 8491
+    },
+    {
+      "ticker": "BMI",
+      "sha256": "38cb2c3ea51b70c995202af66caef54919938be30043c56ae08d1d08a5543cc9",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "RBRK",
+      "sha256": "bf0e586ee316e0bd8ab6d27dc398f3c3cf75517cf5c57a635ff1da4c9de4ad31",
+      "raw_date_rows": 649
+    },
+    {
+      "ticker": "NXDT",
+      "sha256": "ff3deeb9e4d9d6cf24e7c646c727773eb50c2aa0d0f0cf8789c0bcc1c2af3db3",
+      "raw_date_rows": 5137
+    },
+    {
+      "ticker": "EMN",
+      "sha256": "4fe15849317e3486159ec135dcb7ec1b6affbf8f4ee43d67d831ba23002d0292",
+      "raw_date_rows": 8293
+    },
+    {
+      "ticker": "KNTK",
+      "sha256": "a49986d6f561b5eba153777a992dfe3257acb1bf1e01bd6ffb483a8dc11c3182",
+      "raw_date_rows": 2018
+    },
+    {
+      "ticker": "XPO",
+      "sha256": "c13cf4d986d7a1bdb8eedc4178ed0629050b5ebbe7894b704674847e7abc5700",
+      "raw_date_rows": 5821
+    },
+    {
+      "ticker": "ALLY",
+      "sha256": "6dd5ebcb0f489c7a30d2dd9192dda7b48e7984d7f23923d36208e00fc3de51e8",
+      "raw_date_rows": 3227
+    },
+    {
+      "ticker": "AIN",
+      "sha256": "8516769decb88c0563ff5ad2d7c5d17c3e0bbd3930b9ff7a8095c606dd3e79da",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ANF",
+      "sha256": "b52edf647a1bf2bfb484e5744440970d89aa74ca8af1d60ad31f4022d45fe769",
+      "raw_date_rows": 7589
+    },
+    {
+      "ticker": "MLR",
+      "sha256": "ef85db2d4d5ed64a5e0273eac405d0564e3a5f03779c1f8205bcd8e675f27caf",
+      "raw_date_rows": 8134
+    },
+    {
+      "ticker": "CARS",
+      "sha256": "1cc287b871b4751e32e2fac12ab362626c5aaf294a513c822852522a7394e465",
+      "raw_date_rows": 2385
+    },
+    {
+      "ticker": "JILL",
+      "sha256": "ce0acda22cf55522d312c839605179830bc65a6865b5d859c8f0c8b5282d459c",
+      "raw_date_rows": 2443
+    },
+    {
+      "ticker": "EMBJ",
+      "sha256": "bc9841e13261c90ddb1cf1afd021f7a9e2b45bd04b12154d940fcab7f0d87023",
+      "raw_date_rows": 6626
+    },
+    {
+      "ticker": "BHR",
+      "sha256": "366c4b3b14b21d931bd2015093299550d98761979baf9c3a1c7fc86cb0bb1420",
+      "raw_date_rows": 3282
+    },
+    {
+      "ticker": "GF",
+      "sha256": "1eab93fab4784ce2d2ede3b3ba7aa3ce2e30665c806db430184220e9881ab653",
+      "raw_date_rows": 9276
+    },
+    {
+      "ticker": "IBN",
+      "sha256": "61f387faf33fd50f0553f1e46e4ea085393b14d4feb989b470694339dc0c01c8",
+      "raw_date_rows": 6706
+    },
+    {
+      "ticker": "TEI",
+      "sha256": "e46156ff3213ecd0c834e2f4c965e8e8db98bc4df6597973b00725423a60a821",
+      "raw_date_rows": 8350
+    },
+    {
+      "ticker": "FOF",
+      "sha256": "1b31b7ab4f3fe9f8c3406b24b26af8a26625ddc71a6163c42a7182553d3c7ded",
+      "raw_date_rows": 5029
+    },
+    {
+      "ticker": "JOE",
+      "sha256": "30b2306b315ffe9769cd02a52de251de9076770d8394340d5fa19bdd4aeee080",
+      "raw_date_rows": 9236
+    },
+    {
+      "ticker": "MYE",
+      "sha256": "6069a9c252d42685959042578bd84d364a0c70de9e33e3a5977c1b5212df4e81",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AUB",
+      "sha256": "99e1a293c84c9d28af0448f46040e97f164ffc64ef2621713e58095c35e5b8c5",
+      "raw_date_rows": 8341
+    },
+    {
+      "ticker": "TPC",
+      "sha256": "979f258a01ed27cc1480cf4397a35c6c2b07807711d61225e274b9589195da2f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EBF",
+      "sha256": "ae18817a1f208d76df1705011243e35dc1737f5395167a18b2e0779843f65380",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "VNT",
+      "sha256": "b62d1f3bbe03630d09ebf4c8fd2bb8882f2114fd518a3d5dfbcf23fdc0f336fe",
+      "raw_date_rows": 1550
+    },
+    {
+      "ticker": "GNL",
+      "sha256": "03e8581d7024340a1bd10364d2428dd85ca2da00c872e1b3eff0246620127599",
+      "raw_date_rows": 2889
+    },
+    {
+      "ticker": "MTDR",
+      "sha256": "e38d2e118a7d7210b789d3dbebd64cfd31550e55a7f97354d97f2c3e0013e80e",
+      "raw_date_rows": 3725
+    },
+    {
+      "ticker": "BFAM",
+      "sha256": "c80ae6642bea91f55d1a8b03eb858b6aa6655f9ea6d48b38f6ff58de18489dc1",
+      "raw_date_rows": 3480
+    },
+    {
+      "ticker": "WHG",
+      "sha256": "f9c1de066af585ad62f23dd67899231e2a1476213a718ada57185099f82fa96b",
+      "raw_date_rows": 6153
+    },
+    {
+      "ticker": "BKE",
+      "sha256": "0933fb8ee9f41fc14541ba7fcf09124627716bab641b50414fb3e49b6a4fb68a",
+      "raw_date_rows": 8698
+    },
+    {
+      "ticker": "NRT",
+      "sha256": "8fc0f2f28f308b738d70178104242234e937360b49610b311af1b006ec434793",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CTS",
+      "sha256": "de096a803af1a0a9809b9c72f44c63700a4d0620517bb0daebeacfbaa40ab8b4",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CRGY",
+      "sha256": "7dd6e0b79c40ca4d26073302c70a561936e7ccb3ce9bf6145b1e35bc0264a89d",
+      "raw_date_rows": 1246
+    },
+    {
+      "ticker": "ENVA",
+      "sha256": "ca30fce75dbb31d1436f25290ec8dbc271a61bdd17864207bbbf4e51ca9b0cd6",
+      "raw_date_rows": 3025
+    },
+    {
+      "ticker": "AMTM",
+      "sha256": "4dbbb5de66bb16a4ab617492b2408b4cf9503b1a4e776bd3f8ad771359761ff0",
+      "raw_date_rows": 545
+    },
+    {
+      "ticker": "ACR",
+      "sha256": "bdcf51bba7e425517c6720761737cb41bfee7ca914f59e2ea50edbc8bd2e85fe",
+      "raw_date_rows": 5233
+    },
+    {
+      "ticker": "CHMI",
+      "sha256": "423d47d2719e37bca646e860c13945f21f65c878116fa369caf35fb963cf0aa4",
+      "raw_date_rows": 3305
+    },
+    {
+      "ticker": "RYAN",
+      "sha256": "e2b094366f3a777510eb612b73bb5c25f584dc0da076596bd678a12ba4cb6b91",
+      "raw_date_rows": 1343
+    },
+    {
+      "ticker": "ARLO",
+      "sha256": "5b0ceceefad733fb3fedca7fcc18dc3b3c4c8bc5e78ac284a9f93214c3d89e7c",
+      "raw_date_rows": 2089
+    },
+    {
+      "ticker": "TTC",
+      "sha256": "87af10422739158f6f6cfb3c9d27e1399a3e1fefc59b56c2d3423b265ef25aaf",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "HIMS",
+      "sha256": "c378ce2b8470d3787e362dd43f948f3d91c27fcc5254756b56e665c0e26cd338",
+      "raw_date_rows": 1810
+    },
+    {
+      "ticker": "GGG",
+      "sha256": "776cf8921ad6e4a809aeda6c49702c7d6294c1f98c66033ebb9708ad5bc2da12",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NEU",
+      "sha256": "54bc0d2de519a8889d87da89a9819f15e9f17c7e22a1cebce1c426dd6f1c3b71",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EVMN",
+      "sha256": "8c21fafcdd8e9d62cba13e71dc9860df29e8fd2fca47726aa9ecb3f5ca4297b2",
+      "raw_date_rows": 264
+    },
+    {
+      "ticker": "MDU",
+      "sha256": "1099dc270ed7bb00fc1ba913af6a7428cb40afcbfcd834d4bf4aa709bf5d98d5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ING",
+      "sha256": "43188a7736aaeaf09a2e0ab362cadf12bfb03577e992b79f5579f3bae67dc5fa",
+      "raw_date_rows": 8186
+    },
+    {
+      "ticker": "NMAX",
+      "sha256": "f3ea21991a9ce4f19c7f6a2888e9bd535aee0a6c1b98fbcfc393e57fd9f8cbc9",
+      "raw_date_rows": 417
+    },
+    {
+      "ticker": "CMP",
+      "sha256": "c40809e35668aa488a543da411ca436ba9d69313b90ed33948fa8f7e277dfe59",
+      "raw_date_rows": 5774
+    },
+    {
+      "ticker": "ASIX",
+      "sha256": "9bbd6fbd6ca432f88a8f1fd2e4e1ec369d73d8e40564bbfd4ab436dee6975219",
+      "raw_date_rows": 2563
+    },
+    {
+      "ticker": "EVEX",
+      "sha256": "633d75de57ac888a81167fe34e053f2821d29a3df2178328e7e324d9e75b83d6",
+      "raw_date_rows": 1141
+    },
+    {
+      "ticker": "KNF",
+      "sha256": "8ee6030c18d7d852f8f4cb135e313f9ed3c0550a925078ffb27813167263c3c9",
+      "raw_date_rows": 872
+    },
+    {
+      "ticker": "RVT",
+      "sha256": "4c08f2974f0da2ae78570fb3ded9e4e69f12d347d211c478cb089ffd5a3e83e8",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "EQH",
+      "sha256": "ea3f622cfa42816fec12614c876f4fe07f1cf9f9db6028020da976ff7733ad3e",
+      "raw_date_rows": 2148
+    },
+    {
+      "ticker": "PCF",
+      "sha256": "1b5fe1edfb673901c1a59b30d16c5bd5df6fc491e9946327398b6b1166c347b5",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "JMKE",
+      "error": "invalid symbol, currency or history | invalid symbol, currency or history"
+    },
+    {
+      "ticker": "ESRT",
+      "sha256": "a7ad03d8409917d07e7295ad774f99a19a7511591e586e557d9e1ab2ed12af4b",
+      "raw_date_rows": 3307
+    },
+    {
+      "ticker": "AGCO",
+      "sha256": "3b2b9b831113428828df3692d7cbbf3e62fca7d2292b3716218954401055a719",
+      "raw_date_rows": 8713
+    },
+    {
+      "ticker": "EVH",
+      "sha256": "0bb9f0a80c07f0e999f5cc82fa9af2ebb8a68e9c065afcc9c54b180c154ac210",
+      "raw_date_rows": 2886
+    },
+    {
+      "ticker": "ESI",
+      "sha256": "f103bf6b2ad7b9c43f67454bb2bf6b60308729cb0b9504e8019f7ef5e0648c4d",
+      "raw_date_rows": 3293
+    },
+    {
+      "ticker": "ADIG",
+      "error": "invalid symbol, currency or history | invalid symbol, currency or history"
+    },
+    {
+      "ticker": "TIC",
+      "sha256": "c7e96e663faa39001689eac4ac015e1e239d6b74e04ecd906b1a814b9bd853a3",
+      "raw_date_rows": 446
+    },
+    {
+      "ticker": "MUR",
+      "sha256": "c6a20980d860fd438beccb520ac28117a58305c9194164bf4ba774497c1893d1",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "OSK",
+      "sha256": "b7426a3553cb52facc64dd4f8be6043fbca1a16e8b76bfc5f6b6b6c50b7f5040",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CURV",
+      "sha256": "e21fc3e341ad269de61649a97733e1380cc9be2b35530dcdd8ba428f9e5fdaeb",
+      "raw_date_rows": 1357
+    },
+    {
+      "ticker": "USA",
+      "sha256": "799e3abbb4dafc74676f01bbd98d9bca6f248706aefec56c4f0610f72f58d19a",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ANVS",
+      "sha256": "5ac0b9e5f2029198c7198b3e51c868fce20ac82f3c12c410bd894facd8a00b67",
+      "raw_date_rows": 1716
+    },
+    {
+      "ticker": "OPLN",
+      "sha256": "4f9545badaa1608840e94ad7652ebea08a75bb11799cfa47ea016ea1803b27e7",
+      "raw_date_rows": 4264
+    },
+    {
+      "ticker": "RPM",
+      "sha256": "6b2107fdbf819790ff36b6413ee91e5fa7e84dbb5a275d275b40424d79294938",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "NABL",
+      "sha256": "642c3bb5c5e8eab43beff1215d1ac7b98327ea0a5727477175d2c91ea9ff5e43",
+      "raw_date_rows": 1346
+    },
+    {
+      "ticker": "MCS",
+      "sha256": "3bd2207562ced0013484b3d6cf02eaf4f4edef7616abdad33b700926e219f368",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DTF",
+      "sha256": "303359b6a712b738fc023e21480fde2fc6528ae7d562c42ef30ef7174607dc3c",
+      "raw_date_rows": 8813
+    },
+    {
+      "ticker": "RBC",
+      "sha256": "7e426036c0694b653d1e7e16e7bee4f92ff0b98d0debef6eed564b6e8bb4ec45",
+      "raw_date_rows": 5357
+    },
+    {
+      "ticker": "CDE",
+      "sha256": "9834e7974608fecc25aead6ddf463c3a23e9c74b89a2b4c69f07cc653dc176a7",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ACHR",
+      "sha256": "d3686049491a113713f91d5f0317b847b0b9246d40871166ab7afd1cbce4093c",
+      "raw_date_rows": 1490
+    },
+    {
+      "ticker": "HUBS",
+      "sha256": "14eddfaf5cac7adfd15c55a3244135df98ade143d01802aa8674bd63064b2427",
+      "raw_date_rows": 3050
+    },
+    {
+      "ticker": "WSO",
+      "sha256": "7f6e678e18fd56917a7b2dbcc89385566c462132b3eca2eea0ea268f943ee452",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "DOCN",
+      "sha256": "6f9e8541cd1da0a2619622e919425c6b4d231caedd1dbbe854d29ee5b83b3d04",
+      "raw_date_rows": 1426
+    },
+    {
+      "ticker": "BXC",
+      "sha256": "1b36943a9daf36408ec8b3cb237c24ed6d932597fe3982fae63e2010698aed78",
+      "raw_date_rows": 5522
+    },
+    {
+      "ticker": "TY",
+      "sha256": "10837010f31d7e536130b85330b59cf5caaf70a3b1a8cfcae4cc7f625b5c5a6f",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "ASC",
+      "sha256": "d296a54543cb8abef6ff0550e79ca6ac7025b3b40cc078ca53c8c224baea001f",
+      "raw_date_rows": 3350
+    },
+    {
+      "ticker": "KEX",
+      "sha256": "ea2d937e1a93a19d3018b5b9e10e5828314a23e5801ad296f993539a4f1a1bcd",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "SPXC",
+      "sha256": "13239fe6b1eb8db7d90df9f2d25c1440a6f685b695f09045347c9b917e842995",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "CW",
+      "sha256": "67c0c267417bcafe1d0659ab35aabcee8a8bcf90c0e11207e08e6ce1352f4331",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "RIV",
+      "sha256": "67eaf1e01195a48125a4d62789f546b027bcadb4db65a5e29f7d0f12bda3c551",
+      "raw_date_rows": 2736
+    },
+    {
+      "ticker": "MPV",
+      "sha256": "cd2384d76665abe4dae90c111b96c2c0706d1d26fac7259c5d805ddf41c8d7d3",
+      "raw_date_rows": 9293
+    },
+    {
+      "ticker": "AIT",
+      "sha256": "bc039f4855256a2b1919239579fc30fdd7f33c1ee99769e16e7d92e97a5cfd2f",
+      "raw_date_rows": 9293
+    }
+  ]
+}
