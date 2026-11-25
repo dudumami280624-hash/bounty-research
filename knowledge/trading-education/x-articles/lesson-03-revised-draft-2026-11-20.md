@@ -277,7 +277,7 @@ In Lesson 04, we'll examine how multiple candles create price structure, and why
 
 The Introduction to Candlesticks page documents the hollow/filled body convention: close compared with open. The CandleVolume page documents the separate Color Prices option and its red/black comparison with the previous close. The standard OHLC structure and the limits of inferring intraperiod price sequence are also documented in Introduction to Candlesticks.
 
-**Data note:** Northstar and all prices in this lesson are fictional teaching examples, not historical market data, tested trading signals or investment recommendations.
+**Data note:** Northstar and the unnamed exercise stock use fictional teaching prices. The separately labeled S&P 500 case uses reported historical index levels; its source data and chart still require final independent verification before publication. Neither example is a tested trading signal or investment recommendation.
 
 ## Editorial QA — current status
 
