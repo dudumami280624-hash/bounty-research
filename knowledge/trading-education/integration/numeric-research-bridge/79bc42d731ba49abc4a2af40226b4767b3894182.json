@@ -1,5 +1,120 @@
 {
+  "schema_version": 2,
   "source_sha": "79bc42d731ba49abc4a2af40226b4767b3894182",
   "rows": [],
-  "status": "numeric_only_not_chart_verification"
+  "concept_locations": [
+    {
+      "location": "word/document.xml:paragraph-8",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-11",
+      "tags": [
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-17",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-20",
+      "tags": [
+        "body",
+        "shadow"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-23",
+      "tags": [
+        "doji"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-26",
+      "tags": [
+        "body",
+        "shadow"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-29",
+      "tags": [
+        "body",
+        "shadow"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-32",
+      "tags": [
+        "doji",
+        "body"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-36",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-39",
+      "tags": [
+        "doji",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-42",
+      "tags": [
+        "body",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-45",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-48",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-51",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-54",
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-57",
+      "tags": [
+        "body",
+        "shadow"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-60",
+      "tags": [
+        "shadow"
+      ]
+    }
+  ],
+  "text_blocks_read": 38,
+  "status": "numeric_and_keyword_candidates_not_semantic_verification"
 }
