@@ -12,6 +12,8 @@
 
 - [178份研究来源清单](integration/source-inventory-178-2026-11-20.md)：当前研究范围；上文98份为历史批次，不是当前总量。
 - [最新提取报告](integration/latest-extraction-report.md)：以最新报告为准，提取状态、OCR覆盖与逐页审核分别统计。
+- [当前主题检索目录](integration/research-catalog.json)：面向当前研究资料的机器关键词定位；候选页及OCR未核验标记仅用于寻找原文，不代表知识点已审核。
+- [PDF页面覆盖进度](integration/visual-page-coverage-progress.md)：区分页面覆盖、OCR成功、嵌入文字和独立图表核验。下方历史主题表仅作为补充入口，不应替代当前主题检索目录。
 - [课程发布台账](x-articles/ARTICLE-LEDGER.md)：用于课程编号和发布状态核对。
 
 ## 按知识主题融合调用
