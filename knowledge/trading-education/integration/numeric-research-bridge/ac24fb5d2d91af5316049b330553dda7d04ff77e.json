@@ -1,5 +1,131 @@
 {
+  "schema_version": 2,
   "source_sha": "ac24fb5d2d91af5316049b330553dda7d04ff77e",
   "rows": [],
-  "status": "numeric_only_not_chart_verification"
+  "concept_locations": [
+    {
+      "location": "word/document.xml:paragraph-10",
+      "tags": [
+        "doji"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-13",
+      "tags": [
+        "doji",
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-16",
+      "tags": [
+        "doji"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-19",
+      "tags": [
+        "doji",
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-22",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-25",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-28",
+      "tags": [
+        "doji",
+        "hammer",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-31",
+      "tags": [
+        "hammer",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-34",
+      "tags": [
+        "hammer"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-37",
+      "tags": [
+        "hammer",
+        "body",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-40",
+      "tags": [
+        "doji",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-43",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-46",
+      "tags": [
+        "doji",
+        "body",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-49",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-52",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-55",
+      "tags": [
+        "hammer",
+        "body",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-58",
+      "tags": [
+        "doji",
+        "hammer",
+        "trend"
+      ]
+    }
+  ],
+  "text_blocks_read": 39,
+  "status": "numeric_and_keyword_candidates_not_semantic_verification"
 }
