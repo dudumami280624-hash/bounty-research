@@ -28,7 +28,7 @@
 
 ## 实际调用路线
 1. 查方法和技术规则：打开 [知识总导航](taxonomy/knowledge-map.md) 与 [已整理的概念知识卡](concepts/)。
-2. 查某个原稿：先在[第一批](inventory/batch-001-2026-11-18.md)至[第五批](inventory/batch-005-2026-11-18.md)中定位来源，再从私有文件库提取对应压缩包中的原件。
+2. 查当前178份研究原稿：先查[178份来源清单](integration/source-inventory-178-2026-11-20.md)，按文件名和 Git blob SHA 定位 `source-files/` 中的原件。仅查历史98份私有备份时，使用[第一批](inventory/batch-001-2026-11-18.md)至[第五批](inventory/batch-005-2026-11-18.md)及对应私有压缩包。
 3. 检查重复与待审核项目：参阅[98文件交叉比对](inventory/98-file-crosscheck-2026-11-18.md)和[去重决策台账](inventory/dedup-decisions-98-2026-11-18.md)。
 
 
