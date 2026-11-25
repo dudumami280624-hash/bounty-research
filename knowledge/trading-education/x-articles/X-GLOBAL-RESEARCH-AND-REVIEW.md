@@ -22,6 +22,14 @@ Updated November 25, 2026. This extends the [existing editorial workflow](BLUEV-
 | [OpenAI Cookbook docs-editor](https://github.com/openai/openai-cookbook/blob/main/.codex/skills/docs-editor/SKILL.md) | Conservative line edit for technical accuracy, clarity, and consistency | Use its review method. Check financial claims directly against the claim record. |
 | [Vale](https://github.com/vale-cli/vale) and [Lychee](https://github.com/lycheeverse/lychee) | English style linting and Markdown/HTML link checks | Optional helpers. Passing lint or an HTTP check does not verify an assertion. |
 
+## Public X post verification
+
+Discover links through multilingual public search, then use `python3 knowledge/trading-education/tools/x_public_post.py '<public X post URL>'` from the repository root. Pass several URLs to get one JSON line per verified public post. This sends post URLs to X's official [oEmbed endpoint](https://developer.x.com/en/docs/x-for-websites/oembed-api) and returns the canonical URL, current author metadata, date label, language, and exposed post text. The tool rejects non-X URLs before making a request. Treat the text as research evidence and paraphrase it in the review. The embed gives no public interaction metrics and may expose only an Article's companion post or preview.
+
+Live smoke test on November 25: three official embeds succeeded in English, Chinese, and Turkish. Post IDs `2123731629596446721`, `2125215312878731704`, and `1887855089039147081` matched the requests. The first verifies the public text of the green-candle post, not the full text of a linked X Article. The unauthenticated official recent-search API returned HTTP 401. The older Turkish post is a writing reference outside the recent window. Keep all of these coverage distinctions in briefs.
+
+Use the public reader as a free fallback alongside last30days. For direct keyword search in the last30days engine, use a supported authorized X backend. X's official recent endpoint searches seven days, and full-archive search is a separate access tier. [X search documentation](https://docs.x.com/x-api/posts/search/introduction).
+
 ## First application — Lesson 04 editorial calibration
 
 - **Question:** Can the reader tell whether a stock reached its session high before its session low using one daily candle? The added skill is choosing when to switch from a daily chart to an intraday chart. The color-versus-daily-return distinction belongs in the recap from Lesson 03.
