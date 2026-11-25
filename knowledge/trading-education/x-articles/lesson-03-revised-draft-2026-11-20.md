@@ -8,7 +8,7 @@
 
 # A Green Candle Can Hide a Losing Day
 
-**The chart is green. Your investment is down. And both numbers can be correct.**
+**The chart is green. The stock is down from yesterday's close. And both numbers can be correct.**
 
 Imagine checking a stock chart after the closing bell.
 
@@ -117,7 +117,7 @@ A daily candle compresses a trading period into four values. That compression is
 
 The fictional examples above teach the arithmetic. Now look at a real index.
 
-On October 31, 2024, the S&P 500 opened at 5,775.34, reached a high of 5,775.34, traded as low as 5,702.86, and closed at 5,705.45. That is a long red body with almost no upper shadow. The close was also below October 30's close of 5,813.67.
+On October 31, 2024, the S&P 500 opened at 5,775.34, reached a high of 5,775.34, traded as low as 5,702.86, and closed at 5,705.45. That is a long red body with no upper shadow at the reported precision. The close was also below October 30's close of 5,813.67.
 
 On November 1, the index opened at 5,723.22 and closed at 5,728.80: a **small green candle**. It also finished slightly above October 31's close of 5,705.45. But one small green candle did not erase the preceding decline. On November 4 the index closed at 5,712.69; on November 5 it closed at 5,782.76; on November 6 it closed at 5,929.04.
 
@@ -277,7 +277,7 @@ In Lesson 04, we'll examine how multiple candles create price structure, and why
 
 The Introduction to Candlesticks page documents the hollow/filled body convention: close compared with open. The CandleVolume page documents the separate Color Prices option and its red/black comparison with the previous close. The standard OHLC structure and the limits of inferring intraperiod price sequence are also documented in Introduction to Candlesticks.
 
-**Data note:** Northstar and the unnamed exercise stock use fictional teaching prices. The separately labeled S&P 500 case uses reported historical index levels; its source data and chart still require final independent verification before publication. Neither example is a tested trading signal or investment recommendation.
+**Data note:** Northstar and the unnamed exercise stock use fictional teaching prices. The separately labeled S&P 500 case uses reported historical index levels; all quoted prices match the Yahoo Finance daily table checked 2026-11-26. October 30–31 daily OHLC also matches [StatMuse daily October data](https://www.statmuse.com/money/ask/s-and-p-500-chart-for-october-2024), and the October 31 close matches [SEC-filed pricing disclosure](https://www.sec.gov/Archives/edgar/data/1665650/000121390024094145/ea0219733-01_424b2.htm). The November prices still need a second-source check, and the chart asset requires visual inspection before publication. Neither example is a tested trading signal or investment recommendation.
 
 ## Editorial QA — current status
 
