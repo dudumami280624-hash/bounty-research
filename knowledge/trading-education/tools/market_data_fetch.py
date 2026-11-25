@@ -4,6 +4,8 @@ import csv
 import hashlib
 import io
 import json
+import math
+from datetime import date
 import re
 import urllib.request
 from pathlib import Path
@@ -26,6 +28,9 @@ def validate(raw):
     for row in rows:
         d=row[cols["date"]]
         o,h,l,c,v=[float(row[cols[k]]) for k in ("open","high","low","close","volume")]
+        if not all(math.isfinite(x) for x in (o,h,l,c,v)):
+            raise ValueError("nonfinite OHLCV "+d)
+        date.fromisoformat(d)
         if d in dates or not re.fullmatch(r"\d{4}-\d{2}-\d{2}",d) or not (0<l<=min(o,c)<=max(o,c)<=h and v>=0):
             raise ValueError("invalid or duplicate row "+d)
         dates.add(d)
