@@ -8,6 +8,9 @@ import math
 from datetime import date
 import re
 import urllib.request
+import urllib.error
+import time
+import os
 from pathlib import Path
 
 def get(url):
@@ -36,7 +39,7 @@ def validate(raw):
         dates.add(d)
     return len(rows)
 
-def fetch(symbol, output):
+def fetch_pubmarks(symbol):
     if not re.fullmatch(r"[A-Z0-9.-]+",symbol):
         raise ValueError("invalid symbol")
     path=f"data/stocks/{symbol}/ohlcv.csv"
@@ -48,10 +51,48 @@ def fetch(symbol, output):
         raw=get(f"https://media.githubusercontent.com/media/Pubmarks/datasets/main/{path}")
         if len(raw)!=int(match[2]) or hashlib.sha256(raw).hexdigest()!=match[1].decode():
             raise ValueError("LFS integrity mismatch")
-    count=validate(raw)
+    return raw
+
+_stooq_disabled = False
+_last_stooq = 0.0
+
+def fetch_stooq(symbol):
+    global _stooq_disabled, _last_stooq
+    if _stooq_disabled:
+        raise ValueError("Stooq unavailable for this batch")
+    if not re.fullmatch(r"[A-Z]+", symbol):
+        raise ValueError("Stooq symbol mapping not verified")
+    time.sleep(max(0, 2 - (time.monotonic() - _last_stooq)))
+    _last_stooq = time.monotonic()
+    try:
+        raw = get(f"https://stooq.com/q/d/l/?s={symbol.lower()}.us&i=d")
+        validate(raw)
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403, 429):
+            _stooq_disabled = True
+        raise
+    except ValueError:
+        if not raw.lstrip().lower().startswith(b"date,"):
+            _stooq_disabled = True
+        raise
+    return raw
+
+def fetch(symbol, output):
+    if not re.fullmatch(r"[A-Z0-9.-]+",symbol):
+        raise ValueError("invalid symbol")
+    source = "Pubmarks/datasets"
+    try:
+        raw = fetch_pubmarks(symbol)
+        count = validate(raw)
+    except urllib.error.HTTPError as e:
+        if e.code != 404 or os.environ.get("TMM_ALLOW_STOOQ_PERSONAL") != "1":
+            raise
+        source = "Stooq (personal research only)"
+        raw = fetch_stooq(symbol)
+        count = validate(raw)
     output.mkdir(parents=True,exist_ok=True)
     (output/f"{symbol}.csv").write_bytes(raw)
-    return {"symbol":symbol,"rows":count,"sha256":hashlib.sha256(raw).hexdigest(),"adjustment":"unverified"}
+    return {"symbol":symbol,"rows":count,"sha256":hashlib.sha256(raw).hexdigest(),"adjustment":"unverified","source":source}
 
 if __name__=="__main__":
     p=argparse.ArgumentParser()
