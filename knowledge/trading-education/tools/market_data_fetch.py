@@ -129,6 +129,9 @@ def fetch(symbol, output):
         try:
             raw, missing_years = fetch_open_archive(symbol)
             source = "securities-js/market-data (CC BY 4.0)"
+            # Missing years must not silently bridge long-horizon research windows.
+            if missing_years:
+                raise ValueError("archive incomplete; missing years: " + ",".join(map(str, missing_years)))
         except Exception as archive_error:
             if os.environ.get("TMM_ALLOW_STOOQ_PERSONAL") != "1":
                 raise ValueError("Pubmarks 404; open archive: "+str(archive_error)) from archive_error
