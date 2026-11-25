@@ -376,3 +376,22 @@ jobs:
             echo 'Failed to push progress after 3 attempts' >&2
             exit 1
           fi
+
+  market-data:
+    permissions:
+      contents: read
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: memory/the-market-mind-daily
+          persist-credentials: false
+          sparse-checkout: knowledge/trading-education/tools
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify actual public market data download
+        run: |
+          python -m py_compile knowledge/trading-education/tools/market_data_fetch.py
+          python knowledge/trading-education/tools/market_data_fetch.py AAPL ADBE TSM --output "$RUNNER_TEMP/tmm-market-data"
