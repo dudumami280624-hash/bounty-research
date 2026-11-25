@@ -94,16 +94,35 @@ def fetch(symbol, output):
     (output/f"{symbol}.csv").write_bytes(raw)
     return {"symbol":symbol,"rows":count,"sha256":hashlib.sha256(raw).hexdigest(),"adjustment":"unverified","source":source}
 
+def run_batch(symbols, output):
+    """Persist partial results and explicit retry queue, never certify missing data."""
+    output.mkdir(parents=True, exist_ok=True)
+    results, failures = [], []
+    for symbol in dict.fromkeys(symbols):
+        try:
+            result = fetch(symbol, output)
+            results.append(result)
+            print(json.dumps(result), flush=True)
+        except Exception as e:
+            failure = {"symbol": symbol, "error": str(e),
+                       "http_status": getattr(e, "code", None)}
+            failures.append(failure)
+            print(json.dumps(failure), flush=True)
+    summary = {"requested": len(results)+len(failures),
+               "successful": len(results), "failed": len(failures),
+               "status": "complete" if not failures else ("partial" if results else "failed"),
+               "results": results, "retry_queue": failures}
+    tmp = output / "batch-summary.tmp"
+    tmp.write_text(json.dumps(summary, indent=2)+"\n", encoding="utf-8")
+    tmp.replace(output / "batch-summary.json")
+    return summary
+
 if __name__=="__main__":
     p=argparse.ArgumentParser()
     p.add_argument("symbols",nargs="+")
     p.add_argument("--output",type=Path,required=True)
     args=p.parse_args()
-    failed=False
-    for symbol in dict.fromkeys(args.symbols):
-        try:
-            print(json.dumps(fetch(symbol,args.output)),flush=True)
-        except Exception as e:
-            failed=True
-            print(json.dumps({"symbol":symbol,"error":str(e)}),flush=True)
-    raise SystemExit(int(failed))
+    summary=run_batch(args.symbols,args.output)
+    print(json.dumps({k:summary[k] for k in ("requested","successful","failed","status")}),flush=True)
+    # Keep strict CI acceptance: partial downloads are useful but not complete.
+    raise SystemExit(int(summary["failed"] > 0))
