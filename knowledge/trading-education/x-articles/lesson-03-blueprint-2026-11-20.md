@@ -6,7 +6,7 @@
 - Lesson 01: Why Investors Suddenly Changed Their Minds About Losing Stocks — 区分市场观察、投资者解释、证据与决策。
 - Lesson 02: Apple's Stock Went From $499 to $129. Why Wasn't That a 74% Crash? — 拆股调整、OHLC、一根K线无法重建日内路径、Five-Line Chart Receipt。
 - Lesson 02的下一讲原始预告题：**What Can One Candlestick Really Tell You?**，要求讨论实体与影线、周围K线、成交量、以及为何一根看涨K线不等于自动买入信号。
-- 规则源：X_Creator_Academy_Complete_2026-11-20.md，Articles 8条建议：具体真实标题、封面、易读小节、适量强调、文内解释图/ALT、来源链接、结尾行动、桌面手机校对。
+- 规则源：[X_Creator_Academy_Complete_2026-11-20.md](../source-files/X_Creator_Academy_Complete_2026-11-20.md)，Articles 8条建议：具体真实标题、封面、易读小节、适量强调、文内解释图/ALT、来源链接、结尾行动、桌面手机校对。
 
 ## 题目与核心承诺
 - **Lesson 03 — What Can One Candlestick Really Tell You?**
@@ -46,7 +46,7 @@ And that's where many chart interpretations begin to go wrong.
 
 ## 事实与编辑验收门槛
 - [ ] 从178份原件挑出K线/量价/趋势相关来源，逐份实际读取相关页及图；无法读取的原件不得充当已验证引用。
-- [ ] 复核数值、开高低收约束（L<=O,C<=H）、相邻日价格及计算，所有例子明确虚构。
+- [ ] 复核数值、开高低收约束（L≤min(O,C)，max(O,C)≤H）、相邻交易日价格及计算；虚构算例明确标注虚构，真实市场案例单独标注并独立核对数据来源。
 - [ ] 核验金融概念、成交量口径及任何真实市场引用；出具来源、页/段/URL和反例。
 - [ ] 反营销审查：排除荐股、保收益、神奇信号、PDA等账户宣传。
 - [ ] 对照Lesson01/02防重复、保留知识层级；对外原创美式英语，中文仅内审核对。
