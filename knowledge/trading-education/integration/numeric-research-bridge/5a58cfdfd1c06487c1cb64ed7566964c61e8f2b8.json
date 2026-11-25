@@ -1,5 +1,168 @@
 {
+  "schema_version": 2,
   "source_sha": "5a58cfdfd1c06487c1cb64ed7566964c61e8f2b8",
   "rows": [],
-  "status": "numeric_only_not_chart_verification"
+  "concept_locations": [
+    {
+      "location": "word/document.xml:paragraph-20",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-23",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-26",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-32",
+      "tags": [
+        "doji",
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-35",
+      "tags": [
+        "body",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-38",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-41",
+      "tags": [
+        "doji",
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-44",
+      "tags": [
+        "body",
+        "shadow",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-47",
+      "tags": [
+        "doji",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-50",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-53",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-56",
+      "tags": [
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-59",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-62",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-68",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-74",
+      "tags": [
+        "body",
+        "shadow"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-77",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-80",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-83",
+      "tags": [
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-86",
+      "tags": [
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-95",
+      "tags": [
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-98",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-104",
+      "tags": [
+        "body",
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-113",
+      "tags": [
+        "trend"
+      ]
+    }
+  ],
+  "text_blocks_read": 73,
+  "status": "numeric_and_keyword_candidates_not_semantic_verification"
 }
