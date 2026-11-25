@@ -2,6 +2,8 @@
 
 Updated: 2026-11-23. Status: documented workflow; NOT an integrated BlueV API, live automation, or published post.
 
+For multilingual topic discovery, comparison with published posts, and article/thread review, use the [global X research and review workflow](X-GLOBAL-RESEARCH-AND-REVIEW.md).
+
 ## Public feature observations
 BlueV's publicly visible rewrite page at https://bluev.fun/rewrite offers: input text or URLs, multi-link synthesis, angle generation, writing style, target length, extra instructions, rewrite, image generation, and X publishing controls. These are interface observations, not evidence that logged-in features or APIs work. Do not scrape private endpoints or reuse BlueV proprietary text/code.
 
