@@ -15,7 +15,7 @@
 ## 当前课程及研究的权威入口
 - [发布台账（Lesson 01–03状态）](x-articles/ARTICLE-LEDGER.md)：区分已发布、用户提供的发布证据与未发布草稿。
 - [课程编辑规则](x-articles/PROJECT-RULES.md)：已锁定的质量与发布权限要求。
-- [统一课程与检索规范](integration/MASTER-COURRICULUM-AND-RETRIEVAL-v1.md)：模块前置顺序，不等于已审核完成的最终教学大纲。
+- [当前主题检索目录](integration/research-catalog.json)及[知识融合索引](UNIFIED-KNOWLEDGE.md)：可访问的研究入口。原统一课程与检索规范 `integration/MASTER-CURRICULUM-AND-RETRIEVAL-v1.md` 在当前分支读取返回404，暂不作为可用链接；待定位原件后恢复。上述入口不替代最终课程大纲。
 - [178份来源清单](integration/source-inventory-178-2026-11-20.md)及[最新提取报告](integration/latest-extraction-report.md)：来源登记和提取进度，不能替代逐页核验。
 - [Lesson 03 当前草稿](x-articles/lesson-03-revised-draft-2026-11-20.md)；[早期蓝图](x-articles/lesson-03-blueprint-2026-11-20.md)仅供历史参考。
 
