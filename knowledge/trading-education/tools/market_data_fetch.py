@@ -86,22 +86,58 @@ def fetch_stooq(symbol):
         raise
     return raw
 
+def fetch_open_archive(symbol):
+    """CC BY 4.0: securities-js/market-data; historical research, not live quotes."""
+    base = "https://securities-js.github.io/market-data"
+    rows = []
+    missing = []
+    for year in range(2010, date.today().year + 1):
+        try:
+            obj = json.loads(get(f"{base}/us/symbol/{symbol}/prices/{year}.json"))
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                missing.append(year)
+                continue
+            raise
+        if obj.get("symbol") != symbol or str(obj.get("year")) != str(year) or obj.get("period") != "day":
+            raise ValueError("archive identity mismatch")
+        for p in obj["prices"]:
+            if not p["date"].startswith(str(year)+"-"):
+                raise ValueError("archive date mismatch")
+            rows.append([p[k] for k in ("date","open","hi","lo","close","volume")])
+    if not rows:
+        raise ValueError("open archive has no OHLCV for "+symbol)
+    buf = io.StringIO()
+    writer = csv.writer(buf)
+    writer.writerow(["Date","Open","High","Low","Close","Volume"])
+    writer.writerows(sorted(rows))
+    raw = buf.getvalue().encode()
+    validate(raw)
+    return raw, missing
+
 def fetch(symbol, output):
     if not re.fullmatch(r"[A-Z0-9.-]+",symbol):
         raise ValueError("invalid symbol")
+    missing_years = None
     source = "Pubmarks/datasets"
     try:
         raw = fetch_pubmarks(symbol)
         count = validate(raw)
     except urllib.error.HTTPError as e:
-        if e.code != 404 or os.environ.get("TMM_ALLOW_STOOQ_PERSONAL") != "1":
+        if e.code != 404:
             raise
-        source = "Stooq (personal research only)"
-        raw = fetch_stooq(symbol)
+        try:
+            raw, missing_years = fetch_open_archive(symbol)
+            source = "securities-js/market-data (CC BY 4.0)"
+        except Exception as archive_error:
+            if os.environ.get("TMM_ALLOW_STOOQ_PERSONAL") != "1":
+                raise ValueError("Pubmarks 404; open archive: "+str(archive_error)) from archive_error
+            source = "Stooq (personal research only)"
+            raw = fetch_stooq(symbol)
         count = validate(raw)
     output.mkdir(parents=True,exist_ok=True)
     (output/f"{symbol}.csv").write_bytes(raw)
-    return {"symbol":symbol,"rows":count,"sha256":hashlib.sha256(raw).hexdigest(),"adjustment":"unverified","source":source}
+    return {"symbol":symbol,"rows":count,"sha256":hashlib.sha256(raw).hexdigest(),"adjustment":"unverified","source":source,"missing_archive_years_since_2010":missing_years}
 
 def run_batch(symbols, output):
     """Persist partial results and explicit retry queue, never certify missing data."""
