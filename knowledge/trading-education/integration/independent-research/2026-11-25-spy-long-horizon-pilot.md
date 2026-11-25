@@ -1,0 +1,6 @@
+# SPY long-horizon pilot
+Rules blob 18ca4ea97a0c7ee106aa24bbce6c295c1f181f81
+Source CSV: https://github.com/OStochastic/Daily-SPY-data-from-2000-2025/blob/main/spy_data.csv
+Executed results: {"rows":6454,"sha":"fd424789a7547730397e755c417de34caf9cedac","signals":[{"dir":1,"n":42,"correct":[17,30,24,29]},{"dir":-1,"n":64,"correct":[18,19,14,9]}],"controls":[{"dir":1,"n":828,"correct":[468,487,431,497]},{"dir":-1,"n":2837,"correct":[996,797,629,415]}]}
+Method: sorted daily rows; require prior returns C[i-1]/C[i-n]-1 all same sign for n=20,60,120. Opposite reversal direction. Body positive, body/range <= .35, dominant wick >= 2 body, opposite wick <= .15 range. Compare sign of return from next open to close at 20,60,120,250 sessions. Non-signal days with same prior trend sign are unmatched controls. Complete 250-session windows only. Overlap allowed. This is a directional pilot, not structural reversal or monthly/weekly validation. No threshold relaxation, no costs, no independent data reconciliation. Expand coverage for 200 signals; matched controls and continuous charts pending.
+Literature: Jamaloodeen et al. 2018 https://scholars.fhsu.edu/jiibr/vol5/iss1/5/ distinguishes extreme-price and closing-price reliability; not proof of long-term reversal.
