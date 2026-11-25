@@ -1,5 +1,5 @@
 # Candlestick validation register — Evidence first
-Authority: CONTINUITY-RULES.md, blob b11b2721499792a1c7c751fab96563943b9a0b86.
+Authority: CONTINUITY-RULES.md, blob 5ae0fe1d8136ede9d81011f9df521f1ae4dbc391.
 Purpose: seek truth, not confirmation of a preferred conclusion. Record all valid tests, favorable, unfavorable and inconclusive. No claim of predictive advantage without independent evidence and appropriate controls.
 
 | ID | Research question | Status |
@@ -23,4 +23,4 @@ Purpose: seek truth, not confirmation of a preferred conclusion. Record all vali
 - [Chart comparison notes](2026-11-25-hammer-shooting-star-market-comparison.md): original chart OHLC and independent vendor checks remain pending.
 
 ## Acceptance criteria
-Freeze definitions before evaluation; use 20/60/120-session prior trend and 20/60/120/250-session outcomes. Seek at least 200 distinct eligible signals, expand markets instead of weakening definitions. Record dataset provenance, adjustment policy, sample, benchmark, matched controls, uncertainty, overlap, positive and negative examples, reproducible code, chart data and limitations. Separate descriptive, predictive and economic advantages. Classify each as supported, mixed, unsupported or pending. No unsupported corrections to original materials.
+Freeze definitions before evaluation; use 20/60/120-session prior trend and 20/60/120/250-session outcomes. Seek at least 20,000 distinct eligible historical signals across instruments, markets and regimes; expand markets instead of weakening definitions. Report per-pattern counts, overlapping windows, cross-asset dependence, survivorship bias and out-of-sample results. Do not count raw bars, repeated runs or duplicate events as signals. Earlier 200-event results remain exploratory. Sample size alone does not establish validity. Record dataset provenance, adjustment policy, sample, benchmark, matched controls, uncertainty, overlap, positive and negative examples, reproducible code, chart data and limitations. Separate descriptive, predictive and economic advantages. Classify each as supported, mixed, unsupported or pending. No unsupported corrections to original materials.
