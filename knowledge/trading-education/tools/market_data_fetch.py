@@ -73,6 +73,7 @@ def fetch_stooq(symbol):
         raise ValueError("Stooq symbol mapping not verified")
     time.sleep(max(0, 2 - (time.monotonic() - _last_stooq)))
     _last_stooq = time.monotonic()
+    raw = b""
     try:
         raw = get(f"https://stooq.com/q/d/l/?s={symbol.lower()}.us&i=d")
         validate(raw)
@@ -102,12 +103,12 @@ def fetch_open_archive(symbol):
         if obj.get("symbol") != symbol or str(obj.get("year")) != str(year) or obj.get("period") != "day":
             raise ValueError("archive identity mismatch")
         for p in obj["prices"]:
-            if not p["date"].startswith(str(year)+"-"):
-                raise ValueError("archive date mismatch")
             required = ("date","open","hi","lo","close","volume")
             missing_fields = [k for k in required if k not in p or p[k] is None]
             if missing_fields:
                 raise ValueError(f"archive {symbol} {p.get('date', year)} missing OHLCV fields: {missing_fields}; cannot reconstruct candle")
+            if not isinstance(p["date"], str) or not p["date"].startswith(str(year)+"-"):
+                raise ValueError("archive date mismatch")
             rows.append([p[k] for k in required])
     if not rows:
         raise ValueError("open archive has no OHLCV for "+symbol)
