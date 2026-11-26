@@ -124,6 +124,24 @@ def fetch(symbol, output):
     if not re.fullmatch(r"[A-Z0-9.-]+",symbol):
         raise ValueError("invalid symbol")
     missing_years = None
+    # Use only verified local snapshot exports; no per-symbol HTTP request.
+    local = os.environ.get("TMM_SNAPSHOT_DIR")
+    if local:
+        folder = Path(local)
+        manifest = json.loads((folder / "snapshot-summary.json").read_text())
+        if manifest.get("sha256") != "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5":
+            raise ValueError("Unrecognized snapshot")
+        item = next((x for x in manifest["results"] if x["symbol"] == symbol and x["status"] == "structural_only"), None)
+        if item:
+            raw = (folder / (symbol+".csv")).read_bytes()
+            count = validate(raw)
+            digest = hashlib.sha256(raw).hexdigest()
+            if count != item["rows"] or digest != item.get("sha256"):
+                raise ValueError("Snapshot export integrity mismatch")
+            output.mkdir(parents=True, exist_ok=True)
+            (output / (symbol+".csv")).write_bytes(raw)
+            return {"symbol":symbol,"rows":count,"sha256":digest,"adjustment":"unverified","source":manifest["url"],"snapshot_sha256":manifest["sha256"]}
+        raise ValueError("Symbol unavailable in local snapshot; no HTTP retry")
     source = "Pubmarks/datasets"
     try:
         raw = fetch_pubmarks(symbol)
