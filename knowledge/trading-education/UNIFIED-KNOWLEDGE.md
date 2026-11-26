@@ -21,7 +21,7 @@
 |统一主题|技术课件来源|心理/历史来源|应用时如何融合|
 |---|---|---|---|
 |01 市场价格结构|[K线与趋势](taxonomy/knowledge-map.md)|心理库 CARD-001、004、005、016：缠论、Wyckoff、动量和趋势|先区分不同理论定义，再展示可比之处；不把它们当成完全等价|
-|02 趋势与选股|[网球趋势与牛股启航](concepts/trend-001-tennis-vs-launch.md)、[VCP](concepts/vcp-001-contraction-volume-pivot.md)|心理库 CARD-016：趋势与盘整框架|讨论不同的入场解释及其无法机械验证的部分|
+|02 趋势与选股|[网球趋势与牛股启航](concepts/trend-001-tennis-vs-launch.md)、[VCP来源导航](taxonomy/knowledge-map.md#查找方法)（独立VCP知识卡路径暂不可读取，原件待定位）|心理库 CARD-016：趋势与盘整框架|讨论不同的入场解释及其无法机械验证的部分|
 |03 成交量与突破|[量价关系](concepts/volume-001-price-volume-readings.md)|心理库 CARD-010：散户叙事和市场微观结构|从交易机制及叙事解释量价，不推断可证明的“主力意图”|
 |04 止损、风险和执行|[交易计划](concepts/risk-001-trade-plan.md)、[止损规则](concepts/risk-002-exits-and-stops.md)、[重新进场与心理](concepts/risk-003-reentry-and-psychology.md)|心理库 CARD-003（处置效应）、CARD-007（杠杆/强平）、《交易心理分析》书目|分别讲技术退出条件、心理偏差、杠杆约束；保留不同原稿之间的冲突|
 |05 市场周期与群体情绪|[2023课堂历史案例](taxonomy/knowledge-map.md)|[19份宏观/市场心理PDF登记](../market-psychology/README.md)、CARD-006、008、009、011–015|年代与市场必须注明，预测原文不等同于已验证事实|
