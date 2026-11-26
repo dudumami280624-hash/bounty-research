@@ -391,7 +391,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify actual public market data download
+      - name: Download pinned historical snapshot and verify digest
+        timeout-minutes: 12
         run: |
-          python -m py_compile knowledge/trading-education/tools/market_data_fetch.py
+          python -m pip install --disable-pip-version-check duckdb
+          curl --fail --location --retry 2 --connect-timeout 20 --max-time 600 'https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet' -o "$RUNNER_TEMP/prices.parquet"
+          echo "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5  $RUNNER_TEMP/prices.parquet" | sha256sum -c -
+      - name: Verify actual offline snapshot coverage (structural only)
+        run: |
+          python -m py_compile knowledge/trading-education/tools/import_market_snapshot.py
+          python knowledge/trading-education/tools/import_market_snapshot.py "$RUNNER_TEMP/prices.parquet" "$RUNNER_TEMP/tmm-snapshot" AAPL ADBE TSM MSFT IBM INTC AMD NVDA ORCL CSCO AMZN GOOGL META NFLX JPM BAC WFC GS MS C XOM CVX COP SLB WMT COST TGT HD LOW PG KO PEP MCD NKE JNJ PFE MRK ABBV UNH CAT DE GE HON BA UPS F GM DIS V MA SPY QQQ DIA IWM EFA EEM AVGO TXN QCOM MU AMAT LRCX KLAC ASML ARM ADI MCHP NXPI ON MRVL SNPS CDNS CRM NOW INTU SAP ADSK ANSS PANW CRWD FTNT ZS DDOG MDB NET PLTR SNOW SHOP UBER LYFT ABNB BKNG EXPE MAR HLT RCL CCL DAL UAL LUV AAL RTX LMT NOC GD LHX TDG ETN EMR PH ROK ITW MMM DOV CMI PCAR CSX UNP NSC FDX ODFL WM RSG VLO MPC PSX OXY EOG DVN HAL BKR KMI WMB LNG NEE DUK SO AEP EXC SRE XEL ED PEG D ATO AWK AIG ALL TRV PGR CB MET PRU AFL HIG SCHW BLK TROW SPGI MCO ICE CME CBOE USB PNC TFC COF AXP DFS SYF FITB KEY RF HBAN MTB BK STT NTRS TD RY BNS BMO CM HSBC UBS DB SAN BBVA ING AZN GSK NVS SNY BMY AMGN GILD BIIB REGN VRTX ISRG || status=$?
+          if [ -f "$RUNNER_TEMP/tmm-snapshot/snapshot-summary.json" ]; then
+            cat "$RUNNER_TEMP/tmm-snapshot/snapshot-summary.json"
+          fi
+          exit "${status:-0}"
+      - name: Verify offline batch integration
+        if: always()
+        env:
+          TMM_SNAPSHOT_DIR: ${{ runner.temp }}/tmm-snapshot
+        run: |
           python knowledge/trading-education/tools/market_data_fetch.py AAPL ADBE TSM MSFT IBM INTC AMD NVDA ORCL CSCO AMZN GOOGL META NFLX JPM BAC WFC GS MS C XOM CVX COP SLB WMT COST TGT HD LOW PG KO PEP MCD NKE JNJ PFE MRK ABBV UNH CAT DE GE HON BA UPS F GM DIS V MA SPY QQQ DIA IWM EFA EEM AVGO TXN QCOM MU AMAT LRCX KLAC ASML ARM ADI MCHP NXPI ON MRVL SNPS CDNS CRM NOW INTU SAP ADSK ANSS PANW CRWD FTNT ZS DDOG MDB NET PLTR SNOW SHOP UBER LYFT ABNB BKNG EXPE MAR HLT RCL CCL DAL UAL LUV AAL RTX LMT NOC GD LHX TDG ETN EMR PH ROK ITW MMM DOV CMI PCAR CSX UNP NSC FDX ODFL WM RSG VLO MPC PSX OXY EOG DVN HAL BKR KMI WMB LNG NEE DUK SO AEP EXC SRE XEL ED PEG D ATO AWK AIG ALL TRV PGR CB MET PRU AFL HIG SCHW BLK TROW SPGI MCO ICE CME CBOE USB PNC TFC COF AXP DFS SYF FITB KEY RF HBAN MTB BK STT NTRS TD RY BNS BMO CM HSBC UBS DB SAN BBVA ING AZN GSK NVS SNY BMY AMGN GILD BIIB REGN VRTX ISRG --output "$RUNNER_TEMP/tmm-market-data"
