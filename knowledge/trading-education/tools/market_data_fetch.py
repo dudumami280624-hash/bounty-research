@@ -104,7 +104,11 @@ def fetch_open_archive(symbol):
         for p in obj["prices"]:
             if not p["date"].startswith(str(year)+"-"):
                 raise ValueError("archive date mismatch")
-            rows.append([p[k] for k in ("date","open","hi","lo","close","volume")])
+            required = ("date","open","hi","lo","close","volume")
+            missing_fields = [k for k in required if k not in p or p[k] is None]
+            if missing_fields:
+                raise ValueError(f"archive {symbol} {p.get('date', year)} missing OHLCV fields: {missing_fields}; cannot reconstruct candle")
+            rows.append([p[k] for k in required])
     if not rows:
         raise ValueError("open archive has no OHLCV for "+symbol)
     buf = io.StringIO()
