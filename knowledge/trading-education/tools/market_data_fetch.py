@@ -151,9 +151,28 @@ def run_batch(symbols, output):
     """Persist partial results and explicit retry queue, never certify missing data."""
     output.mkdir(parents=True, exist_ok=True)
     results, failures = [], []
+    # Reuse only previously successful files with matching provenance and checksum.
+    cached = {}
+    try:
+        previous = json.loads((output / "batch-summary.json").read_text(encoding="utf-8"))
+        cached = {item["symbol"]: item for item in previous["results"] if isinstance(item, dict)}
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
     for symbol in dict.fromkeys(symbols):
         try:
-            result = fetch(symbol, output)
+            result = None
+            if re.fullmatch(r"[A-Z0-9.-]+", symbol) and symbol in cached:
+                try:
+                    item = cached[symbol]
+                    raw = (output / f"{symbol}.csv").read_bytes()
+                    if (item.get("source") and item.get("adjustment") and
+                            hashlib.sha256(raw).hexdigest() == item.get("sha256") and
+                            validate(raw) == item.get("rows")):
+                        result = item
+                except (OSError, ValueError, TypeError, KeyError):
+                    pass
+            if result is None:
+                result = fetch(symbol, output)
             results.append(result)
             print(json.dumps(result), flush=True)
         except Exception as e:
