@@ -1,0 +1,33 @@
+{
+  "schema_version": 2,
+  "source_sha": "60b26a19512c452e70aa83497e87bdd0ebdc89cc",
+  "rows": [],
+  "concept_locations": [
+    {
+      "location": "word/document.xml:paragraph-12",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-16",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-28",
+      "tags": [
+        "trend"
+      ]
+    },
+    {
+      "location": "word/document.xml:paragraph-36",
+      "tags": [
+        "trend"
+      ]
+    }
+  ],
+  "text_blocks_read": 33,
+  "status": "numeric_and_keyword_candidates_not_semantic_verification"
+}
