@@ -45,7 +45,7 @@ def main():
             raw = buf.getvalue().encode()
             count = validate(raw)
             (a.output / (symbol+".csv")).write_bytes(raw)
-            report.append(dict(symbol=symbol, rows=count, source=sources, adjustment="unverified", status="structural_only"))
+            report.append(dict(symbol=symbol, rows=count, sha256=hashlib.sha256(raw).hexdigest(), source=sources, adjustment="unverified", status="structural_only"))
         except Exception as e:
             report.append(dict(symbol=symbol, status="failed", error=str(e)))
     (a.output/"snapshot-summary.json").write_text(json.dumps(dict(url=URL,sha256=digest,results=report),indent=2))
