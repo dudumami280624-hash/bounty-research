@@ -7,10 +7,10 @@
 - Re-audit in progress (not counted complete): 0
 - Note: re-audit resets the completion flag until every page is revisited; earlier page hashes remain recorded.
 - Windows attempted this run: 22
-- Repeated failures cooling down for automatic retry: 1
+- Repeated failures cooling down for automatic retry: 0
 - Page coverage finished but OCR incomplete: 13
-- Actual OCR success pages (new evidence only): 2516
+- Actual OCR success pages (new evidence only): 2542
 - Independent RapidOCR recovered pages: 4
-- Embedded-text pages (new evidence only, not OCR): 5967
+- Embedded-text pages (new evidence only, not OCR): 6171
 - Chart semantics independently verified: 0 (not performed by this scanner)
 - Source page hashes and positions only; no copyrighted pages or OCR excerpts.
