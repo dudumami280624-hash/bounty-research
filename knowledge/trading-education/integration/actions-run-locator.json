@@ -1,9 +1,9 @@
 {
-  "run_id": "45940924692",
+  "run_id": "46016071193",
   "run_attempt": 1,
-  "workflow_commit_sha": "c0e6afd770a258628fa6befb5407268a08e644cb",
-  "run_url": "https://github.com/dudumami280624-hash/bounty-research/actions/runs/45940924692",
-  "recorded_at_utc": "2026-11-27T04:39:23.481819+00:00",
-  "verification_status": "run_locator_only_not_job_result",
-  "note": "This file proves the workflow reached this step; inspect job logs and final conclusion separately."
+  "workflow_commit_sha": "0fe5cae86e0559af9a37faef12ecca7c9a31d55a",
+  "run_url": "https://github.com/dudumami280624-hash/bounty-research/actions/runs/46016071193",
+  "recorded_at_utc": "2026-11-27T14:27:28.923824+00:00",
+  "verification_status": "early_locator_only_not_job_result",
+  "note": "Recorded before extraction; not evidence of successful OCR or passing CI."
 }
