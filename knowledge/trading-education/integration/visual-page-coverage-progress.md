@@ -9,8 +9,8 @@
 - Windows attempted this run: 22
 - Repeated failures cooling down for automatic retry: 0
 - Page coverage finished but OCR incomplete: 13
-- Actual OCR success pages (new evidence only): 2620
+- Actual OCR success pages (new evidence only): 2645
 - Independent RapidOCR recovered pages: 4
-- Embedded-text pages (new evidence only, not OCR): 6783
+- Embedded-text pages (new evidence only, not OCR): 6987
 - Chart semantics independently verified: 0 (not performed by this scanner)
 - Source page hashes and positions only; no copyrighted pages or OCR excerpts.
