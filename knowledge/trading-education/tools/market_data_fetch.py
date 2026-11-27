@@ -165,6 +165,19 @@ def fetch(symbol, output):
     (output/f"{symbol}.csv").write_bytes(raw)
     return {"symbol":symbol,"rows":count,"sha256":hashlib.sha256(raw).hexdigest(),"adjustment":"unverified","source":source,"missing_archive_years_since_2010":missing_years}
 
+def cache_policy_matches(item):
+    local = os.environ.get("TMM_SNAPSHOT_DIR")
+    if local:
+        manifest = json.loads((Path(local) / "snapshot-summary.json").read_text())
+        return (manifest.get("sha256") == "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+                and item.get("snapshot_sha256") == manifest["sha256"]
+                and item.get("source") == manifest.get("url")
+                and any(x.get("symbol") == item.get("symbol") and x.get("status") == "structural_only"
+                        and x.get("sha256") == item.get("sha256") and x.get("rows") == item.get("rows")
+                        for x in manifest["results"]))
+    return not item.get("snapshot_sha256") and (item.get("source") != "Stooq (personal research only)"
+                or os.environ.get("TMM_ALLOW_STOOQ_PERSONAL") == "1")
+
 def run_batch(symbols, output):
     """Persist partial results and explicit retry queue, never certify missing data."""
     output.mkdir(parents=True, exist_ok=True)
@@ -184,6 +197,7 @@ def run_batch(symbols, output):
                     item = cached[symbol]
                     raw = (output / f"{symbol}.csv").read_bytes()
                     if (item.get("source") and item.get("adjustment") and
+                            cache_policy_matches(item) and
                             hashlib.sha256(raw).hexdigest() == item.get("sha256") and
                             validate(raw) == item.get("rows")):
                         result = item
