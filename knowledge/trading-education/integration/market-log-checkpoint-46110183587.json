@@ -1,0 +1,1202 @@
+{
+  "run_id": 46110183587,
+  "job_id": 140871743572,
+  "source": "GitHub Actions log",
+  "status": "structural candidates only; no data bytes or adjustment verification",
+  "successful": [
+    {
+      "symbol": "AMZN",
+      "rows": 7412,
+      "sha256": "87ac5f3e6c7270644e8f35e648bc567298a4665d003f5623a2b4f5352bfd2bb2",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "GOOGL",
+      "rows": 5586,
+      "sha256": "3b93e26e8abe9e7439ccef201905ea8aa762436c2dffa63b4e0ca49ac7918241",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "META",
+      "rows": 3634,
+      "sha256": "67fdad63981f3a4776d2ec4a3a19e51ef1b7263341d60a8936a9aeaa6412ec3a",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "NFLX",
+      "rows": 6150,
+      "sha256": "9fc2fa68f730f37165406c3b8ee1b643c8f4fa98ad317a8bffe64f3601102ae2",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "GS",
+      "rows": 6917,
+      "sha256": "29a797fd9cea26d159e20609ce1e014611d75102527556f0cae029cfc2233d89",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ABBV",
+      "rows": 3479,
+      "sha256": "ae6e7414aad51906c2520781ea3fd949c5c9db5dd034a99658973855d85d3f9a",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "GM",
+      "rows": 4011,
+      "sha256": "e940b5e0257ee3903ad3ce6c31a914c8e962e40831718ca3973cf85d41d859f4",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "V",
+      "rows": 4685,
+      "sha256": "b03326f616fcafa747d10131e0e2220aaec5dc1994e1b1d161ca31dd61a33f9d",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "MA",
+      "rows": 5141,
+      "sha256": "7ce92c61168766b0ef43ca834d779727244935d2c346fbfcec33e0185d5bb0ee",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "SPY",
+      "rows": 7759,
+      "sha256": "90a3c501a21005066f7a3240768a927d3cd62ab0194e95d2e2fa8bbcf5682dfd",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "QQQ",
+      "rows": 6955,
+      "sha256": "667909b8a6f63f3d6d6c6838615719a988062f80ecfd52e34c722fcf455ff6d4",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "DIA",
+      "rows": 7241,
+      "sha256": "fc5caccae756081415fea6601c639d4f1bb0a817e3f2f813a1008ad6a3f9f5f3",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "IWM",
+      "rows": 6647,
+      "sha256": "d184d5c41a336a2f3e9637cf5eba73d8bfe80eeac6b5f8512efa9d2cb1ac530a",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "EFA",
+      "rows": 6332,
+      "sha256": "268217c1e0f612c67fef81607b1f80c4170ef36e52b2ca331cc70c05f951fc1e",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "EEM",
+      "rows": 5926,
+      "sha256": "aa952161d716de59dd7083acf6272bdf5d1b4dd63d7fb52f217b6b5d9b9f1776",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "AVGO",
+      "rows": 4336,
+      "sha256": "a213f209262fbd34d3f03e8416f336eb13f75ec45e27f81ebd2c4d35b7bc987a",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "LRCX",
+      "rows": 7759,
+      "sha256": "163d990e96b4b9bbb33f66815bd74af0bbde5d7864f7fc06da40736aff343618",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "MCHP",
+      "rows": 7759,
+      "sha256": "a6ce67b90bdc02beb354f1edc08ca45be861675c8937cc68a57fe9490e22b060",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "NXPI",
+      "rows": 4084,
+      "sha256": "0ccca447bfb36f9d25545e97be30f4a5fa1266f4a231400c1a74e3d1eab873ef",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ON",
+      "rows": 6665,
+      "sha256": "f622c4a5fb385346835d16d8644a970ea33d996c0933e057e89a20adce5b09e4",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "MRVL",
+      "rows": 6623,
+      "sha256": "f1e7f5488c4275bb7939f2eae0b00403d6f7441a358922ad1d280fc267a705d7",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "SNPS",
+      "rows": 7759,
+      "sha256": "df6ef3e22f60e3ab64f9242c312944e617a7882fe5118b556a99fb8dcd4402c8",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "CDNS",
+      "rows": 7759,
+      "sha256": "37f74529ba756016d5a0d39b0a0a006d2f306be2d97a61a55c19824408745ac1",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "CRM",
+      "rows": 5626,
+      "sha256": "3724b773d9175c1c71435a081a9e3487b14eb0ace0c142e9df55532e5aa060fa",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "NOW",
+      "rows": 3605,
+      "sha256": "f91f17d669f7ff8ce924ec7c1f67c61deb608576d845deb85a26a0ab45b0f2a9",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ANSS",
+      "rows": 7312,
+      "sha256": "3a36c2a93bb0ab0f5fcc620129ae1321678b9e1c6b70637389d4ff9ed7a1a484",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "PANW",
+      "rows": 3591,
+      "sha256": "6be85e5dafde2ec7a5f3a36a0f3ab210725cbdf5e8cc061dfd8f1fbdee9b6107",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "CRWD",
+      "rows": 1858,
+      "sha256": "a7431246a5b2769c3a25d191e10ea9ce4740f882d7c800f054151daf9fb03757",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "FTNT",
+      "rows": 4263,
+      "sha256": "5ca1142060759bf472c0acabc961a9cdce5ef1e8f466be1c78740bec3fbb51e4",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "DDOG",
+      "rows": 1789,
+      "sha256": "82420af93b6a746dd7356b66e3b2fa1e54368653200c39442b94716cb95db1a4",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "PLTR",
+      "rows": 1529,
+      "sha256": "0093c2125595825c22d45c40ba051006a5219ae1aaa67682ae28f6191af4ac5c",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "UBER",
+      "rows": 1880,
+      "sha256": "43f45e06ce94c34f325c7d5143959efc11ada5e91dc1bb0d2efac7122a6627b5",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ABNB",
+      "rows": 1479,
+      "sha256": "930560a8f3d9af56ec819298de41044d83cf3a9fc5beaa9a26cbe1946a7a5ae3",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "BKNG",
+      "rows": 6940,
+      "sha256": "6c8e0f0ec5ea2f195665ff316dc2108b6afd4b9a28798eea03a3b9a64a9b2608",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "EXPE",
+      "rows": 5354,
+      "sha256": "ee6e070e4b5ccca987ce0e8d84bb38ee83d4181a00d6e67cf5cd3f2e669f6998",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "HLT",
+      "rows": 3240,
+      "sha256": "fb4fc0449ec76677af2d7589116c6408a58ade8829bca26eaf29d81f8261222b",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "RCL",
+      "rows": 7759,
+      "sha256": "ba817b6aec36550f0786a957e71a8763d643a233b0ac6a52a2fecb723a038d3a",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "DAL",
+      "rows": 4906,
+      "sha256": "4ec33be182f355c46630daad074b5ccc4fa6eb301f97372ec2b7984746be4f55",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "UAL",
+      "rows": 5217,
+      "sha256": "60e1b1a0fc9e2cccebd0dfd3b0fef503d4499436741cba6eaffc6d9ca625fab6",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "AAL",
+      "rows": 5307,
+      "sha256": "29f7751478cc4b5209feae3c66383ce24e25d2e396cb139078c348525d099326",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "LHX",
+      "rows": 7759,
+      "sha256": "bdc7d3d4f6b410feddfdadce688c1257fcfdfa7409507f5aff3ddda384abe862",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "TDG",
+      "rows": 5191,
+      "sha256": "0b47854fbcc1da0e8d0d4ecef086687939b267e3f030144d2600fb6217abce98",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ODFL",
+      "rows": 7525,
+      "sha256": "040b11f44b9c31d99be7957e4fdbbf308ef277d8f7cb60b82e1b46ce45f57d79",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "RSG",
+      "rows": 7128,
+      "sha256": "db56219e70135949ffea1ba55b5c575f5fc29d984f17ed51b7ab9ff2c30fd0da",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "VLO",
+      "rows": 7759,
+      "sha256": "9f739670645237386aa369115a1faa93cf1f8de7d6c70544236955fef2b9b52f",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "MPC",
+      "rows": 3861,
+      "sha256": "480e99660350643f3cce484106353ed1c4152bbad02a9d0e674af4f917ddb8d8",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "PSX",
+      "rows": 3660,
+      "sha256": "c67f1ae7ceac5c2b39527c9514af12d52d62d047d6c5b20bf67bb868e243104f",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "KMI",
+      "rows": 3953,
+      "sha256": "6ceb297166ce3934db0f1c05d4fad5ee228df3c17eda60aa89679d147a901e96",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ATO",
+      "rows": 7759,
+      "sha256": "86f5c245a1a940734108bdb7638b12211f329baee3e2ee7dd4b562ed05474a7c",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "AWK",
+      "rows": 4661,
+      "sha256": "f1883a719b465866020349b10d04f7e4dbdef64d49aee391a7c9e8c696b47447",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "MET",
+      "rows": 6683,
+      "sha256": "a9b779d1149172634bef7b3c659dac40cd49f575907cbd6aa31e152a17c34bdb",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "PRU",
+      "rows": 6260,
+      "sha256": "5e4062ab60f73202a3ec90d5300a4159240a4a6dcf7f670808d9d1f608737983",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "BLK",
+      "rows": 6812,
+      "sha256": "f36412dbd8d96aae62df868bded982966d675f353ae602fbc88bb7e3af5e942f",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "TROW",
+      "rows": 7759,
+      "sha256": "41a286722595a5b1c066a25e8a81c3d1aa26a982d1ce367312116bff1505a037",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ICE",
+      "rows": 5271,
+      "sha256": "4deb6c2b7756fde8de12dc4cb2f53b9f119ea73f4036c654fc3c99dd37dd0921",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "CME",
+      "rows": 6013,
+      "sha256": "ffbfdcdcb3f354dba422467fd4f0f23db9d41fbde2be22b8b4def9b2a8dabe60",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "CBOE",
+      "rows": 4121,
+      "sha256": "3e3072344e9b1f669d9253619d775a25fb5fe02ecf1b396e574808de01aad60c",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "SYF",
+      "rows": 3082,
+      "sha256": "58fc7551f3b2f1a2f66f958d72f1f193b003bf4f1161817f32cc57a082fe7f90",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "RF",
+      "rows": 7759,
+      "sha256": "7bfa81c5773bc3e5ef81bc1a779a84dd7098f1e9405e6f4dbe0c6af5e9a03322",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "GILD",
+      "rows": 7755,
+      "sha256": "1dc9f1a04d9e948eb42f958587e080af1bc8288a9053676c54e56807dc0e3dd2",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "BIIB",
+      "rows": 7757,
+      "sha256": "a0b752ef0c12d6303198d13838faad281f2ca53560cc2ffbafe5d2f7de007b95",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "REGN",
+      "rows": 7759,
+      "sha256": "c5dab284207dbaf46913ab559c85da4a7cd9724357b3a0c6ffb756fc30e4d844",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "VRTX",
+      "rows": 7758,
+      "sha256": "204e45cd1844ab5764b9e36e8faa4ac241f03102f4a572bf7274c8a06ef99053",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    },
+    {
+      "symbol": "ISRG",
+      "rows": 6633,
+      "sha256": "6e98745de68a2dcb4a3ee602745466f9104d3403f5f31d5b283bd50441d2d4ec",
+      "adjustment": "unverified",
+      "source": "https://github.com/Johnbrick123/sp500-data/releases/download/snapshot-2026-11/prices.parquet",
+      "snapshot_sha256": "7b58eeafc855a502469fc5090eb703f76516172deebe13d51609fd6eb2c5f3f5"
+    }
+  ],
+  "failed": [
+    {
+      "symbol": "AAPL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ADBE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "TSM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MSFT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "IBM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "INTC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AMD",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NVDA",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ORCL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CSCO",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "JPM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BAC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "WFC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "C",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "XOM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CVX",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "COP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SLB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "WMT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "COST",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "TGT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "HD",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "LOW",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PG",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "KO",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PEP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MCD",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NKE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "JNJ",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PFE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MRK",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "UNH",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CAT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "GE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "HON",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BA",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "UPS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "F",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DIS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "TXN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "QCOM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MU",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AMAT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "KLAC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ASML",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ARM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ADI",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "INTU",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SAP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ADSK",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ZS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MDB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NET",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SNOW",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SHOP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "LYFT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MAR",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CCL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "LUV",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "RTX",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "LMT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NOC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "GD",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ETN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "EMR",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PH",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ROK",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ITW",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MMM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DOV",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CMI",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PCAR",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CSX",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "UNP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NSC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "FDX",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "WM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "OXY",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "EOG",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DVN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "HAL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BKR",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "WMB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "LNG",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NEE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DUK",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SO",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AEP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "EXC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SRE",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "XEL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ED",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PEG",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "D",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AIG",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ALL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "TRV",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PGR",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AFL",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "HIG",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SCHW",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SPGI",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MCO",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "USB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "PNC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "TFC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "COF",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AXP",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DFS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "FITB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "KEY",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "HBAN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "MTB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BK",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "STT",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NTRS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "TD",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "RY",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BNS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BMO",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "CM",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "HSBC",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "UBS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "DB",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SAN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BBVA",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "ING",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AZN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "GSK",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "NVS",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "SNY",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "BMY",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    },
+    {
+      "symbol": "AMGN",
+      "error": "Symbol unavailable in local snapshot; no HTTP retry",
+      "http_status": null
+    }
+  ]
+}
